@@ -12578,544 +12578,540 @@ section "mod-tome/data/lore/elvala.lua"
 
 t("spellblaze", "brûlure magique", "newLore category")
 t("The Spellblaze Chronicles(1): A Fateful Meeting", "Les Chroniques de la Brûlure Magique (1) : Une Rencontre Fatidique", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter One: A Fateful Meeting#{normal}#
+
+This tale begins in the Age of Allure, when I was yet young, and the idea of youth and age was still a pressure on our people.  It is one tale amongst a host of tales, for many are the stories of tragedy and heroism that befell all the races in this era.  I can only give my story, my tragedies, and my follies dressed as heroism, woven around the great force that shook our world and changed our histories: The Spellblaze.
+
+I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
+
+With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
+
+Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
+
+I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
+
+King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
+
+“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
+
+Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
+
+She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
+
+“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
+
+Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
+
+Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
+
+“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
+
+“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
+
+Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
+
+Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
+
+“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
+
+The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
+
+Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
+
+The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
+
+Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
+
+#{bold}#Chapitre Un : Une rencontre fatidique#{normal}#
+
+Ce récit commence à l'Ère de la Séduction, alors que j'étais encore jeune, et que l'idée même de jeunesse et de vieillesse pesait encore sur notre peuple.  Ce n'est là qu'un récit parmi une multitude d'autres, car nombreuses sont les histoires de tragédie et d'héroïsme qui frappèrent toutes les races en cette époque.  Je ne puis offrir que mon histoire, mes tragédies et mes folies parées des habits de l'héroïsme, tissées autour de la grande force qui secoua notre monde et bouleversa nos annales : la Brûlure Magique.
+
+Je rencontrai Linaniil pour la première fois lors d'un sommet du conseil, quand notre chef Ephinias s'entretenait avec le maître des Kar'Krul.  Je me souviens de cet homme immense franchissant les portes de notre cité, notre peuple dévisageant sa large carrure et ses cheveux hirsutes, ses vêtements de fourrure et sa démarche fière.  Comme il paraissait déplacé parmi nous, frêles elfes...  Certains le prenaient pour un barbare, mais je devinais, derrière ses yeux glacés, une grande puissance.  Il était issu d'une race d'hommes robustes qui, jadis, habitait le nord d'Eyal, et l'on disait qu'ils puisaient leur force dans les feux verts qui dansaient dans leurs cieux d'hiver éternel.  Il se nommait Turthel, et nul semblable à lui n'a foulé terre ou neige depuis bien des siècles.  À sa main droite, il portait l'Anneau de Kar'Krul, un anneau d'or lustré orné d'un rubis flamboyant, symbole de sa position de chef de la plus grande union de mages humains de Maj'Eyal.
+
+Avec lui marchaient ses filles jumelles, Linaniil et Neira, qui le précédaient.  Identiques de visage, elles étaient pourtant, je le vis aussitôt, opposées de caractère.  Toutes deux avaient une chevelure pourpre, portée longue en tresses ruisselantes, et une peau pâle qui brillait au soleil.  Elles étaient vêtues de robes de soie, mais tandis que Neira arborait le jaune et l'orange, Linaniil portait le bleu et l'argent.  Neira avait le regard vif et la voix joyeuse, commentant chaque merveille croisée tandis qu'elles traversaient les cours d'Elvala.  Linaniil, elle, se tenait silencieuse, le visage sévère, analysant et calculant froidement tout ce qu'elle voyait.  Mais sous cette apparence de glace, je devinais un feu — que dis-je, un brasier, une passion ardente qui aspirait à jaillir, quoique retenue.  Un instant, nos regards se croisèrent comme le cortège approchait de la citadelle, et je vis mis à nu son esprit indompté et ses pensées sans bride, une volonté et une force d'âme parfaitement inconquérables.  Cela me coupa le souffle.
+
+Peu de mes semblables ont jamais compris comment l'un des nôtres pouvait s'enticher d'une humaine.  Mais ils n'ont point connu Linaniil.  Pas comme je l'ai connue.  Elle est comme le feu brut fait chair, une boule ardente d'émotions et de désirs.  Son esprit fervent ne souffre nulle opposition, et son esprit vif comme ses mots charment ou contraignent tous ceux qui l'entourent.  Belle et radieuse est sa forme, aussi éclatante que le soleil d'été, et pourtant froide et distante, inaccessible à moins qu'elle ne veuille être atteinte.  En toutes ces années, cela n'a jamais changé chez elle.
+
+C'est à peine si je remarquai Neira me saluant chaleureusement en franchissant le porche.  Linaniil, elle, ne m'accorda qu'un bref hochement de tête.  Je les suivis, tandis que notre chef et ses invités pénétraient dans la grande salle et prenaient place.  Le sommet devait porter sur la planification d'une nouvelle entreprise, un grand œuvre de nos plus éminents mages visant à exploiter la puissance des portails lointains Sher'Tul.  Longtemps les reliques de cette race ancienne étaient demeurées dormantes sous le sol, leurs pouvoirs intacts.  En libérant cette force redoutable, nous pourrions mettre fin à la guerre contre les orcs promptement et de façon décisive.  La Brûlure Magique, l'appelait-on, et c'était un nom que nous prononcions avec crainte et révérence.
+
+Le roi Ephinias ouvrit la séance, présentant nos hôtes puis ceux qui l'entouraient.  « Voici mon général », dit-il en me désignant, « le commandant Gawaeil, des Armées shaloréennes. »  Aussitôt, Linaniil me dévisagea, bouche bée.
+
+« Quoi ? » s'exclama-t-elle, fixant mon armure et mon baudrier.  Elle se détourna de nous, semblant ne guère se soucier de ses hôtes distingués.  « Père, que signifie ceci ? » dit-elle à l'homme robuste.  « Vous m'aviez conté que les Shaloréens possédaient les plus puissants mages de guerre, et voilà que leur général est cuirassé d'acier et ceint d'épée.  Un simple guerrier commanderait-il donc des experts en l'Art ? »
+
+Ephinias parut outré, mais je me mis soudain à rire, tant de son extrême impertinence que de ses folles présomptions.  « Un simple guerrier ? » dis-je entre deux éclats incrédules.  « Ma dame, vous feriez bien de ne pas juger ainsi sur les apparences.  Car si je vois juste, ce n'est nulle impudente donzelle qui se tient devant moi, mais une grande maîtresse des flammes et des embrasements, une tisseuse de fils à la volonté plus ferme encore que son père au sang froid.  Mais ne vous présumez point meilleure ouvrière de l'Art que moi !  Car je suis Aranion Gawaeil, maître de la Lame Arcanique, canaliseur de puissantes forces élémentaires.  Les sorts que ma lame libère ont tué plus d'orcs que vous n'en verrez dans votre courte vie, ou n'en verrez jamais. »
+
+Elle me regarda alors avec un intérêt soudain.  « Voilà qui semble une étrange technique.  Bien ridicule quand on peut simplement brûler ses ennemis de loin.  Quoique, peut-être, si nous chassions l'orc ensemble un jour, verrais-je par moi-même.  Mais vous seriez bien en peine de me surpasser sur le champ de bataille. »
+
+« Je m'efforcerai de vous impressionner, ma dame », dis-je avec une révérence moqueuse.  Un mince sourire effleura ses lèvres.
+
+Turthel grogna et tourna sa tête hirsute vers le roi.  « Aux affaires », dit-il, de cette manière brusque et laconique qu'on lui prêtait déjà.
+
+Ephinias s'éclaircit la gorge et se cala dans son fauteuil.  « Un grand dessein s'offre à nous », commença-t-il.  « Depuis nombre d'années, nous sommes accablés par les attaques des orcs.  Affaiblis d'abord par les Guerres de la Séduction, mais à présent que nous recouvrons nos forces, il est temps de mettre à bas notre ennemi commun.  Trop souvent ils ont menacé de tous nous submerger, de détruire la civilisation à jamais.  Nous avons tous beaucoup perdu.  Turthel, je compatis sincèrement à votre perte personnelle. »  L'homme vêtu de fourrure ne changea point d'expression, mais je vis ses filles baisser la tête, pensives et graves.
+
+« J'ai dirigé nos archimages dans une expérience sur le portail lointain Sher'Tul situé à l'est d'ici.  Nous croyons pouvoir évoquer les grands pouvoirs qui y sont scellés afin de créer une onde d'énergie destructrice que nous pourrions diriger contre les armées orques.  Si toutes les races coopèrent pour attirer les forces orques hors de leurs repaires, nous pourrons mettre fin à cette guerre en une frappe unique et foudroyante.  Les orcs en seraient décimés au-delà de tout relèvement, et Eyal serait purgé de leur présence.
+
+« J'ai approché les chefs des autres races.  Les Halfelins nous soutiennent pleinement.  Les régents Nargols nous ont même fourni certaines de leurs recherches historiques sur les ruines Sher'Tul. »
+
+Turthel jura alors soudainement.  « Des recherches menées sur des esclaves humains ! » aboya-t-il.  Puis il se tut, laissant son emportement retomber.  « Qu'en est-il de vos cousins des mers et des forêts ? »
+
+Ephinias le regarda froidement dans les yeux.  « Les Nalore sont orgueilleux et ne souhaitent point coopérer.  Ils pensent pouvoir protéger seuls leurs terres.  Pourtant je crois qu'ils nous en remercieront, en fin de compte...  Les Thaloréens ne sont pas non plus tout à fait enthousiastes.  Mais nous nous sommes entretenus avec leur roi et leur reine, et leur avons donné de fermes assurances quant à la sûreté de nos opérations.  Ils ne nous font pas pleinement confiance, ni à notre maîtrise de l'arcane, mais sur ce point ils ne s'opposeront pas à nous.  Shatur est aussi las que nous tous des attaques orques à ses frontières.  Ils apporteront leur aide où cela leur conviendra, tant qu'ils chevauchent sous leurs propres bannières.  Nous n'avons pas particulièrement besoin d'eux, bien sûr, mais il nous a semblé prudent d'impliquer qui nous pouvions.
+
+« Les autres chefs humains ont, pour la plupart, donné leur assentiment.  Certains ont exprimé des craintes tout à fait irrationnelles quant à nos activités.  Hélas, légendes et mythes abondent encore pour détourner les gens de tout ce qui touche aux Sher'Tul.  Mais nous sommes confiants de savoir ce que nous faisons ici.  L'élite Kar'Krul saura, j'en suis certain, comprendre.  Et votre alliance vaut bien une douzaine de rois mineurs. »
+
+L'homme robuste plongea longuement son regard dur dans celui d'Ephinias, avant de se tourner vers ses filles.  « Qu'en pensez-vous, mes filles ? »
+
+Neira fut la première à répondre, les joues colorées et la voix chargée d'émotion.  « Je juge ce roi shaloréen distant et orgueilleux.  Il parle de sympathie tout en usant du souvenir de notre mère comme d'un outil.  Il proclame la compréhension, mais comment quiconque pourrait-il vraiment saisir la subtilité de ces reliques Sher'Tul ?  Intouchées depuis des millénaires, leur puissance originelle demeure inconnue.  Quel orgueil vous fait croire que vous pouvez désormais en jouer ?  C'est folie que d'employer une arme dont on ignore le maniement. »
+
+La salle se tut, et je vis qu'Ephinias bouillait en silence.  Il n'était guère accoutumé à pareille critique ouverte.  Puis Linaniil prit la parole, sa voix basse et posée, et pourtant chacun suspendait son attention à ses mots.  « Nombreuses furent, au fil des ans, les œuvres nées de l'orgueil qui s'élevèrent dans la splendeur.  D'où viennent nos grandes œuvres d'art, nos cités magnifiques, ou les tissages arcaniques qui façonnent nos sociétés ?  Nulle humilité ne se trouve dans leur confection.  Il n'y a nulle honte à agir par orgueil, et nous ne gagnons rien d'une modestie mal placée.  Trop longtemps les pouvoirs des Sher'Tul sont demeurés inexploités par des cœurs craintifs et timorés. »  Je vis alors ses yeux s'illuminer d'excitation.  « Songez aux gloires que nous pourrions déverrouiller !  Cette guerre contre les orcs n'en serait que le commencement.  Un grand bénéfice pourrait en découler pour nous tous.  Laisser ces pouvoirs ensevelis serait un crime, vous dis-je. »
+
+Turthel marqua un temps, songeur, avant de hocher lentement la tête ; il était clair que les mots de Linaniil s'accordaient mieux à ses propres pensées.  « Fort bien », annonça-t-il lentement, le regard planté dans celui d'Ephinias.  « Nous sommes avec vous. »  Neira demeura silencieuse, l'inquiétude la rongeant, mais un éclat de satisfaction traversa le regard de sa sœur.]], "_t")
 t("The Spellblaze Chronicles(2): A Night to Remember", "Les Chroniques de la Brûlure Magique (2) : Une Nuit Inoubliable", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Two: A Night to Remember#{normal}#
+
+It was three nights later I awoke in darkness from a troubled dream to find my window open, the silk drapes billowing in the breeze.  As my eyes adjusted to the light I saw Linaniil stood at the foot of my bed, a thin azure dress clinging to her skin in the chill night air.  Around her was a cashmere belt inset with opals and woven with pale runes, and gold jewellery adorned her neck and wrists.  A long staff rested lightly in her hands, rubies glistening in its decorated top.  Her red hair stirred in the wind as she gazed at me.
+ 
+“What are you doing here?” I enquired.  I did not bother asking how she managed to sneak into my bedchamber, past many guards.  I knew that no less than a council member would be able to divine her presence when she put her mind to illusion.
+ 
+She looked at me slowly for a moment, before turning her eyes to the rest of the room, analysing my personal space in detail.  “There be a band of orcs marauding in the north,” she said in a distracted tone.  She picked an ornamental dagger from a shelf and looked it over as she spoke.  “They look like to cause trouble for some outlying elven settlements.”
+ 
+“I will summon a raiding party at once,” I said, rising quickly from my bed, unheeding of modesty.
+ 
+“Oh, how boring!” she complained, putting the dagger down and spinning to face me.  “What of the promise ye made to hunt orc together?”
+ 
+“What, just the two of us?”
+ 
+“Aye,” she said, looking my unclad form up and down with a slow gaze, seeming to take delight in the sight.  “Or are ye not man enough?”
+ 
+“A strange question to ask of an elf, my lady.  But I can take this band of orcs myself, I am sure.  If you wish to tag along then I cannot promise to keep you safe.”
+ 
+She laughed then, and the sound was like ringing crystal.  “Very well then!  Get ye your steel stick and we shall see who holds their own best.”  I agreed with a smile, and went to my armoury and shoved on metal greaves and a chain hauberk, my breastplate and steel gauntlets.  Linaniil tutted in surly impatience.  “Must ye wear that tin suit?”
+ 
+“It is my battle gear,” said I, pulling on my visored helm and wrapping a thick cloak round my shoulders.
+ 
+“Ye look like a golem,” she muttered, visibly annoyed.  “Come then, I grow bored.”  She leapt out the window, taking to the air with grace, flying away into the night.
+ 
+I took then my greatsword from its hanging.  It was a simple looking blade, adorned only with a heavy moonstone on its pommel.  But its looks belied its power, for it was forged by the dwarves in their early years, before vanity overcame their works and their weapons became more for show than for battle.  It had an edge that clove through steel and bone with ease, without ever dulling the blade.  Mooncutter it is called, though it is lost to me now.  I gave it a swing through the air before leaping out the window myself, conjuring a cushion of air beneath me and following swiftly after Linaniil.
+ 
+With rapid pace we flew through the scattered clouds in silence for twenty minutes before Linaniil began to descend.  I could see nestled between some low hills were the flames of campfires, and as we came closer the sound of orcish chanting became clear.  “How shall we approach them?” I called out, wondering what tactics the sorceress would want to employ.
+ 
+“Directly,” she said, and with that she made a sudden burst of speed, coming right above the orcish camp and descending in their midst.  With a curse I sped after her, landing by her side and drawing Mooncutter as the orcs rose in fury and alarm, grabbing up their weapons.  As a ring of dark swords and spears and halberds gathered round us Linaniil turned to me with a wild smile.  “Time to dance.”
+ 
+She shot forth a ray of purple arcane energy from her right hand, whilst her left held up her staff, its tip blazing like a torch.  Flames leapt up in tandem from my own blade as I rose it high, and swept it before me in a wide arc, cutting down the nearest brute and sending a shocking wave of fire into the troops behind it.  I pressed forward, forcing back the orcs before me with a roaring hot wind.  Their weapons dropped from their hands as they reached up to cover their faces, and with a grin of satisfaction I rushed to hew their heads off.  But as I swung my blade I was knocked to the ground from behind by a blast of fire, and turning about I saw Linaniil standing in a pillar of flame, her arms outstretched as it expanded around her.  “Too hot for ye, Aranion?” she called out as the orcs nearby were fried to a crisp, their flesh withering into black dust.
+ 
+I grunted, and turned my blade into ice, and with deft sword strokes sent streams of freezing cold into the orcs around her, so that they shattered like glass before the fire ever hit them.  Linaniil cursed my name as she dropped the flames from about her.  “Don’t ruin my fun!” she exclaimed, before teleporting to the other side of the camp and beginning to blast the orcs there.
+
+I laughed and turned on the beasts nearest me, and brought tumults to the earth with each swing, so that they lost their footing and fell to the ground before my sword found their throats.  Then I conjured a mighty spark of lightning, spearing it through their densest ranks, and I rushed along its glowing length hewing down the monsters before they could react.  I laughed again with the fey heat of battle, and I discarded my helm and tore off my platemail, taking joy from moving about the field with ease and slaughtering my inferior foes.  Mooncutter danced through their flesh, and their dark blood gushed and fountained with joyful rhythm.
+
+On the far side of the camp explosions and screams marked Linaniil’s passage, and I saw burning limbs flying into the air and streaks of fire tearing through the night.  The sorceress was wreathed in flames, her eyes shining, and the dancing blaze about her made her look like a nymph of fire incarnate.  No more beautiful and awe-inspiring a sight had I ever beheld.
+
+Seeing their numbers quickly dwindling the orcs began to flee, but I phased to block their retreat and called forth a wave of water, forcing them back against Linaniil’s flames.  There against the wall of fire I dashed them, and great numbers of them fell like leaves scattered in the wind.  Blood spilled thick and plentiful, and with but a few more thrusts of Mooncutter and blasts from Linaniil’s hands the battle was over.  Not a single orc still moved, and well over four hundred lay dead on the ground.
+ 
+Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
+ 
+She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
+
+#{bold}#Chapitre Deux : Une nuit mémorable#{normal}#
+
+Trois nuits plus tard, je m'éveillai dans l'obscurité d'un rêve tourmenté pour découvrir ma fenêtre ouverte, les tentures de soie ondoyant dans la brise.  Comme mes yeux s'accoutumaient à la faible lumière, je vis Linaniil debout au pied de mon lit, une robe d'azur fine collée à sa peau dans l'air froid de la nuit.  Autour de sa taille, une ceinture de cachemire sertie d'opales et tissée de runes pâles, et des bijoux d'or paraient son cou et ses poignets.  Un long bâton reposait légèrement entre ses mains, des rubis scintillant à son sommet orné.  Ses cheveux roux frémissaient dans le vent tandis qu'elle me regardait.
+ 
+« Que faites-vous ici ? » demandai-je.  Je ne pris pas la peine de m'enquérir de la façon dont elle avait réussi à se faufiler dans ma chambre, par-delà tant de gardes.  Je savais que nul en dessous d'un membre du conseil n'aurait pu déceler sa présence, une fois qu'elle avait tourné son esprit vers l'illusion.
+ 
+Elle me dévisagea lentement un instant, avant de porter son regard sur le reste de la pièce, analysant en détail mon espace personnel.  « Il y a une bande d'orcs qui maraude au nord », dit-elle d'un ton distrait.  Elle saisit une dague ornementale sur une étagère et l'examina tout en parlant.  « Ils semblent devoir causer du tort à quelques colonies elfiques isolées. »
+ 
+« Je vais rassembler une troupe sur-le-champ », dis-je, me levant vivement de mon lit, sans souci de pudeur.
+ 
+« Oh, comme c'est ennuyeux ! » se plaignit-elle, reposant la dague et pivotant pour me faire face.  « Qu'en est-il de la promesse que vous avez faite de chasser l'orc ensemble ? »
+ 
+« Quoi, nous deux seuls ? »
+ 
+« Oui-da », dit-elle, promenant sur ma forme dénudée un regard lent, semblant se délecter du spectacle.  « Ou n'êtes-vous point assez homme ? »
+ 
+« Étrange question à poser à un elfe, ma dame.  Mais je puis certainement venir à bout de cette bande d'orcs seul.  Si vous souhaitez m'accompagner, je ne saurais garantir votre sécurité. »
+ 
+Elle rit alors, et le son fut comme un tintement de cristal.  « Fort bien, alors !  Prenez votre bâton d'acier et nous verrons qui se débrouille le mieux. »  J'acquiesçai en souriant, et me rendis à mon armurerie où j'enfilai jambières de métal et haubert de mailles, ma cuirasse et mes gantelets d'acier.  Linaniil laissa échapper un claquement de langue d'impatience maussade.  « Faut-il vraiment porter cette carapace de fer-blanc ? »
+ 
+« C'est mon équipement de bataille », dis-je, enfilant mon heaume à visière et enroulant une épaisse cape autour de mes épaules.
+ 
+« On dirait un golem », marmonna-t-elle, visiblement agacée.  « Venez donc, je m'ennuie. »  Elle bondit par la fenêtre, prenant son envol avec grâce, s'évanouissant dans la nuit.
+ 
+Je décrochai alors ma grande épée de son support.  C'était une lame d'apparence simple, ornée seulement d'une lourde pierre de lune sur son pommeau.  Mais son allure trahissait mal sa puissance, car elle avait été forgée par les nains à leurs premiers âges, avant que la vanité ne s'empare de leurs œuvres et que leurs armes ne deviennent davantage affaire de parade que de bataille.  Son tranchant fendait l'acier et l'os avec aisance, sans jamais s'émousser.  On la nomme Tranchelune, quoiqu'elle me soit désormais perdue.  Je la fis siffler dans l'air avant de sauter à mon tour par la fenêtre, conjurant sous moi un coussin d'air et suivant rapidement Linaniil.
+ 
+D'un rythme rapide, nous volâmes à travers les nuages épars, en silence, pendant une vingtaine de minutes, avant que Linaniil ne commence sa descente.  Je distinguai, nichées entre quelques collines basses, les flammes de feux de camp, et à mesure que nous approchions, le chant orc se fit plus clair.  « Comment les abordons-nous ? » lançai-je, me demandant quelle tactique la sorcière comptait employer.
+ 
+« De front », dit-elle, et sur ce mot elle lança une brusque accélération, se retrouvant droit au-dessus du camp orc avant d'y descendre en plein cœur.  Jurant, je me précipitai à sa suite, atterrissant à ses côtés et dégainant Tranchelune tandis que les orcs se dressaient, furieux et alarmés, saisissant leurs armes.  Comme un cercle d'épées sombres, de lances et de hallebardes se refermait autour de nous, Linaniil se tourna vers moi avec un sourire sauvage.  « L'heure de la danse. »
+ 
+Elle projeta de sa main droite un rayon d'énergie arcanique pourpre, tandis que sa main gauche brandissait son bâton, dont l'extrémité s'embrasait comme une torche.  Des flammes jaillirent en écho de ma propre lame tandis que je la levais bien haut, la faisant tournoyer devant moi en un large arc, abattant le plus proche des brutes et projetant une onde de feu foudroyante sur les troupes derrière lui.  Je poussai de l'avant, repoussant les orcs devant moi d'un vent brûlant et rugissant.  Leurs armes leur échappèrent des mains tandis qu'ils portaient leurs bras à leur visage, et avec un rictus satisfait je me précipitai pour leur trancher la tête.  Mais comme je brandissais ma lame, je fus renversé au sol par-derrière par une déflagration de feu, et me retournant je vis Linaniil se tenir au sein d'un pilier de flammes, les bras écartés tandis qu'il s'étendait autour d'elle.  « Trop chaud pour vous, Aranion ? » lança-t-elle tandis que les orcs alentour rôtissaient sur place, leur chair se réduisant en cendres noires.
+ 
+Je grognai, changeai ma lame en glace, et d'habiles coups d'épée envoyai des flots de froid mordant sur les orcs qui l'entouraient, si bien qu'ils volèrent en éclats comme du verre avant même que le feu ne les touche.  Linaniil maudit mon nom en laissant retomber les flammes autour d'elle.  « Ne gâchez pas mon plaisir ! » s'exclama-t-elle, avant de se téléporter à l'autre bout du camp pour y foudroyer d'autres orcs.
+
+Je ris et me tournai vers les bêtes les plus proches, ébranlant la terre à chaque coup, si bien qu'elles perdaient l'équilibre et s'effondraient avant que mon épée ne trouve leur gorge.  Puis je conjurai une puissante étincelle de foudre, la lançant en lance à travers leurs rangs les plus denses, et je me précipitai le long de son éclat, abattant les monstres avant qu'ils ne puissent réagir.  Je ris encore, saisi de la fièvre étrange du combat, et je jetai mon heaume et arrachai mon armure de plates, prenant plaisir à me mouvoir avec aisance sur le champ et à massacrer mes ennemis inférieurs.  Tranchelune dansait à travers leur chair, et leur sang sombre jaillissait en fontaines d'un rythme joyeux.
+
+À l'autre bout du camp, explosions et cris marquaient le passage de Linaniil, et je voyais des membres embrasés voler dans les airs et des traînées de feu déchirer la nuit.  La sorcière était enveloppée de flammes, les yeux brillants, et le brasier dansant autour d'elle la faisait ressembler à une nymphe de feu incarnée.  Jamais je n'avais contemplé spectacle plus beau ni plus impressionnant.
+
+Voyant leurs rangs fondre rapidement, les orcs commencèrent à fuir, mais je me déphasai pour bloquer leur retraite et invoquai une vague d'eau qui les repoussa contre les flammes de Linaniil.  Là, contre ce mur de feu, je les fauchai, et un grand nombre d'entre eux tombèrent comme des feuilles éparpillées au vent.  Le sang coula, épais et abondant, et il ne fallut que quelques coups supplémentaires de Tranchelune et quelques décharges des mains de Linaniil pour que la bataille s'achève.  Pas un seul orc ne bougeait plus, et bien plus de quatre cents gisaient morts sur le sol.
+ 
+Linaniil et moi nous tenions face à face, haletants d'une soudaine lassitude tandis que l'adrénaline du combat refluait.  « J'ai perdu le compte », dis-je entre deux souffles, « de qui en a tué le plus... »  Elle m'adressa un sourire mutin, la sueur ruisselant sur son visage.  Coupures et brûlures légères avaient réduit sa robe en lambeaux, une bretelle pendant sur son épaule.  Sa poitrine luisante se soulevait à chaque respiration, et ses yeux profonds me fixaient d'une intensité toute nue.
+ 
+Elle s'avança alors, et m'empoignant rudement par mon haubert, attira mes lèvres vers les siennes.  Le baiser fut brûlant et féroce, et comme elle me mordait la lèvre inférieure, la fièvre du sang de la bataille me reprit avec une force nouvelle.  Je l'embrassai à mon tour et saisis son corps, la serrant contre moi, nos lèvres soudées.  Elle arracha avec avidité le reste de mon armure, la jetant au sol, et je fis glisser à mon tour ses vêtements de soie, jusqu'à ce que nous nous retrouvions nus sous les étoiles.  Puis, contre un éperon rocheux, nous nous pressâmes l'un contre l'autre, encore haletants et couverts de sueur du combat.  Là, dans une passion ardente, la chair rencontra la chair, et nos soupirs brûlants montèrent vers le ciel froid de la nuit.]], "_t")
 t("The Spellblaze Chronicles(3): The Farportal", "Les Chroniques de la Brûlure Magique (3) : Le Portail Lointain", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Three: The Farportal#{normal}#
+
+“Why are ye not leader?” asked Linaniil, resting her head in her hand with her naked form strewn across my bed.
+ 
+I looked at her, surprised by the sudden question.  My mind struggled briefly with the strange query, still recovering from the heat of sex but a minute before.  “Why should I be leader?” I asked back.
+ 
+“Because ye are strong, of course,” she responded.  “I deem ye stronger in battle than any of your kin.  Ye should rule with such strength.”
+ 
+I chuckled softly.  “Mere strength is not enough to rule a people.  It requires responsibilities, careful decision making, and above all – politics.  I have no interest in such matters.  Ephinias is far better suited to those sorts of things.  Give me a sword and soldiers to lead into battle and I am content.  Let the leaders worry about where I should point my blade.”
+
+She was quiet a moment, seemingly dissatisfied with that response.  “Ye are not happy with the current plans though.”
+
+For a moment I was struck with shock.  It surprised me how clearly she divined my inner thoughts.  I had not expressed my concerns to anyone, yet she could so easily read me.  Five weeks it had been since we first met, and it seemed like there was nothing I could hide from her keen sight.
+ 
+The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
+ 
+“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
+
+“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
+
+I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
+ 
+Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
+ 
+I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
+ 
+She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
+ 
+I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
+ 
+Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
+ 
+“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
+ 
+“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
+ 
+“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
+ 
+As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
+ 
+I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
+ 
+“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
+ 
+“I am quite capable of taking care of myself,” I said in clipped tone.
+ 
+She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
+ 
+Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
+ 
+Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
+ 
+Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
+
+Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
+ 
+The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
+ 
+“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
+ 
+We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
+ 
+He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
+ 
+“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
+ 
+I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
+ 
+“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
+ 
+If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
+ 
+The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
+ 
+He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
+ 
+Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
+ 
+Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
+ 
+“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
+ 
+I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
+ 
+Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
+
+#{bold}#Chapitre Trois : Le portail lointain#{normal}#
+
+« Pourquoi n'êtes-vous point chef ? » demanda Linaniil, la tête posée sur sa main, sa forme dénudée étendue en travers de mon lit.
+ 
+Je la regardai, surpris par cette question soudaine.  Mon esprit peina un instant face à cette étrange interrogation, encore engourdi par la chaleur de l'étreinte, quelques instants plus tôt.  « Pourquoi devrais-je être chef ? » rétorquai-je.
+ 
+« Parce que vous êtes fort, voyons », répondit-elle.  « Je vous juge plus fort au combat que tous les vôtres.  Vous devriez régner avec une telle force. »
+ 
+Je ris doucement.  « La simple force ne suffit pas à gouverner un peuple.  Il faut des responsabilités, des décisions mûrement pesées, et par-dessus tout — de la politique.  Je n'ai nul intérêt pour de telles affaires.  Ephinias y est bien mieux fait que moi.  Donnez-moi une épée et des soldats à mener au combat, et je suis satisfait.  Que les chefs se soucient donc de savoir où je dois pointer ma lame. »
+
+Elle demeura silencieuse un moment, visiblement peu satisfaite de cette réponse.  « Vous n'êtes pourtant point satisfait des plans actuels. »
+
+Je fus, un instant, frappé de stupeur.  Il me surprenait qu'elle devine si nettement mes pensées intimes.  Je n'avais confié mes inquiétudes à personne, et pourtant elle me lisait avec une telle aisance.  Cinq semaines s'étaient écoulées depuis notre première rencontre, et il semblait qu'il n'était rien que je pusse dissimuler à son regard perçant.
+ 
+Les préparatifs de la Brûlure Magique allaient déjà bon train.  Turthel des Kar'Krul était retourné en sa citadelle du nord, mais il avait laissé ses filles en tant qu'ambassadrices pour prêter main-forte à nos desseins.  Cela signifiait que Linaniil et moi avions maintes occasions de nous voir, quoique dans le plus grand secret.  Peu de mes semblables auraient compris ou approuvé pareille liaison, et nul d'entre nous ne pouvait se permettre un scandale.  Et pourtant je ne pouvais résister aux avances de cette mage humaine, ni elle aux miennes.
+ 
+« Je suis un guerrier », lui dis-je enfin, me levant brusquement du lit et récupérant mes vêtements.  « Je règle mes batailles en affrontant mon ennemi, non en jouant avec des reliques depuis le lointain.  Cela m'irrite que nous devions traiter nos ennemis d'une manière si couarde. »
+
+« Mais cela ne vous excite-t-il point, d'employer ces ruines Sher'Tul ? » dit-elle, portant un doigt à sa lèvre inférieure tandis qu'elle languissait encore dans mon lit, les draps collés étroitement à sa peau nue.  Elle semblait visiblement exaltée par ses propres pensées.  « De tels pouvoirs demeurés dormants si longtemps, prêts à être appelés sous notre commandement...  Comme il me plairait de diriger si grande entreprise ! »
+
+Je secouai tristement la tête en achevant de boutonner mon pourpoint.  « Je ne fais point confiance à ces ruines.  Nous autres Shaloréens sommes puissants, mais nous n'avons pas encore atteint les hauteurs des Sher'Tul, ni ne comprenons vraiment les dispositifs qu'ils ont laissés derrière eux.  Sur ce point, mes pensées rejoignent plutôt celles de votre sœur Neira.  Nous devrions nous en tenir aux pouvoirs que nous maîtrisons, sans nous étendre à de si grandes expérimentations. »
+ 
+Linaniil me regarda intensément, une pointe d'humour dans ses yeux sombres.  « Si vous étiez chef, vous pourriez arrêter tout cela.  Mais alors je devrais vous haïr. »
+ 
+Je m'autorisai un mince sourire.  « Voilà en effet qui serait terrible et périlleux. »  J'achevai de m'habiller tandis que Linaniil restait allongée dans mon lit, le visage pensif.  « Je dois à présent aller vérifier les dernières opérations au portail lointain.  Vous êtes la bienvenue si vous souhaitez m'accompagner. »
+ 
+Elle secoua la tête, languide.  « Nenni, je souhaite me reposer encore.  Et puis, entendre leurs rapports ne ferait que m'envier davantage.  Laissez-moi ici un moment — je partirai en secret plus tard. »
+ 
+Je quittai alors ma chambre, de sombres pensées couvant au fond de mon esprit.  La date approchait où nos plans porteraient fruit et où la Grande Brûlure Magique serait déchaînée.  Un lourd pressentiment pesait sur mon cœur.  Et pourtant les alternatives semblaient sombres.  La guerre contre les orcs tournait mal, peu de races parvenant à bien défendre leurs frontières, et les attaques des brutes ne cessaient de croître.  Leur nombre paraissait inépuisable.  Bien que peu habiles à la guerre, ils pouvaient infliger de grands dommages aux bourgades sans défense, et en nombre suffisant, faire tomber des cités entières.  Un royaume humain s'était effondré sous leurs assauts à peine une semaine plus tôt.  Depuis, nombre de ceux qui avaient d'abord rejeté nos plans vinrent supplier notre protection.  La Brûlure Magique semblait notre seul espoir face au désastre imminent.
+ 
+Ces pensées pesaient sur mon esprit tandis que je passais de mes appartements du palais à la cour près de la porte principale.  C'est alors que, du coin de l'œil, j'aperçus un mouvement de longs cheveux roux, et me retournai vivement, croyant que Linaniil m'avait suivi.  Mais les robes dorées et les yeux brillants de Neira révélèrent qu'il n'en était rien.
+ 
+« Vous attendiez-vous à quelqu'un d'autre ? » demanda-t-elle avec un large sourire, voyant l'air surpris peint sur mon visage.
+ 
+« J'étais perdu dans mes pensées », expliquai-je, m'inclinant légèrement pour la saluer.  « Je me rends justement inspecter les opérations du portail lointain.  Peut-être souhaiteriez-vous... »
+ 
+« Je vous accompagnerai », dit-elle vivement, sans attendre mon invitation.  J'acquiesçai d'un signe et la guidai vers mon carrosse.
+ 
+Dès que nous prîmes la route vers l'est, l'atmosphère changea.  « Elle ne fera que vous blesser », dit soudain Neira.
+ 
+Je jurai à voix basse, comprenant ce qu'elle voulait dire.  « N'y a-t-il donc nul secret possible en tout Eyal ? » marmonnai-je.
+ 
+« Pas entre sœurs, et encore moins entre jumelles. »  Elle me sourit chaleureusement, mais nulle gaieté n'habitait son regard.  « Je le pense pourtant.  J'aime ma sœur, mais je connais ses manières.  Elle est versatile, et n'en fait qu'à sa guise quand bon lui semble.  Ne soyez point surpris lorsqu'elle se lassera de vous.  Ni blessé. »
+ 
+« Je suis fort capable de veiller sur moi-même », dis-je d'un ton sec.
+ 
+Elle plongea son regard dans le mien un instant, puis se détourna pour fixer la fenêtre.  « Fort bien, je vous aurai prévenu... » répondit-elle doucement, une pointe de tristesse dans la voix.
+ 
+Était-ce la jalousie qui avait suscité pareil éclat ?  Et convoitait-elle l'attention de sa sœur, ou la mienne ?  Je ne le découvris jamais.  Le reste du trajet se passa dans un silence maussade.  Le soleil se couchait derrière notre carrosse, projetant une longue ombre sur le chemin devant nous et baignant les terres alentour d'une lumière cramoisie.  Il sembla, un instant, que nous chevauchions vers quelque plan démoniaque, les ombres d'un noir de poix se fondant dans un sol rouge sang, tandis que de froides étoiles blanches commençaient à percer le ciel au-dessus de nous.  Je frissonnai soudain lorsque les ruines apparurent.
+ 
+Peu de ruines Sher'Tul découvertes égalaient en grandeur celles qui se trouvaient près d'Elvala.  Notre peuple avait passé des siècles entiers à les excaver, creusant profondément dans le sol, toujours soucieux de ne point endommager ni troubler les reliques.  La pièce maîtresse en était la Tour de Cristal.  Depuis la surface, on n'en voyait qu'un large carré aux côtés égaux, qui, une fois débarrassé de la terre, révélait une pierre blanche plus lisse que le marbre.  Mais en creusant plus avant, nos archéologues découvrirent qu'elle plongeait profondément, profondément sous terre.  Elle descendait sur près d'un kilomètre, la pierre blanche et sans relief ne portant nulle marque ni gravure sur toute sa surface, jusqu'à s'achever soudainement et sans fondation.  C'était comme si la tour entière était détachée de la terre, quelque étrange chose venue des étoiles, tombée du ciel et endormie sous le sol.
+ 
+Quelques années plus tôt, notre peuple avait percé le secret des runes invisibles qui permettaient de l'ouvrir, révélant de vastes salles et chambres tapissées de cristal, disposées en motifs géométriques d'une beauté sublime.  La lumière crépitait et brillait sur chaque surface, et les murs semblaient bourdonner d'énergie.  De nombreux puits et couloirs n'étaient accessibles que par le vol, et au sommet se trouvait une salle grandiose, assez vaste pour contenir le palais tout entier d'Elvala.  En son centre se dressait le portail lointain, une estrade surélevée de douze mètres de diamètre, crépitant d'énergie, sur laquelle tournoyait lentement un nuage d'étoiles.  C'était à la fois beau et terrifiant, enchanteur et effrayant.  Nul pouvoir shaloréen ne pouvait en discerner le fonctionnement, et bien que de prudentes expérimentations nous eussent permis d'en manipuler les énergies, jamais nous ne pûmes véritablement saisir les forces qui s'y dissimulaient.
+
+Neira et moi descendîmes jusqu'à la base de la tour, enveloppés des ombres froides des ruines excavées.  Je saluai les gardes d'un signe de tête tandis que nous franchissions l'entrée blanche et carrée, et les yeux de Neira s'agrandirent aussitôt d'émerveillement.  Les salles scintillantes étaient certes captivantes, mais aussi désolées et vides.  Je tentai d'imaginer ce à quoi elles avaient pu ressembler, peuplées de Sher'Tul.  « Comment sont-ils tous morts ? » demandai-je à voix basse tandis que nous traversions les couloirs de cristal, une question que beaucoup avaient déjà posée avant moi.
+ 
+La sorcière saisit mes paroles au vol et rit doucement.  « C'est un mystère, bien sûr !  Ma mère m'enseigna jadis qu'ils se sont entretués dans une grande guerre civile, usant de magies bien au-delà de notre imagination. »
+ 
+« Je me le demande », dis-je.  Nous avions nos propres archives, bien sûr, que nous ne partagions pas avec les races plus jeunes, mais elles n'étaient guère plus limpides que les nombreux mythes répandus au fil des âges.
+ 
+Nous atteignîmes le puits central, d'où nous lévitâmes en passant devant étage après étage de chambres abandonnées, d'espaces de vie, d'ateliers, d'entrepôts, et de bien d'autres lieux dont l'usage échappait encore à nos chroniqueurs.  Enfin, après plusieurs minutes d'ascension, nous débouchâmes dans la grande salle du portail lointain, et Neira eut le souffle coupé devant son ampleur.  Son regard se posa bientôt sur le grand portail Sher'Tul, ses étincelles se reflétant sur le plafond, des centaines de mètres plus haut.  Alentour s'affairaient nombre de nos mages shaloréens en robes de soie, et Ephinias lui-même dirigeait les opérations.
+ 
+Il quitta ses conseillers en nous voyant arriver, et marcha vers nous avec un sourire confiant.  Bien qu'il portât les robes grises d'un mage-chercheur, il tenait encore son grand bâton doré, Luminis, symbole de sa royauté.
+ 
+« Ah, Général Aranion ! » dit-il, « Vous voici enfin.  Et vous avez amené la demoiselle des Kar'Krul avec vous ; comme c'est charmant. »
+ 
+Je m'inclinai légèrement.  « Votre Majesté.  Je viens prendre connaissance de l'avancement de nos opérations. »
+ 
+« Oui, oui, bien sûr », dit-il d'un geste de la main désinvolte.  « Et sans doute la demoiselle est-elle ici pour s'assurer que nous savons ce que nous faisons ? »
+ 
+Si Neira en fut offensée, elle n'en laissa rien paraître.  « Ce serait mon plus grand plaisir que de voir la preuve de votre habileté et de votre pouvoir sur ces ruines, seigneur Ephinias. »
+ 
+Le roi sourit alors et hocha la tête, appelant certains de ses assistants.  « Préparez la démonstration topographique, à l'aide du filament de feu aigu. »  Il se retourna alors vers nous.  « Ce n'est point simplement l'habileté et la puissance que nous pouvons vous montrer, bien sûr, mais aussi la subtilité et l'échelle.  Excusez-moi un instant, le temps que je rejoigne les autres. »
+ 
+Il se rendit alors avec deux de ses mages-chercheurs les plus expérimentés jusqu'au pied du portail lointain.  Ils se firent face et entamèrent un bourdonnement grave à l'unisson, et lentement il sembla que les étincelles du portail se mirent à vaciller d'une lueur rouge.  Au bout de quelques minutes, leur bourdonnement se mua en un chant plus aigu, doucement psalmodié, toujours en parfaite harmonie.  Comme ils levaient leurs bâtons, une image apparut au-dessus du portail, faite de flammes, et en la regardant Neira et moi fûmes tous deux saisis d'émerveillement, car nous pouvions voir clairement qu'il s'agissait d'une image de nous-mêmes, regardant vers le haut, comme si nous fixions un miroir.  Nos traits et nos mouvements étaient tous parfaitement discernables, jusqu'au moindre détail, entièrement sculptés dans un feu orange vacillant.
+ 
+Puis le chant s'éleva davantage et l'image parut s'éloigner, si bien que nous vîmes le portail lointain près de nous et les mages rassemblés autour.  Et le point de vue continua de s'élever, jusqu'à ce que nous ne fussions plus que des grains de poussière dans une vaste salle, jusqu'à ce que l'image se change en un carré blanc aux bords ciselés, creusé dans la terre alentour, et je compris que nous contemplions le sommet de la Tour de Cristal vu d'en haut.  La vue s'élargit encore, et je pus voir les terres défiler, et la cité d'Elvala à l'ouest.  Le chant s'éleva encore, et l'on distinguait à présent la mer, et les montagnes au nord-ouest, et toutes les terres alentour.  Bientôt le continent tout entier fut visible, jusqu'au nord glacé, et l'océan qui l'enveloppait tout autour, et il semblait que de petites étoiles blanches parsemaient le paysage.  Le chant atteignit son apogée, et devant nous se suspendit une image d'Eyal tout entier, un globe de feu flottant dans les airs, tournant lentement.
+ 
+Puis le chant cessa et l'image s'évanouit, et j'entendis Neira, à mes côtés, aspirer soudain une grande bouffée d'air, comme si elle n'avait osé respirer durant ces dernières minutes.
+ 
+« Vous voyez à présent ? » dit Ephinias, arborant un sourire ravi.  « Du moindre détail à la plus vaste échelle, nous pouvons manipuler l'énergie du portail lointain.  Et avez-vous remarqué ces points blancs marqués à travers l'image ?  Ce sont les autres portails lointains disséminés à travers le monde, et celui-ci peut se relier à tous.  Avec un contrôle prudent et délicat, nous pouvons harmoniser leurs énergies et les plier à notre volonté.  Je crains que votre épée ne fasse pas le poids face à cela, Aranion. »
+ 
+Je n'eus nul mot pour répondre, et me contentai d'un hochement de tête, encore saisi d'admiration devant ce que j'avais vu.  Neira semblait pareillement affectée, et je la vis à présent fixer le portail lointain avec la même avidité dans le regard que sa sœur.  Elle était convertie.
+ 
+Et pourtant ma main s'égara sur la garde de Tranchelune, et mon cœur murmurait encore d'un malaise sourd.]], "_t")
 t("The Spellblaze Chronicles(4): Before the Dawn", "Les Chroniques de la Brûlure Magique (4) : Avant l'Aube", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Four: Before the Dawn#{normal}#
+
+I rode my great grey horse at a low trot, surrounded by my lieutenants and their elite cavalry and spellrangers.  Beside me on a brown mare my squire held high a banner emblazoned with a flame-wreathed sword, symbol of my personal entourage.  The pole seemed to shiver slightly in the young elf’s hands, a sign of nervousness.
+ 
+“Hold that banner firm, boy,” I said in a commanding tone.
+ 
+The squire suddenly sat upright in his saddle, and gripped tight on the banner pole.  “Yes, sire!” he said, alarmed.  “Whatever you say, sire!”  He kept his head faced forward but I could see his eyes glance towards me, desperate for approval.  Whatever I say indeed...  I had seen his gaze on me before, with all the adoration of a young soldier towards his commander, and perhaps a little more.  If I had not the joy of Linaniil’s company then the attention of such a pretty lad would not be unwelcome.  But this was not the time for such thoughts.
+ 
+This would be the day, the day of the Spellblaze, and the boy had every right to be nervous.  It was a few hours after midnight, and already our scouts would be engaged alongside the other races, drawing out the orcs from their hiding places.  We marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
+
+I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
+
+A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
+ 
+When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
+ 
+As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
+ 
+Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
+ 
+“What irks your sister?” I whispered to Linaniil.
+ 
+“Some dumb dream,” she responded callously.
+ 
+Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
+ 
+“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
+ 
+Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
+ 
+“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
+ 
+She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
+ 
+I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
+
+They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
+ 
+“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
+
+I shrugged and smiled modestly.  “I said what I had to.”
+ 
+She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
+ 
+“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
+ 
+“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
+ 
+We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
+
+Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
+
+#{bold}#Chapitre Quatre : Avant l'aube#{normal}#
+
+Je chevauchais mon grand destrier gris au petit trot, entouré de mes lieutenants et de leur cavalerie d'élite et de leurs rôdeurs-mages.  À mes côtés, sur une jument brune, mon écuyer tenait haut une bannière frappée d'une épée ceinte de flammes, emblème de ma suite personnelle.  La hampe semblait trembler légèrement entre les mains du jeune elfe, signe de nervosité.
+ 
+« Tenez cette bannière ferme, mon garçon », dis-je d'un ton de commandement.
+ 
+L'écuyer se redressa soudain sur sa selle, agrippant fermement la hampe.  « Oui, sire ! » dit-il, alarmé.  « Tout ce que vous voudrez, sire ! »  Il garda la tête droite, mais je vis son regard glisser vers moi, avide d'approbation.  Tout ce que je voudrais, en effet...  J'avais déjà surpris ce regard posé sur moi, empreint de toute l'adoration d'un jeune soldat pour son commandant, et peut-être d'un peu plus.  Si je n'avais eu la compagnie de Linaniil pour me réjouir, l'attention d'un si joli garçon n'aurait pas été malvenue.  Mais ce n'était point le moment pour de telles pensées.
+ 
+Ce jour serait celui de la Brûlure Magique, et le garçon avait tout le droit d'être nerveux.  Il était quelques heures après minuit, et déjà nos éclaireurs devaient s'être engagés aux côtés des autres races, débusquant les orcs de leurs cachettes.  Nous marchions à travers nos lignes offensives principales, où nous devions les cerner avant le grand embrasement.  Tout autour s'alignaient lances, épées et cottes de mailles, scintillant sous la lumière des étoiles.  Troupe après troupe de mages de guerre en robes pourpres brandissaient des bâtons luisants.  C'était un spectacle à contempler.  Pourtant, nous connaissions aussi le risque d'engager un combat en terrain découvert face aux orcs rassemblés en pleine force.  Si la Brûlure Magique échouait, nous en souffririons grandement.
+
+J'établis mon camp sur une colline basse surplombant le champ, puis quittai ma suite pour rejoindre l'armée des Kar'Krul au nord.  Tandis que je chevauchais mon étalon vers leur position, je vis de la fumée s'élever à l'est.  Quatre épaisses colonnes grises se détachaient contre la lumière de l'aube naissante.  Ce devaient être des villages pillés et incendiés par les orcs, ravageant tout sur le passage de nos assauts feints.  Les bourgades seraient vides, mais après cette bataille il ne resterait plus rien où leurs habitants pourraient retourner.  Un petit sacrifice dans un jeu de guerre qui s'étendait sur tout le continent.
+
+Une cinquième colonne de fumée commença à s'élever, et dans la brume verdâtre du petit matin, ces panaches parurent soudain se muer en une main démoniaque s'étendant sur le monde, prête à enfoncer ses griffes dans la terre et à en arracher la chair.  C'était là, je le savais, la menace que les orcs faisaient peser sur nous tous, un péril pour toute la civilisation.  Quel que fût le prix à payer pour les arrêter, il serait modeste.  Ainsi le pensais-je.  Ainsi le pensions-nous tous.
+ 
+Lorsque j'atteignis le camp des Kar'Krul, Linaniil sortit à ma rencontre.  Son sourire se fit chaleureux à ma vue, mais je devinai dans ses yeux qu'elle était surtout impatiente des événements du jour.  « Plus que quelques heures », murmura-t-elle comme une enfant impatiente.  « Ce sera fascinant ! »
+ 
+En pénétrant dans le pavillon des Kar'Krul, je vis Neira à l'intérieur, ainsi que quelques-uns de leurs mages les plus éminents et des délégués d'autres royaumes humains.  Je savais que Turthel ne serait point parmi eux, étant demeuré dans sa cité du nord avec son peuple.  Ce n'était ni la couardise ni l'âge qui le tenait éloigné des premières lignes de la guerre.  En vérité, on disait que depuis que sa femme avait été tuée par les orcs, il devait se contraindre à rester loin de la bataille, de peur que sa colère ne le submerge et qu'il ne détruise ami et ennemi confondus dans sa rage.  Pourtant, l'on savait qu'il lui arrivait parfois de parcourir les terres seul, apportant avec lui une tempête de courroux assourdissante, et les orcs se terraient à la simple rumeur de l'approche de Turthel, la Tempête du Nord.
+ 
+Neira et Linaniil commandaient les forces des Kar'Krul, et à voir l'expression résolue de leurs archimages, il était clair qu'ils étaient prêts pour tout ce que le jour pourrait apporter.  Pourtant Neira semblait troublée, le doute visible dans son regard.
+ 
+« Qu'est-ce qui tracasse votre sœur ? » chuchotai-je à Linaniil.
+ 
+« Quelque rêve stupide », répondit-elle avec insouciance.
+ 
+Le regard de Neira se releva d'un coup.  « Ce n'était point un rêve ! » aboya-t-elle.  « C'était un présage, je vous le dis ! »  Elle se tourna alors vers moi, les yeux suppliants.  « Vous devez me croire, Aranion.  Quelque chose va terriblement mal tourner aujourd'hui.  J'ai vu la nuit dernière une vision terrible en mes songes, comme s'il s'agissait d'un souvenir venu d'un lointain passé.  Il y avait une cité en flammes, faite de verre, d'argent et de marbre.  Et tandis qu'elle brûlait, j'entendais les cris de milliers, de dizaines de milliers d'âmes, jeunes et vieilles, toutes mourantes.  Puis la cité tomba, car elle s'était tenue dans le ciel, et elle s'écrasa au sol dans un tourment fracassant qui se répandit sur toute la contrée.  Et il y avait d'autres cités encore, d'où jaillissaient des piliers de lumière violette, qui dansaient tout autour, emplissant l'air d'une odeur d'ozone et de chair calcinée.  La mort était partout !  Une mort telle que nous n'en avons jamais vu.
+ 
+« Ce n'était nul simple songe, je vous le dis.  C'est un message, un avertissement — quelque récit oublié des dangers auxquels nous jouons.  Nous devons arrêter cela ! »
+ 
+Linaniil tapait du pied avec impatience tandis que sa sœur divaguait ainsi, mais je voyais certains des autres chefs prendre un air inquiet.  Je compris qu'il me fallait calmer Neira, aussi m'approchai-je et posai mes mains sur ses épaules, plongeant calmement mon regard dans le sien et rapprochant mon visage du sien.
+ 
+« Il se peut fort bien que ceci ne soit point un songe.  Car ce n'est point un jour ordinaire, et même parmi toutes les légendes des âges passés, celui-ci se distinguera comme un jour de jugement.  Notre civilisation est en péril, notre mode de vie menacé par le fléau orc.  Nous reposons sur le fil d'une lame, le monde en équilibre sur un pivot, et le moindre faux mouvement pourrait nous précipiter à jamais dans les ténèbres et le désespoir.  Nos actes d'aujourd'hui en décideront.  Alors oui, vous avez eu un avertissement, vous avez eu un message, et ce message, c'est d'être forte.  Car aujourd'hui, nous tenons tous les rênes du destin entre nos mains, et seule une main ferme peut nous guider au-delà de la menace du malheur qui s'annonce.  Neira, pouvez-vous être cette main ferme ? »
+ 
+Elle me regarda d'un œil ouvert et plein d'espoir, ses doigts se refermant sur mon poignet comme si elle cherchait à puiser en moi quelque force.  Elle hocha alors lentement la tête.  « Je suis désolée, Aranion.  Je vais... je serai forte. »
+ 
+Je me tournai vers les autres, qui semblaient tous captivés par mes mots.  Il était clair que les laisser à leurs propres pensées ne pouvait qu'apporter des ennuis.  Il me fallait les pousser à l'action sur-le-champ.  « Cela commence maintenant ! » criai-je.  « Rassemblez vos troupes et préparez-vous à marcher.  Lentement et sûrement nous avancerons, avec prudence nous tiendrons la bataille, et par-delà le feu et la fureur nous émergerons libres et victorieux.  Ce jour restera gravé dans l'histoire à jamais !  Ce jour marquera une ère nouvelle pour toutes les races !  Le jour de la Brûlure Magique est arrivé ! »
+
+Tous acclamèrent et se précipitèrent pour rassembler leurs troupes, puisant courage dans les devoirs du commandement.  Neira rejoignit ses propres mages, et je quittai seul le pavillon.  Mais dehors, je fus pris en embuscade par Linaniil, qui m'entraîna dans une tente vide avec un rire malicieux.
+ 
+« Vous disiez n'être point chef ! » s'exclama-t-elle avec un sourire.  « Voilà pourtant bien un discours de chef, s'il en fut jamais. »
+
+Je haussai les épaules et souris modestement.  « J'ai dit ce qu'il fallait dire. »
+ 
+Elle s'approcha alors, le visage soudain empreint d'inquiétude.  « Ce n'était qu'un rêve, n'est-ce pas ? »  Je vis alors, sous toute cette bravade et cette gaieté, qu'elle était mortellement effrayée, ses doigts tremblant tandis qu'elle plongeait son regard dans le mien, avide de réconfort.
+ 
+« Ce n'était qu'un rêve », mentis-je, et c'est un mensonge que j'ai payé de tout mon cœur et de toute mon âme.  « Tout ira bien. »  Je l'attirai contre moi et l'enlaçai de mes bras autour de sa silhouette svelte, et elle se cramponna à moi, tremblant encore légèrement.
+ 
+« Merci, Aranion », murmura-t-elle.  Levant son visage vers moi, elle m'embrassa, et ce fut le baiser le plus doux, le plus délicat qu'elle m'ait jamais donné.  Ce fut aussi le dernier.
+ 
+Nous nous séparâmes alors, et j'entamai la chevauchée solitaire vers mes propres troupes.  Mon cœur battait à présent comme un tambour de guerre assourdissant, tandis que les mots de Neira résonnaient encore dans ma tête.  Ils réveillèrent en moi le souvenir d'un rêve que j'avais fait moi-même ce matin-là, mais qui était demeuré endormi dans mon esprit jusqu'alors.  J'étais allongé dans mon lit, et flottait au-dessus de moi une forme de lumière et d'air, telle la figure d'une créature que je n'avais jamais vue auparavant.  Elle avait de longs tentacules en guise de bras, et des robes bouffantes ondulaient lentement autour d'elle.  Là où aurait dû se trouver une tête, il n'y avait qu'une petite bosse, mais je pouvais sentir qu'elle était tournée vers moi.  Elle tendit vers moi un long tentacule, comme pour se prémunir contre une menace sombre et dangereuse.  Un sentiment de terrible pressentiment m'envahit, le présage imminent d'un malheur tel que le monde n'en avait jamais connu.  Comme la pointe du tentacule approchait de mon front, tout devint noir.
+
+Était-ce un rêve ?  Quelque étrange prémonition ?  Ou aurait-ce pu être une véritable apparition, quelque chose tentant de me livrer un avertissement direct ?  Mais je n'avais nul temps pour de telles pensées.  L'heure de la Brûlure Magique nous était presque échue, et il ne pouvait y avoir place pour le doute.  J'éperonnai mon cheval vers mon destin.]], "_t")
 t("The Spellblaze Chronicles(5): The Day of the Spellblaze", "Les Chroniques de la Brûlure Magique (5) : Le Jour de la Brûlure Magique", "_t")
+t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+
+#{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
+
+I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
+
+Trumpets blared from the bulwarks at the front, as they readied to engage with the first wave when needed.  To the north were archers to crumble the initial resistance, and at their flank a legion of spellriders, their hands glowing with arcane energies as they sat atop their fearsome steeds.  On the south was the regular cavalry, the greatswords, the armoured knights and the main bulk of our mages, readying support spells.  Here and there senior battlemages were dotted about, ready to move swiftly to points of intense activity and blast it away.  There was no need to have more than one of them in any place - alone they could decimate a score of orcs with ease.
+
+Drums beat loudly in the distance, and a clamour arose from the enemy.  They had with them trained beasts and trolls, and were arrayed in swords and maces and crude armours.  One took up a loud howl and others joined in, and the air seemed to reverberate with their ugly voices.
+
+The cacophony was unsettling, but my army responded with a display of power.  Swords and speartips rose into the air, and crackles of lightning shot up to the heavens, the sparks shining off the gleaming blades and armour.  The orcish army gasped in dismay.  The eastern skyline was beginning to glow red, and we knew the dawn would break any moment now, the signal for the start of the Great Spellblaze.
+
+“The day is here!” one of our warriors shouted out, and it was taken up elsewhere by the marching troops.  “The day is here!” they began to chant, anticipating the glory to come.  “The day is here!” my squire sang, his voice full of youthful joy and hope.  “The day is here!” we all shouted in unison, the pride of the Shaloren kingdom in our hearts as we watched the first rays of sunlight shine out from the horizon.  “The day is here!  The day is here!  The day is-”
+
+Silence.  All at once our voices dropped, and a terrible brooding silence swept over the battlefield.  We could feel it, every one of us, so attuned are our race to the flows of magic.  It was like having the breath sucked from one’s lungs, or the earth disappear from beneath one’s feet.  All our mana channels were gone, changed suddenly, arcane energies beyond all reach.  Groans and murmurs began to arise, as mages clutched at their heads in sudden despair.  I saw my squire lurch forwards in his saddle and begin to vomit uncontrollably, my standard slipping from his hand, whilst others fell to the ground in pain.  I struggled to battle an overwhelming migraine, blotches appearing in front of my eyes, and with great effort of will I managed to keep control of myself and began to seek out new paths of mana.
+
+But there was something wrong, terribly wrong.  Like a river run off its course the flow of magic across the whole of Eyal had changed.  What could have caused this?  And now I had to fight years of attunement and training that had taught me to naturally rely on the known flows and courses so that I might find new paths, new sources.  And as I did so I put my powers into divination, and what I discovered shocked me to my core.
+
+The orcs saw us in disarray and began to charge.  But my attention was turned west, not east, towards Elvala and the Crystal Tower where our leaders had been manipulating the Sher’Tul farportal.  But the tower, I felt, was gone - crumpled into the earth, and from there now emanated a wave of white-hot flame.  The orcs tore into our army with little resistance, their weapons tearing through the elven troops, but they were soon met by a wave of destructive energy far greater.
+
+“Shields!” I shouted out as the whole sky turned redder than blood, but above the sudden deafening roar of roasting air I was not heard.  It would have helped little anyway, defenceless as my army was without their usual sources of mana.  Spears of flame streaked down on our heads, shearing through flesh and steel in an instant and sinking into the earth.  The ground shook, and lava blasted up from the deep holes torn into the rock.
+
+I put an arcane shield about myself with a great effort of will.  I saw my squire raise a hand to do the same, but a blaze tore off his arm.  He didn’t even get to scream before another wave burned through the top half of his torso.  Spurting blood evaporated instantly, and the air became full of red mist and fire.  I leapt from my horse as it neighed and stumbled and fell burning into ash.
+
+Another wave came, and I tried to strengthen my shield, but the force of it took me off my feet and sent me flying.  I was thrashed through the air like a swirling leaf, unable to do anything more than struggle to maintain my protection.  All about my army was being utterly decimated, ranks and ranks of soldiers and mages burnt to a crisp or torn apart by the raw energies.  The orcs were the same, and a huge rent in the ground swallowed great numbers of their troops.  Blasts of lava soon thundered upward and rained down for miles around, turning into glowing rivers of death that swept across the consumed landscape.
+
+How I managed to stay alive I am still not sure.  I almost slipped from consciousness at several points, but by a mental tenacity I never knew I had I managed to stay focused and keep my protective shield active.  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
+
+I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
+
+I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
+
+Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
+
+I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
+
+But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
+
+#{bold}#Chapitre Cinq : Le jour de la Brûlure Magique#{normal}#
+
+Je desserrai Tranchelune dans son fourreau tandis que les troupes progressaient.  Ma poigne se raffermit sur les rênes, retenant mon cheval de peur qu'il ne s'élance dans l'excitation, et je voyais mon écuyer à ma gauche faire de même.  La tension dans l'air était palpable.  Devant nous, à moins d'un kilomètre et demi, l'avant-garde des armées orques était désormais visible.  Nous avions troublé leur nid, et elles avaient répondu en pleine force.  Elles ressemblaient à un fléau ténébreux engloutissant l'horizon, une grande pestilence menaçant de consumer le monde.  Devant moi, les armées shaloréennes paraissaient bien petites en comparaison, mais je savais que notre force ne se mesurait pas au simple nombre.
+
+Les trompettes résonnaient depuis les bastions de l'avant, prêts à engager la première vague le moment venu.  Au nord se tenaient les archers, chargés de briser la résistance initiale, et à leur flanc une légion de cavaliers-mages, leurs mains luisant d'énergies arcaniques tandis qu'ils se tenaient sur leurs redoutables montures.  Au sud se trouvait la cavalerie régulière, les porteurs de grandes épées, les chevaliers en armure, et le gros de nos mages, préparant leurs sorts de soutien.  Çà et là étaient disséminés des mages de guerre expérimentés, prêts à se déplacer promptement vers les points d'activité intense pour les balayer.  Nul besoin d'en poster plus d'un à chaque endroit — seuls, ils pouvaient décimer une vingtaine d'orcs avec aisance.
+
+Des tambours résonnaient bruyamment au loin, et une clameur montait de l'ennemi.  Ils avaient avec eux des bêtes dressées et des trolls, et étaient armés d'épées, de masses et d'armures grossières.  L'un d'eux entonna un long hurlement, et d'autres se joignirent à lui, et l'air sembla vibrer de leurs voix hideuses.
+
+Cette cacophonie était troublante, mais mon armée y répondit par une démonstration de puissance.  Épées et pointes de lance se dressèrent vers le ciel, et des éclairs crépitants jaillirent vers les cieux, leurs étincelles se reflétant sur les lames et les armures étincelantes.  L'armée orque eut un mouvement de recul, saisie de consternation.  L'horizon oriental commençait à rougeoyer, et nous savions que l'aube se lèverait d'un instant à l'autre, signal du commencement de la Grande Brûlure Magique.
+
+« Le jour est arrivé ! » cria l'un de nos guerriers, et le cri fut repris ailleurs par les troupes en marche.  « Le jour est arrivé ! » commencèrent-ils à scander, anticipant la gloire à venir.  « Le jour est arrivé ! » chanta mon écuyer, la voix pleine de la joie et de l'espoir de la jeunesse.  « Le jour est arrivé ! » criâmes-nous tous à l'unisson, la fierté du royaume shaloréen dans nos cœurs tandis que nous regardions les premiers rayons du soleil poindre à l'horizon.  « Le jour est arrivé !  Le jour est arrivé !  Le jour est— »
+
+Silence.  D'un seul coup, nos voix s'éteignirent, et un terrible silence oppressant s'abattit sur le champ de bataille.  Nous le sentîmes tous, tant notre race est accordée aux flux de la magie.  Ce fut comme si l'on nous arrachait le souffle des poumons, ou que la terre se dérobait sous nos pieds.  Tous nos canaux de mana avaient disparu, changés soudainement, les énergies arcaniques hors de toute portée.  Gémissements et murmures s'élevèrent, tandis que les mages se prenaient la tête à deux mains dans un désespoir soudain.  Je vis mon écuyer se pencher brusquement sur sa selle et se mettre à vomir sans pouvoir se retenir, mon étendard lui échappant des mains, tandis que d'autres s'écroulaient au sol, saisis de douleur.  Je luttai contre une migraine écrasante, des taches apparaissant devant mes yeux, et par un grand effort de volonté je parvins à garder le contrôle de moi-même et commençai à chercher de nouvelles voies de mana.
+
+Mais quelque chose n'allait pas, quelque chose n'allait terriblement pas.  Comme une rivière détournée de son cours, le flux de magie à travers tout Eyal avait changé.  Qu'avait pu causer cela ?  Et je devais à présent lutter contre des années d'accoutumance et d'entraînement qui m'avaient appris à me fier naturellement aux flux et aux courants connus, afin de pouvoir trouver de nouvelles voies, de nouvelles sources.  Et ce faisant, je tournai mes pouvoirs vers la divination, et ce que je découvris me glaça jusqu'aux os.
+
+Les orcs, nous voyant en plein désarroi, chargèrent.  Mais mon attention se tournait vers l'ouest, non vers l'est, vers Elvala et la Tour de Cristal où nos chefs avaient manipulé le portail lointain Sher'Tul.  Mais la tour, je le sentais, avait disparu — effondrée dans la terre — et d'où émanait à présent une onde de flammes d'un blanc incandescent.  Les orcs déchirèrent notre armée sans grande résistance, leurs armes tranchant à travers les troupes elfiques, mais ils furent bientôt rattrapés par une onde d'énergie destructrice bien plus vaste encore.
+
+« Boucliers ! » criai-je tandis que le ciel entier virait à un rouge plus vif que le sang, mais par-dessus le rugissement assourdissant et soudain de l'air brûlant, nul ne m'entendit.  Cela n'aurait guère aidé de toute façon, mon armée étant désarmée, privée de ses sources habituelles de mana.  Des lances de flammes s'abattirent sur nos têtes, tranchant chair et acier en un instant avant de s'enfoncer dans la terre.  Le sol trembla, et de la lave jaillit des profondes crevasses ouvertes dans la roche.
+
+Je dressai autour de moi un bouclier arcanique par un grand effort de volonté.  Je vis mon écuyer lever la main pour en faire autant, mais un brasier lui arracha le bras.  Il n'eut même pas le temps de hurler qu'une autre vague lui brûla la moitié supérieure du torse.  Le sang qui jaillissait s'évaporait aussitôt, et l'air se remplit de brume rouge et de flammes.  Je sautai de mon cheval tandis qu'il hennissait, trébuchait, et s'effondrait, réduit en cendres, encore brûlant.
+
+Une autre vague survint, et je tentai de renforcer mon bouclier, mais sa force me souleva de terre et m'envoya voler.  Je fus ballotté dans les airs comme une feuille tourbillonnante, incapable de faire davantage que de lutter pour maintenir ma protection.  Tout autour, mon armée était complètement décimée, rangs après rangs de soldats et de mages calcinés ou déchiquetés par ces énergies brutes.  Il en allait de même pour les orcs, et une immense déchirure dans le sol engloutit un grand nombre de leurs troupes.  Des jets de lave tonnèrent bientôt vers le ciel et retombèrent en pluie sur des kilomètres à la ronde, se muant en fleuves incandescents de mort qui balayaient le paysage dévasté.
+
+Comment je parvins à rester en vie, je l'ignore encore aujourd'hui.  Je manquai plusieurs fois de sombrer dans l'inconscience, mais par une ténacité mentale que je ne me connaissais pas, je réussis à rester concentré et à maintenir mon bouclier protecteur actif.  Je devins de moins en moins conscient de mon environnement, ne sachant plus si la bulle de ma garde flottait à travers l'air, le feu ou le sang, ou si elle était engloutie dans les profondeurs d'Eyal, dans quelque enfer jamais vu auparavant.  Enfin, après ce qui parut une éternité tourmentée, l'onde d'énergie passa, et je me retrouvai gisant seul sur un éperon de terre craquelée et desséchée, l'air en une brume de chaleur autour de moi.
+
+Je me relevai péniblement et regardai autour de moi, ne voyant que désolation dans toutes les directions.  De la vapeur et de la fumée s'élevaient des déchirures du sol, et sang, membres et cendres jonchaient le paysage.  Rien n'était vivant.  Hébété, je désespérais d'être seul survivant parmi les centaines de milliers qui s'étaient tenus ici peu de temps auparavant.  Amis et compagnons, mentors et élèves, gens que je n'avais jamais connus et d'autres qui m'étaient chers — tous disparus.  Une douleur soudaine me transperça le cœur à la pensée de Linaniil.  Elle ne pouvait être morte, sûrement ?
+
+Je serrai les dents et rassemblai l'énergie nécessaire pour léviter, et en m'élevant je commençai à me repérer dans ce paysage transformé.  Lentement, je progressai vers le nord-est, survolant une dévastation au-delà de toute croyance.  Je luttai pour conserver ma raison tandis que l'odeur de chair brûlée et de sang m'environnait, ma vue emplie d'un paysage d'horreur au-delà de l'imaginable, le silence absolu plus assourdissant qu'aucun son que j'eusse jamais entendu.  Je finis par approcher de l'endroit où s'était tenue l'armée des Kar'Krul, et scrutai les terres ravagées à la recherche d'un signe de vie.  Puis je décelai faiblement quelque chose, une infime étincelle de vie, et en la cherchant je la trouvai.
+
+Ses vêtements avaient presque entièrement brûlé, ses cheveux étaient à moitié réduits en cendres, et le sang suintait librement de brûlures couvrant tout son corps.  Un faible bouclier bourdonnait encore au-dessus d'elle, mais lorsque je m'agenouillai et posai une main sur elle, il s'évanouit.  Doucement, elle prit une inspiration avant de murmurer « Neira », puis sombra dans l'inconscience.  Elle était encore en vie, mais à peine.  Je regardai alentour et ne vis nulle trace de sa sœur, ni du reste de ses troupes, hormis la chair calcinée et les ossements noircis qui marquaient le chemin de ravage tracé par le brasier.
+
+Je commençai à lancer sur Linaniil tous les sorts de guérison que je pouvais, mais je sentais que ce n'était pas suffisant, et mes pouvoirs affaiblis ne pouvaient espérer la sauver.  Je me mis à pleurer ouvertement, songeant à tout ce que j'avais perdu ce jour-là, à tout ce qui avait si terriblement mal tourné.  L'espoir s'était mué en désastre, et la cruauté du destin était bien trop lourde à porter.  Berçant contre moi la tête de mon amour mourant, je levai le visage vers le ciel et hurlai.  Le tourment perçait dans ma voix brisée, et je m'insurgeai contre toute l'injustice de la vie et la vanité de la guerre, entouré de toutes parts de sang, d'os et de cendres.  Ils avaient jadis été des âmes et des vies pleines d'espoirs et de rêves, à présent toutes balayées comme poussière au vent, et je pleurai leur mort et mon désespoir.
+
+Mais la mienne n'était qu'une voix parmi tant d'autres, un tourment, une simple note dans la grande cacophonie qui s'étendait à travers le continent.  Des millions de vies perdues et brisées, des millions de voix élevées dans l'angoisse, la torture et la souffrance, tandis que la dévastation se poursuivait sur tout Maj'Eyal sous l'effet de la force ultime de destruction : la Brûlure Magique.]], "_t")
 t("The Spellblaze Chronicles(6): A Changed Eyal", "Les Chroniques de la Brûlure Magique (6) : Un Eyal Transformé", "_t")
-t("The Spellblaze Chronicles(7): Into Darkness", "Les Chroniques de la Brûlure Magique (7) : Dans les Ténèbres", "_t")
-t("The Spellblaze Chronicles(8): Forbidden", "Les Chroniques de la Brûlure Magique (8) : Interdit", "_t")
--- texte non traduit
---[==[
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter One: A Fateful Meeting#{normal}#
-
-This tale begins in the Age of Allure, when I was yet young, and the idea of youth and age was still a pressure on our people.  It is one tale amongst a host of tales, for many are the stories of tragedy and heroism that befell all the races in this era.  I can only give my story, my tragedies, and my follies dressed as heroism, woven around the great force that shook our world and changed our histories: The Spellblaze.
-
-I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
-
-With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
-
-Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
-
-I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
-
-King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
-
-“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
-
-Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
-
-She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
-
-“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
-
-Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
-
-Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
-
-“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
-
-“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
-
-Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
-
-Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
-
-“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
-
-The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
-
-Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
-
-The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
-
-Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter One: A Fateful Meeting#{normal}#
-
-This tale begins in the Age of Allure, when I was yet young, and the idea of youth and age was still a pressure on our people.  It is one tale amongst a host of tales, for many are the stories of tragedy and heroism that befell all the races in this era.  I can only give my story, my tragedies, and my follies dressed as heroism, woven around the great force that shook our world and changed our histories: The Spellblaze.
-
-I first met Linaniil at a council summit, when our leader Ephinias was meeting with the head of the Kar’Krul.  I remember the huge man walking through the gates of our city, our people staring at his wide girth and bristling hair, his fur clothes and his proud stride.  How out of place he looked amongst us slender elves...  Some thought him a barbarian, but I could see behind his frosty eyes there was great power.  He was from a hardy race of men that once dwelt in the north of Eyal, who it was said drew power from the green fires that danced in their everwinter skies.  Turthel was his name, and the like of him has not trod through earth or snow in many centuries.  Upon his right hand he wore the Ring of Kar’Krul, a lustrous gold band adorned by a blazing ruby, token to his position as the leader of the greatest union of human mages in Maj’Eyal.
-
-With him were his twin daughters, Linaniil and Neira, who walked before him.  Identical they were in looks, yet I saw straight away that they were opposites in personality.  They were each of crimson hair, worn long in spilling tresses, with pale skin that shone in the sunlight.  They were dressed in silken robes, but whilst Neira was adorned in yellow and orange, Linaniil wore blue and silver.  Neira was bright of glance and cheery of voice, remarking on every item of beauty she passed as they strolled through the courtyards of Elvala.  Linaniil was quiet though, and stern of face, coldly analysing and calculating all she saw.  But beneath that icy exterior I could see a fire – nay, a blaze, a bright burning passion yearning to break out, yet kept restrained.  For a moment we made eye contact as the party approached the citadel, and I could see laid bare her wild spirit and untempered thoughts, a will and strength of mind that was utterly unconquerable.  It took my breath from me.
-
-Few of my people have ever understood how one of our race could be infatuated with a human.  But they have not known Linaniil.  Not as I have known her.  Like raw fire given flesh is she, a burning ball of emotions and desires.  Her fervent mind brooks no opposition, and her wit and words charm or coerce all around her.  Beautiful and radiant is her form, as bright as the summer sun, yet also cold and remote, unreachable unless she wants to be reached.  In all the ages this has never changed about her.
-
-I barely noticed Neira greeting me warmly as she passed through the gate.  Linaniil gave me but a curt nod.  I followed after, as our leader and his guests entered the grand chamber and took their seats.  The summit was to begin on the planning of a new endeavour, a great work by our highest mages to tap into the power of the Sher’Tul farportals.  Long had the relics of that ancient race lain dormant beneath the soil, their powers untouched.  With that mighty strength brought forth we could end the war with the orcs quickly and decisively.  The Spellblaze they called it, and it was a name we spoke in awe and reverence.
-
-King Ephinias began the meeting, introducing our guests and then those around him.  “This is my general,” he said gesturing to me, “Commander Gawaeil of the Shaloren Armies.”  Immediately Linaniil looked at me and gawked.
-
-“What?” she cried, staring at my armour and baldric.  She turned away from us, seeming not to heed her distinguished hosts.  “Father, what be the meaning of this?” she said to the burly man.  “Ye gave tell that the Shaloren had the mightiest battlemages, yet their general be cased in steel and girt with sword.  Does a mere fighter command experts in the Art?”
-
-Ephinias looked outraged, but I laughed suddenly, both at her extreme rudeness and her wild presumptions.  “A mere fighter?” I said between incredulous gasps.  “Lady, you would do well not to judge so on appearances.  For if I judge right I see no mere impudent lass before me, but a great master of flames and inflagrations, and a weaver of threads more stern-willed even than her chill-blooded father.  But do not presume yourself a greater worker of the Art than I!  For I am Aranion Gawaeil, master of the Arcane Blade, a channeller of mighty elemental forces.  The spells willed through my steel have slain more orcs than you have seen in your short life, or like will ever see.”
-
-She looked at me then with sudden interest.  “A strange technique it sounds.  Ludicrous it seems when one can simply burn foes from afar.  Though perhaps if we hunt orc together some time I shall see for mine self.  But ye would be hard pressed indeed to better me on the battlefield.”
-
-“I shall endeavour to impress, my lady,” I said, with a mock bow of my head.  A thin smile played across her lips.
-
-Turthel grunted and turned his shaggy head to the king.  “Business,” he said, in the blunt and brief manner I had heard reported of him.
-
-Ephinias cleared his throat and sat back in his chair.  “We have a grand plan before us,” he began. “For many years we have been plagued by orc attacks.  Initially we were weakened from the Allure Wars, but now that we are beginning to recover our strength it is time to put our joint enemy to rest.  Too often they have threatened to overrun us all, to destroy civilisation forever.  We have all lost much.  Turthel, I can deeply sympathise with your personal loss.”  The fur-clothed man did not change his expression, but I could see his daughters dip their heads in solemn thought.
-
-“I have been leading our archmages in an experiment on the Sher’Tul farportal to the east of here.  We believe we can evoke the great powers sealed within to create a wave of destructive energy that we could direct against the orcish armies.  If all the races cooperate in drawing the orcish forces out then we can end this war in one swift strike.  The orcs would be decimated beyond recovery, and Eyal would be cleansed of their presence.
-
-“I have approached the leaders of the other races.  The halflings are fully supportive.  The Nargol regents have even provided us with some of their historical research on Sher’Tul ruins.”
-
-Turthel cursed then suddenly.  “Research done on human slaves!” he barked.  He turned quiet then, letting his temper settle.  “What of your sea and forest cousins?”
-
-Ephinias looked him coolly in the eye.  “The Naloren are prideful and do not wish to cooperate.  They think they can protect their lands on their own.  Yet I believe they will thank us in the end...  The Thaloren are not entirely keen either.  But we have discussed with their king and queen, and given great assurances as to the safety of our operations.  They do not wholly trust us or our command of the arcane, but in this they will not oppose us.  Shatur is as weary of the orc attacks on its borders as any of us.  They will give aid where it is convenient, as long as they ride under their own banners.  We do not particularly need them, of course, but we thought it prudent to involve all we could.
-
-“The other human leaders have mostly assented.  Some have expressed wholly irrational fears of our activities.  Alas, legends and myths still abound to scare people away from anything to do with the Sher’Tul.  But we are confident that we know what we are doing here.  The Kar’Krul elite I’m sure will understand.  And your alliance is worth a dozen lesser kings.”
-
-The burly man stared hard and long into Ephinias’ eyes, before turning to his daughters.  “What do ye think, girls?”
-
-Neira was the first to respond, and there was colour in her cheeks and emotion in her voice.  “I deem this Shaloren king remote and proud.  Sympathy he talks of whilst using our mother’s memory as a tool.  Understanding he proclaims, yet how can any truly know the subtlety behind these Sher’Tul relics?  Untouched they be for millennia, and their original power is still unknown.  What pride lets ye think ye can toy with them now?  It be folly to use a weapon that ye know not how to wield.”
-
-The room went quiet, and I could see Ephinias was silently fuming.  He was not accustomed to such open criticism.  Then Linaniil began to speak, and her voice was low and cool, yet all ears hung on her words.  “Many have been the works of pride over the years that have arisen in splendour.  Whence have come our great artworks, our grand cities, or the arcane weavings that shape our societies?  No meekness be found in their crafting.  There be no shame in acting out of pride, and we gain nothing from misplaced humility.  Too long have the powers of the Sher’Tul been left untapped by fearful and timid hearts.”  I could see then her eyes light up with excitement.  “Think of the glories we could unlock!  This war with the orcs would be but the beginning.  Great benefit could be brought to us all.  To leave these powers buried would be a crime, I say.”
-
-Turthel paused reflectively before nodding his head slowly, and it was clear that Linaniil’s words aligned better with his own thoughts.  “Very well,” he slowly announced, looking directly at Ephinias.  “We are with you.”  Neira stayed silent with brooding concern, but a flash of satisfaction crossed her sister’s eyes.]], "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Two: A Night to Remember#{normal}#
-
-It was three nights later I awoke in darkness from a troubled dream to find my window open, the silk drapes billowing in the breeze.  As my eyes adjusted to the light I saw Linaniil stood at the foot of my bed, a thin azure dress clinging to her skin in the chill night air.  Around her was a cashmere belt inset with opals and woven with pale runes, and gold jewellery adorned her neck and wrists.  A long staff rested lightly in her hands, rubies glistening in its decorated top.  Her red hair stirred in the wind as she gazed at me.
- 
-“What are you doing here?” I enquired.  I did not bother asking how she managed to sneak into my bedchamber, past many guards.  I knew that no less than a council member would be able to divine her presence when she put her mind to illusion.
- 
-She looked at me slowly for a moment, before turning her eyes to the rest of the room, analysing my personal space in detail.  “There be a band of orcs marauding in the north,” she said in a distracted tone.  She picked an ornamental dagger from a shelf and looked it over as she spoke.  “They look like to cause trouble for some outlying elven settlements.”
- 
-“I will summon a raiding party at once,” I said, rising quickly from my bed, unheeding of modesty.
- 
-“Oh, how boring!” she complained, putting the dagger down and spinning to face me.  “What of the promise ye made to hunt orc together?”
- 
-“What, just the two of us?”
- 
-“Aye,” she said, looking my unclad form up and down with a slow gaze, seeming to take delight in the sight.  “Or are ye not man enough?”
- 
-“A strange question to ask of an elf, my lady.  But I can take this band of orcs myself, I am sure.  If you wish to tag along then I cannot promise to keep you safe.”
- 
-She laughed then, and the sound was like ringing crystal.  “Very well then!  Get ye your steel stick and we shall see who holds their own best.”  I agreed with a smile, and went to my armoury and shoved on metal greaves and a chain hauberk, my breastplate and steel gauntlets.  Linaniil tutted in surly impatience.  “Must ye wear that tin suit?”
- 
-“It is my battle gear,” said I, pulling on my visored helm and wrapping a thick cloak round my shoulders.
- 
-“Ye look like a golem,” she muttered, visibly annoyed.  “Come then, I grow bored.”  She leapt out the window, taking to the air with grace, flying away into the night.
- 
-I took then my greatsword from its hanging.  It was a simple looking blade, adorned only with a heavy moonstone on its pommel.  But its looks belied its power, for it was forged by the dwarves in their early years, before vanity overcame their works and their weapons became more for show than for battle.  It had an edge that clove through steel and bone with ease, without ever dulling the blade.  Mooncutter it is called, though it is lost to me now.  I gave it a swing through the air before leaping out the window myself, conjuring a cushion of air beneath me and following swiftly after Linaniil.
- 
-With rapid pace we flew through the scattered clouds in silence for twenty minutes before Linaniil began to descend.  I could see nestled between some low hills were the flames of campfires, and as we came closer the sound of orcish chanting became clear.  “How shall we approach them?” I called out, wondering what tactics the sorceress would want to employ.
- 
-“Directly,” she said, and with that she made a sudden burst of speed, coming right above the orcish camp and descending in their midst.  With a curse I sped after her, landing by her side and drawing Mooncutter as the orcs rose in fury and alarm, grabbing up their weapons.  As a ring of dark swords and spears and halberds gathered round us Linaniil turned to me with a wild smile.  “Time to dance.”
- 
-She shot forth a ray of purple arcane energy from her right hand, whilst her left held up her staff, its tip blazing like a torch.  Flames leapt up in tandem from my own blade as I rose it high, and swept it before me in a wide arc, cutting down the nearest brute and sending a shocking wave of fire into the troops behind it.  I pressed forward, forcing back the orcs before me with a roaring hot wind.  Their weapons dropped from their hands as they reached up to cover their faces, and with a grin of satisfaction I rushed to hew their heads off.  But as I swung my blade I was knocked to the ground from behind by a blast of fire, and turning about I saw Linaniil standing in a pillar of flame, her arms outstretched as it expanded around her.  “Too hot for ye, Aranion?” she called out as the orcs nearby were fried to a crisp, their flesh withering into black dust.
- 
-I grunted, and turned my blade into ice, and with deft sword strokes sent streams of freezing cold into the orcs around her, so that they shattered like glass before the fire ever hit them.  Linaniil cursed my name as she dropped the flames from about her.  “Don’t ruin my fun!” she exclaimed, before teleporting to the other side of the camp and beginning to blast the orcs there.
-
-I laughed and turned on the beasts nearest me, and brought tumults to the earth with each swing, so that they lost their footing and fell to the ground before my sword found their throats.  Then I conjured a mighty spark of lightning, spearing it through their densest ranks, and I rushed along its glowing length hewing down the monsters before they could react.  I laughed again with the fey heat of battle, and I discarded my helm and tore off my platemail, taking joy from moving about the field with ease and slaughtering my inferior foes.  Mooncutter danced through their flesh, and their dark blood gushed and fountained with joyful rhythm.
-
-On the far side of the camp explosions and screams marked Linaniil’s passage, and I saw burning limbs flying into the air and streaks of fire tearing through the night.  The sorceress was wreathed in flames, her eyes shining, and the dancing blaze about her made her look like a nymph of fire incarnate.  No more beautiful and awe-inspiring a sight had I ever beheld.
-
-Seeing their numbers quickly dwindling the orcs began to flee, but I phased to block their retreat and called forth a wave of water, forcing them back against Linaniil’s flames.  There against the wall of fire I dashed them, and great numbers of them fell like leaves scattered in the wind.  Blood spilled thick and plentiful, and with but a few more thrusts of Mooncutter and blasts from Linaniil’s hands the battle was over.  Not a single orc still moved, and well over four hundred lay dead on the ground.
- 
-Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
- 
-She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Two: A Night to Remember#{normal}#
-
-It was three nights later I awoke in darkness from a troubled dream to find my window open, the silk drapes billowing in the breeze.  As my eyes adjusted to the light I saw Linaniil stood at the foot of my bed, a thin azure dress clinging to her skin in the chill night air.  Around her was a cashmere belt inset with opals and woven with pale runes, and gold jewellery adorned her neck and wrists.  A long staff rested lightly in her hands, rubies glistening in its decorated top.  Her red hair stirred in the wind as she gazed at me.
- 
-“What are you doing here?” I enquired.  I did not bother asking how she managed to sneak into my bedchamber, past many guards.  I knew that no less than a council member would be able to divine her presence when she put her mind to illusion.
- 
-She looked at me slowly for a moment, before turning her eyes to the rest of the room, analysing my personal space in detail.  “There be a band of orcs marauding in the north,” she said in a distracted tone.  She picked an ornamental dagger from a shelf and looked it over as she spoke.  “They look like to cause trouble for some outlying elven settlements.”
- 
-“I will summon a raiding party at once,” I said, rising quickly from my bed, unheeding of modesty.
- 
-“Oh, how boring!” she complained, putting the dagger down and spinning to face me.  “What of the promise ye made to hunt orc together?”
- 
-“What, just the two of us?”
- 
-“Aye,” she said, looking my unclad form up and down with a slow gaze, seeming to take delight in the sight.  “Or are ye not man enough?”
- 
-“A strange question to ask of an elf, my lady.  But I can take this band of orcs myself, I am sure.  If you wish to tag along then I cannot promise to keep you safe.”
- 
-She laughed then, and the sound was like ringing crystal.  “Very well then!  Get ye your steel stick and we shall see who holds their own best.”  I agreed with a smile, and went to my armoury and shoved on metal greaves and a chain hauberk, my breastplate and steel gauntlets.  Linaniil tutted in surly impatience.  “Must ye wear that tin suit?”
- 
-“It is my battle gear,” said I, pulling on my visored helm and wrapping a thick cloak round my shoulders.
- 
-“Ye look like a golem,” she muttered, visibly annoyed.  “Come then, I grow bored.”  She leapt out the window, taking to the air with grace, flying away into the night.
- 
-I took then my greatsword from its hanging.  It was a simple looking blade, adorned only with a heavy moonstone on its pommel.  But its looks belied its power, for it was forged by the dwarves in their early years, before vanity overcame their works and their weapons became more for show than for battle.  It had an edge that clove through steel and bone with ease, without ever dulling the blade.  Mooncutter it is called, though it is lost to me now.  I gave it a swing through the air before leaping out the window myself, conjuring a cushion of air beneath me and following swiftly after Linaniil.
- 
-With rapid pace we flew through the scattered clouds in silence for twenty minutes before Linaniil began to descend.  I could see nestled between some low hills were the flames of campfires, and as we came closer the sound of orcish chanting became clear.  “How shall we approach them?” I called out, wondering what tactics the sorceress would want to employ.
- 
-“Directly,” she said, and with that she made a sudden burst of speed, coming right above the orcish camp and descending in their midst.  With a curse I sped after her, landing by her side and drawing Mooncutter as the orcs rose in fury and alarm, grabbing up their weapons.  As a ring of dark swords and spears and halberds gathered round us Linaniil turned to me with a wild smile.  “Time to dance.”
- 
-She shot forth a ray of purple arcane energy from her right hand, whilst her left held up her staff, its tip blazing like a torch.  Flames leapt up in tandem from my own blade as I rose it high, and swept it before me in a wide arc, cutting down the nearest brute and sending a shocking wave of fire into the troops behind it.  I pressed forward, forcing back the orcs before me with a roaring hot wind.  Their weapons dropped from their hands as they reached up to cover their faces, and with a grin of satisfaction I rushed to hew their heads off.  But as I swung my blade I was knocked to the ground from behind by a blast of fire, and turning about I saw Linaniil standing in a pillar of flame, her arms outstretched as it expanded around her.  “Too hot for ye, Aranion?” she called out as the orcs nearby were fried to a crisp, their flesh withering into black dust.
- 
-I grunted, and turned my blade into ice, and with deft sword strokes sent streams of freezing cold into the orcs around her, so that they shattered like glass before the fire ever hit them.  Linaniil cursed my name as she dropped the flames from about her.  “Don’t ruin my fun!” she exclaimed, before teleporting to the other side of the camp and beginning to blast the orcs there.
-
-I laughed and turned on the beasts nearest me, and brought tumults to the earth with each swing, so that they lost their footing and fell to the ground before my sword found their throats.  Then I conjured a mighty spark of lightning, spearing it through their densest ranks, and I rushed along its glowing length hewing down the monsters before they could react.  I laughed again with the fey heat of battle, and I discarded my helm and tore off my platemail, taking joy from moving about the field with ease and slaughtering my inferior foes.  Mooncutter danced through their flesh, and their dark blood gushed and fountained with joyful rhythm.
-
-On the far side of the camp explosions and screams marked Linaniil’s passage, and I saw burning limbs flying into the air and streaks of fire tearing through the night.  The sorceress was wreathed in flames, her eyes shining, and the dancing blaze about her made her look like a nymph of fire incarnate.  No more beautiful and awe-inspiring a sight had I ever beheld.
-
-Seeing their numbers quickly dwindling the orcs began to flee, but I phased to block their retreat and called forth a wave of water, forcing them back against Linaniil’s flames.  There against the wall of fire I dashed them, and great numbers of them fell like leaves scattered in the wind.  Blood spilled thick and plentiful, and with but a few more thrusts of Mooncutter and blasts from Linaniil’s hands the battle was over.  Not a single orc still moved, and well over four hundred lay dead on the ground.
- 
-Linaniil and I stood facing each other, panting with sudden exhaustion as the adrenaline of the fight left us.  “I lost count,” I said between breaths, “of who slew more…”  She grinned coyly at me, sweat trickling down her face.  Minor cuts and burns left her robe in tatters, with one shoulder strap hanging loose.  Her glistening chest heaved up and down with each breath, and her deep eyes looked at me with naked intensity.
- 
-She strode forward then, and grabbing me roughly by my hauberk she pulled my lips to hers.  The kiss was hot and fierce, and as she bit my lower lip the course of blood in battle came back to me afresh.  I kissed her again and grabbed her body, pulling her tight to me, our lips locked.  She tore lustfully at my remaining armour, flinging it to the ground, and I slid off her silken clothes, till we were left bare beneath the stars.  Then against a rocky outcrop we pressed against each other, still gasping and sweating from the fight.  There with blazing passion flesh met flesh and our hot moans rose into the cold night sky.]], "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Three: The Farportal#{normal}#
-
-“Why are ye not leader?” asked Linaniil, resting her head in her hand with her naked form strewn across my bed.
- 
-I looked at her, surprised by the sudden question.  My mind struggled briefly with the strange query, still recovering from the heat of sex but a minute before.  “Why should I be leader?” I asked back.
- 
-“Because ye are strong, of course,” she responded.  “I deem ye stronger in battle than any of your kin.  Ye should rule with such strength.”
- 
-I chuckled softly.  “Mere strength is not enough to rule a people.  It requires responsibilities, careful decision making, and above all – politics.  I have no interest in such matters.  Ephinias is far better suited to those sorts of things.  Give me a sword and soldiers to lead into battle and I am content.  Let the leaders worry about where I should point my blade.”
-
-She was quiet a moment, seemingly dissatisfied with that response.  “Ye are not happy with the current plans though.”
-
-For a moment I was struck with shock.  It surprised me how clearly she divined my inner thoughts.  I had not expressed my concerns to anyone, yet she could so easily read me.  Five weeks it had been since we first met, and it seemed like there was nothing I could hide from her keen sight.
- 
-The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
- 
-“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
-
-“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
-
-I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
- 
-Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
- 
-I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
- 
-She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
- 
-I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
- 
-Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
- 
-“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
- 
-“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
- 
-“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
- 
-As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
- 
-I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
- 
-“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
- 
-“I am quite capable of taking care of myself,” I said in clipped tone.
- 
-She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
- 
-Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
- 
-Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
- 
-Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
-
-Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
- 
-The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
- 
-“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
- 
-We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
- 
-He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
- 
-“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
- 
-I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
- 
-“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
- 
-If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
- 
-The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
- 
-He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
- 
-Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
- 
-Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
- 
-“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
- 
-I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
- 
-Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Three: The Farportal#{normal}#
-
-“Why are ye not leader?” asked Linaniil, resting her head in her hand with her naked form strewn across my bed.
- 
-I looked at her, surprised by the sudden question.  My mind struggled briefly with the strange query, still recovering from the heat of sex but a minute before.  “Why should I be leader?” I asked back.
- 
-“Because ye are strong, of course,” she responded.  “I deem ye stronger in battle than any of your kin.  Ye should rule with such strength.”
- 
-I chuckled softly.  “Mere strength is not enough to rule a people.  It requires responsibilities, careful decision making, and above all – politics.  I have no interest in such matters.  Ephinias is far better suited to those sorts of things.  Give me a sword and soldiers to lead into battle and I am content.  Let the leaders worry about where I should point my blade.”
-
-She was quiet a moment, seemingly dissatisfied with that response.  “Ye are not happy with the current plans though.”
-
-For a moment I was struck with shock.  It surprised me how clearly she divined my inner thoughts.  I had not expressed my concerns to anyone, yet she could so easily read me.  Five weeks it had been since we first met, and it seemed like there was nothing I could hide from her keen sight.
- 
-The preparations for the Spellblaze were well underway.  Turthel of the Kar’Krul had returned to his northern citadel, but he left his daughters as ambassadors to aid in our designs.  It meant Linaniil and I had many an opportunity to meet, though we kept it secret.  Few of my race would understand or approve of such a liaison, and none of us could afford a scandal. Yet I could not resist this human mage’s advancements, nor she mine.
- 
-“I am a warrior,” I said to her finally, getting brusquely from my bed and recovering my robes.  “I settle my battles facing my foe, not by toying with relics from afar.  It irks me that we must deal with our enemies in such a craven way.”
-
-“But does it not excite ye, using these Sher’Tul ruins?” she said, putting a finger to her lower lip as she still languished in my bed, the sheets sticking tightly to her bare skin.  She seemed visibly aroused by her thoughts.  “Such powers lain dormant for so long, ready to be summoned to our control...  How it were I to command so great a venture!”
-
-I shook my head sadly as I finished buttoning up my doublet.  “I do not trust those ruins.  We Shaloren are mighty, but we have yet to reach the heights of the Sher’Tul, nor do we truly understand the devices they have left behind.  My thoughts are more with your sister Neira on this.  We should stick to what abilities we have mastered, without stretching ourselves to such grand experimentation.”
- 
-Linaniil looked at me intently, a touch of humour in her dark eyes.  “If ye were leader then ye could stop this.  But then I would have to hate ye.”
- 
-I allowed myself a thin smile.  “Well, that would indeed be a terrible and dangerous thing.”  I finished dressing whilst Linaniil still lay in my bed, her face reflective.  “I must go now to check on the latest operations at the farportal.  You are welcome to join me.”
- 
-She shook her head languidly.  “Nay, I wish to rest more.  And besides, hearing their reports would but make me jealous.  Leave me here awhile – I wilst depart in secret later.”
- 
-I left my chamber then, dark thoughts now brooding at the back of my mind.  The date was coming closer when our plans would come to fruition and the Great Spellblaze would be unleashed.  A heavy foreboding lay over my heart.  Yet the alternatives seemed grim.  The war with the orcs was going badly, with few races able to secure their borders well and attacks from the brutes ever increasing.  Their numbers seemed inexhaustible.  Though they had little skill in warfare they could bring great harm to unprotected townsteads, and in enough force could bring down cities.  One human kingdom had collapsed under their attacks but a week before.  After that many who had initially rejected our plans came begging for our protection.  The Spellblaze seemed our only hope against imminent disaster.
- 
-Such thoughts were weighing on my mind as I passed from my chambers in the palace, down to the courtyard by the main gate.  Then from the corner of my eye I saw a swish of long red hair, and spun round thinking Linaniil had followed me.  But the golden robes and bright eyes of Neira revealed otherwise.
- 
-“Expecting someone else?” she asked with a wide smile, seeing the surprised look on my face.
- 
-“I was deep in thought,” I explained, bowing slightly to greet her.  “I am just on my way to inspect the farportal operations.  Perhaps you-“
- 
-“I shall join ye,” she said quickly, not waiting for my invitation.  I nodded my assent and guided her to my carriage.
- 
-As soon as we took off east the mood changed.  “She wilst only hurt ye,” said Neira suddenly.
- 
-I cursed quietly, understanding her meaning.  “Are there no secrets to be had in all Eyal?” I muttered.
- 
-“Not between sisters, and especially not between twins.”  She smiled warmly at me, yet there was no humour in her eyes.  “I mean it though.  I love mine sister, but I know her ways.  She be fickle, and willed to do her own thing when she likes.  Do not be surprised when she bores of ye.  Nor hurt.”
- 
-“I am quite capable of taking care of myself,” I said in clipped tone.
- 
-She gazed into my eyes a moment and then turned away to stare out the window.  “Well, I have warned ye...” she replied softly, a touch of sadness in her voice.
- 
-Was it jealousy perhaps that stirred such an outburst?  And for her sister’s attention or for mine?  I never did discover.  The rest of the trip was spent in sullen silence.  The sun was setting behind our carriage, casting a long shadow on the path ahead, and bathing the land about in crimson light.  It seemed for a moment like we rode into some demon’s plane, pitch black shadows melting into blood-red soil, whilst cold white stars began to spear through the sky above.  I shivered suddenly as the ruins came into view.
- 
-Few Sher’Tul ruins have been discovered which even come close to matching the grandeur of those which were near Elvala.  Many centuries our people spent excavating them, digging deep into the ground, ever careful not to damage or upset the relics.  The centrepiece was the Crystal Tower.  From the surface all that could be seen of it was a wide, even-sided square, which when cleaned of soil revealed a white stone smoother than marble.  But delving down our archaeologists found it plummeted deep, deep below the ground.  Half a mile it went down, the featureless white stone not bearing a single mark or engraving anywhere on its surface, until it ended suddenly and without foundation.  It was like the whole tower was separate from the earth, some strange thing of the stars that had dropped from the skies and lay sleeping beneath the soil.
- 
-Some years earlier our people had solved the invisible runes that allowed it to be opened, revealing vast crystal-lined halls and chambers arrayed in geometric patterns of sublime beauty.  Light sparked and shone from every surface, and the walls seemed to hum with energy.  Many shafts and passageways could only be navigated by flight, and at the top was found a grand room large enough to encompass the whole palace of Elvala.  At its centre was the farportal, a raised dais forty feet in diameter and crackling with energy upon which slowly spun a cloud of stars.  It was beautiful and frightening, enchanting and terrifying.  No power of the Shaloren could discern its operation, and though through careful experimentation we were able to manipulate its energies, never could we get a true grasp of the forces that lay beneath.
-
-Neira and I descended to the base of the tower, smothered in the cold shadows of the excavated ruins.  I nodded to the guards as we passed through the square white entrance, and Neira’s eyes instantly enlarged in wonder.  The scintillating rooms were eye-catching to be sure, but they were also desolate and empty.  I tried to imagine what it must have looked like when filled with Sher’Tul.  “How did they all die?” I asked under my breath as we traversed the crystal halls, a question many had asked before.
- 
-The sorceress picked up on my words and laughed softly.  “It be a mystery, of course!  Mine mother once taught me that they killed themselves in a great civil war, using magics far beyond our imaginings.”
- 
-“I wonder,” said I.  We had our own records, of course, which we didn’t share with the younger races, but they were not so clear-cut as the many myths that had spread over the ages.
- 
-We reached the central shaft, and from there levitated up past floors and floors of abandoned chambers, living spaces, workshops, storerooms, and many other areas of purpose undivined by our loremasters.  Finally, after ascending for several minutes, we rose into the grand chamber of the farportal, and Neira gasped to see its size.  Her eyes soon settled on the great Sher’Tul farportal, sparks from it reflecting off the roof hundreds of feet above.  About it were bustling many of our Shaloren mages in silken robes, and Ephinias himself was leading the operations.
- 
-He broke from his advisers as he saw us arrive, and strode towards us with a confident smile on his face.  Though he wore the grey robes of a research mage he still bore his great golden staff, Luminis, token of his position as king.
- 
-“Ah, General Aranion!” he said, “You have come at last.  And brought the Kar’Krul girl with you; how splendid.”
- 
-I gave a small bow.  “Your majesty.  I am here for the update on our operations.”
- 
-“Yes, yes, of course,” he said with a dismissive hand gesture.  “And doubtless the girl is here to make sure we know what we’re doing?”
- 
-If Neira was offended she covered it up well.  “It would be mine delight to see evidence of ye skill and power over the ruins, lord Ephinias.”
- 
-The king smiled and nodded then, and called to some of his aides.  “Prepare the topography demonstration, using the acute fire strand.”  He turned back to us then.  “It is not mere skill and power of course that we can show you, but subtlety and scale too.  Now excuse me a moment whilst I join the others.”
- 
-He went with two of the senior research mages then to the front of the farportal.  They faced each other and began a low humming in unison, and slowly it seemed that the sparks from the farportal began to flicker redly.  Over the course of a few minutes their hum became a higher pitched chant, but softly sung and still in perfect unison.  As they raised their staffs there appeared above the farportal an image in flames, and looking at it both Neira and I marvelled, for we could see clearly that it was an image of ourselves, looking upwards, as if looking we were staring into a mirror.  Our features and movements were all clearly discernible, down the smallest detail, all carved out of flickering orange fire.
- 
-Then the chanting rose higher and it seemed the image zoomed out, so that we saw the farportal nearby us and the mages gathered about.  And still the focus soared upwards till we were but specks in a wide hall, until the image was displaced by a white square with carven edges dug into the earth about it, and I knew we were looking at the top of the Crystal Tower from above.  The view widened, and I could see the land rushing away, and the city of Elvala to the west.  The chanting rose higher and now the sea could be seen, and the mountains to the north-west, and all the land about.  And soon the continent was visible, right to the frozen north, and the ocean wrapped all about, and it seemed small white stars were dotted about the landscape.  The singing reached a crescendo and before us hung an image of the whole of Eyal, a globe of fire suspended in mid-air, slowly turning.
- 
-Then the chanting stopped and the image disappeared, and I could hear beside me Neira suddenly gasp for air, as if she had not dared draw breath through the last few minutes.
- 
-“You see now?” said Ephinias, grinning with pleasure.  “From the smallest detail to the grandest scale we can manipulate the farportal’s energy.  And did you see those white points marked across the image?  They are the other farportals spread across the world, and this one can connect to them all.  With careful, delicate control we can harmonise the energy of them all and use it to our will.  I’m afraid your sword can be no match to this, Aranion.”
- 
-I had no words to respond, and only nodded softly, still in awe of what I had seen.  Neira seemed the same, and I could see her now staring at the farportal with the same eager eyes as her sister.  She was converted.
- 
-Yet my hand strayed across the hilt of Mooncutter, and my heart still murmured with unease.]], "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Four: Before the Dawn#{normal}#
-
-I rode my great grey horse at a low trot, surrounded by my lieutenants and their elite cavalry and spellrangers.  Beside me on a brown mare my squire held high a banner emblazoned with a flame-wreathed sword, symbol of my personal entourage.  The pole seemed to shiver slightly in the young elf’s hands, a sign of nervousness.
- 
-“Hold that banner firm, boy,” I said in a commanding tone.
- 
-The squire suddenly sat upright in his saddle, and gripped tight on the banner pole.  “Yes, sire!” he said, alarmed.  “Whatever you say, sire!”  He kept his head faced forward but I could see his eyes glance towards me, desperate for approval.  Whatever I say indeed...  I had seen his gaze on me before, with all the adoration of a young soldier towards his commander, and perhaps a little more.  If I had not the joy of Linaniil’s company then the attention of such a pretty lad would not be unwelcome.  But this was not the time for such thoughts.
- 
-This would be the day, the day of the Spellblaze, and the boy had every right to be nervous.  It was a few hours after midnight, and already our scouts would be engaged alongside the other races, drawing out the orcs from their hiding places.  We marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
-
-I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
-
-A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
- 
-When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
- 
-As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
- 
-Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
- 
-“What irks your sister?” I whispered to Linaniil.
- 
-“Some dumb dream,” she responded callously.
- 
-Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
- 
-“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
- 
-Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
- 
-“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
- 
-She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
- 
-I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
-
-They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
- 
-“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
-
-I shrugged and smiled modestly.  “I said what I had to.”
- 
-She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
- 
-“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
- 
-“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
- 
-We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
-
-Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Four: Before the Dawn#{normal}#
-
-I rode my great grey horse at a low trot, surrounded by my lieutenants and their elite cavalry and spellrangers.  Beside me on a brown mare my squire held high a banner emblazoned with a flame-wreathed sword, symbol of my personal entourage.  The pole seemed to shiver slightly in the young elf’s hands, a sign of nervousness.
- 
-“Hold that banner firm, boy,” I said in a commanding tone.
- 
-The squire suddenly sat upright in his saddle, and gripped tight on the banner pole.  “Yes, sire!” he said, alarmed.  “Whatever you say, sire!”  He kept his head faced forward but I could see his eyes glance towards me, desperate for approval.  Whatever I say indeed...  I had seen his gaze on me before, with all the adoration of a young soldier towards his commander, and perhaps a little more.  If I had not the joy of Linaniil’s company then the attention of such a pretty lad would not be unwelcome.  But this was not the time for such thoughts.
- 
-This would be the day, the day of the Spellblaze, and the boy had every right to be nervous.  It was a few hours after midnight, and already our scouts would be engaged alongside the other races, drawing out the orcs from their hiding places.  We marched through our main offensive lines, where we would hem them in before the great conflagration.  All around were arrayed spears and swords and mail, glistening in the starlight.  Troops upon troops of battlemages in purple robes held aloft glowing staves.  It was a sight to behold.  Yet we knew also the risk of engaging on open ground with the orcs in their full numbers.  If the Spellblaze failed then we would suffer greatly.
-
-I set up camp upon a low hill overlooking the field, and then left my entourage to seek the Kar’Krul army to the north.  As I rode my stallion towards their station I could see smoke rising in the east.  Four thick grey plumes stood out against the pre-dawn light.  They would be villages looted and burned by the orcs as they rampaged against our feigned assaults.  The townsteads would be empty, but after this battle there would be nothing left for their residents to return to.  A small sacrifice in a game of war that spanned the continent.
-
-A fifth column of smoke began to rise, and in the greenish haze of early morn those pillars of smoke suddenly seemed to look like a demonic hand stretching over the world, ready to dig its claws into the earth and rip out the flesh beneath.  This, I knew, was the threat the orcs faced to us all, a menace to all civilisation.  Whatever price we paid to stop them would be a small one.  So I thought.  So we all thought.
- 
-When I reached the Kar’Krul camp Linaniil came out to meet me.  Her smile was warm at the sight of me, but I could tell from her eyes that she was more excited for the events of the day.  “Just a few more hours,” she whispered like an impatient child.  “This will be fascinating!”
- 
-As I came in the Kar’Krul pavilion I saw Neira inside, and some of their senior mages and delegates from other human kingdoms.  I knew Turthel would not be with them, as he stayed in his northern city with his people.  It was not cowardice nor age that held him back from the front lines of war.  Indeed, it was said that ever since his wife was killed by the orcs he had to restrain himself from battle, lest his anger overcome him and he destroy friend and foe alike in his rage.  Yet it was known that sometimes he would venture through the lands alone, and he would bring with him a deafening storm of wrath, and the orcs would cower at the rumour of the approach of Turthel, Tempest of the North.
- 
-Neira and Linaniil commanded the Kar’Krul forces, and from the firm-set look on their archmages’ faces it was clear that they were ready for whatever the day would bring.  Yet Neira looked troubled, doubt evident in her eyes.
- 
-“What irks your sister?” I whispered to Linaniil.
- 
-“Some dumb dream,” she responded callously.
- 
-Neira’s eyes shot up.  “It were not a dream!” she barked.  “An omen it were, I tell ye!”  She turned to me then with pleading eyes.  “Ye must believe me, Aranion.  Something wilst go terribly wrong today.  I saw last night a terrible sight in mine dreams, as if it were a memory of long ago.  There were a burning city, made of glass and silver and marble.  And as it burned I did hear the cries of thousands, tens of thousands, young and old all dying.  And then the city fell, for it had been held in the sky, and it crashed down to the earth with a shattering torment that spilled across the land.  And other cities there were, and pillars of violet light struck up from them, and they did dance around filling the air with the scent of ozone and seared flesh.  Death was everywhere!  Death like none we have ever seen.
- 
-“It were no mere dream I tell ye.  It be a message, a warning - some forgotten tale of the dangers we play with.  We must stop this thing!”
- 
-Linaniil was tapping her foot impatiently as her sister raved, but I could see some of the other leaders looking worried.  I knew I had to quiet Neira down, so I drew myself near and put my hands on her shoulders, looking her calmly in the eyes and bringing my face close.
- 
-“It may well be that this is no dream.  For this is no normal day, and even in all the legends of ages past this will stand out as a day of reckoning.  Our civilisation in under peril, our way of life threatened from the orcish scourge.  We rest upon a knife edge, the world balancing on a pivot, and the wrong sway could tip us into darkness and despair forever.  Our actions today will decide this.  So yes, you have had a warning, you have had a message, and that message is to be strong.  For today we all hold the reins of fate in our palms, and only the steady hand can guide us past the threat of doom that is to come.  Neira, can you be that steady hand?”
- 
-She looked at me with open and hopeful gaze, her fingers clenched around my wrist as if she sought to draw strength from me.  She nodded slowly then.  “I’m sorry Aranion.  I just... I’ll be strong.”
- 
-I turned to the others who all seemed rapt by my words.  It was clear that leaving them to their own thoughts could only bring trouble.  I had to pull them into action straight away.  “It begins now!” I shouted.  “Gather your troops and prepare for the march.  Slow and steady we shall advance, carefully shall we hold the battle, and beyond fire and fury we will emerge free and victorious.  This day shall stand in history forever!  This day shall mark a new era for all the races!  The day of the Spellblaze is here!”
-
-They all cheered and rushed to order their troops, taking courage from the duties of command.  Neira went to her own mages, and I left the pavilion alone.  But outside I was ambushed by Linaniil, who pulled me into an empty tent with a playful laugh.
- 
-“Ye said ye were no leader!” she exclaimed with a grin.  “That were a leader’s speech if ever I heard one.”
-
-I shrugged and smiled modestly.  “I said what I had to.”
- 
-She drew close then, a sudden flush of worry in her face.  “It were just a dream, right?”  I could see then beneath all the bravado and humour she was mortally scared, her fingers trembling as she gazed into my eyes, yearning for reassurance.
- 
-“It was just a dream,” I lied, and it is a lie I have paid for with all my heart and soul.  “Everything will be all right.”  I pulled her close and wrapped my arms around her slender frame, and she held tight to me, still trembling slightly.
- 
-“Thank you, Aranion,” she whispered.  Turning up her face she kissed me, and it was the softest, most delicate kiss she ever gave me.  It was also the last.
- 
-We parted then, and I began the lonely ride back to my own troops.  My heart was now pounding like a deafening war drum, whilst the words of Neira still echoed round my head.  They stirred up a memory in me of a dream I myself had that morning, but that had laid dormant in my mind till then.  I was lying in my bed, and floating above me was a shape of light and air, like the figure of a creature I had never seen before.  It had long tentacles for arms, and billowing robes fluttered about it slowly.  Where it should have a head there was only a small bump, but I could tell it was focused on me.  It stretched out a long tentacle towards me, as if it were warding against a dark and dangerous threat.  A feeling came over me of terrible foreboding, the looming portent of a doom like no other the world had ever seen.  As the tip of the tentacle neared my brow everything went black.
-
-Was it a dream?  Some strange foretelling?  Or could it have been a true apparition, something trying to give me a direct warning?  But I had no time for such thoughts.  The time of the Spellblaze was nearly upon us, and there could be no room for doubt.  I spurred my horse on to my fate.]], "_t")
-t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
-
-I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
-
-Trumpets blared from the bulwarks at the front, as they readied to engage with the first wave when needed.  To the north were archers to crumble the initial resistance, and at their flank a legion of spellriders, their hands glowing with arcane energies as they sat atop their fearsome steeds.  On the south was the regular cavalry, the greatswords, the armoured knights and the main bulk of our mages, readying support spells.  Here and there senior battlemages were dotted about, ready to move swiftly to points of intense activity and blast it away.  There was no need to have more than one of them in any place - alone they could decimate a score of orcs with ease.
-
-Drums beat loudly in the distance, and a clamour arose from the enemy.  They had with them trained beasts and trolls, and were arrayed in swords and maces and crude armours.  One took up a loud howl and others joined in, and the air seemed to reverberate with their ugly voices.
-
-The cacophony was unsettling, but my army responded with a display of power.  Swords and speartips rose into the air, and crackles of lightning shot up to the heavens, the sparks shining off the gleaming blades and armour.  The orcish army gasped in dismay.  The eastern skyline was beginning to glow red, and we knew the dawn would break any moment now, the signal for the start of the Great Spellblaze.
-
-“The day is here!” one of our warriors shouted out, and it was taken up elsewhere by the marching troops.  “The day is here!” they began to chant, anticipating the glory to come.  “The day is here!” my squire sang, his voice full of youthful joy and hope.  “The day is here!” we all shouted in unison, the pride of the Shaloren kingdom in our hearts as we watched the first rays of sunlight shine out from the horizon.  “The day is here!  The day is here!  The day is-”
-
-Silence.  All at once our voices dropped, and a terrible brooding silence swept over the battlefield.  We could feel it, every one of us, so attuned are our race to the flows of magic.  It was like having the breath sucked from one’s lungs, or the earth disappear from beneath one’s feet.  All our mana channels were gone, changed suddenly, arcane energies beyond all reach.  Groans and murmurs began to arise, as mages clutched at their heads in sudden despair.  I saw my squire lurch forwards in his saddle and begin to vomit uncontrollably, my standard slipping from his hand, whilst others fell to the ground in pain.  I struggled to battle an overwhelming migraine, blotches appearing in front of my eyes, and with great effort of will I managed to keep control of myself and began to seek out new paths of mana.
-
-But there was something wrong, terribly wrong.  Like a river run off its course the flow of magic across the whole of Eyal had changed.  What could have caused this?  And now I had to fight years of attunement and training that had taught me to naturally rely on the known flows and courses so that I might find new paths, new sources.  And as I did so I put my powers into divination, and what I discovered shocked me to my core.
-
-The orcs saw us in disarray and began to charge.  But my attention was turned west, not east, towards Elvala and the Crystal Tower where our leaders had been manipulating the Sher’Tul farportal.  But the tower, I felt, was gone - crumpled into the earth, and from there now emanated a wave of white-hot flame.  The orcs tore into our army with little resistance, their weapons tearing through the elven troops, but they were soon met by a wave of destructive energy far greater.
-
-“Shields!” I shouted out as the whole sky turned redder than blood, but above the sudden deafening roar of roasting air I was not heard.  It would have helped little anyway, defenceless as my army was without their usual sources of mana.  Spears of flame streaked down on our heads, shearing through flesh and steel in an instant and sinking into the earth.  The ground shook, and lava blasted up from the deep holes torn into the rock.
-
-I put an arcane shield about myself with a great effort of will.  I saw my squire raise a hand to do the same, but a blaze tore off his arm.  He didn’t even get to scream before another wave burned through the top half of his torso.  Spurting blood evaporated instantly, and the air became full of red mist and fire.  I leapt from my horse as it neighed and stumbled and fell burning into ash.
-
-Another wave came, and I tried to strengthen my shield, but the force of it took me off my feet and sent me flying.  I was thrashed through the air like a swirling leaf, unable to do anything more than struggle to maintain my protection.  All about my army was being utterly decimated, ranks and ranks of soldiers and mages burnt to a crisp or torn apart by the raw energies.  The orcs were the same, and a huge rent in the ground swallowed great numbers of their troops.  Blasts of lava soon thundered upward and rained down for miles around, turning into glowing rivers of death that swept across the consumed landscape.
-
-How I managed to stay alive I am still not sure.  I almost slipped from consciousness at several points, but by a mental tenacity I never knew I had I managed to stay focused and keep my protective shield active.  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
-
-I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
-
-I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
-
-Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
-
-I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
-
-But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
-
-#{bold}#Chapter Five: The Day of the Spellblaze#{normal}#
-
-I loosened Mooncutter in its sheath as the troops marched forwards.  My grip tightened on the reins, holding my horse in check lest it gallop ahead in the excitement, and I could see my squire to my left doing the same.  The tension in the air was palpable.  Before us, less than a mile away, the vanguard of the orcish armies was now visible.  We had stirred up their nest and they had responded in full force.  They were like a shadowy blight that swallowed up the horizon, a great pestilence that threatened to consume the world.  Before me the armies of the Shaloren seemed small in comparison, but I knew our strength was not told by mere numbers.
-
-Trumpets blared from the bulwarks at the front, as they readied to engage with the first wave when needed.  To the north were archers to crumble the initial resistance, and at their flank a legion of spellriders, their hands glowing with arcane energies as they sat atop their fearsome steeds.  On the south was the regular cavalry, the greatswords, the armoured knights and the main bulk of our mages, readying support spells.  Here and there senior battlemages were dotted about, ready to move swiftly to points of intense activity and blast it away.  There was no need to have more than one of them in any place - alone they could decimate a score of orcs with ease.
-
-Drums beat loudly in the distance, and a clamour arose from the enemy.  They had with them trained beasts and trolls, and were arrayed in swords and maces and crude armours.  One took up a loud howl and others joined in, and the air seemed to reverberate with their ugly voices.
-
-The cacophony was unsettling, but my army responded with a display of power.  Swords and speartips rose into the air, and crackles of lightning shot up to the heavens, the sparks shining off the gleaming blades and armour.  The orcish army gasped in dismay.  The eastern skyline was beginning to glow red, and we knew the dawn would break any moment now, the signal for the start of the Great Spellblaze.
-
-“The day is here!” one of our warriors shouted out, and it was taken up elsewhere by the marching troops.  “The day is here!” they began to chant, anticipating the glory to come.  “The day is here!” my squire sang, his voice full of youthful joy and hope.  “The day is here!” we all shouted in unison, the pride of the Shaloren kingdom in our hearts as we watched the first rays of sunlight shine out from the horizon.  “The day is here!  The day is here!  The day is-”
-
-Silence.  All at once our voices dropped, and a terrible brooding silence swept over the battlefield.  We could feel it, every one of us, so attuned are our race to the flows of magic.  It was like having the breath sucked from one’s lungs, or the earth disappear from beneath one’s feet.  All our mana channels were gone, changed suddenly, arcane energies beyond all reach.  Groans and murmurs began to arise, as mages clutched at their heads in sudden despair.  I saw my squire lurch forwards in his saddle and begin to vomit uncontrollably, my standard slipping from his hand, whilst others fell to the ground in pain.  I struggled to battle an overwhelming migraine, blotches appearing in front of my eyes, and with great effort of will I managed to keep control of myself and began to seek out new paths of mana.
-
-But there was something wrong, terribly wrong.  Like a river run off its course the flow of magic across the whole of Eyal had changed.  What could have caused this?  And now I had to fight years of attunement and training that had taught me to naturally rely on the known flows and courses so that I might find new paths, new sources.  And as I did so I put my powers into divination, and what I discovered shocked me to my core.
-
-The orcs saw us in disarray and began to charge.  But my attention was turned west, not east, towards Elvala and the Crystal Tower where our leaders had been manipulating the Sher’Tul farportal.  But the tower, I felt, was gone - crumpled into the earth, and from there now emanated a wave of white-hot flame.  The orcs tore into our army with little resistance, their weapons tearing through the elven troops, but they were soon met by a wave of destructive energy far greater.
-
-“Shields!” I shouted out as the whole sky turned redder than blood, but above the sudden deafening roar of roasting air I was not heard.  It would have helped little anyway, defenceless as my army was without their usual sources of mana.  Spears of flame streaked down on our heads, shearing through flesh and steel in an instant and sinking into the earth.  The ground shook, and lava blasted up from the deep holes torn into the rock.
-
-I put an arcane shield about myself with a great effort of will.  I saw my squire raise a hand to do the same, but a blaze tore off his arm.  He didn’t even get to scream before another wave burned through the top half of his torso.  Spurting blood evaporated instantly, and the air became full of red mist and fire.  I leapt from my horse as it neighed and stumbled and fell burning into ash.
-
-Another wave came, and I tried to strengthen my shield, but the force of it took me off my feet and sent me flying.  I was thrashed through the air like a swirling leaf, unable to do anything more than struggle to maintain my protection.  All about my army was being utterly decimated, ranks and ranks of soldiers and mages burnt to a crisp or torn apart by the raw energies.  The orcs were the same, and a huge rent in the ground swallowed great numbers of their troops.  Blasts of lava soon thundered upward and rained down for miles around, turning into glowing rivers of death that swept across the consumed landscape.
-
-How I managed to stay alive I am still not sure.  I almost slipped from consciousness at several points, but by a mental tenacity I never knew I had I managed to stay focused and keep my protective shield active.  I became less aware of my surroundings, not knowing if the bubble of my ward was floating through air or fire or blood, or swallowed into the depths of Eyal into some hell never before witnessed.  At last, after what seemed like a tortuous age, the wave of energy passed, and I found myself lying alone on an outcrop of cracked and parched earth, the air a haze of heat about me.
-
-I struggled to my feet and looked around, seeing nothing but desolation in all directions.  Steam and smoke rose from rents in the ground, and blood, limbs and ashes were strewn about all over.  Nothing was alive.  In a daze I despaired that I was alone of the hundreds of thousands who had stood here but a short while before.  Friends and comrades, mentors and students, people I had never known and ones I was dearly close to - all gone.  A sudden pain lanced my heart as I thought of Linaniil.  She could not be dead, surely?
-
-I gritted my teeth and summoned the energy to levitate, and as I rose I began to get my bearings around the changed landscape.  Slowly I pushed north-east, passing over devastation beyond belief.  I struggled to keep a grip on my sanity as the scent of burnt flesh and blood surrounded me, my vision filled with a horrored landscape beyond imagination, the utter silence more deafening than any sound I had ever heard.  Eventually I came near to where the Kar’Krul army had stood, and cast about the ruined land for some sign of life.  Then faintly I detected something, some small sliver of life, and searching it out I found her.
-
-Her clothes had been mostly burned off, her hair half turned to ash, and blood was seeping freely from burns all across her body.  A weak shield still hummed over her, but as I knelt down and laid a hand on her it vanished.  Quietly she gasped a breath before whispering, “Neira”, and sinking into unconsciousness.  She was still alive, but barely.  I looked about and saw no signs of her sister, or of any of the rest of her troops, other than the scorched flesh and blackened bones that marked the scourging path swept by the blaze.
-
-I began to cast what healing spells I could on Linaniil, but I could tell it was not enough, and my weakened powers could not hope to save her.  I began to cry openly, thinking of all I had lost this day, all that had gone so terribly wrong.  Hope had turned to crisis, and the cruelty of fate was far too much for me to bear.  Cradling my dying love’s head in my lap I turned my face to the sky and screamed.  Torment was in my cracked voice, and I raged against all the injustice of life and the futility of war, surrounded on all sides by blood and bones and ashes.  They had once been souls and lives with hopes and dreams, now all cast away like dust in the wind, and I lamented their deaths and my despair.
-
-But mine was just one voice, one torment, a single note in the great cacophony that spread across the continent.  Millions of lives lost and shattered, millions of voices raised in anguish and torture and suffering, as the devastation continued over all Maj’Eyal from the ultimate force of destruction, the Spellblaze.]], "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Six: A Changed Eyal#{normal}#
@@ -13181,72 +13177,73 @@ The ceremony was organised in under an hour, and I was anointed leader of the Gr
 The first waves of the storm of hate came the next day.  Human peasants and farmers, ordinary workers armed poorly, their looted swords and spears badly wielded.  I stood alone at our gates as they approached, Mooncutter in my hand.  When the first few charged at me I thrust the blade into the soil and tore a great chasm in the earth, and our mages summoned forth mists and smoke that rose from the ground and began to surround our whole city.  As the peasants stumbled in confusion archers started firing from our walls.  What few made it through the smoke and arrows I took on, tearing Mooncutter through their flesh with little resistance.  Their blood gushed out in the gallons, drenching our ground, staining my skin.  It was like a warm shower over my boiling emotions, a bath of blood to wash over my sins.
 
 The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smoke.  Our shield, our mask, our hiding.  It would last for centuries, the only dealings with the outside world being in furtive secrecy.
-]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
 
-#{bold}#Chapter Six: A Changed Eyal#{normal}#
+#{bold}#Chapitre Six : Un Eyal transformé#{normal}#
 
-Perhaps what happened will never be truly understood.  What Sher’Tul ruins survived the Spellblaze have been little touched since - the burned hand learns its lesson.  But we know that Ephinias and his mages lost control somehow, whatever delicacy and balance they wrought with coming untangled.  At the moment they tried to connect to the other farportals the imbalance was reverberated, resonated, magnified beyond control.  The farportal in the Crystal Tower imploded in a fraction of a second, killing all within and crushing the land about.  The energies in the Sher’Tul relics then erupted in a blaze of white light, turning the air to fire and the ground to ruin.  The blaze swept eastwards, rolling over our battle with an unstoppable destructive force, and then carrying on towards the Thaloren lands.  Most of the ancient forests of Shatur were ripped from their roots, and the lands lain cursed ever since.
+Peut-être ce qui se produisit ne sera-t-il jamais véritablement compris.  Les ruines Sher'Tul ayant survécu à la Brûlure Magique ont depuis lors été peu touchées — la main brûlée retient la leçon.  Mais nous savons qu'Ephinias et ses mages perdirent le contrôle d'une manière ou d'une autre, quelle que fût la délicatesse et l'équilibre qu'ils avaient bâtis venant à se défaire.  Au moment même où ils tentaient de se relier aux autres portails lointains, le déséquilibre se répercuta, résonna, s'amplifia au-delà de tout contrôle.  Le portail lointain de la Tour de Cristal implosa en une fraction de seconde, tuant tous ceux qui s'y trouvaient et écrasant les terres alentour.  Les énergies contenues dans les reliques Sher'Tul jaillirent alors en un brasier de lumière blanche, changeant l'air en feu et le sol en ruine.  Le brasier balaya les terres vers l'est, déferlant sur notre bataille avec une force destructrice irrésistible, avant de poursuivre sa course vers les terres thaloréennes.  La plupart des forêts anciennes de Shatur furent arrachées jusqu'aux racines, et ces terres sont demeurées maudites depuis.
 
-Meanwhile the other farportals all over Maj’Eyal erupted, white stone cracking and vast swathes of energy spilling forth.  All of the Cornac lands to the west were turned to desert, the dwarven halls of Korhek crumpled, the midvale plains were risen up as mountains and Lake Nur formed in their wake.  In the south the ancient tower of Darafel was collapsed, and the forests beside it morphed into an ever-broiling scar of lava and blackened earth.  Far in the east the Naloren farportal, the largest of all in Maj’Eyal, disappeared in a vast earthquake that swallowed everything for miles around, and boiling water spewed up to fill its cavernous depths.
+Pendant ce temps, les autres portails lointains à travers tout Maj'Eyal se mirent à exploser, la pierre blanche se fissurant et de vastes flots d'énergie se déversant au-dehors.  Toutes les terres cornaques à l'ouest se muèrent en désert, les halls nains de Korhek s'effondrèrent, les plaines de la vallée médiane se soulevèrent en montagnes et le lac Nur se forma dans leur sillage.  Au sud, l'antique tour de Darafel s'écroula, et les forêts avoisinantes se transformèrent en une cicatrice sans fin de lave bouillonnante et de terre noircie.  Loin à l'est, le portail lointain nalore, le plus vaste de tout Maj'Eyal, disparut dans un immense tremblement de terre qui engloutit tout sur des kilomètres à la ronde, tandis qu'une eau bouillante jaillissait pour en emplir les profondeurs caverneuses.
 
-And whilst this destruction was wrought the incredible energies disrupted all of the mana flow around Eyal.  Streams of energy that followed set, slowly changing courses, now were flooded and droughted, warped and split.  The threads of the elements were in vast disarray, and any attuned to magic suddenly found themselves far away from their accustomed power sources.
+Et tandis que cette destruction s'accomplissait, ces énergies incroyables perturbèrent l'ensemble du flux de mana autour d'Eyal.  Les courants d'énergie qui suivaient jadis des voies fixes, changeant lentement de cours, furent désormais inondés ou asséchés, déformés et fragmentés.  Les fils des éléments se retrouvèrent dans un vaste désordre, et quiconque était accordé à la magie se retrouva soudain loin de ses sources de pouvoir habituelles.
 
-Even the Heavens were changed.  The wandering star of Vor disappeared, the constellations were tilted off their normal course, and the seasons rent harsher since.  Some say the moons dimmed and the sun went whiter after that day.  I do not know.  The whole world has seemed darker to me.
+Même les Cieux furent changés.  L'étoile errante de Vor disparut, les constellations furent déviées de leur course normale, et les saisons en furent depuis plus rudes.  D'aucuns disent que les lunes s'assombrirent et que le soleil devint plus blanc après ce jour-là.  Je ne saurais dire.  Le monde entier m'a paru plus sombre depuis.
 
-The numbers killed are beyond count.  The initial destruction took at least five million lives, and the terror that followed claimed far more.  For though it had been a day of tragedy and immeasurable woe, it was to be followed by a bloody age of darkness and torment.
+Le nombre des morts est incalculable.  La destruction initiale coûta au moins cinq millions de vies, et la terreur qui suivit en réclama bien davantage encore.  Car si ce jour-là fut un jour de tragédie et de malheur incommensurable, il devait être suivi d'un âge sanglant de ténèbres et de tourment.
 
-But none of this I knew as I lay weeping in the aftermath, cradling in my lap the one life I cared about.  In abject misery I called on all the healing powers I could to bring her back to me for but one moment.  Her heart beat softly, and her eyes opened, but seemed glassy and far away.
+Mais je ne savais rien de tout cela tandis que je gisais, pleurant dans les décombres, berçant dans mes bras la seule vie qui me tenait à cœur.  Dans une misère abjecte, j'appelai tous les pouvoirs de guérison que je possédais pour la ramener à moi, ne serait-ce qu'un instant.  Son cœur battait faiblement, et ses yeux s'ouvrirent, mais paraissaient vitreux et lointains.
 
-“Linaniil,” I whispered, and her dark eyes turned towards my face.  I tried to mumble an apology, to say I was sorry and was unable to help her, but emotions overcame my voice.  Her gaze at me was empty, as if she looked right through me, before she turned her eyes away.  Slowly she raised a hand to an amulet about her neck, and with a light touch it glowed and then cracked.  Her eyes closed again but I could feel the power from the artifact pumping into her, strengthening her heart-beat and mending her flesh.  She was unconscious and still badly wounded, but for now the mortal threat was gone.
+« Linaniil », murmurai-je, et ses yeux sombres se tournèrent vers mon visage.  Je tentai de bredouiller des excuses, de dire combien j'étais désolé de ne pouvoir l'aider, mais l'émotion me coupa la voix.  Son regard sur moi était vide, comme si elle voyait au travers de moi, avant qu'elle ne détourne les yeux.  Lentement, elle leva la main vers une amulette pendue à son cou, et d'un léger contact celle-ci s'illumina puis se fendit.  Ses yeux se refermèrent, mais je pouvais sentir la puissance de l'artefact affluer en elle, raffermissant les battements de son cœur et réparant sa chair.  Elle était inconsciente et encore gravement blessée, mais pour l'heure, la menace mortelle s'était éloignée.
 
-My thoughts were mixed - glad she was no longer at death’s door, but worried she might relapse, and at the back of my mind scared of that empty look she had given me.  Could she possibly forgive my part in this?
+Mes pensées étaient partagées — soulagé qu'elle ne fût plus aux portes de la mort, mais inquiet qu'elle ne rechute, et au fond de mon esprit, effrayé par ce regard vide qu'elle m'avait adressé.  Pourrait-elle jamais me pardonner ma part dans tout ceci ?
 
-Carefully I picked up her frail body, and began the journey back to Elvala.  Two days it took on foot, through blasted and ruined ground.  On the passage I came across other survivors, refugees now leaving their destroyed homes, heading to the city to seek shelter.  I tried to nurse Linaniil as best I could, giving her water during brief periods of waking and dressing her wounds, but true healing could not happen till I reached the city.
+Précautionneusement, je soulevai son corps frêle et entamai le voyage de retour vers Elvala.  Deux jours furent nécessaires à pied, à travers des terres calcinées et ravagées.  En chemin, je croisai d'autres survivants, des réfugiés quittant à présent leurs foyers détruits, se dirigeant vers la cité pour y trouver refuge.  Je tentai de soigner Linaniil du mieux que je pus, lui donnant de l'eau durant ses brefs moments d'éveil et pansant ses blessures, mais une véritable guérison ne pourrait avoir lieu qu'une fois la cité atteinte.
 
-Elvala was a quiet chaos, oppressed by fear and uncertainty, an air of dread filling all the streets.  The news had broken that our army had been entirely wiped out - there would be no loved ones returning to their families, and the sound of stifled mourning was to be heard in all corners of the city.
+Elvala était plongée dans un chaos silencieux, oppressée par la peur et l'incertitude, un air de terreur emplissant toutes les rues.  La nouvelle s'était répandue que notre armée avait été entièrement anéantie — nul être cher ne reviendrait retrouver sa famille, et le son d'un deuil étouffé se faisait entendre à chaque coin de la cité.
 
-I took Linaniil straight to the healing grounds in the palace and gave her to the doctors with the strictest instructions.  They were swamped by casualties, but followed my orders without question, tending immediately to her wounds and applying tinctures and regenerative spells.
+Je conduisis Linaniil directement aux lieux de soins du palais et la confiai aux médecins avec les instructions les plus strictes.  Ils étaient submergés de blessés, mais suivirent mes ordres sans discuter, s'occupant aussitôt de ses blessures et lui appliquant teintures et sorts régénérateurs.
 
-It was as I watched over her quietly that a party bustled loudly into the grounds.  I recognised at their head was Perissa, a senior court official.  At her side was an elderly human who immediately went to where Linaniil lay.
+C'est tandis que je veillais sur elle en silence qu'un groupe fit irruption bruyamment dans les lieux.  Je reconnus à sa tête Perissa, une haute fonctionnaire de la cour.  À ses côtés se tenait un humain âgé qui se dirigea aussitôt vers l'endroit où reposait Linaniil.
 
-“General Aranion!” announced Perissa loudly, “I heard you were here, but I could scarce believe it.  Thank the threads you have returned to us!  This is a grave time; we must talk at once.”
+« Général Aranion ! » annonça bruyamment Perissa, « J'avais entendu dire que vous étiez ici, mais j'osais à peine y croire.  Grâces soient rendues aux fils que vous nous soyez revenu !  C'est une heure grave ; nous devons parler sur-le-champ. »
 
-But I ignored her as I saw the human touch Linaniil’s hand, and her eyes gently open.  “Cuilan?” she murmured softly.
+Mais je ne lui prêtai nulle attention, voyant l'humain toucher la main de Linaniil, dont les yeux s'entrouvrirent doucement.  « Cuilan ? » murmura-t-elle faiblement.
 
-“Aye, it is me, my lady,” he said quietly.  “I have been sent here by your father.  He has ordered me to pass you this.”  And with that he brought forth a golden ring set with a fiery ruby.  I recognised it immediately as the Ring of Kar’Krul, worn by the mighty Turthel.  Linaniil sat up quickly, wincing from the pain, but with her eyes locked on the ring as it was placed in her hand.
+« Oui-da, c'est bien moi, ma dame », dit-il doucement.  « Votre père m'a envoyé ici.  Il m'a ordonné de vous remettre ceci. »  Et sur ces mots, il produisit un anneau d'or serti d'un rubis flamboyant.  Je le reconnus aussitôt : l'Anneau de Kar'Krul, porté par le puissant Turthel.  Linaniil se redressa vivement, grimaçant de douleur, mais les yeux rivés sur l'anneau tandis qu'on le déposait dans sa main.
 
-“But mine father...”
+« Mais mon père... »
 
-“I’m sorry, my lady.  It brings me great sorrow to bear you this news.  Your father and his court are dead.  His last act was to instruct me to bring this ring to you and your sister.  Neira...” he said glancing about.  “Is she...?”  He saw the look in Linaniil’s eyes and dipped his head despondently.  “I see.  I am terribly sorry.  It becomes my duty then, my lady, to declare you the new leader of the Kar’Krul.”
+« Je suis désolé, ma dame.  Il m'en coûte grandement de vous porter cette nouvelle.  Votre père et sa cour sont morts.  Son dernier acte fut de m'ordonner de porter cet anneau à vous et à votre sœur.  Neira... » dit-il en regardant alentour.  « Est-elle... ? »  Il vit l'expression dans les yeux de Linaniil et baissa la tête, découragé.  « Je comprends.  J'en suis terriblement navré.  Il devient donc mon devoir, ma dame, de vous proclamer nouvelle chef des Kar'Krul. »
 
-“General Aranion,” interjected Perissa.  “I really must speak with you now!”
+« Général Aranion », interrompit Perissa.  « Il faut vraiment que je vous parle, à présent ! »
 
-“Wait!” I barked, and turned to the human Cuilan.  “What is happening here?  How could one such as Turthel be killed?”
+« Attendez ! » aboyai-je, me tournant vers l'humain Cuilan.  « Que se passe-t-il donc ici ?  Comment un homme tel que Turthel a-t-il pu être tué ? »
 
-The man looked at me then with a wan sadness in his eyes, before turning to address Linaniil.  “Yesterday, the day after the terrible Spellblaze, as we began some attempt at reconstruction, still struggling to realign our mana paths, a murmur began amongst the people.  It spoke thus: The Kar’Krul circle of mages had betrayed the ordinary people.  They accused us of siding with the elves to destroy non-mages, of toying with terrible powers beyond our control, of deliberately massacring them out of evil and malice.  We could not logic with them, they would listen to no reason, and they rose up in violent anger.  They attacked many of us, with farming instruments and whatever weapons they could find.  Our defences were weak, and striking back just made the crowd fiercer.  We retreated to your father’s home, begging for help, but he shook his head and said he could not fight back.  They came for us then, storming his palace, and Turthel ordered all to put up no resistance.  He handed me his ring, saying to seek you out in Elvala, and then stepped outside to face the crowds.  He didn’t resist!  The people... they... they...”  He lapsed into sullen silence, shaking his head in sorrow.  He looked like he wanted to cry, but had no tears left to shed.  Linaniil’s face was graven and she stared hard at the ring.
+L'homme me regarda alors avec une tristesse blafarde dans les yeux, avant de se tourner vers Linaniil pour s'adresser à elle.  « Hier, le lendemain de la terrible Brûlure Magique, comme nous entamions quelque tentative de reconstruction, luttant encore pour réaligner nos voies de mana, une rumeur naquit parmi le peuple.  Elle disait ceci : le cercle de mages des Kar'Krul avait trahi les gens ordinaires.  On nous accusait de nous être alliés aux elfes pour détruire les non-mages, d'avoir joué avec de terribles pouvoirs échappant à tout contrôle, de les avoir délibérément massacrés par pure malveillance.  Nous ne pûmes les raisonner, ils n'entendaient plus rien, et ils se soulevèrent dans une colère violente.  Ils s'en prirent à beaucoup d'entre nous avec des outils agricoles et toutes les armes qu'ils purent trouver.  Nos défenses étaient faibles, et riposter ne fit qu'attiser la fureur de la foule.  Nous nous réfugiâmes dans la demeure de votre père, implorant son aide, mais il secoua la tête et dit qu'il ne pouvait riposter.  Ils vinrent alors pour nous, prenant d'assaut son palais, et Turthel ordonna à tous de n'opposer nulle résistance.  Il me remit son anneau, me disant de vous chercher à Elvala, puis sortit affronter la foule.  Il ne résista point !  Le peuple... ils... ils... »  Il retomba dans un silence morne, secouant la tête de chagrin.  Il semblait vouloir pleurer, mais n'avait plus de larmes à verser.  Le visage de Linaniil se figea, et elle fixa intensément l'anneau.
 
-Perissa grabbed me then and turned me to her attention.  “This is what I need to speak with you about, General Aranion.  If this human’s tale is to be believed then we are in very grave danger!  Scout reports suggest there is a body of humans coming here from the north as we speak.  From what this human says they seek retribution - they wish to slaughter us all.  A storm of wrath lies on our borders and we are defenseless!  We need you desperately to organise our defence, to protect our city and our people.”
+Perissa m'agrippa alors et attira mon attention vers elle.  « Voilà justement ce dont je dois vous entretenir, Général Aranion.  Si le récit de cet humain est à croire, nous sommes en très grand péril !  Les rapports de nos éclaireurs suggèrent qu'un corps d'humains approche du nord, en ce moment même.  D'après ce que dit cet homme, ils cherchent vengeance — ils veulent tous nous massacrer.  Une tempête de courroux pèse sur nos frontières, et nous sommes sans défense !  Nous avons désespérément besoin de vous pour organiser notre défense, pour protéger notre cité et notre peuple. »
 
-I felt numb, the events overwhelming me.  “But who leads us?” I said.
+Je me sentais engourdi, submergé par les événements.  « Mais qui nous dirige ? » dis-je.
 
-“There is no one.  What royals are known to be alive are not suited.  We are entering a time of war, a terrible time like no other we have ever faced.  We need military leadership.  You, General Aranion, you must be our leader.”
+« Il n'y a personne.  Ceux de la royauté encore en vie ne conviennent pas.  Nous entrons dans un temps de guerre, un temps terrible comme nous n'en avons jamais connu.  Nous avons besoin d'un commandement militaire.  Vous, Général Aranion, vous devez être notre chef. »
 
-I held Perissa’s gaze then and saw the wisdom in her words.  My duty as a Shaloren was clear.  But my heart tremored as I turned to look at Linaniil.
+Je soutins alors le regard de Perissa et vis la sagesse de ses paroles.  Mon devoir de Shaloréen était clair.  Mais mon cœur trembla lorsque je me tournai vers Linaniil.
 
-“This be our path then, Aranion,” she said quietly, raising herself from the bed and carefully placing the ring on the middle finger of her right hand.  “I must tend to mine people, and ye to yours.  We will not meet again.”
+« Voilà donc notre chemin, Aranion », dit-elle doucement, se redressant sur son lit et plaçant avec soin l'anneau à l'annulaire de sa main droite.  « Je dois veiller sur mon peuple, et vous sur le vôtre.  Nous ne nous reverrons plus. »
 
-“But your wounds-” I tried to object.
+« Mais vos blessures— » tentai-je d'objecter.
 
-“Will never heal!” she cried, hate dripping from her voice.  Her eyes were like cold and impenetrable ice, a smouldering anger deep within.  “Come, Cuilan, we must leave this place.”  And with that they departed, Linaniil walking tall and proud in spite of her injuries.
+« Ne guériront jamais ! » cria-t-elle, la haine suintant de sa voix.  Ses yeux étaient comme une glace froide et impénétrable, une colère couvant au plus profond d'elle.  « Venez, Cuilan, nous devons quitter cet endroit. »  Et sur ce, ils partirent, Linaniil marchant fière et droite malgré ses blessures.
 
-I closed off my heart and my emotions then, lest they overwhelm me.  My duty was before me, and the events of the past had to be locked away from memory.
+Je fermai alors mon cœur et mes émotions, de peur qu'ils ne me submergent.  Mon devoir se tenait devant moi, et les événements du passé devaient être verrouillés loin de ma mémoire.
 
-The ceremony was organised in under an hour, and I was anointed leader of the Grand Council of Elvala, head of the Shaloren people.  On my order rangers began transporting in survivors from outpost settlements, whilst I commanded our remaining mages to begin a new endeavour around our city walls.
+La cérémonie fut organisée en moins d'une heure, et je fus consacré chef du Grand Conseil d'Elvala, à la tête du peuple shaloréen.  Sur mon ordre, des rôdeurs entreprirent de transporter les survivants des colonies avancées, tandis que je chargeais nos mages restants d'entreprendre un nouvel ouvrage autour des murs de notre cité.
 
-The first waves of the storm of hate came the next day.  Human peasants and farmers, ordinary workers armed poorly, their looted swords and spears badly wielded.  I stood alone at our gates as they approached, Mooncutter in my hand.  When the first few charged at me I thrust the blade into the soil and tore a great chasm in the earth, and our mages summoned forth mists and smoke that rose from the ground and began to surround our whole city.  As the peasants stumbled in confusion archers started firing from our walls.  What few made it through the smoke and arrows I took on, tearing Mooncutter through their flesh with little resistance.  Their blood gushed out in the gallons, drenching our ground, staining my skin.  It was like a warm shower over my boiling emotions, a bath of blood to wash over my sins.
+Les premières vagues de la tempête de haine survinrent le lendemain.  Des paysans et fermiers humains, de simples travailleurs mal armés, maniant maladroitement des épées et des lances pillées.  Je me tenais seul à nos portes tandis qu'ils approchaient, Tranchelune à la main.  Lorsque les premiers se ruèrent sur moi, j'enfonçai la lame dans le sol et ouvris un vaste gouffre dans la terre, et nos mages invoquèrent des brumes et des fumées qui s'élevèrent du sol et commencèrent à envelopper toute notre cité.  Comme les paysans titubaient dans la confusion, les archers se mirent à tirer depuis nos murailles.  Le peu qui parvint à traverser la fumée et les flèches, je m'en chargeai, faisant passer Tranchelune à travers leur chair sans grande résistance.  Leur sang gicla à flots, imbibant notre sol, tachant ma peau.  Ce fut comme une douche chaude sur mes émotions bouillonnantes, un bain de sang pour laver mes péchés.
 
-The Shroud of Elvala was begun, as our whole city was wreathed in cloud and smoke.  Our shield, our mask, our hiding.  It would last for centuries, the only dealings with the outside world being in furtive secrecy.
+Ainsi débuta le Voile d'Elvala, tandis que notre cité tout entière s'enveloppait de nuages et de fumée.  Notre bouclier, notre masque, notre refuge.  Il devait durer des siècles, nos seuls contacts avec le monde extérieur se faisant dans le plus furtif secret.
 ]], "_t")
+t("The Spellblaze Chronicles(7): Into Darkness", "Les Chroniques de la Brûlure Magique (7) : Dans les Ténèbres", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Seven: Into Darkness#{normal}#
@@ -13279,39 +13276,40 @@ Linaniil stood for a while staring at the black cave.  Fear radiated from her fa
 
 She marched forwards and I followed, until we came right up to the shadowed opening.  Linaniil hesitated a moment, staring into the blackness, before finally stepping inside and being swallowed from sight.  I could feel it then, the sensation that something ancient lay in this place.  My skin tingled and my arcane attunement felt on fire.  This dark cave held some mysterious force, secluded from all knowledge since the oldest days of Eyal.  There was something here that could change the destiny of the world.
 
-I took a deep breath and stepped forwards.]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+I took a deep breath and stepped forwards.]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
 
-#{bold}#Chapter Seven: Into Darkness#{normal}#
+#{bold}#Chapitre Sept : Dans les ténèbres#{normal}#
 
-We veiled our guilt, cloaked our crimes.  Though we had some communication with the outside through halfling traders and the odd disguised Shaloren adventurer, we remained mute to the world at large, hidden from their accusing gaze.  Outside our quiet walls others had not the luxury of hiding.  The Spellhunt was begun, and it knew no mercy.
+Nous voilions notre culpabilité, dissimulions nos crimes.  Bien que nous eussions quelques échanges avec l'extérieur par le biais de marchands halfelins et de rares aventuriers shaloréens déguisés, nous demeurions muets face au monde, cachés de leurs regards accusateurs.  Hors de nos murs silencieux, d'autres n'avaient point ce luxe de se dissimuler.  La Purge Arcanique avait commencé, et elle ne connaissait nulle pitié.
 
-Ordinary people rose up against what they perceived as the arrogance of the mages, a revolt against the power of the few that had ruined the lives of so many.  Any suspected of sorcery or ties to the Art were cruelly dealt with.  There was sympathy for none, and many innocents fell victim to the unquenchable thirst for retribution.  The madness swept across the whole of Maj’Eyal.
+Les gens ordinaires se soulevèrent contre ce qu'ils percevaient comme l'arrogance des mages, une révolte contre le pouvoir de quelques-uns qui avait ruiné la vie de tant d'autres.  Quiconque était soupçonné de sorcellerie ou de liens avec l'Art était traité avec cruauté.  Nulle pitié n'était accordée, et de nombreux innocents tombèrent victimes de cette soif inextinguible de représailles.  La folie balaya tout Maj'Eyal.
 
-Law and order had broken down.  Armies, territories and whole cities had been destroyed or ravaged by the Spellblaze, with many areas left completely uninhabitable.  Kingdoms fell and tyrants arose.  Bandits picked at the bones of civilisation like vultures on a rotten corpse.
+L'ordre et la loi s'étaient effondrés.  Armées, territoires et cités entières avaient été détruits ou ravagés par la Brûlure Magique, de nombreuses régions devenues totalement inhabitables.  Des royaumes tombèrent et des tyrans s'élevèrent.  Les bandits picoraient les ossements de la civilisation comme des vautours sur une charogne.
 
-An organisation called the Ziguranth, thought dead long ago, came into resurgence, gaining popular support from the people in their anti-magic crusade.  We heard of some mages going into hiding, but inevitably being rooted out, or fleeing desperately from place to place.  Dark tales also arose of necromancers and fell wizards creating dungeons and strongholds, fending off or evading attacks, and beginning reigns of terror.
+Une organisation appelée les Zigurantes, que l'on croyait éteinte depuis longtemps, connut une résurgence, gagnant le soutien populaire dans leur croisade anti-magie.  Nous entendîmes parler de mages entrés dans la clandestinité, mais inévitablement débusqués, ou fuyant désespérément de lieu en lieu.  De sombres récits circulaient aussi de nécromanciens et de sorciers funestes bâtissant donjons et bastions, repoussant ou esquivant les assauts, et instaurant des règnes de terreur.
 
-And one tale came to my ears of a group of mages that managed to band together and stay in hiding, though always on the run from the chasing Ziguranth.  The story from outside was that they were led by a demon with fiery hair, fiercely glowing eyes and hands wrapped in flames, that fought with blazing wrath and could be opposed by none.  I knew that description well...
+Et un récit parvint à mes oreilles, celui d'un groupe de mages parvenus à s'unir et à demeurer cachés, quoique toujours poursuivis par les Zigurantes.  L'histoire, telle qu'on la racontait au-dehors, disait qu'ils étaient menés par un démon à la chevelure de feu, aux yeux brûlants d'une lueur féroce et aux mains enveloppées de flammes, qui combattait avec une colère ardente et que nul ne pouvait vaincre.  Je connaissais bien cette description...
 
-I carried out my reign, my duty, taking care of the Shaloren people.  We were safe from attackers, secure in our supplies through discrete trade, and slowly building back some of what we had lost.  But both fear and shame prevented us from showing our face to the world.
+Je poursuivais mon règne, mon devoir, veillant sur le peuple shaloréen.  Nous étions à l'abri des assaillants, assurés dans nos ressources grâce à un commerce discret, et reconstruisions lentement une part de ce que nous avions perdu.  Mais la peur autant que la honte nous empêchaient de montrer notre visage au monde.
 
-Fifteen long years passed before I awoke one night in my council chambers, the crescent Wintertide moon softly illuminating a shape near the end of my bed.  The figure was tall and slim, wrapped in tight-fitting wools and furs.  Her crimson hair stirred gently as she stood with her back to me.  Memories arose of a night long ago, in a more innocent time, when a younger me and a younger her first became close.
+Quinze longues années s'écoulèrent avant qu'une nuit, je ne m'éveille dans mes appartements du conseil, le croissant de lune de Frimas illuminant doucement une silhouette près du pied de mon lit.  La silhouette était grande et svelte, enveloppée de lainages et de fourrures ajustés.  Ses cheveux pourpres frémissaient doucement tandis qu'elle se tenait, me tournant le dos.  Des souvenirs me revinrent, d'une nuit lointaine, en un temps plus innocent, où un moi plus jeune et une elle plus jeune s'étaient pour la première fois rapprochés.
 
-I barely dared to whisper her name, afraid that she might disappear, an apparition or a dream that could be broken by a spoken word.  “Linaniil,” I softly mouthed.  She turned to me, and I saw those same dark eyes I remembered.  But they were surrounded by lines of care, the markings of years of strain and responsibility clear on her face.
+C'est à peine si j'osai murmurer son nom, craignant qu'elle ne disparaisse, apparition ou songe qu'un mot prononcé pourrait briser.  « Linaniil », articulai-je doucement.  Elle se tourna vers moi, et je revis ces mêmes yeux sombres dont je me souvenais.  Mais ils étaient à présent cernés de rides soucieuses, les marques d'années d'épreuves et de responsabilités visibles sur son visage.
 
-Rising from my bed I gathered a robe about me.  I took a few steps towards her but stopped, not able to move myself any further.  I wanted to be near her, to put my arms around her, but it felt as if she were across a wide chasm from me, a gulf of time and pain between us.
+Me levant de mon lit, je m'enveloppai d'une robe.  Je fis quelques pas vers elle, mais m'arrêtai, incapable d'avancer davantage.  Je voulais être près d'elle, l'enlacer de mes bras, mais j'avais l'impression qu'un vaste gouffre nous séparait, un abîme de temps et de douleur entre nous.
 
-“I have come for help, Aranion,” she said in a low voice, not quite meeting my gaze.  “There be something I seek, and ye must aid me in achieving it.”  I did not understand, but I nodded my assent.  “Get ye dressed and ready then.  There be a long journey ahead of us.”
+« Je suis venue chercher de l'aide, Aranion », dit-elle d'une voix basse, évitant à demi mon regard.  « Il est quelque chose que je cherche, et vous devez m'aider à l'obtenir. »  Je ne comprenais point, mais j'acquiesçai d'un signe.  « Habillez-vous donc et préparez-vous.  Un long voyage nous attend. »
 
-She stepped towards the window, her back towards me again, waiting as I put on a stralite mail and gathered my sword.  When she noticed I was ready she levitated out, and I followed.
+Elle s'avança vers la fenêtre, me tournant de nouveau le dos, attendant tandis que j'enfilais une cotte de stralite et saisissais mon épée.  Quand elle vit que j'étais prêt, elle s'éleva par lévitation et sortit, et je la suivis.
 
-We whistled through the air, travelling northwards at great speed.  The lands swept beneath us, and the climate grew colder as we went further and further north.  Hours passed in intrepid silence, till we were flying above snowy tundra.  We soared past plains of white and grey before we reached a low range of hills.  Here Linaniil slowed and descended, and I went down beside her.  We came to rest before a dark opening at the foot of the hills.
+Nous filâmes en sifflant dans les airs, voyageant vers le nord à grande vitesse.  Les terres défilaient sous nous, et le climat se faisait plus froid à mesure que nous progressions vers le nord.  Des heures passèrent dans un silence intrépide, jusqu'à ce que nous survolions une toundra enneigée.  Nous planâmes au-dessus de plaines blanches et grises avant d'atteindre une basse chaîne de collines.  Là, Linaniil ralentit et descendit, et je me posai à ses côtés.  Nous nous arrêtâmes devant une ouverture sombre au pied des collines.
 
-Linaniil stood for a while staring at the black cave.  Fear radiated from her face, but her eyes were hard and determined.  “It is here,” she said quietly, her voice steady.  I followed her gaze, trying to guess what secrets this remote place contained, but I could sense nothing special.
+Linaniil demeura un moment à contempler la caverne noire.  La peur se lisait sur son visage, mais ses yeux étaient durs et déterminés.  « C'est ici », dit-elle doucement, la voix ferme.  Je suivis son regard, tentant de deviner quels secrets recelait ce lieu reculé, mais je ne percevais rien de particulier.
 
-She marched forwards and I followed, until we came right up to the shadowed opening.  Linaniil hesitated a moment, staring into the blackness, before finally stepping inside and being swallowed from sight.  I could feel it then, the sensation that something ancient lay in this place.  My skin tingled and my arcane attunement felt on fire.  This dark cave held some mysterious force, secluded from all knowledge since the oldest days of Eyal.  There was something here that could change the destiny of the world.
+Elle marcha en avant et je la suivis, jusqu'à ce que nous parvenions juste devant l'ouverture ombreuse.  Linaniil hésita un instant, fixant les ténèbres, avant de finalement pénétrer à l'intérieur et de disparaître à ma vue.  Je le sentis alors, cette impression que quelque chose d'ancien reposait en ce lieu.  Ma peau se hérissa et mon attunement arcanique parut s'embraser.  Cette caverne sombre recelait quelque force mystérieuse, tenue à l'écart de tout savoir depuis les plus anciens jours d'Eyal.  Il y avait ici quelque chose qui pouvait changer le destin du monde.
 
-I took a deep breath and stepped forwards.]], "_t")
+Je pris une profonde inspiration et avançai.]], "_t")
+t("The Spellblaze Chronicles(8): Forbidden", "Les Chroniques de la Brûlure Magique (8) : Interdit", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
 #{bold}#Chapter Eight: Forbidden#{normal}#
@@ -13408,105 +13406,103 @@ I dug through the ice and rocks and found still some trace of the dead god Queko
 
 We stood apart from the others then, not engaging in war, finding a new respect for life.  It was not till Garkul the Devourer assaulted our gates in the Age of Pyre that we ever had cause for large scale war again, and I rode out to face him in combat.
 
-But ah, that is another tale, one indeed of many tales, in the long and rich history of the Tales of Maj’Eyal...]], [[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
+But ah, that is another tale, one indeed of many tales, in the long and rich history of the Tales of Maj’Eyal...]], [[#{italic}#Extrait des mémoires d'Aranion Gawaeil, chef du Grand Conseil d'Elvala#{normal}#
 
-#{bold}#Chapter Eight: Forbidden#{normal}#
+#{bold}#Chapitre Huit : Interdit#{normal}#
 
-Light sprung from Linaniil’s staff, and she cast about a luminescence, revealing a narrow icy passageway that led downwards.  It was deathly cold, and our breaths condensed in clouds as we made our way down the wending tunnels.  My skin pricked, and all my senses seemed on edge.
+Une lumière jaillit du bâton de Linaniil, répandant une luminescence qui révéla un étroit passage glacé s'enfonçant vers le bas.  Il y régnait un froid mortel, et nos souffles se condensaient en nuages tandis que nous descendions les tunnels sinueux.  Ma peau me picotait, et tous mes sens semblaient en alerte.
 
-“What is down here?” I asked, my curiosity all-consuming.
+« Qu'y a-t-il là-dessous ? » demandai-je, ma curiosité me dévorant tout entier.
 
-“Power,” Linaniil responded, not looking at me as she spake, continuing to follow the path.  “And power be what I seek.  I am afeared for mine people, but have not the strength to protect them as I wouldst like.  With what be here, perhaps, I shall have the power to make a safe haven.  This be a place of legend amongst mine people, and I have scouted it out over many years.  Today I shall finally reach what lies at the centre.”
+« Le pouvoir », répondit Linaniil sans me regarder tandis qu'elle parlait, poursuivant son chemin.  « Et le pouvoir est ce que je cherche.  Je crains pour mon peuple, mais n'ai point la force de le protéger comme je le voudrais.  Avec ce qui se trouve ici, peut-être, aurai-je le pouvoir de créer un sanctuaire.  Ceci est un lieu de légende parmi les miens, et je l'ai exploré depuis maintes années.  Aujourd'hui, j'atteindrai enfin ce qui repose en son centre. »
 
-“And why do you need me?”
+« Et pourquoi avez-vous besoin de moi ? »
 
-She didn’t respond, but carried onwards.  We reached a split in the tunnel, and without hesitation Linaniil took the left path.  It led further and further underground.  We came to blockages, but by arcane force the sorceress easily cleared a way.
+Elle ne répondit point, mais continua d'avancer.  Nous atteignîmes une bifurcation dans le tunnel, et sans hésiter Linaniil prit le chemin de gauche.  Il s'enfonçait toujours plus profondément sous terre.  Nous rencontrâmes des éboulements, mais par la force arcanique la sorcière ouvrait aisément la voie.
 
-As we passed through a large cavern I sensed movement, and drew Mooncutter quickly.  What looked like a disembodied limb, or some great thrashing worm, was writhing towards us pathetically.  Linaniil send a blast of fire towards it - it squealed and went still.
+Comme nous traversions une vaste caverne, je perçus un mouvement et dégainai vivement Tranchelune.  Ce qui ressemblait à un membre désincarné, ou à quelque grand ver se débattant, se tordait vers nous d'une manière pitoyable.  Linaniil lui lança une déflagration de feu — la chose poussa un cri strident et s'immobilisa.
 
-And then more movement, a hundred movements.  From crevasses and holes in the walls and ceiling there burst out dozens upon dozens of the worm-like creatures, their maggoty bodies flapping rigorously, fanged mouths opening up and screaming torturous sounds.  Linaniil growled and began sending torrents of flame towards the approaching horde.  I covered her back, slicing open their pale green flesh and sending strokes of lightning through their ranks.  In under a minute we had dispatched them all.
+Puis d'autres mouvements survinrent, une centaine.  Des crevasses et des trous dans les murs et le plafond jaillirent des dizaines et des dizaines de créatures vermiformes, leurs corps larvaires s'agitant vigoureusement, leurs bouches dentées s'ouvrant pour hurler des sons torturés.  Linaniil grogna et se mit à envoyer des torrents de flammes vers la horde qui approchait.  Je couvrais ses arrières, tranchant leur chair d'un vert pâle et faisant courir des éclairs à travers leurs rangs.  En moins d'une minute, nous les avions tous exterminés.
 
-I prodded a corpse with my foot and it collapsed into sludge.  “What strange creatures,” I commented.  I looked at Linaniil for some explanation but she simply proceeded forward.  I followed after, keeping my sword in hand and watching closely for further attacks.
+Je poussai un cadavre du pied, et il s'effondra en une bouillie visqueuse.  « Étranges créatures », commentai-je.  Je cherchai chez Linaniil quelque explication, mais elle se contenta d'avancer.  Je la suivis, gardant mon épée en main et surveillant attentivement toute nouvelle attaque.
 
-At the other end of the cavern a wall of ice blocked our way.  Linaniil held up the Ring of Kar’Krul, and the jewel on it began to blaze.  The ice melted away slowly, revealing a passage to another, smaller chamber.
+À l'autre extrémité de la caverne, un mur de glace bloquait notre chemin.  Linaniil leva l'Anneau de Kar'Krul, et le joyau qui l'ornait se mit à flamboyer.  La glace fondit lentement, révélant un passage vers une autre chambre, plus petite.
 
-This cold, crypt-like hollow was covered in smooth, glistening ice on all sides.  The walls were square and straight, and ancient pillars of marble were dotted about the room.  On the pillars and walls were weathered runes and symbols.  I came close to study some, but couldn’t recognise them from any of my studies.  “What was this place?” I asked, turning to Linaniil.  “It seems older even than Sher’Tul.”
+Cette cavité froide, semblable à une crypte, était recouverte de toutes parts d'une glace lisse et scintillante.  Les murs étaient carrés et droits, et d'antiques piliers de marbre parsemaient la pièce.  Sur les piliers et les murs se trouvaient des runes et des symboles érodés par le temps.  Je m'approchai pour en étudier certains, mais ne pus les reconnaître d'aucune de mes études.  « Qu'était ce lieu ? » demandai-je en me tournant vers Linaniil.  « Il semble plus ancien encore que les Sher'Tul. »
 
-She ran her hand over one of the walls, tracing the outline of a door.  “It be a temple to Quekorja, god of a race whose name somehow escapes my mind.  The were killed off by the Sher’Tul long before our races were born.  They did build this temple in honour of Quekorja, and the last of them did die here defending her.”
+Elle passa la main sur l'un des murs, traçant le contour d'une porte.  « C'est un temple dédié à Quekorja, dieu d'une race dont le nom, curieusement, m'échappe.  Ils furent exterminés par les Sher'Tul bien avant que nos races ne naissent.  Ils bâtirent ce temple en l'honneur de Quekorja, et le dernier d'entre eux mourut ici en la défendant. »
 
-I looked about in awe.  Though I had explored many Sher’Tul ruins I hadn’t seen anything like this.  The architecture was simple but elegant.  There was a crude beauty to it all.  I turned back to the door Linaniil was examining.
+Je regardai autour de moi, émerveillé.  Bien que j'eusse exploré de nombreuses ruines Sher'Tul, je n'avais jamais rien vu de tel.  L'architecture était simple mais élégante.  Il y avait en tout cela une beauté brute.  Je me retournai vers la porte que Linaniil examinait.
 
-She was trying to open it, but was obviously struggling to find a way.  “There be some key, some puzzle to open this,” she muttered.  “But I can nay solve it - the secret be lost to time.”  She growled in anger and stood back.  Holding out her staff she unleashed a blast of arcane force from it, violently splitting the stone door apart and tearing open a passage to a chamber beyond.
+Elle tentait de l'ouvrir, mais peinait visiblement à trouver le moyen.  « Il y a quelque clé, quelque énigme pour ouvrir cela », marmonna-t-elle.  « Mais je ne saurais la résoudre — le secret s'est perdu dans le temps. »  Elle grogna de colère et recula.  Tendant son bâton, elle en libéra une déflagration de force arcanique, fendant violemment la porte de pierre et ouvrant un passage vers une chambre au-delà.
 
-Many things suddenly happened at once.  From beyond I felt a pulse of energy, a huge surge of power that I had never felt before.  Linaniil was focussed on it intensely.  But noise came from all around of creatures moving asudden.  From the cave we had entered from there was a shriek of a hundred wailing voices, and the floor beneath our feet trembled.  Rocks fell from the ceiling and out burst horrific creatures with spiked limbs and smooth, triangular faces.  From the trembling ground arose a strange ethereal being of light, with long tentacles for limbs.  And as I turned to face these threats I saw that in the previous cavern the worms had come back to life, and were now coalescing into a huge mass of putrid flesh.
+Bien des choses survinrent alors soudainement, toutes à la fois.  Par-delà, je sentis une pulsation d'énergie, une immense poussée de puissance telle que je n'en avais jamais ressentie.  Linaniil s'y concentrait intensément.  Mais un vacarme s'éleva de toutes parts, celui de créatures se mettant brusquement en mouvement.  De la caverne par laquelle nous étions entrés monta un cri de cent voix gémissantes, et le sol trembla sous nos pieds.  Des rochers tombèrent du plafond, et surgirent des créatures horrifiantes aux membres hérissés de pointes et aux visages lisses et triangulaires.  Du sol tremblant s'éleva un étrange être éthéré de lumière, aux longs tentacules en guise de membres.  Et comme je me tournais pour affronter ces menaces, je vis que dans la caverne précédente, les vers étaient revenus à la vie et se rassemblaient à présent en une immense masse de chair putride.
 
-I tried to cut through the being of light, but my sword barely slowed as it passed through it, and the flames I summoned seemed to have little effect.  It raised a tentacle towards me and an intensely bright beam of light shone from it through my torso, filling my flesh with searing pain.  I jumped back and send a wave of ice at it, tearing off a tentacle and pushing it further away.  Meanwhile Linaniil had reduced one of the spiked creatures to a pile of ash, but her arcane shield was collapsing beneath the slashes of the others, and more were spilling from the ceiling.  In the entranceway the mass of worms was pressing through, and from the mouths of the flailing bodies came spits of burning acid.
+Je tentai de trancher l'être de lumière, mais ma lame ralentit à peine en le traversant, et les flammes que j'invoquais semblaient avoir peu d'effet.  Il leva un tentacule vers moi, et un rayon de lumière d'une intensité aveuglante me transperça le torse, emplissant ma chair d'une douleur cuisante.  Je bondis en arrière et lui envoyai une vague de glace, lui arrachant un tentacule et le repoussant plus loin.  Pendant ce temps, Linaniil avait réduit l'une des créatures hérissées en un tas de cendres, mais son bouclier arcanique s'effondrait sous les coups des autres, et davantage encore se déversaient du plafond.  Dans l'embrasure, la masse de vers forçait le passage, et de leurs bouches se tordant jaillissaient des crachats d'acide brûlant.
 
-We were at severe risk of getting surrounded in this confined space, the numbers too many to take on at once.  “Over here!” shouted Linaniil, as she dashed through the door she had split apart.  I followed, slashing my blade through the mass of worms, causing it to lurch back screeching in pain, and spearing a blast of lightning through one of the spiked creatures, splitting open its head.  It continued to attack me, but I parried and cut its arm off, dancing around it and reaching the doorway.  With my back to the opening I brought up a wall of water and sent it flooding into the chamber, pushing the horrors away as I leapt backwards through the door.
+Nous risquions sérieusement d'être encerclés dans cet espace confiné, leur nombre trop grand pour être affronté d'un coup.  « Par ici ! » cria Linaniil en se précipitant par la porte qu'elle avait fendue.  Je la suivis, tranchant ma lame à travers la masse de vers, la faisant reculer en poussant des cris de douleur, et transperçant d'un éclair l'une des créatures hérissées, lui fendant la tête.  Elle continua de m'attaquer, mais je parai et lui tranchai le bras, dansant autour d'elle pour atteindre la porte.  Le dos tourné à l'ouverture, je dressai un mur d'eau que j'envoyai inonder la chambre, repoussant les horreurs tandis que je bondissais en arrière à travers la porte.
 
-As soon as I passed through Linaniil thrust her staff into the ground and a pillar of rock rose upwards, sealing off the opening.  I could hear thrashing and thumping sounds from the other side, but for now we seemed safe.  “What were those things?!” I asked incredulously, as I scanned around the open cavern for signs of any more creatures.  It was a large space, but everything was still, and I could see no other entrances.
+Dès que je fus passé, Linaniil enfonça son bâton dans le sol, et un pilier de roche s'éleva, scellant l'ouverture.  J'entendais des bruits de coups et de raclements de l'autre côté, mais pour l'heure, nous semblions en sécurité.  « Qu'étaient donc ces choses ?! » demandai-je, incrédule, tandis que je scrutais la caverne ouverte à la recherche d'autres créatures.  C'était un vaste espace, mais tout y était immobile, et je ne voyais nulle autre entrée.
 
-“Scions of Amakthel,” she responded calmly.  “The butchered god seeks to break his chains.  But he needs more power...  And here in this dark, forgotten place is part of that power he seeks.”
+« Des Rejetons d'Amakthel », répondit-elle calmement.  « Le dieu massacré cherche à briser ses chaînes.  Mais il lui faut davantage de puissance...  Et ici, dans ce lieu sombre et oublié, se trouve une part de cette puissance qu'il cherche. »
 
-“And what is here?  What terrible power lies here that would draw both you and those horrors?!”
+« Et qu'y a-t-il ici ?  Quelle terrible puissance repose donc en ce lieu, pour attirer à la fois vous et ces horreurs ?! »
 
-“Quekorja,” she said.
+« Quekorja », dit-elle.
 
-“Quekorja?  The... the god?”  I couldn’t believe I what I was hearing.  “Was it not slain by the Sher’Tul?”
+« Quekorja ?  Le... le dieu ? »  Je ne pouvais croire ce que j'entendais.  « N'a-t-il point été tué par les Sher'Tul ? »
 
-“Aye, that it were.  But there be power even in a slain god.  Look behind ye, Aranion.”
+« Oui-da, c'est vrai.  Mais il est de la puissance même dans un dieu tué.  Regardez derrière vous, Aranion. »
 
-I turned then, wondering what she wanted me to behold.  It took me a moment to see it, but when I did I gasped in shock.  The far wall of this great cavern was not merely a wall.  It was covered in a thick layer of ice, but beneath at its centre I could make out a huge yellow eye.  And around that eye I could trace out a giant form.  Dark grey skin covered a bulging head, topped with three great curved horns, which sat atop a long, thick body with six limbs.  It was deathly still and chillingly ancient, seeming more like part of the rock than anything that had once been alive.  I couldn’t believe what I was seeing, but I could feel it.  In that corpse was still power, immense power, like nothing I had ever felt before.
+Je me tournai alors, me demandant ce qu'elle voulait me faire voir.  Il me fallut un instant pour le distinguer, mais lorsque j'y parvins, je poussai un hoquet de stupeur.  Le mur du fond de cette vaste caverne n'était point simplement un mur.  Il était recouvert d'une épaisse couche de glace, mais en dessous, en son centre, je pouvais discerner un énorme œil jaune.  Et autour de cet œil, je pouvais deviner les contours d'une forme gigantesque.  Une peau gris sombre recouvrait une tête bulbeuse, surmontée de trois grandes cornes recourbées, qui reposait sur un corps long et massif à six membres.  Elle était d'un immobilisme mortel et d'une ancienneté glaçante, ressemblant davantage à une partie de la roche qu'à quoi que ce soit ayant jamais vécu.  Je ne pouvais croire ce que je voyais, mais je pouvais le sentir.  Dans cette dépouille résidait encore une puissance, une puissance immense, telle que je n'en avais jamais ressentie.
 
-“This be it,” said Linaniil.  “One of the few corpses of the gods left to find in Maj’Eyal.  And I shall take its power as mine own.”
+« C'est ceci », dit Linaniil.  « L'une des rares dépouilles de dieux qu'il reste à trouver en Maj'Eyal.  Et j'en prendrai la puissance pour mienne. »
 
-“This is insane!” I shouted.  “You have no idea if that is safe or not.  You don’t know what it will do to you!”
+« C'est de la folie ! » criai-je.  « Vous n'avez nulle idée si cela est sans danger ou non.  Vous ignorez ce que cela vous fera ! »
 
-She chuckled darkly.  “Aye, that be true.  But that is why I have brought ye here.”  I looked at her in confusion and she chuckled again.  “Ye still know not your purpose here.  Did ye think I took ye here for protection?  That I couldst not handle those horrors on mine own?  No, there be a different reason I have brought ye.  When I absorb this corpse, when I take its power for mine own, I do not know what wilst become of me.  It may kill me.  Or it may drive me mad, it may turn me into something terrible.  Should that happen, Aranion, you art the only one I know with the strength to kill me.”
+Elle eut un rire sombre.  « Oui-da, cela est vrai.  Mais c'est pourquoi je vous ai amené ici. »  Je la regardai, confus, et elle rit de nouveau.  « Vous ignorez encore votre but ici.  Pensiez-vous que je vous avais amené pour ma protection ?  Que je ne pusse affronter seule ces horreurs ?  Non, c'est pour une tout autre raison que je vous ai amené.  Lorsque j'absorberai cette dépouille, lorsque j'en prendrai la puissance pour mienne, j'ignore ce qu'il adviendra de moi.  Cela pourrait me tuer.  Ou cela pourrait me rendre folle, me changer en quelque chose de terrible.  Si cela devait arriver, Aranion, vous êtes le seul que je connaisse à posséder la force de me tuer. »
 
-The words hit me like a blow to the chest.  “Kill you?  But I couldn’t...”
+Ces mots me frappèrent comme un coup en pleine poitrine.  « Vous tuer ?  Mais je ne pourrais... »
 
-“But ye must!” she said firmly.  “After all ye have done... all the torture ye have brought my life... ye owe me this.”  I looked deep into her eyes and saw the turmoil of emotions within, the pain and agony of all that had befallen her, the hatred and blame of those who had wronged her, the guilt and shame for not being able to do more herself.  And deep inside still some touch of love for me and what we had shared.  I reached out my hand and stroked her soft hair, my fingers touching lightly against the side of her face.  I leaned in close and she closed her eyes, turning her face up to me as I moved my lips towards hers.
+« Mais il le faut ! » dit-elle avec fermeté.  « Après tout ce que vous avez fait... tout le tourment que vous avez apporté à ma vie... vous me devez bien cela. »  Je plongeai mon regard au fond du sien et y vis le tumulte des émotions, la douleur et l'agonie de tout ce qui lui était arrivé, la haine et le blâme envers ceux qui l'avaient lésée, la culpabilité et la honte de n'avoir su faire davantage elle-même.  Et, tout au fond, encore une touche d'amour pour moi et pour ce que nous avions partagé.  Je tendis la main et caressai ses doux cheveux, mes doigts effleurant le côté de son visage.  Je me penchai vers elle et elle ferma les yeux, levant son visage vers le mien tandis que j'approchais mes lèvres des siennes.
 
-“No!” she suddenly cried, pushing me back.  “It cannot be!”  She swiftly turned from me, and I saw a tear drip down one cheek.  “The world has changed, Aranion.  I have a duty before me, and none can walk that path beside me.”  And with that she began to run, staff in hand, towards the great eye whose dead gaze was locked behind the wall of ice.  I sprinted after her, but she was faster, and with running leap she thrust the base of her staff through the ice and into the center of the god’s eye.
+« Non ! » s'écria-t-elle soudain, me repoussant.  « Cela ne se peut ! »  Elle se détourna vivement de moi, et je vis une larme couler le long de sa joue.  « Le monde a changé, Aranion.  J'ai un devoir devant moi, et nul ne peut marcher à mes côtés sur ce chemin. »  Sur ce, elle se mit à courir, bâton en main, vers le grand œil dont le regard mort était scellé derrière le mur de glace.  Je m'élançai à sa poursuite, mais elle était plus rapide, et d'un bond elle enfonça l'extrémité de son bâton à travers la glace, en plein centre de l'œil du dieu.
 
-The ice cracked with a deafening thunder, and the giant yellow eye pulsed before exploding in a ball of light.  I stopped and covered my eyes as white light flooded the room and shards of ice flew through the air.  I could barely make out Linaniil, bathed in light, hanging with one hand from her staff, her hair and robes blown backwards as she reached forwards with her other arm.  Slowly, intrepidly, she placed her hand into the centre of the ball of light where the eye had been, and shadows danced about the cavern as she wrapped her fingers round that luminous sphere, before squeezing tight.
+La glace se fendit dans un tonnerre assourdissant, et l'immense œil jaune palpita avant d'exploser en une boule de lumière.  Je m'arrêtai et me couvris les yeux tandis qu'une lumière blanche inondait la salle et que des éclats de glace volaient dans les airs.  Je distinguais à peine Linaniil, baignée de lumière, suspendue d'une main à son bâton, ses cheveux et ses robes rejetés en arrière tandis qu'elle tendait son autre bras en avant.  Lentement, intrépidement, elle plongea la main au centre de la boule de lumière où s'était tenu l'œil, et des ombres dansèrent à travers la caverne tandis qu'elle refermait ses doigts sur cette sphère lumineuse, avant de la serrer fermement.
 
-The cavern shook, her staff shattered, the wall creaked and split before wholly blasting apart.  The corpse of the dead god collapsed into a stream of silver and in a roaring cacophony rushed towards Linaniil, tearing apart her robes and sinking into her skin.  She floated in the air, limbs outstretched as the vast energy poured into her flesh.  She opened her mouth as if to scream and light burst out, and light spilled from her eyes and ears.  The cavern quaked dangerously and rocks fell from the walls and ceiling.  But in seconds it was over, the corpse of the god fully absorbed, the light in Linaniil’s eyes went out, and she dropped to the ground like a stone.
+La caverne trembla, son bâton vola en éclats, le mur craqua et se fendit avant de voler entièrement en morceaux.  La dépouille du dieu mort s'effondra en un flot d'argent et, dans une cacophonie rugissante, se précipita vers Linaniil, déchirant ses robes et s'enfonçant dans sa peau.  Elle flotta dans les airs, membres écartés, tandis que l'énergie immense se déversait dans sa chair.  Elle ouvrit la bouche comme pour hurler, et une lumière en jaillit, s'échappant aussi de ses yeux et de ses oreilles.  La caverne trembla dangereusement, et des rochers tombèrent des murs et du plafond.  Mais en quelques secondes tout fut terminé, la dépouille du dieu entièrement absorbée, la lumière dans les yeux de Linaniil s'éteignit, et elle s'effondra au sol comme une pierre.
 
-Then the horrors broke through, the collapsing cavern having made an opening for them, and immediately they sped hungrily to where Linaniil lay.  “No!” I cried, rushing to intercept them.  “You cannot have her!”
+Alors les horreurs firent irruption, la caverne effondrée leur ayant ouvert un passage, et aussitôt elles se précipitèrent avidement vers l'endroit où gisait Linaniil.  « Non ! » criai-je, me ruant pour les intercepter.  « Vous ne l'aurez pas ! »
 
-I sliced off the head of a spiked creature and put up a wall of fire ahead of the rest of them as I backed towards Linaniil’s body.  She looked dead, with no sign of movement or breathing, but I had no time to check.  The being of light and tentacles passed through my flames without resistance, and I ran sparks along my sword as I tore it up the centre of the monster.  It shot light through my torso and I coughed up blood, but I forced my sword in deeper and ran a flood of arcane energy through it, blowing the thing apart.  More spiked creatures came, and I took care of my footing whilst parrying and chopping on my left and sending waves of flame to my right.
+Je tranchai la tête d'une créature hérissée et dressai un mur de feu devant les autres tandis que je reculais vers le corps de Linaniil.  Elle paraissait morte, sans nul signe de mouvement ou de respiration, mais je n'avais pas le temps de vérifier.  L'être de lumière et de tentacules traversa mes flammes sans résistance, et je fis courir des étincelles le long de mon épée en la plongeant au centre du monstre.  Il me transperça le torse de lumière, et je crachai du sang, mais je forçai ma lame plus profondément et y fis passer un flot d'énergie arcanique, faisant exploser la créature.  D'autres créatures hérissées arrivèrent, et je pris soin de mon appui tout en parant et tranchant à ma gauche, et en envoyant des vagues de flammes à ma droite.
 
-The mass of worms broke through the wall, and with it two more luminous horrors, and some fiend of darkness and nightmares, and I could see behind others were spilling through.  I put up a shield as rays of light shot towards me, and sent balls of frost back at them.  One of the light beings fell, whilst the other was slowed.  The dark thing came quickly, and the mass of worms not far behind, so I sliced my sword across the ground, sending heat through it, and turned the stone into a mass of lava.  The dark thing came around it, and I felt an aura of deathly cold from it as it approached.  I hacked at it desperately, and it shot back speared limbs towards my chest that seemed to suck all strength from me.  With a roar I shot a pulse of flames down my blade and it burst apart.  The worms charged directly over the lava, squealing in pain as a bulk of them were burned, but coming at me with speed.  I adjusted my grip, getting ready to make deft strokes to stay out of its range, but a lance of light then shot through my leg, dropping me to one knee with a scream.  The mass of worms rushed at me then, and I dug my sword deep into their midst, but the worms crawled over my arms, digging their acidic teeth into my flesh and reaching for my neck.  With my left arm I cast a blanket of flames over them, burning my arm along with the screeching worms.  They pulled away slightly, but the being of light was approaching from the side, a tentacle flaring up in luminescent energy, and three spiked horrors were behind it.  My right arm was burnt, my left leg injured, my mail pocked with holes, and my mana reserves were running low.  But I gritted my teeth in determination - I could not back from this fight.  I rushed at the mass of worms with my sword held firm.
+La masse de vers fit irruption à travers le mur, avec elle deux autres horreurs lumineuses, et quelque démon d'obscurité et de cauchemars, et je pouvais voir d'autres encore se déverser derrière.  Je dressai un bouclier tandis que des rayons de lumière fusaient vers moi, et leur renvoyai des boules de givre.  L'un des êtres de lumière tomba, tandis que l'autre fut ralenti.  La chose sombre approchait rapidement, et la masse de vers non loin derrière, aussi tranchai-je mon épée à travers le sol, y répandant une chaleur intense et changeant la pierre en une nappe de lave.  La chose sombre en fit le tour, et je sentis émaner d'elle, à mesure qu'elle approchait, une aura d'un froid mortel.  Je m'acharnai désespérément sur elle, et elle projeta vers ma poitrine des membres acérés qui semblaient m'aspirer toute force.  Dans un rugissement, je fis courir une pulsation de flammes le long de ma lame, et elle explosa.  Les vers chargèrent droit sur la lave, hurlant de douleur tandis qu'un grand nombre d'entre eux se consumaient, mais fondant sur moi avec rapidité.  J'ajustai ma prise, me préparant à porter des coups habiles pour rester hors de leur portée, mais une lance de lumière me transperça alors la jambe, me faisant tomber à genoux avec un cri.  La masse de vers se rua alors sur moi, et j'enfonçai mon épée profondément en leur sein, mais les vers rampèrent sur mes bras, plantant leurs dents acides dans ma chair et cherchant mon cou.  De mon bras gauche, je répandis sur eux un voile de flammes, brûlant mon propre bras avec les vers hurlants.  Ils reculèrent légèrement, mais l'être de lumière approchait par le côté, un tentacule s'embrasant d'une énergie luminescente, et trois horreurs hérissées se tenaient derrière lui.  Mon bras droit était brûlé, ma jambe gauche blessée, ma cotte de mailles criblée de trous, et mes réserves de mana s'amenuisaient.  Mais je serrai les dents avec détermination — je ne pouvais reculer devant ce combat.  Je me ruai sur la masse de vers, épée fermement tenue.
 
-It exploded in a fiery mess, and an intense wave of force and fire blasted across the cavern, turning the other horrors to ash, and even burning through the luminous being - a low scream arising from it as the flames tore it apart.  I gasped, not knowing whence this blaze had come, until I turned around and saw Linaniil.  She was standing tall, her robes burnt off, flames dancing up and down her skin, bright light shining from her eyes.  Heat seemed to radiate from her.  I kept my grip on my sword, not sure if this was the Linaniil I knew, or some other force born of her union with the dead god.
+Elle explosa en un brasier confus, et une intense vague de force et de feu balaya la caverne, réduisant les autres horreurs en cendres, et brûlant même l'être lumineux — un cri sourd s'échappant de lui tandis que les flammes le déchiraient.  Je restai bouche bée, ignorant d'où venait ce brasier, jusqu'à ce que je me retourne et voie Linaniil.  Elle se tenait debout, droite, ses robes consumées, des flammes dansant sur toute sa peau, une lumière éclatante jaillissant de ses yeux.  Une chaleur semblait irradier d'elle.  Je gardai ma prise sur mon épée, incertain s'il s'agissait de la Linaniil que je connaissais, ou de quelque autre force née de son union avec le dieu mort.
 
-She laughed suddenly, and it was a harsh laugh that I had not heard her make before.  “What a fool I have been,” she said, almost to herself.  “I brought ye here in case ye had to stop me.  But now...  Now mine power exceeds ye by a long distance.  Ye would have no hope of opposing me!”  She made a low sound somewhere between a laugh and a sigh.  “Ah, but ye have no cause to worry.  I am still me.  Mostly.  And through pain and sacrifice I have achieved the power I desired.  The power I need.”
+Elle rit soudain, d'un rire dur que je ne lui avais jamais entendu.  « Quelle sotte j'ai été », dit-elle, presque pour elle-même.  « Je vous ai amené ici au cas où vous auriez dû m'arrêter.  Mais à présent... à présent ma puissance vous surpasse de loin.  Vous n'auriez nul espoir de me contrer ! »  Elle laissa échapper un son sourd, entre le rire et le soupir.  « Ah, mais vous n'avez nulle raison de vous inquiéter.  Je suis toujours moi.  Pour l'essentiel.  Et par la douleur et le sacrifice, j'ai atteint la puissance que je désirais.  La puissance dont j'ai besoin. »
 
-I let my sword dip and breathed heavily, relief mingled with trepidation sweeping through me, whilst the withdrawing adrenalin of battle left me feeling exhausted.  I looked Linaniil over, her pale skin now glowing, her eyes brimming with energy and vitality.  I saw the power she had was not in mere force, but that she had taken on the ageless nature of the gods.  A power forbidden to all creatures was now hers and hers alone.
+Je laissai retomber mon épée et respirai lourdement, un soulagement mêlé d'appréhension me traversant, tandis que le reflux de l'adrénaline du combat me laissait épuisé.  J'observai Linaniil, sa peau pâle luisant à présent, ses yeux débordant d'énergie et de vitalité.  Je vis que sa puissance ne résidait pas dans la simple force, mais qu'elle avait acquis la nature intemporelle des dieux.  Un pouvoir interdit à toute créature lui appartenait désormais, à elle seule.
 
-“What now?” I said quietly.
+« Et maintenant ? » dis-je doucement.
 
-“Now, ye go home, and I go to make mine home, a sanctuary for me and mine people.”
+« À présent, vous rentrez chez vous, et je m'en vais bâtir le mien, un sanctuaire pour moi et les miens. »
 
-“Will we meet again?”
+« Nous reverrons-nous ? »
 
-She smiled sadly.  “Mayhaps.  Mayhaps not.  The world changes quicker than predictions can tell.  But if we do meet again it shall be in a place that does not yet exist - the city of Angolwen.”  She raised an arm then and from it shot a tremendous pulse of arcane energy, the violet light shooting to the roof of the cavern and spearing through, deep through, till it split the rock apart right through to the open sky a mile above.  Sunlight spilled down, splashing over Linaniil’s lithe form.  It had been many hours since this long long night had begun.
+Elle sourit tristement.  « Peut-être.  Peut-être pas.  Le monde change plus vite qu'on ne saurait le prédire.  Mais si nous devons nous revoir, ce sera en un lieu qui n'existe pas encore — la cité d'Angolwen. »  Elle leva alors un bras, d'où jaillit une formidable pulsation d'énergie arcanique, la lumière violette perçant le plafond de la caverne, s'enfonçant profondément, toujours plus profondément, jusqu'à fendre la roche de part en part vers le ciel ouvert, un kilomètre et demi plus haut.  La lumière du soleil se déversa alors, éclaboussant la silhouette svelte de Linaniil.  Plusieurs heures s'étaient écoulées depuis le début de cette longue, si longue nuit.
 
-“But for now, farewell Aranion,” she said as she began to float from the ground.  And then she sped up and soared out of sight.
+« Mais pour l'heure, adieu, Aranion », dit-elle en commençant à s'élever du sol.  Puis elle accéléra et disparut dans les cieux.
 
-I lay down on the cold stone, resting for a while, slowly healing my wounds and recovering my strength.  I reflected on the events since the evening before, thinking back on the trials of all the races of Maj’Eyal.  War, disease and death threatened all equally.  Was Linaniil beyond that now?  How would a taste of immortality affect her?
+Je m'allongeai sur la pierre froide, me reposant un moment, guérissant lentement mes blessures et recouvrant mes forces.  Je repensai aux événements survenus depuis la veille au soir, songeant aux épreuves de toutes les races de Maj'Eyal.  Guerre, maladie et mort menaçaient tous également.  Linaniil était-elle désormais au-delà de tout cela ?  Comment un avant-goût d'immortalité l'affecterait-il ?
 
-It was then that thought for our race came to me.  In ages past we had searched for immortality.  Our ancestral leaders had obsessed over it, but out of vanity, pride and a fear of death.  What would the real effects be if all our society were to be gifted with it?  With immortal life we might separate ourselves from the strifes and wars of the world.  It would give us a perspective beyond the petty squabbles and prideful competition of the other races.
+Ce fut alors qu'une pensée pour notre propre race me vint.  Jadis, nous avions cherché l'immortalité.  Nos chefs ancestraux en avaient été obsédés, mais par vanité, par orgueil et par peur de la mort.  Quels en seraient les véritables effets si toute notre société venait à en être dotée ?  Avec une vie immortelle, nous pourrions nous détacher des conflits et des guerres du monde.  Cela nous offrirait une perspective au-delà des petites querelles et de la compétition orgueilleuse des autres races.
 
-I dug through the ice and rocks and found still some trace of the dead god Quekorja, faint though it were.  I gathered all that was left and made the long journey back to Elvala.  There I retreated to my labs, studying the remains for years before finally unlocking its secrets.  It was thus that immortality for our race was born, and it has changed our outlook on the world ever since.
+Je fouillai la glace et les roches et trouvai encore quelque trace du dieu mort Quekorja, si ténue fût-elle.  Je rassemblai tout ce qui en restait et entrepris le long voyage de retour vers Elvala.  Là, je me retirai dans mes laboratoires, étudiant ces reliques pendant des années avant d'en percer enfin les secrets.  C'est ainsi que naquit l'immortalité pour notre race, et elle a depuis changé notre regard sur le monde.
 
-We stood apart from the others then, not engaging in war, finding a new respect for life.  It was not till Garkul the Devourer assaulted our gates in the Age of Pyre that we ever had cause for large scale war again, and I rode out to face him in combat.
+Nous nous tînmes alors à l'écart des autres, ne prenant point part aux guerres, trouvant un respect nouveau pour la vie.  Ce ne fut qu'à l'Ère du Bûcher, lorsque Garkul le Dévoreur assaillit nos portes, que nous eûmes de nouveau motif à une guerre de grande envergure, et je chevauchai à sa rencontre pour l'affronter au combat.
 
-But ah, that is another tale, one indeed of many tales, in the long and rich history of the Tales of Maj’Eyal...]], "_t")
---]==]
-
+Mais ah, cela est une autre histoire, l'une parmi tant d'autres, dans la longue et riche histoire de Tales of Maj'Eyal...]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/fearscape.lua"
@@ -14075,105 +14071,96 @@ Forgive me, Eyal.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/infinite-dungeon.lua"
 
-
--- texte non traduit
---[==[
-t("ruined dungeon", "ruined dungeon", "newLore category")
-t("clue (ruined dungeon)", "clue (ruined dungeon)", "_t")
+t("ruined dungeon", "donjon en ruines", "newLore category")
+t("clue (ruined dungeon)", "indice (donjon en ruines)", "_t")
 t([[There is an inscription here:
-#{italic}#The river flows in its bed of stone...#{normal}#]], [[There is an inscription here:
-#{italic}#The river flows in its bed of stone...#{normal}#]], "_t")
+#{italic}#The river flows in its bed of stone...#{normal}#]], [[Il y a une inscription ici :
+#{italic}#La rivière coule dans son lit de pierre...#{normal}#]], "_t")
 t([[There is an inscription here:
 #{italic}#...The feather flies gently in the wind.
-The tree's roots run deep...#{normal}#]], [[There is an inscription here:
-#{italic}#...The feather flies gently in the wind.
-The tree's roots run deep...#{normal}#]], "_t")
+The tree's roots run deep...#{normal}#]], [[Il y a une inscription ici :
+#{italic}#...La plume vole doucement dans le vent.
+Les racines de l'arbre plongent profondément...#{normal}#]], "_t")
 t([[There is an inscription here:
-#{italic}#...The eldritch force burns all that lives.#{normal}#]], [[There is an inscription here:
-#{italic}#...The eldritch force burns all that lives.#{normal}#]], "_t")
+#{italic}#...The eldritch force burns all that lives.#{normal}#]], [[Il y a une inscription ici :
+#{italic}#...La force occulte brûle tout ce qui vit.#{normal}#]], "_t")
 t([[There is an inscription here:
 #{italic}#Darkness beyond twilight.
-Crimson from the blood that flows...#{normal}#]], [[There is an inscription here:
-#{italic}#Darkness beyond twilight.
-Crimson from the blood that flows...#{normal}#]], "_t")
+Crimson from the blood that flows...#{normal}#]], [[Il y a une inscription ici :
+#{italic}#Ténèbres au-delà du crépuscule.
+Carmin du sang qui coule...#{normal}#]], "_t")
 t([[There is an inscription here:
 #{italic}#...Buried in the flow of time.
-Colder than the coldest ice...#{normal}#]], [[There is an inscription here:
-#{italic}#...Buried in the flow of time.
-Colder than the coldest ice...#{normal}#]], "_t")
+Colder than the coldest ice...#{normal}#]], [[Il y a une inscription ici :
+#{italic}#...Enseveli dans le flot du temps.
+Plus froid que la glace la plus froide...#{normal}#]], "_t")
 t([[There is an inscription here:
 #{italic}#...Unleash dark thoughts.
-Upon this blighted land!#{normal}#]], [[There is an inscription here:
-#{italic}#...Unleash dark thoughts.
-Upon this blighted land!#{normal}#]], "_t")
-t("infinite dungeon (ruined dungeon)", "infinite dungeon (ruined dungeon)", "_t")
+Upon this blighted land!#{normal}#]], [[Il y a une inscription ici :
+#{italic}#...Libérez des pensées sombres.
+Sur cette terre frappée par le fléau !#{normal}#]], "_t")
+t("infinite dungeon (ruined dungeon)", "donjon infini (donjon en ruines)", "_t")
 t([[There is an inscription here:
 The deceptive god Ralkur fled before the wrath of the godslayer Branzir and his dark blade Madrath. But though he fled to the depths of the dungeon he came to an end. Seeing himself cornered he used his power to delve deeper into the ground, laying traps and summoning enemies to confound his enemy. But Branzir would not be lost. He pursued his prey ever on, hunting him ever deeper. And Ralkur fled further, and faster, delving to fathoms beyond knowledge, with the godslayer always behind him, hunting relentlessly.
 
 And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.
 
 This passage seems to point to the passage there, it seems to indicate there are no possible exits.
-You should not enter it.]], [[There is an inscription here:
-The deceptive god Ralkur fled before the wrath of the godslayer Branzir and his dark blade Madrath. But though he fled to the depths of the dungeon he came to an end. Seeing himself cornered he used his power to delve deeper into the ground, laying traps and summoning enemies to confound his enemy. But Branzir would not be lost. He pursued his prey ever on, hunting him ever deeper. And Ralkur fled further, and faster, delving to fathoms beyond knowledge, with the godslayer always behind him, hunting relentlessly.
+You should not enter it.]], [[Il y a une inscription ici :
 
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.
+Le dieu trompeur Ralkur a fui devant la colère du tueur de dieux Branzir et de sa lame sombre, Madrath. Mais bien qu'il ait fui jusqu'aux profondeurs du donjon, il y trouva une impasse. Se voyant acculé, il usa de son pouvoir pour creuser plus profondément dans le sol, posant des pièges et invoquant des ennemis pour désorienter son adversaire. Mais Branzir ne se laissa pas égarer. Il poursuivit sa proie sans relâche, la traquant toujours plus profond. Et Ralkur fuit plus loin, et plus vite encore, plongeant vers des abîmes qui dépassent tout savoir, avec le tueur de dieux toujours à ses trousses, chassant sans merci.
 
-This passage seems to point to the passage there, it seems to indicate there are no possible exits.
-You should not enter it.]], "_t")
-t("infinite dungeon", "infinite dungeon", "newLore category")
-t("The Hunter and the Hunted chapter 1", "The Hunter and the Hunted chapter 1", "_t")
+Et ainsi la traque se poursuit. Depuis des siècles innombrables, Branzir ne s'est jamais arrêté pour se reposer ou dormir, poursuivant sa proie à travers les ravages de l'infini. Et bien que la mort serait un répit bienvenu, il ne pense qu'à la chasse et à la défaite du dieu couard. Ralkur continue de courir, et il ne prend pas un souffle qui ne soit un halètement, et il ne fait pas un pas qui ne soit une fuite, et chaque battement de son coeur traître est un coup de terreur tandis qu'il s'enfonce toujours plus profond, jusqu'à la fin des temps.
+
+Ce passage semble indiquer le chemin plus loin ; il semble indiquer qu'il n'y a aucune issue possible.
+Vous ne devriez pas y entrer.]], "_t")
+t("infinite dungeon", "donjon infini", "newLore category")
+t("The Hunter and the Hunted chapter 1", "Le Chasseur et le Traqué, chapitre 1", "_t")
 t([[Branzir was the mightiest of the Sher'Tul hunters, and his fame was known at every Farportal. He could run for days without rest, cross terrain no others would dare to pass, and had senses more keen than all the wildest animals of Eyal. It was for this reason that Caldizar came to him at his forest keep and beseeched him to join in the Godhunt. At first Branzir refused, for he said he was not one to meddle in such mighty affairs, and he wanted but peace to hunt and fend for his family. But Caldizar convinced him that this life of peace was not possible whilst the schemes and machinations of the gods continued. And so reluctantly Branzir accepted, and took in his hands the great sword Madrath, and upon his shoulders was laid the title "Godslayer".
 
-In the great Godhunt that followed Branzir became the most fervent of the Godslayers, and would not sleep nor rest whilst a hunt was on. He it was that chased the troll-spawner Ugg'matho through the snow-capped mountains of Pertolias and broke his body on the highest peak. He it was that tracked the blight-weaver Xadoch through the howling vales of Anvion and trapped him and throttled him and cut him into seven pieces to be cast into the Glonglum lake. And he it was that was tasked with finding and killing Ralkur the Deceptor, god of charms and illusions, who had taken hiding amongst the lesser races.]], [[Branzir was the mightiest of the Sher'Tul hunters, and his fame was known at every Farportal. He could run for days without rest, cross terrain no others would dare to pass, and had senses more keen than all the wildest animals of Eyal. It was for this reason that Caldizar came to him at his forest keep and beseeched him to join in the Godhunt. At first Branzir refused, for he said he was not one to meddle in such mighty affairs, and he wanted but peace to hunt and fend for his family. But Caldizar convinced him that this life of peace was not possible whilst the schemes and machinations of the gods continued. And so reluctantly Branzir accepted, and took in his hands the great sword Madrath, and upon his shoulders was laid the title "Godslayer".
+In the great Godhunt that followed Branzir became the most fervent of the Godslayers, and would not sleep nor rest whilst a hunt was on. He it was that chased the troll-spawner Ugg'matho through the snow-capped mountains of Pertolias and broke his body on the highest peak. He it was that tracked the blight-weaver Xadoch through the howling vales of Anvion and trapped him and throttled him and cut him into seven pieces to be cast into the Glonglum lake. And he it was that was tasked with finding and killing Ralkur the Deceptor, god of charms and illusions, who had taken hiding amongst the lesser races.]], [[Branzir était le plus puissant des chasseurs Sher'Tul, et sa renommée était connue de tout Portail lointain. Il pouvait courir des jours durant sans repos, traverser des terrains qu'aucun autre n'aurait osé franchir, et possédait des sens plus aiguisés que ceux des animaux les plus sauvages d'Eyal. C'est pour cette raison que Caldizar vint à lui, dans son bastion forestier, et le supplia de se joindre à la Chasse aux Dieux. Branzir refusa d'abord, disant qu'il n'était pas homme à se mêler d'affaires si considérables, et qu'il ne désirait que la paix, pour chasser et subvenir aux besoins de sa famille. Mais Caldizar le convainquit que cette vie paisible resterait impossible tant que se poursuivraient les intrigues et manigances des dieux. Et c'est ainsi qu'à contrecoeur Branzir accepta, saisissant en ses mains la grande épée Madrath, et sur ses épaules fut posé le titre de "Tueur de Dieux".
 
-In the great Godhunt that followed Branzir became the most fervent of the Godslayers, and would not sleep nor rest whilst a hunt was on. He it was that chased the troll-spawner Ugg'matho through the snow-capped mountains of Pertolias and broke his body on the highest peak. He it was that tracked the blight-weaver Xadoch through the howling vales of Anvion and trapped him and throttled him and cut him into seven pieces to be cast into the Glonglum lake. And he it was that was tasked with finding and killing Ralkur the Deceptor, god of charms and illusions, who had taken hiding amongst the lesser races.]], "_t")
-t("The Hunter and the Hunted chapter 2", "The Hunter and the Hunted chapter 2", "_t")
+Dans la grande Chasse aux Dieux qui suivit, Branzir devint le plus fervent des Tueurs de Dieux, et ne dormait ni ne se reposait tant qu'une chasse était en cours. C'est lui qui pourchassa Ugg'matho l'engendreur de trolls à travers les montagnes enneigées de Pertolias et brisa son corps sur le plus haut sommet. C'est lui qui traqua Xadoch le tisseur de fléau à travers les vallées hurlantes d'Anvion, le piégea, l'étrangla et le découpa en sept morceaux pour les jeter dans le lac Glonglum. Et c'est encore lui qui reçut la tâche de trouver et de tuer Ralkur le Trompeur, dieu des charmes et des illusions, qui s'était réfugié parmi les races inférieures.]], "_t")
+t("The Hunter and the Hunted chapter 2", "Le Chasseur et le Traqué, chapitre 2", "_t")
 t([[Thus began the greatest hunt there ever was. Branzir used forceful coercion and the spilling of blood to uncover the secret of his enemy's hiding place. He tracked Ralkur down to the primitive settlement where he had taken the form of one of the lesser races. Branzir rooted him out, and came upon him with Madrath in hand. But Ralkur seeing the wrath of the hunter and the terrible sword became frightful, and he took on the form of an antelope and fled across the Harloe Plains. But Branzir ran after and ran swifter and nigh caught him before they reached the Woods of Darmin. There Ralkur assumed the form of a monkey and took to the trees. But Branzir tracked him and followed close, overcoming the traps his foe left behind. Then the forest fell away and they came to the Azure Sea, and Ralkur took the form of a gull and flew over the waters cawing with prideful glee. But Branzir was unfazed and leapt into the water, swimming after the cowardly god with all his strength. Twenty days and nights he followed through the ocean, feeding off fish he could catch near the surface, whilst Ralkur beat his wings on the winds above. Not once did Branzir lose sight of his target, and with each passing day Ralkur became more and more filled with fright.
 
 Finally they came to the far shore of Tar'Eyal, and Ralkur fell onto the sandy beach bereft of strength. Depleted of all energy he reverted to his natural form, short and squat, and stumbled across the sand before falling down exhausted. Branzir arose from the water behind, and in spite of his trials he stood tall and fierce, and marched with purpose towards the cowering god. He drew out the fell blade Madrath from its sheath and held it to the throat of his prey.
 
-But Ralkur, in a last desperate effort, took on a pathetic and piteous form, and wailing and crying he begged Branzir for mercy, promising to leave all Eyal and never return. And Branzir, looking on the divine form sunk to such depths, was moved in his heart, and agreed. But he said in a solemn tone, "Get thee then from this world, which we mortals now claim for our own. Remove thyself from all influence in Eyal, and never dare thee to return. But if thou doest break my trust, let thee be afeared. For then not a breath shalt thou take that it will not be a gasp, and not a step shalt thou take that it will not be in flight, and each beat of thy traitorous heart shalt be a pounding of terror. For I shalt come for thee and I shalt find thee and even to the depths of Infinity I shalt hunt thee without rest till my hands are on thy throat and thy life is crushed to dust." And when he spake the wind fell silent and the sky turned black, for when a Sher'Tul speaks so his words become Words of Power, and they can change the world forever. And Ralkur hearing those words was filled with a dread beyond conception, and forgetting all exhaustion he immediately took the form of a swallow and flew high into the sky beyond all sight.]], [[Thus began the greatest hunt there ever was. Branzir used forceful coercion and the spilling of blood to uncover the secret of his enemy's hiding place. He tracked Ralkur down to the primitive settlement where he had taken the form of one of the lesser races. Branzir rooted him out, and came upon him with Madrath in hand. But Ralkur seeing the wrath of the hunter and the terrible sword became frightful, and he took on the form of an antelope and fled across the Harloe Plains. But Branzir ran after and ran swifter and nigh caught him before they reached the Woods of Darmin. There Ralkur assumed the form of a monkey and took to the trees. But Branzir tracked him and followed close, overcoming the traps his foe left behind. Then the forest fell away and they came to the Azure Sea, and Ralkur took the form of a gull and flew over the waters cawing with prideful glee. But Branzir was unfazed and leapt into the water, swimming after the cowardly god with all his strength. Twenty days and nights he followed through the ocean, feeding off fish he could catch near the surface, whilst Ralkur beat his wings on the winds above. Not once did Branzir lose sight of his target, and with each passing day Ralkur became more and more filled with fright.
+But Ralkur, in a last desperate effort, took on a pathetic and piteous form, and wailing and crying he begged Branzir for mercy, promising to leave all Eyal and never return. And Branzir, looking on the divine form sunk to such depths, was moved in his heart, and agreed. But he said in a solemn tone, "Get thee then from this world, which we mortals now claim for our own. Remove thyself from all influence in Eyal, and never dare thee to return. But if thou doest break my trust, let thee be afeared. For then not a breath shalt thou take that it will not be a gasp, and not a step shalt thou take that it will not be in flight, and each beat of thy traitorous heart shalt be a pounding of terror. For I shalt come for thee and I shalt find thee and even to the depths of Infinity I shalt hunt thee without rest till my hands are on thy throat and thy life is crushed to dust." And when he spake the wind fell silent and the sky turned black, for when a Sher'Tul speaks so his words become Words of Power, and they can change the world forever. And Ralkur hearing those words was filled with a dread beyond conception, and forgetting all exhaustion he immediately took the form of a swallow and flew high into the sky beyond all sight.]], [[Ainsi commença la plus grande chasse qui fut jamais. Branzir usa de coercition brutale et de sang versé pour découvrir le secret de la cachette de son ennemi. Il traqua Ralkur jusqu'à l'établissement primitif où celui-ci avait pris la forme de l'une des races inférieures. Branzir le débusqua et fondit sur lui, Madrath en main. Mais Ralkur, voyant la colère du chasseur et la terrible épée, fut saisi d'effroi, et il prit la forme d'une antilope et s'enfuit à travers les Plaines de Harloe. Mais Branzir courut à sa poursuite, plus rapide encore, et faillit le rattraper avant qu'ils n'atteignent les Bois de Darmin. Là, Ralkur prit la forme d'un singe et grimpa aux arbres. Mais Branzir le pista et le suivit de près, surmontant les pièges que son ennemi laissait derrière lui. Puis la forêt s'effaça, et ils parvinrent à la Mer Azur ; Ralkur prit alors la forme d'une mouette et survola les eaux en croassant d'une joie orgueilleuse. Mais Branzir ne se laissa pas décontenancer et plongea dans l'eau, nageant à la poursuite du dieu couard de toutes ses forces. Vingt jours et vingt nuits il le suivit à travers l'océan, se nourrissant des poissons qu'il parvenait à attraper près de la surface, tandis que Ralkur battait des ailes dans les vents au-dessus. Pas une seule fois Branzir ne perdit sa cible de vue, et à chaque jour qui passait, Ralkur se remplissait davantage d'effroi.
 
-Finally they came to the far shore of Tar'Eyal, and Ralkur fell onto the sandy beach bereft of strength. Depleted of all energy he reverted to his natural form, short and squat, and stumbled across the sand before falling down exhausted. Branzir arose from the water behind, and in spite of his trials he stood tall and fierce, and marched with purpose towards the cowering god. He drew out the fell blade Madrath from its sheath and held it to the throat of his prey.
+Ils atteignirent enfin le rivage lointain de Tar'Eyal, et Ralkur s'effondra sur la plage de sable, dépourvu de toute force. Vidé de toute énergie, il reprit sa forme naturelle, petite et trapue, et titubant à travers le sable avant de s'écrouler, épuisé. Branzir émergea de l'eau derrière lui, et malgré ses épreuves, il se tint grand et féroce, marchant avec détermination vers le dieu recroquevillé. Il tira du fourreau la funeste lame Madrath et la posa contre la gorge de sa proie.
 
-But Ralkur, in a last desperate effort, took on a pathetic and piteous form, and wailing and crying he begged Branzir for mercy, promising to leave all Eyal and never return. And Branzir, looking on the divine form sunk to such depths, was moved in his heart, and agreed. But he said in a solemn tone, "Get thee then from this world, which we mortals now claim for our own. Remove thyself from all influence in Eyal, and never dare thee to return. But if thou doest break my trust, let thee be afeared. For then not a breath shalt thou take that it will not be a gasp, and not a step shalt thou take that it will not be in flight, and each beat of thy traitorous heart shalt be a pounding of terror. For I shalt come for thee and I shalt find thee and even to the depths of Infinity I shalt hunt thee without rest till my hands are on thy throat and thy life is crushed to dust." And when he spake the wind fell silent and the sky turned black, for when a Sher'Tul speaks so his words become Words of Power, and they can change the world forever. And Ralkur hearing those words was filled with a dread beyond conception, and forgetting all exhaustion he immediately took the form of a swallow and flew high into the sky beyond all sight.]], "_t")
-t("The Hunter and the Hunted chapter 3", "The Hunter and the Hunted chapter 3", "_t")
+Mais Ralkur, dans un dernier effort désespéré, prit une forme pathétique et pitoyable, et en gémissant et pleurant, il implora la pitié de Branzir, promettant de quitter Eyal tout entier et de ne jamais revenir. Et Branzir, contemplant la forme divine ainsi tombée si bas, en fut ému au fond du coeur, et accepta. Mais il dit d'un ton solennel : "Va-t'en donc de ce monde, que nous, mortels, revendiquons désormais comme nôtre. Retire-toi de toute influence en Eyal, et n'ose jamais y revenir. Mais si tu venais à trahir ma confiance, sois averti. Car alors pas un souffle que tu prendras qui ne soit un halètement, et pas un pas que tu feras qui ne soit une fuite, et chaque battement de ton coeur traître sera un coup de terreur. Car je viendrai te chercher, et je te trouverai, et même jusqu'aux profondeurs de l'Infini je te traquerai sans repos, jusqu'à ce que mes mains soient sur ta gorge et que ta vie soit réduite en poussière." Et quand il parla ainsi, le vent se tut et le ciel s'assombrit, car lorsqu'un Sher'Tul parle de la sorte, ses mots deviennent des Paroles de Pouvoir, capables de changer le monde à jamais. Et Ralkur, entendant ces mots, fut saisi d'une terreur au-delà de toute conception, et, oubliant toute son épuisement, il prit aussitôt la forme d'une hirondelle et s'envola haut dans le ciel, hors de toute vue.]], "_t")
+t("The Hunter and the Hunted chapter 3", "Le Chasseur et le Traqué, chapitre 3", "_t")
 t([[Branzir returned to his people, and continued the hunt for the other gods, till but one god remained: Amakthel. Then the last great Godhunt began, as the Sher'Tul fought to overcome their maker and master. And this was no easy feat, for Amakthel was by far the strongest of all the gods, and many Sher'Tul were still loyal to their creator. Much blood was spilled before ever the assault on his throne could begin, and much blood would spill still after.
 
 Now Ralkur had fled into the heavens with the full intent of passing beyond all reach of mortals forever more, such was the fear laid on him by the solemn words of Branzir. But as he soared higher and the fear faded, he came to change his mind, for he was a prideful god and moreso a vengeful one. Thoughts and schemes began to build in his mind for how he could gain retribution on the Sher'Tul that had brought him to shame. So he took on the form of an eagle and flew above the highest volcano in Eyal, and there he stretched his wings and glided high on the rising heat, watching all that happened in the lands below and biding his time for vengeance.
 
 He watched with joy as he saw the Sher'Tul armies fall before the forces of Amakthel's fortress. He watched with anxiety as he saw the Sher'Tul finally break through the defences and come upon the great god himself. He watched with awe as he saw the nine Godslayers do battle with their creator, and several broken before his almighty wrath. And then he watched with utter terror as he saw the mightiest of all gods felled, and maimed and mutilated and bound, and cast into the darkest depths of the world.
-]], [[Branzir returned to his people, and continued the hunt for the other gods, till but one god remained: Amakthel. Then the last great Godhunt began, as the Sher'Tul fought to overcome their maker and master. And this was no easy feat, for Amakthel was by far the strongest of all the gods, and many Sher'Tul were still loyal to their creator. Much blood was spilled before ever the assault on his throne could begin, and much blood would spill still after.
+]], [[Branzir retourna auprès de son peuple et poursuivit la chasse aux autres dieux, jusqu'à ce qu'il n'en restât plus qu'un : Amakthel. Alors commença la dernière grande Chasse aux Dieux, tandis que les Sher'Tul combattaient pour vaincre leur créateur et maître. Et ce ne fut pas un mince exploit, car Amakthel était de loin le plus puissant de tous les dieux, et de nombreux Sher'Tul demeuraient encore loyaux à leur créateur. Beaucoup de sang fut versé avant même que l'assaut contre son trône ne puisse commencer, et beaucoup de sang serait versé encore après.
 
-Now Ralkur had fled into the heavens with the full intent of passing beyond all reach of mortals forever more, such was the fear laid on him by the solemn words of Branzir. But as he soared higher and the fear faded, he came to change his mind, for he was a prideful god and moreso a vengeful one. Thoughts and schemes began to build in his mind for how he could gain retribution on the Sher'Tul that had brought him to shame. So he took on the form of an eagle and flew above the highest volcano in Eyal, and there he stretched his wings and glided high on the rising heat, watching all that happened in the lands below and biding his time for vengeance.
+Or Ralkur avait fui vers les cieux avec la ferme intention de se soustraire à jamais à toute atteinte des mortels, tant était grande la peur que lui avaient inspirée les paroles solennelles de Branzir. Mais tandis qu'il s'élevait plus haut et que la peur s'estompait, il en vint à changer d'avis, car c'était un dieu orgueilleux, et plus encore vindicatif. Des pensées et des complots commencèrent à germer dans son esprit, sur la manière dont il pourrait se venger des Sher'Tul qui l'avaient couvert de honte. Il prit alors la forme d'un aigle et vola au-dessus du plus haut volcan d'Eyal, et là, il déploya ses ailes et plana haut dans la chaleur ascendante, observant tout ce qui se passait dans les terres en contrebas, attendant patiemment son heure de vengeance.
 
-He watched with joy as he saw the Sher'Tul armies fall before the forces of Amakthel's fortress. He watched with anxiety as he saw the Sher'Tul finally break through the defences and come upon the great god himself. He watched with awe as he saw the nine Godslayers do battle with their creator, and several broken before his almighty wrath. And then he watched with utter terror as he saw the mightiest of all gods felled, and maimed and mutilated and bound, and cast into the darkest depths of the world.
+Il observa avec joie les armées Sher'Tul s'effondrer devant les forces de la forteresse d'Amakthel. Il observa avec anxiété les Sher'Tul percer enfin les défenses et affronter le grand dieu lui-même. Il observa avec stupeur les neuf Tueurs de Dieux livrer bataille à leur créateur, plusieurs d'entre eux brisés devant sa colère toute-puissante. Et alors, il observa avec une terreur absolue le plus puissant de tous les dieux être abattu, mutilé, estropié et enchaîné, puis jeté dans les plus sombres profondeurs du monde.
 ]], "_t")
-t("The Hunter and the Hunted chapter 4", "The Hunter and the Hunted chapter 4", "_t")
+t("The Hunter and the Hunted chapter 4", "Le Chasseur et le Traqué, chapitre 4", "_t")
 t([[Seeing the full powers of the Sher'Tul Ralkur felt paralysed with fear, and thought his quest for vengeance hopeless. But he bided his time still, and his patience was rewarded as he saw dissention begin to arise in the great race. When Caldizar disappeared and the Godslayers separated he felt his time was ripe, and he came upon the forest keep of Branzir under a storm of wrath. He flew down screeching, and spreading his wings he let loose spikes of steel that rained down on the keep, cutting through wood and stone and flesh. All who were in the keep were killed, and the air was filled with Ralkur's cackling laughter as he flew away.
 
-But the vengeful god had been hasty at the last, for Branzir was out hunting at the time. Coming back the next day he saw his home in ruins, and all his family and servants butchered, and sorrow and torment filled every corner of his being. On hearing reports of what happened he knew well the perpetrator and his fury was incandescent. He sought the aid of the other Godhunters in scouring out the stray god, but they were all divided, and each engaged in the politics that would lay the seeds for war. Perhaps if they had aided him then the popular Branzir could have helped unify the people and stop the madness that was to come. But Caldizar was gone, reportedly aggrieved and repentant at their acts, and the remaining Godslayers thought only of their own powers and making gods of themselves.]], [[Seeing the full powers of the Sher'Tul Ralkur felt paralysed with fear, and thought his quest for vengeance hopeless. But he bided his time still, and his patience was rewarded as he saw dissention begin to arise in the great race. When Caldizar disappeared and the Godslayers separated he felt his time was ripe, and he came upon the forest keep of Branzir under a storm of wrath. He flew down screeching, and spreading his wings he let loose spikes of steel that rained down on the keep, cutting through wood and stone and flesh. All who were in the keep were killed, and the air was filled with Ralkur's cackling laughter as he flew away.
+But the vengeful god had been hasty at the last, for Branzir was out hunting at the time. Coming back the next day he saw his home in ruins, and all his family and servants butchered, and sorrow and torment filled every corner of his being. On hearing reports of what happened he knew well the perpetrator and his fury was incandescent. He sought the aid of the other Godhunters in scouring out the stray god, but they were all divided, and each engaged in the politics that would lay the seeds for war. Perhaps if they had aided him then the popular Branzir could have helped unify the people and stop the madness that was to come. But Caldizar was gone, reportedly aggrieved and repentant at their acts, and the remaining Godslayers thought only of their own powers and making gods of themselves.]], [[En voyant l'étendue des pouvoirs des Sher'Tul, Ralkur se sentit paralysé de peur, et crut sa quête de vengeance sans espoir. Mais il attendit encore son heure, et sa patience fut récompensée lorsqu'il vit la discorde commencer à naître au sein de la grande race. Quand Caldizar disparut et que les Tueurs de Dieux se séparèrent, il sentit que son heure était venue, et il fondit sur le bastion forestier de Branzir dans une tempête de colère. Il piqua en poussant des cris stridents, et déployant ses ailes, il libéra une pluie de pointes d'acier qui s'abattit sur le bastion, tranchant le bois, la pierre et la chair. Tous ceux qui se trouvaient dans le bastion furent tués, et l'air se remplit du rire cruel de Ralkur tandis qu'il s'envolait.
 
-But the vengeful god had been hasty at the last, for Branzir was out hunting at the time. Coming back the next day he saw his home in ruins, and all his family and servants butchered, and sorrow and torment filled every corner of his being. On hearing reports of what happened he knew well the perpetrator and his fury was incandescent. He sought the aid of the other Godhunters in scouring out the stray god, but they were all divided, and each engaged in the politics that would lay the seeds for war. Perhaps if they had aided him then the popular Branzir could have helped unify the people and stop the madness that was to come. But Caldizar was gone, reportedly aggrieved and repentant at their acts, and the remaining Godslayers thought only of their own powers and making gods of themselves.]], "_t")
-t("The Hunter and the Hunted chapter 5", "The Hunter and the Hunted chapter 5", "_t")
+Mais le dieu vindicatif avait agi trop hâtivement, car Branzir était alors parti chasser. En rentrant le lendemain, il découvrit son foyer en ruines, toute sa famille et ses serviteurs massacrés, et le chagrin et le tourment envahirent chaque recoin de son être. En entendant les récits de ce qui s'était passé, il connut bien vite le coupable, et sa fureur devint incandescente. Il chercha l'aide des autres Chasseurs de Dieux pour traquer le dieu fugitif, mais tous étaient divisés, chacun pris dans les intrigues politiques qui allaient semer les graines de la guerre. Peut-être que s'ils l'avaient aidé, le populaire Branzir aurait pu contribuer à unifier le peuple et arrêter la folie qui s'annonçait. Mais Caldizar était parti, prétendument affligé et repentant de leurs actes, et les Tueurs de Dieux restants ne pensaient qu'à leurs propres pouvoirs, cherchant à se faire dieux eux-mêmes.]], "_t")
+t("The Hunter and the Hunted chapter 5", "Le Chasseur et le Traqué, chapitre 5", "_t")
 t([[So Branzir set out alone, with Madrath in his sheath. It did not take long to find his prey, who had now stopped all attempts at hiding. He came upon the god in a settlement of lesser creatures who worshipped him, and he ruthlessly cut down the pathetic wretches that tried to protect their new deity. Ralkur fled at the sight of Branzir and his dark blade, filled with all-encompassing fright. But Branzir was not to be lost, and chased him into some nearby ruins. There Ralkur laid traps and summoned enemies and fled deeper into the darkness. But Branzir overcame them all and came on faster, till they reached the depths of the dungeons. And being out of space the god created new space and fled further, and kept on fleeing. And Branzir carried on chasing, not letting up for a second as the pursued god continued to delve deeper into the ground.
 
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.]], [[So Branzir set out alone, with Madrath in his sheath. It did not take long to find his prey, who had now stopped all attempts at hiding. He came upon the god in a settlement of lesser creatures who worshipped him, and he ruthlessly cut down the pathetic wretches that tried to protect their new deity. Ralkur fled at the sight of Branzir and his dark blade, filled with all-encompassing fright. But Branzir was not to be lost, and chased him into some nearby ruins. There Ralkur laid traps and summoned enemies and fled deeper into the darkness. But Branzir overcame them all and came on faster, till they reached the depths of the dungeons. And being out of space the god created new space and fled further, and kept on fleeing. And Branzir carried on chasing, not letting up for a second as the pursued god continued to delve deeper into the ground.
+And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.]], [[Branzir partit donc seul, Madrath en son fourreau. Il ne lui fallut guère de temps pour retrouver sa proie, qui avait désormais renoncé à toute tentative de dissimulation. Il trouva le dieu dans un établissement de créatures inférieures qui le vénéraient, et il abattit sans pitié les misérables qui tentaient de protéger leur nouvelle divinité. Ralkur, à la vue de Branzir et de sa lame sombre, s'enfuit, empli d'une terreur absolue. Mais Branzir ne se laisserait pas égarer, et le poursuivit jusque dans des ruines voisines. Là, Ralkur posa des pièges, invoqua des ennemis, et s'enfonça plus profondément dans les ténèbres. Mais Branzir surmonta tous les obstacles et avança plus vite encore, jusqu'à ce qu'ils atteignissent les profondeurs des donjons. Et n'ayant plus d'espace où fuir, le dieu créa un nouvel espace et fuit plus loin, sans jamais cesser de fuir. Et Branzir poursuivit la chasse, ne relâchant pas un instant sa traque tandis que le dieu poursuivi continuait de s'enfoncer toujours plus profond dans le sol.
 
-And so the chase continues. Over centuries beyond count Branzir has never stopped to rest or sleep as he pursues his prey through the ravages of infinity. And though death would be a welcome reprieve he thinks only of the hunt and of vanquishing the cowardly god. Ralkur continues to run, and he does not take a breath that it is not a gasp, and he does not take a step that it is not in flight, and every beat of his traitorous heart is a pounding of terror as he flees deeper and deeper till the ends of time.]], "_t")
---]==]
-
+Et ainsi la traque se poursuit. Depuis des siècles innombrables, Branzir ne s'est jamais arrêté pour se reposer ou dormir, poursuivant sa proie à travers les ravages de l'infini. Et bien que la mort serait un répit bienvenu, il ne pense qu'à la chasse et à la défaite du dieu couard. Ralkur continue de courir, et il ne prend pas un souffle qui ne soit un halètement, et il ne fait pas un pas qui ne soit une fuite, et chaque battement de son coeur traître est un coup de terreur tandis qu'il s'enfonce toujours plus profond, jusqu'à la fin des temps.]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/iron-throne.lua"
 
-t("Iron Throne Edict", "Édit du Trône de Fer", "_t")
-t("Iron Throne trade ledger", "Grand registre commercial du Trône de Fer", "_t")
-t("Iron Throne Reknor expedition, last words", "Expédition de Reknor du Trône de Fer, dernieres paroles", "_t")
--- texte non traduit
---[==[
-t("iron throne", "iron throne", "newLore category")
-t("Iron Throne Profits History: Age of Allure", "Iron Throne Profits History: Age of Allure", "_t")
+t("iron throne", "trône de fer", "newLore category")
+t("Iron Throne Profits History: Age of Allure", "Histoire des Profits du Trône de Fer : Ère de la Séduction", "_t")
 t([[#{bold}#3800: #{normal}#Gold accepted as standard unit of currency amongst all races after heavy lobbying. This is greatly to our favour, as our vein resources are high and the material otherwise has no practical usage. Must continue to stockpile more.
 #{bold}#4200: #{normal}#New smelting techniques developed allow more stralite to be recovered from existing veins. Techniques must be kept hidden from other races.
 #{bold}#4362: #{normal}#Grand Smith Dakhtun has discovered new methods of infusing magical effects in weapons and armour. Potential for profit growth in this area very high.
@@ -14183,51 +14170,53 @@ t([[#{bold}#3800: #{normal}#Gold accepted as standard unit of currency amongst a
 #{bold}#6827: #{normal}#Killed Kroltar the Crimson Wyrm and recovered his hoard. Value of hoard: 20 million gold. Resources lost in recovery effort: 7 million gold (estimation based on standard assessment of 350 gold per capita lost). Net profit: 13 million gold. Profit margin is 186%!
 #{bold}#6980: #{normal}#Resources based on dragon hoards are dwindling. Must reduce cull targets to allow recovery of numbers.
 #{bold}#7420: #{normal}#Major orc attacks are ruining trade arrangements. Cutting off all contracts until markets settle.
-#{bold}#7494: #{normal}#Disastrous use of magic by Shaloren elves has had an unprecedented impact on profitability of our operations. Increasing protectionist measures to prevent economic ruin.]], [[#{bold}#3800: #{normal}#Gold accepted as standard unit of currency amongst all races after heavy lobbying. This is greatly to our favour, as our vein resources are high and the material otherwise has no practical usage. Must continue to stockpile more.
-#{bold}#4200: #{normal}#New smelting techniques developed allow more stralite to be recovered from existing veins. Techniques must be kept hidden from other races.
-#{bold}#4362: #{normal}#Grand Smith Dakhtun has discovered new methods of infusing magical effects in weapons and armour. Potential for profit growth in this area very high.
-#{bold}#4550: #{normal}#First special meeting of Iron Throne Profits Committee. War with humans and halflings worrying, as it is reducing potential market size. Threat of complete market elimination forces us to drastic action - all weapons trade must cease. Increase stockpiles of construction materials in hope of eventual reconciliation.
-#{bold}#5967: #{normal}#Shaloren involvement in war is becoming too grave a risk - legends of Sher'Tul destruction are a pertinent reminder of the dangers of high magic. Increasing investment in new Ziguranth order in hopes of opposing this problem.
-#{bold}#6550: #{normal}#War ended. Opportunity presents itself - now reopening trade, with high prices on all construction items. Profits forecast is very high.
-#{bold}#6827: #{normal}#Killed Kroltar the Crimson Wyrm and recovered his hoard. Value of hoard: 20 million gold. Resources lost in recovery effort: 7 million gold (estimation based on standard assessment of 350 gold per capita lost). Net profit: 13 million gold. Profit margin is 186%!
-#{bold}#6980: #{normal}#Resources based on dragon hoards are dwindling. Must reduce cull targets to allow recovery of numbers.
-#{bold}#7420: #{normal}#Major orc attacks are ruining trade arrangements. Cutting off all contracts until markets settle.
-#{bold}#7494: #{normal}#Disastrous use of magic by Shaloren elves has had an unprecedented impact on profitability of our operations. Increasing protectionist measures to prevent economic ruin.]], "_t")
-t("Iron Throne Profits History: Age of Dusk", "Iron Throne Profits History: Age of Dusk", "_t")
+#{bold}#7494: #{normal}#Disastrous use of magic by Shaloren elves has had an unprecedented impact on profitability of our operations. Increasing protectionist measures to prevent economic ruin.]], [[#{bold}#3800 : #{normal}#L'or fut accepté comme unité de monnaie standard parmi toutes les races après un lobbying intensif. Ceci nous est grandement favorable, car nos réserves de filons sont abondantes et ce matériau n'a par ailleurs aucun usage pratique. Nous devons continuer à en stocker davantage.
+#{bold}#4200 : #{normal}#De nouvelles techniques de fonte développées permettent de récupérer davantage de stralite à partir des filons existants. Ces techniques doivent être tenues secrètes vis-à-vis des autres races.
+#{bold}#4362 : #{normal}#Le Grand Forgeron Dakhtun a découvert de nouvelles méthodes pour infuser des effets magiques dans les armes et les armures. Le potentiel de croissance des profits dans ce domaine est très élevé.
+#{bold}#4550 : #{normal}#Première réunion spéciale du Comité des Profits du Trône de Fer. La guerre entre humains et Halfelins est préoccupante, car elle réduit la taille potentielle du marché. La menace d'une élimination totale du marché nous force à prendre des mesures drastiques - tout commerce d'armes doit cesser. Augmenter les stocks de matériaux de construction dans l'espoir d'une éventuelle réconciliation.
+#{bold}#5967 : #{normal}#L'implication des Shaloréens dans la guerre devient un risque trop grave - les légendes de la destruction des Sher'Tul nous rappellent pertinemment les dangers de la haute magie. Augmentation de l'investissement dans le nouvel ordre des Zigurantes dans l'espoir de contrer ce problème.
+#{bold}#6550 : #{normal}#La guerre est terminée. Une opportunité se présente - nous rouvrons désormais le commerce, avec des prix élevés sur tous les articles de construction. Les prévisions de profit sont très élevées.
+#{bold}#6827 : #{normal}#Nous avons tué Kroltar le Draconien Cramoisi et récupéré son trésor. Valeur du trésor : 20 millions d'or. Ressources perdues dans l'effort de récupération : 7 millions d'or (estimation basée sur une évaluation standard de 350 pièces d'or par personne perdue). Profit net : 13 millions d'or. La marge de profit est de 186 % !
+#{bold}#6980 : #{normal}#Les ressources issues des trésors de dragons s'amenuisent. Il faut réduire les objectifs d'abattage pour permettre le rétablissement des populations.
+#{bold}#7420 : #{normal}#De grandes attaques orques ruinent nos accords commerciaux. Suspension de tous les contrats jusqu'à ce que les marchés se stabilisent.
+#{bold}#7494 : #{normal}#L'usage désastreux de la magie par les elfes Shaloréens a eu un impact sans précédent sur la rentabilité de nos opérations. Renforcement des mesures protectionnistes pour éviter la ruine économique.]], "_t")
+t("Iron Throne Profits History: Age of Dusk", "Histoire des Profits du Trône de Fer : Ère du Crépuscule", "_t")
 t([[#{bold}#412: #{normal}#Diseases and food shortages force increased trade with other races. For the first time in our great history we are in the red. Morale amongst the people is at an all-time low, and is badly affecting productivity.
 #{bold}#1430: #{normal}#Several mages visited and used their arts to cure many of the plagues we have suffered for centuries. When offered payment they refused. How very odd...
 #{bold}#1490: #{normal}#Production now nearing pre-Spellblaze levels. Profits high, and commerce with other races increasing.
-#{bold}#1567: #{normal}#Gigantic earthquakes have completely destroyed many of our major production facilities. Loss of personnel resources is also very tragic, especially key production experts. This is having a very negative effect on our forecasts.]], [[#{bold}#412: #{normal}#Diseases and food shortages force increased trade with other races. For the first time in our great history we are in the red. Morale amongst the people is at an all-time low, and is badly affecting productivity.
-#{bold}#1430: #{normal}#Several mages visited and used their arts to cure many of the plagues we have suffered for centuries. When offered payment they refused. How very odd...
-#{bold}#1490: #{normal}#Production now nearing pre-Spellblaze levels. Profits high, and commerce with other races increasing.
-#{bold}#1567: #{normal}#Gigantic earthquakes have completely destroyed many of our major production facilities. Loss of personnel resources is also very tragic, especially key production experts. This is having a very negative effect on our forecasts.]], "_t")
-t("Iron Throne Profits History: Age of Pyre", "Iron Throne Profits History: Age of Pyre", "_t")
+#{bold}#1567: #{normal}#Gigantic earthquakes have completely destroyed many of our major production facilities. Loss of personnel resources is also very tragic, especially key production experts. This is having a very negative effect on our forecasts.]], [[#{bold}#412 : #{normal}#Les maladies et pénuries alimentaires nous forcent à accroître le commerce avec les autres races. Pour la première fois de notre grande histoire, nous sommes dans le rouge. Le moral du peuple est au plus bas jamais atteint, et cela affecte gravement la productivité.
+#{bold}#1430 : #{normal}#Plusieurs mages nous ont rendu visite et ont utilisé leurs arts pour guérir bon nombre des fléaux que nous subissions depuis des siècles. Lorsqu'on leur a proposé un paiement, ils l'ont refusé. Comme c'est étrange...
+#{bold}#1490 : #{normal}#La production se rapproche désormais des niveaux d'avant la Brûlure Magique. Les profits sont élevés, et le commerce avec les autres races augmente.
+#{bold}#1567 : #{normal}#De gigantesques tremblements de terre ont complètement détruit plusieurs de nos principales installations de production. La perte de ressources humaines est également très tragique, en particulier celle de nos experts clés de production. Cela a un effet très négatif sur nos prévisions.]], "_t")
+t("Iron Throne Profits History: Age of Pyre", "Histoire des Profits du Trône de Fer : Ère du Bûcher", "_t")
 t([[#{bold}#240: #{normal}#Market forecasts recovering better than expected. Increasing expansion in external trade areas.
 #{bold}#490: #{normal}#Orcish attacks have become much worse - seem to be using higher magic and some demonic forces. Potential threat to resources.
 #{bold}#581: #{normal}#Several key cities overwhelmed from underground by attacks from orcs and strange horrors. Have collapsed lower caverns to prevent further penetration. Working on continued resource protection measures.
 #{bold}#711: #{normal}#Developed key strategic agreements with outside races to help contain orcish threat to resources and infrastructure. Relations with Toknor of the humans are seen to be especially important - have sent him some of our best armour and weapons to ensure a good return on our investments. In hindsight we should have charged more for these.
 #{bold}#713: #{normal}#Orcish threat eliminated. Profits beginning to soar due to increased external trade relations.
-]], [[#{bold}#240: #{normal}#Market forecasts recovering better than expected. Increasing expansion in external trade areas.
-#{bold}#490: #{normal}#Orcish attacks have become much worse - seem to be using higher magic and some demonic forces. Potential threat to resources.
-#{bold}#581: #{normal}#Several key cities overwhelmed from underground by attacks from orcs and strange horrors. Have collapsed lower caverns to prevent further penetration. Working on continued resource protection measures.
-#{bold}#711: #{normal}#Developed key strategic agreements with outside races to help contain orcish threat to resources and infrastructure. Relations with Toknor of the humans are seen to be especially important - have sent him some of our best armour and weapons to ensure a good return on our investments. In hindsight we should have charged more for these.
-#{bold}#713: #{normal}#Orcish threat eliminated. Profits beginning to soar due to increased external trade relations.
+]], [[#{bold}#240 : #{normal}#Les prévisions de marché se redressent mieux que prévu. Expansion croissante dans les zones de commerce extérieur.
+#{bold}#490 : #{normal}#Les attaques orques sont devenues bien plus violentes - elles semblent impliquer de la haute magie et certaines forces démoniaques. Menace potentielle pour nos ressources.
+#{bold}#581 : #{normal}#Plusieurs cités clés ont été submergées par en dessous par des attaques d'orcs et d'étranges horreurs. Nous avons fait s'effondrer les cavernes inférieures pour empêcher toute nouvelle pénétration. Mise en place de mesures continues de protection des ressources.
+#{bold}#711 : #{normal}#Développement d'accords stratégiques clés avec des races extérieures pour aider à contenir la menace orque sur nos ressources et infrastructures. Les relations avec Toknor, chez les humains, sont jugées particulièrement importantes - nous lui avons envoyé certaines de nos meilleures armures et armes pour garantir un bon retour sur nos investissements. Avec le recul, nous aurions dû les facturer plus cher.
+#{bold}#713 : #{normal}#Menace orque éliminée. Les profits commencent à s'envoler grâce à l'augmentation des relations commerciales extérieures.
 ]], "_t")
-t("Iron Throne Profits History: Age of Ascendancy", "Iron Throne Profits History: Age of Ascendancy", "_t")
+t("Iron Throne Profits History: Age of Ascendancy", "Histoire des Profits du Trône de Fer : Ère de l'Ascendance", "_t")
 t([[#{bold}#28: #{normal}#Mutual defence treaty signed with newly formed Allied Kingdom, and further trade routes opened. Highest ever recorded profit in final quarter of this year.
 #{bold}#115: #{normal}#Noted a return of an orcish presence in the collapsed caverns beneath the Iron Throne. Also increased reports of horrors and demons affecting mining operations. Key strategic decision taken: these must be kept hidden from the other races. Uncertainty will only destabilise the markets. Increase stockpiles of weapons and armour, especially voratun and stralite materials, in case of new war trade.
-#{bold}#120: #{normal}#Orcish raid has stolen many of our stockpiled weapons. Pressures on mining operations have increased, cutting off key stralite veins. Resource protection measures need increasing, whilst threat must be contained beneath us. Profits are stable, but under heavy threat.]], [[#{bold}#28: #{normal}#Mutual defence treaty signed with newly formed Allied Kingdom, and further trade routes opened. Highest ever recorded profit in final quarter of this year.
-#{bold}#115: #{normal}#Noted a return of an orcish presence in the collapsed caverns beneath the Iron Throne. Also increased reports of horrors and demons affecting mining operations. Key strategic decision taken: these must be kept hidden from the other races. Uncertainty will only destabilise the markets. Increase stockpiles of weapons and armour, especially voratun and stralite materials, in case of new war trade.
-#{bold}#120: #{normal}#Orcish raid has stolen many of our stockpiled weapons. Pressures on mining operations have increased, cutting off key stralite veins. Resource protection measures need increasing, whilst threat must be contained beneath us. Profits are stable, but under heavy threat.]], "_t")
+#{bold}#120: #{normal}#Orcish raid has stolen many of our stockpiled weapons. Pressures on mining operations have increased, cutting off key stralite veins. Resource protection measures need increasing, whilst threat must be contained beneath us. Profits are stable, but under heavy threat.]], [[#{bold}#28 : #{normal}#Traité de défense mutuelle signé avec le Royaume Allié récemment formé, et ouverture de nouvelles routes commerciales. Profit le plus élevé jamais enregistré au dernier trimestre de cette année.
+#{bold}#115 : #{normal}#On note un retour de présence orque dans les cavernes effondrées sous le Trône de Fer. Également, augmentation des rapports d'horreurs et de démons affectant les opérations minières. Décision stratégique clé prise : cela doit être tenu caché des autres races. L'incertitude ne fera que déstabiliser les marchés. Augmenter les stocks d'armes et d'armures, en particulier de matériaux en voratun et en stralite, en cas de nouveau commerce de guerre.
+#{bold}#120 : #{normal}#Un raid orque a dérobé une grande partie de nos armes stockées. Les pressions sur les opérations minières se sont accrues, coupant l'accès à des filons clés de stralite. Les mesures de protection des ressources doivent être renforcées, tandis que la menace doit être contenue sous nos pieds. Les profits sont stables, mais sous forte menace.]], "_t")
+t("Iron Throne Edict", "Édit du Trône de Fer", "_t")
 t([[#{bold}#AN EDICT TO ALL CITIZENS OF THE IRON THRONE. LONG MAY OUR EMPIRE ENDURE.#{normal}#
 
 The rumours you have heard are true. It is with a heavy heart that I confirm one of our mines, Reknor, has been overtaken and inhabited by a large and organised orcish force. How there could be such a decisive and total failure on our part to stop this threat remains a mystery - the source of the orcish invasion remains unknown. A battalion of soldiers will form a defensive perimeter around Reknor until a force to retake the mine and exterminate the orcs can be mustered. All civilians residing within the surrounding halls are to be evacuated.
 
-This is a grave and unprecedented issue, so I decree an oath of silence to be laid upon all citizens of the Iron Throne, regardless of class and station: NO NEWS OF THIS INVASION MUST REACH FOREIGN EARS. We must maintain an image of stability and strength with the Allied Kingdom, as any signs of weakness or internal strife would be catastrophic to our alliance and future trade agreements. Any citizen found divulging this information to any outside party will be punished with exile. Rest assured, I will personally send messages to those outside the Throne who can be trusted with this information, and I trust this orcish intrusion shall be dealt with swiftly and decisively. So speaks the ruler of the Iron Throne, long may our empire endure.]], [[#{bold}#AN EDICT TO ALL CITIZENS OF THE IRON THRONE. LONG MAY OUR EMPIRE ENDURE.#{normal}#
+This is a grave and unprecedented issue, so I decree an oath of silence to be laid upon all citizens of the Iron Throne, regardless of class and station: NO NEWS OF THIS INVASION MUST REACH FOREIGN EARS. We must maintain an image of stability and strength with the Allied Kingdom, as any signs of weakness or internal strife would be catastrophic to our alliance and future trade agreements. Any citizen found divulging this information to any outside party will be punished with exile. Rest assured, I will personally send messages to those outside the Throne who can be trusted with this information, and I trust this orcish intrusion shall be dealt with swiftly and decisively. So speaks the ruler of the Iron Throne, long may our empire endure.]], [[#{bold}#UN DÉCRET À TOUS LES CITOYENS DU TRÔNE DE FER. QUE NOTRE EMPIRE PERDURE LONGTEMPS.#{normal}#
 
-The rumours you have heard are true. It is with a heavy heart that I confirm one of our mines, Reknor, has been overtaken and inhabited by a large and organised orcish force. How there could be such a decisive and total failure on our part to stop this threat remains a mystery - the source of the orcish invasion remains unknown. A battalion of soldiers will form a defensive perimeter around Reknor until a force to retake the mine and exterminate the orcs can be mustered. All civilians residing within the surrounding halls are to be evacuated.
+Les rumeurs que vous avez entendues sont vraies. C'est avec un coeur lourd que je confirme qu'une de nos mines, Reknor, a été envahie et occupée par une force orque nombreuse et organisée. Comment un échec aussi décisif et total ait pu se produire de notre part pour arrêter cette menace demeure un mystère - la source de l'invasion orque reste inconnue. Un bataillon de soldats formera un périmètre défensif autour de Reknor jusqu'à ce qu'une force puisse être rassemblée pour reprendre la mine et exterminer les orcs. Tous les civils résidant dans les salles environnantes doivent être évacués.
 
-This is a grave and unprecedented issue, so I decree an oath of silence to be laid upon all citizens of the Iron Throne, regardless of class and station: NO NEWS OF THIS INVASION MUST REACH FOREIGN EARS. We must maintain an image of stability and strength with the Allied Kingdom, as any signs of weakness or internal strife would be catastrophic to our alliance and future trade agreements. Any citizen found divulging this information to any outside party will be punished with exile. Rest assured, I will personally send messages to those outside the Throne who can be trusted with this information, and I trust this orcish intrusion shall be dealt with swiftly and decisively. So speaks the ruler of the Iron Throne, long may our empire endure.]], "_t")
+Il s'agit d'une question grave et sans précédent ; je décrète donc un serment de silence qui devra être respecté par tous les citoyens du Trône de Fer, sans distinction de classe ni de rang : AUCUNE NOUVELLE DE CETTE INVASION NE DOIT ATTEINDRE DES OREILLES ÉTRANGÈRES. Nous devons maintenir une image de stabilité et de force face au Royaume Allié, car tout signe de faiblesse ou de discorde interne serait catastrophique pour notre alliance et nos futurs accords commerciaux. Tout citoyen surpris à divulguer cette information à une partie extérieure sera puni d'exil. Soyez assurés que j'enverrai personnellement des messages à ceux, hors du Trône, en qui cette information peut être confiée, et j'ai confiance que cette intrusion orque sera traitée rapidement et de façon décisive. Ainsi parle le souverain du Trône de Fer ; que notre empire perdure longtemps.]], "_t")
+t("Iron Throne trade ledger", "Grand registre commercial du Trône de Fer", "_t")
 t([[#{bold}#IRON THRONE TRADE LEDGER - Allied Kingdom#{normal}#
 #{italic}#Age of Ascendancy, 121#{normal}#
 
@@ -14254,78 +14243,77 @@ t([[#{bold}#IRON THRONE TRADE LEDGER - Allied Kingdom#{normal}#
       Diamonds - 20pcs.
 
 low diamond yield this year - +50% charge? ziguranth raided our last ang. caravan - more guards? - D.
-yes to diamonds. arm our merchants in the caravan, no extra guards. profits are thin enough as it is! - S.]], [[#{bold}#IRON THRONE TRADE LEDGER - Allied Kingdom#{normal}#
-#{italic}#Age of Ascendancy, 121#{normal}#
+yes to diamonds. arm our merchants in the caravan, no extra guards. profits are thin enough as it is! - S.]], [[#{bold}#REGISTRE COMMERCIAL DU TRÔNE DE FER - Royaume Allié#{normal}#
+#{italic}#Ère de l'Ascendance, 121#{normal}#
 
-#{bold}#Last Hope - Exports#{normal}#
-      Steel Plate Armour (Human) - 500pcs.
-      Steel Plate Armour (Halfling) - 460pcs.
-      Steel Armaments -
-      * Longswords - 170pcs.
-      * Spears - 200pcs.
-      * Maces - 150pcs.
-      Crafts, Sundries - 2,200pcs.
+#{bold}#Dernier Espoir - Exportations#{normal}#
+      Armure de Plates en Acier (Humain) - 500 unités
+      Armure de Plates en Acier (Halfelin) - 460 unités
+      Armement en Acier -
+      * Épées longues - 170 unités
+      * Lances - 200 unités
+      * Masses - 150 unités
+      Artisanat, Articles divers - 2 200 unités
 
-#{bold}#Derth - Exports#{normal}#
-      Iron Hatchets - 50pcs.
-      Tools, Sundries - 65pcs.
+#{bold}#Derth - Exportations#{normal}#
+      Hachettes en Fer - 50 unités
+      Outils, Articles divers - 65 unités
 
-#{bold}#Last Hope - Imports#{normal}#
-      Gold - 500,000pcs.
-      Grains, Etc. - 1,000tons
+#{bold}#Dernier Espoir - Importations#{normal}#
+      Or - 500 000 unités
+      Céréales, Etc. - 1 000 tonnes
 
-#{bold}#CONFIDENTIAL: Angolwen - Exports#{normal}#
-      Garnets - 50pcs.
-      Rubies - 40pcs.
-      Diamonds - 20pcs.
+#{bold}#CONFIDENTIEL : Angolwen - Exportations#{normal}#
+      Grenats - 50 unités
+      Rubis - 40 unités
+      Diamants - 20 unités
 
-low diamond yield this year - +50% charge? ziguranth raided our last ang. caravan - more guards? - D.
-yes to diamonds. arm our merchants in the caravan, no extra guards. profits are thin enough as it is! - S.]], "_t")
-t("...We are lost. The orcish forces are too great. No matter how many our squad slays, yet more surge from the depths. Where are the cursed creatures coming from?! We have spied their leader, but have had no hope in killing him; he is a beast, a destroyer, burning with fire infernal and ice cruel and chilling. The power these orcs wield now fills me with dread... perhaps they have found new, mighty allies? This news must reach our ruler. My comrades... I am sorry. I will flee once the opportunity arises, but know that your sacrifices will not be in vain. Long may our empire endure.", "...We are lost. The orcish forces are too great. No matter how many our squad slays, yet more surge from the depths. Where are the cursed creatures coming from?! We have spied their leader, but have had no hope in killing him; he is a beast, a destroyer, burning with fire infernal and ice cruel and chilling. The power these orcs wield now fills me with dread... perhaps they have found new, mighty allies? This news must reach our ruler. My comrades... I am sorry. I will flee once the opportunity arises, but know that your sacrifices will not be in vain. Long may our empire endure.", "_t")
-t("Deep Bellow excavation report 1", "Deep Bellow excavation report 1", "_t")
+faible rendement en diamants cette année - facturer +50% ? les zigurantes ont attaqué notre dernière caravane pour ang. - plus de gardes ? - D.
+oui pour les diamants. armons nos marchands dans la caravane, pas de gardes supplémentaires. les profits sont déjà assez maigres comme ça ! - S.]], "_t")
+t("Iron Throne Reknor expedition, last words", "Expédition de Reknor du Trône de Fer, dernieres paroles", "_t")
+t("...We are lost. The orcish forces are too great. No matter how many our squad slays, yet more surge from the depths. Where are the cursed creatures coming from?! We have spied their leader, but have had no hope in killing him; he is a beast, a destroyer, burning with fire infernal and ice cruel and chilling. The power these orcs wield now fills me with dread... perhaps they have found new, mighty allies? This news must reach our ruler. My comrades... I am sorry. I will flee once the opportunity arises, but know that your sacrifices will not be in vain. Long may our empire endure.", "...Nous sommes perdus. Les forces orques sont trop nombreuses. Peu importe combien notre escouade en abat, d'autres surgissent encore des profondeurs. D'où viennent ces créatures maudites ? Nous avons repéré leur chef, mais nous n'avons aucun espoir de le tuer ; c'est une bête, un destructeur, brûlant d'un feu infernal et d'une glace cruelle et glaçante. Le pouvoir que ces orcs manient désormais m'emplit d'effroi... peut-être ont-ils trouvé de nouveaux et puissants alliés ? Cette nouvelle doit parvenir à notre souverain. Mes camarades... je suis désolé. Je fuirai dès que l'occasion se présentera, mais sachez que vos sacrifices n'auront pas été vains. Que notre empire perdure longtemps.", "_t")
+t("Deep Bellow excavation report 1", "rapport d'excavation du Grondement des Profondeurs (1)", "_t")
 t([[10 days into initial site survey, hmm! Recent tremors have opened deep new chasms, but we must work cautiously to ensure they're stable before conducting major operations, oh yes! Proceeding well at start, with supports being put in place and no flammable gases detected, hmm hmm.
 
 Some Sher'Tul relics have been found. Perhaps great profit to be had here! High margins on Shaloren market, yes yes.
 
 Some miners saying they feel ill, hrm hrm. The drem fools have likely been gorging on too much mead. Will deduct it from their pay, yes yes!
 
--- Foreman Tamoth]], [[10 days into initial site survey, hmm! Recent tremors have opened deep new chasms, but we must work cautiously to ensure they're stable before conducting major operations, oh yes! Proceeding well at start, with supports being put in place and no flammable gases detected, hmm hmm.
+-- Foreman Tamoth]], [[10 jours dans l'étude initiale du site, hmm ! De récentes secousses ont ouvert de nouveaux gouffres profonds, mais nous devons travailler prudemment pour nous assurer de leur stabilité avant de mener des opérations majeures, oh oui ! Bon début, avec des étais mis en place et aucun gaz inflammable détecté, hmm hmm.
 
-Some Sher'Tul relics have been found. Perhaps great profit to be had here! High margins on Shaloren market, yes yes.
+Quelques reliques Sher'Tul ont été trouvées. Peut-être un grand profit à en tirer ici ! Marges élevées sur le marché Shaloréen, oui oui.
 
-Some miners saying they feel ill, hrm hrm. The drem fools have likely been gorging on too much mead. Will deduct it from their pay, yes yes!
+Certains mineurs disent se sentir malades, hrm hrm. Ces idiots de Drems se sont sans doute gavés d'hydromel. Je le déduirai de leur paie, oui oui !
 
--- Foreman Tamoth]], "_t")
-t("Deep Bellow excavation report 2", "Deep Bellow excavation report 2", "_t")
+-- Contremaître Tamoth]], "_t")
+t("Deep Bellow excavation report 2", "rapport d'excavation du Grondement des Profondeurs (2)", "_t")
 t([[Chasms go deep, yes yes. More relics found, oh yes. Will be mighty profitable! But ah, my secret treasure is even better, indeed! Gold! Beautiful lovely gold, buried deep, so deep... Have kept it hidden, sealed, yes. Looks like the remains of a giant throne. I touched it, yes, I even put my lips to it - ahhh, the taste!
 
 But must stay focussed, much work to be done. Miners are rowdy, hrm! One of the drem fools went mad and killed himself with a pickaxe - messy business. Must restore order, yes yes! More Sher'Tul artifacts found, possibly even remains of weapons. Imagine the profit! Will keep them hidden yes, the dreams say yes, in the darkness, secret, waiting waiting, for the right time...
 
 Hmm, that fellow's blood was so red, spilling on the cavernous floor. I wonder where they buried him? My mouth... it wants to taste, yes yes...
 
--- Foreman Tamoth]], [[Chasms go deep, yes yes. More relics found, oh yes. Will be mighty profitable! But ah, my secret treasure is even better, indeed! Gold! Beautiful lovely gold, buried deep, so deep... Have kept it hidden, sealed, yes. Looks like the remains of a giant throne. I touched it, yes, I even put my lips to it - ahhh, the taste!
+-- Foreman Tamoth]], [[Les gouffres sont profonds, oui oui. Plus de reliques trouvées, oh oui. Ce sera très profitable ! Mais ah, mon trésor secret est encore meilleur, en effet ! De l'or ! Bel or magnifique, enterré profond, si profond... Je l'ai gardé caché, scellé, oui. On dirait les restes d'un trône géant. Je l'ai touché, oui, j'y ai même posé mes lèvres - ahhh, ce goût !
 
-But must stay focussed, much work to be done. Miners are rowdy, hrm! One of the drem fools went mad and killed himself with a pickaxe - messy business. Must restore order, yes yes! More Sher'Tul artifacts found, possibly even remains of weapons. Imagine the profit! Will keep them hidden yes, the dreams say yes, in the darkness, secret, waiting waiting, for the right time...
+Mais il faut rester concentré, beaucoup de travail à faire. Les mineurs sont agités, hrm ! Un des idiots de Drems est devenu fou et s'est tué avec une pioche - une sale affaire. Il faut rétablir l'ordre, oui oui ! Plus d'artefacts Sher'Tul trouvés, peut-être même des restes d'armes. Imaginez le profit ! Je les garderai cachés, oui, les rêves disent oui, dans l'obscurité, en secret, attendant, attendant le bon moment...
 
-Hmm, that fellow's blood was so red, spilling on the cavernous floor. I wonder where they buried him? My mouth... it wants to taste, yes yes...
+Hmm, le sang de ce type était si rouge, se répandant sur le sol caverneux. Je me demande où ils l'ont enterré ? Ma bouche... elle veut goûter, oui oui...
 
--- Foreman Tamoth]], "_t")
-t("Deep Bellow excavation report 3", "Deep Bellow excavation report 3", "_t")
+-- Contremaître Tamoth]], "_t")
+t("Deep Bellow excavation report 3", "rapport d'excavation du Grondement des Profondeurs (3)", "_t")
 t([[Hah, my mouth, it tastes, it feels, hmm hmm. It grows, yes yes! The others are changing, flying, screaming, squelching, warping. Bad for profit, hmm hmm. My teeth, they grow, they hunger, yes. They want to escape!
 
 I can feel in my dreams, the dark depths. Bound, buried, forgotten. My mouth wants to open, to scream, to destroy! Hmm hmm, deep below, yes... Want to get out!
 
 Must stay down here to be close to the dreams, yes yes. Must plant my mouth in the soil and watch it grow! It will devour me, and grow and grow, hmm hmm. It will call from the dark place, and bring back Him from the deepest below, oh yes.
 
--- Ta...moth... The mouth... yes yes!]], [[Hah, my mouth, it tastes, it feels, hmm hmm. It grows, yes yes! The others are changing, flying, screaming, squelching, warping. Bad for profit, hmm hmm. My teeth, they grow, they hunger, yes. They want to escape!
+-- Ta...moth... The mouth... yes yes!]], [[Hah, ma bouche, elle goûte, elle sent, hmm hmm. Elle grandit, oui oui ! Les autres changent, volent, hurlent, giclent, se déforment. Mauvais pour le profit, hmm hmm. Mes dents, elles grandissent, elles ont faim, oui. Elles veulent s'échapper !
 
-I can feel in my dreams, the dark depths. Bound, buried, forgotten. My mouth wants to open, to scream, to destroy! Hmm hmm, deep below, yes... Want to get out!
+Je peux sentir dans mes rêves les profondeurs sombres. Liées, enterrées, oubliées. Ma bouche veut s'ouvrir, crier, détruire ! Hmm hmm, tout en bas, oui... Je veux sortir !
 
-Must stay down here to be close to the dreams, yes yes. Must plant my mouth in the soil and watch it grow! It will devour me, and grow and grow, hmm hmm. It will call from the dark place, and bring back Him from the deepest below, oh yes.
+Je dois rester ici, en bas, pour être proche des rêves, oui oui. Je dois planter ma bouche dans le sol et la regarder grandir ! Elle me dévorera, et grandira, et grandira encore, hmm hmm. Elle appellera depuis l'endroit sombre, et Le ramènera des profondeurs les plus reculées, oh oui.
 
--- Ta...moth... The mouth... yes yes!]], "_t")
---]==]
-
+-- Ta... moth... La bouche... oui oui !]], "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/keepsake.lua"
@@ -14684,42 +14672,40 @@ I'm not cut out for this paladin work. Here I am, alone in a horrible dark dunge
 ------------------------------------------------
 section "mod-tome/data/lore/last-hope.lua"
 
-t("southspar", "Sparsud", "newLore category")
-t("Declaration of the Unification of the Allied Kingdoms", "Déclaration d'Unification des Royaumes Alliés", "_t")
-t("The Oceans of Eyal", "Les Océans d'Eyal", "_t")
--- texte non traduit
---[==[
-t("last hope", "last hope", "newLore category")
-t("The Diaries of King Toknor the Brave", "The Diaries of King Toknor the Brave", "_t")
+t("last hope", "dernier espoir", "newLore category")
+t("The Diaries of King Toknor the Brave", "Les Journaux du Roi Toknor le Brave", "_t")
 t([[#{italic}#68th of Dusk, Year of Pyre 710#{normal}#
 The orcish tribe have routed us. We have retreated to some Mardrop ruins and secured ourselves amongst the fortifications. I have just shy of 2,000 men under my banner, some of the best warriors I have ever served with, but we are simply no match for the numbers we face. Counting them is difficult, but I would put a minimum estimate at 10,000. The tribe has camped a league away - they seem to be waiting for reinforcements. This does not bode well...
 
-I have sent messenger crows to all the kingdoms. I can but hope they send aid in time.]], [[#{italic}#68th of Dusk, Year of Pyre 710#{normal}#
-The orcish tribe have routed us. We have retreated to some Mardrop ruins and secured ourselves amongst the fortifications. I have just shy of 2,000 men under my banner, some of the best warriors I have ever served with, but we are simply no match for the numbers we face. Counting them is difficult, but I would put a minimum estimate at 10,000. The tribe has camped a league away - they seem to be waiting for reinforcements. This does not bode well...
+I have sent messenger crows to all the kingdoms. I can but hope they send aid in time.]], [[#{italic}#68ième Crépuscule, An 710 de l'Ère du Bûcher#{normal}#
 
-I have sent messenger crows to all the kingdoms. I can but hope they send aid in time.]], "_t")
+La tribu orc nous a mis en déroute. Nous nous sommes repliés parmi des ruines de Mardrop et avons pris position dans les fortifications. J'ai à peine 2 000 hommes sous ma bannière, parmi les meilleurs guerriers avec qui j'aie jamais servi, mais nous ne faisons tout simplement pas le poids face au nombre qui nous fait face. Les dénombrer est difficile, mais j'estimerais leur nombre à 10 000 au minimum. La tribu a établi son camp à une lieue d'ici - ils semblent attendre des renforts. Cela n'augure rien de bon...
+
+J'ai envoyé des corbeaux messagers à tous les royaumes. Je ne peux qu'espérer qu'ils enverront de l'aide à temps.]], "_t")
 t([[#{italic}#25th of Haze, Year of Pyre 710#{normal}#
 Five men tried deserting last night. Today I had them flogged in front of all the others. I have given warning that any future deserters shall be hanged. These are measures I do not like to take, but harsh times call for harsher discipline.
 
 Our supplies are holding steady for now, but I fear they may not last. I've received word that it will take at least fifty days to muster a force that can save us. Alas, food may well be the least of our worries, for the orcs have begun to attack our strongholds. Thankfully we have had time to reinforce the existing structures. Indeed, little work was needed, for the foundations of this place are strong. My loremaster tells me it was abandoned following the Crimson Pox, but was once the capital of Mardrop. The men have taken a fondness to the place, and have named it "Last Hope". Though I normally discourage such romantic notions I cannot help but feel the same. These stone walls give strength to my heart - I feel we can fight through this.
 
-Their attack has begun again. They seem to have mages now. Ah, it will be a long night...]], [[#{italic}#25th of Haze, Year of Pyre 710#{normal}#
-Five men tried deserting last night. Today I had them flogged in front of all the others. I have given warning that any future deserters shall be hanged. These are measures I do not like to take, but harsh times call for harsher discipline.
+Their attack has begun again. They seem to have mages now. Ah, it will be a long night...]], [[#{italic}#25ième Brume, An 710 de l'Ère du Bûcher#{normal}#
 
-Our supplies are holding steady for now, but I fear they may not last. I've received word that it will take at least fifty days to muster a force that can save us. Alas, food may well be the least of our worries, for the orcs have begun to attack our strongholds. Thankfully we have had time to reinforce the existing structures. Indeed, little work was needed, for the foundations of this place are strong. My loremaster tells me it was abandoned following the Crimson Pox, but was once the capital of Mardrop. The men have taken a fondness to the place, and have named it "Last Hope". Though I normally discourage such romantic notions I cannot help but feel the same. These stone walls give strength to my heart - I feel we can fight through this.
+Cinq hommes ont tenté de déserter la nuit dernière. Aujourd'hui, je les ai fait fouetter devant tous les autres. J'ai prévenu que tout futur déserteur serait pendu. Ce sont des mesures que je n'aime guère prendre, mais les temps rudes appellent une discipline plus rude encore.
 
-Their attack has begun again. They seem to have mages now. Ah, it will be a long night...]], "_t")
+Nos réserves tiennent bon pour l'instant, mais je crains qu'elles ne durent pas. On m'a fait savoir qu'il faudrait au moins cinquante jours pour rassembler une force capable de nous sauver. Hélas, la nourriture est peut-être la moindre de nos inquiétudes, car les orcs ont commencé à attaquer nos bastions. Heureusement, nous avons eu le temps de renforcer les structures existantes. À vrai dire, peu de travaux furent nécessaires, tant les fondations de ce lieu sont solides. Mon chroniqueur me dit qu'il fut abandonné après la Variole Écarlate, mais qu'il fut jadis la capitale de Mardrop. Les hommes se sont pris d'affection pour cet endroit, et l'ont baptisé "Dernier Espoir". Bien que je décourage habituellement ce genre d'élans romantiques, je ne peux m'empêcher d'éprouver la même chose. Ces murs de pierre donnent de la force à mon coeur - je sens que nous pouvons traverser cette épreuve.
+
+Leur assaut a repris. Ils semblent avoir des mages parmi eux à présent. Ah, la nuit sera longue...]], "_t")
 t([[#{italic}#47th of Haze, Year of Pyre 710#{normal}#
 Rations low. Men demoralised. Winterhaze wind is making conditions unbearable. The fortress is holding, but each night they pick off some of our troops. It is but a matter of time before we no longer have the strength to resist.
 
 I can hear their blasted trumpets again. Accursed swine! We have no rest or sleep, not the slightest sojourn without their braying, howling, jeering, taunting, insufferable cantations! It is driving me from my wits! But I must remain strong... I must put on a brave face for the men. They are relying on me, and though the burden feels close to crushing me I must bear it with the dignity of a king.
 
-It is getting dark again. Who will die this night? I am so very afraid... but I cannot show it...]], [[#{italic}#47th of Haze, Year of Pyre 710#{normal}#
-Rations low. Men demoralised. Winterhaze wind is making conditions unbearable. The fortress is holding, but each night they pick off some of our troops. It is but a matter of time before we no longer have the strength to resist.
+It is getting dark again. Who will die this night? I am so very afraid... but I cannot show it...]], [[#{italic}#47ième Brume, An 710 de l'Ère du Bûcher#{normal}#
 
-I can hear their blasted trumpets again. Accursed swine! We have no rest or sleep, not the slightest sojourn without their braying, howling, jeering, taunting, insufferable cantations! It is driving me from my wits! But I must remain strong... I must put on a brave face for the men. They are relying on me, and though the burden feels close to crushing me I must bear it with the dignity of a king.
+Rations au plus bas. Les hommes sont démoralisés. Le vent glacé de la Brume rend les conditions insupportables. La forteresse tient bon, mais chaque nuit ils nous arrachent quelques soldats. Ce n'est qu'une question de temps avant que nous n'ayons plus la force de résister.
 
-It is getting dark again. Who will die this night? I am so very afraid... but I cannot show it...]], "_t")
+J'entends de nouveau leurs maudites trompettes. Porcs maudits ! Nous n'avons ni repos ni sommeil, pas un seul instant de répit sans leurs braiments, leurs hurlements, leurs railleries, leurs provocations, leurs insupportables psalmodies ! Cela me rend fou ! Mais je dois rester fort... Je dois afficher un visage courageux devant mes hommes. Ils comptent sur moi, et bien que ce fardeau semble sur le point de m'écraser, je dois le porter avec la dignité d'un roi.
+
+La nuit tombe de nouveau. Qui mourra cette nuit ? J'ai si peur... mais je ne peux le montrer...]], "_t")
 t([[#{italic}#51st of Haze, Year of Pyre 710#{normal}#
 Oh, happy days! Joyous retribution! From the jaws of defeat we have been saved, and never before have I felt such elation!
 
@@ -14727,14 +14713,15 @@ Last night as dusk approached, the orcish armies began to prepare a major attack
 
 The orcish army suddenly forgot about us, turning upon their new enemy. But foolish is any who ignores the wrath of a caged lion which sees its chance for vengeance! I led my men immediately into battle, taking the enemy swiftly from the rear, and throwing their organisation into madness. When the halfling army came upon their flank it was a massacre, and we drove them mercilessly towards the southern lake. There upon the shores we beat them to the last number, and their blood stained the water a horrific black.
 
-Our victory sealed, I immediately met with the halfling leader, and found it to be no less than the princess Mirvenia! Truly words cannot express my joy when I saw her face flushed red in the last embers of the setting sun. I almost felt... no, I should not think such things.]], [[#{italic}#51st of Haze, Year of Pyre 710#{normal}#
-Oh, happy days! Joyous retribution! From the jaws of defeat we have been saved, and never before have I felt such elation!
+Our victory sealed, I immediately met with the halfling leader, and found it to be no less than the princess Mirvenia! Truly words cannot express my joy when I saw her face flushed red in the last embers of the setting sun. I almost felt... no, I should not think such things.]], [[#{italic}#51ième Brume, An 710 de l'Ère du Bûcher#{normal}#
 
-Last night as dusk approached, the orcish armies began to prepare a major attack. My men were ready, for I was determined that if they were to have our lives they would pay for them thrice over. But as the sun waned in the western sky I saw what looked like a rain of gold falling amongst the orcish troops and suddenly they were in disarray. Another flurry came and I saw that it were not gold, but bolts of steel reflected in the setting sun. "The halflings!" my scout shouted, and lo I saw then it was indeed a large army of halflings come upon the orcs' flank.
+Oh, jours heureux ! Joyeuse revanche ! Des mâchoires de la défaite, nous avons été sauvés, et jamais encore je n'avais ressenti pareille exaltation !
 
-The orcish army suddenly forgot about us, turning upon their new enemy. But foolish is any who ignores the wrath of a caged lion which sees its chance for vengeance! I led my men immediately into battle, taking the enemy swiftly from the rear, and throwing their organisation into madness. When the halfling army came upon their flank it was a massacre, and we drove them mercilessly towards the southern lake. There upon the shores we beat them to the last number, and their blood stained the water a horrific black.
+La nuit dernière, comme le crépuscule approchait, les armées orcs ont commencé à préparer un assaut majeur. Mes hommes étaient prêts, car j'étais déterminé à ce que, s'ils voulaient nos vies, ils les paient trois fois leur prix. Mais tandis que le soleil déclinait dans le ciel occidental, j'ai vu ce qui ressemblait à une pluie d'or s'abattre sur les troupes orcs, qui aussitôt sombrèrent dans le désordre. Une nouvelle rafale suivit, et je vis que ce n'était pas de l'or, mais des carreaux d'acier reflétant le soleil couchant. "Les Halfelins !" cria mon éclaireur, et je vis alors qu'il s'agissait bien d'une vaste armée de Halfelins fondant sur le flanc des orcs.
 
-Our victory sealed, I immediately met with the halfling leader, and found it to be no less than the princess Mirvenia! Truly words cannot express my joy when I saw her face flushed red in the last embers of the setting sun. I almost felt... no, I should not think such things.]], "_t")
+L'armée orc nous oublia soudain, se retournant contre son nouvel ennemi. Mais insensé est celui qui ignore la colère d'un lion en cage qui voit enfin sa chance de vengeance ! J'ai aussitôt mené mes hommes au combat, prenant l'ennemi par-derrière avec rapidité, et plongeant leurs rangs dans la folie. Lorsque l'armée halfeline a frappé leur flanc, ce fut un massacre, et nous les avons repoussés sans pitié jusqu'au lac au sud. Là, sur les rives, nous les avons décimés jusqu'au dernier, et leur sang a teinté l'eau d'un noir horrible.
+
+Notre victoire scellée, j'ai aussitôt rencontré le chef des Halfelins, et j'ai découvert qu'il ne s'agissait de rien de moins que la princesse Mirvenia ! En vérité, les mots ne peuvent exprimer ma joie lorsque j'ai vu son visage rougir dans les dernières braises du soleil couchant. J'ai presque ressenti... non, je ne devrais pas penser à de telles choses.]], "_t")
 t([[#{italic}#2nd of Allure, Year of Pyre 711#{normal}#
 We have solidified the defences at Last Hope and received more troops from all of the kingdoms. Our tactical position near the sea is proving an excellent base for further attacks on the orcs. I hope to expand our facilities here much further. I am drawing up an alliance now with the other leaders, for only together can we hope to beat this terrible threat to all our kingdoms.
 
@@ -14742,14 +14729,15 @@ Mirvenia has been key to the discussions and the plans. She is a tactical genius
 
 She is a remarkable force for good, Mirvenia, popular with all the troops. I feel my normal iron rule smoothed by her presence. Too long have I led the cold life of a soldier... alone...
 
-Ah, the beating of my heart cannot be silenced. I must speak to Mirvenia, and tell her how I feel... I only hope she shares some inkling of my emotion.]], [[#{italic}#2nd of Allure, Year of Pyre 711#{normal}#
-We have solidified the defences at Last Hope and received more troops from all of the kingdoms. Our tactical position near the sea is proving an excellent base for further attacks on the orcs. I hope to expand our facilities here much further. I am drawing up an alliance now with the other leaders, for only together can we hope to beat this terrible threat to all our kingdoms.
+Ah, the beating of my heart cannot be silenced. I must speak to Mirvenia, and tell her how I feel... I only hope she shares some inkling of my emotion.]], [[#{italic}#2ième Séduction, An 711 de l'Ère du Bûcher#{normal}#
 
-Mirvenia has been key to the discussions and the plans. She is a tactical genius, and I am constantly amazed by her wealth of knowledge and skills. There is an odd woman that accompanies her though, with long fiery hair and a silken robe - Linaniil is her name. One of my men swears he saw her riding into battle in a blaze of flames, burning all the orcs before her. The idea of a spellweaver in our midst is unsettling, but Mirvenia says I should trust her. And if Mirvenia says so then I must believe her.
+Nous avons consolidé les défenses de Dernier Espoir et reçu des renforts de tous les royaumes. Notre position tactique près de la mer se révèle une excellente base pour de nouvelles offensives contre les orcs. J'espère étendre nos installations ici bien davantage. Je suis en train de bâtir une alliance avec les autres dirigeants, car ce n'est qu'ensemble que nous pouvons espérer vaincre cette terrible menace qui pèse sur tous nos royaumes.
 
-She is a remarkable force for good, Mirvenia, popular with all the troops. I feel my normal iron rule smoothed by her presence. Too long have I led the cold life of a soldier... alone...
+Mirvenia a été essentielle aux discussions et aux plans. C'est un génie tactique, et je suis sans cesse émerveillé par l'étendue de son savoir et de ses talents. Une femme étrange l'accompagne cependant, aux longs cheveux couleur de feu et vêtue d'une robe de soie - elle se nomme Linaniil. L'un de mes hommes jure l'avoir vue chevaucher au coeur de la bataille dans un embrasement de flammes, brûlant tous les orcs devant elle. L'idée d'une tisseuse de sorts parmi nous est troublante, mais Mirvenia me dit que je devrais lui faire confiance. Et si Mirvenia le dit, alors je dois la croire.
 
-Ah, the beating of my heart cannot be silenced. I must speak to Mirvenia, and tell her how I feel... I only hope she shares some inkling of my emotion.]], "_t")
+Mirvenia est une force remarquable pour le bien, appréciée de toutes les troupes. Je sens ma discipline de fer habituelle s'adoucir en sa présence. Trop longtemps ai-je mené la froide vie d'un soldat... seul...
+
+Ah, les battements de mon coeur ne peuvent être réduits au silence. Je dois parler à Mirvenia, et lui dire ce que je ressens... J'espère seulement qu'elle partage un tant soit peu mon émotion.]], "_t")
 t([[#{italic}#6th of Flare, Year of Pyre 713#{normal}#
 Why is it only in times of darkness I turn to my journal? Today has been the darkest day in over two years, but it could have been darker still.
 
@@ -14757,41 +14745,47 @@ Mirvenia's convoy was attacked by a rogue band of orcs. Though the brutes were r
 
 The baby... our baby. My son! Mirvenia is still recovering, but the boy seems hale as any freshly-born child. But still I worry... How I wish that he were born into a more perfect world. How I worry for my wife and child in this age of suffering. I want to make a new age for them, free from such threats as almost took away the woman I love. I want to give my son the chance to reign in an era of peace.
 
-Too long have we been content with repelling orcish raids and pushing back small tribes. Last Hope is now a gleaming city, and a focal point for all the armies of the west. Now is the time for us to drive forward and root out every orcish colony on the continent. I will not rest until Maj'Eyal is free from their vile influence, till every accursed brood is burned to ashes and every pig-spawn orc is cast from existence. I shall end this terrible Age of Pyre and usher in a new Age of Ascendancy! This I do solemnly swear.]], [[#{italic}#6th of Flare, Year of Pyre 713#{normal}#
-Why is it only in times of darkness I turn to my journal? Today has been the darkest day in over two years, but it could have been darker still.
+Too long have we been content with repelling orcish raids and pushing back small tribes. Last Hope is now a gleaming city, and a focal point for all the armies of the west. Now is the time for us to drive forward and root out every orcish colony on the continent. I will not rest until Maj'Eyal is free from their vile influence, till every accursed brood is burned to ashes and every pig-spawn orc is cast from existence. I shall end this terrible Age of Pyre and usher in a new Age of Ascendancy! This I do solemnly swear.]], [[#{italic}#6ième Flamme, An 713 de l'Ère du Bûcher#{normal}#
 
-Mirvenia's convoy was attacked by a rogue band of orcs. Though the brutes were repelled she was hurt in the conflict, and her labour brought on early. She lay before the halls of death for many hours. It is only thanks to the skill of her people's healers that she and the baby survived.
+Pourquoi n'est-ce que dans les heures sombres que je me tourne vers mon journal ? Aujourd'hui a été le jour le plus sombre depuis plus de deux ans, mais il aurait pu l'être davantage encore.
 
-The baby... our baby. My son! Mirvenia is still recovering, but the boy seems hale as any freshly-born child. But still I worry... How I wish that he were born into a more perfect world. How I worry for my wife and child in this age of suffering. I want to make a new age for them, free from such threats as almost took away the woman I love. I want to give my son the chance to reign in an era of peace.
+Le convoi de Mirvenia a été attaqué par une bande d'orcs isolée. Bien que ces brutes aient été repoussées, elle fut blessée dans l'affrontement, et son travail débuta prématurément. Elle est restée aux portes de la mort pendant de longues heures. Ce n'est que grâce à l'habileté des guérisseurs de son peuple qu'elle et le bébé ont survécu.
 
-Too long have we been content with repelling orcish raids and pushing back small tribes. Last Hope is now a gleaming city, and a focal point for all the armies of the west. Now is the time for us to drive forward and root out every orcish colony on the continent. I will not rest until Maj'Eyal is free from their vile influence, till every accursed brood is burned to ashes and every pig-spawn orc is cast from existence. I shall end this terrible Age of Pyre and usher in a new Age of Ascendancy! This I do solemnly swear.]], "_t")
-t("All Hail King Tolak the Fair!", "All Hail King Tolak the Fair!", "_t")
+Le bébé... notre bébé. Mon fils ! Mirvenia se remet encore, mais le garçon semble aussi vigoureux que n'importe quel nouveau-né. Mais je m'inquiète tout de même... Comme j'aurais aimé qu'il naisse dans un monde plus parfait. Comme je m'inquiète pour ma femme et mon enfant en cette époque de souffrance. Je veux leur bâtir une nouvelle ère, libre des menaces qui ont failli m'enlever la femme que j'aime. Je veux donner à mon fils la chance de régner en une ère de paix.
+
+Trop longtemps nous nous sommes contentés de repousser les raids orcs et de refouler de petites tribus. Dernier Espoir est désormais une cité resplendissante, un point de ralliement pour toutes les armées de l'ouest. Le temps est venu pour nous d'avancer et d'extirper chaque colonie orc du continent. Je ne trouverai pas de repos tant que Maj'Eyal ne sera pas libéré de leur ignoble influence, jusqu'à ce que chaque engeance maudite soit réduite en cendres et que chaque orc, rejeton de pourceau, soit rayé de l'existence. Je mettrai fin à cette terrible Ère du Bûcher et ferai naître une nouvelle Ère de l'Ascendance ! Ceci, je le jure solennellement.]], "_t")
+t("All Hail King Tolak the Fair!", "Vive le Roi Tolak le Juste !", "_t")
 t([[Twice blessed is he of the union of King Toknor of the humans and Queen Mirvenia of the halflings! Praise his glory!
 By royal decree it is under absolute conditions forbidden to show racial prejudice against humans or halflings. There shall be no preference of price or service, and no discrimination of trade or business or employment. No halfling shall be named fur-toes, midget or shortbum, and no human shall be named lanklegs, cloudhead or stumpfoot.
-The penalty for disobedience shall be flogging. Intolerance will not be tolerated!]], [[Twice blessed is he of the union of King Toknor of the humans and Queen Mirvenia of the halflings! Praise his glory!
-By royal decree it is under absolute conditions forbidden to show racial prejudice against humans or halflings. There shall be no preference of price or service, and no discrimination of trade or business or employment. No halfling shall be named fur-toes, midget or shortbum, and no human shall be named lanklegs, cloudhead or stumpfoot.
-The penalty for disobedience shall be flogging. Intolerance will not be tolerated!]], "_t")
-t("All Hail King Toknor the Brave!", "All Hail King Toknor the Brave!", "_t")
+The penalty for disobedience shall be flogging. Intolerance will not be tolerated!]], [[Deux fois béni est-il, né de l'union du Roi Toknor des humains et de la Reine Mirvenia des Halfelins ! Louée soit sa gloire !
+
+Par décret royal, il est absolument interdit de faire preuve de préjugé racial envers les humains ou les Halfelins. Il ne sera fait aucune différence de prix ou de service, ni aucune discrimination dans le commerce, les affaires ou l'emploi. Aucun Halfelin ne sera traité d'orteils-poilus, de nabot ou de cul-court, et aucun humain ne sera traité de jambes-d'échasses, de tête-dans-les-nuages ou de pied-tronqué.
+
+La peine pour désobéissance sera la flagellation. L'intolérance ne sera pas tolérée !]], "_t")
+t("All Hail King Toknor the Brave!", "Vive le Roi Toknor le Brave !", "_t")
 t([[Born the 23th Allure, Year of Pyre 682
 Died the 2th Summertide, Year of Ascendancy 108
 
 King of Kings, Founder of Last Hope, Purger of Orcs, Father of the Age of Ascendancy. Great is the memory of the warrior who fought for peace, and won.
-Quoth King Toknor: "I have lived for the future, a future of peace and prosperity, a future free for all. How happy I am to see that future now... Aye, and it is brighter than any sword, and stronger than any armour, and more enduring than any war. Though warrior I am in flesh and mind, my heart belongs to peace."]], [[Born the 23th Allure, Year of Pyre 682
-Died the 2th Summertide, Year of Ascendancy 108
+Quoth King Toknor: "I have lived for the future, a future of peace and prosperity, a future free for all. How happy I am to see that future now... Aye, and it is brighter than any sword, and stronger than any armour, and more enduring than any war. Though warrior I am in flesh and mind, my heart belongs to peace."]], [[Né le 23ième Séduction, An 682 de l'Ère du Bûcher
+Mort le 2ième Estival, An 108 de l'Ère de l'Ascendance
 
-King of Kings, Founder of Last Hope, Purger of Orcs, Father of the Age of Ascendancy. Great is the memory of the warrior who fought for peace, and won.
-Quoth King Toknor: "I have lived for the future, a future of peace and prosperity, a future free for all. How happy I am to see that future now... Aye, and it is brighter than any sword, and stronger than any armour, and more enduring than any war. Though warrior I am in flesh and mind, my heart belongs to peace."]], "_t")
-t("All Hail Queen Mirvenia the Inspirer!", "All Hail Queen Mirvenia the Inspirer!", "_t")
+Roi des Rois, Fondateur de Dernier Espoir, Épurateur d'Orcs, Père de l'Ère de l'Ascendance. Grande est la mémoire du guerrier qui combattit pour la paix, et triompha.
+
+Ainsi parla le Roi Toknor : "J'ai vécu pour l'avenir, un avenir de paix et de prospérité, un avenir libre pour tous. Combien je suis heureux de voir cet avenir aujourd'hui... Oui, et il est plus lumineux que n'importe quelle épée, plus solide que n'importe quelle armure, et plus durable que n'importe quelle guerre. Bien que je sois un guerrier de chair et d'esprit, mon coeur appartient à la paix."]], "_t")
+t("All Hail Queen Mirvenia the Inspirer!", "Vive la Reine Mirvenia l'Inspiratrice !", "_t")
 t([[Born the 5th Flare, Year of Pyre 688
 Died the 2th Summertide, Year of Ascendancy 113
 
 Saviour of the Battle of Last Hope, Bringer of Unity, Soother of Hearts and Minds. Greatly is missed the alchemist that could change sorrow to joy, despair to hope, defeat to victory.
-Quoth Queen Mirvenia: "Nothing moves me more than seeing the sun set over Last Hope, seeing all the joy and beauty we have brought here bathed in glorious light. At moments like this I still feel him next to me, and I know I have lived a good life. Today has been a good day... Today I think I shall die."]], [[Born the 5th Flare, Year of Pyre 688
-Died the 2th Summertide, Year of Ascendancy 113
+Quoth Queen Mirvenia: "Nothing moves me more than seeing the sun set over Last Hope, seeing all the joy and beauty we have brought here bathed in glorious light. At moments like this I still feel him next to me, and I know I have lived a good life. Today has been a good day... Today I think I shall die."]], [[Née le 5 Flamme, An 688 de l'Ère du Bûcher
+Morte le 2ième Estival, an 113 de l'Ère de l'Ascendance
 
-Saviour of the Battle of Last Hope, Bringer of Unity, Soother of Hearts and Minds. Greatly is missed the alchemist that could change sorrow to joy, despair to hope, defeat to victory.
-Quoth Queen Mirvenia: "Nothing moves me more than seeing the sun set over Last Hope, seeing all the joy and beauty we have brought here bathed in glorious light. At moments like this I still feel him next to me, and I know I have lived a good life. Today has been a good day... Today I think I shall die."]], "_t")
-t("The Pale King, part one", "The Pale King, part one", "_t")
+Sauveuse de la Bataille de Dernier Espoir, Porteuse d'Unité, Apaiseuse des Coeurs et des Esprits. Grandement nous manque l'alchimiste qui savait changer le chagrin en joie, le désespoir en espoir, la défaite en victoire.
+
+Ainsi parla la Reine Mirvenia : "Rien ne m'émeut davantage que de voir le soleil se coucher sur Dernier Espoir, de voir toute la joie et la beauté que nous avons apportées ici baignées d'une lumière glorieuse. En des instants comme celui-ci, je le sens encore à mes côtés, et je sais que j'ai vécu une belle vie. Aujourd'hui a été un bon jour... Aujourd'hui, je crois que je vais mourir."]], "_t")
+t("southspar", "sparsud", "newLore category")
+t("The Pale King, part one", "Le Roi Pâle, première partie", "_t")
 t([[#{italic}#A study into Southspar's most unusual ruler.#{normal}#
 
 Chances are you haven't heard of Southspar.
@@ -14821,37 +14815,37 @@ To say the Dwarves scoffed at this would be an understatement; open, derisive la
 Drake held the small, drakeskin pouch high, opened it and emptied its contents onto the floor: Stralite, ground to dust, muddied with dirt and base metals, made unusable and worthless. The Dwarves of the Council gasped in horror at this waste, one (if rumours are to be believed) even fainting on the spot. Drake went on to say that, if his demands were not met, the entirety of the stralite beneath his island would meet the same fate as the stralite cast upon the chamber's floor.
 
 By the time Drake left the Iron Council, the Dwarves had agreed to pay thirty times the previous amount.
-]], [[#{italic}#A study into Southspar's most unusual ruler.#{normal}#
+]], [[#{italic}#Une étude sur le souverain le plus singulier de Sparsud.#{normal}#
 
-Chances are you haven't heard of Southspar.
+Il y a fort à parier que vous n'ayez jamais entendu parler de Sparsud.
 
-And why would you have? It was naught but a tiny, provincial island kingdom off the coast of Tar'Eyal that existed within the Ages of Allure and Dusk. By all accounts, Southspar was a pleasant place to live; temperate climate, healthy trade relations with mainland human kingdoms, and by great luck, the island upon which the kingdom sat held great deposits of the much-valued metal stralite.
+Et pourquoi en auriez-vous entendu parler ? Ce n'était rien de plus qu'un minuscule royaume insulaire de province, au large des côtes de Tar'Eyal, qui exista durant les Ères de la Séduction et du Crépuscule. Selon tous les témoignages, Sparsud était un endroit agréable à vivre : climat tempéré, relations commerciales saines avec les royaumes humains du continent, et, par grande chance, l'île sur laquelle reposait le royaume recelait d'importants gisements du précieux métal qu'est la stralite.
 
-Despite this good fortune though, Southspar was doomed to mediocrity. Why? The actions of its ruler. By all accounts a bumbling, octogenarian dotard, his name lost to the mists of time, this mouldy monarch mismanaged Southspar almost to its demise. The Dwarves of the Iron Throne, having heard of the stralite beneath the island, manipulated the king into mining it and selling it to them for a fraction of its true worth. Also, despite Southspar's decidedly puny military power, the king saw fit to send whatever troops he could muster to aid mainland human kingdoms in their great and many wars against the halflings, who up to this point had barely registered Southspar's existence. Not only were the undertrained, ill-equipped troops crushed like vermin before the superior halfling forces, but also these foolhardy attacks succeeded in attracting the halflings' attention to their secluded island. Almost immediately, the raids began.
+Malgré cette bonne fortune, Sparsud était pourtant condamné à la médiocrité. Pourquoi ? À cause des agissements de son souverain. De l'avis général un vieillard gâteux et maladroit, octogénaire dont le nom s'est perdu dans les brumes du temps, ce monarque moisi mena Sparsud presque à sa perte. Les Nains du Trône de Fer, ayant eu vent de la stralite sous l'île, manipulèrent le roi pour qu'il l'extraie et la leur vende pour une fraction de sa véritable valeur. De plus, malgré la puissance militaire résolument dérisoire de Sparsud, le roi jugea bon d'envoyer toutes les troupes qu'il pouvait rassembler pour aider les royaumes humains du continent dans leurs nombreuses et grandes guerres contre les Halfelins, qui jusqu'alors avaient à peine remarqué l'existence de Sparsud. Non seulement ces troupes mal entraînées et mal équipées furent-elles écrasées comme de la vermine face aux forces halfelines supérieures, mais ces attaques téméraires eurent aussi pour effet d'attirer l'attention des Halfelins sur leur île isolée. Presque immédiatement, les raids commencèrent.
 
-From what records remain, the king was mystified by the decline of his nation, believing to the end that every action he took had been the right one. He passed away soon after the halfling raids began. Whether it was suicide, assassination, or simple old age is unknown. The king never married and had no children, the only remaining member of his family being a distant cousin, a young man named Drake.
+D'après les archives qui subsistent, le roi restait perplexe devant le déclin de sa nation, persuadé jusqu'au bout que chacune de ses décisions avait été la bonne. Il mourut peu après le début des raids halfelins. Suicide, assassinat ou simple vieillesse - on l'ignore. Le roi ne s'était jamais marié et n'avait pas d'enfants ; le seul membre restant de sa famille était un cousin éloigné, un jeune homme du nom de Drake.
 
-And so it was that Drake ascended to the throne, and Southspar entered a golden age.
+C'est ainsi que Drake monta sur le trône, et que Sparsud entra dans un âge d'or.
 
-#{bold}#1. Drake and the Halfling Horde.#{normal}#
+#{bold}#1. Drake et la Horde Halfeline.#{normal}#
 
-To the newly crowned Drake, the most obvious and immediate threat to Southspar was the growing raids and sorties being held by the halflings. To this end, he ordered a complete and total reconstruction of Southspar's military, turning them from a ragtag bunch of militia into a small yet devastatingly efficient engine of war. Drake knew that the only advantage his forces held over the halflings was their knowledge of the island, and so bade them to travel stealthily, carry small, armour-defeating stralite knives rather than spears and swords, and only engage with the halflings strictly on their own terms. Southspar's newly assembled "Army of Rogues" was a success. Although the halflings were great in number, strike after surgical strike from Drake's army weighed heavily on their morale, and finally, grumpily declaring Southspar "not worth the bother", the halfling forces withdrew.
+Pour Drake, tout juste couronné, la menace la plus évidente et la plus immédiate pesant sur Sparsud était les raids et incursions croissants menés par les Halfelins. À cette fin, il ordonna une reconstruction complète et totale des forces armées de Sparsud, transformant une milice hétéroclite en une machine de guerre modeste mais redoutablement efficace. Drake savait que le seul avantage de ses forces sur les Halfelins résidait dans leur connaissance de l'île ; il leur ordonna donc de se déplacer furtivement, de porter de petits couteaux de stralite capables de percer les armures plutôt que lances et épées, et de n'engager le combat contre les Halfelins que selon leurs propres conditions. La toute nouvelle "Armée des Brigands" de Sparsud fut un succès. Bien que les Halfelins fussent bien plus nombreux, les frappes chirurgicales répétées de l'armée de Drake pesèrent lourdement sur leur moral, et finalement, déclarant avec dépit que Sparsud "ne valait pas la peine", les forces halfelines se retirèrent.
 
-Southspar celebrated its peace and its newly found military might, but for Drake, the celebration was short-lived. The stralite he had used to craft his Army of Rogues' knives and armour was stralite that wasn't going into the Dwarves' pockets, and they were far from happy. Drake formulated a plan - by the time he was through, the Dwarves would be even further from happy.
+Sparsud célébra sa paix retrouvée et sa toute nouvelle puissance militaire, mais pour Drake, la fête fut de courte durée. La stralite qu'il avait utilisée pour forger les couteaux et les armures de son Armée des Brigands était de la stralite qui n'atterrissait plus dans les poches des Nains, qui étaient loin d'en être satisfaits. Drake échafauda un plan - et lorsqu'il en aurait terminé, les Nains seraient encore bien plus loin d'être satisfaits.
 
-#{bold}#2. Drake and the Stralite Stratagem.#{normal}#
+#{bold}#2. Drake et le Stratagème de la Stralite.#{normal}#
 
-The Dwarves have always been a secretive race. Even now only a select few know the location of their "Iron Council", and in the days of Southspar there were still those who considered Dwarves nothing but myth. Being a monarch in possession of large amounts of stralite can open even the most concealed of doors, however... Drake had requested an audience with the Iron Council, and the Dwarves, expecting said audience to be a humble apology and promises of further stralite for the gold they were paying, readily accepted.
+Les Nains ont toujours été un peuple secret. Aujourd'hui encore, seuls quelques élus connaissent l'emplacement de leur "Conseil de Fer", et à l'époque de Sparsud, certains considéraient encore les Nains comme un simple mythe. Être un monarque en possession de grandes quantités de stralite peut cependant ouvrir même les portes les plus dissimulées... Drake avait sollicité une audience auprès du Conseil de Fer, et les Nains, s'attendant à ce que cette audience ne soit qu'humbles excuses et promesses de stralite supplémentaire en échange de l'or qu'ils versaient, acceptèrent volontiers.
 
-What they got, in reality, was quite different. Gone was the ineffectual king of Southspar's past, and now the Dwarves found themselves facing a young, hard-eyed human who was demanding that the amount of gold that the Dwarves were paying for Southspar's stralite be increased twenty-fold.
+Ce qu'ils obtinrent, en réalité, fut tout autre. Fini le roi inefficace du passé de Sparsud ; les Nains se retrouvèrent désormais face à un jeune humain au regard dur, qui exigeait que la quantité d'or versée par les Nains pour la stralite de Sparsud soit multipliée par vingt.
 
-To say the Dwarves scoffed at this would be an understatement; open, derisive laughter hits nearer the mark. Despite Southspar's recent repulsion of the halflings, the Dwarves of the Iron Throne saw no problem in taking Southspar's stralite by force. In his heart, Drake knew they could accomplish this, and it was to this end that he had brought the small pouch around his neck to the Council.
+Dire que les Nains s'en moquèrent serait un euphémisme ; un rire franc et méprisant serait plus proche de la vérité. Malgré la récente déroute infligée aux Halfelins par Sparsud, les Nains du Trône de Fer ne voyaient aucun problème à s'emparer de la stralite de Sparsud par la force. Au fond de lui, Drake savait qu'ils en étaient capables, et c'est dans cette optique qu'il avait apporté au Conseil la petite bourse suspendue à son cou.
 
-Drake held the small, drakeskin pouch high, opened it and emptied its contents onto the floor: Stralite, ground to dust, muddied with dirt and base metals, made unusable and worthless. The Dwarves of the Council gasped in horror at this waste, one (if rumours are to be believed) even fainting on the spot. Drake went on to say that, if his demands were not met, the entirety of the stralite beneath his island would meet the same fate as the stralite cast upon the chamber's floor.
+Drake leva bien haut la petite bourse en peau de dragonnet, l'ouvrit et en répandit le contenu sur le sol : de la stralite, réduite en poussière, souillée de terre et de métaux vils, rendue inutilisable et sans valeur. Les Nains du Conseil eurent le souffle coupé d'horreur devant ce gâchis ; l'un d'eux, si l'on en croit la rumeur, s'évanouit même sur place. Drake poursuivit en déclarant que, si ses exigences n'étaient pas satisfaites, la totalité de la stralite sous son île connaîtrait le même sort que celle répandue sur le sol de la chambre.
 
-By the time Drake left the Iron Council, the Dwarves had agreed to pay thirty times the previous amount.
+Lorsque Drake quitta le Conseil de Fer, les Nains avaient accepté de payer trente fois le montant précédent.
 ]], "_t")
-t("The Pale King, part two", "The Pale King, part two", "_t")
+t("The Pale King, part two", "Le Roi Pâle, deuxième partie", "_t")
 t([[#{bold}#3. Drake and the Conclave Mages.#{normal}#
 
 With its borders unassailed, ands its coffers rapidly filling with Dwarven gold, many believed that the fortune of Southspar could not increase any further. Drake, however, had one last task to accomplish, and it regarded the Conclave.
@@ -14882,37 +14876,38 @@ Here, sadly, definitive facts on Southspar and Drake's fate vanish. Some say tha
 
 I leave you with a copy of one of the last pieces of Southspar's history, a partially destroyed scrap of parchment, supposedly written moments before the Cataclysm and Southspar's destruction, falling beneath the waves along with the rest of Tar'Eyal.
 
-"Time grows pressi... ... ome in the boat... ... found. The binding w... a success. Now, to the sea, to l... ... ew, and Dreadfe... ... oble king. Rot in my new du... as you will!"]], [[#{bold}#3. Drake and the Conclave Mages.#{normal}#
+"Time grows pressi... ... ome in the boat... ... found. The binding w... a success. Now, to the sea, to l... ... ew, and Dreadfe... ... oble king. Rot in my new du... as you will!"]], [[#{bold}#3. Drake et les Mages du Conclave.#{normal}#
 
-With its borders unassailed, ands its coffers rapidly filling with Dwarven gold, many believed that the fortune of Southspar could not increase any further. Drake, however, had one last task to accomplish, and it regarded the Conclave.
+Ses frontières inviolées et ses coffres se remplissant rapidement de l'or des Nains, beaucoup pensaient que la fortune de Sparsud ne pouvait croître davantage. Drake, cependant, avait encore une dernière tâche à accomplir, et celle-ci concernait le Conclave.
 
-For a long time, a small number of Conclave mages had made their home in Southspar. The remote location and the doddering nature of its old king meant that they could perform experiments and practice magic that would have been disallowed on the mainland. Being reclusive by nature, only a few of their group had heard of the rise of the new king, and none of them had cared much. Drake's royal guards breaking down the door of their study, followed by the king himself, gave them cause to care. Drake had for them an ultimatum:
+Depuis longtemps déjà, une poignée de mages du Conclave avait élu domicile à Sparsud. L'isolement du lieu et la sénilité de son vieux roi leur permettaient de mener des expériences et de pratiquer une magie qui aurait été proscrite sur le continent. De nature recluse, seuls quelques-uns d'entre eux avaient entendu parler de l'ascension du nouveau roi, et aucun ne s'en souciait vraiment. Les gardes royaux de Drake enfonçant la porte de leur étude, suivis du roi en personne, leur donnèrent une raison de s'en soucier. Drake leur présenta un ultimatum :
 
-"This is the kingdom of Southspar, my kingdom, and so everything within her borders must be within my control. This applies to her people, her land, her resources, and now her magic. I shall allow you to remain here in Southspar on one condition: You become members of my royal court, obey my commands, and use your magic for the betterment of the kingdom. When un-needed you may tend to your Conclave matters as you will, but your greatest loyalty will be to me. Do you accept?"
+"Ceci est le royaume de Sparsud, mon royaume, et donc tout ce qui se trouve à l'intérieur de ses frontières doit être sous mon contrôle. Cela s'applique à son peuple, à ses terres, à ses ressources, et désormais à sa magie. Je vous autoriserai à demeurer ici, à Sparsud, à une condition : vous deviendrez membres de ma cour royale, obéirez à mes ordres, et emploierez votre magie pour le bien du royaume. Lorsque vous ne serez pas requis, vous pourrez vaquer aux affaires du Conclave à votre guise, mais votre plus grande loyauté m'appartiendra. Acceptez-vous ?"
 
-The Conclave mages' response? Laughter. But this laughter was not the mocking laughter of the Dwarves, but laughter of disbelief. As recorded, the mages' response went as:
+La réponse des mages du Conclave ? Des rires. Mais ce rire n'était pas le rire moqueur des Nains, mais un rire d'incrédulité. Selon les archives, la réponse des mages fut la suivante :
 
-"King Drake! You needn't have bothered us with such a stern ultimatum! A simple request would have sufficed. True, in the past we may have chosen to reside here for simple seclusion, but it is hard to ignore Southspar's rising star. This kingdom's glory shall continue to grow, and we want to be a part of it. We accept."
+"Roi Drake ! Vous n'aviez nul besoin de nous importuner d'un ultimatum si sévère ! Une simple requête aurait suffi. Il est vrai que, par le passé, nous avons pu choisir de résider ici par simple goût de la réclusion, mais il est difficile d'ignorer l'étoile montante de Sparsud. La gloire de ce royaume ne cessera de croître, et nous souhaitons en faire partie. Nous acceptons."
 
-Freedom from halfling attacks, Dwarven fortunes, and now the magic of the Conclave blessed Southspar. What, the common people thought, could possibly happen next?
+Libéré des attaques halfelines, béni par la fortune naine, et désormais par la magie du Conclave - Sparsud semblait comblé. Que pourrait-il bien se passer ensuite, se demandait le petit peuple ?
 
-Mere weeks after the Conclave joined the royal court, Drake fell ill and died.
+À peine quelques semaines après que le Conclave eut rejoint la cour royale, Drake tomba malade et mourut.
 
-#{bold}#4. Drake and the Empty Throne.#{normal}#
+#{bold}#4. Drake et le Trône Vide.#{normal}#
 
-Drake was dead, and Southspar's people were struck with depression and outright horror. Their king, who was fast on his way to making their kingdom one of the greatest in Maj'Eyal, was no more. The throne lay empty; not a single soul vied for the now vacant position of king. As far as Southspar's citizens were concerned, it was Drake's throne, nobody else's.
+Drake était mort, et le peuple de Sparsud fut frappé d'abattement et d'une véritable horreur. Leur roi, qui était en passe de faire de leur royaume l'un des plus grands de Maj'Eyal, n'était plus. Le trône restait vide ; pas une seule âme ne convoitait la position désormais vacante de roi. Aux yeux des citoyens de Sparsud, ce trône était celui de Drake, et d'aucun autre.
 
-The norm in tales like this would be that the kingdom slowly managed to get back on its feet, recover from the loss of their king, and finally return to a state resembling normalcy. Not so for Southspar. Drake's demise had left a wound that was not healing, and it was clear that something had to be done. One of the men closest to Drake in his life, his chancellor, left abruptly on a mysterious "errand", hoping that the kingdom would not crumble before his return. After a period of some months he did return, and his first port of call? The study of the Conclave mages. He held in his hand a tome, bound in skin and marked with blood-red runes. Its subject matter was obvious: Necromancy. The chancellor had but one command for the mages:
+Dans les récits de ce genre, il serait normal que le royaume parvienne peu à peu à se relever, à surmonter la perte de son roi, et finisse par retrouver un semblant de normalité. Il n'en fut rien pour Sparsud. La mort de Drake avait laissé une blessure qui ne cicatrisait pas, et il devenait évident qu'il fallait agir. L'un des hommes les plus proches de Drake de son vivant, son chancelier, partit brusquement pour une mystérieuse "mission", espérant que le royaume ne s'effondrerait pas avant son retour. Après quelques mois d'absence, il revint effectivement, et sa première destination ? L'étude des mages du Conclave. Il tenait à la main un grimoire relié de peau et marqué de runes rouge sang. Son sujet était évident : la nécromancie. Le chancelier n'avait qu'un ordre pour les mages :
 
-"Bring him back."
+"Ramenez-le."
 
-#{bold}#5. Drake and the Pale Kingdom.#{normal}#
+#{bold}#5. Drake et le Royaume Pâle.#{normal}#
 
-Here, sadly, definitive facts on Southspar and Drake's fate vanish. Some say that Drake's rebirth was a resounding success, and Southspar's star continued to rise as the now skeletal Drake retook the throne, the gaze from his exposed skull unchanged from his mortal visage. Others believe that the madness that grasps those returned from the grave took him, and with the new powers that the Conclave had blessed him with began a reign of terror that drowned Southspar in blood. The only fact that can be known for certain was the new name his subjects gave to him in his death: Pale King Drake, the Pale King, or simply Pale Drake.
+Ici, malheureusement, les faits avérés concernant Sparsud et le destin de Drake s'évanouissent. Certains disent que la renaissance de Drake fut un succès retentissant, et que l'étoile de Sparsud continua de briller tandis que Drake, désormais squelettique, reprenait son trône, le regard de son crâne dénudé inchangé par rapport à son visage mortel. D'autres croient que la folie qui s'empare de ceux revenus de la tombe s'empara de lui, et qu'avec les nouveaux pouvoirs dont le Conclave l'avait béni, il entama un règne de terreur qui noya Sparsud dans le sang. Le seul fait que l'on puisse affirmer avec certitude est le nouveau nom que ses sujets lui donnèrent après sa mort : le Roi Pâle Drake, le Roi Pâle, ou simplement Drake le Pâle.
 
-I leave you with a copy of one of the last pieces of Southspar's history, a partially destroyed scrap of parchment, supposedly written moments before the Cataclysm and Southspar's destruction, falling beneath the waves along with the rest of Tar'Eyal.
+Je vous laisse avec une copie de l'un des derniers vestiges de l'histoire de Sparsud, un fragment de parchemin partiellement détruit, censé avoir été écrit quelques instants avant le Cataclysme et la destruction de Sparsud, sombrant sous les flots avec le reste de Tar'Eyal.
 
-"Time grows pressi... ... ome in the boat... ... found. The binding w... a success. Now, to the sea, to l... ... ew, and Dreadfe... ... oble king. Rot in my new du... as you will!"]], "_t")
+"Le temps presse... ... monter dans le bateau... ... trouvé. Le lien fu... un succès. À présent, vers la mer, pour y v... ... eau, et Tombeffr... ... noble roi. Pourris dans mon nouveau don... comme il te plaira !"]], "_t")
+t("Declaration of the Unification of the Allied Kingdoms", "Déclaration d'Unification des Royaumes Alliés", "_t")
 t([[Herewith is set the constitutional declaration of the Allied Kingdoms under the rule of King Toknor and Queen Mirvenia. Any who defy or seek to undermine the laws here set shall suffer torment and death.
 
 As of the 1st of Allure, Age of Pyre year 714, henceforth to be known as the Age of Ascendancy year 1, all human and halfling kingdoms shall be united under the banner of the Allied Kingdoms. This shall include all towns, villages, serfdoms and farmsteads with over 50% human or halfling populace in the whole expanse of Maj'Eyal.
@@ -14923,17 +14918,18 @@ This unification shall make our lands stronger, more whole. Too long have we suf
 
 To those who oppose this, let thee be afeared, for a new dawn is rising and it shall suffer no obstruction. This Alliance and the era it brings shall be protected at all costs. Treason will not be tolerated, and divisors will be damned. All shall follow the rule of Toknor and Mirvenia, or face the righteous wrath of a new age.
 
-All hail the reign of King Toknor and Queen Mirvenia! All hail the Allied Kingdoms! All hail the Age of Ascendancy!]], [[Herewith is set the constitutional declaration of the Allied Kingdoms under the rule of King Toknor and Queen Mirvenia. Any who defy or seek to undermine the laws here set shall suffer torment and death.
+All hail the reign of King Toknor and Queen Mirvenia! All hail the Allied Kingdoms! All hail the Age of Ascendancy!]], [[Est ici établie la déclaration constitutionnelle des Royaumes Alliés, sous le règne du Roi Toknor et de la Reine Mirvenia. Quiconque défiera ou cherchera à saper les lois ici énoncées subira tourment et mort.
 
-As of the 1st of Allure, Age of Pyre year 714, henceforth to be known as the Age of Ascendancy year 1, all human and halfling kingdoms shall be united under the banner of the Allied Kingdoms. This shall include all towns, villages, serfdoms and farmsteads with over 50% human or halfling populace in the whole expanse of Maj'Eyal.
+À compter du 1er Séduction, an 714 de l'Ère du Bûcher, désormais connu comme l'an 1 de l'Ère de l'Ascendance, tous les royaumes humains et halfelins seront unis sous la bannière des Royaumes Alliés. Cela inclura toutes les villes, villages, servages et fermes comptant plus de 50 % de population humaine ou halfeline dans toute l'étendue de Maj'Eyal.
 
-The Allied Kingdoms shall be presided over by the rule of King Toknor and Queen Mirvenia, long may their line endure. Their throne and residency shall be held in the citadel of Last Hope, and here also shall be seated all administrative and military offices. Free trade shall be established between all elements of the Allied Kingdoms, and central taxation shall be administered by the Royal Treasury. All lands within the Allied Kingdoms shall be regularly patrolled by official guards to enforce the peace. One rule and one law shall be applied to all.
+Les Royaumes Alliés seront présidés par le règne du Roi Toknor et de la Reine Mirvenia, et longue vie à leur lignée. Leur trône et leur résidence seront établis dans la citadelle de Dernier Espoir, où siégeront également tous les bureaux administratifs et militaires. Le libre-échange sera établi entre tous les éléments des Royaumes Alliés, et la fiscalité centrale sera administrée par le Trésor Royal. Toutes les terres des Royaumes Alliés seront régulièrement patrouillées par des gardes officiels afin de faire respecter la paix. Une seule règle et une seule loi s'appliqueront à tous.
 
-This unification shall make our lands stronger, more whole. Too long have we suffered under the shadows of invasion and terror. Too long have we been splintered, broken by petty infighting. But now we shirk off the failures of the past, and with one strong rule, one unbreakable alliance, we shall all prosper and find peace. Together we shall fight back against the darkness, and an age of light shall be born. We will fear the night no more.
+Cette unification rendra nos terres plus fortes, plus unies. Trop longtemps avons-nous souffert sous l'ombre de l'invasion et de la terreur. Trop longtemps avons-nous été morcelés, brisés par de mesquines luttes intestines. Mais désormais nous nous défaisons des échecs du passé, et avec un pouvoir fort et une alliance indestructible, nous prospérerons tous et trouverons la paix. Ensemble, nous combattrons les ténèbres, et une ère de lumière naîtra. Nous ne craindrons plus la nuit.
 
-To those who oppose this, let thee be afeared, for a new dawn is rising and it shall suffer no obstruction. This Alliance and the era it brings shall be protected at all costs. Treason will not be tolerated, and divisors will be damned. All shall follow the rule of Toknor and Mirvenia, or face the righteous wrath of a new age.
+Que ceux qui s'y opposent tremblent, car une aube nouvelle se lève et ne souffrira aucune entrave. Cette Alliance et l'ère qu'elle apporte seront protégées à tout prix. La trahison ne sera pas tolérée, et les semeurs de discorde seront maudits. Tous suivront le règne de Toknor et Mirvenia, ou affronteront la juste colère d'une ère nouvelle.
 
-All hail the reign of King Toknor and Queen Mirvenia! All hail the Allied Kingdoms! All hail the Age of Ascendancy!]], "_t")
+Vive le règne du Roi Toknor et de la Reine Mirvenia ! Vivent les Royaumes Alliés ! Vive l'Ère de l'Ascendance !]], "_t")
+t("The Oceans of Eyal", "Les Océans d'Eyal", "_t")
 t([[The Oceans of Eyal represent a frontier which we have been powerless to break. In spite of advanced craft and skill, and even the more forbidden areas of magic, there are natural barriers that we simply cannot overcome. Long range seafaring has become seen as unprofitable and a fruitless endeavour. The last great ship to be built was the Vanguard, over a thousand years ago, which disappeared over the eastern horizon and was never seen again.
 
 Yet we know that the Sher’Tul once travelled the whole globe, that records exist from our younger days of other continents, of sailing routes that go right round the whole of Eyal. How it stirs my heart to think of the unexplored lands that lie beyond our stormy coasts!
@@ -14948,22 +14944,22 @@ It’s a remarkable report, and one I’m minded to believe, in spite of the not
 
 - Lord Estevan Asimir
 
-#{italic}#Footnote: After this paper was published Lord Asimir was found dead and stripped of all valuables in one of the ports of Last Hope.#{normal}#]], [[The Oceans of Eyal represent a frontier which we have been powerless to break. In spite of advanced craft and skill, and even the more forbidden areas of magic, there are natural barriers that we simply cannot overcome. Long range seafaring has become seen as unprofitable and a fruitless endeavour. The last great ship to be built was the Vanguard, over a thousand years ago, which disappeared over the eastern horizon and was never seen again.
+#{italic}#Footnote: After this paper was published Lord Asimir was found dead and stripped of all valuables in one of the ports of Last Hope.#{normal}#]], [[Les Océans d'Eyal représentent une frontière que nous avons été impuissants à franchir. Malgré des techniques et un savoir-faire avancés, et même les domaines les plus interdits de la magie, il existe des barrières naturelles que nous ne pouvons tout simplement pas surmonter. La navigation au long cours en est venue à être considérée comme une entreprise sans profit et vaine. Le dernier grand navire construit fut l'Avant-Garde, il y a plus de mille ans, lequel disparut au-delà de l'horizon oriental et ne fut plus jamais revu.
 
-Yet we know that the Sher’Tul once travelled the whole globe, that records exist from our younger days of other continents, of sailing routes that go right round the whole of Eyal. How it stirs my heart to think of the unexplored lands that lie beyond our stormy coasts!
+Pourtant, nous savons que les Sher'Tul ont jadis parcouru le globe entier, et il existe des archives, datant de nos jeunes années, d'autres continents, de routes maritimes faisant le tour complet d'Eyal. Comme mon coeur s'émeut à la pensée des terres inexplorées qui s'étendent par-delà nos côtes tempétueuses !
 
-Alas, records from the time of the Spellblaze and the Cataclysm show that those old routes can no longer be traversed. A reshaping of currents, an increase in storms and a greater abundance of dangerous sea creatures have all locked us onto the continent of Maj’Eyal.
+Hélas, les archives datant de l'époque de la Brûlure Magique et du Cataclysme montrent que ces anciennes routes ne peuvent plus être empruntées. Un remodelage des courants, une recrudescence des tempêtes et une plus grande abondance de créatures marines dangereuses nous ont tous confinés au continent de Maj'Eyal.
 
-Yet my desire for knowledge is not sated. I spoke some time ago with an old fisherman - a halfling sea dog with a crusty beard, hideous scars, and the foul stench of stale ale all about him. Inbetween the wretched smelling breaths from his toothless mouth he told me some valuable information. I transcribe it as best I can here:
+Pourtant, ma soif de connaissance n'est pas rassasiée. J'ai parlé il y a quelque temps avec un vieux pêcheur - un loup de mer halfelin à la barbe rêche, couvert de cicatrices hideuses, et empestant la bière éventée. Entre les souffles nauséabonds de sa bouche édentée, il me livra quelques informations précieuses. J'en transcris ici la teneur du mieux que je peux :
 
-“Nay, ya’ll not get long out b’ond coast thar. In th’orth ya’ll run inta ice floes, miles wide stretches at’ll close in on ya and crush yar hull fro’neath. Out west be a field o’ storms, cyclones and hur’canes tha’ll swaller up any ‘at go near. And out east... ack, out east be th’orst. Nagas and sea dragons, switchin’ currents and ocean rifts, storms of hate like y’never seen in yar worst nightmares. As fer south, well tha’s best spot fer fishin’ and the like, we gots some good patches thar. But venture too far and ya meet a... I ‘unno, some magicy barrier or whatnot. Ships hit ‘gainst it like a wall o’ air. Go too fast and ya smash yar prow apart! And out b’ond it... some cloud of darkness lies on t’rizon. We stays clear o’ that, I tells ya.”
+"Nan, tu n'iras pas loin passé cette côte, mon gars. Au nord, tu tomberas sur des banquises, des étendues larges de plusieurs lieues qui se referment sur toi et t'écrasent la coque par en-dessous. À l'ouest, y a un champ de tempêtes, de cyclones et d'ouragans qui avalent tout ce qui s'approche. Et à l'est... ah, à l'est c'est le pire. Des nagas et des dragons des mers, des courants qui changent sans prévenir et des failles océaniques, des tempêtes de haine comme t'en as jamais vu dans tes pires cauchemars. Pour ce qui est du sud, ben, c'est le meilleur coin pour la pêche et tout ça, on a de bons coins par là-bas. Mais si tu t'aventures trop loin, tu tombes sur une... j'sais pas, une espèce de barrière magique ou un truc du genre. Les navires la heurtent comme un mur d'air. Si tu vas trop vite, tu te fracasses la proue ! Et au-delà... y a une espèce de nuage de ténèbres à l'horizon. On reste loin de ça, je te le dis."
 
-It’s a remarkable report, and one I’m minded to believe, in spite of the notorious unreliability of seafarer tales. South was once the continent of Tar’Eyal, said to be a desert-smothered land full of wild energies. What fate has swallowed it from our access now is hard to say. But my curiosity is sorely piqued, and I shall endeavour to charter a ship to investigate this strange barrier to the south. Likely the lesser races that crew these vessels would balk at such an enterprise, but I’m sure that with the leadership and influence of a Higher like myself I can persuade them to have a little more backbone.
+Voilà un témoignage remarquable, et je suis enclin à y croire, malgré la notoire manque de fiabilité des récits de marins. Le sud fut jadis le continent de Tar'Eyal, réputé être une terre étouffée de déserts et emplie d'énergies sauvages. Quel destin nous en a privé l'accès aujourd'hui, il est difficile de le dire. Mais ma curiosité est vivement piquée, et je m'efforcerai d'affréter un navire pour enquêter sur cette étrange barrière au sud. Il est probable que les races inférieures qui équipent ces vaisseaux rechigneraient à une telle entreprise, mais je suis certain qu'avec le charisme et l'influence d'un Noble tel que moi, je pourrai les persuader de trouver un peu plus de cran.
 
-- Lord Estevan Asimir
+- Seigneur Estevan Asimir
 
-#{italic}#Footnote: After this paper was published Lord Asimir was found dead and stripped of all valuables in one of the ports of Last Hope.#{normal}#]], "_t")
-t("A creased letter", "A creased letter", "_t")
+#{italic}#Note de bas de page : Après la publication de cet essai, Seigneur Asimir fut retrouvé mort et dépouillé de tous ses biens de valeur dans l'un des ports de Dernier Espoir.#{normal}#]], "_t")
+t("A creased letter", "Une lettre froissée", "_t")
 t([[Oh Cecil, what must you think of me? But I remember your words to me, before the fever took you - you told me to live. And live I must... And yet that fever has now spread to me and I feel my days are numbered.
 
 I have a confession to make, my love. Those tinctures I brewed for you towards the end of your disease, those that helped you stay in my arms a few weeks longer, they were not my regular alchemy. In desperation I turned to darker arts in my obsession to save you. But though they kept your eyes open for a little longer, they could not keep you here with me.
@@ -14976,31 +14972,31 @@ Amidst this darkness I have good news for you, my darling. I am with child. Thou
 
 I am cold and alone in this chilly crypt, thinking back on my times of warmth with you. Abominations lie beyond the walls, their haunting cries torturing my ears, reminding me of the black deeds I have performed. But every now and then I feel a gentle kick, and my resolve is stiffened, and to my experiments I return.
 
-I must live. For you, my love, I will live.]], [[Oh Cecil, what must you think of me? But I remember your words to me, before the fever took you - you told me to live. And live I must... And yet that fever has now spread to me and I feel my days are numbered.
+I must live. For you, my love, I will live.]], [[Oh, Cecil, que dois-tu penser de moi ? Mais je me souviens de tes mots, avant que la fièvre ne t'emporte - tu m'as dit de vivre. Et vivre, je le dois... Et pourtant cette même fièvre s'est désormais répandue en moi, et je sens que mes jours sont comptés.
 
-I have a confession to make, my love. Those tinctures I brewed for you towards the end of your disease, those that helped you stay in my arms a few weeks longer, they were not my regular alchemy. In desperation I turned to darker arts in my obsession to save you. But though they kept your eyes open for a little longer, they could not keep you here with me.
+J'ai une confession à te faire, mon amour. Ces teintures que je préparais pour toi vers la fin de ta maladie, celles qui t'ont permis de rester dans mes bras quelques semaines de plus, n'étaient pas de mon alchimie habituelle. Dans mon désespoir, je me suis tournée vers des arts plus sombres, obsédée par l'idée de te sauver. Mais bien qu'elles aient gardé tes yeux ouverts un peu plus longtemps, elles n'ont pu te garder ici avec moi.
 
-How desperately I yearn for you... At nights the pain of my disease tears me apart, yet I could bear it all if only you were by my side. But alone I have not the strength, and the dark thoughts return. My obsession remains.
+Comme je languis désespérément après toi... La nuit, la douleur de ma maladie me déchire, et pourtant je pourrais tout supporter si seulement tu étais à mes côtés. Mais seule, je n'en ai pas la force, et les pensées sombres reviennent. Mon obsession demeure.
 
-You would frown were you to see the things I have done. You would be sickened! I cringe each time I think of what your reaction would be to see me now. But please understand, my dear, please forgive me. For I must live! Though each morning I grow weaker, my determination to survive hardens. And it is not just for me...
+Tu froncerais les sourcils si tu voyais les choses que j'ai faites. Tu en serais écoeuré ! Je frémis chaque fois que je pense à ta réaction si tu me voyais maintenant. Mais je t'en prie, comprends-moi, mon cher, je t'en prie, pardonne-moi. Car je dois vivre ! Bien que je m'affaiblisse chaque matin davantage, ma détermination à survivre se raffermit. Et ce n'est pas seulement pour moi...
 
-Amidst this darkness I have good news for you, my darling. I am with child. Though you have died your blood still lives in me, and even as my own flesh withers I can feel our baby blossoming within my womb. It is for this I carry on my experiments, gruesome as they be. It is for our child I struggle with hardened heart to extend my life ever further.
+Au milieu de cette obscurité, j'ai une bonne nouvelle pour toi, mon chéri. J'attends un enfant. Bien que tu sois mort, ton sang vit encore en moi, et même tandis que ma propre chair se flétrit, je sens notre bébé s'épanouir en mon sein. C'est pour cela que je poursuis mes expériences, aussi macabres soient-elles. C'est pour notre enfant que je lutte, le coeur endurci, pour prolonger toujours davantage ma vie.
 
-I am cold and alone in this chilly crypt, thinking back on my times of warmth with you. Abominations lie beyond the walls, their haunting cries torturing my ears, reminding me of the black deeds I have performed. But every now and then I feel a gentle kick, and my resolve is stiffened, and to my experiments I return.
+Je suis seule et transie dans cette crypte glaciale, repensant à nos moments de chaleur passés ensemble. Des abominations rôdent au-delà de ces murs, leurs cris obsédants torturant mes oreilles, me rappelant les sombres actes que j'ai commis. Mais de temps à autre, je sens un tendre coup de pied, et ma résolution s'affermit, et je retourne à mes expériences.
 
-I must live. For you, my love, I will live.]], "_t")
-t("last hope graveyard", "last hope graveyard", "newLore category")
-t("gravestone", "gravestone", "_t")
+Je dois vivre. Pour toi, mon amour, je vivrai.]], "_t")
+t("last hope graveyard", "Cimetière de Dernier Espoir", "newLore category")
+t("gravestone", "tombe", "_t")
 t([[#{bold}#
 Here lies Jake, son of Borlin and Clarise
 #{normal}#112 - 118#{italic}#
 Rest well, our child
 This world was too dark for thee
 #{normal}#]], [[#{bold}#
-Here lies Jake, son of Borlin and Clarise
+Ici repose Jake, fils de Borlin et Clarise
 #{normal}#112 - 118#{italic}#
-Rest well, our child
-This world was too dark for thee
+Repose en paix, mon enfant.
+Ce monde était trop sombre pour toi
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Alenda and Pariel
@@ -15009,11 +15005,11 @@ In sin you lived
 In sin you died
 Rot here together
 #{normal}#]], [[#{bold}#
-Here lies Alenda and Pariel
+Ici reposent Alenda et Pariel
 #{normal}#92 - 115, 94 - 115#{italic}#
-In sin you lived
-In sin you died
-Rot here together
+Vous avez vécu dans le péché
+Vous êtes morts dans le péché
+Pourrissez ici ensemble
 #{normal}#]], "_t")
 t([[#{bold}#
 Marcus the Immortal
@@ -15021,10 +15017,10 @@ Marcus the Immortal
 Ambitious in life
 Humbled in death
 #{normal}#]], [[#{bold}#
-Marcus the Immortal
+Marcus l'Immortel
 #{normal}#23 - 107#{italic}#
-Ambitious in life
-Humbled in death
+Ambitieux dans la vie
+Humble dans la mort
 #{normal}#]], "_t")
 t([[#{bold}#
 Lord Gracion Bestelle
@@ -15034,8 +15030,8 @@ Shall never dim
 #{normal}#]], [[#{bold}#
 Lord Gracion Bestelle
 #{normal}#41 - 112#{italic}#
-The memory of the greatest
-Shall never dim
+Le souvenir des plus grands
+Ne s'estompera jamais
 #{normal}#]], "_t")
 t([[#{bold}#
 Inilasac Salocin
@@ -15045,8 +15041,8 @@ And thine dark blessings
 #{normal}#]], [[#{bold}#
 Inilasac Salocin
 #{normal}#32 - 120#{italic}#
-All tomes shall remember thee
-And thine dark blessings
+Tous les ouvrages se souviendront de toi
+Et de tes sombres bénédictions
 #{normal}#]], "_t")
 t([[#{bold}#
 RIP Cecil Farion
@@ -15058,21 +15054,21 @@ Rest now from the burdens of the flesh
 #{normal}#A fresh rose lies here]], [[#{bold}#
 RIP Cecil Farion
 #{normal}#98 - 122#{italic}#
-Noble in mind
-Pure in spirit
-Rest now from the burdens of the flesh
+Noble d’esprit
+Pur d’âme
+Repose-toi désormais des fardeaux de la chair
 
-#{normal}#A fresh rose lies here]], "_t")
+#{normal}#Une rose fraîche repose ici]], "_t")
 t([[#{bold}#
 Here lies Golan of Derth
 #{normal}#65 - 113#{italic}#
 May your memories
 Always bring joy and love
 #{normal}#]], [[#{bold}#
-Here lies Golan of Derth
+Ci-gît Golan de Derth
 #{normal}#65 - 113#{italic}#
-May your memories
-Always bring joy and love
+Que vos souvenirs
+Vous apportent à jamais joie et amour
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Mara
@@ -15081,20 +15077,20 @@ You knew your doom
 And faced it
 Rest in peace
 #{normal}#]], [[#{bold}#
-Here lies Mara
+Ci-gît Mara
 #{normal}#70 - 109#{italic}#
-You knew your doom
-And faced it
-Rest in peace
+Vous connaissiez votre destin
+Et l'avez affronté
+Reposez en paix
 #{normal}#]], "_t")
 t([[#{bold}#
 Bodun the Follower
 #{normal}#86 - 117#{italic}#
 Killed by a friend's untimely death dance
 #{normal}#]], [[#{bold}#
-Bodun the Follower
+Bodun le Disciple
 #{normal}#86 - 117#{italic}#
-Killed by a friend's untimely death dance
+Tué par la danse de la mort intempestive d'un ami
 #{normal}#]], "_t")
 t([[#{bold}#
 Tania Pure-Hearted
@@ -15102,28 +15098,28 @@ Tania Pure-Hearted
 Our tears are for ourselves
 To have lost one so bright as you
 #{normal}#]], [[#{bold}#
-Tania Pure-Hearted
+Tania au Coeur Pur
 #{normal}#78 - 115#{italic}#
-Our tears are for ourselves
-To have lost one so bright as you
+Nos larmes sont pour nous-mêmes
+D'avoir perdu quelqu'un d'aussi lumineux que vous
 #{normal}#]], "_t")
 t([[#{bold}#
 Unknown
 #{normal}#?? - 107#{italic}#
 Your bravery will not be forgotten
 #{normal}#]], [[#{bold}#
-Unknown
+Inconnu
 #{normal}#?? - 107#{italic}#
-Your bravery will not be forgotten
+Votre bravoure ne sera pas oubliée
 #{normal}#]], "_t")
 t([[#{bold}#
 Captain Lepant
 #{normal}#56 - 102#{italic}#
 A hero to all elements of society
 #{normal}#]], [[#{bold}#
-Captain Lepant
+Capitaine Lepant
 #{normal}#56 - 102#{italic}#
-A hero to all elements of society
+Un héros pour toutes les strates de la société
 #{normal}#]], "_t")
 t([[#{bold}#
 Ghormot the Black
@@ -15132,11 +15128,11 @@ In this bright age
 Of new adventures
 You are not forgotten
 #{normal}#]], [[#{bold}#
-Ghormot the Black
+Ghormot le Noir
 #{normal}#0 - 97#{italic}#
-In this bright age
-Of new adventures
-You are not forgotten
+En cette ère lumineuse
+De nouvelles aventures
+Vous n'êtes pas oublié
 #{normal}#]], "_t")
 t([[#{bold}#
 Gygax the Great
@@ -15144,10 +15140,10 @@ Gygax the Great
 Most blessed are we
 To have shared this world with thee
 #{normal}#]], [[#{bold}#
-Gygax the Great
+Gygax le Grand
 #{normal}#38 - 108#{italic}#
-Most blessed are we
-To have shared this world with thee
+Grandement bénis sommes-nous
+D'avoir partagé ce monde avec vous
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Opius the Wastrel
@@ -15155,10 +15151,10 @@ Here lies Opius the Wastrel
 Death was too good for you
 May you quickly be forgotten
 #{normal}#]], [[#{bold}#
-Here lies Opius the Wastrel
+Ci-gît Opius le Vaurien
 #{normal}#89 - 117#{italic}#
-Death was too good for you
-May you quickly be forgotten
+La mort était trop douce pour vous
+Puissiez-vous être vite oublié
 #{normal}#]], "_t")
 t([[#{bold}#
 Wichman Toy
@@ -15168,8 +15164,8 @@ Inspire us forever
 #{normal}#]], [[#{bold}#
 Wichman Toy
 #{normal}#80 - 121#{italic}#
-Your rogueish charms
-Inspire us forever
+Vos charmes de canaille
+Nous inspirent à jamais
 #{normal}#]], "_t")
 t([[#{bold}#
 Annei Caffrey
@@ -15179,8 +15175,8 @@ You forever soar
 #{normal}#]], [[#{bold}#
 Annei Caffrey
 #{normal}#26 - 102#{italic}#
-On the wings of dragons
-You forever soar
+Sur les ailes des dragons
+Vous planez pour l'éternité
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Eden of Derth
@@ -15189,29 +15185,29 @@ Untamed in spirit
 Unhesitant in flight
 Unlifed in grimmest darkness
 #{normal}#]], [[#{bold}#
-Here lies Eden of Derth
+Ci-gît Éden de Derth
 #{normal}#97 - 121#{italic}#
-Untamed in spirit
-Unhesitant in flight
-Unlifed in grimmest darkness
+Indomptée en son esprit
+Sans hésitation dans l'envol
+Ôtée à la vie dans les ténèbres les plus funestes
 #{normal}#]], "_t")
 t([[#{bold}#
 Calici the Brave
 #{normal}#86 - 113#{italic}#
 Alas that bravery was not enough
 #{normal}#]], [[#{bold}#
-Calici the Brave
+Calici la Brave
 #{normal}#86 - 113#{italic}#
-Alas that bravery was not enough
+Hélas, cette bravoure ne suffit pas
 #{normal}#]], "_t")
 t([[#{bold}#
 Barbrim the Cursed
 #{normal}#92 - 119#{italic}#
 Betrayed by those he trusted
 #{normal}#]], [[#{bold}#
-Barbrim the Cursed
+Barbrim le Maudit
 #{normal}#92 - 119#{italic}#
-Betrayed by those he trusted
+Trahi par ceux en qui il avait confiance
 #{normal}#]], "_t")
 t([[#{bold}#
 Falsira Mageslayer
@@ -15220,20 +15216,20 @@ Slain by the dark magics she fought
 We shall never forget
 Death to the spellweavers!
 #{normal}#]], [[#{bold}#
-Falsira Mageslayer
+Falsira Tueuse de Mages
 #{normal}#78 - 104#{italic}#
-Slain by the dark magics she fought
-We shall never forget
-Death to the spellweavers!
+Tuée par les magies noires qu'elle combattait
+Nous n'oublierons jamais
+Mort aux tisseurs de sorts !
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Amalla
 #{normal}#86 - 105#{italic}#
 Burned for witchcraft
 #{normal}#]], [[#{bold}#
-Here lies Amalla
+Ci-gît Amalla
 #{normal}#86 - 105#{italic}#
-Burned for witchcraft
+Brûlée pour sorcellerie
 #{normal}#]], "_t")
 t([[#{bold}#
 Gamrik Dellhorn
@@ -15242,16 +15238,16 @@ Fell to the Wintertide blizzard
 #{normal}#]], [[#{bold}#
 Gamrik Dellhorn
 #{normal}#47 - 93#{italic}#
-Fell to the Wintertide blizzard
+Succomba au blizzard du Frimas
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Peterin
 #{normal}#32 - 89#{italic}#
 Died alone
 #{normal}#]], [[#{bold}#
-Here lies Peterin
+Ci-gît Peterin
 #{normal}#32 - 89#{italic}#
-Died alone
+Mort seul
 #{normal}#]], "_t")
 t([[#{bold}#
 Ben Harrison
@@ -15261,35 +15257,35 @@ Of he who helped us band together
 #{normal}#]], [[#{bold}#
 Ben Harrison
 #{normal}#68 - 104#{italic}#
-Praise the name
-Of he who helped us band together
+Loué soit le nom
+De celui qui nous a aidés à nous unir
 #{normal}#]], "_t")
 t([[#{bold}#
 Here rests Raymond Gaustadnes
 #{normal}#84 - 120#{italic}#
 The Pixels finally got him...
 #{normal}#]], [[#{bold}#
-Here rests Raymond Gaustadnes
+Ci-repose Raymond Gaustadnes
 #{normal}#84 - 120#{italic}#
-The Pixels finally got him...
+Les Pixels ont fini par l'avoir...
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Crokar
 #{normal}#86 - 113#{italic}#
 His love of trolls proved too dangerous a hobby
 #{normal}#]], [[#{bold}#
-Here lies Crokar
+Ci-gît Crokar
 #{normal}#86 - 113#{italic}#
-His love of trolls proved too dangerous a hobby
+Sa passion pour les trolls s'avéra un passe-temps bien trop dangereux
 #{normal}#]], "_t")
 t([[#{bold}#
 Lyrissa the Wyrmfriend
 #{normal}#93 - 116#{italic}#
 Eaten by dragons
 #{normal}#]], [[#{bold}#
-Lyrissa the Wyrmfriend
+Lyrissa l'Amie des Dragons
 #{normal}#93 - 116#{italic}#
-Eaten by dragons
+Dévorée par des dragons
 #{normal}#]], "_t")
 t([[#{bold}#
 Here rests Weldeth the Deserter
@@ -15299,26 +15295,26 @@ Bereft of pride
 On a comrade's sword
 He quickly died
 #{normal}#]], [[#{bold}#
-Here rests Weldeth the Deserter
+Ci-repose Weldeth le Déserteur
 #{normal}#86 - 103#{italic}#
-Fled from battle
-Bereft of pride
-On a comrade's sword
-He quickly died
+Il a fui la bataille
+Dépouillé de fierté
+Sur l'épée d'un compagnon
+Il périt rapidement
 #{normal}#]], "_t")
 t([[#{italic}#
 This gravestone has been desecrated
 #{normal}#]], [[#{italic}#
-This gravestone has been desecrated
+Cette tombe a été profanée
 #{normal}#]], "_t")
 t([[#{bold}#
 Seria Swanfoot
 #{normal}#56 - 109#{italic}#
 May your feet now walk amongst the stars
 #{normal}#]], [[#{bold}#
-Seria Swanfoot
+Seria Pied-de-Cygne
 #{normal}#56 - 109#{italic}#
-May your feet now walk amongst the stars
+Que vos pieds marchent désormais parmi les étoiles
 #{normal}#]], "_t")
 t([[#{bold}#
 Eric and Erik
@@ -15326,37 +15322,37 @@ Eric and Erik
 Met their death investigating dark light
 Alas, the pit was darker still
 #{normal}#]], [[#{bold}#
-Eric and Erik
+Eric et Erik
 #{normal}#66 - 114#{italic}#
-Met their death investigating dark light
-Alas, the pit was darker still
+Trouvèrent la mort en examinant une lumière sombre
+Hélas, la fosse était plus sombre encore
 #{normal}#]], "_t")
 t([[#{bold}#
 Hoblo Sureshot
 #{normal}#94 - 120#{italic}#
 Death by ricochet
 #{normal}#]], [[#{bold}#
-Hoblo Sureshot
+Hoblo Tir-Sûr
 #{normal}#94 - 120#{italic}#
-Death by ricochet
+Mort par ricochet
 #{normal}#]], "_t")
 t([[#{bold}#
 Grave of the Unknown Mason
 #{normal}#??? - ???#{italic}#
 In dedication to all those lost building the dungeons of Maj'Eyal
 #{normal}#]], [[#{bold}#
-Grave of the Unknown Mason
+Tombe du Maçon Inconnu
 #{normal}#??? - ???#{italic}#
-In dedication to all those lost building the dungeons of Maj'Eyal
+En hommage à tous ceux perdus en bâtissant les donjons de Maj'Eyal
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Albert Deathproof
 #{normal}#75 - ???#{italic}#
 Buried alive
 #{normal}#]], [[#{bold}#
-Here lies Albert Deathproof
+Ci-gît Albert l'Increvable
 #{normal}#75 - ???#{italic}#
-Buried alive
+Enterré vivant
 #{normal}#]], "_t")
 t([[#{bold}#
 RIP Legless Jack
@@ -15364,28 +15360,28 @@ RIP Legless Jack
 His life's dream was to dance
 But even dreams must die
 #{normal}#]], [[#{bold}#
-RIP Legless Jack
+RIP Jack Sans-Jambes
 #{normal}#26 - 98#{italic}#
-His life's dream was to dance
-But even dreams must die
+Le rêve de sa vie était de danser
+Mais même les rêves doivent mourir
 #{normal}#]], "_t")
 t([[#{bold}#
 The Blightbringer
 #{normal}#14 - 46#{italic}#
 Do not disturb
 #{normal}#]], [[#{bold}#
-The Blightbringer
+Le Porteur du Fléau
 #{normal}#14 - 46#{italic}#
-Do not disturb
+Ne pas déranger
 #{normal}#]], "_t")
 t([[#{bold}#
 Matthew the Brawler
 #{normal}#101 - 122#{italic}#
 Killed in a ring of blood
 #{normal}#]], [[#{bold}#
-Matthew the Brawler
+Matthew le Lutteur
 #{normal}#101 - 122#{italic}#
-Killed in a ring of blood
+Tué dans un Cercle de Sang
 #{normal}#]], "_t")
 t([[#{bold}#
 Sarusan the Timeraper
@@ -15393,28 +15389,28 @@ Sarusan the Timeraper
 He who wields Time
 Dies by Time
 #{normal}#]], [[#{bold}#
-Sarusan the Timeraper
+Sarusan le Faucheur du Temps
 #{normal}#102 - 87#{italic}#
-He who wields Time
-Dies by Time
+Qui vit par le Temps
+Meurt par le Temps
 #{normal}#]], "_t")
 t([[#{bold}#
 Palia the Poacher
 #{normal}#94 - 118#{italic}#
 Shown no mercy in the cursed woods
 #{normal}#]], [[#{bold}#
-Palia the Poacher
+Palia la Braconnière
 #{normal}#94 - 118#{italic}#
-Shown no mercy in the cursed woods
+N'a reçu aucune pitié dans les bois maudits
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies the merchant Dalio
 #{normal}#83 - 121#{italic}#
 Slain by an assassin's deadly poison
 #{normal}#]], [[#{bold}#
-Here lies the merchant Dalio
+Ci-gît le marchand Dalio
 #{normal}#83 - 121#{italic}#
-Slain by an assassin's deadly poison
+Tué par le poison mortel d'un assassin
 #{normal}#]], "_t")
 t([[#{bold}#
 Here lies Jazak
@@ -15422,10 +15418,10 @@ Here lies Jazak
 He played with the wildest fires
 And got burnt
 #{normal}#]], [[#{bold}#
-Here lies Jazak
+Ci-gît Jazak
 #{normal}#92 - 113#{italic}#
-He played with the wildest fires
-And got burnt
+Il joua avec les feux les plus sauvages
+Et s'y brûla
 #{normal}#]], "_t")
 t([[#{bold}#
 RIP Gedis the Paladin
@@ -15433,10 +15429,10 @@ RIP Gedis the Paladin
 Bright star from foreign lands
 We weep your fallen light
 #{normal}#]], [[#{bold}#
-RIP Gedis the Paladin
+RIP Gedis le Paladin
 #{normal}#?? - 118#{italic}#
-Bright star from foreign lands
-We weep your fallen light
+Étoile brillante venue de terres étrangères
+Nous pleurons ta lumière éteinte
 #{normal}#]], "_t")
 t([[#{bold}#
 Foursaw the Clown
@@ -15445,14 +15441,12 @@ We laughed
 Until we saw
 The joke was over
 #{normal}#]], [[#{bold}#
-Foursaw the Clown
+Quatrescie le Clown
 #{normal}#82 - 114#{italic}#
-We laughed
-Until we saw
-The joke was over
+Nous avons ri
+Jusqu'à voir
+Que la blague était terminée
 #{normal}#]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/maze.lua"
@@ -38933,7 +38927,7 @@ t("last hope foundation", "Fondation de Dernier Espoir", "entity subtype")
 t("The Diaries of King Toknor the Brave (%d)", "Les Notes du roi Toknor le Brave (%d)", "tformat")
 t("A part of the history of Last Hope, and King Toknor the Brave.", "Un pan de l'histoire de Dernier Espoir et du roi Toknor le Brave.", "_t")
 t("analysis", "analyse", "entity subtype")
-t("southspar", "Sparsud", "entity subtype")
+t("southspar", "sparsud", "entity subtype")
 t("the Pale King part %s", "la Roi Pâle partie %s", "tformat")
 t("one", "une", "_t")
 t("two", "deux", "_t")
