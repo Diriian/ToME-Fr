@@ -1773,6 +1773,7 @@ t("Heals you for %d life when you use a salve.", "Heals you for %d life when you
 section "tome-orcs/data/general/objects/world-artifacts.lua"
 
 t("something", "quelque chose", "_t")
+t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
 t("50% chance to reload 1 ammo", "50% chance de recharger 1 munition", "_t")
 t("scroll", "parchemin", "_t")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
@@ -1845,7 +1846,6 @@ t("shimmering steamgun", "shimmering steamgun", "_t")
 t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "_t")
 t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "tformat")
 t("%s tosses %s %s!", "%s tosses %s %s!", "logSeen")
-t("%s resists the sleep!", "%s resists the sleep!", "logSeen")
 t("Thoughtcaster", "Thoughtcaster", "entity name")
 t("crystalline handgun", "crystalline handgun", "_t")
 t("From body, mind. From mind, body.", "From body, mind. From mind, body.", "_t")
