@@ -3168,12 +3168,11 @@ t([[As you speak the chosen prophecy whispers from the void guide you in how to 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/entropy.lua"
 
-
+t("#Source# pulls #Target# in!", "#Source# attire #Target# !", "logCombat")
 -- texte non traduit
 --[==[
 t("Entropic Gift", "Entropic Gift", "talent name")
 t("%s's black hole", "%s's black hole", "tformat")
-t("#Source# pulls #Target# in!", "#Source# pulls #Target# in!", "logCombat")
 t([[Your unnatural existence causes the fabric of reality to reject your presence. 25%% of all direct healing received damages you in the form of entropic backlash over 8 turns, which is irresistible and bypasses all shields, but cannot kill you.
 
 You may activate this talent to channel your entropy onto a nearby enemy, removing all entropic backlash to inflict darkness and temporal damage equal to %d%% of your entropy over 4 turns.

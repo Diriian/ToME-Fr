@@ -838,7 +838,7 @@ t("Skin", "Peau", "birth facial category")
 t("Hairs", "Cheveux", "birth facial category")
 t("Facial features", "Modifications faciales", "birth facial category")
 t("Special", "Spécial", "birth facial category")
-t("They possess the #GOLD#Resilience of the Dwarves#WHITE# which allows them to increase their armour, physical and spell saves for a few turns.", "Ils possèdent la #GOLD#Résistance des nains#WHITE# qui leur permet d'augmenter leur armure et leurs jets de sauvegarde physique et contre les sorts pour quelques tours.", "_t")
+t("They possess the #GOLD#Resilience of the Dwarves#WHITE# which allows them to increase their armour, physical and spell saves for a few turns.", "Ils possèdent la #GOLD#Résistance des nains#WHITE# qui leur permet d'augmenter leur armure et leurs jets de sauvegarde physique, et des sorts pour quelques tours.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
 t("#LIGHT_BLUE# * +4 Strength, -2 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +4 Force, -2 Dextérité, +3 Constitution", "_t")
 t("#LIGHT_BLUE# * -2 Magic, +3 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 Magie, +3 Volonté, +0 Ruse", "_t")
@@ -10701,7 +10701,7 @@ t("dominate the target", "dominer la cible", "_t")
 t("Blightstopper", "Anti-Fléau", "entity name")
 t("vine coated shield", "bouclier recouvert de vigne", "_t")
 t("This voratun shield, coated with thick vines, was imbued with nature's power long ago by the Halfling General Almadar Riul, who used it to stave off the magic and diseases of orcish corruptors during the peak of the Pyre Wars.", "Ce bouclier en voratun, recouvert d'épaisses vignes, a été imprégné du pouvoir de la nature il y a longtemps par le général Halfelin Almadar Riul, qui l'a utilisé pour repousser la magie et les maladies des corrupteurs orcs au plus fort des guerres du Bûcher.", "_t")
-t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "purger jusqu'à %d maladies (basé sur la Volonté) et gagne l'immunité aux maladies, %d%% de résistance au fléau, et %d sauvegarde contre les sorts pour 5 tours", "tformat")
+t("purge up to %d diseases (based on Willpower) and gain disease immunity, %d%% blight resistance, and %d spell save for 5 turns", "purger jusqu'à %d maladies (basé sur la Volonté) et gagne l'immunité aux maladies, %d%% de résistance au fléau, et %d sauvegarde des sorts pour 5 tours", "tformat")
 t("%s holds %s %s close, cleansing %s of corruption!", "%s tient %s %s de près, nettoyant %s corruption !", "logSeen")
 t("%s is purged of diseases!", "%s est purgé des maladies !", "logSeen")
 t("#DARK_GREEN#You feel nature's power protecting you!", "#DARK_GREEN#Vous ressentez la puissance de la nature qui vous protège !", "logPlayer")
@@ -18990,7 +18990,7 @@ t([[You chant the glory of the Sun, granting you %d%% physical damage resistance
 t("Chant of Resistance", "Chant de Résistance", "talent name")
 t([[You chant the glory of the Sun, granting you %d%% fire, lightning, acid and cold damage resistance, %d spell save and reduces the damage from enemies 3 or more spaces away by %d%%.
 	You may only have one Chant active at once.
-	The effects will increase with your Spellpower.]], [[Vous invoquez la gloire du Soleil, ce qui vous confère %d%% de résistance au feu, à la foudre, à l'acide, et au froid, %d à la sauvegarde contre les sorts et réduit les dégâts infligés par les ennemis situés à 3 cases ou plus de %d%%.
+	The effects will increase with your Spellpower.]], [[Vous invoquez la gloire du Soleil, ce qui vous confère %d%% de résistance au feu, à la foudre, à l'acide, et au froid, %d à la sauvegarde des sorts et réduit les dégâts infligés par les ennemis situés à 3 cases ou plus de %d%%.
 	Vous ne pouvez avoir qu'un seul chant actif à la fois.
 		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Chant of Light", "Chant de Lumière", "talent name")
@@ -19011,7 +19011,7 @@ t([[You have learned to sing the praises of the Sun, in the form of three defens
 			You may only have one Chant active at a time.]], [[Vous avez appris à chanter les louanges du Soleil, sous la forme de trois Chants défensifs.
 			Chant de Fortitude : Augmente votre sauvegarde mentale de %d et vos points de vie maximum de %d%%.
 			Chant de Forteresse : Augmente votre sauvegarde physique de %d, votre résistance physique de %d%%, votre armure de %d et la robustesse d'armure de 15%%.
-			Chant de Résistance : Augmente votre sauvegarde contre les sorts de %d, vos résistances au feu, au froid, à la foudre et à l'acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
+			Chant de Résistance : Augmente votre sauvegarde des sorts de %d, vos résistances au feu, au froid, à la foudre et à l'acide de %d%% et réduit tous les dégâts infligés par les ennemis éloignés (à 3 cases ou plus) de %d%%.
 			Vous ne pouvez avoir qu'un seul Chant actif à la fois.]], "tformat")
 t("Chant Illuminate", "Chant de Lumière", "talent name")
 t([[Your Chants now bathe you in a cloak of light, which increases your stamina and mana regenerations by %0.2f per turn and does %0.2f light damage to anyone who hits you in melee.
@@ -19606,7 +19606,7 @@ t([[Create a shadow jumpgate at your current location. As long as you sustain th
 		Au niveau 4, vous apprenez à créer et maintenir un second portail de saut.]], "tformat")
 t("Mind Blast", "Explosion Mentale", "talent name")
 t([[Let out a mental cry that shatters the will of your targets within radius %d, dealing %0.2f darkness damage and confusing (%d%% to act randomly) them for %d turns.
-		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[Poussez un cri mental qui brise la volonté de vos cibles dans un rayon de %d, infligeant %0.2f dégâts d'obscurité et les confusant (%d%% de chances d'agir au hasard) pendant %d tours.
+		The damage will improve with your spellpower and the duration will improve with your Cunning.]], [[Poussez un cri mental qui brise la volonté de vos cibles dans un rayon de %d, infligeant %0.2f dégâts d'obscurité et les confusionnant (%d%% de chances d'agir au hasard) pendant %d tours.
 		Les dégâts sont proportionnels à votre puissance de sort et la durée est proportionnels à votre Ruse.]], "tformat")
 t("Shadow Simulacrum", "Simulacre d'Ombre", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
@@ -20196,7 +20196,7 @@ t("Spacetime Mastery", "Maîtrise Spatio-Temporelle", "talent name")
 t("Your mastery of spacetime reduces the cooldown of Banish, Dimensional Step, Swap, and Temporal Wake by %d, and the cooldown of Wormhole by %d.  Also improves your Spellpower for purposes of hitting targets with chronomancy effects that may cause continuum destabilization (Banish, Time Skip, etc.), as well as your chance of overcoming continuum destabilization, by %d%%.", "Votre maîtrise de l'espace-temps réduit le rechargement de #CRIMSON#Bannissement#LAST#, #CRIMSON#Pas Dimensionnel#LAST#, #CRIMSON#Échange#LAST# et #CRIMSON#Réveil Temporel#LAST# de %d, et le temps de rechargement de #CRIMSON#Trou de Ver#LAST# de %d. Améliore également votre Puissance des Sorts pour toucher des cibles avec des effets de chronomancie susceptibles de provoquer une déstabilisation du continuum (#CRIMSON#Bannissement#LAST#, #CRIMSON#Saut Temporel#LAST#, etc.), ainsi que vos chances de surmonter la déstabilisation du continuum, de %d%%.", "tformat")
 t("Quantum Feed", "Alimentation Quantique", "talent name")
 t([[You've learned to boost your magic through your control over the spacetime continuum.  Increases your Magic and your Spell Save by %d.
-		The effect will scale with your Willpower.]], [[Vous avez appris à booster votre magie grâce à votre contrôle sur le continuum espace-temps. Augmente votre Magie et votre Sauvegarde de Sort de %d.
+		The effect will scale with your Willpower.]], [[Vous avez appris à booster votre magie grâce à votre contrôle sur le continuum espace-temps. Augmente votre Magie et votre Sauvegarde des Sorts de %d.
 		L'effet est proportionnel à votre Volonté.]], "tformat")
 t("Moment of Prescience", "Moment de Préscience", "talent name")
 t([[You pull your awareness fully into the moment, increasing your stealth detection, see invisibility, defense, and accuracy by %d for %d turns.
@@ -20679,7 +20679,7 @@ t("Corrupted Negation", "Négation Corrompue", "talent name")
 t([[Project a corrupted blast of power that removes up to %d magical or physical effects or any type of sustain and deals %0.2f blight damage to any creatures caught in the radius 3 ball.
 		For each effect, the creature has a chance to resist based on its spell save.
 		The damage will increase with your Spellpower.]], [[Projette une explosion de pouvoir corrompue qui supprime jusqu'à %d effet(s) magique(s) ou physique(s), ou tout type d'effet soutenu, et inflige %0.2f dégâts de fléau à toutes les créatures touchées dans un rayon de 3 cases.
-		Pour chaque effet, la créature a une chance de résister en fonction de sa sauvegarde magique.
+		Pour chaque effet, la créature a une chance de résister en fonction de sa sauvegarde des sorts.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Corrosive Worm", "Ver Corrosif", "talent name")
 t([[Infects the target with a corrosive worm for 6 turns that reduces blight and acid resistance by %d%% and feeds off damage taken.
@@ -22930,7 +22930,7 @@ t([[Your devotion to nature has made your body more attuned to the natural world
 		You gain %d Spell save, %0.1f%% Arcane resistance, and %0.1f%% Nature damage affinity.
 		You defy arcane forces, so that any time you take damage from a spell, you restore %0.1f Equilibrium each turn for %d turns.
 		The effects increase with your Mindpower.]], [[Votre dévotion envers la nature a harmonisé votre corps avec le monde naturel, le rendant résistant aux énergies impies.
-		Vous gagnez %d en sauvegarde magique, %0.1f%% de résistance aux arcanes, et %0.1f%% d'affinité aux dégâts de nature.
+		Vous gagnez %d en sauvegarde des sorts, %0.1f%% de résistance aux arcanes, et %0.1f%% d'affinité aux dégâts de nature.
 		Vous défiez les forces arcaniques : chaque fois que vous subissez les dégâts d'un sort, vous récupérez %0.1f d'équilibre à chaque tour pendant %d tours.
 		Les effets sont proportionnels à votre Puissance Mentale.]], "tformat")
 t("Acidfire", "Feu acide", "talent name")
@@ -24789,7 +24789,7 @@ t("misc", "divers", "talent category")
 t("Powers of the various objects of the world.", "Pouvoirs des divers objets du monde.", "_t")
 t("charms", "charmes", "talent name")
 t("Arcane Supremacy", "Suprématie Arcanique", "talent name")
-t("Removes up to %d detrimental magical effects and empowers you with arcane energy for ten turns, increasing spellpower and spell save by 5 plus 5 per effect removed.", "Supprime jusqu'à %d effet(s) magique(s) néfaste(s) et vous imprègne d'énergie profane pendant 10 tours, augmentant la puissance magique et la sauvegarde magique de 5, plus 5 par effet dissipé.", "tformat")
+t("Removes up to %d detrimental magical effects and empowers you with arcane energy for ten turns, increasing spellpower and spell save by 5 plus 5 per effect removed.", "Supprime jusqu'à %d effet(s) magique(s) néfaste(s) et vous imprègne d'énergie profane pendant 10 tours, augmentant la puissance magique et la sauvegarde des sorts de 5, plus 5 par effet dissipé.", "tformat")
 t("Attune Mindstar", "Harmoniser d'Étoiles d'Âme", "talent name")
 t("@Source@ refocuses the energies of %s mindstar.", "@Source@ réaligne les énergies de l'étoile d'âme de %s.", "tformat")
 t("You attune your %s to deal #ORANGE#mind#LAST# damage.", "Vous harmonisez votre %s pour infliger des dégâts #ORANGE#mentaux#LAST#", "logPlayer")
@@ -24811,7 +24811,7 @@ t("Block", "Bloquer", "talent name")
 t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("None", "Aucune", "_t")
 t(" and ", " et ", "_t")
-t(" Increases your spell save by %d for that turn.", " Augmente votre sauvegarde magique de %d pour ce tour.", "tformat")
+t(" Increases your spell save by %d for that turn.", " Augmente votre sauvegarde des sorts de %d pour ce tour.", "tformat")
 t(" Reflects all blocked damage back to the source.", " Renvoie tous les dégâts bloqués à l'expéditeur.", "_t")
 t(" All blocked damage heals the wielder.", " Tous les dégâts bloqués soignent le porteur.", "_t")
 t([[Raise your shield into blocking position for 2 turns reducing all non-Mind damage by %d. If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (the next weapon attack will instead deal 200%% damage) for one turn.
@@ -24895,7 +24895,7 @@ t("Born into Magic", "Né dans la Magie", "talent name")
 t([[Highers were originally created during the Age of Allure by the human Conclave. They are imbued with magic at the very core of their being.
 		Increase spell save by %d and arcane resistance by %d%%.
 		Also, when you cast a spell dealing damage, you gain a 20%% bonus to the damage type for 5 turns. (This effect has a cooldown.)]], [[Les Nobles ont été créés à l'origine durant Ère de la Séduction par le Conclave humain. Ils sont imprégnés de magie au plus profond de leur être.
-		Augmente la sauvegarde magique de %d et la résistance arcanique de %d%%.
+		Augmente la sauvegarde des sorts de %d et la résistance arcanique de %d%%.
 		De plus, lorsque vous lancez un sort infligeant des dégâts, vous gagnez un bonus de 20%% pour ce type de dégâts pendant 5 tours. (Cet effet possède un temps de rechargement.)]], "tformat")
 t("Highborn's Bloom", "Floraison des Bien-Nés", "talent name")
 t([[Activate some of your inner magic, using it to power your abilities.  For the next %d turns all active talents will be used without resource cost.
@@ -24959,7 +24959,7 @@ t("Power is Money", "Le pouvoir de l'Argent", "talent name")
 t([[Money is the heart of the Dwarven Empire; it rules over all other considerations.
 		Increases Physical, Mental and Spell Saves based on the amount of gold you possess.
 		+1 save every %d gold, up to +%d. (currently +%d)]], [[L'argent est le coeur de l'Empire nain ; il l'emporte sur toute autre considération.
-		Augmente vos sauvegardes physique, mentale et magique en fonction de la quantité d'or que vous possédez.
+		Augmente vos sauvegardes physique, mentale, et des sorts en fonction de la quantité d'or que vous possédez.
 		+1 à toutes les sauvegardes toutes les tranche de %d pièces d'or, jusqu'à un maximum de +%d. (Actuellement +%d)]], "tformat")
 t("Stone Walking", "Marche de Pierre", "talent name")
 t([[While the origins of the dwarves remain clouded in mystery to the other races, it is obvious that they share strong ties to the stone.
@@ -25061,7 +25061,7 @@ t([[An ogre's body is acclimated to spells and inscriptions.
 		Increases spell save by %d and improves the contribution of primary stats on infusions and runes by %d%%.
 		At level 5 your body is so strong you can use a two handed weapon in your main hand while still using an offhand item.
 		When using a two handed weapon this way you suffer a 20%% accuracy, physical power, spellpower and mindpower penalty, decreasing by 5%% per size category above #{italic}#big#{normal}#; further, all damage procs from your weapons are reduced by 50%%.]], [[Le corps d'un ogre est habitué aux sorts et aux inscriptions.
-		Augmente la sauvegarde magique de %d et améliore l'influence des caractéristiques principales sur les essences et runes de %d%%.
+		Augmente la sauvegarde des sorts de %d et améliore l'influence des caractéristiques principales sur les essences et runes de %d%%.
 		Au niveau 5, votre corps est si fort que vous pouvez manier une arme à deux mains dans votre main principale tout en portant un objet en main secondaire.
 		En utilisant une arme à deux mains de la sorte, vous subissez une pénalité de 20%% en précision, puissance physique, puissance magique et puissance mentale, réduite de 5%% par catégorie de taille au-dessus de #{italic}#grand#{normal}# ; de plus, tous les déclenchements de dégâts procs de vos armes sont réduits de 50%%.]], "tformat")
 t("Scar-Scripted Flesh", "Chair Gravée de Cicatrices", "talent name")
@@ -25268,230 +25268,211 @@ t([[Store an electric charge for saving your life at a later time.
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/discharge.lua"
 
-t("Feedback Loop", "Boucle de Rétroaction", "talent name")
-t("Focused Wrath", "Colère Ciblée", "talent name")
--- texte non traduit
---[==[
-t("Mind Storm", "Mind Storm", "talent name")
+t("Mind Storm", "Tempête Mentale", "talent name")
 t([[Unleash your subconscious on the world around you.  While active, you fire up to %d bolts each turn (one per hostile target) that deal %0.2f mind damage.  Each bolt consumes 5 Feedback.
 		Feedback gains beyond your maximum allowed amount may generate extra bolts (one bolt per %d excess Feedback per target), but no more than %d extra bolts per turn. 
 		This effect is a psionic channel, increasing the range of Mind Sear, Psychic Lobotomy, and Sunder Mind to 10 but will break if you move.
-		The damage will scale with your Mindpower.]], [[Unleash your subconscious on the world around you.  While active, you fire up to %d bolts each turn (one per hostile target) that deal %0.2f mind damage.  Each bolt consumes 5 Feedback.
-		Feedback gains beyond your maximum allowed amount may generate extra bolts (one bolt per %d excess Feedback per target), but no more than %d extra bolts per turn. 
-		This effect is a psionic channel, increasing the range of Mind Sear, Psychic Lobotomy, and Sunder Mind to 10 but will break if you move.
-		The damage will scale with your Mindpower.]], "tformat")
-t("You have no feedback to start a feedback loop!", "You have no feedback to start a feedback loop!", "logPlayer")
+		The damage will scale with your Mindpower.]], [[Libère votre subconscient sur le monde qui vous entoure. Pendant qu'il est actif, vous tirez jusqu'à %d rayon(s) par tour (un par cible hostile), infligeant %0.2f dégâts mentaux. Chaque rayon consomme 5 Rétroaction.
+		Les gains de Rétroaction au-delà du maximum autorisé peuvent générer des rayons supplémentaires (un rayon par %d de Rétroaction excédentaire par cible), mais pas plus de %d rayon(s) extra par tour.
+		Cet effet est une canalisation psionique qui augmente la portée de Brûlure Mentale, Lobotomie Psychique, et Briser l'Esprit à 10, mais sera interrompue si vous vous déplacez.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Feedback Loop", "Boucle de Rétroaction", "talent name")
+t("You have no feedback to start a feedback loop!", "Vous n'avez pas de Rétroaction pour démarrer une boucle de rétroaction !", "logPlayer")
 t([[Activate to invert your Feedback decay for %d turns.  This effect can be a critical hit, increasing the duration even further.
 		You must have some Feedback in order to start the loop.
-		The maximum Feedback gain will scale with your Mindpower.]], [[Activate to invert your Feedback decay for %d turns.  This effect can be a critical hit, increasing the duration even further.
-		You must have some Feedback in order to start the loop.
-		The maximum Feedback gain will scale with your Mindpower.]], "tformat")
-t("Backlash", "Backlash", "talent name")
+		The maximum Feedback gain will scale with your Mindpower.]], [[Active pour inverser votre décroissance de Rétroaction pendant %d tours.
+		Cet effet peut être un coup critique, augmentant encore la durée.
+		Vous devez avoir de la Rétroaction pour démarrer la boucle.
+		Le gain maximum de Rétroaction est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Backlash", "Retour de Flamme", "talent name")
 t([[Your subconscious now retaliates when you take damage.  If the attacker is within range (%d), you'll inflict mind damage equal to the Feedback gained from the attack or %0.2f, whichever is lower.
 		This effect can only happen once per creature per turn.
-		The damage will scale with your Mindpower.]], [[Your subconscious now retaliates when you take damage.  If the attacker is within range (%d), you'll inflict mind damage equal to the Feedback gained from the attack or %0.2f, whichever is lower.
-		This effect can only happen once per creature per turn.
-		The damage will scale with your Mindpower.]], "tformat")
+		The damage will scale with your Mindpower.]], [[Votre subconscient riposte désormais lorsque vous subissez des dégâts. Si l'attaquant est dans un rayon de %d, vous infligez des dégâts mentaux égaux à la Rétroaction reçue par l'attaque ou %0.2f, selon le plus faible.
+		Cet effet ne peut se produire qu'une fois par créature et par tour.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Focused Wrath", "Colère Ciblée", "talent name")
 t([[Focus your mind on a single target, diverting all offensive Discharge talent effects to it for %d turns.  While this effect is active, all Discharge talents gain %d%% critical power and you ignore %d%% mind resistance of your targets.
 		If the target is killed, the effect will end early.
 		At level level 5 your single-minded focus also resets the cooldown of Mind Storm.
-		The damage bonus will scale with your Mindpower.]], [[Focus your mind on a single target, diverting all offensive Discharge talent effects to it for %d turns.  While this effect is active, all Discharge talents gain %d%% critical power and you ignore %d%% mind resistance of your targets.
-		If the target is killed, the effect will end early.
-		At level level 5 your single-minded focus also resets the cooldown of Mind Storm.
-		The damage bonus will scale with your Mindpower.]], "tformat")
---]==]
-
+		The damage bonus will scale with your Mindpower.]], [[Concentre votre esprit sur une seule cible, redirigeant tous les effets offensifs des talents de Décharge vers elle pendant %d tours. Pendant que cet effet est actif, tous les talents de Décharge gagnent %d%% de puissance critique et vous ignorez %d%% de résistance mentale de vos cibles.
+		Si la cible est tuée, l'effet prend fin prématurément.
+		Au niveau 5, votre concentration réinitialise également le rechargement de Tempête Mentale.
+		Le bonus de dégâts est proportionnel à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/distortion.lua"
 
-
--- texte non traduit
---[==[
-t("Distortion Bolt", "Distortion Bolt", "talent name")
+t("Distortion Bolt", "Rayon de Distorsion", "talent name")
 t([[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physical damage.  This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
 		If the bolt comes in contact with a target that's already distorted, a detonation will occur, inflicting 150%% of the base damage in a radius of %d.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		At talent level 5, you learn to shape your distortion effects, preventing them from hitting you or your allies.
-		The damage will scale with your Mindpower.]], [[Fire a bolt of distortion that ignores resistance and inflicts %0.2f physical damage.  This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
-		If the bolt comes in contact with a target that's already distorted, a detonation will occur, inflicting 150%% of the base damage in a radius of %d.
-		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		At talent level 5, you learn to shape your distortion effects, preventing them from hitting you or your allies.
-		The damage will scale with your Mindpower.]], "tformat")
-t("Distortion Wave", "Distortion Wave", "talent name")
+		The damage will scale with your Mindpower.]], [[Tire un rayon de distorsion qui ignore la résistance et inflige %0.2f dégâts physiques.
+		Ces dégâts provoquent une distorsion chez les cibles touchées, diminuant la résistance physique de %d%% et les rendant vulnérables aux effets de distorsion pendant 2 tours.
+		Si le rayon entre en contact avec une cible déjà distordue, une détonation se produira, infligeant 150%% des dégâts de base dans un rayon de %d.
+		Investir dans ce talent augmentera la réduction de résistance physique de tous vos effets de distorsion.
+		Au niveau 5, vous apprenez à façonner vos effets de distorsion, les empêchant de vous toucher vous ou vos alliés.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Distortion Wave", "Vague de Distorsion", "talent name")
 t([[Creates a distortion wave in a radius %d cone that deals %0.2f physical damage and knocks back targets in the blast radius.
 		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
 		If the target is already distorted, they'll be stunned for %d turns as well.
-		The damage will scale with your Mindpower.]], [[Creates a distortion wave in a radius %d cone that deals %0.2f physical damage and knocks back targets in the blast radius.
-		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
-		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		If the target is already distorted, they'll be stunned for %d turns as well.
-		The damage will scale with your Mindpower.]], "tformat")
-t("Ravage", "Ravage", "talent name")
+		The damage will scale with your Mindpower.]], [[Crée une vague de distorsion dans un cône de rayon %d qui inflige %0.2f dégâts physiques et repousse les cibles dans le rayon de l'explosion.
+		Ces dégâts provoquent une distorsion chez les cibles touchées, diminuant la résistance physique de %d%% et les rendant vulnérables aux effets de distorsion pendant 2 tours.
+		Investir dans ce talent augmentera la réduction de résistance physique de tous vos effets de distorsion.
+		Si la cible est déjà distordue, elle sera également assommée pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Ravage", "Dévastation", "talent name")
 t([[Ravages the target with distortion, inflicting %0.2f physical damage each turn for %d turns.
 		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
 		If the target is already distorted when Ravage is applied, the damage will be increased by 50%% and the target will lose one beneficial physical effect or sustain each turn.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		The damage will scale with your Mindpower.]], [[Ravages the target with distortion, inflicting %0.2f physical damage each turn for %d turns.
-		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
-		If the target is already distorted when Ravage is applied, the damage will be increased by 50%% and the target will lose one beneficial physical effect or sustain each turn.
-		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		The damage will scale with your Mindpower.]], "tformat")
-t("Maelstrom", "Maelstrom", "talent name")
-t("%s's maelstrom", "%s's maelstrom", "tformat")
-t("#Source# pulls #Target# in!", "#Source# pulls #Target# in!", "logCombat")
+		The damage will scale with your Mindpower.]], [[Attaque la cible avec de la distorsion, infligeant %0.2f dégâts physiques par tour pendant %d tours.
+		Ces dégâts provoquent une distorsion chez les cibles touchées, diminuant la résistance physique de %d%% et les rendant vulnérables aux effets de distorsion pendant 2 tours.
+		Si la cible est déjà distordue lorsque cette compétence est appliquée, les dégâts sont augmentés de 50%% et la cible perd 1 effet physique positif ou soutenu par tour.
+		Investir dans ce talent augmentera la réduction de résistance physique de tous vos effets de distorsion.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Maelstrom", "Tourbillon", "talent name")
+t("%s's maelstrom", "tourbillon de %s", "tformat")
+t("#Source# pulls #Target# in!", "#Source# attire #Target# !", "logCombat")
 t([[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pull in targets within a radius of %d, and inflict %0.2f physical damage.
 		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
 		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		The damage will scale with your Mindpower.]], [[Create a powerful maelstorm for %d turns.  Each turn, the maelstrom will pull in targets within a radius of %d, and inflict %0.2f physical damage.
-		This damage will distort affected targets, decreasing physical resistance by %d%% and rendering them vulnerable to distortion effects for two turns.
-		Investing in this talent will increase the physical resistance reduction from all of your distortion effects.
-		The damage will scale with your Mindpower.]], "tformat")
---]==]
-
+		The damage will scale with your Mindpower.]], [[Crée un puissant tourbillon pendant %d tours. À chaque tour, le tourbillon attire les cibles dans un rayon de %d et inflige %0.2f dégâts physiques.
+		Ces dégâts provoquent une distorsion chez les cibles touchées, diminuant la résistance physique de %d%% et les rendant vulnérables aux effets de distorsion pendant 2 tours.
+		Investir dans ce talent augmentera la réduction de résistance physique de tous vos effets de distorsion.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/dream-forge.lua"
 
 t("Forge Shield", "Bouclier Forgé", "talent name")
--- texte non traduit
---[==[
-t("#ORANGE#%s forges a dream shield to block the attack!", "#ORANGE#%s forges a dream shield to block the attack!", "logSeen")
-t("#ORANGE#%s's dream shield has been strengthened by the attack!", "#ORANGE#%s's dream shield has been strengthened by the attack!", "logSeen")
+t("#ORANGE#%s forges a dream shield to block the attack!", "#ORANGE#%s forge un bouclier des rêves pour bloquer l'attaque !", "logSeen")
+t("#ORANGE#%s's dream shield has been strengthened by the attack!", "#ORANGE#%s voit son bouclier des rêves renforcé par l'attaque !", "logSeen")
 t([[When an attack would deal 15%% or more of your effective total health, you forge the Dream Shield to protect yourself, reducing the damage of all attacks of that type by %0.2f for the next %d turn(s).
 		You may block multiple damage types at one time, but the base damage threshold increases by 15%% per damage type the shield is already blocking.
 		If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal melee or ranged attack will instead deal 200%% damage) for one turn.
 		At talent level 5, the block effect will last two turns.
-		This damage reduction scales with your Mindpower.]], [[When an attack would deal 15%% or more of your effective total health, you forge the Dream Shield to protect yourself, reducing the damage of all attacks of that type by %0.2f for the next %d turn(s).
-		You may block multiple damage types at one time, but the base damage threshold increases by 15%% per damage type the shield is already blocking.
-		If you block all of an attack's damage, the attacker will be vulnerable to a deadly counterstrike (a normal melee or ranged attack will instead deal 200%% damage) for one turn.
-		At talent level 5, the block effect will last two turns.
-		This damage reduction scales with your Mindpower.]], "tformat")
-t("Forge Bellows", "Forge Bellows", "talent name")
-t("%s's forge barrier", "%s's forge barrier", "tformat")
-t("a summoned wall of mental energy", "a summoned wall of mental energy", "_t")
+		This damage reduction scales with your Mindpower.]], [[Lorsqu'une attaque causerait 15%% ou plus de votre vie maximale, vous forgez le Bouclier des Rêves pour vous protéger, réduisant les dégâts de tous les attaques de ce type de %0.2f pendant %d tour(s).
+		Vous pouvez bloquer plusieurs types de dégâts à la fois, mais le seuil de dégâts de base augmente de 15%% par type de dégâts que le bouclier bloque déjà.
+		Si vous bloquez tous les dégâts d'une attaque, l'attaquant sera vulnérable à un contre-attaque dévastatrice (une attaque normale au corps à corps ou à distance causera 200%% de dégâts) pendant 1 tour.
+		Au niveau 5, l'effet de blocage dure 2 tours.
+		La réduction de dégâts est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Forge Bellows", "Soufflet de Forge", "talent name")
+t("%s's forge barrier", "barrière de forge de %s", "tformat")
+t("a summoned wall of mental energy", "Un mur d'énergie mentale invoqué.", "_t")
 t([[Release the bellows of the forge upon your surroundings, inflicting %0.2f mind damage, %0.2f burning damage, and knocking back your enemies in a radius %d cone.
 		Empty terrain may be changed (50%% chance) for %d turns into forge walls, which block movement and inflict %0.2f mind and %0.2f fire damage on nearby enemies.
-		The damage and knockback chance will scale with your Mindpower.]], [[Release the bellows of the forge upon your surroundings, inflicting %0.2f mind damage, %0.2f burning damage, and knocking back your enemies in a radius %d cone.
-		Empty terrain may be changed (50%% chance) for %d turns into forge walls, which block movement and inflict %0.2f mind and %0.2f fire damage on nearby enemies.
-		The damage and knockback chance will scale with your Mindpower.]], "tformat")
-t("Forge Armor", "Forge Armor", "talent name")
+		The damage and knockback chance will scale with your Mindpower.]], [[Libère le soufflet de la forge sur votre environnement, infligeant %0.2f dégâts mentaux, %0.2f dégâts de brûlure, et repoussant vos ennemis dans un cône de rayon %d.
+		Le terrain vide peut être transformé (50%% de chance) pendant %d tours en murs de forge, qui bloquent les mouvements et infligent %0.2f dégâts mentaux et %0.2f dégâts de feu aux ennemis proches.
+		Les dégâts et la chance de repoussage sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Forge Armor", "Armure de Forge", "talent name")
 t([[Your Forge Shield talent now increases your Armour by %d, your Defense by %d, and gives you %0.2f psi when you're hit by a melee or ranged attack.
-		The bonuses will scale with your Mindpower.]], [[Your Forge Shield talent now increases your Armour by %d, your Defense by %d, and gives you %0.2f psi when you're hit by a melee or ranged attack.
-		The bonuses will scale with your Mindpower.]], "tformat")
-t("Dreamforge", "Dreamforge", "talent name")
-t("#GOLD#%s strikes the dreamforge!", "#GOLD#%s strikes the dreamforge!", "logSeen")
-t("#GOLD#%s begins breaking dreams!", "#GOLD#%s begins breaking dreams!", "logSeen")
+		The bonuses will scale with your Mindpower.]], [[Votre talent Bouclier de Forge augmente maintenant votre armure de %d, votre défense de %d et vous donne %0.2f Psi lorsque vous êtes touché par une attaque au corps à corps ou à distance.
+		Les bonus sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Dreamforge", "Forge des Rêves", "talent name")
+t("#GOLD#%s strikes the dreamforge!", "#GOLD#%s frappe la forge des rêves !", "logSeen")
+t("#GOLD#%s begins breaking dreams!", "#GOLD#%s commence à briser des rêves !", "logSeen")
 t([[The pounding forge of thought in your mind is released upon your surroundings.  Each turn that you remain stationary, you'll strike the dreamforge, inflicting mind and burning damage on enemies around you.
 		The effect will build over five turns, until it reaches a maximum radius of %d, maximum mind damage of %0.2f, and maximum burning damage of %0.2f.
 		At this point you'll begin breaking the dreams of enemies who hear the forge, reducing their Mental Save by %d and giving them a %d%% chance of spell failure due to the tremendous echo in their minds for %d turns.
 		Broken Dreams has a %d%% chance to brainlock your enemies.
-		The damage and dream breaking effect will scale with your Mindpower.]], [[The pounding forge of thought in your mind is released upon your surroundings.  Each turn that you remain stationary, you'll strike the dreamforge, inflicting mind and burning damage on enemies around you.
-		The effect will build over five turns, until it reaches a maximum radius of %d, maximum mind damage of %0.2f, and maximum burning damage of %0.2f.
-		At this point you'll begin breaking the dreams of enemies who hear the forge, reducing their Mental Save by %d and giving them a %d%% chance of spell failure due to the tremendous echo in their minds for %d turns.
-		Broken Dreams has a %d%% chance to brainlock your enemies.
-		The damage and dream breaking effect will scale with your Mindpower.]], "tformat")
---]==]
-
+		The damage and dream breaking effect will scale with your Mindpower.]], [[La forge de pensée en ébullition dans votre esprit est libérée sur votre environnement. À chaque tour où vous restez immobile, vous frappez la forge des rêves, infligeant des dégâts mentaux et de brûlure aux ennemis autour de vous.
+		L'effet s'intensifie sur 5 tours, atteignant un rayon maximum de %d, un maximum de %0.2f dégâts mentaux et %0.2f dégâts de brûlure.
+		À ce stade, vous commencez à briser les rêves de tous les ennemis qui entendent la forge, réduisant leur Sauvegarde Mentale de %d et leur imposant %d%% de chance d'échouer le lancement des sorts pendant %d tours, en raison de l'écho puissant qui réverbère dans leurs esprits.
+		Les Rêves Brisés ont %d%% de chance de causer une Paralysie Mentale à vos ennemis.
+		Les dégâts et l'effet de brisure de rêves sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/dream-smith.lua"
 
-t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
--- texte non traduit
---[==[
-t("Dream Smith's Hammer", "Dream Smith's Hammer", "talent name")
+t("Dream Smith's Hammer", "Marteau du Forgeron des Rêves", "talent name")
 t([[Craft a hammer from the dream forge and strike an adjacent foe, inflicting %d%% weapon damage. If the attack hits, it will bring one random Dream Smith talent off cooldown.
 		At talent level 5, you'll bring a second random talent off cooldown.
 		The base power, Accuracy, Armour penetration, and critical strike chance of the weapon will scale with your Mindpower.
 		
 		Current Dream Hammer Stats:
-		%s]], [[Craft a hammer from the dream forge and strike an adjacent foe, inflicting %d%% weapon damage. If the attack hits, it will bring one random Dream Smith talent off cooldown.
-		At talent level 5, you'll bring a second random talent off cooldown.
-		The base power, Accuracy, Armour penetration, and critical strike chance of the weapon will scale with your Mindpower.
+		%s]], [[Forge un marteau avec la forge des rêves et frappe un ennemi adjacent, infligeant %d%% dégâts. Si l'attaque touche, un talent aléatoire du Forgeron des Rêves sort de rechargement.
+		Au niveau 5, vous enlever le rechargement d'un second talent aléatoire.
+		La puissance de base, la Précision, la pénétration d'armure, et la chance de coup critique de l'arme sont proportionnels à votre Puissance Mentale.
 		
-		Current Dream Hammer Stats:
+		Attributs du Marteau des Rêves :
 		%s]], "tformat")
-t("Hammer Toss", "Hammer Toss", "talent name")
-t("Hammer Toss", "Hammer Toss", "_t")
+t("Hammer Toss", "Lancer de Marteau", "talent name")
+t("Hammer Toss", "Lancer de Marteau", "_t")
 t([[Throw your Dream Hammer at a distant location, inflicting %d%% weapon damage on all targets between you and it.  After reaching its destination, the Dream Hammer will return, potentially hitting targets a second time.
-		Learning this talent increases the Accuracy of your Dream Hammer by %d.]], [[Throw your Dream Hammer at a distant location, inflicting %d%% weapon damage on all targets between you and it.  After reaching its destination, the Dream Hammer will return, potentially hitting targets a second time.
-		Learning this talent increases the Accuracy of your Dream Hammer by %d.]], "tformat")
-t("Dream Crusher", "Dream Crusher", "talent name")
+		Learning this talent increases the Accuracy of your Dream Hammer by %d.]], [[Lance le Marteau des Rêves vers un emplacement distant, infligeant %d%% dégâts à toutes les cibles entre vous et lui. Après avoir atteint sa destination, le Marteau des Rêves revient, pouvant toucher les cibles une seconde fois.
+		Apprendre ce talent augmente la Précision de votre Marteau des Rêves de %d.]], "tformat")
+t("Dream Crusher", "Briseur de Rêves", "talent name")
+t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t([[Crush your enemy with your Dream Hammer, inflicting %d%% weapon damage.  If the attack hits, the target is stunned for %d turns.
 		Stun chance improves with your Mindpower.  Learning this talent increases your Physical Power for Dream Hammer damage calculations by %d and all damage with Dream Hammer attacks by %d%%.
-		]], [[Crush your enemy with your Dream Hammer, inflicting %d%% weapon damage.  If the attack hits, the target is stunned for %d turns.
-		Stun chance improves with your Mindpower.  Learning this talent increases your Physical Power for Dream Hammer damage calculations by %d and all damage with Dream Hammer attacks by %d%%.
-		]], "tformat")
-t("Forge Echoes", "Forge Echoes", "talent name")
+		]], [[Écrase votre ennemi avec le Marteau des Rêves, infligeant %d%% dégâts. Si l'attaque touche, la cible est étourdissante pendant %d tours.
+		La chance d'assommer est proportionnel à votre Puissance Mentale.
+		Apprendre ce talent augmente votre Puissance physique de %d pour les calculs de dégâts du Marteau des Rêves et augmente tous les dégâts causés par le Marteau des Rêves de %d%%.]], "tformat")
+t("Forge Echoes", "Échos de Forge", "talent name")
 t([[Strike an adjacent target with a mighty blow from the forge, inflicting %d%% weapon damage.  If the attack hits, the echo of the attack will lash out at all enemies in a %d radius of the impact.
 		Learning this talent adds %0.2f mind damage and %0.2f burning damage to your Dream Hammer strikes.
-		The mind and fire damage will scale with your Mindpower.]], [[Strike an adjacent target with a mighty blow from the forge, inflicting %d%% weapon damage.  If the attack hits, the echo of the attack will lash out at all enemies in a %d radius of the impact.
-		Learning this talent adds %0.2f mind damage and %0.2f burning damage to your Dream Hammer strikes.
-		The mind and fire damage will scale with your Mindpower.]], "tformat")
---]==]
-
+		The mind and fire damage will scale with your Mindpower.]], [[Frappe une cible adjacente avec un puissant coup de forge, infligeant %d%% dégâts. Si l'attaque touche, l'écho de l'attaque touche tous les ennemis dans un rayon de %d de l'impact.
+		Apprendre ce talent ajoute %0.2f dégâts mentaux et %0.2f dégâts de feu aux frappes du Marteau des Rêves.
+		Les dégâts mentaux et de feu sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/dreaming.lua"
 
 t("Sleep", "Sommeil", "talent name")
 t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
--- texte non traduit
---[==[
 t([[Puts targets in a radius of %d to sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		When Sleep ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
 		At talent level 5 Sleep will become contagious and has a 25%% chance to spread to nearby targets each turn.
-		The damage threshold will scale with your Mindpower.]], [[Puts targets in a radius of %d to sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
-		When Sleep ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		At talent level 5 Sleep will become contagious and has a 25%% chance to spread to nearby targets each turn.
-		The damage threshold will scale with your Mindpower.]], "tformat")
-t("Lucid Dreamer", "Lucid Dreamer", "talent name")
+		The damage threshold will scale with your Mindpower.]], [[Endort les cibles dans un rayon de %d pendant %d tours, les rendant incapables d'agir. Chaque %d points de dégâts subis par la cible réduiront la durée de l'effet de 1 tour.
+		Lorsque le Sommeil prend fin, la cible souffre d'Insomnie pendant un nombre de tours égal au temps pendant lequel elle a dormi (jusqu'à 10 tours max), lui accordant %d%% d'immunité au sommeil pour chaque tour d'Insomnie.
+		Au niveau 5, le Sommeil devient contagieux et a 25%% de chance de se propager aux cibles proches à chaque tour.
+		Le seuil de dégâts est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Lucid Dreamer", "Rêveur Lucide", "talent name")
 t([[Slip into a lucid dream.  While in this state, you are considered sleeping, but can still act, are immune to insomnia, inflict %d%% more damage to targets under the effects of Insomnia, and your Physical, Mental, and Spell saves are increased by %d.
 		Note that being asleep may make you more vulnerable to certain effects (such as Inner Demons, Night Terror, and Waking Nightmare).
-		The saving throw bonuses scale with your Mindpower.]], [[Slip into a lucid dream.  While in this state, you are considered sleeping, but can still act, are immune to insomnia, inflict %d%% more damage to targets under the effects of Insomnia, and your Physical, Mental, and Spell saves are increased by %d.
-		Note that being asleep may make you more vulnerable to certain effects (such as Inner Demons, Night Terror, and Waking Nightmare).
-		The saving throw bonuses scale with your Mindpower.]], "tformat")
-t("Dream Walk", "Dream Walk", "talent name")
-t("You may only dream walk to an open space within your line of sight.", "You may only dream walk to an open space within your line of sight.", "logPlayer")
-t("Your dream walk fails!", "Your dream walk fails!", "logSeen")
+		The saving throw bonuses scale with your Mindpower.]], [[Entre dans un rêve lucide. Pendant que vous êtes dans cet état, vous êtes considéré comme endormi, mais pouvez toujours agir, êtes immunisé à l'insomnie, infligez %d%% dégâts en plus aux cibles sous l'effet de l'Insomnie et augmentez vos sauvegardes physique, aux sorts, et mentale de %d.
+		Notez que le fait d'être endormi peut vous rendre plus vulnérable à certains effets (comme Démons Intérieurs, Terreur Nocturne et Cauchemar Éveillé).
+		Les bonus de sauvegarde sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Dream Walk", "Marche des Rêves", "talent name")
+t("You may only dream walk to an open space within your line of sight.", "Vous ne pouvez marcher dans les rêves que vers un espace ouvert dans votre ligne de vue.", "logPlayer")
+t("Your dream walk fails!", "Votre marche des rêves échoue !", "logSeen")
 t([[You move through the dream world, reappearing at a nearby location.
-		If there is a sleeping creature at the target location, you'll appear as close to them as possible, otherwise, you'll appear within %d tiles of your intended destination.]], [[You move through the dream world, reappearing at a nearby location.
-		If there is a sleeping creature at the target location, you'll appear as close to them as possible, otherwise, you'll appear within %d tiles of your intended destination.]], "tformat")
-t("Dream Prison", "Dream Prison", "talent name")
+		If there is a sleeping creature at the target location, you'll appear as close to them as possible, otherwise, you'll appear within %d tiles of your intended destination.]], [[Vous vous déplacez à travers le monde des rêves, réapparaissant dans un emplacement proche.
+		Si une créature endormie se trouve à l'emplacement cible, vous apparaîtrez aussi près qu'elle que possible ; sinon, vous apparaîtrez dans un rayon de %d de votre destination prévue.]], "tformat")
+t("Dream Prison", "Prison des Rêves", "talent name")
 t([[Imprisons all sleeping targets within range in their dream state, effectively extending sleeping effects for as long as Dream Prison is maintainted.
 		This powerful effect constantly drains %0.2f%% of your maximum Psi (excluding this talent) per turn, and is considered a psionic channel; as such it will break if you move.
-		(Note that sleeping effects that happen each turn, such as Nightmare's damage and Sleep's contagion, will cease to function for the duration of the effect.)]], [[Imprisons all sleeping targets within range in their dream state, effectively extending sleeping effects for as long as Dream Prison is maintainted.
-		This powerful effect constantly drains %0.2f%% of your maximum Psi (excluding this talent) per turn, and is considered a psionic channel; as such it will break if you move.
-		(Note that sleeping effects that happen each turn, such as Nightmare's damage and Sleep's contagion, will cease to function for the duration of the effect.)]], "tformat")
---]==]
-
+		(Note that sleeping effects that happen each turn, such as Nightmare's damage and Sleep's contagion, will cease to function for the duration of the effect.)]], [[Emprisonne tous les cibles endormies à portée dans un état de rêve, prolongeant effectivement les effets de sommeil tant que cette compétence est active.
+		Cet effet puissant draine constamment %0.2f%% de votre Psi maximum (excluant ce talent) par tour et est considéré comme une canalisation psionique ; il sera donc interrompu si vous vous déplacez.
+		(Notez que les effets de sommeil qui se produisent à chaque tour, comme les dégâts de Cauchemar et la contagion du Sommeil, cesseront de fonctionner pendant la durée de l'effet).]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/feedback.lua"
 
+t("Biofeedback", "Biorétroaction", "talent name")
+t([[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
+		The healing effect improves with your Willpower.]], [[Votre décroissance de Rétroaction vous soigne maintenant de %0.1f fois la perte, et le taux de décroissance est réduit à %d%% du taux normal (jusqu'à %0.1f%% par tour). En conséquence, vous êtes soigné de %0.2f%% de votre réserve de Rétroaction à chaque tour.
+		L'effet de soin est proportionnel à votre Volonté.]], "tformat")
 t("Resonance Field", "Champ de Résonance", "talent name")
+t([[Activate to create a resonance field that will absorb 50%% of all damage you take (%d max absorption).  The field will not interfere with Feedback gain.
+		The max absorption value will scale with your Mindpower, and the effect lasts up to ten turns.]], [[Crée un champ de résonance qui absorbe 50%% de tous les dégâts reçus (%d d'absorption maximale). Le champ n'interfère pas avec le gain de Rétroaction.
+		La valeur maximale d'absorption est proportionnel à votre Puissance Mentale, et l'effet dure jusqu'à 10 tours.]], "tformat")
+t([[Increases your maximum Feedback by %d, and increases your base Feedback gain ratio to %d%%.
+		The Feedback gain will scale with your Mindpower.]], [[Augmente votre Rétroaction maximale de %d et augmente votre taux de gain de Rétroaction de base à %d%%.
+		Le gain de Rétroaction est proportionnel à votre Puissance Mentale.]], "tformat")
+t([[Increases your maximum Feedback by %d, and increases the Feedback you gain from damage by %0.1f%% (to %0.1f%% of damage received).
+		The Feedback gain will scale with your Mindpower.]], [[Augmente votre Rétroaction maximale de %d et augmente la Rétroaction que vous recevez par dégât de %0.1f%% (soit jusqu'à %0.1f%% des dégâts reçus).
+		Le gain de Rétroaction est proportionnel à votre Puissance Mentale.]], "tformat")
+t([[Use Feedback to replenish yourself.  This heals you for %d life, and restores %d stamina, %d mana, %d equilibrium, %d vim, %d positive and negative energies, %d psi energy, and %d hate.
+		The heal and resource gain will improve with your Mindpower.]], [[Utilise la Rétroaction pour vous réapprovisionner, vous soignant de %d vie et restaurant %d d'endurance, %d de mana, %d d'équilibre, %d de vitae, %d d'énergies positives et négatives, %d de Psi et %d de haine.
+		Le soin et le gain de ressources sont proportionnels à votre Puissance Mentale.]], "tformat")
 -- texte non traduit
 --[==[
-t("Biofeedback", "Biofeedback", "talent name")
-t([[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
-		The healing effect improves with your Willpower.]], [[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
-		The healing effect improves with your Willpower.]], "tformat")
-t([[Activate to create a resonance field that will absorb 50%% of all damage you take (%d max absorption).  The field will not interfere with Feedback gain.
-		The max absorption value will scale with your Mindpower, and the effect lasts up to ten turns.]], [[Activate to create a resonance field that will absorb 50%% of all damage you take (%d max absorption).  The field will not interfere with Feedback gain.
-		The max absorption value will scale with your Mindpower, and the effect lasts up to ten turns.]], "tformat")
 t("Amplification", "Amplification", "talent name")
-t([[Increases your maximum Feedback by %d, and increases your base Feedback gain ratio to %d%%.
-		The Feedback gain will scale with your Mindpower.]], [[Increases your maximum Feedback by %d, and increases your base Feedback gain ratio to %d%%.
-		The Feedback gain will scale with your Mindpower.]], "tformat")
-t([[Increases your maximum Feedback by %d, and increases the Feedback you gain from damage by %0.1f%% (to %0.1f%% of damage received).
-		The Feedback gain will scale with your Mindpower.]], [[Increases your maximum Feedback by %d, and increases the Feedback you gain from damage by %0.1f%% (to %0.1f%% of damage received).
-		The Feedback gain will scale with your Mindpower.]], "tformat")
 t("Conversion", "Conversion", "talent name")
-t([[Use Feedback to replenish yourself.  This heals you for %d life, and restores %d stamina, %d mana, %d equilibrium, %d vim, %d positive and negative energies, %d psi energy, and %d hate.
-		The heal and resource gain will improve with your Mindpower.]], [[Use Feedback to replenish yourself.  This heals you for %d life, and restores %d stamina, %d mana, %d equilibrium, %d vim, %d positive and negative energies, %d psi energy, and %d hate.
-		The heal and resource gain will improve with your Mindpower.]], "tformat")
 --]==]
 
 
@@ -25648,32 +25629,32 @@ t([[A life of the mind has had predictably good effects on your Willpower and Cu
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/mentalism.lua"
 
-t("Mind Link", "Esprit Lié", "talent name")
--- texte non traduit
---[==[
-t("Psychometry", "Psychometry", "talent name")
+t("Psychometry", "Psychométrie", "talent name")
 t([[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
 		This effect stacks and applies for each qualifying object worn.
-		Current bonus: %d]], [[Resonate with psionic, nature, and anti-magic powered objects you wear, increasing your physical and mind power by %0.1f or %d%% of the object's material level (whichever is lower).
-		This effect stacks and applies for each qualifying object worn.
-		Current bonus: %d]], "tformat")
-t("Mental Shielding", "Mental Shielding", "talent name")
-t("%s's mind is clear!", "%s's mind is clear!", "logSeen")
-t("Clears your mind of current mental effects, and blocks additional ones over 6 turns.  At most, %d mental effects will be affected.", "Clears your mind of current mental effects, and blocks additional ones over 6 turns.  At most, %d mental effects will be affected.", "tformat")
-t("Projection", "Projection", "talent name")
-t("Not enough space to invoke your spirit!", "Not enough space to invoke your spirit!", "logPlayer")
-t("Projection of %s", "Projection of %s", "tformat")
-t("A ghostly figure.", "A ghostly figure.", "_t")
+		Current bonus: %d]], [[Résonne avec les objets psioniques, naturels, et anti-magique équipés, augmentant votre puissance physique et mentale de %0.1f ou %d%% du niveau de matériau de l'objet (selon ce qui est le plus faible).
+		Cet effet s'accumule et s'applique à chaque objet qualifié équipé.
+		Bonus actuel : %d]], "tformat")
+t("Mental Shielding", "Bouclier Mental", "talent name")
+t("%s's mind is clear!", "%s libère son esprit !", "logSeen")
+t("Clears your mind of current mental effects, and blocks additional ones over 6 turns.  At most, %d mental effects will be affected.", "Libère l'esprit des effets mentaux actuels et en bloque de nouveaux pendant 6 tours, jusqu'à un maximum de %d effet(s).", "tformat")
+t("Not enough space to invoke your spirit!", "Pas assez d'espace pour invoquer votre esprit !", "logPlayer")
+t("Projection of %s", "projection de %s", "tformat")
+t("A ghostly figure.", "Une figure fantomatique.", "_t")
 t([[Activate to project your mind from your body for %d turns.  In this state you're invisible (+%d power), can see invisible and stealthed creatures (+%d detection power), can move through walls, and do not need air to survive.
 		All damage you suffer is shared with your physical body, and while in this form you may only deal damage to 'ghosts' or through an active mind link (mind damage only in the second case.)
-		To return to your body, simply release control of the projection.]], [[Activate to project your mind from your body for %d turns.  In this state you're invisible (+%d power), can see invisible and stealthed creatures (+%d detection power), can move through walls, and do not need air to survive.
-		All damage you suffer is shared with your physical body, and while in this form you may only deal damage to 'ghosts' or through an active mind link (mind damage only in the second case.)
-		To return to your body, simply release control of the projection.]], "tformat")
+		To return to your body, simply release control of the projection.]], [[Vous projetez votre esprit hors de votre corps pendant %d tours. Dans cet état, vous êtes invisible (+%d de puissance), pouvez voir les créatures invisibles et furtives (+%d de puissance de détection), pouvez traverser les murs et n'avez pas besoin d'air pour survivre.
+		Tous les dégâts subis sont partagés avec votre corps physique et, pendant cette forme, vous ne pouvez causer des dégâts qu'aux 'fantômes' ou via un lien mental actif (dégâts mentaux seulement dans le second cas).
+		Pour retourner à votre corps, libérez simplement le contrôle de la projection.]], "tformat")
+t("Mind Link", "Lien Mental", "talent name")
 t([[Link minds with the target.  While your minds are linked, you'll inflict %d%% more mind damage to the target and gain telepathy for its creature type.
 		Only one mindlink can be maintained at a time, and the effect will break if the target dies or goes beyond range (%d)).
-		The mind damage bonus will scale with your Mindpower.]], [[Link minds with the target.  While your minds are linked, you'll inflict %d%% more mind damage to the target and gain telepathy for its creature type.
-		Only one mindlink can be maintained at a time, and the effect will break if the target dies or goes beyond range (%d)).
-		The mind damage bonus will scale with your Mindpower.]], "tformat")
+		The mind damage bonus will scale with your Mindpower.]], [[Lie votre esprit à celui de la cible. Pendant que vos esprits sont liés, vous infligez %d%% de dégâts mentaux supplémentaires à la cible et obtenez la télépathie pour son type de créature.
+		Un seul lien mental peut être maintenu à la fois, et l'effet sera interrompu si la cible meurt ou sort d'un rayon de %d.
+		Le bonus de dégâts mentaux est proportionnel à votre Puissance Mentale.]], "tformat")
+-- texte non traduit
+--[==[
+t("Projection", "Projection", "talent name")
 --]==]
 
 
@@ -25681,44 +25662,40 @@ t([[Link minds with the target.  While your minds are linked, you'll inflict %d%
 section "mod-tome/data/talents/psionic/nightmare.lua"
 
 t("Nightmare", "Cauchemar", "talent name")
-t("Inner Demons", "Démons Intérieurs", "talent name")
-t("Waking Nightmare", "Cauchemar Eveillé", "talent name")
-t("terror", "terreur", "_t")
-t("A formless terror that seems to cut through the air, and its victims, like a knife.", "Une terreur informe qui semble fendre l'air et ses victimes comme un couteau.", "_t")
--- texte non traduit
---[==[
-t("%s resists the nightmare!", "%s resists the nightmare!", "logSeen")
+t("%s resists the nightmare!", "%s résiste au cauchemar !", "logSeen")
 t([[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
 		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		The damage threshold and darkness damage will scale with your Mindpower.]], [[Puts targets in a radius %d cone into a nightmarish sleep for %d turns, rendering them unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
-		Each turn, they'll suffer %0.2f darkness damage.  This damage will not reduce the duration of the effect.
-		When Nightmare ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		The damage threshold and darkness damage will scale with your Mindpower.]], "tformat")
-t("%s's Inner Demon", "%s's Inner Demon", "tformat")
-t("A hideous, demonic entity that resembles the creature it came from.", "A hideous, demonic entity that resembles the creature it came from.", "_t")
-t("#F53CBE#%s's Inner Demon manifests!", "#F53CBE#%s's Inner Demon manifests!", "logSeen")
-t("You can't cast this on friendly targets.", "You can't cast this on friendly targets.", "logPlayer")
-t("%s resists the demons!", "%s resists the demons!", "logSeen")
+		The damage threshold and darkness damage will scale with your Mindpower.]], [[Plonge les cibles dans un cône de rayon %d dans un cauchemar pendant %d tours, les rendant incapables d'agir. Chaque %d dégâts subis par la cible réduiront la durée de l'effet de 1 tour.
+		À chaque tour, elles subissent %0.2f dégâts d'Obscurité. Ces dégâts ne réduiront pas la durée de l'effet.
+		Lorsque l'effet prend fin, la cible souffre d'Insomnie pendant un nombre de tours égal au temps pendant lequel elle a dormi (jusqu'à 10 tours max), lui accordant %d%% d'immunité au sommeil pour chaque tour d'Insomnie.
+		Le seuil de dégâts et les dégâts d'Obscurité sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Inner Demons", "Démons Intérieurs", "talent name")
+t("%s's Inner Demon", "démon intérieur de %s", "tformat")
+t("A hideous, demonic entity that resembles the creature it came from.", "Une entité démoniaque hideuse qui ressemble à la créature dont elle est issue.", "_t")
+t("#F53CBE#%s's Inner Demon manifests!", "#F53CBE#%s manifeste son Démon Intérieur !", "logSeen")
+t("You can't cast this on friendly targets.", "Vous ne pouvez pas lancer cela sur des cibles alliées.", "logPlayer")
+t("%s resists the demons!", "%s résiste aux démons !", "logSeen")
 t([[Brings the target's inner demons to the surface.  Each turn, for %d turns, there's a %d%% chance that a demon will surface, requiring the target to make a Mental Save to keep it from manifesting.
 		If the target is sleeping, the chance to save will be halved, and fear immunity will be ignored.  Otherwise, if the summoning is resisted, the effect will end early.
 		The summon chance will scale with your Mindpower and the demon's life will scale with the target's rank.
-		If a demon manifests the sheer terror will remove all sleep effects from the victim, but not the Inner Demons.]], [[Brings the target's inner demons to the surface.  Each turn, for %d turns, there's a %d%% chance that a demon will surface, requiring the target to make a Mental Save to keep it from manifesting.
-		If the target is sleeping, the chance to save will be halved, and fear immunity will be ignored.  Otherwise, if the summoning is resisted, the effect will end early.
-		The summon chance will scale with your Mindpower and the demon's life will scale with the target's rank.
-		If a demon manifests the sheer terror will remove all sleep effects from the victim, but not the Inner Demons.]], "tformat")
+		If a demon manifests the sheer terror will remove all sleep effects from the victim, but not the Inner Demons.]], [[Fait émerger les démons intérieurs de la cible. À chaque tour, pendant %d tours, il y a %d%% de chance qu'un démon émerge, exigeant que la cible effectue une Sauvegarde Mentale pour empêcher sa manifestation.
+		Si la cible est endormie, la chance de sauvegarde sera réduite de moitié et l'immunité à la peur sera ignorée. Sinon, si l'invocation est résistée, l'effet prendra fin prématurément.
+		La chance d'invocation est proportionnel à votre Puissance Mentale et la vie du démon est proportionnel à le rang de la cible.
+		Si un démon se manifeste, la terreur absolue supprimera tous les effets de sommeil de la victime, mais pas les Démons Intérieurs.]], "tformat")
+t("Waking Nightmare", "Cauchemar Éveillé", "talent name")
 t([[Inflicts %0.2f darkness damage each turn for %d turns, and has a %d%% chance to randomly cause blindness, stun, or confusion (lasting 3 turns).
 		If the target is sleeping, the chance of avoiding a negative effect will be halved and fear immunity will be ignored.
-		The damage will scale with your Mindpower.]], [[Inflicts %0.2f darkness damage each turn for %d turns, and has a %d%% chance to randomly cause blindness, stun, or confusion (lasting 3 turns).
-		If the target is sleeping, the chance of avoiding a negative effect will be halved and fear immunity will be ignored.
-		The damage will scale with your Mindpower.]], "tformat")
-t("Night Terror", "Night Terror", "talent name")
-t("Night Terror", "Night Terror", "_t")
+		The damage will scale with your Mindpower.]], [[Inflige %0.2f dégâts d'Obscurité à chaque tour pendant %d tours et a %d%% de chance de causer aléatoirement la cécité, l'étourdissement ou la confusion (durant 3 tours).
+		Si la cible est endormie, la chance d'éviter un effet négatif sera réduite de moitié et l'immunité à la peur sera ignorée.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Night Terror", "Terreur Nocturne", "talent name")
+t("terror", "terreur", "_t")
+t("A formless terror that seems to cut through the air, and its victims, like a knife.", "Une terreur sans forme qui semble couper l'air et ses victimes comme un couteau.", "_t")
+t("Night Terror", "Terreur Nocturne", "_t")
 t([[Increases your damage and resistance penetration on sleeping targets by %d%%.  Additionally, every time you slay a sleeping target, a Night Terror will be summoned for %d turns.
-		The Night Terror's stats will scale with your Mindpower, as will the damage bonus to sleeping targets.]], [[Increases your damage and resistance penetration on sleeping targets by %d%%.  Additionally, every time you slay a sleeping target, a Night Terror will be summoned for %d turns.
-		The Night Terror's stats will scale with your Mindpower, as will the damage bonus to sleeping targets.]], "tformat")
---]==]
-
+		The Night Terror's stats will scale with your Mindpower, as will the damage bonus to sleeping targets.]], [[Augmente vos dégâts et votre pénétration de résistance sur les cibles endormies de %d%%. De plus, chaque fois que vous tuez une cible endormie, une Terreur Nocturne sera invoquée pendant %d tours.
+		Les attributs de la Terreur Nocturne sont proportionnels à votre Puissance Mentale, tout comme le bonus de dégâts sur les cibles endormies.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/other.lua"
@@ -25950,19 +25927,19 @@ t("discharge", "décharge", "talent type")
 t("Project feedback on the world around you.", "Projetez de la Rétroaction sur le monde qui vous entoure.", "_t")
 t("distortion", "distorsion", "talent type")
 t("Distort reality with your mental energy.", "Distordez la réalité avec votre énergie mentale.", "_t")
-t("Dream Smith", "forgeron des rêves", "talent type")
+t("Dream Smith", "Forgeron des Rêves", "talent type")
 t("Call the dream-forge hammer to smite your foes.", "Invoquez le marteau de la forge des rêves pour frapper vos ennemis.", "_t")
 t("nightmare", "cauchemar", "talent type")
 t("Manifest your enemies nightmares.", "Manifestez les cauchemars de vos ennemis.", "_t")
-t("Psychic Assault", "assaut psychique", "talent type")
+t("Psychic Assault", "Assaut Psychique", "talent type")
 t("Directly attack your opponents minds.", "Attaquez directement l'esprit de vos adversaires.", "_t")
 t("slumber", "sommeil", "talent type")
 t("Force enemies into a deep sleep.", "Forcez les ennemis dans un sommeil profond.", "_t")
 t("solipsism", "solipsisme", "talent type")
 t("Nothing exists outside the minds ability to perceive it.", "Rien n'existe en dehors de la capacité de l'esprit à le percevoir.", "_t")
-t("Thought-Forms", "formes de pensée", "talent type")
+t("Thought-Forms", "Formes de Pensée", "talent type")
 t("Manifest your thoughts as psionic summons.", "Manifestez vos pensées comme invocations psioniques.", "_t")
-t("Dream Forge", "forge des rêves", "talent type")
+t("Dream Forge", "Forge des Rêves", "talent type")
 t("Master the dream forge to create powerful armor and effects.", "Maîtrisez la forge des rêves pour créer des armures et effets puissants.", "_t")
 t("dreaming", "rêve", "talent type")
 t("Manipulate the sleep cycles of yourself and your enemies.", "Manipulez le cycle de sommeil de vous-même et de vos ennemis.", "_t")
@@ -25982,108 +25959,96 @@ t("projection", "projection", "talent type")
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/psychic-assault.lua"
 
-
--- texte non traduit
---[==[
-t("Mind Sear", "Mind Sear", "talent name")
+t("Mind Sear", "Brûlure Mentale", "talent name")
 t([[Sends a telepathic attack, trying to destroy the brains of any target in the beam, doing %0.2f mind damage.
-		The damage will increase with your Mindpower.]], [[Sends a telepathic attack, trying to destroy the brains of any target in the beam, doing %0.2f mind damage.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Psychic Lobotomy", "Psychic Lobotomy", "talent name")
-t("%s resists the lobotomy!", "%s resists the lobotomy!", "logSeen")
+		The damage will increase with your Mindpower.]], [[Envoie une attaque télépathique pour détruire le cerveau de toute cible dans le faisceau, infligeant %0.2f dégâts mentaux.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Psychic Lobotomy", "Lobotomie Psychique", "talent name")
+t("%s resists the lobotomy!", "%s résiste à la lobotomie !", "logSeen")
 t([[Inflicts %0.2f mind damage and cripples the target's higher mental functions, reducing cunning by %d and confusing (%d%% power) the target for %d turns.
-		The damage, cunning penalty, and confusion power will scale with your Mindpower.]], [[Inflicts %0.2f mind damage and cripples the target's higher mental functions, reducing cunning by %d and confusing (%d%% power) the target for %d turns.
-		The damage, cunning penalty, and confusion power will scale with your Mindpower.]], "tformat")
-t("Synaptic Static", "Synaptic Static", "talent name")
+		The damage, cunning penalty, and confusion power will scale with your Mindpower.]], [[Inflige %0.2f dégâts mentaux et handicape les fonctions mentales supérieures de la cible, réduisant la Ruse de %d et confusionnant (%d%% de puissance) la cible pendant %d tours.
+		Les dégâts, la pénalité de Ruse et la puissance de confusion sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Synaptic Static", "Statique Synaptique", "talent name")
 t([[Sends out a blast of telepathic static in a %d radius, inflicting %0.2f mind damage.  This attack can brainlock affected targets.
-		The damage will increase with your Mindpower.]], [[Sends out a blast of telepathic static in a %d radius, inflicting %0.2f mind damage.  This attack can brainlock affected targets.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Sunder Mind", "Sunder Mind", "talent name")
+		The damage will increase with your Mindpower.]], [[Envoie une explosion de statique télépathique dans un rayon de %d, infligeant %0.2f dégâts mentaux. Cette attaque peut causer une Paralysie Mentale aux cibles affectées.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Sunder Mind", "Briser l'Esprit", "talent name")
 t([[Cripples the target's mind, inflicting %0.2f mind damage and reducing its Mental Save by %d for 4 turns.  This attack always hits, and the mental save reduction stacks.
 		Against brainlocked targets, the damage and Mental Save reduction will be doubled.
-		The damage and save reduction will scale with your Mindpower.]], [[Cripples the target's mind, inflicting %0.2f mind damage and reducing its Mental Save by %d for 4 turns.  This attack always hits, and the mental save reduction stacks.
-		Against brainlocked targets, the damage and Mental Save reduction will be doubled.
-		The damage and save reduction will scale with your Mindpower.]], "tformat")
---]==]
-
+		The damage and save reduction will scale with your Mindpower.]], [[Brise l'esprit de la cible, infligeant %0.2f dégâts mentaux et réduisant sa Sauvegarde mentale de %d pendant 4 tours. Cette attaque touche toujours et la réduction de Sauvegarde mentale s'accumule.
+		Contre les cibles en paralysie mentale, les dégâts et la réduction de Sauvegarde Mentale seront doublés.
+		Les dégâts et la réduction de sauvegarde sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/slumber.lua"
 
 t("Slumber", "Torpeur", "talent name")
 t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
-t("Restless Night", "Nuit Agitée", "talent name")
-t("Dreamscape", "Monde Onirique", "talent name")
-t("This talent cannot be used here.", "Ce talent ne peut pas être utilisé ici.", "logPlayer")
-t("The spell fizzles...", "Le sort échoue...", "logPlayer")
--- texte non traduit
---[==[
 t([[Puts the target into a deep sleep for %d turns, rendering it unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
 		When Slumber ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		The damage threshold will scale with your Mindpower.]], [[Puts the target into a deep sleep for %d turns, rendering it unable to act.  Every %d points of damage the target suffers will reduce the effect duration by one turn.
-		When Slumber ends, the target will suffer from Insomnia for a number of turns equal to the amount of time it was asleep (up to ten turns max), granting it %d%% sleep immunity for each turn of the Insomnia effect.
-		The damage threshold will scale with your Mindpower.]], "tformat")
+		The damage threshold will scale with your Mindpower.]], [[Plonge la cible dans un sommeil profond pendant %d tours, la rendant incapable d'agir. Chaque %d dégâts subis par la cible réduiront la durée de l'effet de 1 tour.
+		Lorsque la Torpeur prend fin, la cible souffre d'Insomnie pendant un nombre de tours égal au temps pendant lequel elle a dormi (jusqu'à 10 tours max), lui accordant %d%% d'immunité au sommeil pour chaque tour d'Insomnie.
+		Le seuil de dégâts est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Restless Night", "Nuit Agitée", "talent name")
 t([[Targets you have slept take %0.2f mind damage each turn for five turns upon waking.
-		The damage will scale with your Mindpower.]], [[Targets you have slept take %0.2f mind damage each turn for five turns upon waking.
-		The damage will scale with your Mindpower.]], "tformat")
-t("Sandman", "Sandman", "talent name")
+		The damage will scale with your Mindpower.]], [[Les cibles que vous avez endormies subissent %0.2f dégâts mentaux à chaque tour pendant 5 tours à leur réveil.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Sandman", "Marchand de Sable", "talent name")
 t([[Increases the amount of damage you can deal to sleeping targets before reducing the effect duration by %d%%, and reduces the sleep immunity of your Insomnia effects by %d%%.
 		These effects will be directly reflected in the appropriate talent descriptions.
-		The damage threshold bonus will scale with your Mindpower.]], [[Increases the amount of damage you can deal to sleeping targets before reducing the effect duration by %d%%, and reduces the sleep immunity of your Insomnia effects by %d%%.
-		These effects will be directly reflected in the appropriate talent descriptions.
-		The damage threshold bonus will scale with your Mindpower.]], "tformat")
-t("You feel it unwise to travel to the dreamscape in such a fragile form.", "You feel it unwise to travel to the dreamscape in such a fragile form.", "logPlayer")
-t("This talent cannot be used from within the Dreamscape.", "This talent cannot be used from within the Dreamscape.", "logPlayer")
-t("Your target must be sleeping in order to enter its dreamscape.", "Your target must be sleeping in order to enter its dreamscape.", "logPlayer")
-t("You can't cast this on friendly targets.", "You can't cast this on friendly targets.", "logPlayer")
-t("#LIGHT_BLUE#You are taken to the Dreamscape!", "#LIGHT_BLUE#You are taken to the Dreamscape!", "logPlayer")
+		The damage threshold bonus will scale with your Mindpower.]], [[Augmente la quantité de dégâts que vous pouvez infliger aux cibles endormies avant de réduire la durée de l'effet de %d%%, et réduit l'immunité au sommeil de vos effets d'Insomnie de %d%%.
+		Ces effets seront directement reflétés dans les descriptions des talents appropriés.
+		Le bonus de seuil de dégâts est proportionnel à votre Puissance Mentale.]], "tformat")
+t("Dreamscape", "Monde Onirique", "talent name")
+t("You feel it unwise to travel to the dreamscape in such a fragile form.", "Vous jugez imprudent de voyager dans le Monde Onirique sous une forme aussi fragile.", "logPlayer")
+t("This talent cannot be used from within the Dreamscape.", "Ce talent ne peut pas être utilisé depuis l'intérieur du Monde Onirique.", "logPlayer")
+t("This talent cannot be used here.", "Ce talent ne peut pas être utilisé ici.", "logPlayer")
+t("The spell fizzles...", "Le sort échoue...", "logPlayer")
+t("Your target must be sleeping in order to enter its dreamscape.", "Votre cible doit être endormie pour entrer dans son Monde Onirique.", "logPlayer")
+t("You can't cast this on friendly targets.", "Vous ne pouvez pas lancer cela sur des cibles alliées.", "logPlayer")
+t("#LIGHT_BLUE#You are taken to the Dreamscape!", "#LIGHT_BLUE#Vous êtes emmené dans le Monde Onirique !", "logPlayer")
 t([[Enter a sleeping target's dreams for %d turns.  While in the Dreamscape, you'll encounter the target's invulnerable sleeping form as well as dream projections that it will spawn every other turn to defend its mind.
 		Projections inflict 50%% less damage than the original, unless the target has Lucid Dreamer active.
 		When the Dreamscape ends, for each projection destroyed, the target's life will be reduced by 10%% and it will be brainlocked for one turn.
 		In the Dreamscape, your damage will be improved by %d%%.
-		The damage bonus will improve with your Mindpower.]], [[Enter a sleeping target's dreams for %d turns.  While in the Dreamscape, you'll encounter the target's invulnerable sleeping form as well as dream projections that it will spawn every other turn to defend its mind.
-		Projections inflict 50%% less damage than the original, unless the target has Lucid Dreamer active.
-		When the Dreamscape ends, for each projection destroyed, the target's life will be reduced by 10%% and it will be brainlocked for one turn.
-		In the Dreamscape, your damage will be improved by %d%%.
-		The damage bonus will improve with your Mindpower.]], "tformat")
---]==]
-
+		The damage bonus will improve with your Mindpower.]], [[Entre dans les rêves d'une cible endormie pendant %d tours. Dans le Monde Onirique, vous rencontrerez la forme endormie invulnérable de la cible ainsi que des projections de rêves qu'elle générera tous les deux tours pour défendre son esprit.
+		Les projections infligent 50%% de dégâts en moins que l'original, sauf si la cible a le talent Rêveur Lucide actif.
+		Lorsque le Monde Onirique prend fin, pour chaque projection détruite, la vie de la cible sera réduite de 10%% et elle subira une paralysie mentale pendant 1 tour.
+		Dans le Monde Onirique, vos dégâts sont augmentés de %d%%.
+		Le bonus de dégâts est proportionnel à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/solipsism.lua"
 
 t("Solipsism", "Solipsisme", "talent name")
-t("Clarity", "Clarté", "talent name")
--- texte non traduit
---[==[
 t([[You believe that your mind is the center of everything.  Permanently increases the amount of psi you gain per level by 5 and reduces your life rating (affects life at level up) by 50%% (one time only adjustment).
 		You also have learned to overcome damage with your mind alone, and convert %d%% of all damage you receive into Psi damage and %d%% of your healing and life regen now recovers Psi instead of life.
 		Converted Psi damage you take will be further reduced by %0.1f%% (%0.1f%% from character level with the remainder further reduced by %0.1f%% from talent level).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[You believe that your mind is the center of everything.  Permanently increases the amount of psi you gain per level by 5 and reduces your life rating (affects life at level up) by 50%% (one time only adjustment).
-		You also have learned to overcome damage with your mind alone, and convert %d%% of all damage you receive into Psi damage and %d%% of your healing and life regen now recovers Psi instead of life.
-		Converted Psi damage you take will be further reduced by %0.1f%% (%0.1f%% from character level with the remainder further reduced by %0.1f%% from talent level).
-		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], "tformat")
-t("Balance", "Balance", "talent name")
+		The first talent point also increases your solipsism threshold by 20%% (currently %d%%), reducing your global speed by 1%% for each percentage your current Psi falls below this threshold.]], [[Vous croyez que votre esprit est le centre de tout. Augmente en permanence la quantité de Psi gagnée par niveau de 5 et réduit votre coefficient de vie (affecte la vie lors d'un passage de niveau) de 50%% (ajustement unique).
+		Vous avez également appris à surmonter les dégâts rien qu'avec votre esprit et convertissez %d%% de tous les dégâts reçus en dégâts de Psi, et %d%% de vos soins et régénération de vie récupèrent maintenant du Psi au lieu de la vie.
+		Les dégâts de Psi convertis que vous subissez sont encore réduits de %0.1f%% (%0.1f%% du niveau du personnage et le reste est réduit de %0.1f%% du niveau du talent).
+		Le premier point de talent investi augmente également la quantité de Psi gagnée de la Volonté de 0.5, mais réduit la quantité de vie gagnée de la Constitution de 0.25.
+		Le premier point de talent augmente également votre seuil de solipsisme de 20%% (actuellement %d%%), réduisant votre vitesse globale de 1%% pour chaque pourcentage en dessous de ce seuil.]], "tformat")
+t("Balance", "Équilibre", "talent name")
 t([[You now substitute %d%% of your Mental Save for %d%% of your Physical and Spell Saves throws (so at 100%%, you would effectively use mental save for all saving throw rolls).
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		Learning this talent also increases your solipsism threshold by 10%% (currently %d%%).]], [[You now substitute %d%% of your Mental Save for %d%% of your Physical and Spell Saves throws (so at 100%%, you would effectively use mental save for all saving throw rolls).
-		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		Learning this talent also increases your solipsism threshold by 10%% (currently %d%%).]], "tformat")
+		Learning this talent also increases your solipsism threshold by 10%% (currently %d%%).]], [[Vous substituez désormais %d%% de votre Sauvegarde mentale à %d%% de vos Sauvegardes physique et contre les Sorts (donc à 100%%, vous utiliseriez uniquement la Sauvegarde Mentale pour tous les tests).
+		Le premier point de talent investi augmente également la quantité de Psi gagnée de la Volonté de 0.5, mais réduit la quantité de vie gagnée de la Constitution de 0.25.
+		Apprendre ce talent augmente également votre seuil de solipsisme de 10%% (actuellement %d%%).]], "tformat")
+t("Clarity", "Clarté", "talent name")
 t([[For every percent that your Psi pool exceeds %d%%, you gain 1%% global speed (up to a maximum of %+d%%).
-		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25 and will increase your solipsism threshold by 10%% (currently %d%%).]], [[For every percent that your Psi pool exceeds %d%%, you gain 1%% global speed (up to a maximum of %+d%%).
-		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25 and will increase your solipsism threshold by 10%% (currently %d%%).]], "tformat")
-t("Dismissal", "Dismissal", "talent name")
-t("#TAN##Source# mentally dismisses some damage!", "#TAN##Source# mentally dismisses some damage!", "delayedLogMessage")
-t("#TAN#(%d dismissed)#LAST#", "#TAN#(%d dismissed)#LAST#", "tformat")
+		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25 and will increase your solipsism threshold by 10%% (currently %d%%).]], [[Pour chaque pourcentage que votre réserve de Psi dépasse %d%%, vous gagnez 1%% de vitesse globale (jusqu'à un maximum de %+d%%).
+		Le premier point de talent investi augmente également la quantité de Psi gagnée de la Volonté de 0.5, mais réduit la quantité de vie gagnée de la Constitution de 0.25.
+		Le premier point de talent augmente également votre seuil de solipsisme de 10%% (actuellement %d%%).]], "tformat")
+t("Dismissal", "Rejet", "talent name")
+t("#TAN##Source# mentally dismisses some damage!", "#TAN##Source# rejette mentalement une partie des dégâts !", "delayedLogMessage")
+t("#TAN#(%d dismissed)#LAST#", "#TAN#(%d rejeté)#LAST#", "tformat")
 t([[Each time you take damage, you roll %d%% of your mental save against it.  A successful saving throw can crit and will reduce the damage by at least 50%%.
 		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		The first talent point also increases your solipsism threshold by 10%% (currently %d%%).]], [[Each time you take damage, you roll %d%% of your mental save against it.  A successful saving throw can crit and will reduce the damage by at least 50%%.
-		The first talent point invested will also increase the amount of Psi you gain from Willpower by 0.5, but reduce the amount of life you gain from Constitution by 0.25.
-		The first talent point also increases your solipsism threshold by 10%% (currently %d%%).]], "tformat")
---]==]
-
+		The first talent point also increases your solipsism threshold by 10%% (currently %d%%).]], [[Chaque fois que vous subissez des dégâts, vous testez %d%% de votre Sauvegarde Mentale contre eux. Un test de sauvegarde réussi peut être critique et réduira les dégâts d'au moins 50%%.
+		Le premier point de talent investi augmente également la quantité de Psi gagnée de la Volonté de 0.5, mais réduit la quantité de vie gagnée de la Constitution de 0.25.
+		Le premier point de talent augmente également votre seuil de solipsisme de 10%% (actuellement %d%%).]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/telekinetic-combat.lua"
@@ -26149,59 +26114,60 @@ t([[You seek balance between fire and cold based on your current Psi level.
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/thought-forms.lua"
 
+t("thought-form", "forme de Pensée", "_t")
+t("Thought-Form: Bowman", "Forme de Pensée : Archer", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("Thought-Forms", "formes de pensée", "talent name")
--- texte non traduit
---[==[
-t("thought-form", "thought-form", "_t")
-t("Thought-Form: Bowman", "Thought-Form: Bowman", "talent name")
-t("thought-forged bowman", "thought-forged bowman", "_t")
-t("A thought-forged bowman.  It appears ready for battle.", "A thought-forged bowman.  It appears ready for battle.", "_t")
+t("thought-forged bowman", "archer forgé par la pensée", "_t")
+t("A thought-forged bowman.  It appears ready for battle.", "Un archer forgé par la pensée. Il semble prêt pour la bataille.", "_t")
 t([[Forge a bowman, clad in leather armor, from your thoughts.  The bowman learns Bow Mastery, Combat Accuracy, Steady Shot, Crippling Shot, and Rapid Shot as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
 		Activating this talent will put all other thought-forms on cooldown.
-		The stat bonuses will improve with your Mindpower.]], [[Forge a bowman, clad in leather armor, from your thoughts.  The bowman learns Bow Mastery, Combat Accuracy, Steady Shot, Crippling Shot, and Rapid Shot as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
-		Activating this talent will put all other thought-forms on cooldown.
-		The stat bonuses will improve with your Mindpower.]], "tformat")
-t("Thought-Form: Warrior", "Thought-Form: Warrior", "talent name")
-t("thought-forged warrior", "thought-forged warrior", "_t")
-t("A thought-forged warrior wielding a massive battle-axe and clad in heavy armor.  It appears ready for battle.", "A thought-forged warrior wielding a massive battle-axe and clad in heavy armor.  It appears ready for battle.", "_t")
+		The stat bonuses will improve with your Mindpower.]], [[Forge un archer vêtu d'armure de cuir à partir de vos pensées. L'archer apprend Maîtrise de l'Arc, Précision de Combat, Tir Précis, Tir Handicapant, et Tir Rapide à mesure qu'il monte de niveau, et a +%d de Force, +%d de Dextérité et +%d de Constitution.
+		L'activation de ce talent mettra toutes les autres formes de pensée en rechargement.
+		Les bonus d'attributs sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Thought-Form: Warrior", "Forme de Pensée : Guerrier", "talent name")
+t("thought-forged warrior", "guerrier forgé par la pensée", "_t")
+t("A thought-forged warrior wielding a massive battle-axe and clad in heavy armor.  It appears ready for battle.", "Un guerrier forgé par la pensée, maniant une énorme hache de bataille et vêtu d'une armure lourde. Il semble prêt pour la bataille.", "_t")
 t([[Forge a warrior wielding a battle-axe from your thoughts.  The warrior learns Weapon Mastery, Combat Accuracy, Berserker, Death Dance, and Rush as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
 		Activating this talent will put all other thought-forms on cooldown.
-		The stat bonuses will improve with your Mindpower.]], [[Forge a warrior wielding a battle-axe from your thoughts.  The warrior learns Weapon Mastery, Combat Accuracy, Berserker, Death Dance, and Rush as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
-		Activating this talent will put all other thought-forms on cooldown.
-		The stat bonuses will improve with your Mindpower.]], "tformat")
-t("Thought-Form: Defender", "Thought-Form: Defender", "talent name")
-t("thought-forged defender", "thought-forged defender", "_t")
-t("A thought-forged defender clad in massive armor.  It wields a sword and shield and appears ready for battle.", "A thought-forged defender clad in massive armor.  It wields a sword and shield and appears ready for battle.", "_t")
+		The stat bonuses will improve with your Mindpower.]], [[Forge un guerrier maniant une hache de bataille à partir de vos pensées. Le guerrier apprend Maîtrise des Armes, Précision de Combat, Berserker, Danse de la Mort et Charge à mesure qu'il monte de niveau, et a +%d de Force, +%d de Dextérité et +%d de Constitution.
+		L'activation de ce talent mettra toutes les autres formes de pensée en rechargement.
+		Les bonus d'attributs sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Thought-Form: Defender", "Forme de Pensée : Défenseur", "talent name")
+t("thought-forged defender", "Défenseur Forgé par la Pensée", "_t")
+t("A thought-forged defender clad in massive armor.  It wields a sword and shield and appears ready for battle.", "Un défenseur forgé par la pensée, maniant épée et bouclier et vêtu d'une armure massive. Il semble prêt pour la bataille.", "_t")
 t([[Forge a defender wielding a sword and shield from your thoughts.  The solider learns Armor Training, Weapon Mastery, Combat Accuracy, Shield Pummel, and Shield Wall as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
 		Activating this talent will put all other thought-forms on cooldown.
-		The stat bonuses will improve with your Mindpower.]], [[Forge a defender wielding a sword and shield from your thoughts.  The solider learns Armor Training, Weapon Mastery, Combat Accuracy, Shield Pummel, and Shield Wall as it levels up, and has +%d Strength, +%d Dexterity, and +%d Constitution.
-		Activating this talent will put all other thought-forms on cooldown.
-		The stat bonuses will improve with your Mindpower.]], "tformat")
+		The stat bonuses will improve with your Mindpower.]], [[Forge un défenseur maniant une épée et un bouclier à partir de vos pensées. Le soldat apprend Entraînement aux Armures, Maîtrise des Armes, Précision de Combat, Coup de Bouclier et Mur de Bouclier à mesure qu'il monte de niveau, et a +%d de Force, +%d de Dextérité et +%d de Constitution.
+		L'activation de ce talent mettra toutes les autres formes de pensée en rechargement.
+		Les bonus d'attributs sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Thought-Forms", "Formes de Pensée", "talent name")
 t([[Forge a guardian from your thoughts alone.  Your guardian's primary stat will be improved by %d, its two secondary stats by %d, and it will have Magic, Cunning, and Willpower equal to your own.
 		At talent level one, you may forge a mighty bowman clad in leather armor; at level three a powerful warrior wielding a two-handed weapon; and at level five a strong defender using a sword and shield.
 		Thought forms can only be maintained up to a range of %d, and will rematerialize next to you if this range is exceeded.
-		Only one thought-form may be active at a time, and the stat bonuses will improve with your Mindpower.]], [[Forge a guardian from your thoughts alone.  Your guardian's primary stat will be improved by %d, its two secondary stats by %d, and it will have Magic, Cunning, and Willpower equal to your own.
-		At talent level one, you may forge a mighty bowman clad in leather armor; at level three a powerful warrior wielding a two-handed weapon; and at level five a strong defender using a sword and shield.
-		Thought forms can only be maintained up to a range of %d, and will rematerialize next to you if this range is exceeded.
-		Only one thought-form may be active at a time, and the stat bonuses will improve with your Mindpower.]], "tformat")
-t("Transcendent Thought-Forms", "Transcendent Thought-Forms", "talent name")
-t("Your thought-forms now know Lucid Dreamer, Biofeedback, and Psychometry at talent level %d.", "Your thought-forms now know Lucid Dreamer, Biofeedback, and Psychometry at talent level %d.", "tformat")
-t("Over Mind", "Over Mind", "talent name")
-t("You must have an active Thought-Form to use this talent!", "You must have an active Thought-Form to use this talent!", "logPlayer")
+		Only one thought-form may be active at a time, and the stat bonuses will improve with your Mindpower.]], [[Forge un gardien uniquement à partir de vos pensées. L'attribut principal de votre gardien sera amélioré de %d, ses deux attributs secondaires de %d, et il aura la Magie, la Ruse et la Volonté égales aux vôtres.
+		Au niveau 1, vous pouvez forger un puissant archer avec une armure de cuir.
+		Au niveau 3, un puissant guerrier avec une arme à deux mains.
+		Au niveau 5, un fort défenseur avec épée et bouclier.
+		Les formes de pensée ne peuvent être maintenues que dans un rayon de %d et se rematérialiseront à vos côtés si ce rayon est dépassé.
+		L'activation de ce talent mettra toutes les autres formes de pensée en rechargement.
+		Les bonus d'attributs sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Transcendent Thought-Forms", "Formes de Pensée Transcendantes", "talent name")
+t("Your thought-forms now know Lucid Dreamer, Biofeedback, and Psychometry at talent level %d.", "Vos formes de pensée connaissent maintenant Rêveur Lucide, Biorétroaction et Psychométrie au niveau de talent %d.", "tformat")
+t("Over Mind", "Surmentalité", "talent name")
+t("You must have an active Thought-Form to use this talent!", "Vous devez avoir une Forme de Pensée active pour utiliser ce talent !", "logPlayer")
 t([[Take direct control of your active thought-form, improving its damage, attack speed, and maximum life by %d%%, but leaving your body a defenseless shell.
 		At talent level 1, any Feedback your Thought-Forms gain will be given to you as well. At level 3, your Thought-Forms gain a bonus to all saves equal to your Mental Save. At level 5, they gain a bonus to all damage equal to your bonus mind damage.
 		The secondary bonuses apply whether or not this talent is currently active.
-		The life, damage, and speed bonus will improve with your Mindpower.]], [[Take direct control of your active thought-form, improving its damage, attack speed, and maximum life by %d%%, but leaving your body a defenseless shell.
-		At talent level 1, any Feedback your Thought-Forms gain will be given to you as well. At level 3, your Thought-Forms gain a bonus to all saves equal to your Mental Save. At level 5, they gain a bonus to all damage equal to your bonus mind damage.
-		The secondary bonuses apply whether or not this talent is currently active.
-		The life, damage, and speed bonus will improve with your Mindpower.]], "tformat")
-t("Thought-Form Unity", "Thought-Form Unity", "talent name")
+		The life, damage, and speed bonus will improve with your Mindpower.]], [[Prend le contrôle direct de votre forme de pensée active, augmentant ses dégâts, sa vitesse d'attaque et sa vie maximale de %d%%, mais laissant votre corps comme une coquille sans défense.
+		Au niveau 1, toute Rétroaction que vos Formes de Pensée reçoivent vous sera également accordée.
+		Au niveau 3, vos Formes de Pensée gagnent un bonus à toutes les sauvegardes égal à votre Sauvegarde mentale.
+		Au niveau 5, elles gagnent un bonus à tous les dégâts égal à votre bonus de dégâts mentaux.
+		Les bonus secondaires s'appliquent que ce talent soit actif ou non.
+		Les bonus de vie, dégâts et vitesse sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Thought-Form Unity", "Unité des Formes de Pensée", "talent name")
 t([[You now gain %d%% mind speed while Thought-Form: Bowman is active, %d Mindpower while Thought-Form: Warrior is active, and %d%% resist all while Thought-Form: Defender is active. 
-		These bonuses scale with your Mindpower.]], [[You now gain %d%% mind speed while Thought-Form: Bowman is active, %d Mindpower while Thought-Form: Warrior is active, and %d%% resist all while Thought-Form: Defender is active. 
-		These bonuses scale with your Mindpower.]], "tformat")
---]==]
-
+		These bonuses scale with your Mindpower.]], [[Vous gagnez maintenant %d%% de vitesse mentale pendant que Forme de Pensée : Archer est active, %d de Puissance Mentale pendant que Forme de Pensée : Guerrier est active, et %d%% de résistance générale pendant que Forme de Pensée : Défenseur est active.
+		Les bonus sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/trance.lua"
@@ -26294,7 +26260,7 @@ t("Dissolving Acid", "Acide Dissolvant", "talent name")
 t([[Acid erupts all around your target, dealing %0.1f acid damage.
 		The acid attack is extremely distracting, and may remove up to %d physical or mental temporary effects or mental sustains (depending on the Spell Save of the target).
 		The damage and chance to remove effects will increase with your Spellpower.]], [[De l'acide jaillit tout autour de votre cible, infligeant %0.1f dégâts d'acide.
-		L'attaque acide est extrêmement perturbatrice et peut supprimer jusqu'à %d effets temporaires physiques ou mentaux ou talents mentaux soutenus (selon la sauvegarde magique de la cible).
+		L'attaque acide est extrêmement perturbatrice et peut supprimer jusqu'à %d effets temporaires physiques ou mentaux ou talents mentaux soutenus (selon la sauvegarde des sorts de la cible).
 		Les dégâts et la chance de supprimer des effets sont proportionnels à votre Puissance des sorts.]], "tformat")
 
 ------------------------------------------------
@@ -26792,7 +26758,7 @@ t([[Channel eldritch forces into a melee attack, hitting the target with your we
 		The chance for the attack to stun increases with your Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.
 		Damage increases with Spellpower.]], [[Canalisez des forces occultes dans une attaque de mêlée, frappant la cible avec votre arme et votre bouclier pour %d%% dégâts arcaniques.
 		Si l'une ou l'autre attaque touche, la cible sera assommé pendant %d tours et vous Bloquez automatiquement.
-		La chance d'assommer est proportionnel à votre Puissance Physique, mais l'attaque est considérée comme magique et est donc résistée par la sauvegarde magique plutôt que physique.
+		La chance d'assommer est proportionnel à votre Puissance Physique, mais l'attaque est considérée comme magique et est donc résistée par la sauvegarde des sorts plutôt que physique.
 		Les dégâts sont proportionnels à la Puissance des Sorts.]], "tformat")
 t("Eldritch Infusion", "Infusion Occulte", "talent name")
 t("You require a shield to use this talent.", "Vous avez besoin d'un bouclier pour utiliser ce talent.", "logPlayer")
@@ -26810,7 +26776,7 @@ t([[Channel eldritch forces into a ferocious melee attack, hitting the target th
 		If any of the attacks hit, the target will be dazed for %d turns and your Block cooldown is reset.
 		The chance for the attack to daze increases with you Physical Power, but it is considered a magical attack and thus is resisted with spell save, rather than physical save.]], [[Canalisez des forces occultes dans une attaque de mêlée féroce, frappant la cible trois fois avec vos boucliers pour %d%% dégâts de nature.
 		Si l'une des attaques touche, la cible sera étourdit légèrement pendant %d tours et le rechargement de Bloquer est réinitialisé.
-		La chance d'étourdir légèrement est proportionnel à votre Puissance Physique, mais l'attaque est considérée comme magique et est donc résistée par la sauvegarde magique plutôt que physique.]], "tformat")
+		La chance d'étourdir légèrement est proportionnel à votre Puissance Physique, mais l'attaque est considérée comme magique et est donc résistée par la sauvegarde des sorts plutôt que physique.]], "tformat")
 t("Eldritch Slam", "Fracas Occulte", "talent name")
 t("You cannot use Eldritch Slam without a shield!", "Vous ne pouvez pas utiliser Fracas Occulte sans un bouclier !", "logPlayer")
 t([[Slam your shield on the ground creating a shockwave.
@@ -28434,7 +28400,7 @@ t("Your combat focus allows you to regenerate stamina faster (+%0.1f stamina/tur
 t("Fast Metabolism", "Métabolisme Rapide", "talent name")
 t("Your combat focus allows you to regenerate life faster (+%0.1f life/turn).", "Votre focus en combat vous permet de régénérer votre vie plus rapidement (+%0.1f vie/tour).", "tformat")
 t("Spell Shield", "Écran Magique", "talent name")
-t("Rigorous training allows you to be more resistant to some spell effects (+%d spell save).", "Un entraînement rigoureux vous permet d'être plus résistant à certains effets de sorts (+%d sauvegarde contre les sorts).", "tformat")
+t("Rigorous training allows you to be more resistant to some spell effects (+%d spell save).", "Un entraînement rigoureux vous permet d'être plus résistant à certains effets de sorts (+%d sauvegarde des sorts).", "tformat")
 t("Unending Frenzy", "Frénésie sans Fin", "talent name")
 t("You revel in the death of your foes, regaining %0.1f additional hate with each death you cause.", "Vous vous délectez de la mort de vos ennemis, récupérant +%0.1f haine supplémentaire à chaque mort que vous provoquez.", "tformat")
 t("You revel in the death of your foes, regaining %0.1f stamina with each death you cause.", "Vous vous délectez de la mort de vos ennemis, récupérant +%0.1f endurance à chaque mort que vous provoquez.", "tformat")
@@ -29482,7 +29448,7 @@ t("You unleash a blast of #LIGHT_STEEL_BLUE#temporal#LAST# energy!", "Vous déch
 t("You unleash a blast of #DARK_GREEN#virulent blight!#LAST#!", "Vous déchaînez une explosion de #DARK_GREEN#fléau virulent#LAST# !", "logSeen")
 t("You unleash a blast of #GREEN#acid#LAST#!", "Vous déchaînez une explosion d'#GREEN#acide#LAST# !", "logSeen")
 t("You unleash a blast of numbing #GREY#darkness#LAST#!", "Vous déchaînez une explosion d'#GREY#obscurité#LAST# engourdissante !", "logSeen")
-t("You unleash a confusing blast of #YELLOW#mental#LAST# energy!", "Vous déchaînez une explosion d'énergie #YELLOW#mentale#LAST# désorientante !", "logSeen")
+t("You unleash a confusing blast of #YELLOW#mental#LAST# energy!", "Vous déchaînez une explosion d'énergie #YELLOW#mentale#LAST# confusionnante !", "logSeen")
 t("You unleash a crippling blast of earthen energy!", "Vous déchaînez une explosion d'énergie terrienne handicapante !", "logSeen")
 t("(Cooldowns)", "(Rechargements)", "_t")
 t([[Surround yourself with a malevolent aura that stores damage you deal.
@@ -31807,7 +31773,7 @@ Vous avez "levé" la malédiction de Ben Cruthdar. Vous pouvez maintenant créer
 
 Les maudits sont des combattants violents en mêlée, concentrant toute leur haine dans leurs coups.
 Caractéristiques de classe :#YELLOW#
-- Engouffrez vos ennemis dans votre Gloom, les affaiblissant, les désorientant, les assommant et les endommageant.
+- Engouffrez vos ennemis dans votre Gloom, les affaiblissant, les confusionnant, les assommant et les endommageant.
 - Chassez vos proies, traquez-les et marquez-les pour la mort.
 - Puissant combattant de mêlée#WHITE#
 
@@ -33511,7 +33477,7 @@ t("Corruptions consume health instead of vim.", "Les corruptions consomment de l
 t("Sanguine Infusion", "Essence Sanguine", "_t")
 t("Maximum life increased by %d.", "La vie maximum est augmenté de %d.", "tformat")
 t("Arcane Supremacy", "Suprématie Arcanique", "_t")
-t("The target's spellpower and spell save has been increased by %d", "La puissance des sorts et la sauvegarde contre les sorts de la cible sont augmentées de %d", "tformat")
+t("The target's spellpower and spell save has been increased by %d", "La puissance des sorts et la sauvegarde des sorts de la cible sont augmentées de %d", "tformat")
 t("#Target# is surging with arcane energy.", "#Target# est saturé d'énergie arcanique.", "_t")
 t("+Arcane Supremacy", "+Suprématie Arcanique", "_t")
 t("The arcane energy around #target# has dissipated.", "L'énergie arcanique autour de #target# s'est dissipée.", "_t")
@@ -34294,7 +34260,7 @@ t("+Void Echoes", "+Echos du Vide", "_t")
 t("#Target# has survived the void madness.", "#Target# a survécu à la folie du vide.", "_t")
 t("-Void Echoes", "-Echos du Vide", "_t")
 t("nightmare", "cauchemar", "effect subtype")
-t("Waking Nightmare", "Cauchemar Eveillé", "_t")
+t("Waking Nightmare", "Cauchemar Éveillé", "_t")
 t("The target is lost in a nightmare that deals %0.2f darkness damage each turn and has a %d%% chance to cause a random detrimental effect.", "La cible est perdue dans un cauchemar qui inflige %0.2f dégâts d'obscurité par tour et a %d%% chances de provoquer un effet néfaste aléatoire.", "tformat")
 t("#F53CBE##Target# is lost in a nightmare.", "#F53CBE##Target# se perd dans un cauchemar.", "_t")
 t("+Night Terrors", "+Terreurs Nocturnes", "_t")
@@ -34406,7 +34372,7 @@ t("A psychic field forms around #target#.", "Un champ psychique se forme autour 
 t("+Resonance Shield", "+Bouclier de Résonance", "_t")
 t("The psychic field around #target# crumbles.", "Le champ psychique autour de #target# s'effondre.", "_t")
 t("-Resonance Shield", "-Bouclier de Résonance", "_t")
-t("Mind Link", "Esprit Lié", "_t")
+t("Mind Link", "Lien Mental", "_t")
 t("The target's mind has been invaded, increasing all mind damage it receives from %s by %d%%.", "L'esprit de la cible a été envahi, ce qui augmente tous les dégâts d'esprit qu'elle reçoit de %s par %d%%.", "tformat")
 t("#Target#'s mind has been invaded!", "L'esprit de #Target# a été envahi !", "_t")
 t("+Mind Link", "+Esprit Lié", "_t")
@@ -34765,7 +34731,7 @@ t([[Horrible visions fill your mind.
 #CRIMSON#Puissance 3+ : %sTourment : lorsqu'un ennemi tente de vous infliger un effet négatif, votre aura tourmentante riposte contre un ennemi aléatoire dans un rayon de 10, infligeant %d dégâts mentaux et %d dégâts d'obscurités.
 #CRIMSON#Puissance 4+ : %sCauchemar : Chaque fois que vous subissez des dégâts d'un ennemi, vous avez une chance (actuellement de %d%%) de déclencher un cauchemar d'un rayon de %d (invoque des Terreurs et offre des chances de ralentir, d'infliger %d dégâts mentaux et %d dégâts d'obscurité) pendant 8 tours. Cette chance augmente à chaque fois que vous êtes touché, mais diminue avec le temps.]], "tformat")
 t("#F53CBE#%s harrows %s!", "#F53CBE#%s tourmente %s !", "logSeen")
-t("A formless terror that seems to cut through the air, and its victims, like a knife.", "Une terreur informe qui semble fendre l'air et ses victimes comme un couteau.", "_t")
+t("A formless terror that seems to cut through the air, and its victims, like a knife.", "Une terreur sans forme qui semble couper l'air et ses victimes comme un couteau.", "_t")
 t("Nightmare", "Cauchemar", "_t")
 t("#F53CBE#The air around %s grows cold and terrifying shapes begin to coalesce. A nightmare has begun.", "#F53CBE#L'air autour de %s se refroidit et des formes terrifiantes commencent à se dessiner. Un cauchemar vient de commencer.", "logSeen")
 t("Curse of Misfortune", "Malédiction de Malchance", "_t")
@@ -34893,7 +34859,7 @@ t("madness", "folie", "effect subtype")
 t("Hunter!", "Chasseur !", "_t")
 t("Knows where you are!", "Connaît votre position !", "_t")
 t("Through The Crowd", "À Travers la Foule", "_t")
-t("Increases physical save, spell save, and mental save by %d. Global speed increased by %d%%.", "Augmente les jets de sauvegarde physiques, magiques et mentaux de %d. La vitesse globale est augmentée de %d %%.", "tformat")
+t("Increases physical save, spell save, and mental save by %d. Global speed increased by %d%%.", "Augmente les jets de sauvegarde physiques, des sorts,  et mentaux de %d. La vitesse globale est augmentée de %d %%.", "tformat")
 t("disarm", "désarmement", "effect subtype")
 t("Reloading", "Rechargement", "_t")
 t("The target has replenished some ammo.", "La cible a fait le plein de munitions.", "_t")
@@ -35295,7 +35261,7 @@ t("+Primal", "+Harmonisation", "_t")
 t("#Target# is no longer one with nature.", "#Target# n'est plus en harmonie avec la nature.", "_t")
 t("-Primal", "-Harmonisation", "_t")
 t("Purge Blight", "Purge du Fléau", "_t")
-t("The target is infused with the power of nature, reducing all blight damage taken by %d%%, increasing spell saves by %d, and granting immunity to diseases.", "La cible est imprégnée de la puissance de la nature, ce qui réduit de %d%% les dégâts de fléau subis, augmente les jets de sauvegarde contre les sorts de %d et confère une immunité contre la maladies.", "tformat")
+t("The target is infused with the power of nature, reducing all blight damage taken by %d%%, increasing spell saves by %d, and granting immunity to diseases.", "La cible est imprégnée de la puissance de la nature, ce qui réduit de %d%% les dégâts de fléau subis, augmente les jets de sauvegarde des sorts de %d et confère une immunité contre la maladies.", "tformat")
 t("#Target# rejects blight!", "#Target# rejette le fléau !", "_t")
 t("#Target# is susceptible to blight again.", "#Target# est à nouveau susceptible au fléau.", "_t")
 t("sense", "sens", "effect subtype")
@@ -35590,6 +35556,7 @@ t("#ORCHID#You cannot block any more attacks!#LAST#", "#ORCHID#Vous ne pouvez pl
 t("Grappling Defensively", "Lutte Défensive", "_t")
 t("Has a %d%% chance to counter attack with a defensive throw when avoiding a melee attack, possibly throwing the target to the ground and stunning it. (%0.1f throws remaining)", "A %d%% chances de riposter par une projection défensive en esquivant une attaque au corps à corps, ce qui peut projeter la cible au sol et l'assomer. (%0.1f projections restantes)", "tformat")
 t("distortion", "distorsion", "effect subtype")
+t("Ravage", "Dévastation", "_t")
 t("each turn.", "par tour.", "_t")
 t("and is losing one physical effect turn.", "et perd un effet physique par tour.", "_t")
 t("The target is being ravaged by distortion, taking %0.2f physical damage %s", "La cible est ravagée par la distorsion et subit %0.2f dégâts physiques %s", "tformat")
@@ -35777,8 +35744,8 @@ t("+Stone Vine", "+Liane de Pierre", "_t")
 t("#Target# is free from the stone vine.", "#Target# est libéré de la liane de pierre.", "_t")
 t("-Stone Vine", "-Liane de Pierre", "_t")
 t("Dwarven Resilience", "Résilience des Nains", "_t")
-t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save. Also applies %d armour to all non-physical damage.", "La peau de la cible se transforme en pierre, lui conférant %d points d'armure, %d%% de robustesse d'armure, %d de sauvegarde physique et %d de sauvegarde contre les sorts. Applique également %d points d'armure à tous les dégâts non physiques.", "tformat")
-t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save.", "La peau de la cible se transforme en pierre, lui conférant %d points d'armure, %d%% de robustesse d'armure, %d de sauvegarde physique et %d de sauvegarde contre les sorts.", "tformat")
+t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save. Also applies %d armour to all non-physical damage.", "La peau de la cible se transforme en pierre, lui conférant %d points d'armure, %d%% de robustesse d'armure, %d de sauvegarde physique et %d de sauvegarde des sorts. Applique également %d points d'armure à tous les dégâts non physiques.", "tformat")
+t("The target's skin turns to stone, granting %d armour, %d%% armour hardiness, %d physical save and %d spell save.", "La peau de la cible se transforme en pierre, lui conférant %d points d'armure, %d%% de robustesse d'armure, %d de sauvegarde physique et %d de sauvegarde des sorts.", "tformat")
 t("#Target#'s skin turns to stone.", "La peau de #Target# se transforme en pierre.", "_t")
 t("Stone Link", "Lien de Pierre", "_t")
 t("The target protects all those around it in radius %d by redirecting all damage against them to itself.", "La cible protège toutes les personnes situées dans un rayon de %d en détournant vers elle-même tous les dégâts qui leur sont destinés.", "tformat")
@@ -35900,7 +35867,6 @@ t("Luminescence ", "Luminescence ", "_t")
 t("+Luminescence", "+Luminescence", "_t")
 t("-Luminescence", "-Luminescence", "_t")
 t("Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "Parrying melee%s attacks: Has a %d%% chance to deflect up to %d damage from the next %0.1f attack(s).  Parried attacks cannot crit.", "tformat")
-t("Ravage", "Ravage", "_t")
 t("+Ravage", "+Ravage", "_t")
 t("-Ravage", "-Ravage", "_t")
 t("+Distortion", "+Distortion", "_t")
@@ -41569,7 +41535,7 @@ t([[#GOLD#Spellpower#LAST#
 Your spellpower represents how powerful your magical spells are.  It is opposed by your opponent's spell save.
 In addition, when your spells inflict temporary detrimental effects, every point your opponent's save exceeds your spellpower will reduce the duration of the effect by 5%.
 ]], [[#GOLD#Puissance des Sorts#LAST#
-Votre Puissance des Sorts représente la puissance de vos sorts. Elle est opposée au jet de sauvegarde contre les sorts de votre adversaire.
+Votre Puissance des Sorts représente la puissance de vos sorts. Elle est opposée au jet de sauvegarde des sorts de votre adversaire.
 De plus, lorsque vos sorts infligent des effets néfastes temporaires, chaque point de plus que le jet de sauvegarde de votre adversaire par rapport à votre puissance magique réduit la durée de l'effet de 5%.
 ]], "_t")
 t([[#GOLD#Spell critical chance#LAST#
