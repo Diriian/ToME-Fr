@@ -3742,6 +3742,7 @@ t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
 ------------------------------------------------
 section "tome-cults/data/talents/misc/misc.lua"
 
+t("Self-destruction", "Auto-destruction", "talent name")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
 t("There are creatures that could be watching you; you cannot take the risk.", "Il y a des créatures qui pourraient vous observer ; vous ne pouvez pas prendre le risque.", "log")
 t("Call of Amakthel", "Appel d'Amakthel", "talent name")
@@ -3750,7 +3751,6 @@ t("something", "quelque chose", "_t")
 -- texte non traduit
 --[==[
 t("glass golem", "glass golem", "_t")
-t("Self-destruction", "Self-destruction", "talent name")
 t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "tformat")
 t("Teleport: Kroshkkur", "Teleport: Kroshkkur", "talent name")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "logPlayer")

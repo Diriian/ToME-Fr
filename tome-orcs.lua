@@ -4483,6 +4483,9 @@ t("Summons the starscape in the surrounding area in a radius of %d. For %d turns
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
 
+t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
+		Accuracy reduction chance increases with your Physical Power.]], [[Frappe la cible avec votre arme, infligeant %d%% dégâts. Si l'attaque touche, la Précision de la cible est réduite de %d pendant %d turns.
+		La chance de réduction de la Précision est proportionnel à votre Puissance physique.]], "tformat")
 t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
@@ -4499,9 +4502,6 @@ t([[Gaze at your foes and turn them to stone for %d turns.
 		Stoned creatures are highly resistant to fire and lightning, and somewhat resistant to physical attacks.
 		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], "tformat")
 t("Gnashing Maw", "Gnashing Maw", "talent name")
-t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
-		Accuracy reduction chance increases with your Physical Power.]], [[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
-		Accuracy reduction chance increases with your Physical Power.]], "tformat")
 t("Sandrush", "Sandrush", "talent name")
 t("@Source@ dives in the sand!", "@Source@ dives in the sand!", "_t")
 t([[Dive into the sand and rush towards your target at up to range %d, gaining a free attack if you reach it.
@@ -5887,9 +5887,11 @@ t([[Project a radius 3 electric field from your shield lasting %d turns. Enemies
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/mecharachnid.lua"
 
+t("Self-destruction", "Auto-destruction", "talent name")
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("Assault", "Assaut", "_t")
+t("#Source# provokes #Target# to attack it.", "#Source# provoque #Target# pour qu'il l'attaque.", "logCombat")
 -- texte non traduit
 --[==[
 t("disarmed", "disarmed", "_t")
@@ -5900,7 +5902,6 @@ t("incompatible ammo", "incompatible ammo", "_t")
 t("no shooter", "no shooter", "_t")
 t("Mecharachnid Link", "Mecharachnid Link", "talent name")
 t("Link to the summoner.", "Link to the summoner.", "_t")
-t("Self-destruction", "Self-destruction", "talent name")
 t([[The mecharachnid self-destructs, destroying itself and generating a blast of fire in a radius of %d, doing %0.2f fire damage.
 		This spell is only usable when the mecharachnid's master is dead.]], [[The mecharachnid self-destructs, destroying itself and generating a blast of fire in a radius of %d, doing %0.2f fire damage.
 		This spell is only usable when the mecharachnid's master is dead.]], "tformat")
@@ -5950,7 +5951,6 @@ t("Close combat mecharachnid abilities.", "Close combat mecharachnid abilities."
 t("Overrun", "Overrun", "talent name")
 t("You require a tail-mounted steamsaw for this talent.", "You require a tail-mounted steamsaw for this talent.", "logPlayer")
 t("Your mecharachnid cannot do that currently.", "Your mecharachnid cannot do that currently.", "logPlayer")
-t("#Source# provokes #Target# to attack it.", "#Source# provokes #Target# to attack it.", "logCombat")
 t([[You rush to the target and strike with your tailsaw, dealing %d%% damage and taunting enemies within radius %d.
 		You now also use your Dexterity in place of Strength when equipping Steamsaws as well as when calculating weapon damage, and have your Steamsaw damage increased by %d%% and Physical Power by %d.]], [[You rush to the target and strike with your tailsaw, dealing %d%% damage and taunting enemies within radius %d.
 		You now also use your Dexterity in place of Strength when equipping Steamsaws as well as when calculating weapon damage, and have your Steamsaw damage increased by %d%% and Physical Power by %d.]], "tformat")

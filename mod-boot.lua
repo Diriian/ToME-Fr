@@ -259,13 +259,13 @@ t("#LIGHT_RED#Donator Status: Disabled", "#LIGHT_RED#Statut de donateur : Désac
 t("#LIGHT_GREEN#Manual: Active", "#LIGHT_GREEN#Manuel : Activé", "_t")
 t("#LIGHT_RED#Manual: Disabled", "#LIGHT_RED#Manuel : Désactivé", "_t")
 t("#LIGHT_GREEN#Auto: Active", "#LIGHT_GREEN#Auto : Activé", "_t")
+t("#LIGHT_RED#Auto: Incompatible", "#LIGHT_RED#Auto : Incompatible", "_t")
 t("Addon Version", "Version de l'addon", "_t")
 t("Game Version", "Version du jeu", "_t")
 -- texte non traduit
 --[==[
 t("Version", "Version", "_t")
 t("Addon", "Addon", "_t")
-t("#LIGHT_RED#Auto: Incompatible", "#LIGHT_RED#Auto: Incompatible", "_t")
 --]==]
 
 
@@ -516,6 +516,7 @@ t("Password: ", "Mot de passe : ", "_t")
 t("Login", "Connexion", "_t")
 t("Cancel", "Annuler", "_t")
 t("Password again: ", "Mot de passe, encore : ", "_t")
+t("Email: ", "Email : ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accepter de recevoir #{bold}#rarement#{normal}# (quelques fois par an) des mails sur les événements que nous lançons.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "Vous devez avoir au moins 16 ans, ou une autorisation parental pour jouer au jeu.", "_t")
 t("Create", "Créer", "_t")
@@ -530,7 +531,6 @@ t("Age Check", "Vérification d'âge", "_t")
 t("You need to be 16 years old or more or to have parental authorization to play this game.", "Vous devez avoir au moins 16 ans, ou une autorisation parental pour jouer au jeu.", "_t")
 -- texte non traduit
 --[==[
-t("Email: ", "Email: ", "_t")
 t("Email", "Email", "_t")
 --]==]
 
@@ -547,6 +547,7 @@ Pour profiter de toutes les fonctionnalités du jeu, il est #{bold}#hautement#{n
 Heureusement, c'est très facile à faire : vous n'avez besoin que d'un nom de profil et éventuellement d'un e-mail (nous envoyons très peu d'e-mails, peut-être deux par an tout au plus).
 ]], "_t")
 t("Username: ", "Pseudonyme : ", "_t")
+t("Email: ", "Email : ", "_t")
 t("Accept to receive #{bold}#very infrequent#{normal}# (a few per year) mails about important game events from us.", "Accepter de recevoir #{bold}#rarement#{normal}# (quelques fois par an) des mails sur les événements que nous lançons.", "_t")
 t("You at least 16 years old, or have parental authorization to play the game.", "Vous devez avoir au moins 16 ans, ou une autorisation parental pour jouer au jeu.", "_t")
 t("Register", "Inscription", "_t")
@@ -564,7 +565,6 @@ t("Error", "Erreur", "_t")
 t("Username or Email already taken, please select an other one.", "Pseudonyme ou Email déjà pris, s'il vous plaît, sélectionnez en un autre", "_t")
 -- texte non traduit
 --[==[
-t("Email: ", "Email: ", "_t")
 t("Email", "Email", "_t")
 --]==]
 
