@@ -844,7 +844,7 @@ t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'u
 t("firestorm", "tempête de feu", "_t")
 t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
 		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de feu fait rage autour du lanceur, infligeant %0.2f dégâts de feu dans un rayon de 3 à chaque tour pendant %d tours.
+		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de feu fait rage autour du lanceur, infligeant %0.2f dégâts de feu dans un rayon de 3 par tour pendant %d tours.
 		Vous contrôlez étroitement la tempête de feu, l'empêchant de blesser vos membres du groupe.
 		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
 t("Frost Grab", "Griffes Givrées", "talent name")

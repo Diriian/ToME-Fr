@@ -306,12 +306,7 @@ t("Use purchased", "Achats réalisés", "_t")
 ------------------------------------------------
 section "engine/engine/ActorsSeenDisplay.lua"
 
-
--- texte non traduit
---[==[
-t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE#; distance [%s]", "tformat")
---]==]
-
+t("%s (%d)#WHITE#; distance [%s]", "%s (%d)#WHITE# ; distance [%s]", "tformat")
 
 ------------------------------------------------
 section "engine/engine/Birther.lua"
@@ -908,15 +903,11 @@ t("User: %s", "Utilisateur : %s", "tformat")
 t("Currently playing: ", "Joue actuellement : ", "_t")
 t("unknown", "inconnu", "_t")
 t("Game: ", "Jeu : ", "_t")
+t("Validation: ", "Validation : ", "_t")
 t("Game has been validated by the server", "La partie a été validée par le serveur", "_t")
 t("Game is not validated by the server", "La partie n'est pas validée par le serveur", "_t")
 t("Go to online profile", "Aller sur le profil en ligne", "_t")
 t("Go to online charsheet", "Aller sur la feuille de personnage en ligne", "_t")
--- texte non traduit
---[==[
-t("Validation: ", "Validation: ", "_t")
---]==]
-
 
 ------------------------------------------------
 section "engine/engine/dialogs/VideoOptions.lua"
