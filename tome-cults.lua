@@ -477,17 +477,13 @@ t("font of sacrifice", "font of sacrifice", "entity name")
 section "tome-cults/data/general/grids/fortress-ancient.lua"
 
 t("floor", "sol", "entity type")
+t("ancient", "ancien", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
 t("door", "porte", "entity name")
 t("open door", "porte ouverte", "entity name")
 t("sealed door", "porte scellée", "entity name")
--- texte non traduit
---[==[
-t("ancient", "ancient", "entity subtype")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/fortress-multiverse.lua"
@@ -3961,6 +3957,7 @@ t("temporal", "temporel", "effect subtype")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
 t("speed", "rapidité", "effect subtype")
+t("#Target# is moving at extreme speed!", "#Target# se déplace à une vitesse folle !", "_t")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
 t("#Target# is removed from time!", "#Target# est retiré du temps !", "_t")
 t("#Target# is returned to normal time.", "#Target# revient dans le temps normal.", "_t")
@@ -4158,7 +4155,6 @@ t("The target has %d active void rift(s).", "The target has %d active void rift(
 t("%d Void Rifts", "%d Void Rifts", "tformat")
 t("Accelerate", "Accelerate", "_t")
 t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "tformat")
-t("#Target# is moving at extreme speed!", "#Target# is moving at extreme speed!", "_t")
 t("+Accelerate", "+Accelerate", "_t")
 t("-Accelerate", "-Accelerate", "_t")
 t("Suspend", "Suspend", "_t")
@@ -5096,6 +5092,7 @@ t("test", "test", "_t")
 section "tome-cults/data/zones/town-kroshkkur/grids.lua"
 
 t("floor", "sol", "entity type")
+t("ancient", "ancien", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("wall", "mur", "entity name")
@@ -5104,7 +5101,6 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 -- texte non traduit
 --[==[
-t("ancient", "ancient", "entity subtype")
 t("statue", "statue", "entity name")
 t("teleporter to the surface", "teleporter to the surface", "entity name")
 t("portal to the Maggot", "portal to the Maggot", "entity name")
@@ -5519,6 +5515,7 @@ section "tome-cults/overload/mod/dialogs/FontSacrifice.lua"
 t("Name", "Nom", "_t")
 t("Not enough money", "Pas assez d'argent", "_t")
 t("Confirm", "Confirmer", "_t")
+t("Type: %s / %s", "Type : %s / %s", "tformat")
 t([[Powered by #VIOLET#arcane forces#LAST#
 ]], [[Alimenté par #VIOLET#une force arcanique#LAST#
 ]], "_t")
@@ -5556,7 +5553,6 @@ t("Reroll properties set", "Reroll properties set", "_t")
 t("You need at least #GOLD#%s gold#LAST# to reroll this item.", "You need at least #GOLD#%s gold#LAST# to reroll this item.", "tformat")
 t("So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "tformat")
 t(" (Greater)", " (Greater)", "_t")
-t("Type: %s / %s", "Type: %s / %s", "tformat")
 t("Select a properties set", "Select a properties set", "_t")
 t("Select properties set #{bold}#\"%s\"#{normal}# ?", "Select properties set #{bold}#\"%s\"#{normal}# ?", "tformat")
 t("The gizmocombobulator of the font seems to have failed, you have not been billed.", "The gizmocombobulator of the font seems to have failed, you have not been billed.", "_t")
