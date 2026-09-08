@@ -3944,7 +3944,7 @@ t("Reduces global action speed by %d%%.", "Réduit la vitesse d'action globale d
 t("miscellaneous", "divers", "effect subtype")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
-t("damage", "dégât", "effect subtype")
+t("damage", "dégâts", "effect subtype")
 t("horror", "horreur", "effect subtype")
 t("blight", "fléau", "effect subtype")
 t("pain", "douleur", "effect subtype")

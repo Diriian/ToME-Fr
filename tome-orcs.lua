@@ -5729,6 +5729,7 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
+t("You are disarmed.", "Vous êtes désarmé.", "logPlayer")
 t("%s resists the disarm!", "%s résiste au désarmement !", "logSeen")
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
 t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
@@ -5765,7 +5766,6 @@ t([[You replace your steamgun and attack with an incendiary device that projects
 
 		These attacks cannot miss and ignore armor.]], "tformat")
 t("Flame Jet", "Flame Jet", "talent name")
-t("You are disarmed.", "You are disarmed.", "logPlayer")
 t("You require heavy ammunition to fire your flamethrower.", "You require heavy ammunition to fire your flamethrower.", "logPlayer")
 t("Fire a jet of flame, dealing %d%% weapon damage as fire over 3 turns.", "Fire a jet of flame, dealing %d%% weapon damage as fire over 3 turns.", "tformat")
 t("Shockstaff", "Shockstaff", "talent name")
