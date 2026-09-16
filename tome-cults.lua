@@ -78,12 +78,21 @@ t("Skin Color 6", "Couleur de Peau 6", "_t")
 t("Skin Color 7", "Couleur de Peau 7", "_t")
 t("Skin Color 8", "Couleur de Peau 8", "_t")
 t("Skin Color 9", "Couleur de Peau 9", "_t")
+t("Demonic Red Skin", "Peau Rouge Démoniaque", "_t")
 t("Dark Hair 1", "Cheveux Foncés 1", "_t")
 t("Redhead Hair 1", "Cheveux Roux 1", "_t")
 t("Beard 1", "Barbe 1", "_t")
 t("Beard 2", "Barbe 2", "_t")
 t("Redhead Beard 1", "Barbe Rousse 1", "_t")
 t("Redhead Beard 2", "Barbe Rousse 2", "_t")
+t("Demonic Horns 1", "Cornes Démoniaques 01", "_t")
+t("Demonic Horns 2", "Cornes Démoniaques 02", "_t")
+t("Demonic Horns 3", "Cornes Démoniaques 03", "_t")
+t("Demonic Horns 4", "Cornes Démoniaques 04", "_t")
+t("Demonic Horns 5", "Cornes Démoniaques 05", "_t")
+t("Demonic Horns 6", "Cornes Démoniaques 06", "_t")
+t("Demonic Horns 7", "Cornes Démoniaques 07", "_t")
+t("Demonic Horns 8", "Cornes Démoniaques 08", "_t")
 -- texte non traduit
 --[==[
 t("Horns", "Horns", "birth facial category")
@@ -93,17 +102,8 @@ t("Drem are mindless mutants who live deep in the earth. It is only recently tha
 t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "_t")
 t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "_t")
 t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "_t")
-t("Demonic Red Skin", "Demonic Red Skin", "_t")
 t("Demonic Beard", "Demonic Beard", "_t")
 t("Demonic Redhead Beard", "Demonic Redhead Beard", "_t")
-t("Demonic Horns 1", "Demonic Horns 1", "_t")
-t("Demonic Horns 2", "Demonic Horns 2", "_t")
-t("Demonic Horns 3", "Demonic Horns 3", "_t")
-t("Demonic Horns 4", "Demonic Horns 4", "_t")
-t("Demonic Horns 5", "Demonic Horns 5", "_t")
-t("Demonic Horns 6", "Demonic Horns 6", "_t")
-t("Demonic Horns 7", "Demonic Horns 7", "_t")
-t("Demonic Horns 8", "Demonic Horns 8", "_t")
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 --]==]
 
@@ -625,14 +625,14 @@ section "tome-cults/data/general/grids/tentacle-tree.lua"
 
 t("floor", "sol", "entity type")
 t("creep", "rampant", "entity subtype")
+t("Do you #{strong}#really#{normal}# want to touch that?", "Voulez-vous #{strong}#vraiment#{normal}# toucher ça ?", "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
+t("#CRIMSON#The %s glows ominously.", "#CRIMSON#%s brille de façon inquiétante.", "log")
 -- texte non traduit
 --[==[
 t("strange tentacle 'tree'", "strange tentacle 'tree'", "entity name")
 t("Tentacle Tree", "Tentacle Tree", "_t")
-t("Do you #{strong}#really#{normal}# want to touch that?", "Do you #{strong}#really#{normal}# want to touch that?", "_t")
-t("#CRIMSON#The %s glows ominously.", "#CRIMSON#The %s glows ominously.", "log")
 --]==]
 
 
@@ -3709,7 +3709,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		La chance de propagation est proportionnel aux dégâts de fléau infligés et devient 100%% si ces dégâts représentent au moins %d%% de la vie maximale de la cible.
 		Les créatures souffrant de cette maladie subiront également une réduction des soins de %d%% et une réduction de l'immunité aux maladies de %d%%.
 		L'Épidémie est une maladie extrêmement puissante ; à ce titre, elle ignore totalement l'immunité aux maladies de la cible.
-		Les dégâts sont proportionnels à votre Puissance des sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
 -- texte non traduit
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
@@ -3956,6 +3956,7 @@ t("stone", "gardien de pierre", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
+t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d lié)#LAST#", "tformat")
 t("speed", "rapidité", "effect subtype")
 t("#Target# is moving at extreme speed!", "#Target# se déplace à une vitesse folle !", "_t")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
@@ -4133,7 +4134,6 @@ t("+Mark of Treason", "+Mark of Treason", "_t")
 t("#Target# prophetic link disappears.", "#Target# prophetic link disappears.", "_t")
 t("-Mark of Treason", "-Mark of Treason", "_t")
 t("#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "delayedLogMessage")
-t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d linked)#LAST#", "tformat")
 t("Nihil", "Nihil", "_t")
 t([[The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.
 This effect will fade in 2 turns if the source is not in line of sight.]], [[The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.
@@ -5643,7 +5643,7 @@ Please, go there at once, free them and show the necromancers filth the True Wra
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/Birther.lua"
 
-
+t(" or ", " ou ", "_t")
 -- texte non traduit
 --[==[
 t("Welcome to #CRIMSON#Forbidden Cults", "Welcome to #CRIMSON#Forbidden Cults", "_t")
@@ -5658,7 +5658,6 @@ To begin your adventures as a half horror simply create a character with the cla
 
 Have fun lashing your tentacle at your foes!
 ]], "_t")
-t(" or ", " or ", "_t")
 --]==]
 
 
