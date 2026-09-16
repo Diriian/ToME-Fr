@@ -50,7 +50,7 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
 --------------------------------------------------------------------------------------------
 
 Lien vers le Discord du projet :
-- https://discord.gg/eFAGh2EFdE
+- https://discord.gg/KT4ShzH9FH
 
 Le Glossaire :
 - https://docs.google.com/document/d/1OVWK9UDs2WZF-FuRd-v5Ih6Xq5Fe3t9hVzGp7lx1N6Q/edit?tab=t.0
