@@ -4438,7 +4438,7 @@ t("minced", "haché", "_t")
 t("punctured", "troué", "_t")
 t("hacked apart", "dépecé", "_t")
 t("eviscerated", "éviscéré", "_t")
-t("arcane", "dégâts d'arcane", "damage type")
+t("arcane", "arcanique", "damage type")
 t("blasted", "soufflé", "_t")
 t("energised", "stimulé", "_t")
 t("mana-torn", "déchiré par le mana", "_t")
@@ -4473,7 +4473,6 @@ t("dissolved", "dissous", "_t")
 t("corroded", "corrodé", "_t")
 t("scalded", "ébouillanté", "_t")
 t("melted", "fondu", "_t")
-t("nature", "dégâts de nature", "damage type")
 t("slimed", "engluanté", "_t")
 t("splurged", "enfeuillé", "_t")
 t("treehugged", "branchu", "_t")
@@ -4729,6 +4728,7 @@ t("%s resists the gravity!", "%s résiste à la gravité !", "logSeen")
 t("solar blood", "soleil sanglant", "damage type")
 -- texte non traduit
 --[==[
+t("nature", "nature", "damage type")
 t("implosion", "implosion", "damage type")
 t("stop", "stop", "damage type")
 --]==]
@@ -8176,7 +8176,6 @@ t("blooming", "fleuri", "entity keyword")
 t("gifted ", "du talent ", "entity name")
 t("gifted", "talent", "entity keyword")
 t("nature's ", "de nature ", "entity name")
-t("nature", "dégâts de nature", "entity keyword")
 t(" of balance", " d'équilibre", "entity name")
 t("balance", "équilibre", "entity keyword")
 t(" of life", " de vie", "entity name")
@@ -8253,6 +8252,7 @@ t(" of nightfall", " du crépuscule", "entity name")
 t("nightfall", "crépuscule", "entity keyword")
 -- texte non traduit
 --[==[
+t("nature", "nature", "entity keyword")
 t("disruption", "disruption", "entity keyword")
 --]==]
 
@@ -8338,7 +8338,6 @@ t("fire", "feu", "entity keyword")
 t(" of frost (#RESIST#)", " de froid (#RESIST#)", "entity name")
 t("frost", "gel", "entity keyword")
 t(" of nature (#RESIST#)", " de la nature (#RESIST#)", "entity name")
-t("nature", "dégâts de nature", "entity keyword")
 t(" of lightning (#RESIST#)", " de foudre (#RESIST#)", "entity name")
 t("lightning", "foudre", "entity keyword")
 t(" of light (#RESIST#)", " de lumière (#RESIST#)", "entity name")
@@ -8402,6 +8401,7 @@ t(" of luminosity", " d'illumination", "entity name")
 t("luminosity", "illumination", "entity keyword")
 -- texte non traduit
 --[==[
+t("nature", "nature", "entity keyword")
 t("corrosion", "corrosion", "entity keyword")
 t("titan", "titan", "entity keyword")
 t("mule", "mule", "entity keyword")
@@ -8416,7 +8416,6 @@ t("fire", "feu", "entity keyword")
 t(" of frost (#RESIST#)", " de froid (#RESIST#)", "entity name")
 t("frost", "gel", "entity keyword")
 t(" of nature (#RESIST#)", " de la nature (#RESIST#)", "entity name")
-t("nature", "dégâts de nature", "entity keyword")
 t(" of lightning (#RESIST#)", " de foudre (#RESIST#)", "entity name")
 t("lightning", "foudre", "entity keyword")
 t(" of light (#RESIST#)", " de lumière (#RESIST#)", "entity name")
@@ -8475,6 +8474,7 @@ t("psion's ", "du psyon ", "entity name")
 t("psion", "psyon", "entity keyword")
 -- texte non traduit
 --[==[
+t("nature", "nature", "entity keyword")
 t("corrosion", "corrosion", "entity keyword")
 t("prot", "prot", "entity keyword")
 t("Linaniil", "Linaniil", "entity keyword")
@@ -8500,7 +8500,7 @@ t("lightning", "foudre", "entity keyword")
 t(" of acid resistance (#RESIST#)", " de résistance a l'acide (#RESIST#)", "entity name")
 t("acid", "acide", "entity keyword")
 t(" of arcane resistance (#RESIST#)", " de résistance à l'arcane (#RESIST#)", "entity name")
-t("arcane", "dégâts d'arcane", "entity keyword")
+t("arcane", "arcanique", "entity keyword")
 t(" of mind resistance (#RESIST#)", " de résistance à l'esprit (#RESIST#)", "entity name")
 t("mind", "esprit", "entity keyword")
 t(" of physical resistance (#RESIST#)", " de résistance physique (#RESIST#)", "entity name")
@@ -8877,7 +8877,6 @@ t("fire", "feu", "entity keyword")
 t(" of frost (#RESIST#)", " de froid (#RESIST#)", "entity name")
 t("frost", "gel", "entity keyword")
 t(" of nature (#RESIST#)", " de la nature (#RESIST#)", "entity name")
-t("nature", "dégâts de nature", "entity keyword")
 t(" of lightning (#RESIST#)", " de foudre (#RESIST#)", "entity name")
 t("lightning", "foudre", "entity keyword")
 t(" of light (#RESIST#)", " de lumière (#RESIST#)", "entity name")
@@ -8907,6 +8906,7 @@ t("spellwoven ", "de tissage de sort ", "entity name")
 t("spellwoven", "tissage de sort", "entity keyword")
 -- texte non traduit
 --[==[
+t("nature", "nature", "entity keyword")
 t("corrosion", "corrosion", "entity keyword")
 --]==]
 
@@ -9599,7 +9599,7 @@ t("travel speed", "vitesse de mouvement", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts/generic.lua"
 
-t("generic spellpower", "puissance des sorts générique", "entity name")
+t("generic spellpower", "Puissance des Sorts générique", "entity name")
 t("generic spellcrit", "crit de sort générique", "entity name")
 t("generic spell crit magnitude", "magnitude de crit de sorts générique", "entity name")
 t("generic spellsurge", "surcharge de sort générique", "entity name")
@@ -9841,7 +9841,7 @@ section "mod-tome/data/general/objects/random-artifacts/staves.lua"
 
 t("stave increased positive/negative energy", "bâton énergie positive/négative augmentée", "entity name")
 t("stave paradox reduce anomalies", "bâton réduction des anomalies de paradoxe", "entity name")
-t("stave spellpower", "bâton puissance des sorts", "entity name")
+t("stave spellpower", "bâton Puissance des Sorts", "entity name")
 t("stave inc damage physical", "bâton augm. dégâts physiques", "entity name")
 t("stave inc damage mind", "bâton augm. dégâts mentaux", "entity name")
 t("stave inc damage fire", "bâton augm. dégâts feu", "entity name")
@@ -9870,7 +9870,7 @@ t("stave resists pen temporal", "bâton pén rés temporel", "entity name")
 ------------------------------------------------
 section "mod-tome/data/general/objects/random-artifacts.lua"
 
-t("spellpower", "puissance des sorts", "entity name")
+t("spellpower", "Puissance des Sorts", "entity name")
 t("spellcrit", "crit de sort", "entity name")
 t("spell crit magnitude", "crit de sort magnitude", "entity name")
 t("mindpower", "puissance mentale", "entity name")
@@ -11137,7 +11137,7 @@ t([[The chronomancer known as Solith was renowned across all of Eyal. He always 
 In the case of opponents who weren't alone, he had to improvise.]], [[Le chronomancien connu sous le nom de Solith était renommé dans tout Eyal. Il semblait toujours attraper ses ennemis seuls.
 Dans le cas d'adversaires qui n'étaient pas seuls, il devait improviser.]], "_t")
 t("insignia ring", "anneau à insigne", "_t")
-t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "tenter d'infliger %0.2f dégâts temporels (basés sur la puissance des sorts et le Paradoxe, le cas échéant) aux ennemis dans un rayon de %d de la boule jusqu'à la portée %d (les chances dépendent du rang, les invocations sont toujours affectées), retirant ceux qui survivent du temps pour un maximum de %d tour(s).", "tformat")
+t("attempt to inflict %0.2f temporal damage (based on Spellpower and Paradox, if any) on foes in a radius %d ball out to range %d (chance depends on rank, summons are always affected), removing any that survive from time for up to %d turn(s)", "tenter d'infliger %0.2f dégâts temporels (basés sur la Puissance des Sorts et le Paradoxe, le cas échéant) aux ennemis dans un rayon de %d de la boule jusqu'à la portée %d (les chances dépendent du rang, les invocations sont toujours affectées), retirant ceux qui survivent du temps pour un maximum de %d tour(s).", "tformat")
 t("%s focuses time flows through %s %s!", "%s concentre les flux de temps à travers %s %s !", "logSeen")
 t("Piercing Gaze", "Regard Pénétrant", "entity name")
 t("stone-eyed shield", "bouclier aux yeux de pierre", "_t")
@@ -11221,7 +11221,7 @@ t("This mask appears to be carved out of the skull of a creature that never shou
 t("Cinderfeet", "Pieds de Cendre", "entity name")
 t("flame coated sandals", "sandales enduites de flammes", "_t")
 t("A cautionary tale tells of the ancient warlock by the name of Caim, who fancied himself daily walks through Goedalath, both to test himself and the harsh demonic wastes. He was careful to never bring anything back with him, lest it provide a beacon for the demons to find him. Unfortunately, over time, his sandals drenched in the soot and ashes of the fearscape and the fire followed his footsteps outside, drawing in the conclusion of his grim fate.", "Un récit édifiant raconte l'histoire d'un ancien sorcier du nom de Caim, qui s'imaginait faire des promenades quotidiennes à travers Goedalath, à la fois pour se mettre à l'épreuve et pour tester les dures terres démoniaques. Il prenait soin de ne jamais rien ramener avec lui, de peur que cela ne serve de balise aux démons pour le retrouver. Malheureusement, avec le temps, ses sandales se sont imprégnées de la suie et des cendres du paysage de la peur et le feu a suivi ses pas à l'extérieur, entraînant la conclusion de son sinistre destin.", "_t")
-t("Each step you take leaves a burning trail behind you lasting 5 turns that deals %d fire damage (based on Spellpower) to foes who enter it.", "Chaque pas que vous faites laisse derrière vous une traînée brûlante durant 5 tours qui inflige %d dégâts de feu (en fonction de la puissance des sorts) aux ennemis qui s'y engagent.", "tformat")
+t("Each step you take leaves a burning trail behind you lasting 5 turns that deals %d fire damage (based on Spellpower) to foes who enter it.", "Chaque pas que vous faites laisse derrière vous une traînée brûlante durant 5 tours qui inflige %d dégâts de feu (en fonction de la Puissance des Sorts) aux ennemis qui s'y engagent.", "tformat")
 t("fire trail", "sentier de feu", "_t")
 t("Cuirass of the Dark Lord", "Cuirasse du Seigneur des Ténèbres", "entity name")
 t("black, spiked armor", "armure noire, à pointes", "_t")
@@ -11393,12 +11393,11 @@ t("large pressure plate", "grande plaque de pression", "_t")
 t(" (from %s)", " (de %s)", "tformat")
 t("Releases a large boulder%s that smashes into the target for %d physical damage and knocks it back.", "Libère un gros rocher%s qui percute la cible pour %d dégâts physiques et la repousse.", "tformat")
 t("huge boulder", "gros rocher", "_t")
-t("arcane", "dégâts d'arcane", "entity subtype")
+t("arcane", "arcanique", "entity subtype")
 t("spinning beam trap", "piège à faisceau tournant", "entity name")
 t("@Target@ activates a trap, and its magical energies change.", "@Target@ active un piège, et ses énergies magiques changent.", "_t")
 t("magical emitter", "émetteur magique", "_t")
 t("Projects a rapidly spinning beam of magical energies (range %d), dealing %d damage (%s%s#WHITE#) to those struck.", "Projette un rayon d'énergies magiques tournant rapidement (portée %d), infligeant %d dégâts (%s%s#WHITE#) à ceux qui sont touchés.", "tformat")
-t("nature", "dégâts de nature", "entity subtype")
 t("poison spore", "spore toxique", "entity name")
 t("@Target@ walks on a poison spore.", "@Target@ marche sur un spore toxique.", "_t")
 t("spore colony", "colonie de spores", "_t")
@@ -11412,6 +11411,11 @@ t("cold flames trap", "piège à flammes froides", "entity name")
 t("Cold flames start to appear around @target@.", "Des flammes froides commencent à apparaître autour de @target@.", "_t")
 t("cold spot", "point froid", "_t")
 t("Cold flames slowly spread from %d spots within radius %d, The flames deal %d cold damage with a chance to freeze.", "Des flammes froides se propagent lentement à partir de %d points dans un rayon de %d. Les flammes infligent %d dégâts de froid avec une chance de geler.", "tformat")
+-- texte non traduit
+--[==[
+t("nature", "nature", "entity subtype")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/elemental.lua"
@@ -11446,7 +11450,6 @@ t("ice blast trap", "piège à glaçons", "entity name")
 t("lightning blast trap", "piège d'éclairs", "entity name")
 t("arcing spot", "point d'arc", "_t")
 t("poison blast trap", "piège à poisons", "entity name")
-t("nature", "dégâts de nature", "entity subtype")
 t("anti-magic trap", "piège anti-magie", "entity name")
 t("@Target@ is blasted with anti-magic forces!", "@Target@ est frappé par des forces anti-magiques !", "_t")
 t("dull area", "endroit terne", "_t")
@@ -11455,6 +11458,11 @@ t("dragon fire trap", "piège de feu de dragon", "entity name")
 t("A powerful blast of fire impacts @target@!", "Une puissante explosion de feu frappe @target@ !", "_t")
 t("burned area", "zone calcinée", "_t")
 t("All within radius %d are dealt %d fire damage, set on fire for %d more fire damage over 3 turns, and may be stunned.", "Tous ceux se trouvant dans un rayon de %d subissent %d dégâts de feu, s'enflamment pour %d dégâts de feu supplémentaires sur 3 tours, et peuvent être assommés.", "tformat")
+-- texte non traduit
+--[==[
+t("nature", "nature", "entity subtype")
+--]==]
+
 
 ------------------------------------------------
 section "mod-tome/data/general/traps/natural_forest.lua"
@@ -20312,7 +20320,7 @@ t([[Create a radius three anti-teleport field for %d turns and daze all enemies 
 		Enemies attempting to teleport while anchored take %0.2f physical and %0.2f temporal (warp) damage.
 		The damage will scale with your Spellpower.]], [[Crée un champ anti-téléportation dans un rayon de 3 cases pendant %d tours et étourdit tous les ennemis dans la zone d'effet pendant 2 tours.
 		Les ennemis qui tentent de se téléporter lorsqu'ils sont ancrés subissent %0.2f dégâts physiques et %0.2f dégâts temporels (distorsion).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spacetime-weaving.lua"
@@ -20343,7 +20351,7 @@ t([[You fold the space between yourself and a second point within a range of %d,
 		The wormholes will last %d turns and must be placed at least two tiles apart.
 		The chance of teleporting enemies will scale with your Spellpower.]], [[Plie l'espace entre vous et un second point dans un rayon de %d cases, créant une paire de trous de ver reliés. Toute créature qui marchera sur l'un d'eux sera téléportée près de l'autre (%d case(s) de précision).
 		Les trous de ver durent %d tours et doivent être placés à au moins deux cases de distance l'un de l'autre.
-		La chance de téléporter les ennemis est proportionnel à votre Puissance des sorts.]], "tformat")
+		La chance de téléporter les ennemis est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Phase Pulse", "Impulsion de Phase", "talent name")
 t([[When you teleport you fire a pulse that jolts enemies out of phase in a radius of %d around both the start and the destination point. 
 		Each target has a %d%% chance per tile you travelled to be stunned, blinded, confused, or pinned for %d turns.]], [[Lorsque vous vous téléportez, vous émettez une impulsion qui met les ennemis hors de phase dans un rayon de %d case(s) autour des points de départ et d'arrivée.
@@ -20416,11 +20424,11 @@ t([[This intricate spell instantly erects a time shield around the caster, preve
 		Lorsque les %d dégâts maximum sont absorbés ou que la durée de %d tours est écoulée, les dégâts stockés reviennent sous forme d'un champ de restauration temporelle sur 5 tours.
 		À chaque tour où le champ de restauration est actif, vous êtes soigné de 10%% des dégâts absorbés.
 		Sous l'effet du Bouclier du Temps, tous les effets magiques, physiques et mentaux nouvellement appliqués verront leur durée réduite de %d%%.
-		L'absorption maximale du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'absorption maximale du bouclier est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Stop", "Arrêt", "talent name")
 t([[Inflicts %0.2f temporal damage, and attempts to stun all targets in a radius %d ball for %d turns.
 		The damage will scale with your Spellpower.]], [[Inflige %0.2f dégâts temporels et tente d'assommer toutes les cibles dans un rayon de %d case(s) pendant %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Static History", "Histoire Stable", "talent name")
 t([[For the next %d turns you may not create minor anomalies.  You do not regain Paradox or lose the spell you're casting if a random anomaly would normally occur.
 		This spell has no effect on major anomalies.]], [[Pendant les %d prochains tours, vous ne pouvez pas créer d'anomalies mineures. Vous ne regagnez pas de Paradoxe et ne perdez pas le sort en cours d'incantation si une anomalie aléatoire se produirait normalement.
@@ -20436,7 +20444,7 @@ t("You focus your aim and fire a shot with great accuracy, inflicting %d%% weapo
 t("Perfect Aim", "Visée Parfaite", "talent name")
 t([[You focus your aim, increasing your critical damage multiplier by %d%% and your physical and spell critical strike chance by %d%%
 		The effect will scale with your Spellpower.]], [[Vous concentrez votre visée, augmentant votre multiplicateur de dégâts critiques de %d%% et votre chance de coup critique physique et magique de %d%%.
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Quick Shot", "Tir Rapide", "talent name")
 t([[You pause time around you long enough to fire a single shot, doing %d%% damage.
 		The damage will scale with your Paradox and the cooldown will go down with more talent points invested.]], [[Vous suspendez le temps autour de vous juste assez longtemps pour tirer un seul coup, infligeant %d%% dégâts.
@@ -20468,11 +20476,11 @@ t([[Folds a single dimension of your weapons (or ammo) upon itself, adding %0.2f
 		Additionally you have a %d%% chance to gain 10%% of a turn when your weapons hit.
 		The damage will scale with your Spellpower.]], [[Plie une seule dimension de vos armes (ou munitions) sur elle-même, ajoutant %0.2f dégâts temporels à vos frappes.
 		De plus, vous avez %d%% de chance de gagner 10%% d'un tour lorsque vos armes touchent.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Invigorate", "Revigorer", "talent name")
 t([[For the next %d turns, you recover %0.1f life and talents without fixed cooldowns will have their cooldowns refresh twice as fast as usual.
 		The life regeneration will scale with your Spellpower.]], [[Pendant les %d prochains tours, vous récupérez %0.1f points de vie et les talents sans rechargement fixe verront leurs rechargements se renouveler deux fois plus vite que d'habitude.
-		La régénération de vie augmente avec votre Puissance des sorts.]], "tformat")
+		La régénération de vie augmente avec votre Puissance des Sorts.]], "tformat")
 t("Weapon Manifold", "Arme Multiforme", "talent name")
 t([[You now have a %d%% chance to Fold Fate, Gravity, or Warp into your Weapon Folding damage.
 		
@@ -20493,7 +20501,7 @@ t([[Attack the target with either your ranged or melee weapons for %d%% damage.
 		If the attack hits you'll breach the target's immunities, reducing armor hardiness, stun, pin, blindness, and confusion immunity by 50%% for %d turns.
 		Breach chance scales with your Spellpower.]], [[Attaquez la cible avec vos armes à distance ou de mêlée pour %d%% dégâts.
 		Si l'attaque touche, vous percez les immunités de la cible, réduisant la robustesse de l'armure et les immunités à l'assommement, l'immobilisation, l'aveuglement, et la confusion de 50%% pendant %d tours.
-		La chance de rupture augmente avec votre Puissance des sorts.]], "tformat")
+		La chance de rupture augmente avec votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/temporal-hounds.lua"
@@ -20516,7 +20524,7 @@ t([[Command your Temporal Hounds to teleport to the targeted location.  If you t
 		The teleportation bonuses scale with your Spellpower.]], [[Commandez vos Chien de Chasse Temporels pour qu'ils se téléportent vers l'emplacement ciblé. Si vous ciblez un ennemi, vos chiens définiront cet ennemi comme leur cible.
 		Lorsque vous apprenez ce talent, vos chiens gagnent %d de défense et %d%% de résistance générale après toute téléportation.
 		Au niveau 5, si vous n'avez pas le nombre maximum de chiens invoqués lorsque vous lancez ce sort, un nouveau sera invoqué.
-		Les bonus de téléportation sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les bonus de téléportation sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Temporal Vigour", "Vigueur Temporelle", "talent name")
 t([[Your hounds can now survive for up to %d turns after their hit points are reduced below 1.  While in this state they deal 50%% less damage but are immune to additional damage.
 		Command Blink will now regenerate your hounds for %d life per turn and increase their global speed by %d%% for five turns.  Hounds below 1 life when this effect occurs will have the bonuses doubled.
@@ -20524,7 +20532,7 @@ t([[Your hounds can now survive for up to %d turns after their hit points are re
 		The regeneration scales with your Spellpower.]], [[Vos chiens peuvent maintenant survivre jusqu'à %d tour(s) après que leurs points de vie soient réduits à moins de 1. Dans cet état, ils infligent 50%% moins de dégâts mais sont immunisés aux dégâts supplémentaires.
 		Commander Passage régénère maintenant vos chiens de %d points de vie par tour et augmente leur vitesse globale de %d%% pendant 5 tours. Les chiens avec moins de 1 point de vie lors de cet effet verront les bonus doublés.
 		Lorsque vous apprenez ce talent, vos chiens gagnent %d%% de résistance à l'assommenent, à l'aveuglement, à la confusion, et à l'immobilisation.
-		La régénération augmente avec votre Puissance des sorts.]], "tformat")
+		La régénération augmente avec votre Puissance des Sorts.]], "tformat")
 t("Command Hounds: Breathe", "Commander les Chiens : Souffler", "talent name")
 t("You must have temporal hounds to use this talent.", "Vous devez avoir des Chien de Chasse Temporel actifs pour utiliser ce talent.", "logPlayer")
 t([[Command your Temporal Hounds to breathe time, dealing %0.2f temporal damage and reducing the three highest stats of all targets in a radius %d cone.
@@ -20573,7 +20581,7 @@ t([[Rethread the timeline, dealing %0.2f temporal damage to the target before mo
 		Rethread can hit up to %d targets up to 10 grids apart, and will never hit the same one twice; nor will it hit the caster.
 		The damage will increase with your Spellpower.]], [[Retrame la ligne du temps, infligeant %0.2f dégâts temporels à la cible avant de passer à une seconde cible.
 		Retramer peut toucher jusqu'à %d cibles séparées de 10 cases au maximum, et ne touchera jamais la même cible deux fois, ni le lanceur.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Temporal Fugue", "Fugue Temporelle", "talent name")
 t("%s's Fugue Clone", "clone de fugue de %s", "tformat")
 t("The real %s... or so %s says.", "%s est le vrai, pas le clone... ou c'est ce que %s prétend.", "tformat")
@@ -20588,7 +20596,7 @@ t("Braid Lifelines", "Entrelacement de Lignes de Vie", "talent name")
 t([[Your Rethread now braids the lifelines of all targets it hits for %d turns.  Braided targets take %d%% of all damage dealt to other braided targets.
 		The amount of damage shared will scale with your Spellpower.]], [[Votre Retramage entrelace maintenant les lignes de vie de toutes les cibles touchées pendant %d tours.
 		Les cibles entrelacées subissent %d%% de tous les dégâts infligés aux autres cibles entrelacées.
-		La quantité de dégâts partagés est proportionnel à votre Puissance des sorts.]], "tformat")
+		La quantité de dégâts partagés est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Cease to Exist", "Cessation de l'Existence", "talent name")
 t("The timeline is too fractured to do this now.", "La ligne du temps est trop fragmentée pour faire cela maintenant.", "logPlayer")
 t("#LIGHT_BLUE#%s never existed, this never happened!", "#LIGHT_BLUE#%s n'a jamais existé, cela ne s'est jamais produit !", "logSeen")
@@ -20610,7 +20618,7 @@ t("Temporal Bolt", "Rayon Temporel", "_t")
 t([[Pull a bolt of temporal energy back through time.  The bolt will home in on your location, dealing %0.2f temporal damage to targets, and reducing the cooldown of one chronomancy talent on cooldown by one turn per enemy hit.
 		The bolt gains 5%% damage each time it moves and the damage will scale with your Spellpower.
 		At talent level five cooldowns are reduced by two.]], [[Évoque un rayon d'énergie temporelle vers votre position depuis le futur, infligeant %0.2f dégâts temporels aux cibles. Pour chaque ennemi touché, le rechargement d'un talent de Chronomancie en attente est réduit d'un tour.
-		Les dégâts du rayon augmentent de 5%% à chaque case parcourue et sont proportionnels à votre Puissance des sorts.
+		Les dégâts du rayon augmentent de 5%% à chaque case parcourue et sont proportionnels à votre Puissance des Sorts.
 		Au niveau 5, la réduction de rechargement passe à 2 tours par cible touchée.]], "tformat")
 t("Time Skip", "Saut Temporel", "talent name")
 t("%s is immune!", "%s est immunisé !", "logSeen")
@@ -20620,7 +20628,7 @@ t("temporal instability", "instabilité temporelle", "_t")
 t("%s has moved forward in time!", "%s a avancé dans le temps !", "logSeen")
 t([[Inflicts %0.2f temporal damage.  If your target survives, it may be removed from time for %d turns.
 		The damage will scale with your Spellpower.]], [[Inflige %0.2f dégâts temporels. Si la cible survit, elle peut être retirée du temps pendant %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Temporal Reprieve", "Sursis Temporel", "talent name")
 t("This talent cannot be used from within the reprieve.", "Ce talent ne peut pas être utilisé depuis l'intérieur du sursis.", "logPlayer")
 t("This talent cannot be used here.", "Ce talent ne peut pas être utilisé ici.", "logPlayer")
@@ -20632,7 +20640,7 @@ t("Transport yourself to a safe place for %d turns.", "Vous transportez dans un 
 t("Echoes From The Past", "Échos du Passé", "talent name")
 t([[Creates a temporal echo in a radius of %d around you.  Affected targets take %0.2f temporal damage, as well as up to %d%% of the difference between their current life and max life as additional temporal damage.
 		The additional damage will be divided by the target's rank and the damage scales with your Spellpower.]], [[Crée un écho temporel dans un rayon de %d cases autour de vous. Inflige %0.2f dégâts temporels et des dégâts supplémentaires pouvant atteindre %d%% des points de vie perdus des cibles.
-		Les dégâts supplémentaires sont divisés par le rang de la cible et les dégâts totaux sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts supplémentaires sont divisés par le rang de la cible et les dégâts totaux sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/blight.lua"
@@ -20640,7 +20648,7 @@ section "mod-tome/data/talents/corruptions/blight.lua"
 t("Dark Ritual", "Rituel Sombre", "talent name")
 t([[Increases your critical damage multiplier by %d%%.
 		The multiplier will increase with your Spellpower.]], [[Augmente votre multiplicateur de dégâts critiques de %d%%.
-		Le multiplicateur est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le multiplicateur est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Corrupted Negation", "Négation Corrompue", "talent name")
 t([[Project a corrupted blast of power that removes up to %d magical or physical effects or any type of sustain and deals %0.2f blight damage to any creatures caught in the radius 3 ball.
 		For each effect, the creature has a chance to resist based on its spell save.
@@ -20652,7 +20660,7 @@ t([[Infects the target with a corrosive worm for 6 turns that reduces blight and
 		When this effect ends or the target dies the worm will explode, dealing %d acid damage in a 4 radius ball. This damage will increase by %d%% of all damage taken while infected.
 		The damage dealt by the effect will increase with spellpower.]], [[Infecte la cible avec un ver corrosif pendant 6 tours qui réduit la résistance au fléau et à l'acide de %d%% et se nourrit des dégâts reçus.
 		Lorsque l'effet se termine ou que la cible meurt, le ver explose, infligeant %d dégâts d'acide dans un rayon de 4 cases. Ces dégâts augmentent de %d%% de tous les dégâts reçus pendant l'infection.
-		Les dégâts causés par l'effet sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts causés par l'effet sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Poison Storm", "Tempête de Poison", "talent name")
 t([[A furious storm of blighted poison rages around the caster in a radius of %d for %d turns.  Each creature hit by the storm takes %0.2f blight damage and is poisoned for %0.2f blight damage over 4 turns.
 		At talent level 2 you have a chance to inflict Insidious Blight, which reduces healing by %d%%.
@@ -20667,7 +20675,7 @@ t([[A furious storm of blighted poison rages around the caster in a radius of %d
 		Au niveau 6, vous avez une chance d'infliger Fléau Estropiant, qui fait que les talents ont %d%% de chance d'échouer.
 		Chaque effet possible a la même probabilité de se produire.
 		Les dégâts de poison peuvent être des coups critiques.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/blood.lua"
@@ -20677,19 +20685,19 @@ t([[You extract corrupted blood from your own body, hitting everything in a fron
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and weakening either Constitution, Strength or Dexterity for 6 turns.
 		The damage will increase with your Spellpower.]], [[Extrayez du sang corrompu de votre propre corps, frappant tout dans un cône frontal de rayon %d pour %0.2f dégâts de fléau.
 		Chaque créature touchée a %d%% de chance d'être infectée par une maladie aléatoire, infligeant %0.2f dégâts de fléau et affaiblissant sa Constitution, Force ou Dextérité pendant 6 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blood Grasp", "Emprise de Sang", "talent name")
 t([[Project a bolt of corrupted blood, doing %0.2f blight damage and healing you for 20%% the damage dealt.
 			50%% of the damage dealt will be gained as maximum life for 7 turns (before the healing).
 		The damage will increase with your Spellpower.]], [[Projette un rayon de sang corrompu, infligeant %0.2f dégâts de fléau et vous soignant de 20%% des dégâts infligés.
 		50%% des dégâts infligés sont convertis en vie maximale pendant 7 tours (avant les soins).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blood Boil", "Ébullition de Sang", "talent name")
 t([[Make the impure blood of all creatures around you in radius %d boil.
 				Each enemy afflicted by a disease, poison, or wound will have one removed at random dealing %0.2f blight damage, healing you for %d, and slowing them by %d%% for 5 turns.
 			The damage will increase with your Spellpower.]], [[Faites bouillir le sang impur de toutes les créatures autour de vous dans un rayon de %d cases.
 		Chaque ennemi affligé d'une maladie, d'un poison ou d'une blessure se verra supprimer un effet aléatoirement, infligeant %0.2f dégâts de fléau, vous soignant de %d points de vie et les ralentissant de %d%% pendant 5 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blood Fury", "Furie de Sang", "talent name")
 t([[Concentrate on the corruption you bring, increasing your spell critical chance by %d%%.
 		Each time your spells go critical, you enter a blood rage for 5 turns, increasing your blight and acid damage by %d%%.
@@ -20703,7 +20711,7 @@ section "mod-tome/data/talents/corruptions/bone.lua"
 t("Bone Spear", "Lance d'Os", "talent name")
 t([[Conjures up a spear of bones, doing %0.2f physical damage to all targets in a line.  Each target takes an additional %d%% damage for each magical debuff they are afflicted with up to a max of %d%% (%d).
 		The damage will increase with your Spellpower.]], [[Conjure une lance d'os, infligeant %0.2f dégâts physiques à toutes les cibles dans une ligne. Chaque cible subit %d%% de dégâts supplémentaires par malus magique dont elle est affligée, jusqu'à un maximum de %d%% (%d).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Bone Grab", "Griffe d'Os", "talent name")
 t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
 t("%s resists being teleported by Bone Grab!", "%s résiste à la téléportation par Griffe d'Os !", "logSeen")
@@ -20711,11 +20719,11 @@ t([[Grab a target and teleport it to your side or if adjacent up to 6 spaces awa
 		The bone will also deal %0.2f physical damage.
 		The damage will increase with your Spellpower.]], [[Agrippe une cible et la téléporte à vos côtés, ou si elle est adjacente, jusqu'à 6 cases de vous, l'immobilisant avec un os surgissant du sol pendant %d tours.
 		L'os inflige également %0.2f dégâts physiques.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Bone Spike", "Pointe d'Os", "talent name")
 t([[Whenever you use a non-instant talent you launch a spear of bone at all enemies afflicted by 3 or more magical detrimental effects dealing %d physical damage to all enemies it passes through.
 		The damage will increase with your Spellpower.]], [[Chaque fois que vous utilisez un talent non instantané, vous lancez une lance d'os sur tous les ennemis affligés de 3 effets magiques négatifs ou plus, infligeant %d dégâts physiques à tous les ennemis qu'elle traverse.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Bone Shield", "Bouclier d'Os", "talent name")
 t("#SLATE#(%d to bones)#LAST#", "#SLATE#(%d au bouclier d'os)#LAST#", "tformat")
 t([[Bone shields start circling around you. They will each fully absorb one instance of damage.
@@ -20724,7 +20732,7 @@ t([[Bone shields start circling around you. They will each fully absorb one inst
 		This will only trigger on hits over %d damage based on Spellpower.]], [[Des boucliers d'os commencent à tournoyer autour de vous. Chacun absorbera entièrement une instance de dégâts.
 		%d bouclier(s) sera(seront) généré(s) lors de la première activation.
 		Ensuite, tous les %d tours, un nouveau sera créé s'il n'est pas au maximum.
-		Cela ne se déclenchera que sur des coups supérieurs à %d dégâts en fonction de votre Puissance des sorts.]], "tformat")
+		Cela ne se déclenchera que sur des coups supérieurs à %d dégâts en fonction de votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/corruptions.lua"
@@ -20769,19 +20777,19 @@ section "mod-tome/data/talents/corruptions/curses.lua"
 t("Curse of Defenselessness", "Malédiction du Sans Défense", "talent name")
 t([[Curses your target, decreasing its Defense and all saves by %d for 5 turns.  This cannot be saved against.
 		The effects will improve with your Spellpower.]], [[Maudit votre cible, réduisant sa Défense et toutes ses sauvegardes de %d pendant 5 tours. Impossible de résister à cet effet.
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Curse of Impotence", "Malédiction de l'Impuissance", "talent name")
 t([[Curses your target, decreasing all damage it does by %d%% for 10 turns.
 		The effects will improve with your Spellpower.]], [[Maudit votre cible, réduisant tous les dégâts qu'elle inflige de %d%% pendant 10 tours.
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Curse of Death", "Malédiction de Mort", "talent name")
 t([[Curses your target, preventing normal life regeneration and dealing %0.2f darkness damage over 10 turns.
 		The damage will increase with your Spellpower.]], [[Maudit votre cible, empêchant la régénération normale de la vie et infligeant %0.2f dégâts d'obscurité sur 10 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Curse of Vulnerability", "Malédiction de Vulnérabilité", "talent name")
 t([[Curses your target, decreasing all its resistances by %d%% for 7 turns.
 		The effect will improve with your Spellpower.]], [[Maudit votre cible, réduisant toutes ses résistances de %d%% pendant 7 tours.
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/hexes.lua"
@@ -20789,17 +20797,17 @@ section "mod-tome/data/talents/corruptions/hexes.lua"
 t("Pacification Hex", "Ensorcellement Pacificateur", "talent name")
 t([[Hexes your target, dazing it and everything in a 2 radius ball around it for 3 turns and giving a %d%% chance to daze affected targets again each turn for 20 turns.
 		The chance will increase with your Spellpower.]], [[Ensorcelle votre cible, l'étourdissant ainsi que tout ce qui l'entoure dans un rayon de 2 cases pendant 3 tours, avec %d%% de chance d'étourdir à nouveau les cibles affectées par tour pendant 20 tours.
-		La chance est proportionnel à votre Puissance des sorts.]], "tformat")
+		La chance est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Burning Hex", "Ensorcellement Brûlant", "talent name")
 t([[Hexes your target and everything within a radius 2 ball around it for 20 turns. Each time an affected target uses a resource (stamina, mana, vim, ...), it takes %0.2f fire damage.
 		In addition, the cooldown of any talent used while so hexed is increased by %d%% + 1 turn.
 		The damage will increase with your Spellpower.]], [[Ensorcelle votre cible et tout ce qui l'entoure dans un rayon de 2 cases pendant 20 tours. Chaque fois qu'une cible affectée utilise une ressource (endurance, mana, vitae...), elle subit %0.2f dégâts de feu.
 		De plus, le rechargement de tout talent utilisé sous l'effet de l'ensorcellement est augmenté de %d%% + 1 tour.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Empathic Hex", "Ensorcellement Empathique", "talent name")
 t([[Hexes your target and everything within a radius 2 ball around it. Each time they do damage, they take %d%% of the same damage for 20 turns.
 		The damage will increase with your Spellpower.]], [[Ensorcelle votre cible et tout ce qui l'entoure dans un rayon de 2 cases. Chaque fois qu'elles infligent des dégâts, elles subissent %d%% des mêmes dégâts pendant 20 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Domination Hex", "Ensorcellement Dominateur", "talent name")
 t([[Hexes your target, forcing it to be your thrall for %d turns.
 		If you damage the target, it will be freed from the hex.]], [[Ensorcelle votre cible, la forçant à être votre serviteur pendant %d tours.
@@ -20816,13 +20824,13 @@ t([[Whenever you deal non-disease blight damage you apply a disease dealing %0.2
 		The effect will increase with your Spellpower.]], [[Chaque fois que vous infligez des dégâts de fléau (hors maladies), vous appliquez une maladie qui inflige %0.2f dégâts de fléau par tour pendant 6 tours et réduit un de ses attributs physiques (force, constitution, dextérité) de %d. Les trois maladies peuvent se cumuler.
 		Maladie Virulente tentera toujours d'appliquer une maladie que la cible n'a pas actuellement, et aussi celle qui aura l'effet le plus débilitant pour la cible.
 		Cette maladie tentera de prioriser son application sur un ennemi avec un grand nombre de maladies près de la cible.
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Cyst Burst", "Éclatement de Kyste", "talent name")
 t([[Make your target's diseases burst, doing %0.2f blight damage for each disease it is infected with.
 		This will also spread any diseases to any nearby foes in a radius of %d with a minimum duration of 6.
 		The damage will increase with your Spellpower.]], [[Faites éclater les maladies de votre cible, infligeant %0.2f dégâts de maladie par maladie dont elle est infectée.
 		Cela répandra également toutes les maladies aux ennemis proches dans un rayon de %d cases avec une durée minimale de 6 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Catalepsy", "Catalepsie", "talent name")
 t("Diseases #DARK_GREEN#BURN THROUGH#LAST# %s!", "Les maladies #DARK_GREEN#CONSUMENT#LAST# %s !", "logSeen")
 t("%s resists the stun!", "%s résiste à l'assommement !", "logSeen")
@@ -20839,7 +20847,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		La chance de propagation est proportionnel aux dégâts de fléau infligés et devient 100%% si ces dégâts représentent au moins %d%% de la vie maximale de la cible.
 		Les créatures souffrant de cette maladie subiront également une réduction des soins de %d%% et une réduction de l'immunité aux maladies de %d%%.
 		L'Épidémie est une maladie extrêmement puissante ; à ce titre, elle ignore totalement l'immunité aux maladies de la cible.
-		Les dégâts sont proportionnels à votre Puissance des sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/reaving-combat.lua"
@@ -20851,7 +20859,7 @@ t([[Allows you to dual wield any type of one handed weapons, and increases the d
 t("Bloodlust", "Soif de Sang", "talent name")
 t([[Each time you hit an enemy with a melee weapon you enter a bloodlust-infused frenzy, increasing your Spellpower by %0.1f.
 		This effect stacks up to 10 times for a total Spellpower gain of %d.
-		The frenzy lasts 3 turns.]], [[Chaque fois que vous touchez un ennemi avec une arme de mêlée, vous entrez dans une frénésie assoiffée de sang, augmentant votre Puissance des sorts de %0.1f.
+		The frenzy lasts 3 turns.]], [[Chaque fois que vous touchez un ennemi avec une arme de mêlée, vous entrez dans une frénésie assoiffée de sang, augmentant votre Puissance des Sorts de %0.1f.
 		Cet effet se cumule jusqu'à 10 fois pour un gain total de %d de Puissance des Sorts.
 		La frénésie dure 3 tours.]], "tformat")
 t("Carrier", "Porteur", "talent name")
@@ -20865,7 +20873,7 @@ t([[Your blood turns into an acidic mixture. When you get hit, the attacker is s
 		The damage will increase with your Spellpower.]], [[Votre sang se transforme en un mélange acide. Lorsque vous êtes touché, l'attaquant est aspergé d'acide.
 		Cela inflige %0.2f dégâts d'acide par tour pendant 5 tours et réduit la Précision de l'attaquant de %d.
 		Au niveau 3, cela réduit également l'Armure de %d pendant 5 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/rot.lua"
@@ -20876,7 +20884,7 @@ t([[Bite the target, dealing %d%% melee damage
 		If the attack hits you'll inject blight poison into the target, dealing %0.2f blight damage and a further %0.2f blight damage over 4 turns.
 		The bonus damage improves with your Spellpower.]], [[Mordez la cible, infligeant %d%% dégâts de mêlée.
 		Si l'attaque touche, vous injectez du poison de fléau dans la cible, infligeant %0.2f dégâts de fléau et %0.2f dégâts de fléau supplémentaires sur 4 tours.
-		Le bonus de dégâts est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le bonus de dégâts est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("A worm spawned from a damaged horror.  Destroying it may have consequences.", "Un ver engendré par une horreur blessée. Le détruire pourrait avoir des conséquences.", "_t")
 t("%s exudes a corrupted gas as it dies.", "%s dégage un gaz corrompu en mourant.", "logSeen")
 t("Summon", "Invocation", "_t")
@@ -20900,7 +20908,7 @@ Your worms also have a %d%% chance to blind, silence, disarm or pin with their m
 The chance to apply this effect will increase with your Spellpower.]], [[Lorsque vous infligez des dégâts de fléau, vous avez %d%% de chance de faire pourrir la cible, la réduisant au silence, la désarmant, l'aveuglant ou l'immobilisant pendant %d tours. Cet effet a un rechargement.
 Au niveau 4, affecte les cibles dans un rayon de 1 case.
 Vos vers ont également %d%% de chance d'aveugler, de réduire au silence, de désarmer ou d'immobiliser avec leurs attaques de mêlée, durant 2 tours.
-La chance d'appliquer cet effet est proportionnel à votre Puissance des sorts.]], "tformat")
+La chance d'appliquer cet effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Worm Rot", "Pourriture Vermeuse", "talent name")
 t("%s resists the worm rot!", "%s résiste à la pourriture vermeuse !", "logSeen")
 t([[Infects the target with parasitic carrion worm larvae for 5 turns.  Each turn the disease will remove a beneficial physical effect and deal %0.2f acid and %0.2f blight damage.
@@ -20911,7 +20919,7 @@ The damage dealt will increase with your Spellpower.]], [[Infecte la cible avec 
 Si non éliminée après 5 tours, elle infligera %0.2f dégâts de fléau lorsque les larves écloront, supprimant l'effet mais engendrant une masse de vers charognards adultes près de la cible.
 Même si cette maladie est supprimée tôt, il y a toujours %d%% de chance que les larves éclosent.
 Vous ne pouvez jamais avoir plus de 5 vers actifs simultanément, quelle que soit la source.
-Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 -- texte non traduit
 --[==[
 t("Infestation", "Infestation", "talent name")
@@ -20926,7 +20934,7 @@ t([[Fires a bolt of blight, doing %0.2f blight damage and replenishing 20%% of i
 		The amount of vim regained depends on the target's rank (higher ranks give more vim).
 		The effect will increase with your Spellpower.]], [[Tire un rayon de fléau, infligeant %0.2f de dégâts de fléau et reconstituant 20%% de ces dégâts en Vitae.
 		La quantité de Vitae récupérée dépend du rang de la cible (les rangs plus élevés donnent plus de Vitae).
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Bloodcasting", "Lancement Sanguinolant", "talent name")
 t("The cost of using life instead of vim for talents is reduced to %d%%.", "Lorsqu'il n'y a pas assez de Vitae pour utiliser vos talents, de la vie est consommée à la place. Ce coût en vie est réduit à %d%%.", "tformat")
 t("Absorb Life", "Absorption de Vie", "talent name")
@@ -20938,7 +20946,7 @@ t([[Feed on the pain you cause your foes.
 			For 2 turns you gain %d%% lifesteal on all damage dealt.
 			The lifesteal will increase with your Spellpower.]], [[Vous vous nourrissez de la douleur que vous causez à vos ennemis.
 		Pendant 2 tours, vous gagnez %d%% de vol de vie sur tous les dégâts infligés.
-		Le vol de vie est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le vol de vie est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/scourge.lua"
@@ -20950,14 +20958,14 @@ Chaque toucher réussi augmentera la durée de l'effet de maladie de plus courte
 t("Ruin", "Ruine", "talent name")
 t([[Concentrate on the corruption you bring, enhancing each of your melee strikes with %0.2f blight damage (which also heals you for %0.2f each hit).
 		The damage will increase with your Spellpower.]], [[Concentrez-vous sur la corruption que vous apportez, améliorant chacune de vos frappes de mêlée de %0.2f dégâts de fléau (qui vous soigne également de %0.2f par toucher).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Acid Strike", "Frappe Acide", "talent name")
 t("You cannot use Acid Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe Acide sans avoir deux armes !", "logPlayer")
 t([[Strike with each of your weapons, doing %d%% acid weapon damage with each hit.
 		If at least one of the strikes hits, an acid splash is generated, doing %0.2f acid damage to all enemies in radius %d around the foe you struck.
 		The splash damage will increase with your Spellpower.]], [[Frappez avec chacune de vos armes, infligeant %d%% dégâts d'arme acide par toucher.
 		Si au moins un des coups touche, une éclaboussure d'acide est générée, infligeant %0.2f dégâts d'acide à tous les ennemis dans un rayon de %d cases autour de l'ennemi frappé.
-		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Corrupting Strike", "Frappe Corruptrice", "talent name")
 t("You cannot use Corrupting Strike without two weapons!", "Vous ne pouvez pas utiliser Frappe Corruptrice sans avoir deux armes !", "logPlayer")
 t("Corrupt the target reducing disease immunity by 100%% for 2 turns and stripping up to 2 nature sustains then strike with both your weapons dealing %d%% damage.", "Corrompt la cible réduisant l'immunité aux maladies de 100%% pendant 2 tours et enlevant jusqu'à 2 effets soutenus de nature puis frappe avec vos deux armes infligeant %d%% dégâts.", "tformat")
@@ -20975,7 +20983,7 @@ t([[Turn into a wraith, allowing you to walk through walls and removing the need
 t("Darkfire", "Feu Sombre", "talent name")
 t([[Conjures up a bolt of shadowflame that moves toward the target and explodes into a flash of darkness and fire, doing %0.2f fire damage and %0.2f darkness damage in a radius of %d.
 		The damage will increase with your Spellpower.]], [[Conjure un rayon de flamme ténébreuse qui se dirige vers la cible et explose en un éclair de ténèbres et de feu, infligeant %0.2f dégâts de feu et %0.2f dégâts d'obscurité dans un rayon de %d cases.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Flame of Urh'Rok", "Flamme d'Urh'Rok", "talent name")
 t([[Call upon the essence of the supreme demon overlord Urh'Rok to turn into a demon.
 		While in demon form, you gain %d%% fire resistance, %d%% darkness resistance, and your global speed is increased by %d%%.
@@ -20983,7 +20991,7 @@ t([[Call upon the essence of the supreme demon overlord Urh'Rok to turn into a d
 		The resistances and heal will increase with your Spellpower.]], [[Invoquez l'essence du suprême seigneur des démons Urh'Rok pour vous transformer en démon.
 		Sous forme de démon, vous gagnez %d%% de résistance au feu, %d%% de résistance à l'obscurité et votre vitesse globale augmente de %d%%.
 		Les flammes du Plan de la Peur vous soigneront sous forme de démon.
-		Les résistances et les soins sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les résistances et les soins sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Fearscape", "Plan de la Peur", "talent name")
 t("This spell cannot be used from within the Fearscape.", "Ce sort ne peut pas être utilisé depuis l'intérieur du Plan de la Peur.", "logPlayer")
 t("This spell cannot be cast here.", "Ce sort ne peut pas être lancé ici.", "logPlayer")
@@ -21002,7 +21010,7 @@ t([[Summon a part of the Fearscape to intersect with the current level.
 		Quand le sort prend fin, seulement vous et la cible (si encore en vie), ainsi que tous les objets au sol, êtes ramenés à votre plan d'origine ; toutes les invocations restent dans le Plan de la Peur.
 		Ce puissant sort draine 5 Vitae par tour initialement, augmentant de +1 pour chaque tour d'activité, et se termine lorsque votre Vitae est épuisée.
 		N'a aucun effet si lancé depuis l'intérieur du Plan de la Peur.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/torment.lua"
@@ -21015,14 +21023,14 @@ t("Reach out and touch the blood and health of your foes. Any creatures caught i
 t("Overkill", "Massacre", "talent name")
 t([[When you kill a creature, the remainder of the damage done will not be lost. Instead, %d%% of it will splash in a radius 2 as blight damage.
 		The splash damage will increase with your Spellpower.]], [[Lorsque vous tuez une créature, le dommage excédentaire ne sera pas perdu. À la place, %d%% de ce dommage éclabousse dans un rayon de 2 cases sous forme de dégâts de fléau.
-		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts d'éclaboussure sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blood Vengeance", "Vengeance de Sang", "talent name")
 t("#RED#The powerful blow energizes %s reducing their cooldowns!#LAST#", "#RED#Le puissant coup énergise %s, réduisant ses rechargements !#LAST#", "logSeen")
 t([[When you are dealt a blow that reduces your life by at least %d%%, you have a %d%% chance to reduce the remaining cooldown of all your talents by 1.
 		Temporary life from Sanguine Infusion will not count against the damage threshold.
 		The chance will increase with your Spellpower.]], [[Lorsque vous recevez un coup qui réduit votre vie d'au moins %d%%, vous avez %d%% de chance de réduire de 1 tour le rechargement restant de tous vos talents.
 		La vie temporaire de l'Infusion Sanguine ne compte pas dans le seuil de dégâts.
-		La chance est proportionnel à votre Puissance des sorts.]], "tformat")
+		La chance est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/vile-life.lua"
@@ -21048,20 +21056,20 @@ t([[Use elemental damage dealt to you to trigger terrible effects on the source:
 		* #ROYAL_BLUE#Foudre#LAST# : étourdit pendant %d tours.
 		* #LIGHT_GREEN#Nature#LAST# : ralentit de %d%% pendant 4 tours.
 		Cet effet ne peut se produire qu'une fois toutes les 10 tours par type de dégâts.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Healing Inversion", "Soins Inversé", "talent name")
 t([[You manipulate the vim of enemies in radius %d to temporarily invert all healing done to them (but not natural regeneration).
 		For 5 turns all healing will instead damage them for %d%% of the healing done as blight.
 		The effect will increase with your Spellpower.]], [[Vous manipulez la Vitae des ennemis dans un rayon de %d cases pour inverser temporairement tous les soins qui leur sont prodigués (mais pas la régénération naturelle).
 		Pendant 5 tours, tous les soins infligent à la place des dégâts égaux à %d%% des soins sous forme de fléau.
-		L'effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Vile Transplant", "Vile Transplantation", "talent name")
 t("#CRIMSON##Source# transfers an effect (%s) to #Target#!", "#CRIMSON##Source# transfère un effet (%s) à #Target# !", "tformat")
 t([[You transfer up to %d physical or magical detrimental effects currently affecting you to a nearby creature at a cost of %d vim per effect.
 		Specific effect immunities will not prevent the transfer.
 		The chance to transfer each effect increases with your Spellpower.]], [[Vous transférez jusqu'à %d effets physiques ou magiques négatifs qui vous affectent actuellement vers une créature proche, au coût de %d Vitae par effet.
 		Les immunités à des effets spécifiques n'empêcheront pas le transfert.
-		La chance de transférer chaque effet est proportionnel à votre Puissance des sorts.]], "tformat")
+		La chance de transférer chaque effet est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/corruptions/vim.lua"
@@ -21071,18 +21079,18 @@ t([[Projects a bolt of pure blight, doing %0.2f blight damage.
 		This spell has an improved critical strike chance of +%0.2f%%.
 		The damage will increase with your Spellpower.]], [[Projette un rayon de fléau pure, infligeant %0.2f dégâts de fléau.
 		Ce sort a une chance de coup critique améliorée de +%0.2f%%.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Dark Portal", "Portail Sombre", "talent name")
 t([[Open a dark portal (radius 3) to the target zone. All creatures caught inside will be teleported to your location, and you to theirs.
 		All creatures (except you) traversing the portal will catch a random disease, doing %0.2f blight damage per turn for 6 turns and reducing one of its physical stats (strength, constitution, dexterity) by %d.
 		The damage will increase with your Spellpower.]], [[Ouvrez un portail sombre (rayon 3) vers la zone cible. Toutes les créatures capturées à l'intérieur seront téléportées à votre emplacement, et vous au leur.
 		Toutes les créatures (sauf vous) traversant le portail contracteront une maladie aléatoire, recevant %0.2f dégâts de fléau par tour pendant 6 tours et réduisant un de leurs attributs physiques (force, constitution, dextérité) de %d.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Vimsense", "Sens de la Vitae", "talent name")
 t([[Feel the very existence of creatures around you for %d turns, in a radius of 10.
 		The evil touch will reduce their blight resistance by %d%% and all saves by %d, but also make them aware of you.
 		The resistance and save reduction will improve with your Spellpower.]], [[Sentez la véritable existence des créatures autour de vous pendant %d tours dans un rayon de 10 cases. Le contact maléfique réduira leur résistance au fléau de %d%% et toutes leurs sauvegardes de %d, mais les rendra également conscientes de votre position.
-		La résistance et la réduction des sauvegardes sont proportionnels à votre Puissance des sorts.]], "tformat")
+		La résistance et la réduction des sauvegardes sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Leech", "Succion", "talent name")
 t("Each time a creature affected by vimsense hurts you, you regain %0.2f vim and %0.2f health.", "Chaque fois qu'une créature affectée par le Sens de la Vitae vous blesse, vous récupérez %0.2f de Vitae et %0.2f de vie.", "tformat")
 
@@ -21092,7 +21100,7 @@ section "mod-tome/data/talents/cunning/ambush.lua"
 t("Shadowguard", "Garde des Ombres", "talent name")
 t([[Your Soothing Darkness talent effect now grants 25%% all damage resistance on exiting stealth.
 		When your life drops below 50%% you become immune to negative detrimental effects for %d turns and gain %d defense and %d spellpower for %d turns.]], [[L'effet de votre talent Obscurité Apaisante accorde maintenant 25%% de résistance à tous les dégâts lors de la sortie de furtivité.
-		Lorsque votre vie tombe en dessous de 50%%, vous devenez immunisé aux effets négatifs pendant %d tours et gagnez %d de défense et %d de Puissance des sorts pendant %d tours.]], "tformat")
+		Lorsque votre vie tombe en dessous de 50%%, vous devenez immunisé aux effets négatifs pendant %d tours et gagnez %d de défense et %d de Puissance des Sorts pendant %d tours.]], "tformat")
 t("Shadow Grasp", "Emprise des Ombres", "talent name")
 t("%s resists the silence!", "%s résiste au silence !", "logSeen")
 t("%s resists the disarm!", "%s résiste au désarmement !", "logSeen")
@@ -21100,13 +21108,13 @@ t([[You reach out with the shadows silencing and disarming your target for %d tu
 		The shadows will deal %d darkness damage to the target and pull it to you.
 		The chance to apply debuffs improves with your Accuracy and the damage with your Spellpower.]], [[Vous étendez les ombres pour réduire au silence et désarmer votre cible pendant %d tours.
 		Les ombres infligent %d dégâts d'obscurité à la cible et la tirent vers vous.
-		La chance d'appliquer les malus sont proportionnels à votre Précision et les dégâts à votre Puissance des sorts.]], "tformat")
+		La chance d'appliquer les malus sont proportionnels à votre Précision et les dégâts à votre Puissance des Sorts.]], "tformat")
 t("Umbral Agility", "Agilité Ombrale", "talent name")
 t([[Your mastery of dark magic empowers you.
 		You gain %d Accuracy, %d Defense, and %d%% Darkness damage penetration.
 		The effects will increase with your Spellpower stat.]], [[Votre maîtrise de la magie sombre vous renforce.
 		Vous gagnez %d de Précision, %d de Défense et %d%% de pénétration des dégâts d'obscurité.
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shadow Veil", "Voile d'Ombre", "talent name")
 t("No target nearby.", "Aucune cible à proximité.", "logPlayer")
 t([[You veil yourself in shadows and let them control you.
@@ -21121,7 +21129,7 @@ t([[You veil yourself in shadows and let them control you.
 		Pendant cet effet, vous ne pouvez pas être arrêté (sauf si vous êtes tué), mais perdez le contrôle de votre personnage.
 		L'effet se termine si aucune cible n'est trouvée.
 		Ce déplacement n'est pas considéré comme une téléportation.
-		La résistance est proportionnel à votre Puissance des sorts.]], "tformat")
+		La résistance est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/artifice.lua"
@@ -21487,9 +21495,9 @@ section "mod-tome/data/talents/cunning/shadow-magic.lua"
 t("Shadow Combat", "Combat des Ombres", "talent name")
 t([[Channel raw magical energy into your melee attacks; each blow you land will do an additional %.2f darkness damage.
 		The damage will improve with your Spellpower.]], [[Canalisez de l'énergie magique brute dans vos attaques de corps à corps ; chaque coup porté infligera %.2f dégâts d'obscurité supplémentaires.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shadow Cunning", "Ruse des Ombres", "talent name")
-t("Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "Vos préparatifs vous confèrent de plus grandes capacités magiques. Vous gagnez un bonus de Puissance des sorts égal à %d%% de votre Ruse (bonus actuel : %d).", "tformat")
+t("Your preparations give you greater magical capabilities. You gain a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "Vos préparatifs vous confèrent de plus grandes capacités magiques. Vous gagnez un bonus de Puissance des Sorts égal à %d%% de votre Ruse (bonus actuel : %d).", "tformat")
 t("Shadow Feed", "Alimentation des Ombres", "talent name")
 t([[You draw energy from the depths of the shadows.
 		While sustained, you regenerate %0.2f mana per turn, and your physical and spell attack speed increases by %0.1f%%.]], [[Vous puisez de l'énergie dans les profondeurs des ombres.
@@ -21773,7 +21781,7 @@ t("Creates a radius 5 gravitic anomaly lasting up to %d turns.  Hostile creature
 t([[Lay a trap that creates a radius 5 gravitic anomaly when triggered by foes approaching within range 1.  Each turn, the anomaly deals %0.2f temporal damage (based on your Magic) to foes while pulling them towards its center (chance increases with your combat accuracy or spell power, whichever is higher).
 		Each anomaly lasts %d turns (up to the amount of time since the last anomaly dissipated, based on your Trap Mastery skill).
 		The trap may trigger more than once, but requires at least 2 turns to recharge between activations.
-This design does not require advanced preparation to use.]], [[Placez un piège qui génère une anomalie gravitationnelle d'un rayon de 5 lorsqu'il est déclenché par des ennemis s'approchant à une portée de 1. À chaque tour, l'anomalie inflige %0.2f dégâts temporels (basé sur la Magie) aux ennemis tout en les attirant vers son centre (la probabilité augmente en fonction de votre précision au combat ou de votre puissance des sorts, la valeur la plus élevée étant retenue).
+This design does not require advanced preparation to use.]], [[Placez un piège qui génère une anomalie gravitationnelle d'un rayon de 5 lorsqu'il est déclenché par des ennemis s'approchant à une portée de 1. À chaque tour, l'anomalie inflige %0.2f dégâts temporels (basé sur la Magie) aux ennemis tout en les attirant vers son centre (la probabilité augmente en fonction de votre précision au combat ou de votre Puissance des Sorts, la valeur la plus élevée étant retenue).
 		Chaque anomalie dure %d tours (jusqu’à la durée écoulée depuis la dissipation de la dernière anomalie, en fonction de votre talent Maîtrise des pièges).
 		Le piège peut se déclencher plusieurs fois, mais nécessite au moins 2 tours de recharge entre chaque activation.
 Cette conception ne nécessite aucune préparation préalable pour être utilisée.]], "tformat")
@@ -22750,7 +22758,7 @@ t([[Conjures %d missile-shaped rocks that you target individually at any target 
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[Conjure %d roches en forme de missile que vous ciblez individuellement sur toute cible ou cibles à portée. Chaque missile inflige %0.2f dégâts physiques et un Saignement supplémentaire de %0.2f dégâts physiques par tour pendant 5 tours.
 		Au niveau 5, vous pouvez conjurer un missile supplémentaire.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Elemental Split", "Scission Élémentaire", "talent name")
 t("Crystaline Half (%s)", "Moitié Cristalline (%s)", "tformat")
 t("A crystaline structure that has taken the form of %s.", "Une structure cristalline qui a pris la forme de %s.", "tformat")
@@ -24321,35 +24329,35 @@ t("Try to confuse the target's mind for %d (power %d%%) turns.", "Tente de pertu
 t("Water Bolt", "Rayon d'Eau", "talent name")
 t([[Condenses ambient water on a target, inflicting %0.1f cold damage.
 		The damage will increase with your Spellpower.]], [[Condense l'eau ambiante sur une cible, lui infligeant %0.1f dégâts de froid.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Flame Bolt", "Rayon de Feu", "talent name")
 t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire damage over 3 turns.
 		The damage will increase with your Spellpower.]], [[Conjure un rayon de feu, enflammant la cible et lui infligeant %0.2f dégâts de feu sur 3 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Ice Bolt", "Rayon de Glace", "talent name")
 t([[Hurl ice shard at the target dealing %0.2f ice damage.
 		The damage will increase with your Spellpower.]], [[Lance un éclat de glace sur la cible, lui infligeant %0.2f dégâts de glace.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blight Bolt", "Rayon de Fléau", "talent name")
 t([[Projects a bolt of pure blight, doing %0.2f blight damage.
 		This spell has an improved critical strike chance of +%0.2f%%.
 		The damage will increase with your Spellpower.]], [[Projette un rayon de fléau pure, infligeant %0.2f dégâts de fléau.
 		Ce sort a une chance de coup critique améliorée de +%0.2f%%.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Water Jet", "Jet d'Eau", "talent name")
 t([[Condenses ambient water on a target, inflicting %0.1f cold damage and stunning it for 4 turns.
 		The damage will increase with your Spellpower]], [[Condense l'eau ambiante sur une cible, lui infligeant %0.1f dégâts de froid et l'étourdissant pendant 4 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Void Blast", "Explosion du Vide", "talent name")
 t([[Fires a blast of void energies that slowly travel to their target, dealing %0.2f arcane damage on impact.
 		The damage will increase with your Spellpower.]], [[Tire une explosion d'énergies du vide qui voyage lentement vers sa cible, infligeant %0.2f dégâts arcaniques à l'impact.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Restoration", "Restauration", "talent name")
 t("Call upon the forces of nature to cure your body of %d poisons and diseases.", "Invoque les forces de la nature pour guérir votre corps de %d poison(s) et maladie(s).", "tformat")
 t("Regeneration", "Régénération", "talent name")
 t([[Call upon the forces of nature to regenerate your body for %d life every turn for 10 turns.
 		The life healed increases with Spellpower.]], [[Invoque les forces de la nature pour régénérer %d vie par tour pendant 10 tours.
-		Le soin est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le soin est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Grab", "Saisie", "talent name")
 t("%s resists the grab!", "%s résiste à la saisie !", "logSeen")
 t("Hits the target doing %d%% damage; if the attack hits, the target is pinned to the ground for %d turns.  The chance to pin improves with Physical Power.", "Frappe la cible, infligeant %d%% dégâts ; si l'attaque touche, la cible est immobilisée au sol pendant %d tours. La chance d'immobiliser s'améliore avec la Puissance physique.", "tformat")
@@ -24411,7 +24419,7 @@ t([[Sends a telekinetic attack, knocking back the target up to 3 grids and doing
 t("Blightzone", "Zone de Fléau", "talent name")
 t([[Corrupted vapour rises at the target location (radius 4) doing %0.2f blight damage every turn for %d turns.
 		The damage increases with Spellpower.]], [[De la vapeur corrompue s'élève à l'emplacement cible (rayon 4), infligeant %0.2f dégâts de fléau par tour pendant %d tours.
-		Les dégâts sont proportionnels à la Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à la Puissance des Sorts.]], "tformat")
 t("Invoke Tentacle", "Invoquer un Tentacule", "talent name")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("%s spawns one of its tentacles!", "%s fait surgir l'un de ses tentacules !", "logSeen")
@@ -24433,7 +24441,7 @@ t("A volcano erupts!", "Un volcan entre en éruption !", "_t")
 t("raging volcano", "volcan furieux", "_t")
 t([[Summons a small raging volcano for %d turns. Every turn, it will fire a molten boulder towards up to %d of your foes, dealing %0.2f fire and %0.2f physical damage.
 		The damage will scale with your Spellpower.]], [[Invoque un petit volcan furieux pendant %d tours. À chaque tour, il tire une pierre fondue en direction de %d ennemis, infligeant %0.2f dégâts de feu et %0.2f dégâts physiques.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Speed Sap", "Consommer la Vitesse", "talent name")
 t([[Saps 30%% of the target's speed (increasing yours by the same amount) and inflicts %0.2f temporal damage for three turns.
 		]], [[Consomme 30%% de la vitesse de la cible (augmentant la vôtre du même montant) et inflige %0.2f dégâts temporels pendant trois tours.
@@ -24453,15 +24461,15 @@ t("Invoke a slimy crawler for 10 turns.", "Invoque un rampant visqueux pendant 1
 t("Strike", "Frappe", "talent name")
 t([[Conjures up a fist of stone, doing %0.2f physical damage and knocking the target back 3 grids.
 		The damage will increase with your Spellpower.]], [[Conjure un poing de pierre, infligeant %0.2f dégâts physiques et repoussant la cible de 3 cases.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Corrosive Vapour", "Vapeur Corrosive", "talent name")
 t([[Corrosive fumes rise from the ground doing %0.2f acid damage in a radius of 3 each turn for %d turns.
 		The damage will increase with your Spellpower.]], [[Des vapeurs corrosives s'élèvent du sol, infligeant %0.2f dégâts acides dans un rayon de 3 par tour pendant %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Manaflow", "Flux de Mana", "talent name")
 t([[Engulf yourself in a surge of mana, quickly restoring %d mana every turn for 10 turns.
 		The mana restored will increase with your Spellpower.]], [[Vous enveloppe dans une vague de mana, restaurant rapidement %d mana par tour pendant 10 tours.
-		Le mana restauré est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le mana restauré est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Infernal Breath", "Souffle Infernal", "talent name")
 t([[Exhale a wave of dark fire with radius %d. Any non demon caught in the area will take %0.2f fire damage, and flames will be left dealing a further %0.2f each turn. Demons will be healed for the same amount.
 		The damage will increase with your Strength Stat.]], [[Exhale une vague de feu sombre de rayon %d. Toute créature non-démoniaque prise dans la zone subira %0.2f dégâts de feu, et des flammes feront %0.2f de plus par tour. Les démons seront soignés du même montant.
@@ -24469,13 +24477,13 @@ t([[Exhale a wave of dark fire with radius %d. Any non demon caught in the area 
 t("Frost Hands", "Mains Givrées", "talent name")
 t([[Engulfs your hands (and weapons) in a sheath of frost, dealing %0.2f cold damage per melee attack and increasing all cold damage by %d%%.
 		The effects will increase with your Spellpower.]], [[Enveloppe vos mains (et armes) dans une gaine de givre, infligeant %0.2f dégâts de froid par attaque au corps à corps et augmentant tous les dégâts de froid de %d%%.
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Meteor Rain", "Pluie de Météores", "talent name")
 t([[Use arcane forces to summon %d meteors that fall to the ground within range 2 of the target.
 		Each meteor smashes everything within radius 2, dealing %0.2f fire and %0.2f physical damage to creatures other than yourself, while liquefying some of the terrain into lava for 8 turns.
 		The damage increases with your Spellpower.]], [[Utilise des forces arcaniques pour invoquer %d météores qui tombent au sol dans un rayon de 2 de la cible.
 		Chaque météore écrase tout ce qui se trouve dans un rayon de 2, infligeant %0.2f dégâts de feu et %0.2f dégâts physiques aux créatures autres que vous-même, tout en liquéfiant une partie du terrain en lave pendant 8 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Heal", "Soin", "talent name")
 t([[Imbues your body with natural energies, healing for %d life.
 		The life healed will increase with your Mindpower.]], [[Imprègne votre corps d'énergies naturelles, vous soignant de %d vie.
@@ -24493,12 +24501,12 @@ t("Blindside", "Angle Mort", "talent name")
 t("With blinding speed you suddenly appear next to a target up to %d spaces away and attack for %d%% damage.", "Avec une vitesse aveuglante, vous apparaissez soudainement à côté d'une cible jusqu'à %d cases de distance et attaquez pour %d%% dégâts.", "tformat")
 t("Suspended", "Suspendu", "talent name")
 t("The target will not react until attacked.", "La cible ne réagira pas jusqu'à ce qu'elle soit attaquée.", "tformat")
-t("Frost Grab", "Griffes Givrées", "talent name")
+t("Frost Grab", "Prise Glaciale", "talent name")
 t([[Grab a target and pull it next to you, covering it with frost while reducing its movement speed by 50%% for %d turns.
 		The ice will also deal %0.2f cold damage.
 		The damage and chance to slow will increase with your Spellpower.]], [[Saisit une cible et la tire près de vous, la couvrant de givre et réduisant sa vitesse de déplacement de 50%% pendant %d tours.
 		La glace inflige également %0.2f dégâts de froid.
-		Les dégâts et la chance de ralentir sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la chance de ralentir sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Body Shot", "Coup au Corps", "talent name")
 t("@Source@ throws a body shot.", "@Source@ assène un coup au corps.", "_t")
 t("%s resists the body shot!", "%s résiste au coup au corps !", "logSeen")
@@ -24659,7 +24667,7 @@ t([[Attack your foes in a frontal arc with a roundhouse kick, which deals %0.2f 
 t("Bone Nova", "Nova d'Os", "talent name")
 t([[Fire bone spears in all directions, hitting all foes within radius %d for %0.2f physical damage, and inflicting bleeding for another %0.2f damage over 5 turns.
 		The damage will increase with your Spellpower.]], [[Tire des lances d'os dans toutes les directions, touchant tous les ennemis dans un rayon de %d pour %0.2f dégâts physiques, et infligeant un saignement pour %0.2f dégâts supplémentaires sur 5 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shadow Ambush", "Embuscade des Ombres", "talent name")
 t("%s resists the shadow!", "%s résiste à l'ombre !", "logSeen")
 t([[You reach out with shadowy vines toward your target, pulling it to you and silencing it for %d turns and dazing it for 2 turns.
@@ -24692,16 +24700,16 @@ t("Circle of Blazing Light", "Cercle de Lumière Ardente", "talent name")
 t([[Creates a circle of radius %d at your feet; the circle lights up affected tiles, increases your positive energy by %d each turn and deals %0.2f light damage and %0.2f fire damage per turn to everyone else within its radius.  The circle lasts %d turns.
 		The damage will increase with your Spellpower.]], [[Crée un cercle de rayon %d à vos pieds ; le cercle illumine les cases affectées, augmente votre énergie positive de %d par tour et inflige %0.2f dégâts de lumière et %0.2f dégâts de feu par tour à tous les autres dans son rayon.
 		Le cercle dure %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blur Sight", "Vue Floue", "talent name")
 t([[The caster's image blurs, granting a %d bonus to Defense.
 		The bonus will increase with your Spellpower.]], [[L'image du lanceur se floute, accordant un bonus de %d à la Défense.
-		Le bonus est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le bonus est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Cold Flames", "Flammes Glaciales", "talent name")
 t("cold flames", "flammes glaciales", "_t")
 t([[Cold Flames slowly spread from %d spots in a radius of %d around the targeted location. The flames deal %0.2f cold damage, and have a chance of freezing.
 		Damage improves with your Spellpower.]], [[Des flammes glaciales se répandent lentement depuis %d points dans un rayon de %d autour de l'emplacement ciblé. Les flammes infligent %0.2f dégâts de froid et ont une chance de geler.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Quicken Spells", "Accélérer les Sorts", "talent name")
 t("Reduces the cooldown of all spells by %d%%.", "Réduit le rechargement de tous les sorts de %d%%.", "tformat")
 -- texte non traduit
@@ -24922,7 +24930,7 @@ t([[Halfling's incredible luck always kicks in at just the right moment to save 
 t("Militant Mind", "Esprit Militant", "talent name")
 t([[Halflings have always been a very organised and methodical race; the more foes they face, the more organised they are.
 		If two or more foes are in sight your Physical Power, Physical Save, Spellpower, Spell Save, Mental Save, and Mindpower are increased by %0.1f per foe (up to 5 foes).]], [[Le petit peuple a toujours été une race très organisée et méthodique ; plus ils affrontent d'ennemis, plus ils sont organisés.
-		Si deux ennemis ou plus sont en vue, votre puissance physique, sauvegarde physique, puissance des sorts, sauvegarde des sorts, sauvegarde mentale, et puissance mentale augmentent de %0.1f par ennemi (jusqu'à 5 ennemis).]], "tformat")
+		Si deux ennemis ou plus sont en vue, votre puissance physique, sauvegarde physique, Puissance des Sorts, sauvegarde des sorts, sauvegarde mentale, et puissance mentale augmentent de %0.1f par ennemi (jusqu'à 5 ennemis).]], "tformat")
 t("Indomitable", "Indomptable", "talent name")
 t([[Halflings have one of the most powerful military forces in the known world and have been at war with most other races for thousands of years.
 		Removes %d stun, daze, or pin effects and grants immunity to stuns, dazes and pins for %d turns.]], [[Le petit peuple possède l'une des forces militaires les plus puissantes du monde connu et est en guerre contre la plupart des autres races depuis des millénaires.
@@ -26169,19 +26177,19 @@ t([[While Acid Infusion is active, your bombs coat your golem in acid for %d tur
 		While coated, any melee hit against your golem has a %d%% chance to trigger a radius 4 cone of acid towards the attacker that does %0.1f Acid damage to all caught inside. (This can only happen once per turn.)
 		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[Tant qu'Infusion Acide est active, vos bombes recouvrent votre golem d'acide pendant %d tours lorsqu'elles le touchent.
 		Tant qu'il est recouvert, tout coup de mêlée contre votre golem a %d%% de chance de déclencher un cône d'acide de rayon 4 vers l'attaquant, infligeant %0.1f dégâts d'acide à toutes les créatures prises dedans. (Cela ne peut se produire qu'une fois par tour.)
-		Les effets sont proportionnels à votre niveau de talent, la Puissance des sorts, et les modificateurs de dégâts de votre golem.]], "tformat")
+		Les effets sont proportionnels à votre niveau de talent, la Puissance des Sorts, et les modificateurs de dégâts de votre golem.]], "tformat")
 t("Caustic Mire", "Bourbier Caustique", "talent name")
 t([[A radius %d pool of acid spawns at the target location, doing %0.1f Acid damage each turn for %d turns.
 		All creatures caught in the mire will also suffer a %d%% slowness effect.
 		The damage will increase with your Spellpower.]], [[Une flaque d'acide de rayon %d apparaît à l'emplacement cible, infligeant %0.1f dégâts d'acide par tour pendant %d tours.
 		Toutes les créatures prises dans le bourbier subiront également un effet de Ralentissement de %d%%.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Dissolving Acid", "Acide Dissolvant", "talent name")
 t([[Acid erupts all around your target, dealing %0.1f acid damage.
 		The acid attack is extremely distracting, and may remove up to %d physical or mental temporary effects or mental sustains (depending on the Spell Save of the target).
 		The damage and chance to remove effects will increase with your Spellpower.]], [[De l'acide jaillit tout autour de votre cible, infligeant %0.1f dégâts d'acide.
 		L'attaque acide est extrêmement perturbatrice et peut supprimer jusqu'à %d effets temporaires physiques ou mentaux ou talents mentaux soutenus (selon la sauvegarde des sorts de la cible).
-		Les dégâts et la chance de supprimer des effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la chance de supprimer des effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/advanced-golemancy.lua"
@@ -26216,7 +26224,7 @@ section "mod-tome/data/talents/spells/aegis.lua"
 t("Arcane Reconstruction", "Reconstruction Arcanique", "talent name")
 t([[Imbues your body with arcane forces, reconstructing it to a default state, healing for %d life.
 		The life healed will increase with your Spellpower.]], [[Imprègne votre corps de forces arcaniques, le reconstruisant à son état normal, vous soignant de %d de vie.
-		Les soins sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les soins sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shielding", "Bouclinage", "talent name")
 t([[Surround yourself with strengthening arcane forces.
 		Every damage shield, time shield, displacement shield, and disruption shield affecting you has its power increased by %d%%.
@@ -26224,7 +26232,7 @@ t([[Surround yourself with strengthening arcane forces.
 		The shield value will increase with your Spellpower.]], [[Entourez-vous de forces arcaniques fortifiantes.
 		Chaque Bouclier de Dégâts, Bouclier Temporel, Bouclier de Déplacement et Bouclier de Disruption vous affectant voit leurs puissance augmentée de %d%%.
 		Au niveau 5, augmente également la durée de tous les boucliers de 1 tour.
-		La valeur des boucliers est proportionnel à votre Puissance des sorts.]], "tformat")
+		La valeur des boucliers est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Arcane Shield", "Bouclier Arcanique", "talent name")
 t([[Surround yourself with protective arcane forces.
 		Each time you receive a direct heal (not a life regeneration effect), you automatically gain a damage shield equal to %d%% of the heal value for 3 turns.
@@ -26232,7 +26240,7 @@ t([[Surround yourself with protective arcane forces.
 		The shield value will increase with your Spellpower.]], [[Entourez-vous de forces arcaniques protectrices.
 		Chaque fois que vous recevez un soin direct (pas un effet de régénération de vie), vous gagnez automatiquement un bouclier de dégâts égal à %d%% de la valeur du soin pendant 3 tours.
 		Cela remplacera un bouclier de dégâts existant si la valeur et la durée du nouveau bouclier sont supérieures ou égales à l'ancien.
-		La valeur du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+		La valeur du bouclier est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Aegis", "Égide", "talent name")
 t([[Release arcane energies into most magical shields currently protecting you.
 		It will affect at most %d shield effects.
@@ -26242,7 +26250,7 @@ t([[Release arcane energies into most magical shields currently protecting you.
 		Affecte au maximum %d effets de bouclier.
 		Bouclier de Dégâts, Bouclier Temporel, Bouclier de Déplacement : Augmente la valeur d'absorption de dégâts de %d%%.
 		Bouclier de Disruption : Puisez dans les énergies stockées pour restaurer le bouclier (à raison de 2 énergies par 1 puissance de bouclier). Toute énergie restante est reconvertie en mana à raison de %0.2f énergie par mana.
-		La recharge est proportionnel à votre Puissance des sorts.]], "tformat")
+		La recharge est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/aether.lua"
@@ -26257,7 +26265,7 @@ t([[You focus the aether into a spinning beam of arcane energies, doing %0.2f ar
 		The damage will increase with your Spellpower.]], [[Vous concentrez l'éther en un faisceau tournoyant d'énergies arcaniques, infligeant %0.2f dégâts arcaniques avec 25%% de chance de réduire au silence les créatures qu'il transperce.
 		Le faisceau inflige également des dégâts à son épicentre chaque tour pour 10%% des dégâts (mais ne réduit pas au silence).
 		Le faisceau tourne à une vitesse incroyable (1600%%) et ne peut toucher la même cible que jusqu'à 3 fois entre ses tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Aether Breach", "Brèche d'Ether", "talent name")
 t([[Rupture reality to temporarily open a passage to the aether, triggering %d random arcane explosions in the target area.
 		Each explosion does %0.2f arcane damage in radius 2, and will each trigger at one turn intervals.
@@ -26265,7 +26273,7 @@ t([[Rupture reality to temporarily open a passage to the aether, triggering %d r
 		The damage will increase with your Spellpower.]], [[Rompez la réalité pour ouvrir temporairement un passage vers l'éther, déclenchant %d explosions arcaniques aléatoires dans la zone cible.
 		Chaque explosion inflige %0.2f dégâts arcaniques dans un rayon de 2, et chacune se déclenche à des intervalles d'un tour.
 		Les lancers successifs se cumulent, mais les explosions ne se produiront qu'une fois par tour et seront centrées sur la dernière zone ciblée.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Aether Avatar", "Avatar d'Ether", "talent name")
 t("#VIOLET#%s loses 50 mana from using a non-Arcane talent!#LAST#", "#VIOLET#%s perd 50 mana en utilisant un talent non-Arcanique !#LAST#", "logSeen")
 t("At level %d: #AQUAMARINE#%s#LAST#", "Au niveau %d : #AQUAMARINE#%s#LAST#", "tformat")
@@ -26304,7 +26312,7 @@ t([[You call upon an eerie night to aid you for %d turns.
 		Each turn you automatically fire a beam of darkness towards a random foe (prioritizing the ones further away) that deals %0.2f darkness damage and has 25%% chance to blind any foes caught inside for 4 turns.
 		The damage will increase with your Spellpower.]], [[Vous invoquez une nuit sinistre pour vous aider pendant %d tours.
 		À chaque tour, vous tirez automatiquement un faisceau d'obscurité vers un ennemi aléatoire (en priorisant les plus éloignés), infligeant %0.2f dégâts d'obscurité avec 25%% de chance d'aveugler tout ennemi touché pendant 4 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("The End of All Hope", "La Fin de Tout Espoir", "talent name")
 t([[Whenever one of your Dire Plague rips a soul it feels the inescapable coming of the end.
 		When this happens the darkness damage of the plague is a critical hit and all Dire Plagues in radius %d around it (including itself) have their durations increased by %d turns.
@@ -26329,13 +26337,13 @@ section "mod-tome/data/talents/spells/air.lua"
 t("Lightning", "Foudre", "talent name")
 t([[Conjures up mana into a powerful beam of lightning, doing %0.2f to %0.2f damage (%0.2f average)
 		The damage will increase with your Spellpower.]], [[Conjure de la mana en un puissant faisceau de foudre, infligeant de %0.2f à %0.2f dégâts (%0.2f en moyenne).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Chain Lightning", "Chaine d'Eclaires", "talent name")
 t([[Invokes an arc of lightning doing %0.2f to %0.2f damage (%0.2f average) and chaining to another target.
 		The arc can jump to %d targets at most, up to 10 grids apart, and will never jump to the same target twice, or to the caster. The arc will also strike all creatures between each target.
 		The damage will increase with your Spellpower.]], [[Invoque un arc de foudre infligeant de %0.2f à %0.2f dégâts (%0.2f en moyenne) et bondissant vers une autre cible.
 		L'arc peut sauter sur %d cibles au maximum, jusqu'à 10 cases de distance, et ne sautera jamais deux fois sur la même cible ni sur le lanceur. L'arc frappera également toutes les créatures entre chaque cible.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Feather Wind", "Vent de Plume", "talent name")
 t([[A gentle wind circles around the caster, increasing carrying capacity by %d, defense against projectiles by %d, pin immunity by %d%% and stun immunity by %d%%.
 		At level 4 it also makes you levitate slightly above the ground, allowing you to ignore some traps.
@@ -26349,7 +26357,7 @@ t([[Conjures a furious, raging lightning storm with a radius of 6 that follows y
 		Each turn, a random lightning bolt will hit up to %d of your foes for 1.00 to %0.2f damage (%0.2f average) in a radius of 1.
 		The damage will increase with your Spellpower.]], [[Conjure un orage furieux et déchaîné de rayon 6 qui vous suit tant que ce sort est actif.
 		À chaque tour, un éclair aléatoire frappera jusqu'à %d de vos ennemis pour 1,00 à %0.2f dégâts (%0.2f en moyenne) dans un rayon de 1.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/animus.lua"
@@ -26377,21 +26385,21 @@ t("Consume Soul", "Consommation de l'Âme", "talent name")
 t([[Consume a soul whole to rebuild your body, healing you for %d and generating %d mana.
 		If used below 1 life the surge increases your spellpower by %d for 10 turns.
 		The heal and mana increases with your Spellpower.]], [[Consommez une âme entière pour reconstruire votre corps, vous soignant de %d et générant %d mana.
-		Si utilisé en dessous de 1 de vie, le sursaut augmente votre Puissance des sorts de %d pendant 10 tours.
-		Les soins et la mana sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Si utilisé en dessous de 1 de vie, le sursaut augmente votre Puissance des Sorts de %d pendant 10 tours.
+		Les soins et la mana sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Torture Souls", "Torturer les Âmes", "talent name")
 t([[Unleash dark forces to all foes in sight that are afflicted by Soul Leech, dealing %0.2f frostdusk damage to them and tearing apart their souls.
 		This returns up to %d souls to you (one for each foe hit).
 		The damage increases with your Spellpower.]], [[Déchaînez des forces obscures sur tous les ennemis en vue affectés par Sangsue d'Ame, leur infligeant %0.2f dégâts de crépuscule givré et déchirant leurs âmes.
 		Cela vous rapporte jusqu'à %d âme(s) (une pour chaque ennemi touché).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Reaping", "Moisson", "talent name")
 t([[You draw constant power from the souls you hold within your grasp.
 		If you hold at least 2, your mana regeneration is increased by %0.1f per turn.
 		If you hold at least 5, your spellpower is increased by %d.
 		If you hold at least 8, all your resistances are increased by %d.]], [[Vous tirez un pouvoir constant des âmes que vous tenez en votre possession.
 		Si vous en possédez au moins 2, votre régénération de mana est augmentée de %0.1f par tour.
-		Si vous en possédez au moins 5, votre Puissance des sorts est augmentée de %d.
+		Si vous en possédez au moins 5, votre Puissance des Sorts est augmentée de %d.
 		Si vous en possédez au moins 8, toutes vos résistances sont augmentées de %d%%.]], "tformat")
 
 ------------------------------------------------
@@ -26402,9 +26410,9 @@ t([[Conjures up mana into a powerful bolt doing %0.2f arcane damage.
 		At level 3, it becomes a beam.
 		The damage will increase with your Spellpower.]], [[Conjure de la mana en un puissant projectile infligeant %0.2f dégâts arcaniques.
 		Au niveau 3, il devient un faisceau.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Arcane Power", "Puissance Arcanique", "talent name")
-t("Your mastery of magic allows you to enter a state of deep concentration, increasing your Spellpower by %d and arcane resistance by %d%%.", "Votre maîtrise de la magie vous permet d'entrer dans un état de concentration profonde, augmentant votre Puissance des sorts de %d et votre résistance arcanique de %d%%.", "tformat")
+t("Your mastery of magic allows you to enter a state of deep concentration, increasing your Spellpower by %d and arcane resistance by %d%%.", "Votre maîtrise de la magie vous permet d'entrer dans un état de concentration profonde, augmentant votre Puissance des Sorts de %d et votre résistance arcanique de %d%%.", "tformat")
 t("Arcane Vortex", "Vortex Arcanique", "talent name")
 t([[Creates a vortex of arcane energies on the target for 6 turns. Each turn the vortex will look for another foe in sight and fire a manathrust doing %0.2f arcane damage to all foes in line.
 		If no foes are found, the target will take 50%% more arcane damage.
@@ -26412,7 +26420,7 @@ t([[Creates a vortex of arcane energies on the target for 6 turns. Each turn the
 		The damage will increase with your Spellpower.]], [[Crée un vortex d'énergies arcaniques sur la cible pendant 6 tours. À chaque tour, le vortex cherche un autre ennemi en vue et tire une Poussée de Mana infligeant %0.2f dégâts arcaniques à tous les ennemis en ligne.
 		Si aucun ennemi n'est trouvé, la cible subira 50%% de dégâts arcaniques supplémentaires.
 		Si la cible meurt, le vortex explose, libérant tous les dégâts restants dans une sphère de force arcanique de rayon 2.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Disruption Shield", "Bouclier de Disruption", "talent name")
 t("#VIOLET#%s's disruption shield collapses and then explodes in a powerful manastorm!", "#VIOLET#Le Bouclier de Disruption de %s s'effondre puis explose en une puissante tempête de mana !", "logSeen")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
@@ -26432,7 +26440,7 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 		Chaque fois que le bouclier utilise de la mana, il stocke un résidu de cette énergie (jusqu'à %d au maximum). Lorsque le bouclier est désactivé, toute énergie stockée est libérée dans une tempête arcanique de rayon %d qui dure 5 tours, infligeant 20%% du total des dégâts stockés par tour.
 		Hors combat, le bouclier régénère 10%% de sa puissance chaque tour et l'énergie stockée se dissipe rapidement.
 		Tomber sous 50%% de mana ou atteindre le stockage d'énergie maximum désactivera automatiquement ce talent.
-		La puissance du bouclier s'améliore avec votre Puissance des sorts.
+		La puissance du bouclier s'améliore avec votre Puissance des Sorts.
 		Le stockage d'énergie maximum est basé sur votre mana totale (en ignorant les sorts soutenus actifs), avec une limite à %d mana effective.
 
 		Puissance actuelle du bouclier : %d
@@ -26512,7 +26520,7 @@ t([[Press your advantage when your foes are starting to crumble.
 		- 10 effets : %0.2f
 		- 15 effets : %0.2f
 		Et ainsi de suite...
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Drawn To Death", "Attiré par la Mort", "talent name")
 t([[Every time you or one of your minions kill a creature you create a temporary link to the place of death.
 		For %d turns afterwards you can instantly and accurately teleport to it (if it is in sight).
@@ -26526,7 +26534,7 @@ t([[Your body starts to radiate shadows, increasing your darkness resistance by 
 		The damage increases with your Spellpower.]], [[Votre corps commence à irradier des ombres, augmentant votre résistance à l'obscurité de %d%%, votre armure de %d et votre défense de %d.
 		Chaque fois que vous absorbez une âme les ombres pulsent vers l'extérieur, infligeant %0.2f dégâts de crépuscule givré à tous les ennemis dans un rayon de %d et les repoussant de 3 cases.
 		Cela ne peut se produire qu'une fois par tour.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Utterly Destroyed", "Complètement Détruit", "talent name")
 t([[Whenever a creature is killed by yourself or a minion you feast on its essence, gaining %0.1f mana.
 		At level 3 the thrill of the death invigorates you, granting a movement speed bonus of 50%% for %d turns.]], [[Chaque fois qu'une créature est tuée par vous ou un laquais, vous vous repaissez de son essence, gagnant %0.1f mana.
@@ -26584,7 +26592,7 @@ t([[You focus your senses, getting information from moments in the future.
 		Improves your capacity to see invisible foes by +%d, to see through stealth by +%d, and to perform a critical spell cast by +%d%%.
 		The effects will improve with your Spellpower.]], [[Vous concentrez vos sens, obtenant des informations de moments futurs.
 		Améliore votre capacité à voir les ennemis invisibles de +%d, à voir à travers la furtivité de +%d et à effectuer un sort critique de +%d%%.
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Form a map of your surroundings in your mind in a radius of %d", "Formez une carte de vos environs dans votre esprit dans un rayon de %d.", "tformat")
 t("Premonition", "Prémonition", "talent name")
 t("#OLIVE_DRAB#Your premonition allows you to raise a shield just in time!", "#OLIVE_DRAB#Votre prémonition vous permet d'ériger un bouclier juste à temps !", "logPlayer")
@@ -26594,7 +26602,7 @@ t([[Echoes of the future flash before your eyes, allowing you to sense some inco
 		The bonus will increase with your Spellpower.]], [[Des échos du futur défilent devant vos yeux, vous permettant de détecter certaines attaques imminentes.
 		Si l'attaque n'est pas physique, vous érigez un bouclier temporaire qui réduit tous les dégâts de ce type de %d%% pendant 5 tours.
 		Cet effet ne peut se produire qu'une fois toutes les 5 tours, et se produit avant de recevoir les dégâts.
-		Le bonus est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le bonus est proportionnel à votre Puissance des Sorts.]], "tformat")
 -- texte non traduit
 --[==[
 t("Vision", "Vision", "talent name")
@@ -26645,17 +26653,17 @@ t([[Fire a powerful beam of stone-shattering force, digging out any walls in its
 		The damage will increase with your Spellpower.]], [[Tirez un puissant faisceau de force brise-pierre, creusant tous les murs sur son passage jusqu'à une portée de %d.
 		Le faisceau continue jusqu'à une portée de %d, affectant toutes les créatures sur son passage et leur infligeant %0.2f dégâts physiques.
 		Si des murs sont creusés, vous gagnez un bonus de %d%% dégâts physiques pendant 6 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Stone Skin", "Peau de Pierre", "talent name")
 t([[The caster's skin grows as hard as stone, granting a %d bonus to Armour.
 		Each time you are hit in melee, you have a %d%% chance to reduce the cooldown of an Earth or Stone spell by 2 (this effect can only happen once per turn).
 		The bonus to Armour will increase with your Spellpower.]], [[La peau du lanceur devient aussi dure que la pierre, accordant un bonus de %d à l'Armure.
 		Chaque fois que vous êtes touché en mêlée vous avez %d%% de chance de réduire le rechargement d'un sort de la catégorie Terre ou Pierre de 2 (cela ne peut se produire qu'une fois par tour).
-		Le bonus d'Armure est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le bonus d'Armure est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Mudslide", "Glissement de Terrain", "talent name")
 t([[Conjures a mudslide, dealing %0.2f physical damage in a radius of %d. Any creatures caught inside will be knocked back 8 spaces.
 		The damage will increase with your Spellpower.]], [[Conjure un glissement de terrain, infligeant %0.2f dégâts physiques dans un rayon de %d. Toutes les créatures prises dedans seront repoussées de 8 cases.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Stone Wall", "Mur de Pierre", "talent name")
 t("stone wall", "mur de pierre", "_t")
 t("a summoned wall of stone", "un mur de pierre invoqué", "_t")
@@ -26665,7 +26673,7 @@ t([[Entomb yourself in a wall of stone for %d turns.
 		Duration and damage will improve with your Spellpower.]], [[Entourez-vous d'un mur de pierre pendant %d tours.
 		Au niveau 4, il devient ciblable.
 		Toute créature hostile prise dans le rayon subira également %0.2f dégâts physiques.
-		La durée et les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		La durée et les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eldritch-shield.lua"
@@ -26753,7 +26761,7 @@ t([[By crushing an alchemist gem you generate a thunderclap in a cone of radius 
 		All creatures caught inside are knocked back and disarmed for %d turns.
 		The duration and damage will increase with your Spellpower.]], [[En écrasant une gemme d'alchimiste, vous générez un coup de tonnerre en cône de rayon %d infligeant %0.2f dégâts physiques et %0.2f dégâts de foudre.
 		Toutes les créatures prises dedans sont repoussées et Désarmées pendant %d tours.
-		La durée et les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		La durée et les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Living Lightning", "Foudre Vivante", "talent name")
 t("#LIGHT_STEEL_BLUE#%s is energized by all the damage taken!", "#LIGHT_STEEL_BLUE#%s est énergisé par tous les dégâts subis !", "logSeen")
 t("%s's %s", "%s de %s", "tformat", {2,1})
@@ -26765,7 +26773,7 @@ t([[Infuse your body with lightning energy, bolstering your movement speed by +%
 		À chaque tour, un ennemi dans un rayon de %d sera frappé par la foudre et subira %0.1f dégâts de foudre.
 		De plus, les dégâts à votre vie vous énergisent.
 		Au début de chaque tour où vous avez perdu au moins %d de vie (20%% de votre vie maximale) depuis votre dernier tour, vous gagnez %d%% d'un tour.
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/enhancement.lua"
@@ -26776,25 +26784,25 @@ t([[Strike twice with your mainhand weapon dealing %d%% Arcane damage.
 		If either of these attacks hit you gain %d mana.
 		The mana gain will increase with your Spellpower.]], [[Frappez deux fois avec votre arme principale, infligeant %d%% dégâts arcaniques.
 		Si l'une de ces attaques touche, vous gagnez %d mana.
-		Le gain de mana est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le gain de mana est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Fiery Hands", "Mains Enflammées", "talent name")
 t([[Engulfs your hands (and weapons) in a sheath of fire, dealing %0.2f fire damage per melee attack and increasing all fire damage dealt by %d%%.
 		Each hit will also regenerate %0.2f stamina.
 		The effects will increase with your Spellpower.]], [[Enveloppe vos mains (et armes) dans une gaine de feu, infligeant %0.2f dégâts de feu à chaque attaque de mêlée et augmentant tous les dégâts de feu infligés de %d%%.
 		Chaque coup régénère également %0.2f d'Endurance.
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shock Hands", "Mains Foudroyantes", "talent name")
 t([[Engulfs your hands (and weapons) in a sheath of lightning, dealing %d lightning damage with a chance to daze (25%%) per melee attack and increasing all lightning damage dealt by %d%%.
 		Each hit will also regenerate %0.2f mana.
 		The effects will increase with your Spellpower.]], [[Enveloppe vos mains (et armes) dans une gaine de foudre, infligeant %d dégâts de foudre avec 25%% de chance d'étourdir légèrement à chaque attaque de mêlée et augmentant tous les dégâts de foudre infligés de %d%%.
 		Chaque coup régénère également %0.2f mana.
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Inner Power", "Puissance Intérieure", "talent name")
 t([[You concentrate on your inner self, increasing your Strength, Dexterity, Magic, and Cunning by %d.
 		Additionally, you gain a shield absorbing %d damage before you take damage every %d turns.
 		The stat increase and shield will improve with your Spellpower.]], [[Vous vous concentrez sur votre vous intérieur, augmentant votre Force, Dextérité, Magie et Ruse de %d.
 		De plus, vous gagnez un bouclier absorbant %d dégâts avant que vous ne subissiez des dégâts toutes les %d tours.
-		L'augmentation des statistiques et le bouclier sont proportionnels à votre Puissance des sorts.]], "tformat")
+		L'augmentation des statistiques et le bouclier sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/eradication.lua"
@@ -26807,7 +26815,7 @@ t([[Spawn a boneyard of radius %d around you that lasts for 8 turns.
 		At level 5 when a minion dies inside the boneyard it has a %d%% chance to resurrect instantly. This effect may only happen once per minion.
 		]], [[Faites apparaître un ossuaire de rayon %d autour de vous qui dure 8 tours.
 		Tout ennemi à l'intérieur reçoit l'effet os fragiles, réduisant leur résistance physique de %d%% et rallongeant tous les rechargements de %d%%.
-		Lorsque l'un de vos laquais se trouve dans l'ossuaire, il gagne %d de Puissance physique et de Puissance des sorts supplémentaires.
+		Lorsque l'un de vos laquais se trouve dans l'ossuaire, il gagne %d de Puissance physique et de Puissance des Sorts supplémentaires.
 		Au niveau 5, lorsqu'un laquais meurt dans l'ossuaire, il a %d%% de chance de ressusciter instantanément. Cet effet ne peut se produire qu'une fois par laquais.]], "tformat")
 t("To The Grave", "Vers la Tombe", "talent name")
 t("%s resists the call of the boneyard!", "%s résiste à l'appel de l'ossuaire !", "logSeen")
@@ -26821,7 +26829,7 @@ t([[Your target's doom draws near. Its healing factor is reduced by 80%%, and it
 		The damage will increase with your Spellpower.]], [[La condamnation de votre cible approche.
 		Son facteur de soin est réduit de 80%% et elle subira %d%% de sa vie restante (ou %0.2f, selon ce qui est inférieur) sur 10 tours comme dégâts de crépuscule givré.
 		Ce sort est si puissant que toutes les 3 tours, il arrache une partie de l'âme de la cible, vous générant une âme.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Eternal Night", "Nuit Éternelle", "talent name")
 t([[Surround yourself with Frostdusk, increasing all your darkness and cold damage by %0.1f%%, and ignoring %d%% of the darkness and cold resistance of your targets.
 		At the end of each turn if you are under 1 life you are healed for %d%% of all damage you dealt.]], [[Entourez-vous de crépuscule givré, augmentant tous vos dégâts d'obscurité et de froid de %0.1f%% et ignorant %d%% de la résistance à l'obscurité et au froid de vos cibles.
@@ -26838,7 +26846,7 @@ t([[Imbue an alchemist gem with an explosive charge of mana and throw it.
 		The damage will improve with better gems and with your Spellpower.]], [[Imprègnez une gemme d'alchimiste d'une charge de mana explosive et lancez-la.
 		La gemme explosera pour %0.1f dégâts de type %s.
 		Chaque type de gemme fournit également un effet spécifique.
-		Les dégâts sont proportionnels à de meilleures gemmes et à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à de meilleures gemmes et à votre Puissance des Sorts.]], "tformat")
 t("Alchemist Protection", "Protection d'Alchimiste", "talent name")
 t([[Grants %d%% protection to you, your golem and other friendly creatures against the elemental damage of your own bombs, and against external elemental damage (fire, cold, lightning and acid) by %d%%.
 		At talent level 5 it also protects against all side effects of your bombs.]], [[Accorde %d%% de protection à vous, votre golem et autres créatures amies contre les dégâts élémentaires de vos propres bombes, et contre les dégâts élémentaires externes (feu, froid, foudre et acide) de %d%%.
@@ -26855,7 +26863,7 @@ t([[Crush together two alchemist gems, making them extremely unstable.
 		The damage will improve with better gems and with your Spellpower.]], [[Écrasez deux gemmes d'alchimiste ensemble, les rendant extrêmement instables.
 		Vous les lancez ensuite vers une zone cible, où elles explosent à l'impact, infligeant %0.2f dégâts physiques et repoussant toutes les créatures dans le rayon de l'explosion.
 		Chaque type de gemme fournit également un effet spécifique.
-		Les dégâts sont proportionnels à de meilleures gemmes et à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à de meilleures gemmes et à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/fire-alchemy.lua"
@@ -26871,14 +26879,14 @@ t([[Throw a smoke bomb, blocking everyone's line of sight. The smoke dissipates 
 		If a creature inside is victim of fire burns the smoke will consume instantly, replicating the burns on all foes and increasing its duration by %d turns.
 		Duration will increase with your Spellpower.]], [[Lancez une bombe fumigène, bloquant la ligne de vue de tous. La fumée se dissipe après %d tours.
 		Si une créature à l'intérieur est victime de brûlures de feu, la fumée sera instantanément consumée, répliquant les brûlures sur tous les ennemis et augmentant sa durée de %d tours.
-		La durée est proportionnel à votre Puissance des sorts.]], "tformat")
+		La durée est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Fire Storm", "Tempête de Feu", "talent name")
 t("firestorm", "tempête de feu", "_t")
 t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
 		You closely control the firestorm, preventing it from harming your party members.
 		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de feu fait rage autour du lanceur, infligeant %0.2f dégâts de feu dans un rayon de 3 par tour pendant %d tours.
 		Vous contrôlez étroitement la tempête de feu, l'empêchant de blesser vos membres du groupe.
-		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la durée sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Body of Fire", "Corps de Feu", "talent name")
 t("#FF8000#%s turns into pure flame!", "#FF8000#%s se transforme en flamme pure !", "logSeen")
 t("#FF8000#The raging fire around %s calms down and disappears.", "#FF8000#Le feu déchaîné autour de %s se calme et disparaît.", "logSeen")
@@ -26886,7 +26894,7 @@ t([[Turn your body into pure flame, increasing your fire resistance by %d%%, bur
 		The projectiles safely go through your friends without harming them.
 		The damage and resistance will increase with your Spellpower.]], [[Transformez votre corps en flamme pure, augmentant votre résistance au feu de %d%%, brûlant toute créature vous frappant en mêlée pour %0.2f dégâts de feu. Et lançant aléatoirement, par tour, jusqu'à %d projectile(s) de feu à déplacement lent sur des cibles en vue infligeant chacun %0.2f dégâts de feu.
 		Les projectiles traversent vos amis en toute sécurité sans les blesser.
-		Les dégâts et la résistance sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la résistance sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/fire.lua"
@@ -26896,18 +26904,18 @@ t([[Conjures up a bolt of fire, setting the target ablaze and doing %0.2f fire d
 		At level 5, it will create a beam of flames.
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu, enflammant la cible et infligeant %0.2f dégâts de feu sur 3 tours.
 		Au niveau 5, cela créera un faisceau de flammes.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Flameshock", "Choc de Flammes", "talent name")
 t([[Conjures up a cone of flame with radius %d. Any targets caught in the area will suffer Burning Shock, stunning them and dealing %0.2f fire damage over %d turns.
 		The damage will increase with your Spellpower.]], [[Conjure un cône de flammes de rayon %d. Toutes les cibles prises dans la zone subiront un Choc Ardent, les assomants et infligeant %0.2f dégâts de feu sur %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Fireflash", "Éclat de Feu", "talent name")
 t([[Conjures up a bolt of fire that moves toward the target and explodes into a flash of fire, doing %0.2f fire damage in a radius of %d.
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu qui se déplace vers la cible et explose en un éclair de feu, infligeant %0.2f dégâts de feu dans un rayon de %d.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
 		The damage will increase with your Spellpower.]], [[Des flammes déchaînées brûlent ennemis et alliés, infligeant %0.2f dégâts de feu dans un rayon de %d chaque tour pendant %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 -- texte non traduit
 --[==[
 t("Inferno", "Inferno", "talent name")
@@ -26928,19 +26936,19 @@ t([[While Frost Infusion is active, your bombs deposit a layer of ice on your go
 		This ice provides your golem with %d additional armour, melee attacks against it deal %0.1f Cold damage to the attacker, and 50%% of its damage is converted to Cold.
 		The effects increase with your talent level and with the Spellpower and damage modifiers of your golem.]], [[Tant qu'Infusion de Givre est active, vos bombes déposent une couche de glace sur votre golem pendant %d tours lorsqu'elles le touchent.
 		Cette glace fournit à votre golem %d d'armure supplémentaire, les attaques de mêlée contre lui infligent %0.1f dégâts de froid à l'attaquant et 50%% de ses dégâts sont convertis en froid.
-		Les effets sont proportionnels à votre niveau de talent, à la Puissance des sorts, et les modificateurs de dégâts de votre golem.]], "tformat")
+		Les effets sont proportionnels à votre niveau de talent, à la Puissance des Sorts, et les modificateurs de dégâts de votre golem.]], "tformat")
 t("Flash Freeze", "Gel Instantané", "talent name")
 t([[Invoke a blast of cold all around you with a radius of %d, doing %0.1f Cold damage and freezing creatures to the ground for %d turns.
 		Affected creatures can still act, but cannot move.
 		The duration will increase with your Spellpower.]], [[Invoquez une explosion de froid autour de vous dans un rayon de %d, infligeant %0.1f dégâts de froid et gelant les créatures au sol pendant %d tours.
 		Les créatures affectées peuvent toujours agir, mais ne peuvent pas se déplacer.
-		La durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+		La durée sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Ice Core", "Noyau de Glace", "talent name")
 t([[Turn your body into pure ice, increasing your Cold damage affinity by %d%% and your physical resistance by %d%%.
 		You have a %d%% chance to shrug off all direct critical hits (physical, mental, spell).
 		The effects increase with your Spellpower.]], [[Transformez votre corps en glace pure, augmentant votre affinité aux dégâts de froid de %d%% et votre résistance physique de %d%%.
 		Vous avez %d%% de chance d'ignorer tous les coups critiques directs (physiques, mentaux, sorts).
-		Les effets sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les effets sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/glacial-waste.lua"
@@ -26959,7 +26967,7 @@ t([[Conjure a shield of ice around you that can absorb a total of %d damage.
 		Lorsque vous êtes au-dessus de 1 de vie, il n'affecte que 66,6%% des dégâts, laissant passer le reste.
 		Lorsque vous êtes en dessous de 1 de vie, il affecte 100%% des dégâts et réduit également les dégâts des coups critiques de %d%%.
 		10 tours après avoir quitté le combat, le bouclier consommera à nouveau son coût en mana et en âmes pour se régénérer complètement si nécessaire. Si ce coût ne peut être couvert, il se désactive.
-		La puissance du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+		La puissance du bouclier est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Desolate Waste", "Désert Désolé", "talent name")
 t([[Every time your shield loses %d%% of its original value a circle of desolate waste will spawn under you, lasting 6 turns, and dealing %0.2f cold damage per turn to foes within radius %d.
 		If a creature is hit by your hiemal shield's retribution bolt while on the waste, the shield feeds of the wasteland to regenerate %0.1f%% of its original value.
@@ -26967,13 +26975,13 @@ t([[Every time your shield loses %d%% of its original value a circle of desolate
 		The damage will increase with your Spellpower.]], [[Chaque fois que votre bouclier perd %d%% de sa valeur d'origine, un cercle de désert désolé apparaît sous vous, durant 6 tours et infligeant %0.2f dégâts de froid par tour aux ennemis dans un rayon de %d.
 		Si une créature est touchée par le projectile de représailles de votre bouclier hiémal alors qu'elle se trouve sur le désert, le bouclier se nourrit des terres désolées pour régénérer %0.1f%% de sa valeur d'origine.
 		Pas plus de %d déserts désolés peuvent se déclencher par activation du bouclier.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Crumbling Earth", "Terre en Ruine", "talent name")
 t([[Your desolate wastes are now rapidly crumbling.
 		Any foe moving through them is likely to get cut, taking %0.2f cold damage and bleeding over 4 turns (stacking) while reducing its movement speed by 15%%.
 		The damage will increase with your Spellpower.]], [[Vos déserts désolés s'effritent rapidement.
 		Tout ennemi se déplaçant à travers eux risque d'être entaillé, subissant %0.2f dégâts de froid et saignant sur 4 tours (cumulable) tout en voyant sa vitesse de déplacement réduite de 15%%.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Bleak Guard", "Garde Lugubre", "talent name")
 t([[Your hiemal shield is stronger, taking %d%% less damage from all attacks.
 		When under 1 life this effect is increased to %d%%.]], [[Votre bouclier hiémal est plus solide, subissant %d%% de dégâts en moins de toutes les attaques.
@@ -27075,7 +27083,7 @@ t([[Take care of your golem:
 		- If it is alive but hurt, you will be able to repair it for %d (takes 2 alchemist gems). Spellpower, alchemist gem and Golem Power talent all influence the healing done.]], [[Prenez soin de votre golem :
 		- S'il est détruit, vous prendrez du temps pour le reconstruire (nécessite 15 gemmes d'alchimiste et 20 tours).
 		- S'il est vivant mais blessé, vous pourrez le réparer pour %d de vie (nécessite 2 gemmes d'alchimiste).
-		La Puissance des sorts, la gemme d'alchimiste et le talent Pouvoir du Golem influencent tous les soins effectués.]], "tformat")
+		La Puissance des Sorts, la gemme d'alchimiste et le talent Pouvoir du Golem influencent tous les soins effectués.]], "tformat")
 t("Golem Power", "Pouvoir du Golem", "talent name")
 t("Improves your golem's proficiency with weapons, increasing its attack and damage.", "Améliore la maîtrise des armes de votre golem, augmentant son attaque et ses dégâts.", "_t")
 t("Improves your golem's proficiency with weapons, increasing its Accuracy by %d, Physical Power by %d and damage by %d%%.", "Améliore la maîtrise des armes de votre golem, augmentant sa Précision de %d, sa Puissance physique de %d et ses dégâts de %d%%.", "tformat")
@@ -27110,13 +27118,13 @@ t([[Summon an icy spike directly on a foe, impaling it for %0.2f cold damage.
 		The damage will increase with your Spellpower.]], [[Invoquez un pic de glace directement sur un ennemi, l'empalant pour %0.2f dégâts de froid.
 		Au niveau 5, il touche tous les ennemis à portée 1 autour de la cible.
 		Toute créature touchée subira %d%% dégâts supplémentaires de vos laquais nécrotiques pendant 3 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Chill of the Tomb", "Froid du Tombeau", "talent name")
 t([[Conjures up a bolt of cold that moves toward the target and explodes into a chilly circle of death, doing %0.2f cold damage in a radius of %d.
 		Necrotic minions caught in the blast do not take damage but are instead coated with a thin layer of ice, reducing all damage they take by %d for 4 turns.
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de froid qui se déplace vers la cible et explose en un cercle glacé de mort, infligeant %0.2f dégâts de froid dans un rayon de %d.
 		Les laquais nécrotiques pris dans l'explosion ne subissent pas de dégâts mais sont recouverts d'une fine couche de glace, réduisant tous les dégâts qu'ils subissent de %d pendant 4 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Corpselight", "Lueur Cadavérique", "talent name")
 t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
 		Every turn all foes inside take %0.2f cold damage.
@@ -27125,10 +27133,10 @@ t([[You summon a corpselight that radiates cold for 7 turns in radius %d.
 		If cast while under 1 life it spawns with 3 stacks.
 		The damage will increase with your Spellpower.]], [[Vous invoquez une lueur cadavérique qui irradie de froid pendant 7 tours dans un rayon de %d.
 		À chaque tour, tous les ennemis à l'intérieur subissent %0.2f dégâts de froid.
-		Chaque fois que vous lancez un sort en vous tenant dans la zone de votre lueur cadavérique, elle gagne un cumul, chaque cumul accordant +1 de rayon et +10%% de dégâts.
-		La lueur cadavérique peut gagner au maximum %d cumul et le rayon ne s'étendra jamais au-delà de 10.
-		Si elle est lancée alors que vous êtes en dessous de 1 de vie, elle apparaît avec 3 cumul.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Chaque fois que vous lancez un sort en vous tenant dans la zone de votre lueur cadavérique, elle gagne une charge, chaque charge accordant +1 de rayon et +10%% de dégâts.
+		La lueur cadavérique peut gagner au maximum %d charge et le rayon ne s'étendra jamais au-delà de 10.
+		Si elle est lancée alors que vous êtes en dessous de 1 de vie, elle apparaît avec 3 charge.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Grave Mistake", "Erreur Fatale", "talent name")
 t("#STEEL_BLUE#The corpselight implodes!", "#STEEL_BLUE#La lueur cadavérique implose !", "logSeen")
 t([[Upon expiring the corpselight implodes, pulling in all foes towards its center and dealing %0.2f cold damage.
@@ -27136,8 +27144,8 @@ t([[Upon expiring the corpselight implodes, pulling in all foes towards its cent
 		The damage will increase with your Spellpower.
 
 		#PURPLE#Learning this spell will make Corpselight cost two souls to use instead of one.]], [[À expiration, la lueur cadavérique implose, attirant tous les ennemis vers son centre et infligeant %0.2f dégâts de froid.
-		Les dégâts sont augmentés de +10%% par cumul.
-		Les dégâts sont proportionnels à votre Puissance des sorts.
+		Les dégâts sont augmentés de +10%% par charge.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.
 
 		#PURPLE#Apprendre ce sort fera coûter deux âmes à Lueur Cadavérique au lieu d'une.]], "tformat")
 
@@ -27149,7 +27157,7 @@ t([[Condenses ambient water on a target, freezing it for %d turns and damaging i
 		If this is used on a friendly target the cooldown is reduced by 33%%.
 		The damage will increase with your Spellpower.]], [[Condense l'eau ambiante sur une cible, la gelant pendant %d tours et lui infligeant %0.2f dégâts de froid.
 		Si utilisé sur une cible amie, le rechargement est réduit de 33%%.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Frozen Ground", "Sol Gelé", "talent name")
 t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold damage and freezing creatures to the ground for 4 turns.
 		Affected creatures can still act, but cannot move.
@@ -27157,7 +27165,7 @@ t([[Blast a wave of cold all around you with a radius of %d, doing %0.2f cold da
 		The damage will increase with your Spellpower.]], [[Déchaînez une vague de froid autour de vous dans un rayon de %d, infligeant %0.2f dégâts de froid et gelant les pieds des créatures pendant 4 tours.
 		Les créatures affectées peuvent toujours agir, mais ne peuvent pas se déplacer.
 		Pour chaque créature affectée qui est également mouillée, le rechargement de Fracasser diminue de 2 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shatter", "Fracasser", "talent name")
 t("%s shatters!", "%s se fracasse !", "logSeen")
 t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
@@ -27176,7 +27184,7 @@ t([[Shatter all frozen targets in your line of sight, doing %0.2f cold damage.
 		Tous les ennemis affectés recevront l'effet mouillé.
 		Au maximum, cela affectera %d ennemis.
 		Si vous êtes vous-même Gelé, il sera instantanément détruit.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Uttercold", "Froid Absolu", "talent name")
 t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%% and ignoring %d%% cold resistance of your targets
 		In addition you pierce through iceblocks easily, reducing damage absorbed from your attacks by iceblocks by %d%%.]], [[Entourez-vous de Froid Absolu, augmentant tous vos dégâts de froid de %0.1f%% et ignorant %d%% de la résistance au froid de vos cibles.
@@ -27191,7 +27199,7 @@ t([[Your mastery of necromancy becomes so total that an aura of undeath radiates
 		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists, and highest damage increase (applied to all elements).
 		]], [[Votre maîtrise de la nécromancie devient si totale qu'une aura de mort-vivant irradie autour de vous dans un rayon de %d.
 		Tout laquais mort-vivant se trouvant à l'intérieur est protégé, augmentant toutes ses résistances de %d%%.
-		De plus, lorsque vous créez de nouveaux laquais, ils héritent de %d%% de votre Puissance des sorts (appliquée à tous les pouvoirs), chance de critique magique (appliquée à toutes les chances de critique), sauvegardes, résistances, et augmentation de dégâts la plus élevée (appliquée à tous les éléments).]], "tformat")
+		De plus, lorsque vous créez de nouveaux laquais, ils héritent de %d%% de votre Puissance des Sorts (appliquée à tous les pouvoirs), chance de critique magique (appliquée à toutes les chances de critique), sauvegardes, résistances, et augmentation de dégâts la plus élevée (appliquée à tous les éléments).]], "tformat")
 t("Surge of Undeath", "Déferlement de Mort", "talent name")
 t([[Sends out a surge of undeath energies into your aura.
 		All minions inside gain 25%% speed for %d turns
@@ -27220,7 +27228,7 @@ t([[By creating an arcane link with your minion army you are able to redirect pa
 		The damage redirected percent depends on your Spellpower.]], [[En créant un lien arcanique avec votre armée de laquais, vous pouvez rediriger une partie de tout dégât vous affectant vers eux.
 		Chaque fois que vous subissez des dégâts, %d%% d'entre eux sont redirigés vers un laquais aléatoire dans votre aura de mort-vivant.
 		Le laquais subit 300%% des dégâts de cet effet.
-		Le pourcentage de dégâts redirigés est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le pourcentage de dégâts redirigés est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-of-bones.lua"
@@ -27310,7 +27318,7 @@ t([[Ghouls are nothing but mere tools to you, for %d turns you render them bloat
 		Chaque fois qu'une Goule ou un spectre est touché, il explose en une éclaboussure de sang et viscères, infligeant %0.2f dégâts de crépuscule givré à tous les ennemis dans un rayon de %d.
 		Toute créature prise dans l'explosion reçoit également une maladie aléatoire infligeant %0.2f dégâts de Fléau sur 6 tours et réduisant un attribut de %d.
 		Une seule Goule peut exploser par tour. Celle avec le moins de temps restant à vivre est toujours la première à le faire.
-		Les dégâts et la puissance de la maladie sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la puissance de la maladie sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Putrescent Liquefaction", "Liquéfaction Putrescente", "talent name")
 t("#GREY#%s dissolves into the cloud of gore.", "#GREY#%s se dissout dans le nuage de sang et viscères.", "logSeen")
 t([[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud of radius %d that follows you around for 3 turns per dead ghoul plus one turn. Oldest ghouls are prioritized for destruction.
@@ -27320,7 +27328,7 @@ t([[Shattering up to %d ghouls or ghasts you create a putrescent swirling cloud 
 		]], [[En fracassant jusqu'à %d Goule(s) ou spectre(s), vous créez un nuage putrescente tourbillonnant de rayon %d qui vous suit pendant 3 tours par Goule morte plus un tour. Les Goules les plus anciennes sont prioritaires pour la destruction.
 		Toute Goule ou spectre mourant ou expirant dans ce nuage augmente sa durée de %d tour(s) et pour chaque deux Goule/spectre absorbés, vous récupérez une âme.
 		Le nuage inflige %0.2f dégâts de crépuscule givré à tout ennemi pris à l'intérieur.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Discarded Refuse", "Rebuts Sacrifiés", "talent name")
 t("%s sacrifices a ghoul to avoid being affected by %s!", "%s sacrifie une Goule pour éviter d'être affecté par %s !", "logSeen")
 t([[Whenever you would be affected by a detrimental physical effect you instead transfer it instantly to one of your ghouls.
@@ -27346,7 +27354,7 @@ t([[You learn to finely craft and tune your spells, reducing all their cooldowns
 		In doing so you can also carve a hole in spells that affect an area to avoid damaging yourself.  The chance of success is %d%%.
 		In addition, you hone your damaging spells to spellshock their targets. Whenever you deal damage with a spell you attempt to spellshock them with %d more Spellpower than normal. Spellshocked targets suffer a temporary 20%% penalty to damage resistances.]], [[Vous apprenez à affiner et ajuster vos sorts, réduisant tous leurs rechargements de %d%%.
 		Ce faisant, vous pouvez également creuser un trou dans les sorts affectant une zone pour éviter de vous blesser. La chance de succès est de %d%%.
-		De plus, vous affûtez vos sorts offensifs pour provoquer un choc de sort sur leurs cibles. Chaque fois que vous infligez des dégâts avec un sort, vous tentez de provoquer un choc de sort avec %d de Puissance des sorts en plus que la normale. Les cibles sous choc de sort subissent une pénalité temporaire de 20%% à leurs résistances aux dégâts.]], "tformat")
+		De plus, vous affûtez vos sorts offensifs pour provoquer un choc de sort sur leurs cibles. Chaque fois que vous infligez des dégâts avec un sort, vous tentez de provoquer un choc de sort avec %d de Puissance des Sorts en plus que la normale. Les cibles sous choc de sort subissent une pénalité temporaire de 20%% à leurs résistances aux dégâts.]], "tformat")
 t("Energy Alteration", "Altération d'Énergie", "talent name")
 t([[Your mastery over magic is so great that you can alter the energy of all damaging spells to suit your needs.
 		Whenever you deal damage with a spell you attune to the element of that spell for 6 turns, converting %d%% of any damage you deal into that element.
@@ -27377,7 +27385,7 @@ t([[As you learn to tiptoe across the veil of death you learn to master the dark
 		The damage will increase with your Spellpower.]], [[À mesure que vous apprenez à traverser le voile de la mort sur la pointe des pieds, vous apprenez à maîtriser les forces obscures.
 		Chaque fois que vous franchissez le seuil de 1 de vie, vous déchaînez automatiquement une explosion de %0.2f dégâts de crépuscule givré dans un rayon de %d.
 		Pour chaque créature subissant des dégâts de l'explosion, le rechargement de l'un de vos talents est réduit de %d tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Runeskin", "Peau Runique", "talent name")
 t("effects disabled because of an infusion", "effets désactivés en raison d'une essence.", "_t")
 t("effects disabled because of no rune", "effets désactivés en raison de l'absence de rune.", "_t")
@@ -27406,7 +27414,7 @@ t([[Conjures up a beam of darkness, doing %0.2f darkness damage.
 		At level 5, the beam widens to hit foes on each side.
 		The damage will increase with your Spellpower.]], [[Conjure un faisceau d'obscurité, infligeant %0.2f dégâts d'obscurité.
 		Au niveau 5, le faisceau s'élargit pour toucher les ennemis de chaque côté.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Night Sphere", "Sphère Nocturne", "talent name")
 t([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature entering the circle will receive either a bane of confusion or a bane of blindness.
 		Only one bane can affect a creature.
@@ -27414,13 +27422,13 @@ t([[Dark fumes erupt from the ground in radius %d for 5 turns. Any creature ente
 		The damage will increase with your Spellpower.]], [[Des vapeurs obscures jaillissent du sol dans un rayon de %d pendant 5 tours. Toute créature entrant dans le cercle recevra soit un Fléau de la Confusion soit un Fléau de l'Aveuglement.
 		Une seule malédiction peut affecter une créature.
 		Les fléaux durent %d tours et infligent également %0.2f dégâts d'obscurité.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Erupting Shadows", "Ombres Éruptives", "talent name")
 t([[Shadows engulf your foes, anytime you deal darkness damage to a creature affected by a bane, the bane's duration is increased by 1 turn and the shadows erupt, dealing an additional %0.2f darkness damage.
 		The damage can only happen once per turn per creature, the turn increase however always happens.
 		The damage will increase with your Spellpower.]], [[Les ombres enveloppent vos ennemis ; chaque fois que vous infligez des dégâts d'obscurité à une créature affectée par un fléau la durée du fléau est augmentée de 1 tour et les ombres jaillissent, infligeant %0.2f dégâts d'obscurité supplémentaires.
 		Les dégâts ne peuvent se produire qu'une fois par tour et par créature, mais l'augmentation de tour se produit toujours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("River of Souls", "Rivière d'Âmes", "talent name")
 t([[You summon a river of tortured souls to launch an onslaught of darkness against your foes.
 		Every turn for 5 turns you launch a projectile towards the designated area that explodes in radius %d, dealing %0.2f darkness damage.
@@ -27428,7 +27436,7 @@ t([[You summon a river of tortured souls to launch an onslaught of darkness agai
 		The damage will increase with your Spellpower.]], [[Vous invoquez une rivière d'âmes torturées pour lancer un assaut d'obscurité contre vos ennemis.
 		À chaque tour pendant 5 tours, vous lancez un projectile vers la zone désignée qui explose dans un rayon de %d, infligeant %0.2f dégâts d'obscurité.
 		Chaque projectile consomme une âme et le sort se termine lorsqu'il a envoyé 5 projectiles ou lorsque vous n'avez plus d'âmes à utiliser.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/phantasm.lua"
@@ -27445,13 +27453,13 @@ t([[Surround yourself with a phantasmal shield of pure light.
 		The damage and ignore chance will increase with your Spellpower.]], [[Entourez-vous d'un bouclier fantasmatique de lumière pure.
 		Chaque fois que vous subiriez des dégâts, il y a %d%% de chance de devenir éthéré un instant et de les ignorer complètement.
 		Si vous êtes touché, le bouclier brille intensément, déclenchant un éclair de lumière sur l'attaquant, infligeant %0.2f dégâts de lumière dans un rayon de %d autour de lui et éblouissant toute créature affectée (inflige 10%% de dégâts en moins) pendant 5 tours. Cela ne peut se produire que toutes les %d tours.
-		Les dégâts et la chance d'ignorer sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la chance d'ignorer sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Invisibility", "Invisibilité", "talent name")
 t([[Weave a net of arcane disturbances around your body, removing yourself from the sight of all, granting %d bonus to invisibility for 7 turns.
 		While invisible all damage you deal against blinded or dazzled foes is increased by %d%% (additive with other damage increases).
 		The invisibility bonus will increase with your Spellpower.]], [[Tissez un filet de perturbations arcaniques autour de votre corps, vous soustrayant à la vue de tous, accordant %d de bonus d'invisibilité pendant 7 tours.
 		Tandis que vous êtes invisible, tous les dégâts que vous infligez contre des ennemis aveuglés ou éblouis sont augmentés de %d%% (additif avec d'autres augmentations de dégâts).
-		Le bonus d'invisibilité est proportionnel à votre Puissance des sorts.]], "tformat")
+		Le bonus d'invisibilité est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Mirror Image", "Image Miroir", "talent name")
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
 t("Mirror Image (%s)", "Image Miroir (%s)", "tformat")
@@ -27493,7 +27501,7 @@ t([[When switching targets your rime wraith now always prefers the one farther a
 		Toutes les créatures sur le chemin du spectre pendant son déplacement sont affectées :
 		* Si amie : elles sont soignées de %d.
 		* Si hostile : elles subissent %0.2f dégâts de froid ; comme le spectre est à l'intérieur de la créature, les dégâts ignorent totalement tout bouclier de dégâts.
-		Les dégâts et les soins sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et les soins sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Gelid Host", "Hôte Gélide", "talent name")
 t([[By crushing one more soul you reinforce your existing rime wraith, duplicating it out of its current host.
 		The new wraith will exist for %d turns and cannot be used for another cast of Gelid Host.
@@ -27501,7 +27509,7 @@ t([[By crushing one more soul you reinforce your existing rime wraith, duplicati
 		The damage will increase with your Spellpower.]], [[En écrasant une âme supplémentaire, vous renforcez votre spectre glacial existant, le dupliquant hors de son hôte actuel.
 		Le nouveau spectre existera pendant %d tours et ne pourra pas être utilisé pour un autre lancement d'Hôte Gélide.
 		Lorsqu'il est créé, l'hôte actuel et tous les ennemis dans un rayon de %d subissent %0.2f dégâts de froid.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t([[Hoarfrost now has additional effects:
 		- if friendly: magical and physical saves increased by %d, at level 5 healing factor is also increased by 15%%.
 		- if hostile: magical and physical saves reduced by %d, at level 5 all talents cool down 15%% slower.
@@ -27661,7 +27669,7 @@ t("Staff Mastery", "Maîtrise du Baton", "talent name")
 t("Increases weapon damage by %d%% and physical power by 30 when using staves.", "Augmente les dégâts d'arme de %d%% et la Puissance physique de 30 lors de l'utilisation de batons.", "tformat")
 t("Defensive Posture", "Posture Défensive", "talent name")
 t("Adopt a defensive posture, increasing your Defense and Armour by %d.", [[Adoptez une posture défensive, augmentant votre Défense et votre Armure de %d.
-Les bonus sont proportionnels à votre Puissance des sorts.]], "tformat")
+Les bonus sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Blunt Thrust", "Coup Contondant", "talent name")
 t("You cannot use Blunt Thrust without a staff weapon!", "Vous ne pouvez pas utiliser Coup Contondant sans un baton !", "logPlayer")
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
@@ -27717,7 +27725,7 @@ t([[Conjures %d missile-shaped rocks that you target individually at any target 
 		At talent level 5, you can conjure one additional missile.
 		The damage will increase with your Spellpower.]], [[Conjure %d roches en forme de missile que vous ciblez individuellement sur toute cible ou cibles à portée. Chaque missile inflige %0.2f dégâts physiques et un Saignement supplémentaire de %0.2f dégâts physiques par tour pendant 5 tours.
 		Au niveau 5, vous pouvez conjurer un missile supplémentaire.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Body of Stone", "Corps de Pierre", "talent name")
 t([[You root yourself into the earth, and transform your flesh into stone.  While this spell is sustained, you may not move, and any forced movement will end the effect.
 		Your stone form and your affinity with the earth while the spell is active has the following effects:
@@ -27727,11 +27735,11 @@ t([[You root yourself into the earth, and transform your flesh into stone.  Whil
 		Votre forme de pierre et votre affinité avec la terre tandis que le sort est actif ont les effets suivants :
 		* Réduit le rechargement de Missiles en Terre, Foreuse Broyeuse, Tremblement de Terre et Glissement de Terrain de %d%%.
 		* Accorde %d%% de résistance au feu, %d%% de résistance à la foudre, %d%% de résistance à l'acide et %d%% de résistance à l'assomement.
-		Les résistances sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les résistances sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Earthquake", "Tremblement de Terre", "talent name")
 t([[Causes a violent earthquake that deals %0.2f physical damage in a radius of %d each turn for %d turns, and potentially stuns any and all creatures it affects.
 		The damage will increase with your Spellpower.]], [[Provoque un violent tremblement de terre infligeant %0.2f dégâts physiques dans un rayon de %d chaque tour pendant %d tours, assomant potentiellement toutes les créatures affectées.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Crystalline Focus", "Focus Cristallin", "talent name")
 t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical damage by %0.1f%% and ignoring %d%% physical resistance of your targets.
 		Also raises your physical and magical saves by %d.]], [[Concentrez-vous sur le maintien d'un Focus Cristallin, augmentant tous vos dégâts physiques de %0.1f%% et ignorant %d%% de la résistance physique de vos cibles.
@@ -27742,19 +27750,19 @@ section "mod-tome/data/talents/spells/storm.lua"
 
 t([[Lightning emanates from you in a circular wave with radius %d, doing %0.2f to %0.2f lightning damage (%0.2f average) and possibly dazing anyone affected (75%% chance).
 		The damage will increase with your Spellpower.]], [[De la foudre émane de vous en une vague circulaire de rayon %d, infligeant de %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne) et étourdissant légèrement toute personne affectée (75%% de chance).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shock", "Choc", "talent name")
 t([[Conjures up a bolt of lightning, doing %0.2f to %0.2f damage (%0.2f average) and dazing the target for 3 turns.
 		If the target resists the daze effect it is instead shocked, which halves stun/daze/pin resistance, for 5 turns.
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de foudre, infligeant de %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne) et étourdissant légèrement la cible pendant 3 tours.
 		Si la cible résiste à l'effet d'étourdissement léger, elle est à la place sous Choc de sort, réduisant de moitié la résistance à l'étourdissement/étourdissement léger/immobilisation pendant 5 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Hurricane", "Ouragan", "talent name")
 t([[Each time one of your lightning spells dazes a target, it has a %d%% chance to creates a chain reaction that summons a mighty Hurricane that lasts for 10 turns around the target with a radius of %d.
 		Each turn, the afflicted creature and all creatures around it will take %0.2f to %0.2f lightning damage (%0.2f average).
 		The damage will increase with your Spellpower.]], [[Chaque fois que l'un de vos sorts de foudre étourdit légèrement une cible, il y a %d%% de chance de créer une réaction en chaîne qui invoque un puissant Ouragan durant 10 tours autour de la cible avec un rayon de %d.
 		À chaque tour, la créature affectée et toutes les créatures autour d'elle subissent de %0.2f à %0.2f dégâts de foudre (%0.2f en moyenne).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Tempest", "Tempête", "talent name")
 t([[Surround yourself with a Tempest, increasing all your lightning damage by %d%% and ignoring %d%% lightning resistance of your targets.
 		Your Lightning and Chain Lightning spells also gain a %d%% chance to daze, and your Thunderstorm spell gains a %d%% chance to daze.]], [[Entourez-vous d'une Tempête, augmentant tous vos dégâts de foudre de %d%% et ignorant %d%% de la résistance à la foudre de vos cibles.
@@ -27777,13 +27785,13 @@ t([[This intricate spell instantly erects a time shield around the caster, preve
 		The shield's max absorption will increase with your Spellpower.]], [[Ce sort complexe érige instantanément un bouclier temporel autour du lanceur, empêchant tout dégât entrant et l'envoyant vers l'avenir.
 		Une fois que le dégât maximum (%d) est absorbé ou que le temps s'écoule (%d tours), les dégâts stockés retournent sous forme de champ de restauration temporel sur 5 tours.
 		À chaque tour où le champ de restauration est actif, vous êtes soigné de 10%% des dégâts absorbés (le talent Égide affecte le pourcentage).
-		L'absorption maximale du bouclier est proportionnel à votre Puissance des sorts.]], "tformat")
+		L'absorption maximale du bouclier est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Time Prison", "Prison Temporelle", "talent name")
 t([[Removes the target from the flow of time for %d turns. In this state, the target can neither act nor be harmed.
 		Time does not pass at all for the target, no talents will cooldown, no resources will regen, and so forth.
 		The duration will increase with your Spellpower.]], [[Retire la cible du flux du temps pendant %d tours. Dans cet état, la cible ne peut ni agir ni être blessée.
 		Le temps ne passe pas du tout pour la cible, aucun talent ne recharge, aucune ressource ne se régénère, et ainsi de suite.
-		La durée est proportionnel à votre Puissance des sorts.]], "tformat")
+		La durée est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Essence of Speed", "Essence de Vitesse", "talent name")
 t("Increases the caster's global speed by %d%%.", "Augmente la vitesse globale du lanceur de %d%%.", "tformat")
 
@@ -27839,7 +27847,7 @@ t([[Using your near-perfect knowledge of beam spells you combine them all into a
 		Est affecté par l'état mouillé (+30%% de dégâts) si vous êtes en Forme de Shivgoroth.
 		A 25%% de chance d'assommer ou geler les cibles pendant 3 tours (si Focus Cristallin ou Froid Absolu sont actifs, respectivement).
 		Chaque fois que vous infligez des dégâts avec un faisceau magique, le rechargement restant est réduit de 1 (cela ne peut se produire qu'une fois par tour).
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Thaumaturgy Unlock Checker", "Vérificateur de Déverrouillage de Thaumaturgie", "talent name")
 
 ------------------------------------------------
@@ -27848,7 +27856,7 @@ section "mod-tome/data/talents/spells/war-alchemy.lua"
 t("Heat", "Chaleur", "talent name")
 t([[Turn part of your target into fire, burning the rest for %0.2f fire damage over 8 turns.
 		The damage will increase with your Spellpower.]], [[Transformez une partie de votre cible en feu, brûlant le reste pour %0.2f dégâts de feu sur 8 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/water.lua"
@@ -27862,13 +27870,13 @@ t([[Hurl ice shards at the targets in the selected area. Each shard travels slow
 		Si la cible résiste au gel, elle est à la place mouillée.
 		Si la cible est mouillée, les dégâts augmentent de 30%% et la chance de gel augmente à 50%%.
 		Ce sort ne touchera jamais le lanceur.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Glacial Vapour", "Vapeur Glaciale", "talent name")
 t([[Glacial fumes rise from the ground, doing %0.2f cold damage in a radius of 3 each turn for %d turns.
 		Creatures that are wet will take 30%% more damage and have 15%% chance to get frozen.
 		The damage will increase with your Spellpower.]], [[Des vapeurs glaciales s'élèvent du sol, infligeant %0.2f dégâts de froid dans un rayon de 3 chaque tour pendant %d tours.
 		Les créatures mouillées subissent 30%% de dégâts supplémentaires et ont 15%% de chance d'être gelées.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Tidal Wave", "Raz-de-marée", "talent name")
 t("A #LIGHT_BLUE#wave of icy water#LAST# erupts from the ground!", "Une #LIGHT_BLUE#vague d'eau glacée#LAST# jaillit du sol !", "logSeen")
 t([[A wall of water rushes out from the caster with an initial radius of 1, increasing by 1 per turn to a maximum radius of %d, doing %0.2f cold damage and %0.2f physical damage to all inside, as well as knocking back targets each turn.
@@ -27877,7 +27885,7 @@ t([[A wall of water rushes out from the caster with an initial radius of 1, incr
 		The damage and duration will increase with your Spellpower.]], [[Un mur d'eau se précipite depuis le lanceur avec un rayon initial de 1, augmentant de 1 par tour jusqu'à un rayon maximum de %d, infligeant %0.2f dégâts de froid et %0.2f dégâts physiques à tous à l'intérieur, et repoussant les cibles chaque tour.
 		Le raz-de-marée dure %d tours.
 		Toutes les créatures touchées reçoivent l'effet mouillé, qui réduit leur immunité à l'étourdissement/gel de moitié et interagit avec d'autres sorts de froid.
-		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la durée sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Shivgoroth Form", "Forme de Shivgoroth", "talent name")
 t("You are already a Shivgoroth!", "Vous êtes déjà un Shivgoroth !", "logPlayer")
 t([[You absorb latent cold around you, turning into an ice elemental - a shivgoroth - for %d turns.
@@ -27887,7 +27895,7 @@ t([[You absorb latent cold around you, turning into an ice elemental - a shivgor
 		#AQUAMARINE#Ice storm:#LAST#
 		%s]], [[Vous absorbez le froid latent autour de vous, vous transformant en élémentaire de glace - un shivgoroth - pendant %d tours.
 		Transformé, vous n'avez pas besoin de respirer, accédez au talent Tempête de Glace au niveau %d, gagnez %d%% de résistance aux Entailles et aux assommements, gagnez %d%% de résistance au froid, et tous les dégâts de froid vous soignent de %d%% des dégâts infligés.
-		La puissance est proportionnel à votre Puissance des sorts.
+		La puissance est proportionnel à votre Puissance des Sorts.
 
 		#AQUAMARINE#Tempête de glace :#LAST#
 		%s]], "tformat")
@@ -27898,7 +27906,7 @@ t([[A furious ice storm rages around the caster, doing %0.2f cold damage in a ra
 		The damage and duration will increase with your Spellpower.]], [[Une furieuse tempête de glace fait rage autour du lanceur, infligeant %0.2f dégâts de froid dans un rayon de 3 par tour pendant %d tours.
 		Elle a 25%% de chance de geler les cibles endommagées.
 		Si la cible est mouillée, les dégâts augmentent de 30%% et la chance de gel augmente à 50%%.
-		Les dégâts et la durée sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts et la durée sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/spells/wildfire.lua"
@@ -27906,11 +27914,11 @@ section "mod-tome/data/talents/spells/wildfire.lua"
 t("Blastwave", "Déflagration", "talent name")
 t([[A wave of fire emanates from you with a radius of %d, knocking back anything caught inside and setting them ablaze, doing %0.2f fire damage over 3 turns.
 		The damage will increase with your Spellpower.]], [[Une vague de feu émane de vous dans un rayon de %d, repoussant tout ce qui est pris à l'intérieur et l'enflammant, infligeant %0.2f dégâts de feu sur 3 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Burning Wake", "Feux Dansants", "talent name")
 t([[Your Flame, Flameshock, Fireflash and Blastwave spells leave a burning wake on the ground, burning all within for %0.2f fire damage for 4 turns.
 		The damage will increase with your Spellpower.]], [[Vos sorts Flamme, Choc Enflammé, Éclair de Feu et Déflagration laissent un sillage ardent sur le sol, brûlant tout à l'intérieur pour %0.2f dégâts de feu pendant 4 tours.
-		Les dégâts sont proportionnels à votre Puissance des sorts.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Cleansing Flames", "Feux Purificateurs", "talent name")
 t([[When you stand in your Burning Wake or Inferno ground effect, you can self immolate to trigger Cleansing Flames for %d turns.
 		While the effect lasts you will take %0.2f fire damage per turn.
@@ -28366,7 +28374,7 @@ t("Daunting Presence", "Présence Intimidante", "talent name")
 t([[Enemies are intimidated by your very presence.
 		Enemies within radius %d have their Physical Power, Mindpower, and Spellpower reduced by %d.
 		The power of the intimidation effect improves with your Physical power]], [[Les ennemis sont intimidés par votre simple présence.
-		Les ennemis dans un rayon de %d ont leur Puissance physique, Puissance mentale et Puissance des sorts réduites de %d.
+		Les ennemis dans un rayon de %d ont leur Puissance physique, Puissance mentale et Puissance des Sorts réduites de %d.
 		La puissance de l'effet d'intimidation est proportionnel à votre Puissance physique.]], "tformat")
 t("Adrenaline Surge", "Montée d'Adrénaline", "talent name")
 t([[You release a surge of adrenaline that increases your Physical Power by %d for %d turns. While the effect is active, you may continue to fight beyond the point of exhaustion.
@@ -28602,7 +28610,7 @@ t([[Allows you to use melee weapons to focus your spells, granting a %d%% chance
 
 		Sorts autorisés : %s %s]], "tformat")
 t("Arcane Cunning", "Ruse Arcanique", "talent name")
-t("The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "L'utilisateur gagne un bonus à la Puissance des sorts égal à %d%% de votre Ruse (Bonus actuel : %d).", "tformat")
+t("The user gains a bonus to Spellpower equal to %d%% of your Cunning (Current bonus: %d).", "L'utilisateur gagne un bonus à la Puissance des Sorts égal à %d%% de votre Ruse (Bonus actuel : %d).", "tformat")
 t("Arcane Feed", "Absorption Arcanique", "talent name")
 t("Regenerates %0.2f mana per turn, and increases physical and spell critical chance by %d%% while active.", "Régénère %0.2f mana par tour et augmente la chance de coup critique physique et magique de %d%% tant qu'actif.", "tformat")
 t("Arcane Destruction", "Destruction Arcanique", "talent name")
@@ -28617,7 +28625,7 @@ t([[Raw magical damage channels through the caster's weapon, increasing raw Phys
 		Si vous utilisez un bouclier cela ne se produira que 50%% du temps.
 		Si vous maniez deux armes cela ne se produira que 50%% du temps.
 		Au niveau 5, la boule passe à un rayon de 2.
-		Les bonus est proportionnel àvotre Puissance des sorts et le niveau du talent.
+		Les bonus est proportionnel àvotre Puissance des Sorts et le niveau du talent.
 		]], "tformat")
 
 ------------------------------------------------
@@ -29215,7 +29223,7 @@ section "mod-tome/data/talents/techniques/weaponshield.lua"
 t("Shield Pummel", "Coup de Bouclier", "talent name")
 t("You require a weapon and a shield to use this talent.", "Vous avez besoin d'une arme et d'un bouclier pour utiliser ce talent.", "logPlayer")
 t("You cannot use Shield Pummel without a shield!", "Vous ne pouvez pas utiliser Coup de Bouclier sans bouclier !", "logPlayer")
-t("%s resists the shield bash!", "%s résiste a la frappe au bouclier !", "logSeen")
+t("%s resists the shield bash!", "%s résiste au coup de bouclier !", "logSeen")
 t([[Hits the target with two shield strikes, doing %d%% and %d%% shield damage. If it hits a second time, it stuns the target for %d turns.
 		The stun chance increases with your Accuracy and your Strength.]], [[Touche la cible avec deux coups de bouclier, infligeant %d%% et %d%% dégâts de bouclier. S'il touche une seconde fois, il assomme la cible pendant %d tours.
 		Les chances d'assommement sont proportionnels à votre précision et votre force.]], "tformat")
@@ -29359,7 +29367,7 @@ t([[Surround yourself with a malevolent aura that stores damage you deal.
 		* #ORANGE#Mental :#LAST# Provoque la Confusion (%d%% de puissance) pendant 5 tours.
 
 		Chaque effet ne peut se produire qu'une fois toutes les 10 tours du joueur. Cela ne compte pas comme un rechargement normal.
-		Les dégâts et la puissance des effets sont proportionnels à votre Ruse, le seuil avec votre niveau, et la puissance d'application est la plus élevée entre votre Puissance mentale et votre Puissance des sorts.
+		Les dégâts et la puissance des effets sont proportionnels à votre Ruse, le seuil avec votre niveau, et la puissance d'application est la plus élevée entre votre Puissance mentale et votre Puissance des Sorts.
 		%s]], "tformat")
 t("Secrets of Telos", "Secrets de Telos", "talent name")
 t("Possess Telos Top Half, Telos Bottom Half, and Telos Staff Crystal", "Possède la Moitié Supérieure, la Moitié Inférieure et le Cristal du Bâton de Telos", "_t")
@@ -29809,7 +29817,7 @@ t([[When casting damaging spells or mind attacks, the release of your willpower 
 		Vous et vos alliés ne subissez aucun dégât de l'un ou l'autre effet.
 
 		De plus, votre bonus de dégâts de feu et votre pénétration de résistance sont fixés à votre bonus de dégâts et pénétration de résistance les plus élevés actuels. Cela s'applique à tous les dégâts de feu que vous infligez.
-		Les dégâts sont proportionnels à votre Puissance des sorts ou Puissance mentale.]], "tformat")
+		Les dégâts sont proportionnels à votre Puissance des Sorts ou Puissance mentale.]], "tformat")
 t("Garkul's Revenge", "Vengeance de Garkul", "talent name")
 t("Possess and wear two of Garkul's artifacts and know all about Garkul's life", "Possède et porte deux des artefacts de Garkul et connaît tout de la vie de Garkul", "_t")
 t("Garkul's spirit is with you. You now deal 1000%% more damage to constructs and 20%% more damage to humanoids and giants.", "L'esprit de Garkul est avec vous. Vous infligez désormais 1000%% de dégâts supplémentaires aux Créatures artificielles et 20%% de dégâts supplémentaires aux humanoïdes et aux géants.", "tformat")
@@ -30718,7 +30726,7 @@ t([[The final three important #GOLD#combat stats#WHITE# of your character are th
 ]], [[Les trois dernières #GOLD#statistiques de combat#WHITE# importantes de votre personnage sont les suivantes :
 
 #LIGHT_GREEN#Puissance physique : #WHITE#Votre capacité à infliger des dégâts et des effets avec des armes (y compris les poings).
-#LIGHT_GREEN#Puissance des sorts : #WHITE#Votre capacité à infliger des dégâts et des effets avec des sorts.
+#LIGHT_GREEN#Puissance des Sorts : #WHITE#Votre capacité à infliger des dégâts et des effets avec des sorts.
 #LIGHT_GREEN#Puissance mentale : #WHITE#Votre capacité à infliger des dégâts et des effets avec votre esprit.
 
 ]], "_t")
@@ -30747,7 +30755,7 @@ Chaque être dans ToME a huit importantes #GOLD#statistiques de combat#WHITE# qu
 Quatre d'entre elles sont offensives...
 #LIGHT_GREEN#Précision#WHITE#
 #LIGHT_GREEN#Puissance physique#WHITE#
-#LIGHT_GREEN#Puissance des sorts#WHITE#
+#LIGHT_GREEN#Puissance des Sorts#WHITE#
 #LIGHT_GREEN#Puissance mentale#WHITE#
 
 ...et les quatre autres sont défensives.
@@ -30847,7 +30855,7 @@ But don't worry. It's usually easy to know what will get used for two reasons:
 ]], [[Il semble qu'il y ait plusieurs façons de faire correspondre les #GOLD#statistiques de combat#WHITE# offensives...
 #LIGHT_GREEN#Précision#WHITE#
 #LIGHT_GREEN#Puissance physique#WHITE#
-#LIGHT_GREEN#Puissance des sorts#WHITE#
+#LIGHT_GREEN#Puissance des Sorts#WHITE#
 #LIGHT_GREEN#Puissance mentale#WHITE#
 
 ...avec les #GOLD#statistiques de combat#WHITE# défensives.
@@ -30860,7 +30868,7 @@ Mais ne vous inquiétez pas. Il est généralement facile de savoir ce qui sera 
 
 #GOLD#1)#WHITE# Les #GOLD#statistiques#WHITE# de combat défensives sont utilisées de manière assez cohérente ; les effets physiques utilisent la #LIGHT_GREEN#Sauvegarde physique#WHITE#, quelle que soit leur source. Les effets magiques utilisent la #LIGHT_GREEN#Sauvegarde des sorts#WHITE#, quelle que soit leur source. Les effets mentaux utilisent la #LIGHT_GREEN#Sauvegarde mentale#WHITE#, quelle que soit leur source.
 
-#GOLD#2)#WHITE# La plupart du temps, une classe donnée utilise une seule #GOLD#statistique de combat#WHITE# offensif, il n'y a donc pas beaucoup de risque de confusion. Un berserker n'utilisera que la #LIGHT_GREEN#Puissance physique#WHITE# pour appliquer des effets. De même, un archimage n'utilisera que la #LIGHT_GREEN#Puissance des sorts#WHITE#. 
+#GOLD#2)#WHITE# La plupart du temps, une classe donnée utilise une seule #GOLD#statistique de combat#WHITE# offensif, il n'y a donc pas beaucoup de risque de confusion. Un berserker n'utilisera que la #LIGHT_GREEN#Puissance physique#WHITE# pour appliquer des effets. De même, un archimage n'utilisera que la #LIGHT_GREEN#Puissance des Sorts#WHITE#. 
 ]], "_t")
 
 ------------------------------------------------
@@ -32910,7 +32918,7 @@ t("The target is affected by a glimmerstone, its next attack will try to daze.",
 t("Protective Aura", "Aura Protectrice", "floorEffect desc")
 t("The target is near a protective aura, granting +%d armour and +%d physical save.", "La cible se trouve à proximité d'une aura protectrice, lui conférant +%d d'armure et +%d de sauvegarde physique.", "tformat")
 t("Antimagic Bush", "Buisson anti-magie", "floorEffect desc")
-t("The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "La cible se trouve près d'un buisson anti-magie, ce qui lui confère +20%% dégâts de nature, +20%% de pénétration de la résistance à la nature et -%d de puissance des sorts.", "tformat")
+t("The target is near an antimagic bush, granting +20%% nature damage, +20%% nature resistance penetration and -%d spellpower.", "La cible se trouve près d'un buisson anti-magie, ce qui lui confère +20%% dégâts de nature, +20%% de pénétration de la résistance à la nature et -%d de Puissance des Sorts.", "tformat")
 t("Necrotic Air", "Air Nécrotique", "floorEffect desc")
 t("The target is in a zone of necrotic air, granting -40% healing mod. Undead creatures also get +15% to all resistances.", "La cible se trouve dans une zone d'air nécrotique, accordant -40% de modificateur à la guérison. Les créatures mortes-vivantes bénéficient également de +15% de résistances globale.", "_t")
 t("Whistling Vortex", "Vortex Sifflant", "floorEffect desc")
@@ -32935,7 +32943,7 @@ t("Armor Corroded", "Armure Corrodée", "_t")
 t("The target has been splashed with acid, reducing armour by %d%% (#RED#%d#LAST#).", "La cible a été aspergée d'acide, réduisant son armure de %d%% (#RED#%d#LAST#).", "tformat")
 t("#Target#'s armor corrodes!", "L'armure de #Target# est corrodée !", "_t")
 t("#Target# is fully armored again.", "L'armure de #Target# est de nouveau intacte.", "_t")
-t("arcane", "dégâts d'arcane", "effect subtype")
+t("arcane", "arcanique", "effect subtype")
 t("Surging mana", "Déferlement de mana", "_t")
 t("The mana surge engulfs the target, regenerating %0.2f mana per turn.", "Le déferlement de mana engloutit la cible, régénérant %0.2f mana par tour.", "tformat")
 t("#Target# starts to surge mana.", "Le déferlement de mana commence sur #Target#.", "_t")
@@ -32982,7 +32990,7 @@ t("phantasm", "fantasme", "effect subtype")
 t("invisibility", "invisibilité", "effect subtype")
 t("Invisibility", "invisibilité", "_t")
 t("Improves/gives invisibility (power %d), and increases damage dealt to blind or dazzled creatures by %d%%.", "Améliore/donne l'invisibilité (puissance %d), et augmente les dégâts infligés aux créatures aveugles ou éblouies de %d%%.", "tformat")
-t("#Target# vanishes from sight.", "#Target# disparait de la vue.", "_t")
+t("#Target# vanishes from sight.", "#Target# disparaît de la vue.", "_t")
 t("#Target# is no longer invisible.", "#Target# n'est plus invisible.", "_t")
 t("Improves/gives invisibility (power %d), reducing damage dealt by %d%%%s.", "Améliore/donne de l'invisibilité (puissance %d), réduisant les dégâts infligés de %d%%%s.", "tformat")
 t(" and preventing healing and life regeneration", " et prévenant les soins et la régénération de la vie", "_t")
@@ -33110,7 +33118,7 @@ t("#Target# is completely vulnerable to disease!", "#Target# est totalement vuln
 t("#Target# no longer vulnerable to disease.", "#Target# n'est plus vulnérable aux maladies.", "_t")
 t("frenzy", "frénésie", "effect subtype")
 t("Bloodlust", "Soif de Sang", "_t")
-t("The target is in a magical frenzy, improving spellpower by %d.", "La cible est en proie à une frénésie magique, améliorant sa puissance des sorts de %d.", "tformat")
+t("The target is in a magical frenzy, improving spellpower by %d.", "La cible est en proie à une frénésie magique, améliorant sa Puissance des Sorts de %d.", "tformat")
 t("Acid Splash", "Éclaboussure Acide", "_t")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn, reducing armour by %d and attack by %d.", "La cible a été éclaboussée d'acide, subissant %0.2f dégâts d'acide par tour, réduisant son armure de %d et son attaque de %d.", "tformat")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide !", "_t")
@@ -33209,7 +33217,7 @@ t("+Invigorate", "+Revigorer", "_t")
 t("#Target# is no longer invigorated.", "#Target# n'est plus revigoré.", "_t")
 t("-Invigorate", "-Revigorer", "_t")
 t("Gather the Threads", "Rassembler les Fils", "_t")
-t("The target's spellpower has been increased by %d and will continue to increase by %d each turn.", "La puissance des sorts de la cible est augmentée de %d et continuera d'augmenter de %d par tour.", "tformat")
+t("The target's spellpower has been increased by %d and will continue to increase by %d each turn.", "La Puissance des Sorts de la cible est augmentée de %d et continuera d'augmenter de %d par tour.", "tformat")
 t("#Target# is gathering energy from other timelines.", "#Target# rassemble de l'énergie provenant d'autres lignes temporelles.", "_t")
 t("+Gather the Threads", "+Rassembler les Fils", "_t")
 t("#Target# is no longer manipulating the timestream.", "#Target# ne manipule plus le flux temporel.", "_t")
@@ -33227,7 +33235,7 @@ t("+Manaworm", "+Ver de Mana", "_t")
 t("#Target# is no longer infected.", "#Target# n'est plus infecté.", "_t")
 t("-Manaworm", "-Ver de Mana", "_t")
 t("Surge of Undeath", "Déferlement de Mort", "_t")
-t("Increases the target combat power, spellpower, accuracy by %d, armour penetration by %d and critical chances by %d.", "Augmente la puissance de combat, la puissance des sorts, et la précision de la cible de %d, la pénétration d'armure de %d et les chances de critique de %d.", "tformat")
+t("Increases the target combat power, spellpower, accuracy by %d, armour penetration by %d and critical chances by %d.", "Augmente la puissance de combat, la Puissance des Sorts, et la précision de la cible de %d, la pénétration d'armure de %d et les chances de critique de %d.", "tformat")
 t("#Target# is engulfed in dark energies.", "#Target# est englouti dans d'obscures énergies.", "_t")
 t("+Undeath Surge", "+Déferlement de Mort", "_t")
 t("#Target# seems less powerful.", "#Target# semble moins puissant.", "_t")
@@ -33351,7 +33359,7 @@ t("Corruptions consume health instead of vim.", "Les corruptions consomment de l
 t("Sanguine Infusion", "Essence Sanguine", "_t")
 t("Maximum life increased by %d.", "La vie maximum est augmenté de %d.", "tformat")
 t("Arcane Supremacy", "Suprématie Arcanique", "_t")
-t("The target's spellpower and spell save has been increased by %d", "La puissance des sorts et la sauvegarde des sorts de la cible sont augmentées de %d", "tformat")
+t("The target's spellpower and spell save has been increased by %d", "La Puissance des Sorts et la sauvegarde des sorts de la cible sont augmentées de %d", "tformat")
 t("#Target# is surging with arcane energy.", "#Target# est saturé d'énergie arcanique.", "_t")
 t("+Arcane Supremacy", "+Suprématie Arcanique", "_t")
 t("The arcane energy around #target# has dissipated.", "L'énergie arcanique autour de #target# s'est dissipée.", "_t")
@@ -33749,9 +33757,9 @@ t("Frightening Presence", "Présence Effrayante", "_t")
 t("The mere sight of a Lich sent you into a frightened state, reducing all saves by %d, all damage by %d%% and movement speed by %d%%.", "La simple vue d'une Liche vous a plongé dans un état de frayeur, réduisant toutes les sauvegardes de %d, tous les dégâts de %d%% et la vitesse de déplacement de %d%%.", "tformat")
 t("power", "pouvoir", "effect subtype")
 t("Commander of the Dead", "Commandant des Morts", "_t")
-t("Physical power, spellpower and all saves increased by %d.", "La puissance physique, la puissance des sorts et toutes les sauvegardes sont augmentées de %d.", "tformat")
+t("Physical power, spellpower and all saves increased by %d.", "La puissance physique, la Puissance des Sorts et toutes les sauvegardes sont augmentées de %d.", "tformat")
 t("Consume Soul", "Consommation de l'Âme", "_t")
-t("Spellpower increased by %d.", "La puissance des sorts est augmentée de %d.", "tformat")
+t("Spellpower increased by %d.", "La Puissance des Sorts est augmentée de %d.", "tformat")
 t("Necrotic Aura", "Aura Nécrotique", "_t")
 t("All resistances increased by %d.", "Toutes les résistances augmentent de %d.", "tformat")
 t("lord of skulls", "seigneur des crânes", "effect subtype")
@@ -33775,7 +33783,7 @@ t("cooldown", "rechargement", "effect subtype")
 t("Brittle Bones", "Os Fragiles", "_t")
 t("Physical resistance reduced by %d%% and talents cooldowns increased by %d%%.", "Résistance physique réduite de %d%% et rechargement des talents augmentés de %d%%.", "tformat")
 t("Boneyard", "Ossuaire", "_t")
-t("Spellpower and physical power increased by %d.", "Puissance des sorts et puissance physique augmentées de %d.", "tformat")
+t("Spellpower and physical power increased by %d.", "Puissance des Sorts et puissance physique augmentées de %d.", "tformat")
 t("Neverending Peril", "Péril Sans Fin", "_t")
 t("Golden Age of Necromancy", "Âge d'or de la Nécromancie", "_t")
 t("flat", "plat", "effect subtype")
@@ -33967,7 +33975,7 @@ t("Being stalked by %s. Stalker bonus level %d: +%d accuracy, +%d%% melee damage
 t(" Prey damage modifier: %d%%.", " Modificateur de dégâts pour les proies : %d%%.", "tformat")
 t("Beckoned", "Interpellé", "_t")
 t("The target has been beckoned by %s and is heeding the call. There is a %d%% chance of moving towards the beckoner each turn.", "La cible a été interpellée par %s et répond à l'appel. Il y a %d%% de chances de se déplacer vers l'interpelleur par tour.", "tformat")
-t(" (spellpower: %d, mindpower: %d", " (puissance des sorts : %d, puissance mentale : %d", "tformat")
+t(" (spellpower: %d, mindpower: %d", " (Puissance des Sorts : %d, puissance mentale : %d", "tformat")
 t("#Target# has been beckoned.", "#Target# a été interpellé.", "_t")
 t("+Beckoned", "+Interpellé", "_t")
 t("#Target# is no longer beckoned.", "#Target# n'est plus interpellé.", "_t")
@@ -34313,7 +34321,6 @@ t("#Target#'s focuses.", "#Target# se concentre.", "_t")
 t("+Hidden Ressources", "+Ressources Cachées", "_t")
 t("#Target#'s loses some focus.", "#Target# perd de sson focus.", "_t")
 t("-Hidden Ressources", "-Ressources Cachées", "_t")
-t("nature", "dégâts de nature", "effect subtype")
 t("Spell Feedback", "Sort Rétroactif", "_t")
 t("The target suffers %d%% spell failue.", "La cible est victime de %d%% d'échec des sorts.", "tformat")
 t("#Target# is surrounded by antimagic forces.", "#Target# est entouré de forces anti-magique.", "_t")
@@ -34384,6 +34391,7 @@ t("#ORANGE#", "#ORANGE#", "_t")
 t(", nature", ", nature", "_t")
 t(", arcane", ", arcane", "_t")
 t("#LIGHT_GREEN#", "#LIGHT_GREEN#", "_t")
+t("nature", "nature", "effect subtype")
 t("%s", "%s", "tformat")
 --]==]
 
@@ -34438,7 +34446,6 @@ t("Charm:  Evasion", "Breloque :  Evasion", "_t")
 t("%d%% chance to avoid weapon attacks", "%d%% chances d'éviter les attaques par arme", "tformat")
 t("Charm:  Innervating", "Breloque :  Innervant", "_t")
 t("Fatigue reduced by %d%%.", "Fatigue réduite de %d%%.", "tformat")
-t("nature", "dégâts de nature", "effect subtype")
 t("You have taken root!", "Vous avez pris racine !", "_t")
 t("You have taken root becoming one with nature.  Or at least the ground.  Your health, armor, and armor hardiness are improved but you cannot move.", "Vous avez pris racine et ne faites plus qu'un avec la nature. Ou du moins avec le sol. Votre santé, votre robustesse d'armure et votre résistance sont améliorées, mais vous ne pouvez pas vous déplacer.", "_t")
 t("#LIGHT_BLUE##Target# takes root.", "#LIGHT_BLUE##Target# prend racine.", "_t")
@@ -34513,7 +34520,7 @@ t("Paradox Clone", "Clone Paradoxal", "_t")
 t("You've been pulled into the past.", "Vous avez été ramené dans le passé.", "_t")
 t("#LIGHT_BLUE#You've been returned to the present!", "#LIGHT_BLUE#Vous avez été ramené dans le présent !", "logPlayer")
 t("Militant Mind", "Esprit Militant", "_t")
-t("Increases physical power, physical save, spellpower, spell save, mindpower, and mental save by %d.", "Augmente la puissance physique, la sauvegarde physique, la puissance des sorts, la sauvegarde des sorts, la puissance mentale et la sauvegarde mentale de %d.", "tformat")
+t("Increases physical power, physical save, spellpower, spell save, mindpower, and mental save by %d.", "Augmente la puissance physique, la sauvegarde physique, la Puissance des Sorts, la sauvegarde des sorts, la puissance mentale et la sauvegarde mentale de %d.", "tformat")
 t("Sever Lifeline", "Ligne de Vie Rompue", "_t")
 t("The target's lifeline is being cut. When the effect ends %d temporal damage will hit the target.", "La ligne de vie de la cible est en train d'être rompue. Lorsque l'effet se terminera, %d dégâts temporels frapperont la cible.", "tformat")
 t("#Target#'s lifeline is being severed!", "La ligne de vie de #Target# est en train d'être rompue !", "_t")
@@ -34641,7 +34648,7 @@ t("Faded", "Disparu", "_t")
 t("The target has faded and is no longer taking damage.", "La cible a disparu et ne subit plus de dégâts.", "_t")
 t("#Target# fades!", "#Target# disparait !", "_t")
 t("+Faded", "+Disparu", "_t")
-t("arcane", "dégâts d'arcane", "effect subtype")
+t("arcane", "arcanique", "effect subtype")
 t("Highborn's Bloom", "Floraison des Bien-Nés", "_t")
 t("The target is using talents without consuming resources.", "La cible utilise ses talents sans épuiser ses ressources.", "_t")
 t("Victory Rush", "Frénésie Victorieuse", "_t")
@@ -34681,7 +34688,7 @@ t("Zone-wide effect: +10% acid damage, -10% acid resistance, -10% defense, -20% 
 t("Echoes of the void", "Échos du vide", "_t")
 t("Zone-wide effect: +10% darkness damage, -10% darkness resistance, -10% mental save, -20% fear immunity.", "Effet de zone : +10% aux dégâts d'obscurité, -10% à la résistance à l'obscurité, -10% au jet de sauvegarde mentale, -20% à l'immunité à la peur.", "_t")
 t("Eerie silence", "Silence inquiétant", "_t")
-t("Zone-wide effect: +10% mind damage, -10% mind resistance, -10% spellpower, -20% silence immunity.", "Effet de zone : +10% dégâts mentaux, -10% de résistance mentale, -10% de puissance des sorts, -20% d'immunité au silence.", "_t")
+t("Zone-wide effect: +10% mind damage, -10% mind resistance, -10% spellpower, -20% silence immunity.", "Effet de zone : +10% dégâts mentaux, -10% de résistance mentale, -10% de Puissance des Sorts, -20% d'immunité au silence.", "_t")
 t("Aura of light", "Aura de lumière", "_t")
 t("Zone-wide effect: +10% light damage, -10% light resistance, -10% accuracy, -20% blind immunity.", "Effet de zone : +10% dégâts de lumière, -10% de résistance à la lumière, -10% de précision, -20% d'immunité à l'aveuglement.", "_t")
 t("Aether residue", "Résidus d'éther", "_t")
@@ -34776,7 +34783,7 @@ t("Unstoppable", "Inarrêtable", "_t")
 t("The target is unstoppable! It refuses to die and cannot heal.  When the effect ends, it will heal %d Life (%d%% of maximum life per foe slain during the frenzy).", "La cible est inarrêtable ! Elle refuse de mourir et ne peut pas être soigné. À la fin de l'effet, elle regagnera %d points de vie (%d%% de ses points de vie maximums par ennemi tué pendant la frénésie).", "tformat")
 t("penalty", "pénalité", "effect subtype")
 t("Hit Penalty", "Pénalité pour Toucher", "_t")
-t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "La cible utilise une arme à deux mains d'une seule main, ce qui réduit la précision, la puissance physique, la puissance des sorts et la puissance mentale de %d%% (en fonction de la taille) ; de plus, tous les effets de dégâts déclenchés par votre main secondaire sont réduits de 50%%.", "tformat")
+t("The target is using a two handed weapon in a single hand, reducing accuracy, physical power, spellpower and mindpower by %d%% (based on size); also all damage procs from your offhand are reduced by 50%%.", "La cible utilise une arme à deux mains d'une seule main, ce qui réduit la précision, la puissance physique, la Puissance des Sorts et la puissance mentale de %d%% (en fonction de la taille) ; de plus, tous les effets de dégâts déclenchés par votre main secondaire sont réduits de 50%%.", "tformat")
 t("Twist Fate", "Destin Tordu", "_t")
 t([[Currently Twisted Anomaly: %s
 
@@ -34799,7 +34806,7 @@ t("Zone-wide effect: +20 mindpower, +2 life regen, -1 equilibrium per turn, -20%
 t("Sorcerous Aura", "Aura de Sorcier", "_t")
 t("Zone-wide effect: +20 magic, +2 mana regen, -20 accuracy, -20 stealth power.", "Effet de zone : +20 de magie, +2 de régénération de mana, -20 de précision, -20 de puissance furtive.", "_t")
 t("Disciplined Aura", "Aura de Discipline", "_t")
-t("Zone-wide effect: +20 defense, +20 all saves, -20 spell power.", "Effet de zone : +20 de défense, +20 à toutes les sauvegardes, -20 de puissance des sorts.", "_t")
+t("Zone-wide effect: +20 defense, +20 all saves, -20 spell power.", "Effet de zone : +20 de défense, +20 à toutes les sauvegardes, -20 de Puissance des Sorts.", "_t")
 t("Sinister Aura", "Aura Sinistre", "_t")
 t("Zone-wide effect: +10% critical chance, +20% critical damage, -20% nature and blight resistance.", "Effet de zone : +10% de chances de critique, +20% de dégâts critiques, -20% de résistance à la nature et au fléau.", "_t")
 t("Underwater Zone", "Zone Sous-Marine", "_t")
@@ -34872,7 +34879,7 @@ t("The target doesn't believe its ally truly saw anything in the shadows.", "La 
 t("Empowered by the shadows", "Fortifiés par les ombres", "_t")
 t("Gain %d%% all damage and %d%% all res.", "Gagnez %d%% dégâts et %d%% à toutes les résistances.", "tformat")
 t("Intimidated", "Intimidé", "_t")
-t("The target's morale is weakened, reducing its attack power, mind power, and spellpower by %d.", "Le moral de la cible est affaibli, ce qui réduit sa puissance d'attaque, sa puissance mentale et sa puissance des sorts de %d.", "tformat")
+t("The target's morale is weakened, reducing its attack power, mind power, and spellpower by %d.", "Le moral de la cible est affaibli, ce qui réduit sa puissance d'attaque, sa puissance mentale et sa Puissance des Sorts de %d.", "tformat")
 t("#Target#'s morale has been lowered.", "Le moral de #Target# a diminué.", "_t")
 t("+Intimidated", "+Intimidé", "_t")
 t("#Target# has regained its confidence.", "#Target# a retrouvé sa confiance.", "_t")
@@ -34919,6 +34926,7 @@ t("died a well-deserved death by exsanguination", "a connu une mort bien mérit�
 t("#CRIMSON#%d Bleed #LAST#", "#CRIMSON#%d Saignement #LAST#", "tformat")
 -- texte non traduit
 --[==[
+t("nature", "nature", "effect subtype")
 t("rune", "rune", "effect subtype")
 t("%s%d %s#LAST#", "%s%d %s#LAST#", "tformat")
 t("\
@@ -34982,7 +34990,6 @@ t("#Target# is cut deeply.", "#Target# est profondément coupé.", "_t")
 t("+Deep Wounds", "+Blessure Profonde", "_t")
 t("#Target#'s deep wound closes.", "Les blessures profondes de #Target# se referment.", "_t")
 t("-Deep Wounds", "-Blessure Profonde", "_t")
-t("nature", "dégâts de nature", "effect subtype")
 t("healing", "soin", "effect subtype")
 t("regeneration", "régénération", "effect subtype")
 t("Regeneration", "Régénération", "_t")
@@ -35730,6 +35737,7 @@ t("#Target# is not brutalized anymore.", "#Target# n'est plus brutalisé.", "_t"
 t("-Brutalized", "-Brutalisé", "_t")
 -- texte non traduit
 --[==[
+t("nature", "nature", "effect subtype")
 t("Poison", "Poison", "_t")
 t("+Poison", "+Poison", "_t")
 t("-Poison", "-Poison", "_t")
@@ -40324,7 +40332,7 @@ t("Vim when hit: ", "Vitae quand touché : ", "_t")
 t("Vim when hitting in melee: ", "Vitae lors d'une touche en mélée : ", "_t")
 t("Mana when firing critical spell: ", "Mana sur un coup critique magique : ", "_t")
 t("Vim when firing critical spell: ", "Vitae sur un coup critique magique : ", "_t")
-t("Spellpower on spell critical (stacks up to 3 times): ", "Puissance des sorts sur un critique magique (cumulable jusqu'a 3 fois) : ", "_t")
+t("Spellpower on spell critical (stacks up to 3 times): ", "Puissance des Sorts sur un critique magique (cumulable jusqu'a 3 fois) : ", "_t")
 t("Hate when firing a critical mind attack: ", "Haine sur un critique mental : ", "_t")
 t("Psi when firing a critical mind attack: ", "Psi sur un critique mental : ", "_t")
 t("Equilibrium when firing a critical mind attack: ", "Équilibre sur un critique mental : ", "_t")
@@ -40343,7 +40351,7 @@ t("Maximum vim: ", "Vitae maximum : ", "_t")
 t("Maximum pos.energy: ", "Pos.energie maximum : ", "_t")
 t("Maximum neg.energy: ", "Neg.energie maximum : ", "_t")
 t("Maximum air capacity: ", "Capacité d'air maximale : ", "_t")
-t("Spellpower: ", "Puissance des sorts : ", "_t")
+t("Spellpower: ", "Puissance des Sorts : ", "_t")
 t("Spell crit. chance: ", "Chance crit des sorts : ", "_t")
 t("Lowers spell cool-downs by: ", "Réduit les temps de récupération des sorts de : ", "_t")
 t("Mindpower: ", "Puissance mentale : ", "_t")
@@ -42796,7 +42804,7 @@ t("Physical power: ", "Puissance physique : ", "_t")
 t("Max encumbrance: ", "Encombrement max : ", "_t")
 t("Crit. chance: ", "Chance de crit : ", "_t")
 t("Accuracy: ", "Précision : ", "_t")
-t("Spellpower: ", "Puissance des sorts : ", "_t")
+t("Spellpower: ", "Puissance des Sorts : ", "_t")
 t("Defense: ", "Défense : ", "_t")
 t("Ranged defense: ", "Défense à distance : ", "_t")
 t("Shrug off criticals chance: ", "Bonus de critique ignoré : ", "_t")
@@ -42915,7 +42923,7 @@ Mouse: #00FF00#Left click#FFFFFF# to increase a stat; #00FF00#right click#FFFFFF
 Souris : #00FF00#clic gauche#FFFFFF# pour augmenter la stat ; #00FF00#clic droit#FFFFFF# pour diminuer la stat.
 ]], "_t")
 t("Value", "Valeur", "_t")
-t("Spellpower", "Puissance des sorts", "_t")
+t("Spellpower", "Puissance des Sorts", "_t")
 t("Spellcrit", "Crit de sort", "_t")
 t("Not enough stat points", "Pas assez de points de stats", "_t")
 t("You have no stat points left!", "Vous n'avez plus de points de stats !", "_t")

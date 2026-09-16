@@ -394,7 +394,7 @@ t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 #{bold}#Modifications#{normal}# :
 #LIGHT_UMBER#Nouvelle classe :#WHITE# Avatar de la ruine. Ces avatars de la destruction démoniaque se lancent dans la bataille avec de massives armes à deux mains, faisant des ravages par le feu en découpant des hordes d'adversaires. Armés de la magie des flammes et de leur force démoniaque, ils prennent plaisir à se battre contre des obstacles insurmontables
 #LIGHT_UMBER#Nouvelle classe :#WHITE# Démonologues. Utilisant un bouclier et la magie de la Brûlure magique elle-même, ces combattants au corps-à-corps peuvent faire pousser des graines démoniaques du cadavres de leurs ennemis. Incorporez ces graines à vos objets pour obtenir un large éventail de nouveaux talents et d'avantages passifs, et invoquez les démons qui s'y trouvent pour combattre !
-#LIGHT_UMBER#Nouvelle race :#WHITE# Elfes de la ruine. Des Shalore qui ont particulièrement bien pris les altérations démoniaques, corrompant leurs capacités typiques en une forme plus sombre.
+#LIGHT_UMBER#Nouvelle race :#WHITE# Elfes de la Ruine. Des Shalore qui ont particulièrement bien pris les altérations démoniaques, corrompant leurs capacités typiques en une forme plus sombre.
 #LIGHT_UMBER#Nouveaux artefacts, histoires, zones, événements...#WHITE# Pour votre plaisir démoniaque !
 
 ]], "_t")
