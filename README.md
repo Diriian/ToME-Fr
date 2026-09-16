@@ -26,14 +26,14 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
 - Fichiers du jeu de base :
   - engine.lua
   - mod-boot.lua
-  - mod-tome.lua (en cours)
+  - mod-tome.lua
 - Fichiers du jeu de base, inclus dans version payante :
-  - tome-possessors.lua (a faire)
+  - tome-possessors.lua
   - tome-items-vault.lua
 - DLC :
   - tome-orc.lua (a faire)
   - tome-cults.lua (a faire)
-  - tome-ashes-urhorc.lua (a faire)
+  - tome-ashes-urhorc.lua
 - Pour la traduction : 
   - Outil de traduction intégré au jeu pour l'avoir en francais :
     - tome-addon-dev.lua
