@@ -1,72 +1,69 @@
 ------------------------------------------------
 section "tome-cults/data/achievements/all.lua"
 
-
--- texte non traduit
---[==[
-t("You were not supposed to see that!", "You were not supposed to see that!", "achievement name")
-t("Read a Forbidden Tome.", "Read a Forbidden Tome.", "_t")
-t("Bookception!", "Bookception!", "achievement name")
-t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "_t")
-t("Recursive Home of Recursion", "Recursive Home of Recursion", "achievement name")
-t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "_t")
-t("They Came From Outer Space!", "They Came From Outer Space!", "achievement name")
-t("Discovered the true origin of dwarves and drems.", "Discovered the true origin of dwarves and drems.", "_t")
-t("The True Coward", "The True Coward", "achievement name")
-t("Win without having saved Kroshkkur, Derth, the lost merchant, Melinda and lady Aeryn.", "Win without having saved Kroshkkur, Derth, the lost merchant, Melinda and lady Aeryn.", "_t")
-t("Sequence Master", "Sequence Master", "achievement name")
-t("Use 5 different glyph sequences.", "Use 5 different glyph sequences.", "_t")
-t("Is that how it feels to be an escort quest?!", "Is that how it feels to be an escort quest?!", "achievement name")
-t("Got saved from death in the Godfeaster by Malyu and managed to escape.", "Got saved from death in the Godfeaster by Malyu and managed to escape.", "_t")
-t("Not Really Yourself", "Not Really Yourself", "achievement name")
-t("Let a parasitic horror take over your body and watch it grow in power.", "Let a parasitic horror take over your body and watch it grow in power.", "_t")
-t("Myths of an age past", "Myths of an age past", "achievement name")
-t("Learned all there is to learn about the Gods and the Godslayers.", "Learned all there is to learn about the Gods and the Godslayers.", "_t")
-t("Dethroned", "Dethroned", "achievement name")
-t("Vanquished the Glass Golem without letting it use the glass throne to heal.", "Vanquished the Glass Golem without letting it use the glass throne to heal.", "_t")
-t("A View From The Gallery", "A View From The Gallery", "achievement name")
-t("Briefly lived as a lowly halfling during the time of the Sher'tuls.", "Briefly lived as a lowly halfling during the time of the Sher'tuls.", "_t")
-t("Entropy's End", "Entropy's End", "achievement name")
-t("Destroyed the Hypostasis of Entropy.", "Destroyed the Hypostasis of Entropy.", "_t")
---]==]
-
+t("You were not supposed to see that!", "Vous n'étiez pas censé voir ça !", "achievement name")
+t("Read a Forbidden Tome.", "Lisez un Tome Interdit.", "_t")
+t("Bookception!", "Livrecéption !", "achievement name")
+t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "Trouvez la récompense du Tome Interdit à l'intérieur du Tome Interdit : \"Du Savoir et des Horreurs\".", "_t")
+t("Recursive Home of Recursion", "La Demeure Récursive de la Récursion", "achievement name")
+t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "Laissez le Tome Interdit : \"Foyer, Horrible Foyer\" sur le sol du Foyer Qui N'est Pas.", "_t")
+t("They Came From Outer Space!", "Ils Sont Venus de l'Espace !", "achievement name")
+t("Discovered the true origin of dwarves and drems.", "Découvrez la véritable origine des nains et des drems.", "_t")
+t("The True Coward", "Le Vrai Lâche", "achievement name")
+t("Win without having saved Kroshkkur, Derth, the lost merchant, Melinda and lady Aeryn.", "Gagnez sans avoir sauvé Kroshkkur, Derth, le marchand perdu, Melinda, et dame Aeryn.", "_t")
+t("Sequence Master", "Maître des Séquences", "achievement name")
+t("Use 5 different glyph sequences.", "Utilisez 5 séquences de glyphes différentes.", "_t")
+t("Is that how it feels to be an escort quest?!", "C'est donc ça, être une quête d'escorte ?!", "achievement name")
+t("Got saved from death in the Godfeaster by Malyu and managed to escape.", "Soyez sauvé de la mort dans le Dévoreur de Dieux par Malyu et parvenez à vous échapper.", "_t")
+t("Not Really Yourself", "Plus Vraiment Vous-Même", "achievement name")
+t("Let a parasitic horror take over your body and watch it grow in power.", "Laissez une horreur parasitaire prendre le contrôle de votre corps et regardez-la croître en puissance.", "_t")
+t("Myths of an age past", "Mythes d'une Ère Révolue", "achievement name")
+t("Learned all there is to learn about the Gods and the Godslayers.", "Apprenez tout ce qu'il y a à savoir sur les Dieux et les Tueurs de Dieux.", "_t")
+t("Dethroned", "Détrôné", "achievement name")
+t("Vanquished the Glass Golem without letting it use the glass throne to heal.", "Vainquez le Golem de Verre sans le laisser utiliser le trône de verre pour se soigner.", "_t")
+t("A View From The Gallery", "Une Vue depuis la Galerie", "achievement name")
+t("Briefly lived as a lowly halfling during the time of the Sher'tuls.", "Vivez brièvement comme un humble Halfelin à l'époque des Sher'Tul.", "_t")
+t("Entropy's End", "La Fin de l'Entropie", "achievement name")
+t("Destroyed the Hypostasis of Entropy.", "Détruisez l'Hypostase de l'Entropie.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/birth/demented.lua"
 
+t("Demented", "Dément", "birth descriptor name")
+t("The thirst for knowledge is seen by most arcane users as as good thing.", "La soif de connaissance est perçue par la plupart des pratiquants de l'arcane comme une vertu.", "_t")
+t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "Mais certains vont trop loin, s'aventurant dans des savoirs perdus. Ils peuvent en tirer un immense pouvoir, mais à quel prix ?", "_t")
+t("Writhing One", "Grouillant", "birth descriptor name")
+t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "Les Grouillants savent que ce que nous appelons des #{italic}#horreurs#{normal}# détiennent la clé d'un savoir et d'un pouvoir ancestraux datant de l'Ère de la Brume, et ils sont prêts à tout pour y accéder.", "_t")
+t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "Dans leur soif de pouvoir, ils ont d'une certaine manière perdu une part d'eux-mêmes, se transformant toujours davantage en ces horreurs qu'ils étudient.", "_t")
+t("Most of them forgo an entire arm to turn it into a deadly tentacle.", "La plupart d'entre eux sacrifient un bras entier pour le transformer en un tentacule mortel.", "_t")
+t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "Certains sont même connus pour ne jamais quitter leur sanctuaire sans leur propre compagnon, le \"ver qui marche\".", "_t")
 t("Their most important stats are: Strength and Magic", "Leurs stats les plus importantes sont : Force et Magie", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateurs de stats :", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 Force, +0 Dextérité, +3 Constitution", "_t")
+t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 Magie, +0 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +3", "#GOLD#Vie par niveau :#LIGHT_BLUE# +3", "_t")
+t("Cultist of Entropy", "Cultiste Entropique", "birth descriptor name")
+t("Everything ends eventually. Harness this inevitability.", "Tout finit un jour. Maîtrisez cette inévitabilité.", "_t")
+t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "Les Cultistes Entropiques sont des êtres condamnés qui ont percé les secrets de l'entropie utilisée comme arme. Leurs sorts font dépérir leur corps sous l'effet du contrecoup entropique, mais ils ont appris à résister à ce contrecoup, et même à le transmettre à leurs ennemis.", "_t")
 t("Their most important stats are: Magic and Cunning", "Leurs stats les plus importantes sont : Magie et Ruse", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +3 Cunning", "#LIGHT_BLUE# * +6 Magie, +0 Volonté, +3 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#Vie par niveau :#LIGHT_BLUE# -4", "_t")
--- texte non traduit
---[==[
-t("Demented", "Demented", "birth descriptor name")
-t("The thirst for knowledge is seen by most arcane users as as good thing.", "The thirst for knowledge is seen by most arcane users as as good thing.", "_t")
-t("But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "But some take it too far, some delve into lost knowledge. They may gain huge power from it, but at what cost?", "_t")
-t("Writhing One", "Writhing One", "birth descriptor name")
-t("Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "Writhing Ones know that what we call #{italic}#horrors#{normal}# hold the key to some ancient knowledge and power from the Age of Haze and they are ready to do anything to access it.", "_t")
-t("In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "In their lust for power they somehow lost a part of themselves, turning more and more into the horrors they study.", "_t")
-t("Most of them forgo an entire arm to turn it into a deadly tentacle.", "Most of them forgo an entire arm to turn it into a deadly tentacle.", "_t")
-t("Some are even known to never leave their sanctuary without their own worm that walks friend.", "Some are even known to never leave their sanctuary without their own worm that walks friend.", "_t")
-t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +3 Constitution", "_t")
-t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "_t")
-t("Cultist of Entropy", "Cultist of Entropy", "birth descriptor name")
-t("Everything ends eventually. Harness this inevitability.", "Everything ends eventually. Harness this inevitability.", "_t")
-t("Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "Cultists of Entropy are doomed beings which have unlocked the secrets of using entropy as a weapon. Their spells cause their bodies to wither away from entropic backlash, but they have learned how to resist this backlash and even pass it onto their foes.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/birth/drem.lua"
 
 t("Skin", "Peau", "birth facial category")
 t("Hairs", "Cheveux", "birth facial category")
-t("Facial features", "Modifications faciales", "birth facial category")
+t("Facial features", "Traits du visage", "birth facial category")
+t("Horns", "Cornes", "birth facial category")
 t("Special", "Spécial", "birth facial category")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("Faceless, but not mindless.", "Sans visage, mais pas sans esprit.", "_t")
+t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "Les Drems sont des mutants sans esprit qui vivent au plus profond de la terre. Ce n'est que récemment que des Drems pensants sont apparus parmi eux. Ils demeurent encore loin sous la surface d'Eyal, persuadés qu'ils ne seraient pas les bienvenus parmi les races de la surface.", "_t")
+t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "Ils possèdent le talent #GOLD#Frénésie#WHITE# qui leur permet d'ignorer les temps de recharge de temps à autre.", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateurs de stats :", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 Force, +1 Dextérité, +1 Constitution", "_t")
+t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 Magie, -1 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 12", "#GOLD#Vie par niveau :#LIGHT_BLUE# 12", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 12%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 12%", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
@@ -85,25 +82,19 @@ t("Beard 1", "Barbe 1", "_t")
 t("Beard 2", "Barbe 2", "_t")
 t("Redhead Beard 1", "Barbe Rousse 1", "_t")
 t("Redhead Beard 2", "Barbe Rousse 2", "_t")
-t("Demonic Horns 1", "Cornes Démoniaques 01", "_t")
-t("Demonic Horns 2", "Cornes Démoniaques 02", "_t")
-t("Demonic Horns 3", "Cornes Démoniaques 03", "_t")
-t("Demonic Horns 4", "Cornes Démoniaques 04", "_t")
-t("Demonic Horns 5", "Cornes Démoniaques 05", "_t")
-t("Demonic Horns 6", "Cornes Démoniaques 06", "_t")
-t("Demonic Horns 7", "Cornes Démoniaques 07", "_t")
-t("Demonic Horns 8", "Cornes Démoniaques 08", "_t")
+t("Demonic Beard", "Barbe Démoniaque", "_t")
+t("Demonic Redhead Beard", "Barbe Rousse Démoniaque", "_t")
+t("Demonic Horns 1", "Cornes Démoniaques 1", "_t")
+t("Demonic Horns 2", "Cornes Démoniaques 2", "_t")
+t("Demonic Horns 3", "Cornes Démoniaques 3", "_t")
+t("Demonic Horns 4", "Cornes Démoniaques 4", "_t")
+t("Demonic Horns 5", "Cornes Démoniaques 5", "_t")
+t("Demonic Horns 6", "Cornes Démoniaques 6", "_t")
+t("Demonic Horns 7", "Cornes Démoniaques 7", "_t")
+t("Demonic Horns 8", "Cornes Démoniaques 8", "_t")
 -- texte non traduit
 --[==[
-t("Horns", "Horns", "birth facial category")
 t("Drem", "Drem", "birth descriptor name")
-t("Faceless, but not mindless.", "Faceless, but not mindless.", "_t")
-t("Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "Drem are mindless mutants who live deep in the earth. It is only recently that thinking Drem have appeared among them. They still remain deep below Eyal's surface, believing that they would not be welcomed among the surface races.", "_t")
-t("They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "They possess the #GOLD#Frenzy#WHITE# talent which allows them to ignore cooldowns once in a while.", "_t")
-t("#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "#LIGHT_BLUE# * +3 Strength, +1 Dexterity, +1 Constitution", "_t")
-t("#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "#LIGHT_BLUE# * +2 Magic, -1 Willpower, +0 Cunning", "_t")
-t("Demonic Beard", "Demonic Beard", "_t")
-t("Demonic Redhead Beard", "Demonic Redhead Beard", "_t")
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 --]==]
 
@@ -113,10 +104,15 @@ section "tome-cults/data/birth/krog.lua"
 
 t("Skin", "Peau", "birth facial category")
 t("Hairs", "Cheveux", "birth facial category")
-t("Facial features", "Modifications faciales", "birth facial category")
+t("Facial features", "Traits du visage", "birth facial category")
 t("Tatoos", "Tatouages", "birth facial category")
 t("Special", "Spécial", "birth facial category")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("Once an abomination, now a weapon.", "Autrefois une abomination, désormais une arme.", "_t")
+t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "Les Krogs furent autrefois des Ogres, radicalement transformés. Dépouillés des runes de leur corps, ils furent maintenus en vie par les Zigurantes, qui leur injectèrent un mélange d'infusions naturelles et de sang de dragonnet. Les Krogs sont entièrement dévoués à la cause antimagique, et ne semblent rien connaître d'autre dans leur existence.", "_t")
+t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "Ils possèdent le talent #GOLD#Courroux Sauvage#WHITE# qui leur permet d'assommer/étourdir leurs ennemis.", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateurs de stats :", "_t")
+t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 Force, -1 Dextérité, +2 Constitution", "_t")
+t("#LIGHT_BLUE# * -2 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 Magie, +2 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 13", "#GOLD#Vie par niveau :#LIGHT_BLUE# 13", "_t")
 t("#GOLD#Experience penalty:#LIGHT_BLUE# 15%", "#GOLD#Pénalité d'expérience :#LIGHT_BLUE# 15%", "_t")
 t("Skin Color 1", "Couleur de Peau 1", "_t")
@@ -148,6 +144,7 @@ t("Redhead Hair 5", "Cheveux Roux 5", "_t")
 t("Redhead Hair 6", "Cheveux Roux 6", "_t")
 t("Redhead Hair 7", "Cheveux Roux 7", "_t")
 t("Redhead Hair 8", "Cheveux Roux 8", "_t")
+t("Facial Warpaint", "Peinture de Guerre Faciale", "_t")
 t("Dark Beard 1", "Barbe Noire 1", "_t")
 t("Dark Beard 2", "Barbe Noire 2", "_t")
 t("Dark Beard 3", "Barbe Noire 3", "_t")
@@ -158,22 +155,16 @@ t("Blond Beard 2", "Barbe Blonde 2", "_t")
 t("Blond Beard 3", "Barbe Blonde 3", "_t")
 t("Blond Beard 4", "Barbe Blonde 4", "_t")
 t("Blond Beard 5", "Barbe Blonde 5", "_t")
+t("Readhead Beard 1", "Barbe Rousse 1", "_t")
+t("Readhead Beard 2", "Barbe Rousse 2", "_t")
+t("Readhead Beard 3", "Barbe Rousse 3", "_t")
+t("Readhead Beard 4", "Barbe Rousse 4", "_t")
+t("Readhead Beard 5", "Barbe Rousse 5", "_t")
+t("Tatoo 1", "Tatouage 1", "_t")
+t("Tatoo 2", "Tatouage 2", "_t")
 -- texte non traduit
 --[==[
 t("Krog", "Krog", "birth descriptor name")
-t("Once an abomination, now a weapon.", "Once an abomination, now a weapon.", "_t")
-t("Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "Krogs were formerly Ogres, that have been radically changed. Stripped of the runes from their bodies, the Ziguranth have managed to prevent the Krog from dying by injecting them with a concoction of natural infusions and drake blood. The Krog are entirely devoted to the anti-magic cause and seemingly know of nothing else in their lives.", "_t")
-t("They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "They possess the #GOLD#Wrath of the Wilds#WHITE# talent which allows them to stun/daze their foes.", "_t")
-t("#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 Strength, -1 Dexterity, +2 Constitution", "_t")
-t("#LIGHT_BLUE# * -2 Magic, +2 Willpower, +0 Cunning", "#LIGHT_BLUE# * -2 Magic, +2 Willpower, +0 Cunning", "_t")
-t("Facial Warpaint", "Facial Warpaint", "_t")
-t("Readhead Beard 1", "Readhead Beard 1", "_t")
-t("Readhead Beard 2", "Readhead Beard 2", "_t")
-t("Readhead Beard 3", "Readhead Beard 3", "_t")
-t("Readhead Beard 4", "Readhead Beard 4", "_t")
-t("Readhead Beard 5", "Readhead Beard 5", "_t")
-t("Tatoo 1", "Tatoo 1", "_t")
-t("Tatoo 2", "Tatoo 2", "_t")
 t("Bikini / Mankini", "Bikini / Mankini", "_t")
 --]==]
 
@@ -181,71 +172,59 @@ t("Bikini / Mankini", "Bikini / Mankini", "_t")
 ------------------------------------------------
 section "tome-cults/data/birth/misc.lua"
 
-
--- texte non traduit
---[==[
-t("Golem becomes a Glass Golem", "Golem becomes a Glass Golem", "_t")
---]==]
-
+t("Golem becomes a Glass Golem", "Le Golem devient un Golem de Verre", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/chats/fanged-collar.lua"
 
-
+t("#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "#{italic}##GREY#Vous sentez la noirceur rampante de l'oubli vous submerger. Pourtant, d'une manière ou d'une autre, les ténèbres ne se referment pas entièrement sur vous. Quelque chose d'autre est ici, avec vous. Vous sentez que cette présence souhaite vous aider. Sans un mot, elle vous assure que tout ira bien et qu'elle peut vous aider à échapper à votre destin. Il vous suffit de dire oui.#{normal}#", "_t")
+t("Silently you agree. You want to live!", "En silence, vous acceptez. Vous voulez vivre !", "_t")
+t("Silently you refuse, the presence creeps you out too much.", "En silence, vous refusez ; cette présence vous met bien trop mal à l'aise.", "_t")
+t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "#{italic}##GREY#La présence se retire tristement, mais vous sentez qu'elle a respecté votre décision. Elle vous laisse trouver la paix que seule la mort peut offrir.#{normal}#", "_t")
+t("[die]", "[Mourir]", "_t")
+t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#Vous ne voulez pas mourir. Sans hésiter un instant, vous acceptez son offre. Avec entrain, la présence commence à faire... quelque chose. Vous commencez à vous réveiller et sentez la vie revenir dans vos membres. Cependant, vous avez un mal de crâne épouvantable et votre cou n'arrête pas de vous faire souffrir. Qu'a bien pu faire cette présence pour vous ramener du bord du gouffre ?#{normal}#", "_t")
+t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#Étrange... Vous êtes presque certain d'être mort, et pourtant vous êtes encore là. Il vous semble néanmoins qu'il vous manque quelque chose d'important. Votre cou est également d'une douleur incroyable et votre mal de crâne persiste. Vous avez, d'une manière ou d'une autre, la subtile impression qu'il vaudrait mieux ne pas vous regarder dans un miroir de sitôt.", "log")
 -- texte non traduit
 --[==[
-t("#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "#{italic}##GREY#You feel the creeping blackness of oblivion overtaking you. Somehow, the darkness does not completely enclose around you. Something else is here with you. You feel as though it wishes to help you. Wordlessly, it reassures you that everything will be fine and that it can help you escape your fate. You only have to say yes.#{normal}#", "_t")
-t("Silently you agree. You want to live!", "Silently you agree. You want to live!", "_t")
-t("Silently you refuse, the presence creeps you out too much.", "Silently you refuse, the presence creeps you out too much.", "_t")
-t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "#{italic}##GREY#The presence shirks back sadly, but you feel like it has respected your decision. It allows you to find the peace that only death can give.#{normal}#", "_t")
-t("[die]", "[die]", "_t")
-t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "_t")
 t("...", "...", "_t")
-t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "log")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/chats/godfeaster-malyu-escaped.lua"
 
-
--- texte non traduit
---[==[
 t([[#DARK_SEA_GREEN##{italic}#Fresh air!#{normal}##LAST#
-Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], [[#DARK_SEA_GREEN##{italic}#Fresh air!#{normal}##LAST#
-Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], "_t")
-t("[Offer to teach her '%s'.]", "[Offer to teach her '%s'.]", "tformat")
-t("[Offer her stat increases.]", "[Offer her stat increases.]", "_t")
-t("[Offer her nothing.]", "[Offer her nothing.]", "_t")
-t("Oh this will sure come in handy! Thanks!", "Oh this will sure come in handy! Thanks!", "_t")
-t("Take care!", "Take care!", "_t")
-t("I always did want to learn how to do these kind of things!", "I always did want to learn how to do these kind of things!", "_t")
-t("Oh, I suddenly feel like I have potential to grow.", "Oh, I suddenly feel like I have potential to grow.", "_t")
-t("...Fine, be that way. Good luck out there, though.", "...Fine, be that way. Good luck out there, though.", "_t")
-t("You too!", "You too!", "_t")
---]==]
-
+Nice job! You handled yourself a lot better than I thought you would. Now, usually I get a reward... What? Why are you looking at me like that? I'm obviously the one who saved you here. It's customary for adventurers to get rewarded when they do a good deed.]], [[#DARK_SEA_GREEN##{italic}#De l'air frais !#{normal}##LAST#
+Beau travail ! Tu es plus habile que tu en a l'air. Bon, d'habitude je reçois une récompense... Quoi ? Pourquoi tu me regardes comme ça ? Je t'ai sauvé après tout. Il est de coutume que les aventuriers soient récompensés pour leurs efforts.]], "_t")
+t("[Offer to teach her '%s'.]", "[Proposer de lui enseigner \"%s\".]", "tformat")
+t("[Offer her stat increases.]", "[Lui offrir une augmentation de stat.]", "_t")
+t("[Offer her nothing.]", "[Ne rien lui offrir.]", "_t")
+t("Oh this will sure come in handy! Thanks!", "Oh, ça peut être utile ! Merci !", "_t")
+t("Take care!", "Prends soin de toi !", "_t")
+t("I always did want to learn how to do these kind of things!", "J'ai toujours voulu apprendre à faire ce genre de choses !", "_t")
+t("Oh, I suddenly feel like I have potential to grow.", "Oh, j'ai l'impression d'avoir une jolie marge de progression.", "_t")
+t("...Fine, be that way. Good luck out there, though.", "...Très bien, si c'est comme ça. Bonne chance par ici, quand même.", "_t")
+t("You too!", "Toi aussi !", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/chats/godfeaster-malyu.lua"
 
-
--- texte non traduit
---[==[
-t("#DARK_SEA_GREEN##{italic}#As you move you suddenly find yourself entrapped in a hidden digestive sack that seems to void all your abilities!#{normal}##LAST#", "#DARK_SEA_GREEN##{italic}#As you move you suddenly find yourself entrapped in a hidden digestive sack that seems to void all your abilities!#{normal}##LAST#", "_t")
-t("[try to kick your way out]", "[try to kick your way out]", "_t")
-t("[try to cut your way out]", "[try to cut your way out]", "_t")
-t("[try to shout your way out]", "[try to shout your way out]", "_t")
+t("#DARK_SEA_GREEN##{italic}#As you move you suddenly find yourself entrapped in a hidden digestive sack that seems to void all your abilities!#{normal}##LAST#", "#DARK_SEA_GREEN##{italic}#Alors que vous vous déplacez, vous vous retrouvez soudain piégé dans un sac digestif caché qui semble annuler toutes vos capacités !#{normal}##LAST#", "_t")
+t("[try to kick your way out]", "[Essayer de casser la poche en lui mettant des coups de pied]", "_t")
+t("[try to cut your way out]", "[Essayer de vous frayer un chemin en découpant la poche]", "_t")
+t("[try to shout your way out]", "[Hurler à l'aide]", "_t")
 t([[#DARK_SEA_GREEN##{italic}#As were starting to lose hope you hear some kind of cutting.#{normal}##LAST#
-There's someone else in here?]], [[#DARK_SEA_GREEN##{italic}#As were starting to lose hope you hear some kind of cutting.#{normal}##LAST#
-There's someone else in here?]], "_t")
-t("Who..what.. YES!", "Who..what.. YES!", "_t")
+There's someone else in here?]], [[#DARK_SEA_GREEN##{italic}#Alors que vous commencez à perdre espoir, vous entendez une sorte de bruit de coupe.#{normal}##LAST#
+Il y a quelqu'un d'autre ici ?]], "_t")
+t("Who..what.. YES!", "Qui... quoi... OUI !", "_t")
 t([[#DARK_SEA_GREEN##{italic}#As the sack gets cut and you regain your mobility you see your savior is some kind of adventurer, she was probably eaten by the Godfeaster too.#{normal}##LAST#
 This thing ate you too? Hey, at least you've got company. Name's Malyu, I've been stuck in here for a few days now and had to tough it out alone. I was about to go for this thing's brain when you showed up. What say we team up and get out of here together?
-]], [[#DARK_SEA_GREEN##{italic}#As the sack gets cut and you regain your mobility you see your savior is some kind of adventurer, she was probably eaten by the Godfeaster too.#{normal}##LAST#
-This thing ate you too? Hey, at least you've got company. Name's Malyu, I've been stuck in here for a few days now and had to tough it out alone. I was about to go for this thing's brain when you showed up. What say we team up and get out of here together?
+]], [[#DARK_SEA_GREEN##{italic}#Tandis que le sac est tranché et que vous retrouvez votre mobilité, vous constatez que votre sauveuse est une sorte d'aventurière, probablement dévorée elle aussi par le Dévoreur de Dieux.#{normal}##LAST#
+Cette chose t'a gobé aussi ? Hé, au moins tu as de la compagnie. Je m'appelle Malyu, je suis coincée là-dedans depuis quelques jours et j'ai dû me débrouiller toute seule. J'étais sur le point de m'attaquer au cerveau de cette chose quand tu es arrivé. Et si on faisait équipe pour se tirer d'ici ?
 ]], "_t")
-t("I am glad for the help, you saved me. Let's kill this thing and get out!", "I am glad for the help, you saved me. Let's kill this thing and get out!", "_t")
+t("I am glad for the help, you saved me. Let's kill this thing and get out!", "Merci pour ton aide, tu m'as sauvé la vie. Tuons cette chose et tirons-nous d'ici !", "_t")
+-- texte non traduit
+--[==[
 t("Malyu", "Malyu", "_t")
 --]==]
 
@@ -253,225 +232,178 @@ t("Malyu", "Malyu", "_t")
 ------------------------------------------------
 section "tome-cults/data/chats/space-dwarf-trinket.lua"
 
-
--- texte non traduit
---[==[
 t([[#YELLOW_GREEN##{bold}#Suddenly the strange metallic device emits some beeps and starts to speak. Somehow.#{normal}##LAST#
 Uplink established with remote satellite. Activating emergency communication array.
-Current user does not match with previous user records. Performing scan.]], [[#YELLOW_GREEN##{bold}#Suddenly the strange metallic device emits some beeps and starts to speak. Somehow.#{normal}##LAST#
-Uplink established with remote satellite. Activating emergency communication array.
-Current user does not match with previous user records. Performing scan.]], "_t")
-t("..what?", "..what?", "_t")
+Current user does not match with previous user records. Performing scan.]], [[#YELLOW_GREEN##{bold}#Soudain, l'étrange dispositif métallique émet quelques bips et se met à parler. Allez savoir comment.#{normal}##LAST#
+Liaison montante établie avec le satellite distant. Activation du réseau de communication d'urgence.
+L'utilisateur actuel ne correspond à aucun des enregistrements précédents. Analyse en cours.]], "_t")
+t("..what?", "...quoi ?", "_t")
 t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
 User's biological signature matches expected species, but does not match any identity records in database. Sending information for further analysis.
 
-User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature matches expected species, but does not match any identity records in database. Sending information for further analysis.
+User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], [[#YELLOW_GREEN##{bold}#Le dispositif émet un nouveau bip et parle.#{normal}##LAST#
+La signature biologique de l'utilisateur correspond à l'espèce attendue, mais ne correspond à aucun enregistrement d'identité dans la base de données. Envoie des informations pour analyse complémentaire.
 
-User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], "_t")
-t("Expected species?", "Expected species?", "_t")
+Utilisateur ajouté à la base de données. Je suis désormais votre assistant personnel et vous aiderai à survivre jusqu'à l'arrivée de secours supplémentaires. Activation de la barrière électromagnétique de protection et du suivi de santé en temps réel.]], "_t")
+t("Expected species?", "Espèce attendue ?", "_t")
 t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], "_t")
-t("Genome?", "Genome?", "_t")
+User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#Le dispositif émet un nouveau bip et parle.#{normal}##LAST#
+La signature biologique de l'utilisateur indique une dangereuse dégénérescence du génome due à des facteurs inconnus. Envoi des informations pour analyse complémentaire.]], "_t")
+t("Genome?", "Génome ?", "_t")
 t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-No signs of life detected. User appears to be still moving despite absence of living tissue. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-No signs of life detected. User appears to be still moving despite absence of living tissue. Sending information for further analysis.]], "_t")
-t("Never seen an undead have you?", "Never seen an undead have you?", "_t")
+No signs of life detected. User appears to be still moving despite absence of living tissue. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#Le dispositif émet un nouveau bip et parle.#{normal}##LAST#
+Aucun signe de vie détecté. L'utilisateur semble néanmoins encore en mouvement malgré l'absence de tissu vivant. Envoi des informations pour analyse complémentaire.]], "_t")
+t("Never seen an undead have you?", "Vous n'avez jamais vu de mort-vivant, on dirait ?", "_t")
 t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature does not match any currently known species in database. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
-User's biological signature does not match any currently known species in database. Sending information for further analysis.]], "_t")
-t("Database?", "Database?", "_t")
-t("#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "_t")
-t("That was weird...", "That was weird...", "_t")
---]==]
-
+User's biological signature does not match any currently known species in database. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#Le dispositif émet un nouveau bip et parle.#{normal}##LAST#
+La signature biologique de l'utilisateur ne correspond à aucune espèce actuellement connue dans la base de données. Envoi des informations pour analyse complémentaire.]], "_t")
+t("Database?", "Base de données ?", "_t")
+t("#YELLOW_GREEN##{bold}#The machine beeps twice, then goes completely silent. Any further attempts to get it to speak prove futile.#{normal}##LAST#", "#YELLOW_GREEN##{bold}#La machine émet deux bips, puis sombre dans un silence complet. Toute tentative ultérieure de la faire parler s'avère vaine.#{normal}##LAST#", "_t")
+t("That was weird...", "C'était étrange...", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/damage_types.lua"
 
+t("unstable rift", "faille instable", "damage type")
+t("rift explosion", "explosion de faille", "damage type")
+t("voidburn", "brûlure du vide", "damage type")
+t("slowing void", "vide ralentissant", "damage type")
+t("draining void", "vide drainant", "damage type")
 t("#Source# drains life from #Target#!", "#Source# draine la vie de #Target# !", "logCombat")
+t("mesmerize", "hypnotique", "damage type")
+t("obliterating void", "vide oblitérant", "damage type")
+t("aging temporal", "vieillissement temporel", "damage type")
 t("%s resists the blindness!", "%s résiste à l'aveuglement !", "logSeen")
 t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
 t("%s resists the confusion!", "%s résiste à la confusion !", "logSeen")
--- texte non traduit
---[==[
-t("unstable rift", "unstable rift", "damage type")
-t("rift explosion", "rift explosion", "damage type")
-t("voidburn", "voidburn", "damage type")
-t("slowing void", "slowing void", "damage type")
-t("draining void", "draining void", "damage type")
-t("mesmerize", "mesmerize", "damage type")
-t("obliterating void", "obliterating void", "damage type")
-t("aging temporal", "aging temporal", "damage type")
-t("decaying ground", "decaying ground", "damage type")
-t("defiled blood", "defiled blood", "damage type")
-t("antropy energies", "antropy energies", "damage type")
-t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#The %s fully awakens as you absorb antropic forces!", "logSeen")
-t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "logSeen")
---]==]
-
+t("decaying ground", "sol putréfiant", "damage type")
+t("defiled blood", "sang souillé", "damage type")
+t("antropy energies", "énergies entropiques", "damage type")
+t("#PURPLE#The %s fully awakens as you absorb antropic forces!", "#PURPLE#%s s'éveille complètement tandis que vous absorbez des forces entropiques !", "logSeen")
+t("#PURPLE#The %s seems to shudder as you absorb some antropic forces.", "#PURPLE#%s semble frémir tandis que vous absorbez quelques forces entropiques.", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/data/factions.lua"
 
-
--- texte non traduit
---[==[
-t("Sanctuary of Horrors", "Sanctuary of Horrors", "faction name")
-t("The Tribe", "The Tribe", "faction name")
-t("Food", "Food", "faction name")
-t("Things from above", "Things from above", "faction name")
---]==]
-
+t("Sanctuary of Horrors", "Sanctuaire des Horreurs", "faction name")
+t("The Tribe", "La Tribu", "faction name")
+t("Food", "Nourriture", "faction name")
+t("Things from above", "Choses d'en Haut", "faction name")
 
 ------------------------------------------------
 section "tome-cults/data/general/encounters/maj-eyal.lua"
 
+t("Occult Egress", "Egress Occulte", "entity name")
 t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
+t("Way to a strange portal", "Chemin vers un étrange portail", "_t")
+t("Godfeaster", "Dévoreur de Dieux", "entity name")
 t("hostile", "hostil", "entity type")
 t("Encounter", "Rencontre", "_t")
--- texte non traduit
---[==[
-t("Occult Egress", "Occult Egress", "entity name")
-t("Way to a strange portal", "Way to a strange portal", "_t")
-t("Godfeaster", "Godfeaster", "entity name")
 t([[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
-You could try to escape using the Rod of Recall or accept your fate.]], [[The ground suddenly shakes under your feet and a giant worm appears to gobble you up!
-You could try to escape using the Rod of Recall or accept your fate.]], "_t")
-t("You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "log")
-t("Accept your fate", "Accept your fate", "_t")
-t("Use the rod", "Use the rod", "_t")
---]==]
-
+You could try to escape using the Rod of Recall or accept your fate.]], [[Le sol tremble soudain sous vos pieds et un ver géant surgit pour vous engloutir !
+Vous pourriez tenter de fuir en utilisant le Bâtonnet de Rappel ou accepter votre destin.]], "_t")
+t("You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "Vous parvenez in extremis à activer le bâtonnet en urgence. Tandis que vous continuez de tomber vers la gueule du ver, le bâtonnet termine sa charge et vous réapparaissez à proximité, à l'abri de la monstruosité.", "log")
+t("Accept your fate", "[Accepter votre destin]", "_t")
+t("Use the rod", "[Utiliser le bâtonnet]", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/encounters/tar-eyal.lua"
 
+t("Occult Egress", "Egress Occulte", "entity name")
 t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
--- texte non traduit
---[==[
-t("Occult Egress", "Occult Egress", "entity name")
-t("Way to a strange portal", "Way to a strange portal", "_t")
---]==]
-
+t("Way to a strange portal", "Chemin vers un étrange portail", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/encounters/var-eyal.lua"
 
+t("Occult Egress", "Egress Occulte", "entity name")
 t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
--- texte non traduit
---[==[
-t("Occult Egress", "Occult Egress", "entity name")
-t("Way to a strange portal", "Way to a strange portal", "_t")
---]==]
-
+t("Way to a strange portal", "Chemin vers un étrange portail", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/events/digestive-sack.lua"
 
-t("Open", "Ouvrir", "_t")
-t("Leave", "Partir", "_t")
--- texte non traduit
---[==[
 t("\
 #DARK_SEA_GREEN#It was corrupted by the digestive sack.", "\
-#DARK_SEA_GREEN#It was corrupted by the digestive sack.", "_t")
+#DARK_SEA_GREEN#Il fut corrompu par le sac digestif.", "_t")
 t("\
 #DARK_SEA_GREEN#It was hardened by the digestive sack.", "\
-#DARK_SEA_GREEN#It was hardened by the digestive sack.", "_t")
+#DARK_SEA_GREEN#Il fut endurci par le sac digestif.", "_t")
 t("\
 #DARK_SEA_GREEN#It was changed by the digestive sack.", "\
-#DARK_SEA_GREEN#It was changed by the digestive sack.", "_t")
-t("corrupted #base#", "corrupted #base#", "_t")
-t("giant digestive sack", "giant digestive sack", "_t")
-t("Giant Digestive Sack", "Giant Digestive Sack", "_t")
-t("Open the sack?", "Open the sack?", "_t")
-t("#DARK_SEA_GREEN#An object rolls from the sack!", "#DARK_SEA_GREEN#An object rolls from the sack!", "logSeen")
-t("#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "logSeen")
-t("giant digestive sack (opened)", "giant digestive sack (opened)", "_t")
-t("#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "logSeen")
---]==]
-
+#DARK_SEA_GREEN#Il fut modifié par le sac digestif.", "_t")
+t("corrupted #base#", "#base# corrompu", "_t")
+t("giant digestive sack", "sac digestif géant", "_t")
+t("Giant Digestive Sack", "Sac Digestif Géant", "_t")
+t("Open the sack?", "Ouvrir le sac ?", "_t")
+t("#DARK_SEA_GREEN#An object rolls from the sack!", "#DARK_SEA_GREEN#Un objet roule hors du sac !", "logSeen")
+t("#DARK_SEA_GREEN#A not yet digested foe burst out from the sack!", "#DARK_SEA_GREEN#Un ennemi pas encore digéré jaillit du sac !", "logSeen")
+t("giant digestive sack (opened)", "sac digestif géant (ouvert)", "_t")
+t("#DARK_SEA_GREEN#Sickening fumes emanates from the sack as it opens!", "#DARK_SEA_GREEN#Des vapeurs écoeurantes émanent du sac lorsqu'il s'ouvre !", "logSeen")
+t("Open", "Ouvrir", "_t")
+t("Leave", "Partir", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/events/scourged-pits.lua"
 
-
--- texte non traduit
---[==[
-t("Way into the scourged pits", "Way into the scourged pits", "_t")
-t("The air is pestilent", "The air is pestilent", "_t")
-t("You smell a blighted perfume in the air for an instant...", "You smell a blighted perfume in the air for an instant...", "_t")
---]==]
-
+t("Way into the scourged pits", "Chemin vers les fosses à fléaux", "_t")
+t("The air is pestilent", "L'air est pestilentiel", "_t")
+t("You smell a blighted perfume in the air for an instant...", "Vous sentez un instant un parfum empesté dans l'air...", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/events/space-dwarf-ship.lua"
 
 t("floor", "sol", "_t")
 t("wall", "mur", "_t")
-t("previous level", "niveau précédent", "_t")
-t("ladder back to %s", "échelle pour revenir vers %s", "tformat")
--- texte non traduit
---[==[
-t("strange metallic capsule", "strange metallic capsule", "_t")
-t("Strange metallic capsule", "Strange metallic capsule", "_t")
-t("You have already scavenged what you could understand and use.", "You have already scavenged what you could understand and use.", "_t")
+t("strange metallic capsule", "étrange capsule métallique", "_t")
+t("Strange metallic capsule", "Étrange capsule métallique", "_t")
+t("You have already scavenged what you could understand and use.", "Vous avez déjà récupéré tout ce que vous pouviez comprendre et utiliser.", "_t")
 t([[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
 
-You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], [[The thing in front of you appears to be a strange dome made from green glass. Judging by the crater around it, this dome must have crashed into the earth with tremendous force. Stranger still is the figure seated inside it. It appears to be wearing a suit made of an unknown material and a glass dome over its head. Looking inside the dome, you can plainly see that the figure is a dwarf! There is no mistaking that oversized nose. Judging by the smell, he has been dead for quite some time.
+You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], [[La chose devant vous semble être un étrange dôme fait de verre vert. À en juger par le cratère qui l'entoure, ce dôme a dû s'écraser au sol avec une force phénoménale. Plus étrange encore est la silhouette assise à l'intérieur. Elle semble porter une combinaison faite d'un matériau inconnu et un dôme de verre sur la tête. En regardant à l'intérieur du dôme, vous distinguez clairement que la silhouette est un nain ! Ce nez surdimensionné ne trompe pas. À en juger par l'odeur, il est mort depuis un bon moment.
 
-You are fairly sure that the dwarves aren't capable of making something like this and they definitely don't dress like that. So, where did this odd dwarf come from? Taking a closer look, you find a strange device attached to the dwarf's arm. You remove it with no small amount of effort. It is completely unlike anything you have seen before and you're not really sure what to make of it. Perhaps if you hold onto it, you might be able to discern its functionality later.]], "_t")
-t("Eerie Cave", "Eerie Cave", "_t")
-t("eerie cave", "eerie cave", "_t")
---]==]
-
+Vous êtes à peu près sûr que les nains ne sont pas capables de fabriquer une chose pareille, et qu'ils ne s'habillent certainement pas ainsi. Alors, d'où vient donc cet étrange nain ? En y regardant de plus près, vous trouvez un étrange dispositif attaché au bras du nain. Vous l'ôtez non sans un certain effort. Il ne ressemble en rien à tout ce que vous avez pu voir auparavant, et vous ne savez pas vraiment qu'en penser. Peut-être qu'en le conservant, vous pourrez plus tard en déterminer la fonction.]], "_t")
+t("previous level", "niveau précédent", "_t")
+t("ladder back to %s", "échelle de retour vers %s", "tformat")
+t("Eerie Cave", "Caverne Sinistre", "_t")
+t("eerie cave", "caverne sinistre", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/events/tentacle-tree.lua"
 
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
--- texte non traduit
---[==[
-t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears.", "#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears.", "logSeen")
-t("#DARK_SEA_GREEN#As you touch it the tentacle tree awakens and attacks you!", "#DARK_SEA_GREEN#As you touch it the tentacle tree awakens and attacks you!", "logSeen")
-t("#DARK_SEA_GREEN#As you touch it the tentacle constricts you and swallows you whole!", "#DARK_SEA_GREEN#As you touch it the tentacle constricts you and swallows you whole!", "logPlayer")
-t("way back to %s", "way back to %s", "tformat")
-t("#DARK_SEA_GREEN# You escaped the tentacle!", "#DARK_SEA_GREEN# You escaped the tentacle!", "log")
-t("inside a giant tentacle", "inside a giant tentacle", "_t")
-t("#rng# the Blightborn", "#rng# the Blightborn", "_t")
-t("#DARK_SEA_GREEN#You can feel tremors in the tentacle.. A gastric wave is coming!", "#DARK_SEA_GREEN#You can feel tremors in the tentacle.. A gastric wave is coming!", "say")
-t("#DARK_SEA_GREEN#The gastric wave is upon you!", "#DARK_SEA_GREEN#The gastric wave is upon you!", "say")
-t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears, leaving behind %s.", "#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears, leaving behind %s.", "logSeen")
---]==]
-
+t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears.", "#DARK_SEA_GREEN#Alors que vous vous approchez pour le toucher, le tentacule se ratatine et disparaît.", "logSeen")
+t("#DARK_SEA_GREEN#As you touch it the tentacle tree awakens and attacks you!", "#DARK_SEA_GREEN#En le touchant, l'arbre à tentacules s'éveille et vous attaque !", "logSeen")
+t("#DARK_SEA_GREEN#As you touch it the tentacle constricts you and swallows you whole!", "#DARK_SEA_GREEN#En le touchant, le tentacule vous enserre et vous engloutit tout entier !", "logPlayer")
+t("way back to %s", "chemin de retour vers %s", "tformat")
+t("#DARK_SEA_GREEN# You escaped the tentacle!", "#DARK_SEA_GREEN# Vous avez échappé au tentacule !", "log")
+t("inside a giant tentacle", "à l'intérieur d'un tentacule géant", "_t")
+t("#rng# the Blightborn", "#rng# le Né du Fléau", "_t")
+t("#DARK_SEA_GREEN#You can feel tremors in the tentacle.. A gastric wave is coming!", "#DARK_SEA_GREEN#Vous sentez des tremblements dans le tentacule... Une vague gastrique approche !", "say")
+t("#DARK_SEA_GREEN#The gastric wave is upon you!", "#DARK_SEA_GREEN#La vague gastrique s'abat sur vous !", "say")
+t("#DARK_SEA_GREEN#As you approach to touch it, the tentacle shrivels and disappears, leaving behind %s.", "#DARK_SEA_GREEN#Alors que vous vous approchez pour le toucher, le tentacule se ratatine et disparaît, laissant derrière lui %s.", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/fonts.lua"
 
 t("floor", "sol", "entity type")
 t("creep", "rampant", "entity subtype")
+t("font of knowledge", "fontaine de connaissance", "entity name")
+t("Font of Knowledge", "Fontaine de Connaissance", "_t")
+t("Do you want to touch it?", "Voulez-vous la toucher ?", "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("#PURPLE#The %s glows as you touch it. Your knowledge grows (+1 prodigy point).", "#PURPLE#%s brille lorsque vous la touchez. Votre savoir grandit (+1 point de prodige).", "log")
+t("#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point).", "#VIOLET#%s brille lorsque vous la touchez. Votre savoir grandit (+1 point de catégorie).", "log")
+t("#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "#YELLOW#%s brille lorsque vous la touchez. Votre savoir grandit (+1 point de talent de classe).", "log")
+t("#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "#ORANGE#%s brille lorsque vous la touchez. Votre savoir grandit (+1 point de talent générique).", "log")
+t("#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "#AQUAMARINE#%s brille lorsque vous la touchez. Votre savoir grandit (+3 points de caractéristique).", "log")
 t("cave", "grotte", "entity subtype")
--- texte non traduit
---[==[
-t("font of knowledge", "font of knowledge", "entity name")
-t("Font of Knowledge", "Font of Knowledge", "_t")
-t("Do you want to touch it?", "Do you want to touch it?", "_t")
-t("#PURPLE#The %s glows as you touch it. Your knowledge grows (+1 prodigy point).", "#PURPLE#The %s glows as you touch it. Your knowledge grows (+1 prodigy point).", "log")
-t("#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point).", "#VIOLET#The %s glows as you touch it. Your knowledge grows (+1 category point).", "log")
-t("#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "#YELLOW#The %s glows as you touch it. Your knowledge grows (+1 class talent point).", "log")
-t("#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "#ORANGE#The %s glows as you touch it. Your knowledge grows (+1 generic talent point).", "log")
-t("#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "#AQUAMARINE#The %s glows as you touch it. Your knowledge grows (+3 stat points).", "log")
-t("font of sacrifice", "font of sacrifice", "entity name")
---]==]
-
+t("font of sacrifice", "fontaine sacrificielle", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/fortress-ancient.lua"
@@ -488,16 +420,11 @@ t("sealed door", "porte scellée", "entity name")
 ------------------------------------------------
 section "tome-cults/data/general/grids/fortress-multiverse.lua"
 
-
--- texte non traduit
---[==[
-t("entropic breach", "entropic breach", "entity name")
-t("Entropic Wormhole Control Orb", "Entropic Wormhole Control Orb", "entity name")
-t("#CRIMSON#The entropic forces are already at work. FIGHT!", "#CRIMSON#The entropic forces are already at work. FIGHT!", "say")
-t("#CRIMSON#The entropic control orb seems unresponsive...", "#CRIMSON#The entropic control orb seems unresponsive...", "say")
-t("#PURPLE#Make sure you are connected and joined the main Tales of Maj'Eyal chat channel.", "#PURPLE#Make sure you are connected and joined the main Tales of Maj'Eyal chat channel.", "log")
---]==]
-
+t("entropic breach", "brèche entropique", "entity name")
+t("Entropic Wormhole Control Orb", "Orbe de Contrôle du Trou de Ver Entropique", "entity name")
+t("#CRIMSON#The entropic forces are already at work. FIGHT!", "#CRIMSON#Les forces entropiques sont déjà à l'oeuvre. COMBATTEZ !", "say")
+t("#CRIMSON#The entropic control orb seems unresponsive...", "#CRIMSON#L'orbe de contrôle entropique semble ne pas réagir...", "say")
+t("#PURPLE#Make sure you are connected and joined the main Tales of Maj'Eyal chat channel.", "#PURPLE#Assurez-vous d'être connecté et d'avoir rejoint le canal de discussion principal de Tales of Maj'Eyal.", "log")
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/godfeaster.lua"
@@ -507,17 +434,13 @@ t("floor", "sol", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
+t("godfeaster", "dévoreur de dieux", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("godfeaster wall", "mur", "entity name")
+t("godfeaster door", "porte", "entity name")
+t("open godfeaster door", "porte ouverte", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
--- texte non traduit
---[==[
-t("godfeaster", "godfeaster", "entity subtype")
-t("godfeaster wall", "godfeaster wall", "entity name")
-t("godfeaster door", "godfeaster door", "entity name")
-t("open godfeaster door", "open godfeaster door", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/maggot.lua"
@@ -527,37 +450,29 @@ t("floor", "sol", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
+t("maggot", "asticot", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("maggot wall", "mur", "entity name")
+t("maggot door", "porte", "entity name")
+t("open maggot door", "porte ouverte", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
--- texte non traduit
---[==[
-t("maggot", "maggot", "entity subtype")
-t("maggot wall", "maggot wall", "entity name")
-t("maggot door", "maggot door", "entity name")
-t("open maggot door", "open maggot door", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/scourge.lua"
 
 t("floor", "sol", "entity type")
-t("scourge", "fléau", "entity subtype")
+t("scourge", "plaie", "entity subtype")
 t("floor", "sol", "entity name")
 t("creep", "rampant", "entity subtype")
 t("creep", "rampant", "entity name")
 t("wall", "mur", "entity type")
+t("tentacle 'tree'", "\"arbre\" à tentacules", "entity name")
 t("huge loose rock", "énorme rocher instable", "entity name")
 t("This rock is loose, you think you can move it away.", "Ce rocher est instable, vous pensez pouvoir le déplacer.", "_t")
 t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
 t("ladder to the previous level", "échelle vers le niveau précédent", "entity name")
 t("ladder to worldmap", "échelle vers la carte du monde", "entity name")
--- texte non traduit
---[==[
-t("tentacle 'tree'", "tentacle 'tree'", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/slimy_godfeaster.lua"
@@ -567,17 +482,13 @@ t("floor", "sol", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
+t("slimy_godfeaster", "dévoreur de dieux visqueux", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
+t("slimy_godfeaster wall", "mur", "entity name")
+t("slimy_godfeaster door", "porte", "entity name")
+t("open slimy_godfeaster door", "porte ouverte", "entity name")
 t("This door seems to have been sealed off. You think you can open it.", "Cette porte semble avoir été scellée. Vous pensez pouvoir l'ouvrir.", "_t")
--- texte non traduit
---[==[
-t("slimy_godfeaster", "slimy_godfeaster", "entity subtype")
-t("slimy_godfeaster wall", "slimy_godfeaster wall", "entity name")
-t("slimy_godfeaster door", "slimy_godfeaster door", "entity name")
-t("open slimy_godfeaster door", "open slimy_godfeaster door", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/grids/spacedwarf-creep.lua"
@@ -625,16 +536,12 @@ section "tome-cults/data/general/grids/tentacle-tree.lua"
 
 t("floor", "sol", "entity type")
 t("creep", "rampant", "entity subtype")
+t("strange tentacle 'tree'", "étrange \"arbre\" à tentacules", "entity name")
+t("Tentacle Tree", "Arbre à Tentacules", "_t")
 t("Do you #{strong}#really#{normal}# want to touch that?", "Voulez-vous #{strong}#vraiment#{normal}# toucher ça ?", "_t")
 t("No", "Non", "_t")
 t("Yes", "Oui", "_t")
 t("#CRIMSON#The %s glows ominously.", "#CRIMSON#%s brille de façon inquiétante.", "log")
--- texte non traduit
---[==[
-t("strange tentacle 'tree'", "strange tentacle 'tree'", "entity name")
-t("Tentacle Tree", "Tentacle Tree", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/blobs.lua"
@@ -747,7 +654,7 @@ t("krog", "krog", "entity subtype")
 ------------------------------------------------
 section "tome-cults/data/general/npcs/scourge-drake.lua"
 
-t("scourge", "fléau", "entity subtype")
+t("scourge", "plaie", "entity subtype")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 -- texte non traduit
 --[==[
@@ -827,6 +734,7 @@ t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
 section "tome-cults/data/general/objects/world-artifacts.lua"
 
 t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
+t("A View From The Gallery", "Une Vue depuis la Galerie", "_t")
 t("misc", "divers", "entity type")
 t("charm", "breloque", "entity type")
 t("%s activates %s %s!", "%s active %s %s !", "logSeen")
@@ -908,7 +816,6 @@ t("The importance of evading blows (+10 defense)", "The importance of evading bl
 t("The importance of speed (+10% movement speed)", "The importance of speed (+10% movement speed)", "_t")
 t("The importance of reflexes (+5 dexterity)", "The importance of reflexes (+5 dexterity)", "_t")
 t("The importance of a honed mind (+5 cunning)", "The importance of a honed mind (+5 cunning)", "_t")
-t("A View From The Gallery", "A View From The Gallery", "_t")
 t("This chapter has taught your some survival tips. What did you learn?", "This chapter has taught your some survival tips. What did you learn?", "_t")
 t("Forbidden Tome: \"The Illusory Castle\"", "Forbidden Tome: \"The Illusory Castle\"", "entity name")
 t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "_t")
@@ -2804,10 +2711,9 @@ t("Forbidden Tome: \"The Illusory Castle\"", "Forbidden Tome: \"The Illusory Cas
 ------------------------------------------------
 section "tome-cults/data/quests/grung.lua"
 
-
+t("A View From The Gallery", "Une Vue depuis la Galerie", "_t")
 -- texte non traduit
 --[==[
-t("A View From The Gallery", "A View From The Gallery", "_t")
 t([[You are Grung, a halfling from the Age of Haze. You must gather food or die but outside there is a terrible war being fought.
 A war between incomprehensible beings for incomprehensible reasons. All you can hope to do is gather food while avoiding to get crushed.]], [[You are Grung, a halfling from the Age of Haze. You must gather food or die but outside there is a terrible war being fought.
 A war between incomprehensible beings for incomprehensible reasons. All you can hope to do is gather food while avoiding to get crushed.]], "_t")
@@ -3402,7 +3308,7 @@ t("Slam your weapons into the ground, creating a radius 2 explosion of void ener
 ------------------------------------------------
 section "tome-cults/data/talents/demented/path-of-horror.lua"
 
-
+t("Writhing One", "Grouillant", "talent name")
 -- texte non traduit
 --[==[
 t("Carrion Feet", "Carrion Feet", "talent name")
@@ -3425,7 +3331,6 @@ t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Your body grows much bigger, gaining 2 size categories, making you able to walk through walls and increasing all your damage by %d%% and all your resistances by %d%%.
 		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], "tformat")
-t("Writhing One", "Writhing One", "talent name")
 t([[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], "tformat")
@@ -3740,7 +3645,7 @@ section "tome-cults/data/talents/misc/misc.lua"
 
 t("Self-destruction", "Auto-destruction", "talent name")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
-t("There are creatures that could be watching you; you cannot take the risk.", "Il y a des créatures qui pourraient vous observer ; vous ne pouvez pas prendre le risque.", "log")
+t("There are creatures that could be watching you; you cannot take the risk.", "Il y a des créatures qui pourraient vous observer ; vous ne pouvez pas prendre ce risque.", "log")
 t("Call of Amakthel", "Appel d'Amakthel", "talent name")
 t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("something", "quelque chose", "_t")
@@ -3938,7 +3843,7 @@ t("bleed", "saignement", "effect subtype")
 t("blood", "sang", "effect subtype")
 t("slime", "vase", "effect subtype")
 t("corrupted", "corrompu", "effect subtype")
-t("massive", "énormité", "effect subtype")
+t("massive", "énorme", "effect subtype")
 t("slow", "ralentissement", "effect subtype")
 t("Reduces global action speed by %d%%.", "Réduit la vitesse d'action globale de %d%%.", "tformat")
 t("miscellaneous", "divers", "effect subtype")
@@ -3952,7 +3857,7 @@ t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
 t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("darkness", "obscurité", "effect subtype")
 t("fear", "peur", "effect subtype")
-t("stone", "gardien de pierre", "effect subtype")
+t("stone", "pierre", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
@@ -4466,7 +4371,7 @@ t("vermin", "vermine", "entity type")
 t("rodent", "rongeur", "entity subtype")
 t("giant brown rat", "rat brun géant", "entity name")
 t("giant rabbit", "lapin géant", "entity name")
-t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Tue le lapin, tue le lapin, tue le lapppppiiiiiin.", "_t")
+t("Kill the wabbit, kill the wabbit, kill the wabbbbbiiiiiit.", "Tue le wapin, tue le wapin, tue le wapiiiiin.", "_t")
 -- texte non traduit
 --[==[
 t([[You can not comprehend what you're seeing.
@@ -4842,9 +4747,9 @@ t("--not done--", "--not done--", "_t")
 section "tome-cults/data/zones/godfeaster/grids.lua"
 
 t("floor", "sol", "entity type")
+t("maggot", "asticot", "entity subtype")
 -- texte non traduit
 --[==[
-t("maggot", "maggot", "entity subtype")
 t("portal to outside", "portal to outside", "entity name")
 t("maggot's nerval spine", "maggot's nerval spine", "entity name")
 t("%s (corrupted)", "%s (corrupted)", "tformat")
@@ -4895,9 +4800,9 @@ t("digestive sack", "digestive sack", "_t")
 section "tome-cults/data/zones/maggot/grids.lua"
 
 t("floor", "sol", "entity type")
+t("maggot", "asticot", "entity subtype")
 -- texte non traduit
 --[==[
-t("maggot", "maggot", "entity subtype")
 t("portal to Kroshkkur", "portal to Kroshkkur", "entity name")
 t("maggot's nerval spine", "maggot's nerval spine", "entity name")
 t("%s (dead)", "%s (dead)", "tformat")
@@ -4966,7 +4871,7 @@ t("How this giant, this force of Nature has been captured and subdued is proof t
 section "tome-cults/data/zones/necromancers-ruins/objects.lua"
 
 t("Telos's Staff (Bottom Half)", "Bâton de Telos (Moitié Inférieure)", "entity name")
-t("broken staff", "Bâton cassé", "_t")
+t("broken staff", "bâton cassé", "_t")
 t("The bottom part of Telos' broken staff.", "La partie inférieure du bâton brisé de Telos.", "_t")
 
 ------------------------------------------------
@@ -4986,10 +4891,9 @@ t("The captive krogs are no longer protected in their time prisons are very vuln
 ------------------------------------------------
 section "tome-cults/data/zones/occult-egress/grids.lua"
 
-
+t("Occult Egress", "Egress Occulte", "entity name")
 -- texte non traduit
 --[==[
-t("Occult Egress", "Occult Egress", "entity name")
 t("The strange device looks inactive.", "The strange device looks inactive.", "_t")
 t("The strange device looks active.", "The strange device looks active.", "_t")
 t("Strange Glyph", "Strange Glyph", "entity name")
@@ -5009,10 +4913,9 @@ t("log entry", "log entry", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/occult-egress/zone.lua"
 
-
+t("Occult Egress", "Egress Occulte", "_t")
 -- texte non traduit
 --[==[
-t("Occult Egress", "Occult Egress", "_t")
 t("#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "say")
 --]==]
 
@@ -5020,7 +4923,7 @@ t("#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "#CRI
 ------------------------------------------------
 section "tome-cults/data/zones/scourged-pits/npcs.lua"
 
-t("scourge", "fléau", "entity subtype")
+t("scourge", "plaie", "entity subtype")
 -- texte non traduit
 --[==[
 t("awoken tentacle tree", "awoken tentacle tree", "entity name")

@@ -19,7 +19,7 @@ t("#CRIMSON#BEWARE: This class is very #{italic}#strange#{normal}# and may be co
 t("Possessors are a rare breed of psionics. Some call them body snatchers. Some call them nightmarish.", "Les Possesseurs sont une rare race de psioniques. Certains les appellent voleurs de corps. D'autres les qualifient de cauchemardesques.", "_t")
 t("They are adept at stealing their foes corpses for their own use. Discarding their own bodies for a while to use other's.", "Ils excellent dans l'art de dérober les cadavres de leurs ennemis pour leur propre usage, délaissant temporairement leur propre corps pour utiliser celui d'un autre.", "_t")
 t("Their most important stats are: Willpower and Cunning", "Leurs stats les plus importantes sont : Volonté et Ruse", "_t")
-t("#GOLD#Stat modifiers:", "#GOLD#Modificateur de stat :", "_t")
+t("#GOLD#Stat modifiers:", "#GOLD#Modificateurs de stats :", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +2 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 Force, +2 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +2 Cunning", "#LIGHT_BLUE# * +0 Magie, +3 Volonté, +2 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# -4", "#GOLD#Vie par niveau :#LIGHT_BLUE# -4", "_t")
