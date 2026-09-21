@@ -547,98 +547,77 @@ t("#CRIMSON#The %s glows ominously.", "#CRIMSON#%s brille de façon inquiétante
 section "tome-cults/data/general/npcs/blobs.lua"
 
 t("vermin", "vermine", "entity type")
--- texte non traduit
---[==[
-t("blob", "blob", "entity subtype")
-t("Ewwww.", "Ewwww.", "_t")
-t("plasmic disruptor", "plasmic disruptor", "entity name")
-t("A green oozing defence cell of the Maggot.", "A green oozing defence cell of the Maggot.", "_t")
-t("mastocytic feeder", "mastocytic feeder", "entity name")
-t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "_t")
-t("protoplasmic controller", "protoplasmic controller", "entity name")
-t("Acid. Fire. Pain.", "Acid. Fire. Pain.", "_t")
-t("dendritic hemospinner", "dendritic hemospinner", "entity name")
-t("This strange cell can somehow connect to Eyal itself.", "This strange cell can somehow connect to Eyal itself.", "_t")
-t("acidic digestor", "acidic digestor", "entity name")
-t("You look like nutriments.", "You look like nutriments.", "_t")
-t("protosentient globula", "protosentient globula", "entity name")
-t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "_t")
---]==]
-
+t("blob", "amas", "entity subtype")
+t("Ewwww.", "Berk.", "_t")
+t("plasmic disruptor", "disrupteur plasmique", "entity name")
+t("A green oozing defence cell of the Maggot.", "Une cellule de défense verte et suintante de l'Asticot.", "_t")
+t("mastocytic feeder", "nourrisseur mastocytaire", "entity name")
+t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "Une cellule d'attaque rougeâtre qui rampe vers vous pour vous distraire pendant que le reste de l'organisme attaque.", "_t")
+t("protoplasmic controller", "contrôleur protoplasmique", "entity name")
+t("Acid. Fire. Pain.", "Acide. Feu. Douleur.", "_t")
+t("dendritic hemospinner", "hémofileur dendritique", "entity name")
+t("This strange cell can somehow connect to Eyal itself.", "Cette étrange cellule parvient, on ne sait comment, à se connecter à Eyal elle-même.", "_t")
+t("acidic digestor", "digesteur acide", "entity name")
+t("You look like nutriments.", "Vous ressemblez à des nutriments.", "_t")
+t("protosentient globula", "globule proto-sentient", "entity name")
+t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "Un immense globule de protoplasme. Vous sentez une sorte de proto-conscience en émaner, et vous devinez qu'il a faim.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/corrupted_blobs.lua"
 
 t("vermin", "vermine", "entity type")
--- texte non traduit
---[==[
-t("blob", "blob", "entity subtype")
-t("Ewwww.", "Ewwww.", "_t")
-t("corrupted plasmic disruptor", "corrupted plasmic disruptor", "entity name")
-t("A green oozing defence cell of the Maggot.", "A green oozing defence cell of the Maggot.", "_t")
-t("corrupted mastocytic feeder", "corrupted mastocytic feeder", "entity name")
-t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "_t")
-t("corrupted protoplasmic controller", "corrupted protoplasmic controller", "entity name")
-t("Acid. Fire. Pain.", "Acid. Fire. Pain.", "_t")
-t("corrupted dendritic hemospinner", "corrupted dendritic hemospinner", "entity name")
-t("This strange cell can somehow connect to Eyal itself.", "This strange cell can somehow connect to Eyal itself.", "_t")
-t("corrupted acidic digestor", "corrupted acidic digestor", "entity name")
-t("You look like nutriments.", "You look like nutriments.", "_t")
-t("corrupted protosentient globula", "corrupted protosentient globula", "entity name")
-t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "_t")
---]==]
-
+t("blob", "amas", "entity subtype")
+t("Ewwww.", "Berk.", "_t")
+t("corrupted plasmic disruptor", "disrupteur plasmique corrompu", "entity name")
+t("A green oozing defence cell of the Maggot.", "Une cellule de défense verte et suintante de l'Asticot.", "_t")
+t("corrupted mastocytic feeder", "nourrisseur mastocytaire corrompu", "entity name")
+t("A reddish attack cell that will crawl to you to distract you while the rest of the organism attacks.", "Une cellule d'attaque rougeâtre qui rampe vers vous pour vous distraire pendant que le reste de l'organisme attaque.", "_t")
+t("corrupted protoplasmic controller", "contrôleur protoplasmique corrompu", "entity name")
+t("Acid. Fire. Pain.", "Acide. Feu. Douleur.", "_t")
+t("corrupted dendritic hemospinner", "hémofileur dendritique corrompu", "entity name")
+t("This strange cell can somehow connect to Eyal itself.", "Cette étrange cellule parvient, on ne sait comment, à se connecter à Eyal elle-même.", "_t")
+t("corrupted acidic digestor", "digesteur acide corrompu", "entity name")
+t("You look like nutriments.", "Vous ressemblez à des nutriments.", "_t")
+t("corrupted protosentient globula", "globule proto-sentient corrompu", "entity name")
+t("A huge globula of protoplasma. You can feel a kind of protosentience emanating from it, and you can tell it is hungry.", "Un immense globule de protoplasme. Vous sentez une sorte de proto-conscience en émaner, et vous devinez qu'il a faim.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror-special-test.lua"
 
 t("horror", "horreur", "entity type")
 t("eldritch", "occulte", "entity subtype")
--- texte non traduit
---[==[
-t("The One That Hunts", "The One That Hunts", "entity name")
---]==]
-
+t("The One That Hunts", "Celui Qui Chasse", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror-special.lua"
 
 t("horror", "horreur", "entity type")
 t("eldritch", "occulte", "entity subtype")
--- texte non traduit
---[==[
-t("The One That Hunts", "The One That Hunts", "entity name")
-t("The relentless hunter. It never gives up, never surrenders.", "The relentless hunter. It never gives up, never surrenders.", "_t")
---]==]
-
+t("The One That Hunts", "Celui Qui Chasse", "entity name")
+t("The relentless hunter. It never gives up, never surrenders.", "Le chasseur implacable. Il n'abandonne jamais, ne se rend jamais.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/horror.lua"
 
-
--- texte non traduit
---[==[
-t("searing horror", "searing horror", "entity name")
-t("And you thought radiant horrors were bad.", "And you thought radiant horrors were bad.", "_t")
-t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "say")
-t("ravaging entropic rip", "ravaging entropic rip", "entity name")
-t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "_t")
-t("bursting entropic shard", "bursting entropic shard", "entity name")
-t("A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "_t")
-t("nethergate", "nethergate", "entity name")
-t("A strange portal of nether energies, it somehow feels alive itself.", "A strange portal of nether energies, it somehow feels alive itself.", "_t")
-t("It looks inactive and dormant for now. Maybe try to not wake it up.", "It looks inactive and dormant for now. Maybe try to not wake it up.", "_t")
-t("It looks active and you can feel dark energies coming out of it.", "It looks active and you can feel dark energies coming out of it.", "_t")
-t("#PURPLE#The nethergate feels a presence nearby and wakes up!", "#PURPLE#The nethergate feels a presence nearby and wakes up!", "logSeen")
-t("#PURPLE#The nethergate absorbs the attack and stirs, reactivating...", "#PURPLE#The nethergate absorbs the attack and stirs, reactivating...", "logSeen")
-t("netherworm mass", "netherworm mass", "entity name")
-t("A disgusting mass of distorted worms, slithering towards you.", "A disgusting mass of distorted worms, slithering towards you.", "_t")
-t("%s duplicates the healing forces to %s!", "%s duplicates the healing forces to %s!", "logSeen")
-t("giant netherworm", "giant netherworm", "entity name")
-t("fearful symmetry", "fearful symmetry", "entity name")
-t("A strange vortex of malevolent triangles.", "A strange vortex of malevolent triangles.", "_t")
---]==]
-
+t("searing horror", "horreur brûlante", "entity name")
+t("And you thought radiant horrors were bad.", "Et vous pensiez que les horreurs rayonnantes étaient terribles.", "_t")
+t("#GOLD#The Searing Horror adds a reflective shield to its allies!#LAST#", "#GOLD#L'Horreur Brûlante ajoute un bouclier réfléchissant à ses alliés !#LAST#", "say")
+t("ravaging entropic rip", "déchirure entropique dévastatrice", "entity name")
+t("A strange crystal/tear in the fabric of reality. You dare not think how it came to be.", "Un étrange cristal, ou déchirure, dans le tissu de la réalité. Vous n'osez pas imaginer comment il est apparu.", "_t")
+t("bursting entropic shard", "éclat entropique explosif", "entity name")
+t("A strange tall crystal pusling with nether energies. It's broken. Tentacles come out of it to get you! #{bold}#RUN!#{normal}#", "Un étrange cristal élancé, pulsant d'énergies abyssales. Il est brisé. Des tentacules en jaillissent pour vous attraper ! #{bold}#COUREZ !#{normal}#", "_t")
+t("nethergate", "portail abyssal", "entity name")
+t("A strange portal of nether energies, it somehow feels alive itself.", "Un étrange portail d'énergies abyssales, qui semble d'une certaine façon être vivant lui-même.", "_t")
+t("It looks inactive and dormant for now. Maybe try to not wake it up.", "Il semble inactif et endormi pour l'instant. Peut-être vaudrait-il mieux ne pas le réveiller.", "_t")
+t("It looks active and you can feel dark energies coming out of it.", "Il semble actif, et vous sentez des énergies sombres en émaner.", "_t")
+t("#PURPLE#The nethergate feels a presence nearby and wakes up!", "#PURPLE#Le portail abyssal sent une présence à proximité et s'éveille !", "logSeen")
+t("#PURPLE#The nethergate absorbs the attack and stirs, reactivating...", "#PURPLE#Le portail abyssal absorbe l'attaque et s'agite, se réactivant...", "logSeen")
+t("netherworm mass", "masse de vers abyssaux", "entity name")
+t("A disgusting mass of distorted worms, slithering towards you.", "Une masse répugnante de vers difformes, rampant vers vous.", "_t")
+t("%s duplicates the healing forces to %s!", "%s duplique des forces curatives vers %s !", "logSeen")
+t("giant netherworm", "ver abyssal géant", "entity name")
+t("fearful symmetry", "symétrie effrayante", "entity name")
+t("A strange vortex of malevolent triangles.", "Un étrange vortex de triangles malveillants.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/humanoid_random_boss.lua"
@@ -655,127 +634,103 @@ t("krog", "krog", "entity subtype")
 section "tome-cults/data/general/npcs/scourge-drake.lua"
 
 t("scourge", "plaie", "entity subtype")
+t("scourge drake hatchling", "dragonnet de plaie nouveau-né", "entity name")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
+t("scourge drake", "dragonnet de plaie", "entity name")
+t("A mature scourge drake, armed with deadly breath and nasty claws.", "Un dragonnet de plaie adulte, armé d'un souffle mortel et de griffes redoutables.", "_t")
+t("scourge wyrm", "draconien de plaie", "entity name")
+t("An old and powerful scourge drake, armed with deadly breath and nasty claws.", "Un ancien et puissant dragonnet de plaie, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity type")
-t("scourge drake hatchling", "scourge drake hatchling", "entity name")
-t("scourge drake", "scourge drake", "entity name")
-t("A mature scourge drake, armed with deadly breath and nasty claws.", "A mature scourge drake, armed with deadly breath and nasty claws.", "_t")
-t("scourge wyrm", "scourge wyrm", "entity name")
-t("An old and powerful scourge drake, armed with deadly breath and nasty claws.", "An old and powerful scourge drake, armed with deadly breath and nasty claws.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/general/npcs/tentacle-tree.lua"
 
-
--- texte non traduit
---[==[
-t("awoken tentacle tree", "awoken tentacle tree", "entity name")
-t("The tentacle tree has awakened!", "The tentacle tree has awakened!", "_t")
---]==]
-
+t("awoken tentacle tree", "arbre à tentacules éveillé", "entity name")
+t("The tentacle tree has awakened!", "L'arbre à tentacules s'est éveillé !", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/forbidden-tomes-base.lua"
 
 t("tome", "grimoire", "entity type")
--- texte non traduit
---[==[
-t("forbidden", "forbidden", "entity subtype")
-t("strange book", "strange book", "_t")
-t("A lost tome of knowledge.", "A lost tome of knowledge.", "_t")
-t("read the book", "read the book", "_t")
-t("The book story is done already.", "The book story is done already.", "_t")
-t("You can not enter a book while already inside one.", "You can not enter a book while already inside one.", "_t")
-t("You can not enter a book while the timeline is split.", "You can not enter a book while the timeline is split.", "_t")
-t("You can not enter this book while in combat.", "You can not enter this book while in combat.", "_t")
---]==]
-
+t("forbidden", "interdit", "entity subtype")
+t("strange book", "étrange livre", "_t")
+t("A lost tome of knowledge.", "Un grimoire de connaissance perdu.", "_t")
+t("read the book", "lire le livre", "_t")
+t("The book story is done already.", "L'histoire de ce livre est déjà terminée.", "_t")
+t("You can not enter a book while already inside one.", "Vous ne pouvez pas entrer dans un livre alors que vous êtes déjà à l'intérieur d'un autre.", "_t")
+t("You can not enter a book while the timeline is split.", "Vous ne pouvez pas entrer dans un livre tant que la ligne temporelle est scindée.", "_t")
+t("You can not enter this book while in combat.", "Vous ne pouvez pas entrer dans ce livre en plein combat.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/lore/eyal.lua"
 
+t("gods", "dieux", "entity subtype")
+t("godslayers", "tueurs de dieux", "entity subtype")
 t("analysis", "analyse", "entity subtype")
--- texte non traduit
---[==[
-t("gods", "gods", "entity subtype")
-t("godslayers", "godslayers", "entity subtype")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/special-misc.lua"
 
+t("Robe of the Worm", "Robe du Ver", "entity name")
+t("worm", "ver", "entity short_name")
+t("Rags of the Sanctuary", "Haillons du Sanctuaire", "entity name")
+t("rags", "haillons", "entity short_name")
 t("misc", "divers", "entity type")
 t("tool", "outil", "entity subtype")
+t("Bizzare Contraption", "Étrange Mécanisme", "entity name")
+t("bizzare contraption", "étrange mécanisme", "_t")
+t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "Cet étrange appareil semble être entièrement mécanique, mais vous ne comprenez pas comment le moindre de ses composants est censé fonctionner. Il semble y avoir une sorte de grille métallique sur son flanc qui émet parfois d'étranges bruits.", "_t")
+t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% de chance, en cas de coup reçu, d'absorber la totalité du coup. Cet effet a un temps de rechargement de 30 tours.", "_t")
+t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "L'Étrange Mécanisme absorbe entièrement le coup (%0.2f dégâts absorbés).", "logSeen")
+t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#Activation de la barrière électromagnétique de protection et surveillance de la santé en temps réel.#{normal}#", "logPlayer")
 t("armor", "armure", "entity type")
 t("head", "tête", "entity subtype")
--- texte non traduit
---[==[
-t("Robe of the Worm", "Robe of the Worm", "entity name")
-t("worm", "worm", "entity short_name")
-t("Rags of the Sanctuary", "Rags of the Sanctuary", "entity name")
-t("rags", "rags", "entity short_name")
-t("Bizzare Contraption", "Bizzare Contraption", "entity name")
-t("bizzare contraption", "bizzare contraption", "_t")
-t("This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "This strange device appears to be entirely mechanical in nature, but you cannot understand how any of the components are supposed to work. There does appear to be some sort of metallic grid in its side which sometimes emits strange noises.", "_t")
-t("10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "10% chance when hit to absorb the whole blow. This effect has a 30 turn cooldown.", "_t")
-t("The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "The Bizzare Contraption fully absorbs the blow (%0.2f damage absorbed).", "logSeen")
-t("#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "#{italic}##LIGHT_GREEN#Enabling protective electromagnetic barrier and real time health monitoring.#{normal}#", "logPlayer")
-t("Fanged Collar", "Fanged Collar", "entity name")
-t("It's a head... but is it yours?", "It's a head... but is it yours?", "_t")
---]==]
-
+t("Fanged Collar", "Collier à Crocs", "entity name")
+t("It's a head... but is it yours?", "C'est une tête... mais est-ce la vôtre ?", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/world-artifacts.lua"
 
+t("Spinal Cage", "Cage Spinale", "entity name")
+t("gross mass of spinal matter", "masse difforme de matière spinale", "_t")
+t("A gross mass of spinal matter hastily assembled into armour.", "Une masse difforme de matière spinale, assemblée à la hâte en une armure.", "_t")
+t("Infused Cerebrum", "Cerveau Infusé", "entity name")
+t("a disgusting pile of brain-matter", "un tas répugnant de matière cérébrale", "_t")
+t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "Ce #{italic}#couvre-chef#{normal}# semble entièrement constitué de matière cérébrale à moitié pourrie. Voulez-vous vraiment le poser sur votre tête ?", "_t")
+t("assault the mind of a foe to utterly dominate it", "attaquer l'esprit d'un ennemi pour le dominer entièrement", "_t")
 t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
-t("A View From The Gallery", "Une Vue depuis la Galerie", "_t")
-t("misc", "divers", "entity type")
-t("charm", "breloque", "entity type")
-t("%s activates %s %s!", "%s active %s %s !", "logSeen")
--- texte non traduit
---[==[
-t("Spinal Cage", "Spinal Cage", "entity name")
-t("gross mass of spinal matter", "gross mass of spinal matter", "_t")
-t("A gross mass of spinal matter hastily assembled into armour.", "A gross mass of spinal matter hastily assembled into armour.", "_t")
-t("Infused Cerebrum", "Infused Cerebrum", "entity name")
-t("a disgusting pile of brain-matter", "a disgusting pile of brain-matter", "_t")
-t("This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "This #{italic}#headwear#{normal}# seems made entirely out of half-rotten brain matter. Do you really want to put that over your head?", "_t")
-t("assault the mind of a foe to utterly dominate it", "assault the mind of a foe to utterly dominate it", "_t")
-t("Writhing Ring of the Hunter", "Writhing Ring of the Hunter", "entity name")
-t("green slimy ring", "green slimy ring", "_t")
-t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "_t")
-t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "_t")
-t("#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "logPlayer")
-t("#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "logPlayer")
-t("Staff of Bones", "Staff of Bones", "entity name")
-t("bone staff", "bone staff", "_t")
-t("A staff made out of the bones of fallen foes. Disgustingly powerful.", "A staff made out of the bones of fallen foes. Disgustingly powerful.", "_t")
-t("It seems willing and able to talk to you (use Command Staff).", "It seems willing and able to talk to you (use Command Staff).", "_t")
-t("Growing more powerful? Still pathetic compared to a True Necromancer!", "Growing more powerful? Still pathetic compared to a True Necromancer!", "_t")
-t("Ahh the rush of power... I love that!", "Ahh the rush of power... I love that!", "_t")
-t("What feeble power you wield now is nothing!", "What feeble power you wield now is nothing!", "_t")
-t("Yes yes you've leveled up, so what?", "Yes yes you've leveled up, so what?", "_t")
-t("One more level, that's hardly impressive you know?", "One more level, that's hardly impressive you know?", "_t")
-t("If you weren't so useless I'd be nearly impressed by that new level...", "If you weren't so useless I'd be nearly impressed by that new level...", "_t")
-t("KILL! KILL!", "KILL! KILL!", "_t")
-t("We require more souls!", "We require more souls!", "_t")
-t("Destroy them all! OBEY!", "Destroy them all! OBEY!", "_t")
-t("FEED ME!", "FEED ME!", "_t")
-t("I nee ..err.. you need more souls. Yes you...", "I nee ..err.. you need more souls. Yes you...", "_t")
-t("Pain and misery, spread them!", "Pain and misery, spread them!", "_t")
-t("I love the smell of a fresh corpse.", "I love the smell of a fresh corpse.", "_t")
-t("Splatter me with the blood of our foes!", "Splatter me with the blood of our foes!", "_t")
-t("That one wasn't such an impressive kill...", "That one wasn't such an impressive kill...", "_t")
-t("Getting a bit sloppy on the kills no?", "Getting a bit sloppy on the kills no?", "_t")
-t("%s: \"%s\"", "%s: \"%s\"", "tformat")
-t("Forbidden Tome: \"Of Knowledge And Horrors\"", "Forbidden Tome: \"Of Knowledge And Horrors\"", "entity name")
-t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "A gross tome of lost knowledge. Even touching it makes you feel sick.", "_t")
+t("Writhing Ring of the Hunter", "Anneau Grouillant du Chasseur", "entity name")
+t("green slimy ring", "anneau vert et visqueux", "_t")
+t("A writhing mass of tentacles roughtly warped into the form of a ring. A dark malovelant power emanates from it.", "Une masse grouillante de tentacules grossièrement tordue en forme d'anneau. Un pouvoir sombre et malveillant en émane.", "_t")
+t("When first worn the ring attunes to you, letting you choose a prodigy it will forever grant while worn (can not be changed once chosen, re-wear it to select again if you refused to choose at first).", "La première fois que vous le portez, l'anneau s'accorde à vous et vous permet de choisir un prodige qu'il vous accordera en permanence tant que vous le portez (ce choix ne peut être modifié une fois fait ; si vous refusez de choisir au début, remettez-le pour choisir à nouveau).", "_t")
+t("#DARK_SEA_GREEN#While the ring senses battle it grips your finger so hard you can not take it off.", "#DARK_SEA_GREEN#Tant que l'anneau sent la bataille proche, il serre votre doigt si fort que vous ne pouvez pas l'enlever.", "logPlayer")
+t("#DARK_SEA_GREEN#As you put the %s on your finger, you feel more attuned to the horror within you.", "#DARK_SEA_GREEN#En passant %s à votre doigt, vous vous sentez davantage en phase avec l'horreur qui sommeille en vous.", "logPlayer")
+t("Staff of Bones", "Bâton d'Os", "entity name")
+t("bone staff", "bâton d'os", "_t")
+t("A staff made out of the bones of fallen foes. Disgustingly powerful.", "Un bâton forgé à partir des os d'ennemis tombés au combat. Répugnamment puissant.", "_t")
+t("It seems willing and able to talk to you (use Command Staff).", "Il semble désireux et capable de vous parler (utilisez Commander au Bâton).", "_t")
+t("Growing more powerful? Still pathetic compared to a True Necromancer!", "Tu deviens plus puissant ? Toujours pathétique comparé à un Véritable Nécromancien !", "_t")
+t("Ahh the rush of power... I love that!", "Ahh, cette montée de puissance... j'adore ça !", "_t")
+t("What feeble power you wield now is nothing!", "Le pouvoir dérisoire que tu détiens maintenant n'est rien !", "_t")
+t("Yes yes you've leveled up, so what?", "Oui, oui, tu as gagné un niveau, et alors ?", "_t")
+t("One more level, that's hardly impressive you know?", "Encore un niveau, ce n'est guère impressionnant, tu sais ?", "_t")
+t("If you weren't so useless I'd be nearly impressed by that new level...", "Si tu n'étais pas si inutile, je serais presque impressionné par ce nouveau niveau...", "_t")
+t("KILL! KILL!", "TUE ! TUE !", "_t")
+t("We require more souls!", "Nous avons besoin de plus d'âmes !", "_t")
+t("Destroy them all! OBEY!", "Détruis-les tous ! OBÉIS !", "_t")
+t("FEED ME!", "NOURRIS-MOI !", "_t")
+t("I nee ..err.. you need more souls. Yes you...", "J'ai bes... euh... tu as besoin de plus d'âmes. Oui, toi...", "_t")
+t("Pain and misery, spread them!", "Douleur et misère, répands-les !", "_t")
+t("I love the smell of a fresh corpse.", "J'adore l'odeur d'un cadavre frais.", "_t")
+t("Splatter me with the blood of our foes!", "Aspergez-moi du sang de nos ennemis !", "_t")
+t("That one wasn't such an impressive kill...", "Ce n'était pas une mise à mort très impressionnante...", "_t")
+t("Getting a bit sloppy on the kills no?", "Tu deviens un peu négligent avec tes mises à mort, non ?", "_t")
+t("Forbidden Tome: \"Of Knowledge And Horrors\"", "Grimoire Interdit : \"Du Savoir et des Horreurs\"", "entity name")
+t("A gross tome of lost knowledge. Even touching it makes you feel sick.", "Un répugnant grimoire de savoir perdu. Rien que le toucher vous donne la nausée.", "_t")
 t([[The book of horrors,
 the book of terrors,
 the book of pain,
@@ -785,143 +740,145 @@ the book of lunacy.
 
 It which reads the book shall know pain beyond pain.
 Read now for a fate worse than death inside awaits.
-]], [[The book of horrors,
-the book of terrors,
-the book of pain,
-the book of gain,
-the book of insanity,
-the book of lunacy.
+]], [[Le livre des horreurs,
+le livre des terreurs,
+le livre de la douleur,
+le livre du gain,
+le livre de la folie,
+le livre de la démence.
 
-It which reads the book shall know pain beyond pain.
-Read now for a fate worse than death inside awaits.
+Celui qui lit ce livre connaîtra une douleur au-delà de la douleur.
+Lisez maintenant, car un destin pire que la mort vous attend à l'intérieur.
 ]], "_t")
-t("Forbidden Tome: \"The Day It Came\"", "Forbidden Tome: \"The Day It Came\"", "entity name")
-t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "_t")
-t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "_t")
-t("Hithre died. Somehow this is not what should have happened.", "Hithre died. Somehow this is not what should have happened.", "_t")
-t("Hithre", "Hithre", "_t")
-t("Main protagonist", "Main protagonist", "_t")
-t("The importance of power (+3% spell critical chance)", "The importance of power (+3% spell critical chance)", "_t")
-t("The importance of thought (+10 spell save)", "The importance of thought (+10 spell save)", "_t")
-t("The importance of magic (+5 magic)", "The importance of magic (+5 magic)", "_t")
-t("The importance of wisdom (+5 willpower)", "The importance of wisdom (+5 willpower)", "_t")
-t("The Day It Came", "The Day It Came", "_t")
-t("This chapter has taught your some important lesson. What did you learn?", "This chapter has taught your some important lesson. What did you learn?", "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "Forbidden Tome: \"A View From The Gallery\"", "entity name")
-t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "_t")
-t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "_t")
-t("Poor Grung. All he wanted was food, but what he found instead was death.", "Poor Grung. All he wanted was food, but what he found instead was death.", "_t")
-t("Grung", "Grung", "_t")
-t("The importance of evading blows (+10 defense)", "The importance of evading blows (+10 defense)", "_t")
-t("The importance of speed (+10% movement speed)", "The importance of speed (+10% movement speed)", "_t")
-t("The importance of reflexes (+5 dexterity)", "The importance of reflexes (+5 dexterity)", "_t")
-t("The importance of a honed mind (+5 cunning)", "The importance of a honed mind (+5 cunning)", "_t")
-t("This chapter has taught your some survival tips. What did you learn?", "This chapter has taught your some survival tips. What did you learn?", "_t")
-t("Forbidden Tome: \"The Illusory Castle\"", "Forbidden Tome: \"The Illusory Castle\"", "entity name")
-t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "_t")
+t("Forbidden Tome: \"The Day It Came\"", "Grimoire Interdit : \"Le Jour où Il Vint\"", "entity name")
+t("The cover of this tome is old and withered. As you hold it, you get the impression of many things. Despair, misery, desperation and hopelessness all assail you at once. Something about the book also promises great power, but at what cost?", "La couverture de ce grimoire est vieille et desséchée. En le tenant, vous ressentez une multitude de choses. Le désespoir, la misère, la détresse et l'accablement vous assaillent tous à la fois. Quelque chose dans ce livre promet aussi un grand pouvoir, mais à quel prix ?", "_t")
+t("In the Age of Pyre, it seemed that the world was ending to many of Eyal's inhabitants. The destruction caused by the Spellblaze left the land withered and scorched. Food was scarce, paranoia was rampant and everyone was desperate. For a select few, their salvation came from an unlikely visitor. An entity they simply came to knew as The Teacher visited Eyal from somewhere beyond the stars, emerging from an ancient Sher'tul farportal. It discovered a group of survivors in the depths of Eyal which begged it for knowledge, anything they could use as a weapon against the horrors ravaging their world.", "En l'Ère du Bûcher, il semblait à de nombreux habitants d'Eyal que le monde touchait à sa fin. La dévastation causée par la Brûlure Magique avait laissé les terres flétries et calcinées. La nourriture se faisait rare, la paranoïa régnait et chacun sombrait dans le désespoir. Pour quelques élus, le salut vint d'un visiteur inattendu. Une entité qu'ils en vinrent simplement à appeler le Professeur visita Eyal depuis un lieu au-delà des étoiles, émergeant d'un antique portail lointain Sher'tul. Elle découvrit un groupe de survivants dans les profondeurs d'Eyal qui l'implorèrent de leur donner du savoir, n'importe quoi qui pût leur servir d'arme contre les horreurs ravageant leur monde.", "_t")
+t("Hithre died. Somehow this is not what should have happened.", "Hithre est mort. D'une manière ou d'une autre, ce n'est pas ce qui aurait dû se passer.", "_t")
+t("Main protagonist", "Protagoniste principal", "_t")
+t("The importance of power (+3% spell critical chance)", "L'importance du pouvoir (+3% critique de sort)", "_t")
+t("The importance of thought (+10 spell save)", "L'importance de la pensée (+10 sauvegarde des sorts)", "_t")
+t("The importance of magic (+5 magic)", "L'importance de la magie (+5 Magie)", "_t")
+t("The importance of wisdom (+5 willpower)", "L'importance de la sagesse (+5 Volonté)", "_t")
+t("The Day It Came", "Le Jour où Il Vint", "_t")
+t("This chapter has taught your some important lesson. What did you learn?", "Ce chapitre vous a enseigné une leçon importante. Qu'avez-vous appris ?", "_t")
+t("Forbidden Tome: \"A View From The Gallery\"", "Grimoire Interdit : \"Une Vue depuis la Galerie\"", "entity name")
+t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "L'histoire de Grung, un halfelin séparé de sa tribu, qui tente simplement de survivre tandis qu'une terrible guerre, il y a bien longtemps, continue de faire rage.", "_t")
+t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "La nuit est glaciale et vous n'avez rien trouvé à manger de la journée. Votre pelage ne vous protège guère mieux du froid. Vous vous apprêtez à sortir chasser, mais tous les autres vous ont prévenu que vous ne devez pas faire cela. La nuit est dangereuse et d'étranges lumières semblent parcourir le ciel. Un mauvais présage, pour le moins. La nourriture se fait rare ces derniers temps, si bien que tout le monde est aussi affamé que vous.", "_t")
+t("Poor Grung. All he wanted was food, but what he found instead was death.", "Pauvre Grung. Tout ce qu'il voulait, c'était de la nourriture, mais ce qu'il trouva à la place fut la mort.", "_t")
+t("The importance of evading blows (+10 defense)", "L'importance d'esquiver les coups (+10 défense)", "_t")
+t("The importance of speed (+10% movement speed)", "L'importance de la vitesse (+10% vitesse de mouvement)", "_t")
+t("The importance of reflexes (+5 dexterity)", "L'importance des réflexes (+5 Dextérité)", "_t")
+t("The importance of a honed mind (+5 cunning)", "L'importance d'un esprit affûté (+5 Ruse)", "_t")
+t("A View From The Gallery", "Une Vue depuis la Galerie", "_t")
+t("This chapter has taught your some survival tips. What did you learn?", "Ce chapitre vous a enseigné quelques astuces de survie. Qu'avez-vous appris ?", "_t")
+t("Forbidden Tome: \"The Illusory Castle\"", "Grimoire Interdit : \"Le Château Illusoire\"", "entity name")
+t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "Le grimoire devant vous semble être fait autant de matière onirique que de cuir et de parchemin. Des éclats cristallins dansent sous sa surface, vous donnant l'impression d'un monde se transformant au rythme d'une logique indiscernable.", "_t")
 t([[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
 
-Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[The world inside the tome depicts a castle. At least, it gives the impression of a castle. It has a dreamlike feeling to it, enough so to make you wonder if you're awake or not. The glass walls shimmer brightly with countless brilliant lights, reflected from some unknown source.
+Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], [[Le monde à l'intérieur du grimoire représente un château. Du moins, il en donne l'impression. Il possède une qualité onirique, suffisante pour vous faire douter d'être éveillé ou non. Les murs de verre scintillent intensément d'innombrables lumières éclatantes, reflétées par une source inconnue.
 
-Judging by the way the walls constantly shift and change themselves, you can be certain that this place will be difficult to explore.]], "_t")
-t("gross", "gross", "entity subtype")
-t("Cut Drem Arm", "Cut Drem Arm", "entity name")
-t("bloody arm", "bloody arm", "_t")
-t("The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "_t")
-t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "_t")
-t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "logSeen")
-t("Monolith Armour", "Monolith Armour", "entity name")
-t("black stone armour", "black stone armour", "_t")
-t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "_t")
+À en juger par la façon dont les murs se déplacent et changent constamment, vous pouvez être certain que ce lieu sera difficile à explorer.]], "_t")
+t("misc", "divers", "entity type")
+t("gross", "répugnant", "entity subtype")
+t("Cut Drem Arm", "Bras de Drem Tranché", "entity name")
+t("bloody arm", "bras ensanglanté", "_t")
+t("The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "Le bras semble desséché, mais vous jureriez voir quelque chose se tortiller sous sa peau cendrée.", "_t")
+t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "Le bras peut parfois s'étendre vers un ennemi dans un rayon de 5 cases et l'attirer à vous d'un coup de tentacule. Cette action n'est pas de votre propre volonté, il semble avoir son propre esprit.", "_t")
+t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#Le %s attrape %s avec un tentacule !", "logSeen")
+t("Monolith Armour", "Armure Monolithique", "entity name")
+t("black stone armour", "armure de pierre noire", "_t")
+t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "Cette 'armure' semble surtout constituée de blocs de pierre gravée de runes, fusionnés d'une manière ou d'une autre avec une résille noire extrêmement souple. Ces titanesques blocs de pierre dévieraient sans doute n'importe quel coup porté contre vous, mais il vous faudrait une force obscène rien que pour bouger en la portant. Les glyphes et runes gravés dans la pierre s'illuminent parfois d'eux-mêmes, libérant de petites décharges de magie.", "_t")
 t([[15% chance when hit to shatter reality around you creating rifts to help you (free cast of a Reality Fracture talent, level 4). This effect has a 30 turns cooldown.
-#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[15% chance when hit to shatter reality around you creating rifts to help you (free cast of a Reality Fracture talent, level 4). This effect has a 30 turns cooldown.
-#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], "_t")
-t("#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "logPlayer")
-t("Fanged Collar", "Fanged Collar", "entity name")
-t("a necklace with fangs", "a necklace with fangs", "_t")
-t("This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "_t")
-t("You have died, but that does not bother the collar at all...", "You have died, but that does not bother the collar at all...", "_t")
-t("Try to not die...", "Try to not die...", "_t")
-t("Perseverance", "Perseverance", "entity name")
-t("always sharp blade", "always sharp blade", "_t")
+#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[15% de chance, en cas de coup reçu, de briser la réalité autour de vous en créant des failles pour vous venir en aide (lancer gratuit du talent Fracture de Réalité, niveau 4). Cet effet a un temps de rechargement de 30 tours.
+#PURPLE#Si votre Constitution tombe sous le seuil requis pour la portez, elle vous semblera si lourde qu'elle sera automatiquement déséquipée. Prenez garde.#LAST#]], "_t")
+t("#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "#LIGHT_RED#Votre %s est trop lourde à porter avec votre ridicule Constitution. Vous la retirez.", "logPlayer")
+t("Fanged Collar", "Collier à Crocs", "entity name")
+t("a necklace with fangs", "un collier à crocs", "_t")
+t("This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "Cette étrange créature semble se fondre autour de votre cou, gardant sa gueule juste assez ouverte pour que ses crocs ne vous touchent pas. Vous soupçonnez que, si votre tête venait à disparaître, la créature s'installerait confortablement sur votre moignon de cou.", "_t")
+t("You have died, but that does not bother the collar at all...", "Vous êtes mort, mais cela ne dérange nullement le collier...", "_t")
+t("Try to not die...", "Essayez de ne pas mourir...", "_t")
+t("Perseverance", "Persévérance", "entity name")
+t("always sharp blade", "lame toujours affûtée", "_t")
 t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
-The sword symbolizes the krogs committment to their task of fighting against the forces of the arcane. With each slash the krog would endevor to continue, until at last their opponents would fall.]], [[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
-The sword symbolizes the krogs committment to their task of fighting against the forces of the arcane. With each slash the krog would endevor to continue, until at last their opponents would fall.]], "_t")
-t("restore 7 stamina and equilibrium", "restore 7 stamina and equilibrium", "_t")
-t("#LIGHT_BLUE#As you wear the sword you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#As you wear the sword you feel it attuning to your Krog body, increasing in power!", "logPlayer")
-t("It is said perseverance comes hand in hand with dedication.", "It is said perseverance comes hand in hand with dedication.", "_t")
-t("#AQUAMARINE#As the twin weapons of the Krogs are reunited you can feel bursting with power!", "#AQUAMARINE#As the twin weapons of the Krogs are reunited you can feel bursting with power!", "logSeen")
-t("#AQUAMARINE#The twin weapons of the Krogs de-power as you separate them.", "#AQUAMARINE#The twin weapons of the Krogs de-power as you separate them.", "logPlayer")
-t("Dedication", "Dedication", "entity name")
-t("always blunt mace", "always blunt mace", "_t")
+The sword symbolizes the krogs committment to their task of fighting against the forces of the arcane. With each slash the krog would endevor to continue, until at last their opponents would fall.]], [[On dit que les armes de prédilection des krogs sont une masse dans une main et une épée dans l'autre. Une main pour répandre le message des Zigurantes, l'autre pour veiller à ce que ce message soit mené à son terme.
+L'épée symbolise l'engagement des krogs dans leur combat contre les forces de l'arcane. À chaque coup porté, le krog s'efforce de continuer, jusqu'à ce qu'enfin ses adversaires tombent.]], "_t")
+t("restore 7 stamina and equilibrium", "restaure 7 d'Endurance et d'Équilibre", "_t")
+t("#LIGHT_BLUE#As you wear the sword you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#En portant l'épée, vous la sentez s'accorder à votre corps de Krog, gagnant en puissance !", "logPlayer")
+t("It is said perseverance comes hand in hand with dedication.", "On dit que la persévérance va de pair avec le dévouement.", "_t")
+t("#AQUAMARINE#As the twin weapons of the Krogs are reunited you can feel bursting with power!", "#AQUAMARINE#Alors que les armes jumelles des Krogs sont réunies, vous sentez la puissance déferler en vous !", "logSeen")
+t("#AQUAMARINE#The twin weapons of the Krogs de-power as you separate them.", "#AQUAMARINE#Les armes jumelles des Krogs perdent en puissance lorsque vous les séparez.", "logPlayer")
+t("Dedication", "Dévouement", "entity name")
+t("always blunt mace", "masse toujours contondante", "_t")
 t([[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
-The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[It is said that the preferred weapons of the krog is a mace in one hand and a sword in the other. One hand to spread the message of the Zigurath, the other to see that message through to the end.
-The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], "_t")
-t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "logPlayer")
-t("totem", "totem", "entity subtype")
-t("Persistent Will", "Persistent Will", "entity name")
-t("ever burning stake", "ever burning stake", "_t")
+The mace symbolizes the krogs willingness to endure until the final blow is struck against the arcane. Commonly the mace would be used to batter a mage senseless, thus preventing them from being able to cast their spells. ]], [[On dit que les armes de prédilection des krogs sont une masse dans une main et une épée dans l'autre. Une main pour répandre le message des Zigurantes, l'autre pour veiller à ce que ce message soit mené à son terme.
+La masse symbolise la volonté des krogs d'endurer jusqu'à ce que le coup final soit porté contre l'arcane. Elle est généralement utilisée pour assommer un mage, l'empêchant ainsi de lancer ses sorts. ]], "_t")
+t("#LIGHT_BLUE#As you wear the mace you feel it attuning to your Krog body, increasing in power!", "#LIGHT_BLUE#En portant la masse, vous la sentez s'accorder à votre corps de Krog, gagnant en puissance !", "logPlayer")
+t("charm", "breloque", "entity type")
+t("Persistent Will", "Volonté Persistante", "entity name")
+t("ever burning stake", "pieu éternellement enflammé", "_t")
 t([[During the Age of Dusk a rash of anti-magic activities took place in the Nargol Kingdom immediately after the Spellblaze. Citizens would turn on those with magical powers, burning them alive on stakes of wood. When the authorities found the perpetrators they executed them and planted their heads on stakes throughout their capital city.
 Despite this however, the citizenry continued to burn alive the enemies of nature. Unbeknownst to the authorities, the heads of the dead perpetrators continued to spread their message long after their deaths.
 
-This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[During the Age of Dusk a rash of anti-magic activities took place in the Nargol Kingdom immediately after the Spellblaze. Citizens would turn on those with magical powers, burning them alive on stakes of wood. When the authorities found the perpetrators they executed them and planted their heads on stakes throughout their capital city.
-Despite this however, the citizenry continued to burn alive the enemies of nature. Unbeknownst to the authorities, the heads of the dead perpetrators continued to spread their message long after their deaths.
+This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], [[Durant l'Ère du Crépuscule, une vague d'activités anti-magiques éclata dans le Royaume de Nargol immédiatement après la Brûlure Magique. Les citoyens se retournaient contre ceux dotés de pouvoirs magiques, les brûlant vifs sur des bûchers de bois. Lorsque les autorités retrouvaient les coupables, elles les exécutaient et plantaient leurs têtes sur des pieux à travers toute la capitale.
+Malgré cela, la population continua de brûler vive les ennemis de la nature. À l'insu des autorités, les têtes des coupables défunts continuèrent de répandre leur message longtemps après leur mort.
 
-This stake of wood appears to one of those used to prop up one of the executed heads. It has seemingly absorbed the will of the head it propped up, and holding it you can hear the Ziguranth's message echo through your mind.]], "_t")
-t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "tformat")
-t("Worm Nest", "Worm Nest", "entity name")
-t("disgusting robe", "disgusting robe", "_t")
-t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "_t")
-t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#The worms embed themselves easily in your mutated skin.", "logPlayer")
-t("Light of Revelation", "Light of Revelation", "entity name")
-t("disturbing lantern", "disturbing lantern", "_t")
-t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "_t")
-t("Sometimes reveals the hidden truths you'd rather not see.", "Sometimes reveals the hidden truths you'd rather not see.", "_t")
-t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "say")
-t("Glowing Core", "Glowing Core", "entity name")
-t("burning core", "burning core", "_t")
-t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "_t")
-t("Shoes of Moving Slowly", "Shoes of Moving Slowly", "entity name")
-t("restful shoes", "restful shoes", "_t")
+Ce pieu de bois semble être l'un de ceux utilisés pour soutenir l'une des têtes exécutées. Il semble avoir absorbé la volonté de la tête qu'il portait, et en le tenant, vous pouvez entendre le message des Zigurantes résonner dans votre esprit.]], "_t")
+t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "convaincre tous les non-utilisateurs d'arcane dans un rayon de 10 cases de se retourner contre leurs alliés lanceurs de sorts pendant 6 tours (la chance augmente avec votre Puissance Mentale)", "tformat")
+t("Worm Nest", "Nid de Vers", "entity name")
+t("disgusting robe", "robe répugnante", "_t")
+t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "Cette robe d'une épaisseur inhabituelle se tortille et se contorsionne sans cesse. De petits vers en jaillissent parfois, tombant au sol. Ces vers amortiront les attaques dirigées contre vous, mais l'idée d'avoir tant de créatures parasites si près de votre chair vulnérable ne vous plaît guère.", "_t")
+t("#GREEN#The worms embed themselves easily in your mutated skin.", "#GREEN#Les vers s'incrustent facilement dans votre peau mutée.", "logPlayer")
+t("Light of Revelation", "Lumière de Révélation", "entity name")
+t("disturbing lantern", "lanterne troublante", "_t")
+t("The \"lantern\" appears to be a glowing shard of a glass-like substance. Despite how bright it is, its light deeply disturbs you. It illuminates everything in its wake, including things which you would rather not see. Part of you wants to throw it away, but another part wants to know the unearthly truths it will reveal to you.", "La \"lanterne\" semble être un éclat lumineux d'une substance proche du verre. Malgré son éclat, sa lumière vous trouble profondément. Elle illumine tout sur son passage, y compris des choses que vous préféreriez ne pas voir. Une partie de vous a envie de la jeter, mais une autre veut connaître les vérités surnaturelles qu'elle pourrait vous révéler.", "_t")
+t("Sometimes reveals the hidden truths you'd rather not see.", "Révèle parfois les vérités cachées que vous préféreriez ne pas voir.", "_t")
+t("#YELLOW#Light of Revelation shines on %s revealing its true nature as %s!", "#YELLOW#La Lumière de Révélation brille sur %s, révélant sa véritable nature : %s !", "say")
+t("Glowing Core", "Noyau Luminescent", "entity name")
+t("burning core", "noyau ardent", "_t")
+t("This is all that's left of the Searing Horror. Even after its death, the object in your hand glows just as brightly as it did before.", "C'est tout ce qui reste de l'Horreur Brûlante. Même après sa mort, l'objet dans votre main continue de briller avec la même intensité qu'avant.", "_t")
+t("Shoes of Moving Slowly", "Chaussures du Mouvement Lent", "entity name")
+t("restful shoes", "chaussures reposantes", "_t")
 t([[Fast does not always win.
 
-#GOLD#Rumoured to be able to combine with the Shoes of Moving Quickly.]], [[Fast does not always win.
+#GOLD#Rumoured to be able to combine with the Shoes of Moving Quickly.]], [[La vitesse ne l'emporte pas toujours.
 
-#GOLD#Rumoured to be able to combine with the Shoes of Moving Quickly.]], "_t")
-t("Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.", "Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.", "_t")
-t("combine it with the Shoes of Moving Quickly", "combine it with the Shoes of Moving Quickly", "_t")
-t("You need to have the Shoes of Moving Quickly in your inventory.", "You need to have the Shoes of Moving Quickly in your inventory.", "logPlayer")
-t("Shoes of Slowly Moving Quickly", "Shoes of Slowly Moving Quickly", "_t")
-t("A wonder of footwear! You can set a shoe to stay in place while the other one goes very fast, spinning around to create tornados!", "A wonder of footwear! You can set a shoe to stay in place while the other one goes very fast, spinning around to create tornados!", "_t")
+#GOLD#On raconte qu'elles pourraient se combiner avec les Chaussures du Mouvement Rapide.]], "_t")
+t("Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.", "Chaque tour passé sans bouger vous octroie un bonus de 2 en défense et en armure. Cumulable jusqu'à 12 fois.", "_t")
+t("combine it with the Shoes of Moving Quickly", "la combiner avec les Chaussures du Mouvement Rapide", "_t")
+t("You need to have the Shoes of Moving Quickly in your inventory.", "Vous devez avoir les Chaussures du Mouvement Rapide dans votre inventaire.", "logPlayer")
+t("Shoes of Slowly Moving Quickly", "Chaussures du Mouvement Lentement Rapide", "_t")
+t("A wonder of footwear! You can set a shoe to stay in place while the other one goes very fast, spinning around to create tornados!", "Une merveille de chaussure ! Vous pouvez régler une chaussure pour qu'elle reste immobile pendant que l'autre file à toute vitesse, tournoyant pour créer des tornades !", "_t")
 t([[Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.
-You move 3 spaces at once.]], [[Each turn you spend not moving gain a buff for 2 defense and armour. Stacks up to 12 times.
-You move 3 spaces at once.]], "_t")
-t("As you combine the two pair of shoes you make something marvelous: %s", "As you combine the two pair of shoes you make something marvelous: %s", "logPlayer")
-t("Rod of Entropy", "Rod of Entropy", "entity name")
-t("light sucking rod", "light sucking rod", "_t")
-t("This rod seems to make light die around it. You feel tired just looking at it.", "This rod seems to make light die around it. You feel tired just looking at it.", "_t")
-t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "tformat")
-t("Seeds of the Black Tree", "Seeds of the Black Tree", "entity name")
-t("corrupt stone", "corrupt stone", "_t")
-t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "_t")
-t("15% chance to cast Tendrils Eruption level 3 on your target", "15% chance to cast Tendrils Eruption level 3 on your target", "_t")
+You move 3 spaces at once.]], [[Chaque tour passé sans bouger vous octroie un bonus de 2 en défense et en armure. Cumulable jusqu'à 12 fois.
+Vous vous déplacez de 3 cases à la fois.]], "_t")
+t("As you combine the two pair of shoes you make something marvelous: %s", "En combinant les deux paires de chaussures, vous créez quelque chose de merveilleux : %s", "logPlayer")
+t("Rod of Entropy", "Bâtonnet d'Entropie", "entity name")
+t("light sucking rod", "bâtonnet absorbeur de lumière", "_t")
+t("This rod seems to make light die around it. You feel tired just looking at it.", "Ce bâtonnet semble éteindre la lumière autour de lui. Rien que le regarder vous fatigue.", "_t")
+t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "fait temporairement subir à la cible un contrecoup entropique pour tout soin reçu pendant %d tours, jusqu'à %d%% des soins prodigués. Cet effet évolue avec votre caractéristique de Magie.", "tformat")
+t("%s activates %s %s!", "%s active %s %s !", "logSeen")
+t("Seeds of the Black Tree", "Graines de l'Arbre Noir", "entity name")
+t("corrupt stone", "pierre corrompue", "_t")
+t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "Cette masse grouillante de tentacules semble avoir infesté une étoile d'âme, créant une fusion étrange entre le naturel et le contre-nature. La gemme autrefois limpide ressemble désormais davantage à un éclat d'obsidienne noire, d'où jaillissent des tentacules tels des fouets. Vous préférez ne pas songer aux implications d'une telle horreur capable de fusionner avec la Nature elle-même.", "_t")
+t("15% chance to cast Tendrils Eruption level 3 on your target", "15% de chance de lancer Éruption de Vrilles niveau 3 sur votre cible", "_t")
+t("%s: \"%s\"", "%s : \"%s\"", "tformat")
+-- texte non traduit
+--[==[
+t("Hithre", "Hithre", "_t")
+t("Grung", "Grung", "_t")
+t("totem", "totem", "entity subtype")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/general/stores/cults.lua"
 
-
--- texte non traduit
---[==[
-t("That Which Teaches History", "That Which Teaches History", "entity name")
-t("The Face of the Deep", "The Face of the Deep", "entity name")
-t("The Crawler", "The Crawler", "entity name")
-t("The Sightless Acolyte", "The Sightless Acolyte", "entity name")
-t("The One That Defends", "The One That Defends", "entity name")
-t("The Conjointed", "The Conjointed", "entity name")
---]==]
-
+t("That Which Teaches History", "Celui Qui Enseigne l'Histoire", "entity name")
+t("The Face of the Deep", "Le Visage de l'Abîme", "entity name")
+t("The Crawler", "Le Rampant", "entity name")
+t("The Sightless Acolyte", "L'Acolyte Aveugle", "entity name")
+t("The One That Defends", "Celui Qui Défend", "entity name")
+t("The Conjointed", "Les Siamois", "entity name")
 
 ------------------------------------------------
 section "tome-cults/data/general/zones-alters/dreadfell.lua"
@@ -941,55 +898,43 @@ t("book", "livre", "entity subtype")
 ------------------------------------------------
 section "tome-cults/data/glyph_sequences/cults.lua"
 
+t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#Une Fontaine de Sacrifice apparaît à proximité !", "_t")
+t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#Un portail apparaît à l'intérieur de l'Egress Occulte !", "_t")
 t("Portal", "Portail", "_t")
+t("You feel this portal leads to a place from where you are likely to not come back.", "Vous sentez que ce portail mène à un endroit d'où vous ne reviendrez probablement pas.", "_t")
 t("Enter", "Entrer", "_t")
+t("Save your life and stay!", "[Sauvez votre vie et restez !]", "_t")
+t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#Un portail apparaît à l'intérieur de l'Egress Occulte, c'est probablement là que l'aventurier s'est rendu !", "_t")
+t("splattered remains of an adventurer", "restes éclaboussés d'un aventurier", "_t")
+t("log entry", "entrée de journal", "_t")
 t("A paper scrap.", "Un bout de papier.", "_t")
--- texte non traduit
---[==[
-t("#PURPLE#A Font of Sacrifice appears nearby!", "#PURPLE#A Font of Sacrifice appears nearby!", "_t")
-t("#PURPLE#A portal appears inside the Occult Egress!", "#PURPLE#A portal appears inside the Occult Egress!", "_t")
-t("You feel this portal leads to a place from where you are likely to not come back.", "You feel this portal leads to a place from where you are likely to not come back.", "_t")
-t("Save your life and stay!", "Save your life and stay!", "_t")
-t("#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "#PURPLE#A portal appears inside the Occult Egress, this is likely where the adventurer went!", "_t")
-t("splattered remains of an adventurer", "splattered remains of an adventurer", "_t")
-t("log entry", "log entry", "_t")
-t("#PURPLE#An item appears on the egress!", "#PURPLE#An item appears on the egress!", "_t")
-t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "_t")
---]==]
-
+t("#PURPLE#An item appears on the egress!", "#PURPLE#Un objet apparaît sur l'egress !", "_t")
+t("#PURPLE#For an instant you feel as if time slowed down over the world! #{italic}#(worldmap patrols permanently slowed down)#{normal}#", "#PURPLE#Pendant un instant, vous avez l'impression que le temps ralentit sur le monde entier ! #{italic}#(patrouilles de la carte du monde ralenties de façon permanente)#{normal}#", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/glyph_sequences/orcs.lua"
 
-
--- texte non traduit
---[==[
-t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put them in your ingredients cache.", "#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put them in your ingredients cache.", "_t")
---]==]
-
+t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put them in your ingredients cache.", "#YELLOW#Une paire de... cerveaux dans un bocal apparaît sur l'Egress ! Vous les rangez rapidement dans votre réserve d'ingrédients.", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/dremwarves.lua"
 
-
--- texte non traduit
---[==[
-t("Forbidden Cults", "Forbidden Cults", "newLore category")
-t("our origins (1)", "our origins (1)", "_t")
+t("Forbidden Cults", "cultes interdits", "newLore category")
+t("our origins (1)", "nos origines (1)", "_t")
 t([[I do not remember anything from before. My earliest memories are of these ruins. My people are known as the Drem to the surface dwellers of this world. We are seen as monsters, and perhaps that is not an unfair presumption. We were once mindless creatures roaming the underground, capable only of violence and acting on instinct. 
 
 It is only after these ruins were found that thought finally manifested in our bodies. I am fortunate in that the ruins have gifted me with sublime intelligence. For some, it did not help at all. For others, it barely raised them above mindlessness. Whatever grants us intelligence in these ruins seems to work on a case-by-case basis. Since our self awareness is only a recent thing, we have much we need to learn about the world around us and about ourselves as well.
 
 There is one question which keeps coming back to me. Why do we exist? Where did we come from? There are many strange things which dwell below the surface, but we are somehow different. The dwarven race bears similarities to us, but they possess a face where we do not. Are we cast from the same mold, but the process went awry somehow?
 
-I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], [[I do not remember anything from before. My earliest memories are of these ruins. My people are known as the Drem to the surface dwellers of this world. We are seen as monsters, and perhaps that is not an unfair presumption. We were once mindless creatures roaming the underground, capable only of violence and acting on instinct. 
+I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], [[Je ne me souviens de rien d'avant. Mes plus anciens souvenirs se limitent à ces ruines. Mon peuple est connu sous le nom de Drem par les habitants de la surface de ce monde. Nous sommes perçus comme des monstres, et ce n'est peut-être pas une présomption injuste. Nous étions autrefois des créatures sans esprit, errant sous terre, capables seulement de violence et agissant par instinct. 
 
-It is only after these ruins were found that thought finally manifested in our bodies. I am fortunate in that the ruins have gifted me with sublime intelligence. For some, it did not help at all. For others, it barely raised them above mindlessness. Whatever grants us intelligence in these ruins seems to work on a case-by-case basis. Since our self awareness is only a recent thing, we have much we need to learn about the world around us and about ourselves as well.
+Ce n'est qu'après la découverte de ces ruines que la pensée s'est enfin manifestée dans nos corps. J'ai la chance d'avoir été doté par les ruines d'une intelligence sublime. Pour certains, cela n'a rien changé du tout. Pour d'autres, cela les a à peine élevés au-dessus de l'inconscience. Ce qui, dans ces ruines, nous accorde l'intelligence, semble agir au cas par cas. Notre conscience de nous-mêmes n'étant que récente, il nous reste beaucoup à apprendre sur le monde qui nous entoure, ainsi que sur nous-mêmes.
 
-There is one question which keeps coming back to me. Why do we exist? Where did we come from? There are many strange things which dwell below the surface, but we are somehow different. The dwarven race bears similarities to us, but they possess a face where we do not. Are we cast from the same mold, but the process went awry somehow?
+Une question ne cesse de me revenir à l'esprit. Pourquoi existons-nous ? D'où venons-nous ? De nombreuses créatures étranges habitent sous la surface, mais nous sommes, d'une certaine manière, différents. La race naine présente des similitudes avec nous, mais elle possède un visage là où nous n'en avons pas. Sommes-nous issus du même moule, mais le processus aurait-il mal tourné d'une manière ou d'une autre ?
 
-I strongly believe that Drem and Dwarf do share a common origin. But, what is that origin? Could this simply have been the result of our different environments over the years? I could speculate all day about this, but that would not produce any concrete evidence. I intend to explore these caverns until I can find some clue or fragment of knowledge which will point me in the right direction. I need to know the truth.]], "_t")
-t("our origins (2)", "our origins (2)", "_t")
+Je crois fermement que les Drem et les Nains partagent une origine commune. Mais quelle est cette origine ? Cela pourrait-il simplement être le résultat de nos environnements différents au fil des ans ? Je pourrais spéculer toute la journée à ce sujet, mais cela ne produirait aucune preuve concrète. J'ai l'intention d'explorer ces cavernes jusqu'à trouver un indice ou un fragment de savoir qui me mettra sur la bonne voie. J'ai besoin de connaître la vérité.]], "_t")
+t("our origins (2)", "nos origines (2)", "_t")
 t([[There were some cave-ins recently around the ruins. After it was safe to investigate, said cave-ins have revealed previously unexplored tunnels. Since I had not made much headway with my research, it was a welcome distraction.
 
 To my delight, the tunnels showed signs of habitation! There were a number of primitive tools and weapons which showed little signs of decay. Mindless Drem are not known for making tools, so I came to the conclusion that this must have been a series of old dwarven tunnels. There were also some cave paintings of stout, bearded humanoids fighting off what appeared to be crude depictions of tentacled beasts.
@@ -998,16 +943,16 @@ This was not the only discovery we made too. There are multiple tunnels and ther
 
 Multiple scouting parties were sent down the tunnels and it became obvious that all of the tunnels came from a single origin point. They lead into a single large cavity in the earth. The cavity itself has not been fully explored yet, but scouting parties have reported a number of strange ruins sighted within it. The physical description they gave me of the ruin does not match with any other civilisation we have documented...
 
-It is a vague hope, but I hope in my heart of hearts that this place will finally give me the answers I have been seeking about the origin of Dwarves and Drem alike.]], [[There were some cave-ins recently around the ruins. After it was safe to investigate, said cave-ins have revealed previously unexplored tunnels. Since I had not made much headway with my research, it was a welcome distraction.
+It is a vague hope, but I hope in my heart of hearts that this place will finally give me the answers I have been seeking about the origin of Dwarves and Drem alike.]], [[Des effondrements se sont récemment produits aux abords des ruines. Une fois qu'il fut sûr d'y aller, ces effondrements ont révélé des tunnels jusqu'alors inexplorés. N'ayant guère progressé dans mes recherches, ce fut une distraction bienvenue.
 
-To my delight, the tunnels showed signs of habitation! There were a number of primitive tools and weapons which showed little signs of decay. Mindless Drem are not known for making tools, so I came to the conclusion that this must have been a series of old dwarven tunnels. There were also some cave paintings of stout, bearded humanoids fighting off what appeared to be crude depictions of tentacled beasts.
+À ma grande joie, les tunnels portaient des signes d'habitation ! On y trouvait plusieurs outils et armes primitifs, montrant peu de signes de détérioration. Les Drem sans esprit ne sont pas connus pour fabriquer des outils, j'en ai donc conclu qu'il devait s'agir d'anciens tunnels nains. On y trouvait également des peintures rupestres représentant des humanoïdes trapus et barbus combattant ce qui ressemblait à des représentations grossières de bêtes tentaculées.
 
-This was not the only discovery we made too. There are multiple tunnels and there is evidence to suggest that they were carved out by hand. It is no secret that dwarves are expert miners, but to think that primitive dwarves could carve stone so easily... It is truly magnificent.
+Ce ne fut pas notre seule découverte. Il existe de multiples tunnels, et tout indique qu'ils ont été creusés à la main. Ce n'est un secret pour personne que les nains sont d'habiles mineurs, mais l'idée que des nains primitifs aient pu tailler la pierre avec une telle aisance... C'est véritablement remarquable.
 
-Multiple scouting parties were sent down the tunnels and it became obvious that all of the tunnels came from a single origin point. They lead into a single large cavity in the earth. The cavity itself has not been fully explored yet, but scouting parties have reported a number of strange ruins sighted within it. The physical description they gave me of the ruin does not match with any other civilisation we have documented...
+Plusieurs groupes d'éclaireurs furent envoyés dans les tunnels, et il devint évident que tous partaient d'un unique point d'origine. Ils mènent à une seule et vaste cavité dans la terre. Cette cavité n'a pas encore été entièrement explorée, mais les éclaireurs ont rapporté avoir aperçu plusieurs ruines étranges en son sein. La description physique qu'ils m'en ont donnée ne correspond à aucune autre civilisation que nous ayons documentée...
 
-It is a vague hope, but I hope in my heart of hearts that this place will finally give me the answers I have been seeking about the origin of Dwarves and Drem alike.]], "_t")
-t("our origins (3)", "our origins (3)", "_t")
+C'est un espoir ténu, mais j'espère de tout coeur que ce lieu me donnera enfin les réponses que je cherche sur l'origine des Nains comme des Drem.]], "_t")
+t("our origins (3)", "nos origines (3)", "_t")
 t([[The exploration of the cavity has been interesting, to say the least. At its very centre, we discovered a strange, egg-shaped structure. It's made out of some sort of metal which I have not seen before. Despite being covered in layers of ancient dust, the metal was untarnished and showed no noticeable signs of decay. It was highly resistant to damage, as our attempts to cut through it were met with failure, even when we employed magical means. There was a notable dent in its side, something which could have only been caused by a tremendous amount of force.
 
 There was a passage way leading into the egg, which I volunteered to step through first. The inside of the egg was stranger still. There were dozens of metal tubes which covered the ceiling. Even as I stood there, I could hear the sound of some liquid pouring through them. The walls were covered in blinking lights and yet more metallic objects which I could not make sense of. It is obvious that the egg was some sort of massive machine. I cannot understand how it works or how it was made, though. There is no magic that I can sense, so this machine must rely entirely on mechanical means to function. No race that I know of has the knowledge to build such a thing. I could only imagine what sort of genius could design such a thing, let alone build it. 
@@ -1030,41 +975,38 @@ We wandered into the back of the room where there were yet more tubes. To my sur
 
 This egg has to be where we came from. This machine was built to create dwarves. I do not understand the process, but I have seen the outcome for myself. It is us Drem that are the anomaly, the dysfunctional byproduct of this machine's disrepair. Feral Drem must have emerged from this egg and ventured into the underground, where they then multiplied independently of the egg. These mutant fetuses must be the result of further disrepair and corruption, judging by the black growth which engulfs the machine in this room.
 
-So, I know now. Even if this discovery never leaves this room, I can die content. Even if I am the product of a broken piece of machinery, I am happy that I had a chance to witness this moment. If you find these notes, please bring them back to my fellow Drem. I am sure they would be happy to know the truth too.]], [[The exploration of the cavity has been interesting, to say the least. At its very centre, we discovered a strange, egg-shaped structure. It's made out of some sort of metal which I have not seen before. Despite being covered in layers of ancient dust, the metal was untarnished and showed no noticeable signs of decay. It was highly resistant to damage, as our attempts to cut through it were met with failure, even when we employed magical means. There was a notable dent in its side, something which could have only been caused by a tremendous amount of force.
+So, I know now. Even if this discovery never leaves this room, I can die content. Even if I am the product of a broken piece of machinery, I am happy that I had a chance to witness this moment. If you find these notes, please bring them back to my fellow Drem. I am sure they would be happy to know the truth too.]], [[L'exploration de la cavité a été intéressante, pour dire le moins. En son centre même, nous avons découvert une étrange structure en forme d'oeuf. Elle est faite d'une sorte de métal que je n'avais jamais vu auparavant. Bien que recouvert de couches de poussière ancienne, le métal était intact et ne montrait aucun signe visible de détérioration. Il était extrêmement résistant aux dommages, car nos tentatives pour le percer ont toutes échoué, même en recourant à des moyens magiques. Il y avait une bosse notable sur son flanc, quelque chose qui n'aurait pu être causé que par une force considérable.
 
-There was a passage way leading into the egg, which I volunteered to step through first. The inside of the egg was stranger still. There were dozens of metal tubes which covered the ceiling. Even as I stood there, I could hear the sound of some liquid pouring through them. The walls were covered in blinking lights and yet more metallic objects which I could not make sense of. It is obvious that the egg was some sort of massive machine. I cannot understand how it works or how it was made, though. There is no magic that I can sense, so this machine must rely entirely on mechanical means to function. No race that I know of has the knowledge to build such a thing. I could only imagine what sort of genius could design such a thing, let alone build it. 
+Un passage menait à l'intérieur de l'oeuf, et je me suis porté volontaire pour y entrer en premier. L'intérieur de l'oeuf était plus étrange encore. Des dizaines de tubes métalliques couvraient le plafond. Alors même que je me tenais là, je pouvais entendre le bruit d'un liquide s'écoulant à travers eux. Les murs étaient couverts de lumières clignotantes et d'autres objets métalliques dont je ne comprenais pas la fonction. Il était évident que l'oeuf était une sorte de machine massive. Je ne parviens cependant pas à comprendre comment elle fonctionne ni comment elle a été construite. Je n'y perçois aucune magie, donc cette machine doit reposer entièrement sur des moyens mécaniques pour fonctionner. Aucune race que je connaisse ne possède le savoir nécessaire pour construire une telle chose. Je ne peux qu'imaginer quel génie aurait pu concevoir un tel objet, sans même parler de le construire.
 
-Most interesting of all is that the egg has a thin layer of void energy over its entire surface. Us Drem are familiar with such energies, as we have dedicated much of our study to the otherworldly. The even spread of these energies suggests that this egg was completely bathed in them at some point. I do not know what circumstances could have lead to this, for such a concentration of these energies simply couldn't exist on Eyal. Not without causing a violent explosion, at least. We have done such experiments before.
+Le plus intéressant est que l'oeuf est recouvert d'une fine couche d'énergie du vide sur toute sa surface. Nous, les Drem, connaissons bien ce genre d'énergies, ayant consacré une grande partie de nos études à l'au-delà. La répartition uniforme de ces énergies suggère que cet oeuf en a été entièrement baigné à un moment donné. J'ignore quelles circonstances auraient pu mener à cela, car une telle concentration de ces énergies ne pourrait tout simplement pas exister sur Eyal. Pas sans provoquer une violente explosion, du moins. Nous avons déjà mené de telles expériences par le passé.
 
-Going deeper inside it, I began to notice that there were a number of glass pipes, wide enough for one of our party to fit in with room to spare. The metallic tubes above me fed into these pipes and pumped some sort of greenish liquid. I had planned to take a closer look, but it was then that we were set upon.
+En m'enfonçant plus profondément, j'ai commencé à remarquer plusieurs tuyaux de verre, assez larges pour que l'un des membres de notre groupe puisse y entrer avec de l'aisance. Les tubes métalliques au-dessus de moi alimentaient ces tuyaux et y pompaient une sorte de liquide verdâtre. J'avais prévu d'y regarder de plus près, mais c'est alors que nous fûmes attaqués.
 
-A number of things came crawling out from the dark. Us Drem are rather accustomed to sudden violence, so we tore into them before we could get a clear view of them. We sustained a few minor injuries, but the real shock came after we got a closer look at our attackers. They appeared to be some strange cross between dwarf, drem and something else, yet possessing a strangely child-like body. I imagine the jagged, razor sharp teeth aren't entirely natural either. We were not to be deterred, however. Surface folk may be shocked by such a creature, but we have seen far more sinister things down here.
+Plusieurs créatures surgirent en rampant de l'obscurité. Nous, les Drem, sommes plutôt habitués à la violence soudaine, aussi les avons-nous taillées en pièces avant même d'avoir pu bien les distinguer. Nous avons subi quelques blessures légères, mais le véritable choc vint lorsque nous avons enfin pu voir nos assaillants de plus près. Elles semblaient être un étrange croisement entre nain, Drem et autre chose, tout en possédant un corps étrangement enfantin. J'imagine que leurs dents dentelées et acérées comme des rasoirs n'étaient pas non plus entièrement naturelles. Nous ne nous sommes pas laissés décourager pour autant. Les gens de la surface seraient peut-être horrifiés par une telle créature, mais nous avons vu bien plus sinistre ici-bas.
 
-We had to cut through dozens of them, maybe hundreds of them, in our journey through the egg. There was obviously a source of these things, and their vague resemblance to us spurned me to keep fighting. We eventually came to a chamber which I guessed was the centre of the egg. We found the source of our tormentors. Some great machine, which connected with dozens of glass tubes, appeared to have a malignant growth attached to it. The creatures were being spat out of broken tubes, rapidly growing to their full size and rushing toward us. Each creature varied from looking like a half formed dwarf, drem or some sort of bizarre, tentacled horror.
+Nous avons dû en pourfendre des dizaines, peut-être des centaines, au cours de notre traversée de l'oeuf. Il y avait manifestement une source à ces créatures, et leur vague ressemblance avec nous m'a poussé à continuer le combat. Nous sommes finalement arrivés dans une chambre que j'ai supposée être le centre de l'oeuf. Nous y avons trouvé la source de nos tourmenteurs. Une grande machine, reliée à des dizaines de tubes de verre, semblait porter une excroissance maligne. Les créatures étaient recrachées par des tubes brisés, grandissant rapidement jusqu'à leur taille adulte avant de se ruer sur nous. Chaque créature ressemblait tantôt à un nain à moitié formé, tantôt à un Drem, tantôt à une sorte d'horreur tentaculée bizarre.
 
-In the end, we eventually broke the pipes leading into the glass tubes and the creatures stopped coming out. That liquid must have been some sort of substance to nourish those creatures. Without that liquid, only feeble and half formed fetuses crawled out.
+Finalement, nous avons réussi à briser les canalisations menant aux tubes de verre, et les créatures cessèrent d'en sortir. Ce liquide devait être une sorte de substance nourrissant ces créatures. Sans lui, seuls des foetus faibles et à moitié formés en rampaient dehors.
 
-But that was only one machine that was making them. We ended up sealing off the chamber as best as we could, but we can hear more of them coming. One of the creatures latched onto my arm during the fight as well. It has infected me with some virulent disease, making my flesh wither away and turned into dried leather.
+Mais ce n'était là qu'une seule des machines qui les fabriquaient. Nous avons fini par sceller la chambre du mieux que nous le pouvions, mais nous pouvons en entendre d'autres approcher. L'une des créatures s'est également agrippée à mon bras durant le combat. Elle m'a infecté d'une maladie virulente, faisant dépérir ma chair et la transformant en cuir desséché.
 
-There is no misunderstanding our fate. We lost many Drem in the fight, and I am not the only one who has been infected with this disease. We are going to die in this room. But, I am content with this fate. I have worked out the truth of our origins.
+Il n'y a aucun doute possible quant à notre sort. Nous avons perdu de nombreux Drem dans ce combat, et je ne suis pas le seul à avoir été infecté par cette maladie. Nous allons mourir dans cette pièce. Mais je me satisfais de ce sort. J'ai découvert la vérité sur nos origines.
 
-We wandered into the back of the room where there were yet more tubes. To my surprise, these tubes contained fully formed bodies. A dwarf, complete with a long beard, floated inside the tube. He seemed to twitch like he was in the middle of a dream. As we went further and further down, we found yet more dwarves sleeping inside tubes. But, what we noticed was how with each dwarf, they continued to become more and more malformed. Eventually, we reached the final tube and we found a faceless dwarf inside. In other words, a Drem.
+Nous nous sommes aventurés au fond de la pièce, où se trouvaient encore d'autres tubes. À ma grande surprise, ces tubes contenaient des corps entièrement formés. Un nain, avec une longue barbe, flottait à l'intérieur du tube. Il semblait tressaillir, comme plongé au coeur d'un rêve. Plus nous descendions, plus nous trouvions de nains endormis à l'intérieur de tubes. Mais ce que nous avons remarqué, c'est qu'à chaque nain, ils devenaient de plus en plus malformés. Finalement, nous avons atteint le dernier tube, et nous y avons trouvé un nain sans visage. En d'autres termes, un Drem.
 
-This egg has to be where we came from. This machine was built to create dwarves. I do not understand the process, but I have seen the outcome for myself. It is us Drem that are the anomaly, the dysfunctional byproduct of this machine's disrepair. Feral Drem must have emerged from this egg and ventured into the underground, where they then multiplied independently of the egg. These mutant fetuses must be the result of further disrepair and corruption, judging by the black growth which engulfs the machine in this room.
+Cet oeuf doit être l'endroit d'où nous venons. Cette machine a été construite pour créer des nains. Je ne comprends pas le processus, mais j'en ai vu le résultat de mes propres yeux. C'est nous, les Drem, qui sommes l'anomalie, le sous-produit dysfonctionnel de la détérioration de cette machine. Des Drem sauvages ont dû émerger de cet oeuf et s'aventurer dans les profondeurs, où ils se sont ensuite multipliés indépendamment de l'oeuf. Ces foetus mutants doivent être le résultat d'une détérioration et d'une corruption plus poussées, à en juger par l'excroissance noire qui engloutit la machine dans cette pièce.
 
-So, I know now. Even if this discovery never leaves this room, I can die content. Even if I am the product of a broken piece of machinery, I am happy that I had a chance to witness this moment. If you find these notes, please bring them back to my fellow Drem. I am sure they would be happy to know the truth too.]], "_t")
-t("strange picture", "strange picture", "_t")
-t("At the center of the strange contraption you see a picture. You are not quite sure what it represents...", "At the center of the strange contraption you see a picture. You are not quite sure what it represents...", "_t")
---]==]
-
+Alors, je sais désormais. Même si cette découverte ne quitte jamais cette pièce, je peux mourir en paix. Même si je ne suis que le produit d'une pièce de machinerie défectueuse, je suis heureux d'avoir eu la chance d'être témoin de ce moment. Si vous trouvez ces notes, je vous en prie, rapportez-les à mes semblables Drem. Je suis certain qu'eux aussi seraient heureux de connaître la vérité.]], "_t")
+t("strange picture", "image étrange", "_t")
+t("At the center of the strange contraption you see a picture. You are not quite sure what it represents...", "Au centre de l'étrange mécanisme, vous apercevez une image. Vous n'êtes pas tout à fait sûr de ce qu'elle représente...", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/lore/fay-willows.lua"
 
-
+t("Forbidden Cults", "cultes interdits", "newLore category")
 -- texte non traduit
 --[==[
-t("Forbidden Cults", "Forbidden Cults", "newLore category")
 t("Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "Escapades of Fay Willows [Book 1, Chapter 1] - Devastation of the Spellblaze", "_t")
 t([[[i]I remember the devastation when I first made my journey to Elvala. Not a soul escaped the touch of the Spellblaze and no one could feel the pain and sorrow of the lands more than a thalore. I know that those back home still seethe with rage and anger as even now I still sometimes feel my emotions from that moment. It was a terrible day I wish I could forget but never will.[/i]
 
@@ -2247,10 +2189,9 @@ Outside of the various movements of such distasteful groups, some of the shalore
 ------------------------------------------------
 section "tome-cults/data/lore/kroshkkur.lua"
 
-
+t("Forbidden Cults", "cultes interdits", "newLore category")
 -- texte non traduit
 --[==[
-t("Forbidden Cults", "Forbidden Cults", "newLore category")
 t("the history of Kroshkkur (1)", "the history of Kroshkkur (1)", "_t")
 t([[The story of Kroshkkur is not a peaceful one. Those of us who gathered here know that we have no place anywhere else. The surface would never accept us, for our forms are terrible for them to behold. Even in the depths of Eyal, we have had to fight for our place in the world. These endless tunnels and the creatures within them have sought to destroy us. They hunger for our very souls.
 
@@ -2447,10 +2388,9 @@ When he first heard of the plan to kill the gods, he volunteered eagerly to beco
 ------------------------------------------------
 section "tome-cults/data/lore/misc.lua"
 
-
+t("Forbidden Cults", "cultes interdits", "newLore category")
 -- texte non traduit
 --[==[
-t("Forbidden Cults", "Forbidden Cults", "newLore category")
 t("Message from the Assassin's Lord", "Message from the Assassin's Lord", "_t")
 t([[My dear %s,
 
@@ -2562,10 +2502,11 @@ As they have only recently come out of their previously mindless states, the Dre
 ------------------------------------------------
 section "tome-cults/data/lore/zones.lua"
 
-
+t("Forbidden Cults", "cultes interdits", "newLore category")
+t("Forbidden Tome: \"A View From The Gallery\"", "Grimoire Interdit : \"Une Vue depuis la Galerie\"", "_t")
+t("Forbidden Tome: \"The Illusory Castle\"", "Grimoire Interdit : \"Le Château Illusoire\"", "_t")
 -- texte non traduit
 --[==[
-t("Forbidden Cults", "Forbidden Cults", "newLore category")
 t("page from a logbook (1)", "page from a logbook (1)", "_t")
 t([[There have often been reports among our brethren about the presence of a magical aberration near the foot of the dwarven mountains. Until today, we have not been able to trace its source. I had suspected that we would come across the foul abode of a necromancer or maybe some other form of arcane wielder... But what we found was an abomination unlike any I have seen before.
 
@@ -2702,9 +2643,7 @@ t([[I knew it. I'm not alone in here. While I was right that I'm the only living
 My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], [[I knew it. I'm not alone in here. While I was right that I'm the only living thing, this castle does have its own guardians and servitors. Animated golems made of glass wander the halls now, searching for me. My fortress is no longer mine and there is no safety to be found within these walls. I knew that I could never truly find somewhere I could be safe, not in this book or in the outside world. I do not know where these golems came from. Perhaps the castle itself is trying to expel me from it or maybe I triggered some defence by wandering into the wrong room.
 
 My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "Forbidden Tome: \"A View From The Gallery\"", "_t")
 t("An illustrated tome!", "An illustrated tome!", "_t")
-t("Forbidden Tome: \"The Illusory Castle\"", "Forbidden Tome: \"The Illusory Castle\"", "_t")
 --]==]
 
 
@@ -2910,6 +2849,7 @@ t("madness", "folie", "talent type")
 t("void", "vide", "talent type")
 t("entropy", "l'entropie", "talent type")
 t("rift", "fissure", "talent type")
+t("scourge drake", "dragonnet de plaie", "talent type")
 t("other", "autre", "talent type")
 t("Talents of the various entities of the world.", "Talents des diverses entités du monde.", "_t")
 -- texte non traduit
@@ -2945,7 +2885,6 @@ t("Channel the essence of entropy to reduce your foes to dust.", "Channel the es
 t("Tear holes in space and time to unleash devastating forces on your foes.", "Tear holes in space and time to unleash devastating forces on your foes.", "_t")
 t("chronophage", "chronophage", "talent type")
 t("Feast upon the ruined timelines of your enemies.", "Feast upon the ruined timelines of your enemies.", "_t")
-t("scourge drake", "scourge drake", "talent type")
 t("Take on the defining aspects of a Scourge Drake.", "Take on the defining aspects of a Scourge Drake.", "_t")
 t("doom", "doom", "talent type")
 t("Foretell the dire fate of your enemies.", "Foretell the dire fate of your enemies.", "_t")
@@ -3885,6 +3824,7 @@ t("madness", "folie", "effect subtype")
 t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
 t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
+t("Shoes of Moving Slowly", "Chaussures du Mouvement Lent", "_t")
 t("armor", "armure", "effect subtype")
 -- texte non traduit
 --[==[
@@ -4160,7 +4100,6 @@ t("Twisted Evolution: Power", "Twisted Evolution: Power", "_t")
 t("The target is evolved increasing its damage by %d%%.", "The target is evolved increasing its damage by %d%%.", "tformat")
 t("#Target# is evolved to deal more damage!", "#Target# is evolved to deal more damage!", "_t")
 t("#Target# is no longer evolved to deal more damage.", "#Target# is no longer evolved to deal more damage.", "_t")
-t("Shoes of Moving Slowly", "Shoes of Moving Slowly", "_t")
 t("Stay put, increasing your armour and defense by %d.", "Stay put, increasing your armour and defense by %d.", "tformat")
 t("Entropic Feedback", "Entropic Feedback", "_t")
 t("The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "tformat")
@@ -4773,10 +4712,10 @@ t("This gritty adventurer saved you.", "This gritty adventurer saved you.", "_t"
 ------------------------------------------------
 section "tome-cults/data/zones/godfeaster/objects.lua"
 
+t("log entry", "entrée de journal", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
 -- texte non traduit
 --[==[
-t("log entry", "log entry", "entity name")
 t("strange piece of organic matter", "strange piece of organic matter", "entity name")
 t("Organic matter.", "Organic matter.", "_t")
 --]==]
@@ -4823,12 +4762,8 @@ t("One of the centers of the nervous system of the Maggot, if severed the Maggot
 ------------------------------------------------
 section "tome-cults/data/zones/maggot/objects.lua"
 
+t("log entry", "entrée de journal", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
--- texte non traduit
---[==[
-t("log entry", "log entry", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/maggot/zone.lua"
@@ -4903,12 +4838,8 @@ t("Strange Glyph", "Strange Glyph", "entity name")
 ------------------------------------------------
 section "tome-cults/data/zones/occult-egress/objects.lua"
 
+t("log entry", "entrée de journal", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
--- texte non traduit
---[==[
-t("log entry", "log entry", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/occult-egress/zone.lua"
@@ -4923,10 +4854,10 @@ t("#CRIMSON#The ground shakes as you finish the glyph sequence %s%s%s%s!", "#CRI
 ------------------------------------------------
 section "tome-cults/data/zones/scourged-pits/npcs.lua"
 
+t("awoken tentacle tree", "arbre à tentacules éveillé", "entity name")
 t("scourge", "plaie", "entity subtype")
 -- texte non traduit
 --[==[
-t("awoken tentacle tree", "awoken tentacle tree", "entity name")
 t("One of the tentacle tree has awakened!", "One of the tentacle tree has awakened!", "_t")
 t("dragon", "dragon", "entity type")
 t("Kroltar the Scourge", "Kroltar the Scourge", "entity name")
@@ -5015,6 +4946,12 @@ section "tome-cults/data/zones/town-kroshkkur/npcs.lua"
 
 t("horror", "horreur", "entity type")
 t("eldritch", "occulte", "entity subtype")
+t("That Which Teaches History", "Celui Qui Enseigne l'Histoire", "entity name")
+t("The Sightless Acolyte", "L'Acolyte Aveugle", "entity name")
+t("The Crawler", "Le Rampant", "entity name")
+t("The One That Defends", "Celui Qui Défend", "entity name")
+t("The Face of the Deep", "Le Visage de l'Abîme", "entity name")
+t("The Conjointed", "Les Siamois", "entity name")
 -- texte non traduit
 --[==[
 t("Destroy @himher@!", "Destroy @himher@!", "_t")
@@ -5024,17 +4961,11 @@ t("drem seeker of knowledge", "drem seeker of knowledge", "entity name")
 t("A drem in long red robes, minding its own business.", "A drem in long red robes, minding its own business.", "_t")
 t("disfigured creature", "disfigured creature", "entity name")
 t("A vaguely humanoid shape, wandering around to some unknown goals.", "A vaguely humanoid shape, wandering around to some unknown goals.", "_t")
-t("That Which Teaches History", "That Which Teaches History", "entity name")
 t("This creature manages the sanctuary's library.", "This creature manages the sanctuary's library.", "_t")
-t("The Sightless Acolyte", "The Sightless Acolyte", "entity name")
 t("This creature sells weapons for the sanctuary.", "This creature sells weapons for the sanctuary.", "_t")
-t("The Crawler", "The Crawler", "entity name")
 t("This creature sells staves and wands for the sanctuary.", "This creature sells staves and wands for the sanctuary.", "_t")
-t("The One That Defends", "The One That Defends", "entity name")
 t("This creature sells armours for the sanctuary.", "This creature sells armours for the sanctuary.", "_t")
-t("The Face of the Deep", "The Face of the Deep", "entity name")
 t("This creature sells runes and infusions for the sanctuary.", "This creature sells runes and infusions for the sanctuary.", "_t")
-t("The Conjointed", "The Conjointed", "entity name")
 t("This creature sells tools for the sanctuary.", "This creature sells tools for the sanctuary.", "_t")
 --]==]
 
@@ -5121,10 +5052,9 @@ t("I have my reasons!", "I have my reasons!", "_t")
 ------------------------------------------------
 section "tome-cults/init.lua"
 
-
+t("Forbidden Cults", "cultes interdits", "init.lua long_name")
 -- texte non traduit
 --[==[
-t("Forbidden Cults", "Forbidden Cults", "init.lua long_name")
 t([[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
 Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
 That something is you.
