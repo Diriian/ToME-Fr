@@ -6085,7 +6085,7 @@ t("undead", "mort-vivant", "entity type")
 t("lich", "liche", "entity subtype")
 t("Only the most powerful spellcasters raised to unlife become liches. Doomed to haunt the world for an eternity, they have grown to hate all that breathes or trespasses on their domain. Unfortunately that includes you.", "Seuls les plus puissants lanceurs de sorts se relèvent de la mort et deviennent des liches. Condamnées à hanter le monde pour l'éternité, elles ont appris à haïr tout ce qui respire ou s'immisce dans leur domaine. Malheureusement, vous en faites partie.", "_t")
 t("lich", "liche", "entity name")
-t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "Ayant pensé découvrir la vie éternelle, ces êtres ont laissé la mort les priver des joies de la vie. Maintenant, ils cherchent à la détruire aussi.", "_t")
+t("Having thought to discover life eternal, these beings have allowed undeath to rob them of the joys of life. Now they seek to destroy it as well.", "Ayant pensé découvrir la vie éternelle, ces êtres ont laissé la Non-Vie les priver des joies de la vie. Maintenant, ils cherchent à la détruire aussi.", "_t")
 t("ancient lich", "ancienne liche", "entity name")
 t("An elder being from a now-forgotten age, filled and fueled by its hate and rage toward all things living, it seeks to deprive all others of a prize it cannot have... life.", "Un être ancien d'une époque maintenant oubliée, rempli et alimenté par sa haine et sa rage envers tout ce qui est vivant, il cherche à priver tous les autres d'un prix qu'il ne peut avoir... la vie.", "_t")
 t("archlich", "archie liche", "entity name")
@@ -7093,7 +7093,7 @@ t("broken staff", "bâton cassé", "_t")
 t("The top part of Telos' broken staff.", "La partie supérieure du bâton brisé de Telos.", "_t")
 t("Choker of Dread", "Collier de l'Epouvante", "entity name")
 t("dark amulet", "sombre amulette", "_t")
-t("The evilness of undeath radiates from this amulet.", "La malveillance de la mort irradie de cette amulette.", "_t")
+t("The evilness of undeath radiates from this amulet.", "La malveillance de la Non-Vie irradie de cette amulette.", "_t")
 t("summon an elder vampire with Taunt to your side for 15 turns", "invoquer un ancien vampire avec Aggro à vos côtés pendant 15 tours.", "_t")
 t("You need an enemy nearby to summon!", "Vous devez avoir un ennemi à proximité pour invoquer !", "logPlayer")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
@@ -10723,7 +10723,7 @@ t("Sceptre of the Archlich", "Sceptre de l'Archie liche", "entity name")
 t("bone carved sceptre", "sceptre en os sculpté", "_t")
 t("This sceptre, carved of ancient, blackened bone, holds a single gem of deep obsidian. You feel a dark power from deep within, looking to get out.", "Ce sceptre, sculpté dans un os ancien et noirci, contient une seule pierre précieuse en obsidienne profonde. Vous ressentez une puissance sombre qui vient du plus profond de vous et qui cherche à sortir.", "_t")
 t("#LIGHT_BLUE#You feel the power of the sceptre flow over your undead form!", "#LIGHT_BLUE#Vous sentez le pouvoir du sceptre couler sur ta forme de mort-vivant !", "logPlayer")
-t("It desires to be surrounded by undeath.", "Il désire être entouré par la mort.", "_t")
+t("It desires to be surrounded by undeath.", "Il désire être entouré par la Non-Vie.", "_t")
 t("Oozing Heart", "Coeur Vaseux", "entity name")
 t("slimy mindstar", "étoile d'âme suintante", "_t")
 t("This mindstar oozes a thick, caustic liquid. Magic seems to die around it.", "Cette étoile d'âme suinte un liquide épais et caustique. La magie semble mourir autour d'elle.", "_t")
@@ -12538,7 +12538,7 @@ I hope you enjoy your new work. Approach it with gusto, that sort of thing. I kn
 
 Until then, do enjoy the work, try to keep the place clean, and remember - I own you forever.
 
-- The Master]], [[Ah, mon cher Borfast, bienvenue dans ta glorieuse non-mort ! Ton armure une cage, tes espoirs un désespoir, ta hache asservie à ma volonté, ton âme mienne à dévorer. Quelle sensation cela te fait-il ? Plutôt délicieuse, j'imagine ! Tu fus un valeureux adversaire, et bien que tu ne représentasses guère de menace pour moi, j'aime t'honorer de ce traitement spécial. Et tu aimes l'honneur, n'est-ce pas ? Je sais que tu souhaitais honorer ton peuple en me vainquant et en détruisant ma tour, mais je suis certain que tu réalises à présent que ce fut là une entreprise bien vaine.
+- The Master]], [[Ah, mon cher Borfast, bienvenue dans ta glorieuse Non-Vie ! Ton armure une cage, tes espoirs un désespoir, ta hache asservie à ma volonté, ton âme mienne à dévorer. Quelle sensation cela te fait-il ? Plutôt délicieuse, j'imagine ! Tu fus un valeureux adversaire, et bien que tu ne représentasses guère de menace pour moi, j'aime t'honorer de ce traitement spécial. Et tu aimes l'honneur, n'est-ce pas ? Je sais que tu souhaitais honorer ton peuple en me vainquant et en détruisant ma tour, mais je suis certain que tu réalises à présent que ce fut là une entreprise bien vaine.
 
 Je te présente mes excuses pour ce qui est arrivé à ta charmante armure de plates. Je sais qu'elle s'est un peu... abîmée... durant le traitement. Mais je crains d'avoir réellement eu besoin de découvrir l'emplacement de ton compagnon, et certaines pressions ont dû être appliquées. Tu n'étais guère bavard, n'est-ce pas ? Mais je t'ai bientôt fait chanter, oh oui. Bien sûr, j'aurais pu simplement recourir à un peu de magie de divination pour découvrir ce que je voulais, mais j'apprécie tant une bonne torture... Et mon Dieu, comme tes cris étaient joyeux chaque fois que l'acide éclaboussait ta barbe ! Ho, comme nous avons ri, n'est-ce pas ? Mais peu importe, j'ai fait travailler mes meilleurs forgerons squelettiques pour réparer ton armure, digne d'être portée par mon nouveau champion.
 
@@ -13668,7 +13668,7 @@ Avez-vous rejeté les prétentions ridicules de votre société ? Votre âme a-t
 
 #{italic}#1. Vos Premiers Pas#{normal}#
 
-Sachez-le, la nécromancie ne se résume pas à tisser de puissants sorts de non-mort, à porter d'amples robes noires et à écraser des nations entières sous les pieds de votre puissante horde de morts-vivants ; il vous faudra aussi vous salir un peu les mains. Vos tout premiers corps devront être dérobés en personne, car peu de gens aideront volontiers un nécromancien, et ceux qui le font sont rarement compétents. Les cimetières des petites villes et villages sont de bons endroits pour vos premières acquisitions, mais si le temps l'exige, n'hésitez pas à "fabriquer" vous-même quelques spécimens à l'aide d'un couteau aiguisé ou d'une lourde massue. Une fois que vos premiers larbins exécutent vos ordres, vous n'aurez plus à vous soucier de ressources ; les occasions de pratiquer votre art s'accumuleront, littéralement.
+Sachez-le, la nécromancie ne se résume pas à tisser de puissants sorts de Non-Vie, à porter d'amples robes noires et à écraser des nations entières sous les pieds de votre puissante horde de morts-vivants ; il vous faudra aussi vous salir un peu les mains. Vos tout premiers corps devront être dérobés en personne, car peu de gens aideront volontiers un nécromancien, et ceux qui le font sont rarement compétents. Les cimetières des petites villes et villages sont de bons endroits pour vos premières acquisitions, mais si le temps l'exige, n'hésitez pas à "fabriquer" vous-même quelques spécimens à l'aide d'un couteau aiguisé ou d'une lourde massue. Une fois que vos premiers larbins exécutent vos ordres, vous n'aurez plus à vous soucier de ressources ; les occasions de pratiquer votre art s'accumuleront, littéralement.
 
 L'entretien des corps eux-mêmes est également important. Certes, cela n'est pas strictement nécessaire, car un enchantement suffisant peut conférer de la mobilité même aux restes les plus délabrés et incomplets, mais s'assurer que les articulations et jointures de vos futurs larbins bougent librement et sans effort réduit considérablement la volonté nécessaire pour leur accorder la réanimation. Cela constitue aussi une base solide et fiable si vous souhaitez entreprendre des projets plus vastes et plus audacieux (voir page 46, Les Géants d'Ossements et Vous).
 
@@ -27193,21 +27193,21 @@ t([[Surround yourself with Uttercold, increasing all your cold damage by %0.1f%%
 ------------------------------------------------
 section "mod-tome/data/talents/spells/master-necromancer.lua"
 
-t("Aura of Undeath", "Aura de Mort-Vivant", "talent name")
+t("Aura of Undeath", "Aura de Non-Vie", "talent name")
 t([[Your mastery of necromancy becomes so total that an aura of undeath radiates around you in radius %d.
 		Any undead minion standing inside of it is protected, increasing all their resistances by %d%%.
 		In addition when you create new minions they inherit %d%% of your spellpower (applied to any powers), spell crit chance (applied to any crit chances), saves, resists, and highest damage increase (applied to all elements).
-		]], [[Votre maîtrise de la nécromancie devient si totale qu'une aura de mort-vivant irradie autour de vous dans un rayon de %d.
+		]], [[Votre maîtrise de la nécromancie devient si totale qu'une aura de Non-Vie irradie autour de vous dans un rayon de %d.
 		Tout laquais mort-vivant se trouvant à l'intérieur est protégé, augmentant toutes ses résistances de %d%%.
 		De plus, lorsque vous créez de nouveaux laquais, ils héritent de %d%% de votre Puissance des Sorts (appliquée à tous les pouvoirs), chance de critique magique (appliquée à toutes les chances de critique), sauvegardes, résistances, et augmentation de dégâts la plus élevée (appliquée à tous les éléments).]], "tformat")
-t("Surge of Undeath", "Déferlement de Mort", "talent name")
+t("Surge of Undeath", "Déferlement de Non-Vie", "talent name")
 t([[Sends out a surge of undeath energies into your aura.
 		All minions inside gain 25%% speed for %d turns
 		All non-ghoul minions are healed by %d%%.
 		If you know Call of the Mausoleum, the time remaining to the next free ghoul is reduced by %d.
 		if you know Corpse Explosion or Putrescent Liquefaction the duration of those effects are increased by %d.
 		All non-undead foes caught inside are dazed for %d turns.
-		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[Envoie une vague d'énergies de mort-vivant dans votre aura.
+		In addition all your minions (created after you learn this spell) have a passive health regeneration.]], [[Envoie une vague d'énergies de Non-Vie dans votre aura.
 		Tous les laquais à l'intérieur gagnent 25%% de vitesse globale pendant %d tours.
 		Tous les laquais non-Goule sont soignés de %d%% de vie.
 		Si vous connaissez Appel du Mausolée, le temps restant avant la prochaine Goule gratuite est réduit de %d.
@@ -27217,7 +27217,7 @@ t([[Sends out a surge of undeath energies into your aura.
 t("Recall Minions", "Rappel de Laquais", "talent name")
 t([[Tighten the ethereal leash to some of your minions currently within your aura of undeath, pulling them to you and swapping place with any eventual foes in the way.
 		Up to %d minions are affected.
-		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], [[Resserrez la laisse éthérée de certains de vos laquais se trouvant dans votre aura de mort-vivant, les attirant vers vous et échangeant leur place avec tout ennemi éventuel sur le chemin.
+		When recalling a minion the spell tries to prioritize a spot where there is already a foe, to push it away.]], [[Resserrez la laisse éthérée de certains de vos laquais se trouvant dans votre aura de Non-Vie, les attirant vers vous et échangeant leur place avec tout ennemi éventuel sur le chemin.
 		Jusqu'à %d laquais sont affectés.
 		Lors du rappel d'un laquais, le sort tente de prioriser un endroit où se trouve déjà un ennemi, pour le repousser.]], "tformat")
 t("Suffer For Me", "Souffrez Pour Moi", "talent name")
@@ -27226,7 +27226,7 @@ t([[By creating an arcane link with your minion army you are able to redirect pa
 		Anytime you take damage %d%% of it is instead redirected to a random minion within your aura of undeath.
 		The minion takes 300%% damage from that effect.
 		The damage redirected percent depends on your Spellpower.]], [[En créant un lien arcanique avec votre armée de laquais, vous pouvez rediriger une partie de tout dégât vous affectant vers eux.
-		Chaque fois que vous subissez des dégâts, %d%% d'entre eux sont redirigés vers un laquais aléatoire dans votre aura de mort-vivant.
+		Chaque fois que vous subissez des dégâts, %d%% d'entre eux sont redirigés vers un laquais aléatoire dans votre aura de Non-Vie.
 		Le laquais subit 300%% des dégâts de cet effet.
 		Le pourcentage de dégâts redirigés est proportionnel à votre Puissance des Sorts.]], "tformat")
 
@@ -27393,7 +27393,7 @@ t("%d runes active", "%d rune(s) active(s).", "tformat")
 t([[As you continue to attune your body to undeath you reject nature as a whole.
 		As long as you have no natural infusion on your skin, each rune on it increases your minimum negative life by -%d and your spells critical chance by %0.1f%%.
 
-		Currently: %s]], [[En continuant à accorder votre corps à la mort-vive, vous rejetez la nature dans son ensemble.
+		Currently: %s]], [[En continuant à accorder votre corps à la Non-Vie, vous rejetez la nature dans son ensemble.
 		Tant que vous n'avez pas d'essence naturelle sur votre peau, chaque rune augmente votre vie négative minimale de -%d et votre chance de critique magique de %0.1f%%.
 
 		Actuellement : %s]], "tformat")
@@ -33234,12 +33234,12 @@ t("#Target# is infected by a manaworm!", "#Target# est infecté par un ver de ma
 t("+Manaworm", "+Ver de Mana", "_t")
 t("#Target# is no longer infected.", "#Target# n'est plus infecté.", "_t")
 t("-Manaworm", "-Ver de Mana", "_t")
-t("Surge of Undeath", "Déferlement de Mort", "_t")
+t("Surge of Undeath", "Déferlement de Non-Vie", "_t")
 t("Increases the target combat power, spellpower, accuracy by %d, armour penetration by %d and critical chances by %d.", "Augmente la puissance de combat, la Puissance des Sorts, et la précision de la cible de %d, la pénétration d'armure de %d et les chances de critique de %d.", "tformat")
 t("#Target# is engulfed in dark energies.", "#Target# est englouti dans d'obscures énergies.", "_t")
-t("+Undeath Surge", "+Déferlement de Mort", "_t")
+t("+Undeath Surge", "+Déferlement de Non-Vie", "_t")
 t("#Target# seems less powerful.", "#Target# semble moins puissant.", "_t")
-t("-Undeath Surge", "-Déferlement de Mort", "_t")
+t("-Undeath Surge", "-Déferlement de Non-Vie", "_t")
 t("Bone Shield", "Bouclier d'Os", "_t")
 t("Any attacks doing more than %d%% of your life is reduced to %d%%.", "Toute attaque infligeant plus de %d%% de votre vie est réduite à %d%%.", "tformat")
 t("#Target# protected by flying bones.", "#Target# est protégé par des os volants.", "_t")
@@ -36827,7 +36827,7 @@ This one seems to go to an unknown place, seemingly out of this world. You dare 
 Celui-ci semble mener vers un lieu inconnu, apparemment hors de ce monde. Vous n'osez pas l'utiliser.]], "_t")
 t("#LIGHT_BLUE#You use the orb on the portal, shutting it down easily.", "#LIGHT_BLUE#Vous utilisez l'orbe sur le portail, ce qui le ferme facilement.", "logPlayer")
 t("%s (disabled)", "%s (désactivé)", "tformat")
-t("Invocation Portal: Undeath", "Portail d'invocation : Non-mort", "entity name")
+t("Invocation Portal: Undeath", "Portail d'invocation : Non-Vie", "entity name")
 t("An invocation portal, perpetually summoning beings through it.", "Un portail d'invocation, convoquant perpétuellement des êtres à travers lui.", "_t")
 t("Invocation Portal: Elements", "Portail d'invocation : Éléments", "entity name")
 t("Invocation Portal: Dragons", "Portail d'invocation : Dragons", "entity name")
