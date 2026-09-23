@@ -15880,6 +15880,7 @@ Et je vis alors, au centre du monde, tandis qu’il tournait, s’effondrait et 
 Suis-je en train de devenir fou ? Le nom "Urh'Rok" résonne encore dans mon crâne et ma vue se trouble. Peut-être que je porte cette bague depuis trop longtemps…
 
 Oui, oui, tout cela n’est clairement qu’une illusion ! Un étrange cauchemar dont je vais me réveiller. Je vais retirer la bague et aller revoir cette ravissante pierre de lune. Dès que j’apercevrai les étoiles, tout ira bien…]], "_t")
+t("races", "Races", "newLore category")
 t("Loremaster Greynot's Analysis of the Races - Introduction", "Analyse des Races par le Chroniqueur Greynot - Introduction", "_t")
 t([[I set out here to give a full and complete analysis of all the intelligent races in Maj'Eyal. This is an ambitious project to say the least, but it is put together from a great many years labour, including travels across all the kingdoms and direct meetings with many of the highest rulers and most learned sages. I have drawn my findings from common knowledge, exclusive interviews, and studies of many thousands of pages of texts and histories, some going back dozens of centuries.
 
@@ -16496,7 +16497,6 @@ car le vieux Walrog envoya la bourrasque
 qui l'a noyée, enfin, sous son poids.]], "_t")
 -- texte non traduit
 --[==[
-t("races", "races", "newLore category")
 t("shatur", "shatur", "newLore category")
 t("highfin", "highfin", "newLore category")
 t("spydrë", "spydrë", "newLore category")
