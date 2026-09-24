@@ -7953,15 +7953,15 @@ section "tome-orcs/data/zones/kaltor-shop/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("locked chest", "coffre verrouillé", "entity name")
+t("Locked Chest", "Coffre Verrouillé", "_t")
 t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre !", "logSeen")
+t("chest (opened)", "coffre (ouvert)", "_t")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
 -- texte non traduit
 --[==[
-t("locked chest", "locked chest", "entity name")
-t("Locked Chest", "Locked Chest", "_t")
 t("Open the chest with Kaltor's key?", "Open the chest with Kaltor's key?", "_t")
-t("chest (opened)", "chest (opened)", "_t")
 --]==]
 
 
@@ -8121,6 +8121,8 @@ section "tome-orcs/data/zones/palace-fumes/grids.lua"
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("wall", "mur", "entity type")
+t("throne", "trône", "entity type")
+t("throne", "trône", "entity name")
 -- texte non traduit
 --[==[
 t("stair descending into Eyal's depths", "stair descending into Eyal's depths", "entity name")
@@ -8128,8 +8130,6 @@ t("mech", "mech", "entity subtype")
 t("locked mech door", "locked mech door", "entity name")
 t("open mech door", "open mech door", "entity name")
 t("Phonograph", "Phonograph", "entity name")
-t("throne", "throne", "entity type")
-t("throne", "throne", "entity name")
 --]==]
 
 
@@ -8271,11 +8271,10 @@ t("schematic: Life Support Suit", "schematic: Life Support Suit", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/zone.lua"
 
-
+t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#L'un des arbres s'agite un instant et s'éveille !", "logSeen")
 -- texte non traduit
 --[==[
 t("Primal Forest", "Primal Forest", "_t")
-t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "logSeen")
 --]==]
 
 
@@ -8375,6 +8374,7 @@ section "tome-orcs/data/zones/slumbering-caves/npcs.lua"
 
 t("god", "dieu", "entity type")
 t("eyal", "Eyal", "entity subtype")
+t("shertul", "sher'tul", "entity subtype")
 -- texte non traduit
 --[==[
 t("Amakthel's Hand", "Amakthel's Hand", "entity name")
@@ -8394,7 +8394,6 @@ t("Ooze pours out of this disgusting tentacle.", "Ooze pours out of this disgust
 t("eyed tentacle", "eyed tentacle", "entity name")
 t("A single malevolent eye is set atop this tentacle. And it watches you.", "A single malevolent eye is set atop this tentacle. And it watches you.", "_t")
 t("Sher'Tul High Priest", "Sher'Tul High Priest", "entity name")
-t("shertul", "shertul", "entity subtype")
 t("So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "_t")
 t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s awakens and empowers %s!", "saySimple")
 --]==]
