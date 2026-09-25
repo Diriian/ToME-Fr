@@ -7838,6 +7838,7 @@ t("Whoever tortured and tormented this yeti did an amazing job of pain and destr
 section "tome-orcs/data/zones/gem/objects.lua"
 
 t("lore", "histoire", "entity type")
+t("..", "...", "entity name")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
 -- texte non traduit
 --[==[
@@ -7848,7 +7849,6 @@ You have no idea how to use it.]], [[A strange black disk found in the G.E.M.
 You have no idea how to use it.]], "_t")
 t("erratic scribblings", "erratic scribblings", "entity name")
 t("A journal.", "A journal.", "_t")
-t("..", "..", "entity name")
 t("schematic: Steam Powered Armour", "schematic: Steam Powered Armour", "entity name")
 t("flesh", "flesh", "entity type")
 t("muscle", "muscle", "entity subtype")

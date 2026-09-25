@@ -9046,6 +9046,7 @@ t("gem", "gemme", "entity type")
 t("white", "blanc", "entity subtype")
 t("Gems can be sold for money or used in arcane rituals.", "Les gemmes peuvent être vendues pour de l'argent ou utilisées dans des rituels arcaniques.", "_t")
 t("color", "couleur", "entity subtype")
+t("..", "...", "entity name")
 t("alchemist-gem", "gemme d'alchimiste", "entity type")
 t("diamond", "diamant", "entity name")
 t("alchemist diamond", "diamant d'alchimiste", "entity name")
@@ -9098,7 +9099,6 @@ t("alchemist citrine", "citrine d'alchimiste", "entity name")
 t("alchemist agate", "agate d'alchimiste", "entity name")
 -- texte non traduit
 --[==[
-t("..", "..", "entity name")
 t("turquoise", "turquoise", "entity name")
 t("jade", "jade", "entity name")
 t("quartz", "quartz", "entity name")
@@ -40465,7 +40465,7 @@ t([[Infused by #OLIVE_DRAB#nature#LAST#
 ]], [[Infusé par #OLIVE_DRAB#la nature#LAST#
 ]], "_t")
 t([[Infused by #ORCHID#arcane disrupting forces#LAST#
-]], [[Infusé par #ORCHID#une force disruptive d'arcanes#LAST#
+]], [[Infusé par #ORCHID#une force disruptive arcanique#LAST#
 ]], "_t")
 t([[Crafted by #LIGHT_UMBER#a master#LAST#
 ]], [[Forgé par #LIGHT_UMBER#un  maître#LAST#
