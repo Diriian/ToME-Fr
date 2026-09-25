@@ -2916,7 +2916,10 @@ t([[Whenever you use a disfigured face power you show a glimpse of what True Hor
 ------------------------------------------------
 section "tome-cults/data/talents/demented/doom.lua"
 
+t("Grand Oration", "Grande Oraison", "talent name")
 t("None", "Aucune", "_t")
+t("Twofold Curse", "Malédiction Double", "talent name")
+t("Revelation", "Révélation", "talent name")
 -- texte non traduit
 --[==[
 t("Prophecy", "Prophecy", "talent name")
@@ -2944,7 +2947,6 @@ t("%s(%d treason)#LAST#", "%s(%d treason)#LAST#", "tformat")
 t([[Utter a prophecy of the impending treachery of your target. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
 		A target can only be affected by a single prophecy at a time.]], [[Utter a prophecy of the impending treachery of your target. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
 		A target can only be affected by a single prophecy at a time.]], "tformat")
-t("Grand Oration", "Grand Oration", "talent name")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
@@ -2952,7 +2954,6 @@ t([[You speak a chosen prophecy to the masses. When applying this prophecy, it w
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
 		Current prophecy: %s]], "tformat")
-t("Twofold Curse", "Twofold Curse", "talent name")
 t([[Weave your chosen prophecy into your speech, dooming your foe twice over. The chosen prophecy will apply instantly to your primary target whenever you cast any other prophecy at talent level %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
@@ -2960,7 +2961,6 @@ t([[Weave your chosen prophecy into your speech, dooming your foe twice over. Th
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
 		Current prophecy: %s]], "tformat")
-t("Revelation", "Revelation", "talent name")
 t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
 		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
 		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
@@ -4152,7 +4152,7 @@ Vous avez fui votre combat.]], "_t")
 ------------------------------------------------
 section "tome-cults/data/zones/fortress-arena/zone.lua"
 
-t("Safe Multiverse Arena for Commotion and Killing", "Bourrinage Indicible Sécurisé Entropiquement", "_t")
+t("Safe Multiverse Arena for Commotion and Killing", "Bourrinatorium Indicible Sécurisé Entropiquement", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-cultist/npcs.lua"
@@ -4287,11 +4287,7 @@ t("The lights nearly blind you as cascades of swirling colours explode in the da
 t("Terrified by the carnage around it, the rabbit has become easy prey.", "Terrifié par le carnage qui l'entoure, le lapin est devenu une proie facile.", "_t")
 t("A good little meal, but you will need more than this.", "Un bon petit repas, mais il vous en faudra davantage.", "_t")
 t("Meat has been a rare treat as of late.", "La viande s'est faite rare et précieuse ces derniers temps.", "_t")
--- texte non traduit
---[==[
-t("#ANTIQUE_WHITE#Grung: %s", "#ANTIQUE_WHITE#Grung: %s", "log")
---]==]
-
+t("#ANTIQUE_WHITE#Grung: %s", "#ANTIQUE_WHITE#Grung : %s", "log")
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-home/grids.lua"
@@ -4344,6 +4340,7 @@ t("and written off the story", "et effacé de l'histoire", "_t")
 ------------------------------------------------
 section "tome-cults/data/zones/ft-horrors/objects.lua"
 
+t("..", "...", "entity name")
 t("A page of the tome.", "Une page du grimoire.", "_t")
 t("Forbidden Tome: \"Home, Horrific Home\"", "Grimoire Interdit : \"Foyer, Horrible Foyer\"", "entity name")
 t("A tome of lost knowledge. Touching it you feel both sick and yet strangely at peace.", "Un grimoire de savoir perdu. En le touchant, vous vous sentez à la fois nauséeux et étrangement en paix.", "_t")
@@ -4380,11 +4377,6 @@ Pensées trésors.
 Pensées chéries lorsqu'elles sont seules.
 
 #RED#La lecture de ce grimoire vous aspirera vers l'intérieur du livre en 5 tours.]], "_t")
--- texte non traduit
---[==[
-t("..", "..", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-horrors/zone.lua"
@@ -4511,6 +4503,7 @@ t("Uninvited Guest", "Invité Indésirable", "_t")
 t("Use Psychology", "Utilise La Psychologie", "_t")
 t("What Is The Answer and Why?", "Quelle Est la Réponse et Pourquoi ?", "_t")
 t("Wisdom Like Silence", "La Sagesse Aime le Silence", "_t")
+t("Zero Gravitas", "Zéro Gravitas", "_t")
 t("Serious Callers Only", "Appels Sérieux Uniquement", "_t")
 t("Not Invented Here", "Pas Inventé Ici", "_t")
 t("Illusory Castle", "Château Illusoire", "_t")
@@ -4518,11 +4511,6 @@ t("Illusory Castle - %s", "Château Illusoire - %s", "tformat")
 t("illusory beam endpoint", "point d'arrivée du faisceau illusoire", "_t")
 t("#%s#Welcome to chapter \"%s\"!", "#%s#Bienvenue au chapitre \"%s\" !", "log")
 t("Strange, it seems the book only serves as an entry to an actual physical zone... somewhere.", "Étrange, il semble que le livre ne serve que d'entrée vers une zone physique réelle... quelque part.", "_t")
--- texte non traduit
---[==[
-t("Zero Gravitas", "Zero Gravitas", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/zones/ft-yaech/grids.lua"
@@ -4803,73 +4791,62 @@ t("The Maggot", "Le Ver", "_t")
 ------------------------------------------------
 section "tome-cults/hooks/bonestaff.lua"
 
-t("Not now.", "Pas maintenant.", "_t")
--- texte non traduit
---[==[
-t("#GREY##{italic}#You feel the bones of the staff creeking and vibrating in your hand.#{normal}##LAST# Yes... #{italic}#\"master\"#{normal}#.", "#GREY##{italic}#You feel the bones of the staff creeking and vibrating in your hand.#{normal}##LAST# Yes... #{italic}#\"master\"#{normal}#.", "_t")
-t("#GREY##{italic}#The vibrations feel like a shrug.#{normal}##LAST# By magic #{bold}#obviously#{normal}#. What kind of necromancer might you be to ask such #{bold}#stupid#{normal}# questions?", "#GREY##{italic}#The vibrations feel like a shrug.#{normal}##LAST# By magic #{bold}#obviously#{normal}#. What kind of necromancer might you be to ask such #{bold}#stupid#{normal}# questions?", "_t")
-t("#GREY##{italic}#The vibrations intensify.#{normal}##LAST# As long as this means more deaths and bones, I will agree to change aspect. Which do you choose?", "#GREY##{italic}#The vibrations intensify.#{normal}##LAST# As long as this means more deaths and bones, I will agree to change aspect. Which do you choose?", "_t")
-t("Is there anything else you can do?", "Is there anything else you can do?", "_t")
-t("#GREY##{italic}#The staff shudders.#{normal}##LAST# My finest services are only available to real necromancers. Stop bothering me, inferior creature.", "#GREY##{italic}#The staff shudders.#{normal}##LAST# My finest services are only available to real necromancers. Stop bothering me, inferior creature.", "_t")
-t("I am ready to use your powers!", "I am ready to use your powers!", "_t")
-t("I want you to start summoning the bone horror again.", "I want you to start summoning the bone horror again.", "_t")
-t("I want you to stop summoning the bone horror.", "I want you to stop summoning the bone horror.", "_t")
+t("#GREY##{italic}#You feel the bones of the staff creeking and vibrating in your hand.#{normal}##LAST# Yes... #{italic}#\"master\"#{normal}#.", "#GREY##{italic}#Vous sentez les os du bâton craquer et vibrer dans votre main.#{normal}##LAST# Oui... #{italic}#\"maître\"#{normal}#.", "_t")
+t("#GREY##{italic}#The vibrations feel like a shrug.#{normal}##LAST# By magic #{bold}#obviously#{normal}#. What kind of necromancer might you be to ask such #{bold}#stupid#{normal}# questions?", "#GREY##{italic}#Les vibrations ressemblent à un haussement d'épaules.#{normal}##LAST# Par magie, #{bold}#évidemment#{normal}#. Quel genre de nécromancien êtes-vous donc pour poser des questions aussi #{bold}#stupides#{normal}# ?", "_t")
+t("#GREY##{italic}#The vibrations intensify.#{normal}##LAST# As long as this means more deaths and bones, I will agree to change aspect. Which do you choose?", "#GREY##{italic}#Les vibrations s'intensifient.#{normal}##LAST# Tant que cela signifie plus de morts et d'ossements, j'accepterai de changer d'aspect. Lequel choisissez-vous ?", "_t")
+t("Is there anything else you can do?", "Y a-t-il autre chose que vous puissiez faire ?", "_t")
+t("#GREY##{italic}#The staff shudders.#{normal}##LAST# My finest services are only available to real necromancers. Stop bothering me, inferior creature.", "#GREY##{italic}#Le bâton frémit.#{normal}##LAST# Mes meilleurs services ne sont réservés qu'aux vrais nécromanciens. Cessez de m'importuner, créature inférieure.", "_t")
+t("I am ready to use your powers!", "Je suis prêt à utiliser vos pouvoirs !", "_t")
+t("I want you to start summoning the bone horror again.", "Je veux que tu invoques à nouveau une horreur osseuse.", "_t")
+t("I want you to stop summoning the bone horror.", "Je veux que tu cesses l'invocation de l'horreur osseuse.", "_t")
 t([[#GREY##{italic}#You feel the staff writhing in your hand with dark intents.#{normal}##LAST# Once you will have collected one hundred souls and one class talent point I will be able to enhance your pathetic summons with a mighty bone horror!
 Anytime you use your Create Minions spell I will make sure one of them is a Bone Horror, if none are present.
 
 #ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-#GREY#You have captured %d souls out of the 100 needed.]], [[#GREY##{italic}#You feel the staff writhing in your hand with dark intents.#{normal}##LAST# Once you will have collected one hundred souls and one class talent point I will be able to enhance your pathetic summons with a mighty bone horror!
-Anytime you use your Create Minions spell I will make sure one of them is a Bone Horror, if none are present.
+#GREY#You have captured %d souls out of the 100 needed.]], [[#GREY##{italic}#Vous sentez le bâton se tordre dans votre main avec de sombres intentions.#{normal}##LAST# Une fois que vous aurez récolté cent âmes et un point de talent de classe, je pourrai renforcer vos invocations pathétiques d'une puissante horreur osseuse !
+Chaque fois que vous utiliserez votre sort Créer un Serviteur, je veillerai à ce que l'un d'eux soit une Horreur osseuse, si aucune n'est présente.
 
-#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-#GREY#You have captured %d souls out of the 100 needed.]], "tformat")
-t("That could be handy.", "That could be handy.", "_t")
+#ANTIQUE_WHITE#L'Horreur Osseuse est une puissante créature artificielle mort-vivante fait d'os, doté de multiples attaques osseuses et d'un bouclier d'os. À sa mort, elle se divise en 3 laquais squelettes.
+#GREY#Vous avez capturé %d âmes sur les 100 nécessaires.]], "tformat")
+t("That could be handy.", "Ça pourrait être utile.", "_t")
 t([[#GREY##{italic}#You feel the staff in your hand glowing with dark powers.#{normal}##LAST# At last! You sure took your sweet time #{italic}#"necromancer"#{normal}#!
 Anyway, I have now enough souls to be able to summon the bone horror.
 Do you wish to imbue me with a class talent point to finally become a real necromancer?
 
 #ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
-]], [[#GREY##{italic}#You feel the staff in your hand glowing with dark powers.#{normal}##LAST# At last! You sure took your sweet time #{italic}#"necromancer"#{normal}#!
-Anyway, I have now enough souls to be able to summon the bone horror.
-Do you wish to imbue me with a class talent point to finally become a real necromancer?
+]], [[#GREY##{italic}#Vous sentez le bâton dans votre main luire de pouvoirs sombres.#{normal}##LAST# Enfin ! Vous avez vraiment pris votre temps, #{italic}#"nécromancien"#{normal}# !
+Quoi qu'il en soit, j'ai désormais assez d'âmes pour pouvoir invoquer l'horreur osseuse.
+Souhaitez-vous m'accorder un point de talent de classe afin de finalement devenir un véritable nécromancien ?
 
-#ANTIQUE_WHITE#The Bone Horror is a powerful undead bone construct with multiple bone-based attacks and a bone shield. Upon death it splits into 3 skeleton minions.
+#ANTIQUE_WHITE#L'Horreur Osseuse est un puissant construct mort-vivant fait d'os, doté de multiples attaques osseuses et d'un bouclier d'os. À sa mort, elle se divise en 3 laquais squelettes.
 ]], "_t")
-t("I do. (#YELLOW#spend 1 class point#LAST#)", "I do. (#YELLOW#spend 1 class point#LAST#)", "_t")
-t("I can't. (#LIGHT_RED#you need one class point#LAST#)", "I can't. (#LIGHT_RED#you need one class point#LAST#)", "_t")
-t("#GREY##{italic}#The staff shudders.#{normal}##LAST# Pathetic.", "#GREY##{italic}#The staff shudders.#{normal}##LAST# Pathetic.", "_t")
+t("I do. (#YELLOW#spend 1 class point#LAST#)", "Je le fais. (#YELLOW#dépenser 1 point de classe#LAST#)", "_t")
+t("I can't. (#LIGHT_RED#you need one class point#LAST#)", "Je ne peux pas. (#LIGHT_RED#vous avez besoin d'un point de classe#LAST#)", "_t")
+t("Not now.", "Pas maintenant.", "_t")
+t("#GREY##{italic}#The staff shudders.#{normal}##LAST# Pathetic.", "#GREY##{italic}#Le bâton frémit.#{normal}##LAST# Pathétique.", "_t")
 t([[#GREY##{italic}#The staff vibrates with great intensity.#{normal}##LAST# POWER! YES!
-ALL SHALL BOW BEFORE MY MIGH... your might.]], [[#GREY##{italic}#The staff vibrates with great intensity.#{normal}##LAST# POWER! YES!
-ALL SHALL BOW BEFORE MY MIGH... your might.]], "_t")
-t("Great!", "Great!", "_t")
-t("#GREY##{italic}#The staff stays calm.#{normal}##LAST# Stupid useless pathetic excuse of a #{italic}#\"necromancer\"#{normal}#! Why refuse to use true power?!", "#GREY##{italic}#The staff stays calm.#{normal}##LAST# Stupid useless pathetic excuse of a #{italic}#\"necromancer\"#{normal}#! Why refuse to use true power?!", "_t")
-t("I have my reasons!", "I have my reasons!", "_t")
---]==]
-
+ALL SHALL BOW BEFORE MY MIGH... your might.]], [[#GREY##{italic}#Le bâton vibre avec une grande intensité.#{normal}##LAST# LA PUISSANCE ! OUI !
+TOUS S'INCLINERONT DEVANT MA PUISSAN... votre puissance.]], "_t")
+t("Great!", "Excellent !", "_t")
+t("#GREY##{italic}#The staff stays calm.#{normal}##LAST# Stupid useless pathetic excuse of a #{italic}#\"necromancer\"#{normal}#! Why refuse to use true power?!", "#GREY##{italic}#Le bâton reste calme.#{normal}##LAST# Espèce de #{italic}#\"nécromancien\"#{normal}# stupide, inutile et pathétique ! Pourquoi refuser d'utiliser le véritable pouvoir ?!", "_t")
+t("I have my reasons!", "J'ai mes raisons !", "_t")
 
 ------------------------------------------------
 section "tome-cults/init.lua"
 
 t("Forbidden Cults", "Cultes Indicibles", "init.lua long_name")
--- texte non traduit
---[==[
 t([[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
 Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
 That something is you.
-]], [[Not all adventurers seek fortune, not all that defend the world have good deeds in mind.
-Lately the number of sightings of horrors have grown tremendously. People wander off the beaten paths only to be found years later, horribly mutated and partly insane, if they are found at all. It is becoming evident something is stirring deep below Maj'Eyal.
-That something is you.
+]], [[Tous les aventuriers ne recherchent pas la fortune, et tous ceux qui défendent le monde n'ont pas de bonnes actions en tête.
+Ces derniers temps, le nombre d'apparitions d'horreurs a considérablement augmenté. Des gens s'aventurent hors des sentiers battus pour n'être retrouvés que des années plus tard horriblement mutés et à moitié fous, quand ils sont retrouvés. Il devient évident que quelque chose s'agite au plus profond de Maj'Eyal.
+Ce quelque chose, c'est vous.
 ]], "init.lua description")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/intro-cults.lua"
 
-
--- texte non traduit
---[==[
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "_t")
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "Bienvenue dans Tales of Maj'Eyal - #CRIMSON#Cultes Indicibles", "_t")
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
 
@@ -4878,25 +4855,20 @@ Regardless of the subject or method of research, no rules exist to constrain any
 But today the sanctuary is threatened by a giant worm that is tunneling directly towards Kroshkkur. If nothing is done it will collide with and destroy what remains of the ancient fortress. One idea to dealing with the worm is for someone to teleport inside it and make there way towards the worms brain cluster and destroy it. Alternatively, you consider leaving before the worm arrives and finding your own purpose in the outside world.
 
 As with all things here, nothing restrains you in what path you #{bold}#ultimately choose#{normal}#. The question is whether you step into the #{bold}#portal to teleport into the worm#{normal}# or leave now while it is safe to do so and let #{bold}#Kroshkkur be destroyed#{normal}#.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are one of several like-minded individuals that delves into knowledge long lost and forgotten, seeking sanctuary from an outside hostile world to such activities. Delving into research within the forgotten and inactive fortress of Kroshkkur, the reasons of pursuit differ among a myriad of topics. Some look to uncover knowledge hailing back to the Age of Haze when beings immensely powerful walked Eyal, while others explore the origins of themselves and other races.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous faites partie de plusieurs individus partageant les mêmes idées, qui explorent des savoirs depuis longtemps perdus et oubliés, cherchant refuge loin d'un monde extérieur hostile à de telles activités. En vous plongeant dans la recherche au sein de la forteresse oubliée et inactive de Kroshkkur, les raisons qui vous animent diffèrent selon une myriade de sujets. Certains cherchent à mettre au jour des savoirs remontant à l'Ère de la Brume, lorsque des êtres immensément puissants foulaient Eyal, tandis que d'autres explorent leurs propres origines et celles des autres races.
 
-Regardless of the subject or method of research, no rules exist to constrain anyone in their approach. This has led to experimentation into what many would deem mad and certainly forbidden among the surface dwellers. If Kroshkkur were to be found it would most certainly be destroyed. Therefore the only rules that truly exist in the sanctuary are that of secrecy and safeguarding the accrued knowledge that has been obtained therein.
+Quel que soit le sujet ou la méthode de recherche, aucune règle n'existe pour contraindre quiconque dans son approche. Cela a mené à des expérimentations que beaucoup jugeraient folles et assurément interdites parmi les habitants de la surface. Si Kroshkkur venait à être découverte, elle serait très certainement détruite. C'est pourquoi les seules règles qui existent véritablement dans le sanctuaire sont celles du secret et de la sauvegarde du savoir accumulé qui y a été obtenu.
 
-But today the sanctuary is threatened by a giant worm that is tunneling directly towards Kroshkkur. If nothing is done it will collide with and destroy what remains of the ancient fortress. One idea to dealing with the worm is for someone to teleport inside it and make there way towards the worms brain cluster and destroy it. Alternatively, you consider leaving before the worm arrives and finding your own purpose in the outside world.
+Mais aujourd'hui, le sanctuaire est menacé par un ver géant qui creuse un tunnel directement vers Kroshkkur. Si rien n'est fait, il percutera et détruira ce qu'il reste de l'antique forteresse. Une idée pour faire face au ver serait que quelqu'un se téléporte à l'intérieur de lui et se fraye un chemin jusqu'à son amas cérébral pour le détruire. Autrement, vous pouvez envisager de partir avant l'arrivée du ver et de trouver votre propre voie dans le monde extérieur.
 
-As with all things here, nothing restrains you in what path you #{bold}#ultimately choose#{normal}#. The question is whether you step into the #{bold}#portal to teleport into the worm#{normal}# or leave now while it is safe to do so and let #{bold}#Kroshkkur be destroyed#{normal}#.
+Comme pour toutes choses ici, rien ne vous contraint dans le chemin que vous #{bold}#choisirez librement#{normal}#. La question est de savoir si vous franchirez le #{bold}#portail pour vous téléporter dans le ver#{normal}#, ou si vous partez maintenant tant qu'il est encore possible de le faire, laissant #{bold}#Kroshkkur être détruit#{normal}#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/intro-krog.lua"
 
-
--- texte non traduit
---[==[
-t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "_t")
+t("Welcome to Tales of Maj'Eyal - #CRIMSON#Forbidden Cults", "Bienvenue dans Tales of Maj'Eyal - #CRIMSON#Cultes Indicibles", "_t")
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 
 You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cannot live without runes, yet you a Krog have been kept alive by the powers of nature coursing through your body. 
@@ -4904,43 +4876,33 @@ You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cann
 All Krogs are infused with anti-magic forces as a result of the changes made to their bodies by the Ziguranth. While much of Maj'Eyal shuns the arcane, there is still those who practice it, and you would like nothing more then to eradicate them from the world.
 
 You have come to an old ruin named Kor'Pul on a mission to eliminate the foulest of arcane creations: undeads.
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
 
-You are a Krog, a former ogre stripped of its runes by the Ziguranth. Ogres cannot live without runes, yet you a Krog have been kept alive by the powers of nature coursing through your body. 
+Vous êtes un Krog, un ancien ogre dépouillé de ses runes par les Zigurantes. Les ogres ne peuvent vivre sans runes, et pourtant vous, un Krog, avez été maintenu en vie par les pouvoirs de la nature qui parcourent votre corps.
 
-All Krogs are infused with anti-magic forces as a result of the changes made to their bodies by the Ziguranth. While much of Maj'Eyal shuns the arcane, there is still those who practice it, and you would like nothing more then to eradicate them from the world.
+Tous les Krogs sont imprégnés de forces antimagiques du fait des altérations apportées à leur corps par les Zigurantes. Bien qu'une grande partie de Maj'Eyal fuie l'arcane, il reste encore ceux qui le pratiquent, et vous ne désireriez rien de plus que de les éradiquer du monde.
 
-You have come to an old ruin named Kor'Pul on a mission to eliminate the foulest of arcane creations: undeads.
+Vous êtes arrivé à une ancienne ruine nommée Kor'Pul, en mission pour éliminer la plus immonde des créations arcanique : les morts-vivants.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/unlock-cosmetic_class_alchemist_glass_golem.lua"
 
-
--- texte non traduit
---[==[
-t("New Class Option: #LIGHT_GREEN#Glass Golem", "New Class Option: #LIGHT_GREEN#Glass Golem", "_t")
+t("New Class Option: #LIGHT_GREEN#Glass Golem", "Nouvelle Option de Classe : #LIGHT_GREEN#Golem de Verre", "_t")
 t([[You have defeated the Glass Golem with your Alchemist and took some time to figure how it was built.
 
 You may now create alchemist characters with a glass golem instead of a golem.
 Glass Golems look awesome and can eventually learn Glass Splinter talent to disrupt and damage their foes.
-]], [[You have defeated the Glass Golem with your Alchemist and took some time to figure how it was built.
+]], [[Vous avez vaincu le Golem de Verre avec votre Alchimiste et avez pris le temps de comprendre comment il était construit.
 
-You may now create alchemist characters with a glass golem instead of a golem.
-Glass Golems look awesome and can eventually learn Glass Splinter talent to disrupt and damage their foes.
+Vous pouvez désormais créer des personnages alchimistes avec un golem de verre au lieu d'un golem ordinaire.
+Les Golems de Verre ont une apparence formidable et peuvent, à terme, apprendre le talent Éclats de Verre pour perturber et blesser leurs ennemis.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/unlock-demented_cultist_entropy.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Cultist of Entropy (Demented)", "New Class: #LIGHT_GREEN#Cultist of Entropy (Demented)", "_t")
+t("New Class: #LIGHT_GREEN#Cultist of Entropy (Demented)", "Nouvelle Classe : #LIGHT_GREEN#Cultiste Entropique (Dément)", "_t")
 t([[Entropy is a force of chaos, always striving to create more disorder in the universe.
 Most say it is impossible to harness and use it, but they are wrong.
 A long time ago a creature came to Eyal and took pity on a group of refugees, teaching them powers to manipulate entropy itself.
@@ -4956,32 +4918,27 @@ Class features:#YELLOW#
 
 Cultist of Entropy use "insanity" to power their special abilities.
 Insanity is a measure of their own dementia and makes them more and more chaotic.
-]], [[Entropy is a force of chaos, always striving to create more disorder in the universe.
-Most say it is impossible to harness and use it, but they are wrong.
-A long time ago a creature came to Eyal and took pity on a group of refugees, teaching them powers to manipulate entropy itself.
+]], [[L'entropie est une force du chaos, s'efforçant sans cesse de créer davantage de désordre dans l'univers.
+La plupart disent qu'il est impossible de la canaliser et de l'utiliser, mais ils ont tort.
+Il y a bien longtemps, une créature est venue sur Eyal et a pris en pitié un groupe de réfugiés, leur enseignant les pouvoirs permettant de manipuler l'entropie elle-même.
 
-You have read a tome depicting the first teachings of entropy magic and can now create new characters with the #LIGHT_GREEN#Cultist of Entropy class#WHITE#.
+Vous avez lu un tome relatant les premiers enseignements de la magie entropique et pouvez désormais créer de nouveaux personnages avec la classe #LIGHT_GREEN#Cultiste Entropique#WHITE#.
 
-Cultists of Entropy are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Take entropic backlash for healing and dealing damage but learn to use that backlash as an attack
-- Rip apart spacetime to create rifts
-- Unravel the very existence of your foes, calling forth terrible foes upon them
-- Manipulate the threads of prophecy#WHITE#
+Les Cultiste Entropique sont des lanceurs de sorts, attaquant à distance par la magie.
+Caractéristiques de classe :#YELLOW#
+- Subissent un contrecoup entropique en soignant et en infligeant des dégâts, mais apprennent à utiliser ce contrecoup comme une arme
+- Déchirent l'espace-temps pour créer des failles
+- Défont l'existence même de leurs ennemis, invoquant contre eux de terribles adversaires
+- Manipulent les fils de la prophétie#WHITE#
 
-Cultist of Entropy use "insanity" to power their special abilities.
-Insanity is a measure of their own dementia and makes them more and more chaotic.
+Les Cultiste Entropique utilisent la "folie" pour alimenter leurs capacités spéciales.
+La folie est une mesure de leur propre démence et les rend toujours plus chaotiques.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/unlock-race_drem.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Drem", "New Race: #LIGHT_GREEN#Drem", "_t")
+t("New Race: #LIGHT_GREEN#Drem", "Nouvelle Race : #LIGHT_GREEN#Drem", "_t")
 t([[Drems are a mutated offshoot of the dwarven race.
 Long ago the mysterious machines that seem to be the source of dwarves malfunctioned and started to create all kind of monstrous beings, including Drems.
 Something in Kroshkkur seems to try to #{italic}#fix#{normal}# them by making them sentient.
@@ -4993,28 +4950,23 @@ Race features:#YELLOW#
 - Bleed your black blood on your attackers
 - Learn to summon a horror!
 #WHITE#
-]], [[Drems are a mutated offshoot of the dwarven race.
-Long ago the mysterious machines that seem to be the source of dwarves malfunctioned and started to create all kind of monstrous beings, including Drems.
-Something in Kroshkkur seems to try to #{italic}#fix#{normal}# them by making them sentient.
+]], [[Les Drems sont une ramification mutante de la race naine.
+Il y a longtemps, les machines mystérieuses qui semblent être à l'origine des nains ont mal fonctionné et se sont mises à créer toutes sortes d'êtres monstrueux, dont les Drems.
+Quelque chose à Kroshkkur semble tenter de les #{italic}#réparer#{normal}# en les rendant sentients.
 
-You have learned the origins of Drems and can now create new #LIGHT_GREEN#Drem#WHITE# characters!
+Vous avez découvert les origines des Drems et pouvez désormais créer de nouveaux personnages #LIGHT_GREEN#Drem#WHITE# !
 
-Race features:#YELLOW#
-- Enter a Frenzy to eliminate cooldown on talents
-- Bleed your black blood on your attackers
-- Learn to summon a horror!
+Caractéristiques raciales :#YELLOW#
+- Entrez en Frénésie pour éliminer les temps de recharge des talents
+- Faites saigner votre sang noir sur vos agresseurs
+- Apprenez à invoquer une horreur !
 #WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/unlock-race_krog.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Krog", "New Race: #LIGHT_GREEN#Krog", "_t")
+t("New Race: #LIGHT_GREEN#Krog", "Nouvelle Race : #LIGHT_GREEN#Krog", "_t")
 t([[Ogres were created long ago by terrible ways as elite fighters in the allure wars. Imbued from birth with runes their bodies can not survive without the arcane forces powering them.
 
 But while they are magic users Ziguranth took pity on them for they had not chosen their fate, it was forced upon them.
@@ -5029,31 +4981,26 @@ Race features:#YELLOW#
 - A mastery of infusions like no others
 - A warborn race, able to dual wield any one handed weapons and survive situations that would kill most others
 #WHITE#
-]], [[Ogres were created long ago by terrible ways as elite fighters in the allure wars. Imbued from birth with runes their bodies can not survive without the arcane forces powering them.
+]], [[Les Ogres furent créés il y a bien longtemps par des méthodes terribles, en tant que combattants d'élite lors des Guerres de la Séduction. Imprégnés de runes dès la naissance, leurs corps ne peuvent survivre sans les forces arcanique qui les alimentent.
 
-But while they are magic users Ziguranth took pity on them for they had not chosen their fate, it was forced upon them.
-After lots of painful, but required, experiments Zigur was finally able to create an offshoot of the ogre race by replacing their runes and arcane forces with drake blood and nature.
-Ever since the Krogs as they are called have been mighty stalwards of nature and staunch protectors of Zigur. Elite fighters capable of dual wielding any one handed weapons to crush all foes of Nature!
+Mais bien qu'ils fussent des utilisateurs de magie, les Zigurantes eurent pitié d'eux, car ils n'avaient pas choisi leur sort ; il leur avait été imposé. Après de nombreuses expériences douloureuses, mais nécessaires, Zigur parvint enfin à créer une ramification de la race des ogres en remplaçant leurs runes et leurs forces arcaniques par du sang de dragon et la nature.
 
-You have rescued a group of them from the undead flith can now create new #LIGHT_GREEN#Krog#WHITE# characters!
+Depuis lors, les Krogs, comme on les appelle, sont devenus de puissants piliers de la nature et de fervents protecteurs de Zigur. Des combattants d'élite capables de manier deux armes à une main pour écraser tous les ennemis de la Nature !
 
-Race features:#YELLOW#
-- Their wrath is so terrible they can stun their foes with any attacks
-- Drake infused blood that lets them resist the elements themselves
-- A mastery of infusions like no others
-- A warborn race, able to dual wield any one handed weapons and survive situations that would kill most others
+Vous en avez secouru un groupe des immondes morts-vivants et pouvez désormais créer de nouveaux personnages #LIGHT_GREEN#Krog#WHITE# !
+
+Caractéristiques raciales :#YELLOW#
+- Leur courroux est si terrible qu'ils peuvent assommer leurs ennemis avec n'importe quelle attaque
+- Un sang infusé de dragon qui leur permet de résister aux éléments eux-mêmes
+- Une maîtrise des essences sans égale
+- Une race née pour la guerre, capable de manier deux armes à une main et de survivre à des situations qui tueraient la plupart des autres
 #WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/data/texts/unlock-wyrmic_scourge.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Scourge Drake", "New Talent Category: #LIGHT_GREEN#Scourge Drake", "_t")
+t("New Talent Category: #LIGHT_GREEN#Scourge Drake", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Aspect du Dragon de Plaie", "_t")
 t([[Drakes are forces of Nature, the ultimate apex predators. But even they can be corrupted beyond hope.
 You have encountered the horror that came out of Kroltar, the mightiest wyrm, and vanquished it.
 
@@ -5064,88 +5011,97 @@ Talents:
 - #YELLOW#Decaying Grounds: #WHITE#Cover the ground in blighted energies, increasing cooldowns
 - #YELLOW#Augment Despair: #WHITE#Hit where it hurts, doing more damage based on detrimental effects
 - #YELLOW#Maggot Breath: #WHITE#Breath maggots to slow down your foes
-]], [[Drakes are forces of Nature, the ultimate apex predators. But even they can be corrupted beyond hope.
-You have encountered the horror that came out of Kroltar, the mightiest wyrm, and vanquished it.
+]], [[Les dragons sont des forces de la Nature, les prédateurs suprêmes par excellence. Mais même eux peuvent être corrompus au-delà de tout espoir.
+Vous avez rencontré l'horreur issue de Kroltar, le plus puissant des dragons, et l'avez vaincue.
 
-You can now master Scourge Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Scourge Drake talents#WHITE#.
+Vous pouvez désormais maîtriser la magie du Dragon de Plaie et créer de nouveaux personnages Wyrmiques capables d'apprendre l'#LIGHT_GREEN#Aspect du Dragon de Plaie#WHITE#.
 
-Talents:
-- #YELLOW#Tentacled Wings: #WHITE#Project slimy tentacles to pull your foes to you
-- #YELLOW#Decaying Grounds: #WHITE#Cover the ground in blighted energies, increasing cooldowns
-- #YELLOW#Augment Despair: #WHITE#Hit where it hurts, doing more damage based on detrimental effects
-- #YELLOW#Maggot Breath: #WHITE#Breath maggots to slow down your foes
+Talents :
+- #YELLOW#Ailes Tentaculaires : #WHITE#Projette des tentacules visqueux pour attirer vos ennemis vers vous
+- #YELLOW#Sol Putréfiant : #WHITE#Recouvre le sol d'énergies putrides, augmentant les temps de recharge
+- #YELLOW#Augmenter le Désespoir : #WHITE#Frappe là où ça fait mal, infligeant plus de dégâts selon les effets néfaste
+- #YELLOW#Souffle de Vers : #WHITE#Exhale des vers pour ralentir vos ennemis
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/overload/mod/class/CultsDLC.lua"
 
-t("enabled", "activé", "_t")
-t("disabled", "désactivé", "_t")
--- texte non traduit
---[==[
-t("Insanity", "Insanity", "_t")
+t("Insanity", "Folie", "_t")
 t([[Your mental insanity.  The higher it is the more random your damage and cooldowns become.
 
 Damage and cooldowns have a chance to increase or decrease by up to chaotic%.
 
-Both the chance and size of effects will increase with insanity.]], [[Your mental insanity.  The higher it is the more random your damage and cooldowns become.
+Both the chance and size of effects will increase with insanity.]], [[Votre folie mentale. Plus elle est élevée, plus vos dégâts et vos temps de recharge deviennent aléatoires.
 
-Damage and cooldowns have a chance to increase or decrease by up to chaotic%.
+Les dégâts et les temps de recharge ont une chance d'augmenter ou de diminuer jusqu'à chaotic%.
 
-Both the chance and size of effects will increase with insanity.]], "_t")
-t("%d%%%% (%d%%%% chaotic)", "%d%%%% (%d%%%% chaotic)", "tformat")
-t("Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "_t")
-t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "_t")
-t("#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "log")
-t("#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Aeryn].", "#CRIMSON#[The parasite is hungry and promptly swallows and eat Aeryn].", "_t")
-t("#CRIMSON#[The parasite is hungry and attacks Slasul].", "#CRIMSON#[The parasite is hungry and attacks Slasul].", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat %s].", "#CRIMSON#[The parasite is hungry and promptly swallows and eat %s].", "tformat")
-t("#CRIMSON#[The parasite is hungry and takes over the conversation.]#LAST# I smelled a weakling here and wanted a nice meal. [point your finger at the captured merchant]", "#CRIMSON#[The parasite is hungry and takes over the conversation.]#LAST# I smelled a weakling here and wanted a nice meal. [point your finger at the captured merchant]", "_t")
-t("Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have you as a friend so have your meal and someday we may have some more business to do together.", "Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have you as a friend so have your meal and someday we may have some more business to do together.", "_t")
-t("[eat the merchant]", "[eat the merchant]", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "_t")
-t("#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "_t")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#You can't enter a Forbidden Tome from here!#LAST#", "log")
-t("The protagonist of the story is dead.", "The protagonist of the story is dead.", "_t")
-t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "log")
+La chance et l'ampleur des effets augmentent toutes deux avec la folie.]], "_t")
+t("%d%%%% (%d%%%% chaotic)", "%d%%%% (%d%%%% chaotique)", "tformat")
+t("Use the book-like display for Forbidden Tomes. This option requires both framebuffers and shaders to be active in the video options.#WHITE#", "Utilise un affichage en forme de livre pour les Grimoires Interdits. Cette option nécessite que les framebuffers et les shaders soient tous deux actifs dans les options vidéo.#WHITE#", "_t")
+t("#GOLD##{bold}#Forbidden Cults: Use Book visual for forbidden tomes#WHITE##{normal}#", "#GOLD##{bold}#Cultes Indicibles : Utiliser un visuel de Livre pour les grimoires interdits#WHITE##{normal}#", "_t")
+t("enabled", "activé", "_t")
+t("disabled", "désactivé", "_t")
+t("#CRIMSON#This was a very satisfying meal, 'you' feel strengthened. (+1 generic talent point)", "#CRIMSON#Ce fut un repas très satisfaisant, \"vous\" vous sentez fortifié. (+1 point de talent générique)", "log")
+t("#CRIMSON#[The parasite loves death and pain and gives no choice but to shoot down the airship]", "#CRIMSON#[Le parasite adore la mort et la douleur, et ne laisse d'autre choix que d'abattre le dirigeable]", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Melinda].", "#CRIMSON#[Le parasite a faim et avale promptement Melinda].", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Aeryn].", "#CRIMSON#[Le parasite a faim et avale promptement Aeryn].", "_t")
+t("#CRIMSON#[The parasite is hungry and attacks Slasul].", "#CRIMSON#[Le parasite a faim et attaque Slasul].", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat %s].", "#CRIMSON#[Le parasite a faim et avale promptement %s].", "tformat")
+t("#CRIMSON#[The parasite is hungry and takes over the conversation.]#LAST# I smelled a weakling here and wanted a nice meal. [point your finger at the captured merchant]", "#CRIMSON#[Le parasite a faim et prend le contrôle de la conversation.]#LAST# J'ai senti un être faible ici et je voudrais un bon repas. [Pointer du doigt le marchand capturé]", "_t")
+t("Ah I see, you are a ...thing... of special tastes. Very well, I'd rather have you as a friend so have your meal and someday we may have some more business to do together.", "Ah, je vois, vous êtes une... chose... aux goûts particuliers. Fort bien, je préfère vous avoir comme ami, alors faites votre repas, et peut-être qu'un jour nous aurons d'autres affaires à traiter ensemble.", "_t")
+t("[eat the merchant]", "[Dévorer le marchand]", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat Fillarel]#LAST# No I have not...", "#CRIMSON#[Le parasite a faim et avale promptement Fillarel]#LAST# Non, je n'ai pas...", "_t")
+t("#CRIMSON#[The parasite is hungry and promptly swallows and eat the yeek wayist]#LAST# I 'saved' you to get a nice meal...", "#CRIMSON#[Le parasite a faim et avale promptement le yeek voyageur]#LAST# Je vous ai \"sauvé\" pour obtenir un bon repas...", "_t")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#Vous ne pouvez pas entrer dans un Grimoire Interdit depuis ici !#LAST#", "log")
+t("The protagonist of the story is dead.", "Le protagoniste de l'histoire est mort.", "_t")
+t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s commence à se réduire en poussière, il disparaîtra une fois que vous en sortirez !", "log")
+t("%s of the Blightspawn", "%s de l'Engeance du Fléau", "tformat")
+-- texte non traduit
+--[==[
 t("#AQUAMARINE#%s", "#AQUAMARINE#%s", "log")
-t("%s of the Blightspawn", "%s of the Blightspawn", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/EntropicWormhole.lua"
 
+t("Entropic Wormhole", "Trou de Ver Entropique", "_t")
+t("Handicap: ", "Handicap : ", "_t")
+t("Player", "Joueur", "_t")
+t("Character", "Personnage", "_t")
 t("Status", "Statut", "_t")
-t("S.M.A.C.K", "B.I.S.E.", "_t")
--- texte non traduit
---[==[
-t("Entropic Wormhole", "Entropic Wormhole", "_t")
-t("Handicap: ", "Handicap: ", "_t")
-t("Player", "Player", "_t")
-t("Character", "Character", "_t")
-t("Entropic Wormhole failure", "Entropic Wormhole failure", "_t")
+t("Entropic Wormhole failure", "Échec du Trou de Ver Entropique", "_t")
 t([[The wormwhole failed to latch on a timeline, you should retry an other one.
 
-#{italic}##GREY#The character you tried to download either contained errors, was somehow corrupt or failed to load. Possible reasons are numerous and could be related to addons. Please simply try an other one.#{normal}#]], [[The wormwhole failed to latch on a timeline, you should retry an other one.
+#{italic}##GREY#The character you tried to download either contained errors, was somehow corrupt or failed to load. Possible reasons are numerous and could be related to addons. Please simply try an other one.#{normal}#]], [[Le trou de ver n'a pas réussi à s'accrocher à une ligne temporelle, vous devriez en réessayer une autre.
 
-#{italic}##GREY#The character you tried to download either contained errors, was somehow corrupt or failed to load. Possible reasons are numerous and could be related to addons. Please simply try an other one.#{normal}#]], "_t")
+#{italic}##GREY#Le personnage que vous avez tenté de télécharger contenait des erreurs, était corrompu d'une manière ou d'une autre, ou n'a pas pu être chargé. Les raisons possibles sont nombreuses et pourraient être liées à des extensions. Veuillez simplement en essayer un autre.#{normal}#]], "_t")
+t("S.M.A.C.K", "B.I.S.E.", "_t")
 t([[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
-You have defeated #CRIMSON#%s#LAST#, congratulations!]], [[As your foe crumbles Yiilkgur's safety protocols activate and pull you out of the arena.
-You have defeated #CRIMSON#%s#LAST#, congratulations!]], "_t")
---]==]
-
+You have defeated #CRIMSON#%s#LAST#, congratulations!]], [[Tandis que votre ennemi s'effondre, les protocoles de sécurité de Yiilkgur s'activent et vous retirent de l'arène.
+Vous avez vaincu #CRIMSON#%s#LAST#, félicitations !]], "_t")
 
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/FontSacrifice.lua"
 
+t([[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
+Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
+Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
+
+Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.]], [[La fontaine du sacrifice vous permet de dépenser de l'or pour retirer au sort des parties spécifiques d'un artefact aléatoire ou d'un objet rare (vous devez d'abord le déséquiper).
+Chaque nouveau tirage coûte #GOLD#500 pièces d'or#LAST# pour un ego mineur et #GOLD#1000 pièces d'or#LAST# pour un ego majeur, multiplié par le nombre de fois où vous avez déjà retiré ce type d'ego sur le même objet.
+Les egos mineurs et majeurs ne peuvent être retirés au sort que vers le même type, et seuls les egos aux sources de pouvoir compatibles seront proposés.
+
+Remarque : de nombreux egos et talents externes ne s'affichent pas encore correctement, mais s'appliqueront correctement à l'objet.]], "_t")
+t("Font of Sacrifice", "Fontaine Sacrificielle", "_t")
 t("Name", "Nom", "_t")
+t("Properties", "Propriétés", "_t")
+t("Reroll properties set", "Retirer au sort l'ensemble de propriétés", "_t")
 t("Not enough money", "Pas assez d'argent", "_t")
+t("You need at least #GOLD#%s gold#LAST# to reroll this item.", "Vous avez besoin d'au moins #GOLD#%s pièces d'or#LAST# pour retirer au sort cet objet.", "tformat")
 t("Confirm", "Confirmer", "_t")
+t("So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "Voulez-vous donc dépenser #GOLD#%s pièces d'or#LAST# pour retirer au sort cet ensemble de propriétés ?", "tformat")
+t(" (Greater)", " (Majeur)", "_t")
 t("Type: %s / %s", "Type : %s / %s", "tformat")
 t([[Powered by #VIOLET#arcane forces#LAST#
 ]], [[Alimenté par #VIOLET#une force arcanique#LAST#
@@ -5154,7 +5110,7 @@ t([[Infused by #OLIVE_DRAB#nature#LAST#
 ]], [[Infusé par #OLIVE_DRAB#la nature#LAST#
 ]], "_t")
 t([[Infused by #ORCHID#arcane disrupting forces#LAST#
-]], [[Infusé par #ORCHID#une force disruptive d'arcanes#LAST#
+]], [[Infusé par #ORCHID#une force disruptive arcanique#LAST#
 ]], "_t")
 t([[Crafted by #LIGHT_UMBER#a master#LAST#
 ]], [[Forgé par #LIGHT_UMBER#un  maître#LAST#
@@ -5166,86 +5122,59 @@ t([[Powered by #CRIMSON#unknown forces#LAST#
 ]], [[Alimenté par #CRIMSON#une force inconnue#LAST#
 ]], "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
+t("Select a properties set", "Sélectionnez un ensemble de propriétés", "_t")
+t("Select properties set #{bold}#\"%s\"#{normal}# ?", "Sélectionner l'ensemble de propriétés #{bold}#\"%s\"#{normal}# ?", "tformat")
 t("Error!", "Erreur !", "_t")
--- texte non traduit
---[==[
-t([[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
-Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
-Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
-
-Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.]], [[The font of sacrifice allows you to spend gold to reroll specific parts of a random artifact or rare item (you must first unequip it).
-Each reroll costs #GOLD#500 gold#LAST# for a lesser ego and #GOLD#1000 gold#LAST# for a greater ego per each time you've rerolled that ego type on the same object.
-Lesser and Greater egos can only be rerolled into the same type, and only egos with compatible power sources will be offered.
-
-Note:  Many egos and external talents don't currently display properly but will apply to the item correctly.]], "_t")
-t("Font of Sacrifice", "Font of Sacrifice", "_t")
-t("Properties", "Properties", "_t")
-t("Reroll properties set", "Reroll properties set", "_t")
-t("You need at least #GOLD#%s gold#LAST# to reroll this item.", "You need at least #GOLD#%s gold#LAST# to reroll this item.", "tformat")
-t("So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "So you want to spend #GOLD#%s gold#LAST# to reroll this set of properties?", "tformat")
-t(" (Greater)", " (Greater)", "_t")
-t("Select a properties set", "Select a properties set", "_t")
-t("Select properties set #{bold}#\"%s\"#{normal}# ?", "Select properties set #{bold}#\"%s\"#{normal}# ?", "tformat")
-t("The gizmocombobulator of the font seems to have failed, you have not been billed.", "The gizmocombobulator of the font seems to have failed, you have not been billed.", "_t")
---]==]
-
+t("The gizmocombobulator of the font seems to have failed, you have not been billed.", "Le gizmocombobulateur de la fontaine semble avoir échoué, vous n'avez pas été facturé.", "_t")
 
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/ForbiddenTome.lua"
 
+t("\
+#CRIMSON#Will crumble to dust when read!", "\
+#CRIMSON#Se réduira en poussière une fois lu !", "_t")
+t("\
+#YELLOW#Can only be read %d times.", "\
+#YELLOW#Ne peut être lu que %d fois.", "tformat")
+t("Read the book", "Lire le livre", "_t")
+t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#Vous ne pouvez pas encore entrer dans un Grimoire Interdit !#LAST#", "log")
+t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#Vous ne pouvez pas entrer dans un Grimoire Interdit depuis ici !#LAST#", "log")
+t("You feel this book is extremely dangerous for you. Proceed?", "Vous sentez que ce livre est extrêmement dangereux pour vous. Continuer ?", "_t")
 t("Cancel", "Annuler", "_t")
+t("Read Tome", "Lire le Tome", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
-t("\
-#CRIMSON#Will crumble to dust when read!", "\
-#CRIMSON#Will crumble to dust when read!", "_t")
-t("\
-#YELLOW#Can only be read %d times.", "\
-#YELLOW#Can only be read %d times.", "tformat")
-t("Read the book", "Read the book", "_t")
-t("#RED#You can't enter a Forbidden Tome yet!#LAST#", "#RED#You can't enter a Forbidden Tome yet!#LAST#", "log")
-t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#You can't enter a Forbidden Tome from here!#LAST#", "log")
-t("You feel this book is extremely dangerous for you. Proceed?", "You feel this book is extremely dangerous for you. Proceed?", "_t")
-t("Read Tome", "Read Tome", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/overload/mod/dialogs/RingOfTheHunter.lua"
 
-
+t("The Writhing Ring seems unable to learn this prodigy.", "L'Anneau Grouillant semble incapable d'apprendre ce prodige.", "_t")
+t("#PURPLE#The Ring writhes and contracts around your finger and suddently you realize your now possess the prodigy #LIGHT_GREEN#%s%s!", "#PURPLE#L'Anneau se tord et se contracte autour de votre doigt, et soudain vous réalisez que vous possédez désormais le prodige #LIGHT_GREEN#%s%s !", "log")
 -- texte non traduit
 --[==[
 t("Impossible", "Impossible", "_t")
-t("The Writhing Ring seems unable to learn this prodigy.", "The Writhing Ring seems unable to learn this prodigy.", "_t")
-t("#PURPLE#The Ring writhes and contracts around your finger and suddently you realize your now possess the prodigy #LIGHT_GREEN#%s%s!", "#PURPLE#The Ring writhes and contracts around your finger and suddently you realize your now possess the prodigy #LIGHT_GREEN#%s%s!", "log")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/superload/mod/class/Actor.lua"
 
-
--- texte non traduit
---[==[
-t("#ORCHID#You can only gain insanity in combat!#LAST#", "#ORCHID#You can only gain insanity in combat!#LAST#", "logSeen")
---]==]
-
+t("#ORCHID#You can only gain insanity in combat!#LAST#", "#ORCHID#Vous ne pouvez gagner de la folie qu'en combat !#LAST#", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/superload/mod/class/Game.lua"
 
+t("Class: Cultist of Entropy", "Classe : Cultiste Entropique", "_t")
+t("Race: Drem", "Race : Drem", "_t")
+t("Race: Krog", "Race : Krog", "_t")
+t("Class tree: Scourge drake", "Arbre de classe : Dragonnet de Plaie", "_t")
+t("Class feature: Alchemist's Glass Golem", "Caractéristique de classe : Golem de Verre de l'Alchimiste", "_t")
 t("S.M.A.C.K", "B.I.S.E.", "_t")
--- texte non traduit
---[==[
-t("Class: Cultist of Entropy", "Class: Cultist of Entropy", "_t")
-t("Race: Drem", "Race: Drem", "_t")
-t("Race: Krog", "Race: Krog", "_t")
-t("Class tree: Scourge drake", "Class tree: Scourge drake", "_t")
-t("Class feature: Alchemist's Glass Golem", "Class feature: Alchemist's Glass Golem", "_t")
-t("Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "_t")
-t("Urgent affair in Zigur", "Urgent affair in Zigur", "_t")
+t("Saving is not possible in the S.M.A.C.K. Do you want to cancel the fight?", "Il n'est pas possible de sauvegarder dans le B.I.S.E. Voulez-vous annuler le combat ?", "_t")
+t("Urgent affair in Zigur", "Affaire urgente à Zigur", "_t")
 t([[As you enter Last Hope a courier finds you to deliver a letter from Protector Myssil of Zigur:
 
 %s, while you were away destroying arcane filth I have received grave news.
@@ -5256,86 +5185,80 @@ All our other elite fighting forces are currently abroad, you are their only hop
 Please, go there at once, free them and show the necromancers filth the True Wrath of the Ziguranth!
 
 #{italic}#Protector Myssil#{normal}#
-]], [[As you enter Last Hope a courier finds you to deliver a letter from Protector Myssil of Zigur:
+]], [[En entrant dans Dernier Espoir, un messager vous trouve pour vous remettre une lettre de la Protectrice Myssil de Zigur :
 
-%s, while you were away destroying arcane filth I have received grave news.
-A group of Krogs has been ambushed and taken to a hidden ruin on the eastern shores of the sea of Sash near Zigur.
-From what the scouts can tell they were taken by a group of necromancers, probably to do vile experiments on them.
+%s, pendant que vous étiez parti détruire des immondices arcanique, j'ai reçu de graves nouvelles.
+Un groupe de Krogs a été pris en embuscade et emmené vers une ruine cachée sur les rives orientales de la mer de Sash, près de Zigur.
+D'après ce que nos éclaireurs peuvent dire, ils ont été capturés par un groupe de nécromanciens, probablement pour leur faire subir de viles expériences.
 
-All our other elite fighting forces are currently abroad, you are their only hope.
-Please, go there at once, free them and show the necromancers filth the True Wrath of the Ziguranth!
+Toutes nos autres forces de combat d'élite sont actuellement en mission à l'étranger, vous êtes leur seul espoir.
+Je vous en prie, rendez-vous là-bas sur-le-champ, libérez-les et montrez à l'immondice nécromante la Véritable Colère des Zigurantes !
 
-#{italic}#Protector Myssil#{normal}#
+#{italic}#Protectrice Myssil#{normal}#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/Birther.lua"
 
-t(" or ", " ou ", "_t")
--- texte non traduit
---[==[
-t("Welcome to #CRIMSON#Forbidden Cults", "Welcome to #CRIMSON#Forbidden Cults", "_t")
+t("Welcome to #CRIMSON#Forbidden Cults", "Bienvenue dans #CRIMSON#Cultes Indicibles", "_t")
 t([[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
 
 To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
 
 Have fun lashing your tentacle at your foes!
-]], [[Thank you for purchasing #CRIMSON#Forbidden Cults#WHITE#, the third expansion pack of Tales of Maj'Eyal.
+]], [[Merci d'avoir acheté #CRIMSON#Cultes Indicibles#WHITE#, la troisième extension de Tales of Maj'Eyal.
 
-To begin your adventures as a half horror simply create a character with the class #LIGHT_GREEN#Writhing One#WHITE# (in the Demented category).
+Pour commencer vos aventures en tant que demi-horreur, créez simplement un personnage avec la classe #LIGHT_GREEN#Grouillant#WHITE# (dans la catégorie Dément).
 
-Have fun lashing your tentacle at your foes!
+Amusez-vous bien à fouetter vos ennemis avec votre tentacule !
 ]], "_t")
---]==]
-
+t(" or ", " ou ", "_t")
 
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/ProphecyGrandOration.lua"
 
+t("Grand Oration", "Grande Oraison", "_t")
+t([[You may empower the chosen prophecy with Grand Oration, causing it to spread to nearby enemies.
+]], [[Vous pouvez renforcer la prophétie choisie avec Grande Oraison, la faisant se propager aux ennemis proches.
+]], "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
+t("All prophecies that can be used with Grand Oration.", "Toutes les prophéties pouvant être utilisées avec Grande Oraison.", "_t")
 -- texte non traduit
 --[==[
-t("Grand Oration", "Grand Oration", "_t")
-t([[You may empower the chosen prophecy with Grand Oration, causing it to spread to nearby enemies.
-]], [[You may empower the chosen prophecy with Grand Oration, causing it to spread to nearby enemies.
-]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("All prophecies that can be used with Grand Oration.", "All prophecies that can be used with Grand Oration.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/ProphecyRevelation.lua"
 
+t("Revelation", "Révélation", "_t")
+t([[You may empower the chosen prophecy with Revelation, causing it to grant you a powerful beneficial effect.
+]], [[Vous pouvez renforcer la prophétie choisie avec Révélation, ce qui vous accorde un puissant effet bénéfique.
+]], "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
+t("All prophecies that can be used with Revelation.", "Toutes les prophéties pouvant être utilisées avec Révélation.", "_t")
 -- texte non traduit
 --[==[
-t("Revelation", "Revelation", "_t")
-t([[You may empower the chosen prophecy with Revelation, causing it to grant you a powerful beneficial effect.
-]], [[You may empower the chosen prophecy with Revelation, causing it to grant you a powerful beneficial effect.
-]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("All prophecies that can be used with Revelation.", "All prophecies that can be used with Revelation.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/superload/mod/dialogs/ProphecyTwofoldCurse.lua"
 
+t("Twofold Curse", "Malédiction Double", "_t")
+t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply instantly when you cast another prophecy.
+]], [[Vous pouvez renforcer la prophétie choisie avec Malédiction Double, la faisant s'appliquer instantanément lorsque vous lancez une autre prophétie.
+]], "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#Choisir un talent#{normal}#", "_t")
+t("All prophecies that can be used with Twofold Curse.", "Toutes les prophéties pouvant être utilisées avec Malédiction Double.", "_t")
 -- texte non traduit
 --[==[
-t("Twofold Curse", "Twofold Curse", "_t")
-t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply instantly when you cast another prophecy.
-]], [[You may empower the chosen prophecy with Twofold Curse, causing it to apply instantly when you cast another prophecy.
-]], "_t")
 t("", "", "_t")
 t("Talent", "Talent", "_t")
-t("All prophecies that can be used with Twofold Curse.", "All prophecies that can be used with Twofold Curse.", "_t")
 --]==]
 
 
