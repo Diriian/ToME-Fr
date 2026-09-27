@@ -6421,7 +6421,7 @@ t([[When you kill a foe you place small explosives with shrapnels inside its bod
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/steam.lua"
 
-t("other", "autre", "talent type")
+t("other", "Autre", "talent type")
 t("dread", "hanteur", "talent type")
 -- texte non traduit
 --[==[
@@ -6922,7 +6922,7 @@ t("+Confused", "+Confus", "_t")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("-Confused", "-Confus", "_t")
 t("sun", "soleil", "effect subtype")
-t("other", "autre", "effect subtype")
+t("other", "Autre", "effect subtype")
 t("lightning", "foudre", "effect subtype")
 t("tactical", "tactique", "effect subtype")
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d partagés)#LAST#", "tformat")
