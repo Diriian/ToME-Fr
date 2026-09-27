@@ -2816,57 +2816,53 @@ The damage increase is based on your Spellpower.]], "tformat")
 ------------------------------------------------
 section "tome-cults/data/talents/demented/demented.lua"
 
-t("madness", "folie", "talent type")
+t("Insanity Pool", "Réserve de Folie", "talent name")
+t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "Vous permet de disposer d'une réserve de folie. La folie est utilisée par la plupart des pouvoirs de dément.", "_t")
+t("demented", "Dément", "talent category")
+t("tentacles", "Tentacules", "talent type")
+t("Grow horrific tentacles to assail your foes.", "Faites pousser d'horribles tentacules pour assaillir vos ennemis.", "_t")
+t("horrific body", "Corps Terrifiant", "talent type")
+t("Let your body mutate in terrible and efficient ways.", "Laissez votre corps muter de façon terrible et efficace.", "_t")
+t("writhing body", "Corps Tentaculaire", "talent type")
+t("Enhance your body and tentacle with new attacks and horrific growths.", "Améliorez votre corps et votre tentacule avec de nouvelles attaques et d'horribles excroissances.", "_t")
+t("path of horror", "Chemin de l'Horreur", "talent type")
+t("Continue your journey on the side of horror.", "Poursuivez votre chemin du côté de l'horreur.", "_t")
+t("controlled horrors", "Horreures Contrôlées", "talent type")
+t("Summon decaying horrors to do your bidding!", "Invoquez des horreurs putrides pour exécuter vos ordres !", "_t")
+t("slow death", "Mort Lente", "talent type")
+t("Turn the insides of your body into a digesting weapon of pain!", "Transformez l'intérieur de votre corps en une arme digestive de douleur !", "_t")
+t("disfigured face", "Visage Défiguré", "talent type")
+t("Your face is the stuff of nightmares!", "Votre visage est digne des pires cauchemars !", "_t")
+t("friend of the worm", "Ami du Ver", "talent type")
+t("Conjure your Worm that Walks friend!", "Invoquez votre ami le Ver qui Marche !", "_t")
+t("nether", "Néant", "talent type")
+t("Annihilate your foes with pure void energy.", "Anéantissez vos ennemis avec de l'énergie du vide pure.", "_t")
+t("madness", "Folie", "talent type")
+t("Spread the madness of the void to your enemies.", "Répandez la folie du vide chez vos ennemis.", "_t")
 t("void", "vide", "talent type")
-t("entropy", "l'entropie", "talent type")
-t("rift", "fissure", "talent type")
+t("Draw upon the power of the void to protect yourself from harm.", "Puisez dans le pouvoir du vide pour vous protéger du danger.", "_t")
+t("entropy", "Entropie", "talent type")
+t("Learn to withstand and direct the entropy you cause.", "Apprenez à supporter et diriger l'entropie que vous provoquez.", "_t")
+t("timethief", "Voleur de Temps", "talent type")
+t("Steal time from others, weakening them to empower yourself.", "Volez le temps d'autrui, les affaiblissant pour vous renforcer.", "_t")
+t("oblivion", "Oublie", "talent type")
+t("Channel the essence of entropy to reduce your foes to dust.", "Canalisez l'essence de l'entropie pour réduire vos ennemis en poussière.", "_t")
+t("rift", "Fissure", "talent type")
+t("Tear holes in space and time to unleash devastating forces on your foes.", "Déchirez des trous dans l'espace et le temps pour déchaîner des forces dévastatrices sur vos ennemis.", "_t")
+t("chronophage", "Chronophage", "talent type")
+t("Feast upon the ruined timelines of your enemies.", "Repaissez-vous des lignes temporelles ruinées de vos ennemis.", "_t")
 t("scourge drake", "dragonnet de plaie", "talent type")
-t("other", "autre", "talent type")
+t("Take on the defining aspects of a Scourge Drake.", "Adoptez les traits caractéristiques d'un Dragonnet de Plaie.", "_t")
+t("doom", "Perdition", "talent type")
+t("Foretell the dire fate of your enemies.", "Prédisez le funeste destin de vos ennemis.", "_t")
+t("prophecy", "Prophétie", "talent type")
+t("The various prophecies you can tell.", "Les diverses prophéties que vous pouvez énoncer.", "_t")
+t("calamity", "Calamité", "talent type")
+t("Stack the odds in your favour.", "Faites pencher la balance en votre faveur.", "_t")
+t("beyond sanity", "Irrationnel", "talent type")
+t("Let yourself walk in chaos!", "Laissez-vous marcher dans le chaos !", "_t")
+t("other", "Autre", "talent type")
 t("Talents of the various entities of the world.", "Talents des diverses entités du monde.", "_t")
--- texte non traduit
---[==[
-t("Insanity Pool", "Insanity Pool", "talent name")
-t("Allows you to have an insanity pool. Insanity is used for most demented powers.", "Allows you to have an insanity pool. Insanity is used for most demented powers.", "_t")
-t("demented", "demented", "talent category")
-t("tentacles", "tentacles", "talent type")
-t("Grow horrific tentacles to assail your foes.", "Grow horrific tentacles to assail your foes.", "_t")
-t("horrific body", "horrific body", "talent type")
-t("Let your body mutate in terrible and efficient ways.", "Let your body mutate in terrible and efficient ways.", "_t")
-t("writhing body", "writhing body", "talent type")
-t("Enhance your body and tentacle with new attacks and horrific growths.", "Enhance your body and tentacle with new attacks and horrific growths.", "_t")
-t("path of horror", "path of horror", "talent type")
-t("Continue your journey on the side of horror.", "Continue your journey on the side of horror.", "_t")
-t("controlled horrors", "controlled horrors", "talent type")
-t("Summon decaying horrors to do your bidding!", "Summon decaying horrors to do your bidding!", "_t")
-t("slow death", "slow death", "talent type")
-t("Turn the insides of your body into a digesting weapon of pain!", "Turn the insides of your body into a digesting weapon of pain!", "_t")
-t("disfigured face", "disfigured face", "talent type")
-t("Your face is the stuff of nightmares!", "Your face is the stuff of nightmares!", "_t")
-t("friend of the worm", "friend of the worm", "talent type")
-t("Conjure your Worm that Walks friend!", "Conjure your Worm that Walks friend!", "_t")
-t("nether", "nether", "talent type")
-t("Annihilate your foes with pure void energy.", "Annihilate your foes with pure void energy.", "_t")
-t("Spread the madness of the void to your enemies.", "Spread the madness of the void to your enemies.", "_t")
-t("Draw upon the power of the void to protect yourself from harm.", "Draw upon the power of the void to protect yourself from harm.", "_t")
-t("Learn to withstand and direct the entropy you cause.", "Learn to withstand and direct the entropy you cause.", "_t")
-t("timethief", "timethief", "talent type")
-t("Steal time from others, weakening them to empower yourself.", "Steal time from others, weakening them to empower yourself.", "_t")
-t("oblivion", "oblivion", "talent type")
-t("Channel the essence of entropy to reduce your foes to dust.", "Channel the essence of entropy to reduce your foes to dust.", "_t")
-t("Tear holes in space and time to unleash devastating forces on your foes.", "Tear holes in space and time to unleash devastating forces on your foes.", "_t")
-t("chronophage", "chronophage", "talent type")
-t("Feast upon the ruined timelines of your enemies.", "Feast upon the ruined timelines of your enemies.", "_t")
-t("Take on the defining aspects of a Scourge Drake.", "Take on the defining aspects of a Scourge Drake.", "_t")
-t("doom", "doom", "talent type")
-t("Foretell the dire fate of your enemies.", "Foretell the dire fate of your enemies.", "_t")
-t("prophecy", "prophecy", "talent type")
-t("The various prophecies you can tell.", "The various prophecies you can tell.", "_t")
-t("calamity", "calamity", "talent type")
-t("Stack the odds in your favour.", "Stack the odds in your favour.", "_t")
-t("beyond sanity", "beyond sanity", "talent type")
-t("Let yourself walk in chaos!", "Let yourself walk in chaos!", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/disfigured-face.lua"
@@ -3378,6 +3374,8 @@ t([[Instantly consume what remains of your victim, healing yourself for %d life 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/tentacles.lua"
 
+t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
+t("You require a weapon and an empty offhand!", "Vous avez besoin d'une arme et d'une main secondaire vide !", "logPlayer")
 t("Constrict", "Constriction", "talent name")
 -- texte non traduit
 --[==[
@@ -3399,8 +3397,6 @@ t([[Your left hand mutates into a disgusting mass of tentacles.
 		%s]], "tformat")
 t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", "_t")
 t("Lash Out", "Lash Out", "talent name")
-t("You require an empty offhand to use your tentacle hand.", "You require an empty offhand to use your tentacle hand.", "logPlayer")
-t("You require a weapon and an empty offhand!", "You require a weapon and an empty offhand!", "logPlayer")
 t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
 				
 				If the mainhand attack hits at least one enemy you gain %d insanity.
@@ -3512,6 +3508,8 @@ t([[You rend the very essence of the target, drawing on their life and convertin
 ------------------------------------------------
 section "tome-cults/data/talents/demented/writhing-body.lua"
 
+t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
+t("You require a weapon and an empty offhand!", "Vous avez besoin d'une arme et d'une main secondaire vide !", "logPlayer")
 t("The diseases of %s spread!", "Les maladies de %s se répandent !", "logSeen")
 t("%s resists the disease!", "%s résiste à la maladie !", "logSeen")
 t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
@@ -3537,8 +3535,6 @@ t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% f
 		%s]], "tformat")
 t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", "_t")
 t("Lash Outrthrthrth", "Lash Outrthrthrth", "talent name")
-t("You require an empty offhand to use your tentacle hand.", "You require an empty offhand to use your tentacle hand.", "logPlayer")
-t("You require a weapon and an empty offhand!", "You require a weapon and an empty offhand!", "logPlayer")
 t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
 		]], [[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
 		]], "tformat")
@@ -3553,65 +3549,65 @@ t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
 ------------------------------------------------
 section "tome-cults/data/talents/misc/misc.lua"
 
+t("glass golem", "golem de verre", "_t")
 t("Self-destruction", "Auto-destruction", "talent name")
+t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "Autodétruisez-vous dans une glorieuse explosion de viscères, infligeant %0.2f dégâts de fléau à tous les ennemis dans un rayon de %d cases. L'invocateur doit être mort pour utiliser ce talent.", "tformat")
+t("Teleport: Kroshkkur", "Téléportation : Kroshkkur", "talent name")
+t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur est détruit, il n'y a nulle part où se téléporter.", "logPlayer")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
 t("There are creatures that could be watching you; you cannot take the risk.", "Il y a des créatures qui pourraient vous observer ; vous ne pouvez pas prendre ce risque.", "log")
-t("Call of Amakthel", "Appel d'Amakthel", "talent name")
-t("%s is pulled in!", "%s est attiré !", "logSeen")
-t("glass", "verre", "talent type")
-t("something", "quelque chose", "_t")
--- texte non traduit
---[==[
-t("glass golem", "glass golem", "_t")
-t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "tformat")
-t("Teleport: Kroshkkur", "Teleport: Kroshkkur", "talent name")
-t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "logPlayer")
 t([[Allows to teleport to Kroshkkur.
 	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
 	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
-	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[Allows to teleport to Kroshkkur.
-	You have studied the forbidden secrets there and have been granted a special portal spell to teleport back.
-	This spell must be kept secret; it should never be used within view of uninitiated witnesses.
-	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], "_t")
-t("Pull all foes within radius 10 2 grids towards you.", "Pull all foes within radius 10 2 grids towards you.", "_t")
-t("Crumble", "Crumble", "talent name")
+	The spell takes time (40 turns) to activate, and you must be out of sight of any other creature when you cast it and when the teleportation takes effect.]], [[Permet de se téléporter vers Kroshkkur.
+	Vous y avez étudié les secrets interdits et avez reçu un sort de portail spécial pour y retourner.
+	Ce sort doit rester secret ; il ne doit jamais être utilisé à la vue de témoins non initiés.
+	Le sort met du temps (40 tours) à s'activer, et vous devez être hors de vue de toute autre créature lorsque vous le lancez et lorsque la téléportation prend effet.]], "_t")
+t("Call of Amakthel", "Appel d'Amakthel", "talent name")
+t("%s is pulled in!", "%s est attiré !", "logSeen")
+t("Pull all foes within radius 10 2 grids towards you.", "Attire tous les ennemis dans un rayon de 10 cases de 2 cases vers vous.", "_t")
+t("Crumble", "Effondrement", "talent name")
 t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
-		The damage will increase with your Spellpower.]], [[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Blightlash", "Blightlash", "talent name")
-t("You require an empty offhand to use your tentacle hand.", "You require an empty offhand to use your tentacle hand.", "logPlayer")
-t("You require a weapon and an empty offhand!", "You require a weapon and an empty offhand!", "logPlayer")
-t("Lash an enemy within range 10 with your tentacle, dealing %d%% blight damage.", "Lash an enemy within range 10 with your tentacle, dealing %d%% blight damage.", "tformat")
-t("Twisted Evolution", "Twisted Evolution", "talent name")
+		The damage will increase with your Spellpower.]], [[Tirez une salve d'obscurité sur un ennemi, infligeant %0.2f dégâts et détruisant tous les murs dans un rayon de 3 cases autour de lui.
+		Les dégâts sont proportionnels à votre Puissance Magique.]], "tformat")
+t("Blightlash", "Fouet du Fléau", "talent name")
+t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
+t("You require a weapon and an empty offhand!", "Vous avez besoin d'une arme et d'une main secondaire vide !", "logPlayer")
+t("Lash an enemy within range 10 with your tentacle, dealing %d%% blight damage.", "Fouettez un ennemi à portée max de 10 avec votre tentacule, infligeant %d%% de dégâts de fléau.", "tformat")
+t("Twisted Evolution", "Évolution Tordue", "talent name")
 t([[Evolve %d allies within radius 10 in random ways for 5 turns.
 		#ORCHID#Speed:#LAST# Increases global speed by %d%%.
 		#ORCHID#Form:#LAST# Increases all stats by %d.
-		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], [[Evolve %d allies within radius 10 in random ways for 5 turns.
-		#ORCHID#Speed:#LAST# Increases global speed by %d%%.
-		#ORCHID#Form:#LAST# Increases all stats by %d.
-		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], "tformat")
-t("golem", "golem", "talent category")
-t("Glass Golem basic capacity.", "Glass Golem basic capacity.", "_t")
-t("Glass Splinters", "Glass Splinters", "talent name")
-t("%s resists the splinters!", "%s resists the splinters!", "logSeen")
+		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], [[Faites évoluer %d alliés dans un rayon de 10 cases de manière aléatoire pendant 5 tours.
+		#ORCHID#Vitesse :#LAST# Augmente la vitesse globale de %d%%.
+		#ORCHID#Forme :#LAST# Augmente toutes les caractéristiques de %d.
+		#ORCHID#Puissance :#LAST# Augmente tous les dégâts de %d%%.]], "tformat")
+t("glass", "verre", "talent type")
+t("Glass Golem basic capacity.", "Capacité de base du Golem de Verre.", "_t")
+t("Glass Splinters", "Éclats de Verre", "talent name")
+t("%s resists the splinters!", "%s résiste aux éclats !", "logSeen")
 t([[Smash your target with a splintering glass attack doing %d%% arcane weapon damage.
 		If this attack hits the target will have glass splinters for 6 turns.
 		Each turn the target will bleed for 8%% of the attack damage. The splinters are very painful and if the target moves it will instantly take %d%% of the attack damage.
-		At level 5 the target suffers so much it has 15%% chances to fail using talents.]], [[Smash your target with a splintering glass attack doing %d%% arcane weapon damage.
-		If this attack hits the target will have glass splinters for 6 turns.
-		Each turn the target will bleed for 8%% of the attack damage. The splinters are very painful and if the target moves it will instantly take %d%% of the attack damage.
-		At level 5 the target suffers so much it has 15%% chances to fail using talents.]], "tformat")
-t("Throw Pebble", "Throw Pebble", "talent name")
-t("#Source# expertly hurls a pebble at #target#!", "#Source# expertly hurls a pebble at #target#!", "logCombat")
+		At level 5 the target suffers so much it has 15%% chances to fail using talents.]], [[Fracassez votre cible avec une attaque de verre éclatant infligeant %d%% dégâts d'arme arcanique.
+		Si cette attaque touche, la cible subira des éclats de verre pendant 6 tours.
+		Chaque tour, la cible saignera pour 8%% des dégâts de l'attaque. Les éclats sont extrêmement douloureux, et si la cible bouge, elle subira instantanément %d%% des dégâts de l'attaque.
+		Au niveau 5, la cible souffre tellement qu'elle a 15%% de chance d'échouer lorsqu'elle utilise ses talents.]], "tformat")
+t("Throw Pebble", "Lancer un Caillou", "talent name")
+t("something", "quelque chose", "_t")
+t("#Source# expertly hurls a pebble at #target#!", "#Source# lance habilement un caillou sur #Target# !", "logCombat")
 t([[Throw a pebble at your target, dealing %0.2f physical damage.
-		The damage will increase with your Strength.]], [[Throw a pebble at your target, dealing %0.2f physical damage.
-		The damage will increase with your Strength.]], "tformat")
-t("Netherforce", "Netherforce", "talent name")
+		The damage will increase with your Strength.]], [[Lancez un caillou sur votre cible, infligeant %0.2f dégâts physiques.
+		Les dégâts sont proportionnels à votre Force.]], "tformat")
+t("Netherforce", "Force du Néant", "talent name")
 t([[Smash the target with the force of the void dealing %0.2f darkness and %0.2f temporal damage to the target and knocking them back 8 spaces.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[Smash the target with the force of the void dealing %0.2f darkness and %0.2f temporal damage to the target and knocking them back 8 spaces.
-		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], "tformat")
+		The damage will increase with your Spellpower.]], [[Frappez la cible avec la force du vide, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts temporels et la repoussant de 8 cases.
+		La puissance de ce sort vous inflige un contrecoup entropique, vous faisant subir %d dégâts sur 8 tours. Ces dégâts comptent comme entropie pour le talent Don Entropique.
+		Les dégâts sont proportionnels à votre Puissance Magique.]], "tformat")
+-- texte non traduit
+--[==[
+t("golem", "golem", "talent category")
 --]==]
 
 
@@ -3620,66 +3616,59 @@ section "tome-cults/data/talents/misc/races.lua"
 
 t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
 t("Frenzy", "Frénésie", "talent name")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("Never mind", "Peu importe", "_t")
-t("%s resists!", "%s résiste !", "logSeen")
--- texte non traduit
---[==[
-t("race", "race", "talent category")
-t("drem", "drem", "talent type")
 t([[Enter a killing frenzy for 3 turns.
 		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
 		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
-		]], [[Enter a killing frenzy for 3 turns.
-		During the frenzy the first time you use a class talent it has no cooldown (but does if used twice).
-		This does not work for inscriptions, talents that take no turn to use, passives, or talents with fixed cooldowns.
-		]], "tformat")
-t("Spikeskin", "Spikeskin", "talent name")
+		]], [[Entrez dans une frénésie meurtrière pendant 3 tours.
+		Pendant la frénésie, la première fois que vous utilisez un talent de classe, il n'a pas de temps de recharge (mais en aura un si utilisé une deuxième fois).
+		Ceci ne fonctionne pas pour les inscriptions, les talents qui ne consomment pas de tour, les passifs, ou les talents à temps de recharge fixe.]], "tformat")
+t("Spikeskin", "Peau Épineuse", "talent name")
 t([[Your skin grows small spikes coated in dark blight.
 		When you are hit in melee the attacker starts bleeding black blood for 5 turns that deals %0.2f darkness damage each turn. This effect may only happen once per turn.
 		You are empowered by the sight of the black blood, for each bleeding creature in radius 2 you gain 5%% all resistances, limited to %d creatures.
-		The damage will scale with your Magic stat.]], [[Your skin grows small spikes coated in dark blight.
-		When you are hit in melee the attacker starts bleeding black blood for 5 turns that deals %0.2f darkness damage each turn. This effect may only happen once per turn.
-		You are empowered by the sight of the black blood, for each bleeding creature in radius 2 you gain 5%% all resistances, limited to %d creatures.
-		The damage will scale with your Magic stat.]], "tformat")
-t("Faceless", "Faceless", "talent name")
+		The damage will scale with your Magic stat.]], [[Votre peau fait pousser de petites épines enduites d'un sombre fléau.
+		Lorsque vous êtes touché en mêlée, l'attaquant se met à saigner du sang noir pendant 5 tours, lui infligeant %0.2f dégâts d'obscurité par tour. Cet effet ne peut se produire qu'une fois par tour.
+		Vous êtes fortifié par la vue du sang noir : pour chaque créature saignante dans un rayon de 2 cases, vous gagnez 5%% de résistance globale, limité à %d créature(s).
+		Les dégâts sont proportionnels à votre Magie.]], "tformat")
+t("Faceless", "Sans Visage", "talent name")
 t([[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
-		You gain %d mental save, %d%% confusion immunity.]], [[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
-		You gain %d mental save, %d%% confusion immunity.]], "tformat")
-t("From Below It Devours", "From Below It Devours", "talent name")
-t("hungering mouth", "hungering mouth", "_t")
-t("\"From below, it devours.\"", "\"From below, it devours.\"", "_t")
+		You gain %d mental save, %d%% confusion immunity.]], [[Votre visage sans traits est déroutant et dénué d'émotion, ce qui vous permet de mieux résister aux ruses mentales.
+		Vous gagnez %d sauvegarde mentale, %d%% d'immunité à la confusion.]], "tformat")
+t("From Below It Devours", "Des Profondeurs, Elle Dévore", "talent name")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("hungering mouth", "bouche affamée", "_t")
+t("\"From below, it devours.\"", "\"Des profondeurs, elle dévore.\"", "_t")
 t([[Your affinity with things that dwell deep beneath the surface allows you to summon a hungering mouth.
 		The mouth has %d bonus life, lasts for %d turns, and deals no damage.
 		Each turn the mouth will draw all enemies in radius 10 2 spaces towards itself.
-		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[Your affinity with things that dwell deep beneath the surface allows you to summon a hungering mouth.
-		The mouth has %d bonus life, lasts for %d turns, and deals no damage.
-		Each turn the mouth will draw all enemies in radius 10 2 spaces towards itself.
-		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], "tformat")
+		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[Votre affinité avec les choses qui habitent au plus profond de la surface vous permet d'invoquer une bouche affamée.
+		La bouche a %d de vie bonus, dure %d tours, et n'inflige aucun dégât.
+		Chaque tour, la bouche attire tous les ennemis dans un rayon de 10 cases de 2 cases vers elle.
+		Son bonus de vie est proportionnel à votre Constitution et du niveau du talent. De nombreuses autres stats évoluent avec le niveau.]], "tformat")
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
-For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "_t")
-t("krog", "krog", "talent type")
-t("Wrath of the Wilds", "Wrath of the Wilds", "talent name")
+Pour les Drems, cet effet s'active tant que la bouche affamée invoquée par Des Profondeurs, Elle Dévore est en vie.", "_t")
+t("Wrath of the Wilds", "Courroux Sauvage", "talent name")
 t([[You unleash the wrath of the wilds for 5 turns.
 		When you deal damage to a creature while wrath is active you have %d%% chance (100%% for the first creature hit each turn) to stun them for 3 turns.
 		This effect can only stun a creature once per turn.
-		Chance scales with your Constitution and apply power is the highest or your physical or mind power.]], [[You unleash the wrath of the wilds for 5 turns.
-		When you deal damage to a creature while wrath is active you have %d%% chance (100%% for the first creature hit each turn) to stun them for 3 turns.
-		This effect can only stun a creature once per turn.
-		Chance scales with your Constitution and apply power is the highest or your physical or mind power.]], "tformat")
-t("Drake-Infused Blood", "Drake-Infused Blood", "talent name")
-t("You must kill more enemies before you can use this talent!", "You must kill more enemies before you can use this talent!", "logPlayer")
-t("#GREEN#You can now change your elemental drake aspect", "#GREEN#You can now change your elemental drake aspect", "say")
-t("Fire Drake / Fire Resistance", "Fire Drake / Fire Resistance", "_t")
-t("Cold Drake / Cold Resistance", "Cold Drake / Cold Resistance", "_t")
-t("Storm Drake / Lightning Resistance", "Storm Drake / Lightning Resistance", "_t")
-t("Sand Drake / Physical Resistance (1/3rd values)", "Sand Drake / Physical Resistance (1/3rd values)", "_t")
-t("Wild Drake / Nature Resistance", "Wild Drake / Nature Resistance", "_t")
-t("Acid Drake / Acid Resistance", "Acid Drake / Acid Resistance", "_t")
-t("#LAST# #{italic}#(current)#{normal}#", "#LAST# #{italic}#(current)#{normal}#", "_t")
-t("Drake Aspect", "Drake Aspect", "_t")
-t("Choose an aspect to bring forth:", "Choose an aspect to bring forth:", "_t")
+		Chance scales with your Constitution and apply power is the highest or your physical or mind power.]], [[Vous déchaînez un courroux sauvage pendant 5 tours.
+		Lorsque vous infligez des dégâts à une créature pendant que le courroux est actif, vous avez %d%% de chance (100%% pour la première créature touchée à chaque tour) de l'assommer pendant 3 tours.
+		Cet effet ne peut assommer une créature qu'une fois par tour.
+		La chance est proportionnel à votre Constitution, et la puissance appliquée est la plus élevée entre votre puissance physique ou mentale.]], "tformat")
+t("Drake-Infused Blood", "Sang Infusé de Dragon", "talent name")
+t("You must kill more enemies before you can use this talent!", "Vous devez tuer davantage d'ennemis avant de pouvoir utiliser ce talent !", "logPlayer")
+t("#GREEN#You can now change your elemental drake aspect", "#GREEN#Vous pouvez désormais changer votre aspect élémentaire de dragon", "say")
+t("Fire Drake / Fire Resistance", "Dragon de Feu / Résistance au Feu", "_t")
+t("Cold Drake / Cold Resistance", "Dragon de Froid / Résistance au Froid", "_t")
+t("Storm Drake / Lightning Resistance", "Dragon de l'Orage / Résistance à la Foudre", "_t")
+t("Sand Drake / Physical Resistance (1/3rd values)", "Dragon de Sable / Résistance Physique (valeurs à 1/3)", "_t")
+t("Wild Drake / Nature Resistance", "Dragon Sauvage / Résistance à la Nature", "_t")
+t("Acid Drake / Acid Resistance", "Dragon de Venin / Résistance à l'Acide", "_t")
+t("Never mind", "Peu importe", "_t")
+t("#LAST# #{italic}#(current)#{normal}#", "#LAST# #{italic}#(actuel)#{normal}#", "_t")
+t("Drake Aspect", "Aspect de Dragon", "_t")
+t("Choose an aspect to bring forth:", "Choisissez un aspect à faire émerger :", "_t")
 t([[Since ziguranth removed those filthy magic runes from your body you have needed an alternative form of power to sustain your body. Thanks to drake blood you have found that power.
 		Your blood hardens yourself, passively increasing stun resistance by %d%%, %s resistance by %d%% and dealing %d %s damage on melee attacks.
 		You can activate this talent to change which drake aspect to bring forth, altering the elemental type of the bonus.
@@ -3687,49 +3676,55 @@ t([[Since ziguranth removed those filthy magic runes from your body you have nee
 
 		Changing your aspect requires combat experience, you may only do so after slaying 100 enemies (current %d).
 
-		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], [[Since ziguranth removed those filthy magic runes from your body you have needed an alternative form of power to sustain your body. Thanks to drake blood you have found that power.
-		Your blood hardens yourself, passively increasing stun resistance by %d%%, %s resistance by %d%% and dealing %d %s damage on melee attacks.
-		You can activate this talent to change which drake aspect to bring forth, altering the elemental type of the bonus.
-		The resistance and damage scales with your Willpower.
+		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], [[Depuis que les Zigurantes ont retiré ces immondes runes magiques de votre corps, vous avez eu besoin d'une forme alternative d'énergie pour soutenir votre corps. Grâce au sang de dragon, vous avez trouvé ce pouvoir.
+		Votre sang vous endurcit, augmentant passivement votre résistance à l'assommement de %d%%, votre résistance %s de %d%%, et infligeant %d dégâts %s lors des attaques de mêlée.
+		Vous pouvez activer ce talent pour changer l'aspect de dragon à faire émerger, modifiant le type élémentaire du bonus.
+		La résistance et les dégâts sont proportionnels à votre Volonté.
 
-		Changing your aspect requires combat experience, you may only do so after slaying 100 enemies (current %d).
+		Changer d'aspect requiert de l'expérience de combat ; vous ne pouvez le faire qu'après avoir tué 100 ennemis (actuellement %d).
 
-		When you learn this talent you become so strong you can wield any type of one handed weapon in your offhand.]], "tformat")
-t("Fuel Pain", "Fuel Pain", "talent name")
+		En apprenant ce talent, vous devenez si fort que vous pouvez manier n'importe quel type d'arme à une main dans votre main secondaire.]], "tformat")
+t("Fuel Pain", "Nourrir la Douleur", "talent name")
 t([[Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.
-		This effect has a cooldown of %d turns.]], [[Your body is used to pain. When you take a hit of 20%% or more of your max life one of your inscriptions is taken off cooldown and infusion saturation is removed.
-		This effect has a cooldown of %d turns.]], "tformat")
-t("Drakeblood Strike", "Drakeblood Strike", "talent name")
+		This effect has a cooldown of %d turns.]], [[Votre corps est habitué à la douleur. Lorsque vous subissez un coup de 20%% ou plus de votre vie maximale, l'une de vos inscriptions voit son temps de recharge annulé et la saturation d'infusion est retirée.
+		Cet effet a un temps de recharge de %d tours.]], "tformat")
+t("Drakeblood Strike", "Frappe de Sang de Dragon", "talent name")
 t([[You were created by ziguranth for one purpose only, to wage war on magic!
 			Strike your target dealing %d%% %s weapon damage and silencing them for %d turns.
 			The damage type will change with your drake aspect.
-			The chance to silence will increase with the highest of your physical or mind power.]], [[You were created by ziguranth for one purpose only, to wage war on magic!
-			Strike your target dealing %d%% %s weapon damage and silencing them for %d turns.
-			The damage type will change with your drake aspect.
-			The chance to silence will increase with the highest of your physical or mind power.]], "tformat")
-t("parasite", "parasite", "talent type")
-t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "_t")
-t("Take a Bite", "Take a Bite", "talent name")
-t("#Source# tries to bite #target#!", "#Source# tries to bite #target#!", "logCombat")
+			The chance to silence will increase with the highest of your physical or mind power.]], [[Vous avez été créé par les Zigurantes dans un seul but : mener la guerre contre la magie !
+			Frappez votre cible en infligeant %d%% dégâts %s d'arme et en la réduisant au silence pendant %d tours.
+			Le type de dégâts change selon votre aspect de dragon.
+			La chance de réduire au silence est proportionnel à la plus élevée de votre puissance physique ou mentale.]], "tformat")
+t("The various racial bonuses a character can have.. when its head is cut off and replaced with a parasite.", "Les divers bonus raciaux qu'un personnage peut posséder... quand sa tête est coupée et remplacée par un parasite.", "_t")
+t("Take a Bite", "Mordre", "talent name")
+t("#Source# tries to bite #target#!", "#Source# tente de mordre #Target# !", "logCombat")
+t("%s resists!", "%s résiste !", "logSeen")
 t([[You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.
 		If the target falls under 20%% life you have %d%% chances to outright kill it (bosses are immune).
 		Whenever you succesfully bite a foe you regenerate %0.1f life per turn for 5 turns.
-		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.]], [[You try to bite off your foe with your #{italic}#head#{normal}# for %d%% blight weapon damage.
-		If the target falls under 20%% life you have %d%% chances to outright kill it (bosses are immune).
-		Whenever you succesfully bite a foe you regenerate %0.1f life per turn for 5 turns.
-		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.]], "tformat")
-t("Ultra Instinct", "Ultra Instinct", "talent name")
+		Instant kill chances and regeneration increase with your Constitution stat and weapon damage increases with the highest of your Strength, Dexterity or Magic stat.]], [[Vous tentez de mordre votre ennemi avec votre #{italic}#tête#{normal}# pour %d%% dégâts d'arme de fléau.
+		Si la cible tombe sous 20%% de vie, vous avez %d%% de chance de la tuer sur-le-champ (les boss sont immunisés).
+		Chaque fois que vous mordez avec succès un ennemi, vous régénérez %0.1f de vie par tour pendant 5 tours.
+		Les chances de mise à mort instantanée et la régénération sont proportionnels à votre Constitution, et les dégâts d'arme sont proportionnels à la plus élevée de votre Force, Dextérité ou Magie.]], "tformat")
+t("Ultra Instinct", "Instinct Suprême", "talent name")
 t([[Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{normal}# your body reacts faster and better to aggressions.
-		Increases global speed by %d%%.]], [[Without the distraction of #{bold}#thoughts#{normal}# or #{bold}#self#{normal}# your body reacts faster and better to aggressions.
-		Increases global speed by %d%%.]], "tformat")
-t("Corrupting Influence", "Corrupting Influence", "talent name")
+		Increases global speed by %d%%.]], [[Sans la distraction des #{bold}#pensées#{normal}# ou du #{bold}#soi#{normal}#, votre corps réagit plus vite et mieux aux agressions.
+		Augmente la vitesse globale de %d%%.]], "tformat")
+t("Corrupting Influence", "Influence Corruptrice", "talent name")
 t([[The parasite corruption seeps into your body, strengthening it.
-		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], [[The parasite corruption seeps into your body, strengthening it.
-		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], "tformat")
-t("Horror Shell", "Horror Shell", "talent name")
+		Increases blight, darkness, temporal and acid resistances by %d%% but decreases nature and light resistances by %d%%.]], [[La corruption du parasite s'infiltre dans votre corps, le renforçant.
+		Augmente les résistances au fléau, aux ténèbres, au temporel et à l'acide de %d%%, mais diminue les résistances à la nature et à la lumière de %d%%.]], "tformat")
+t("Horror Shell", "Carapace d'Horreur", "talent name")
 t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
-		The total damage the shield can absorb increases with your Constitution.]], [[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
-		The total damage the shield can absorb increases with your Constitution.]], "tformat")
+		The total damage the shield can absorb increases with your Constitution.]], [[Crée une carapace autour de vous, absorbant %d dégâts. Dure 10 tours.
+		Les dégâts totaux que le bouclier peut absorber sont proportionnels à votre Constitution.]], "tformat")
+-- texte non traduit
+--[==[
+t("race", "race", "talent category")
+t("drem", "drem", "talent type")
+t("krog", "krog", "talent type")
+t("parasite", "parasite", "talent type")
 --]==]
 
 
@@ -3737,20 +3732,17 @@ t([[Creates a shell around you, absorbing %d damage. Lasts for 10 turns.
 section "tome-cults/data/talents/spell/necro.lua"
 
 t("The massive ribcage in the middle beats with loud, audible cracks, as many a skeletal hand protrude forth, entwining, fusing, forming long skeletal appendages to support itself, while others crumble and collapse inward. During all this, somehow, it seems they grasp for you.", "La cage thoracique massive au milieu bat avec des craquements forts et audibles, tandis que de nombreuses mains squelettiques sortent, s'entrelacent, fusionnent, formant de longs appendices squelettiques pour se soutenir, tandis que d'autres s'effritent et s'effondrent vers l'intérieur. Pendant tout cela, il semble qu'elles s'accrochent à vous.", "_t")
--- texte non traduit
---[==[
-t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "logSeen")
---]==]
-
+t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembling in the form of new skeletons!", "#VIOLET#Alors que l'horreur d'os est détruite, vous voyez les ossements restants se réassembler sous la forme de nouveaux squelettes !", "logSeen")
 
 ------------------------------------------------
 section "tome-cults/data/timed_effects.lua"
 
-t("other", "autre", "effect subtype")
+t("other", "Autre", "effect subtype")
 t("frenzy", "frénésie", "effect subtype")
 t("Frenzy", "Frénésie", "_t")
 t("bleed", "saignement", "effect subtype")
 t("blood", "sang", "effect subtype")
+t("Spikeskin", "Peau Épineuse", "_t")
 t("slime", "vase", "effect subtype")
 t("corrupted", "corrompu", "effect subtype")
 t("massive", "énorme", "effect subtype")
@@ -3763,6 +3755,7 @@ t("damage", "dégâts", "effect subtype")
 t("horror", "horreur", "effect subtype")
 t("blight", "fléau", "effect subtype")
 t("pain", "douleur", "effect subtype")
+t("tentacles", "Tentacules", "effect subtype")
 t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
 t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("darkness", "obscurité", "effect subtype")
@@ -3771,6 +3764,7 @@ t("stone", "pierre", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
+t("prophecy", "Prophétie", "effect subtype")
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d lié)#LAST#", "tformat")
 t("speed", "rapidité", "effect subtype")
 t("#Target# is moving at extreme speed!", "#Target# se déplace à une vitesse folle !", "_t")
@@ -3779,11 +3773,14 @@ t("#Target# is removed from time!", "#Target# est retiré du temps !", "_t")
 t("#Target# is returned to normal time.", "#Target# revient dans le temps normal.", "_t")
 t("disease", "maladie", "effect subtype")
 t("teleport", "téléportation", "effect subtype")
+t("Teleport: Kroshkkur", "Téléportation : Kroshkkur", "_t")
+t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur est détruit, il n'y a nulle part où se téléporter.", "log")
 t("You are yanked out of this place!", "Vous êtes expulsés de cet endroit !", "logPlayer")
 t("Space restabilizes around you.", "L'espace se réorganise autour de vous.", "logPlayer")
 t("book", "livre", "effect subtype")
 t("Forbidden Tome", "Grimoire Interdit", "_t")
-t("entropy", "l'entropie", "effect subtype")
+t("Wrath of the Wilds", "Courroux Sauvage", "_t")
+t("entropy", "entropie", "effect subtype")
 t("blind", "aveuglement", "effect subtype")
 t("Blinded", "Aveuglé", "_t")
 t("The target is blinded, unable to see anything.", "La cible est aveuglée, incapable de voir quoi que ce soit.", "_t")
@@ -3792,9 +3789,10 @@ t("+Blind", "+Aveuglé", "_t")
 t("#Target# recovers sight.", "#Target# retrouve la vue.", "_t")
 t("-Blind", "-Aveuglé", "_t")
 t("confusion", "confus", "effect subtype")
-t("madness", "folie", "effect subtype")
+t("madness", "Folie", "effect subtype")
 t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
+t("Glass Splinters", "Éclats de Verre", "_t")
 t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
 t("Shoes of Moving Slowly", "Chaussures du Mouvement Lent", "_t")
 t("armor", "armure", "effect subtype")
@@ -3807,7 +3805,6 @@ t("Black Blood Bleeding", "Black Blood Bleeding", "_t")
 t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "tformat")
 t("#Target# starts to bleed black blood.", "#Target# starts to bleed black blood.", "_t")
 t("#Target# stops bleeding black blood.", "#Target# stops bleeding black blood.", "_t")
-t("Spikeskin", "Spikeskin", "_t")
 t("Empowered by the sight of black blood, granting %d%% all resistances.", "Empowered by the sight of black blood, granting %d%% all resistances.", "tformat")
 t("Slimy Tendril", "Slimy Tendril", "_t")
 t("Caught in a slimy tendril, reducing all damage by %d%%.", "Caught in a slimy tendril, reducing all damage by %d%%.", "tformat")
@@ -3857,7 +3854,6 @@ t("#Target# has finished digesting.", "#Target# has finished digesting.", "_t")
 t("The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "logPlayer")
 t("The victim in your stomach finally dies from the painful agony.", "The victim in your stomach finally dies from the painful agony.", "logPlayer")
 t("torture", "torture", "effect subtype")
-t("tentacles", "tentacles", "effect subtype")
 t("leech", "leech", "effect subtype")
 t("Inner Tentacles", "Inner Tentacles", "_t")
 t("Life leech %d%% chance, %d%% power.", "Life leech %d%% chance, %d%% power.", "tformat")
@@ -3923,7 +3919,6 @@ t("#Target# is consumed by entropy!", "#Target# is consumed by entropy!", "_t")
 t("+Entropic Gift", "+Entropic Gift", "_t")
 t("#Target# has survived the entropic gift.", "#Target# has survived the entropic gift.", "_t")
 t("-Entropic Gift", "-Entropic Gift", "_t")
-t("prophecy", "prophecy", "effect subtype")
 t("Prophecy of Madness", "Prophecy of Madness", "_t")
 t("The target is doomed to madness. All talent cooldowns are increased by %d%%.", "The target is doomed to madness. All talent cooldowns are increased by %d%%.", "tformat")
 t("#Target# is doomed to madness!", "#Target# is doomed to madness!", "_t")
@@ -4011,9 +4006,7 @@ t("Defiled Blood", "Defiled Blood", "_t")
 t("Covered in defiled blood, healing the source for %d%% of all damage done.", "Covered in defiled blood, healing the source for %d%% of all damage done.", "tformat")
 t("#Target# is covered in black blood!", "#Target# is covered in black blood!", "_t")
 t("#Target# is clear from the black blood.", "#Target# is clear from the black blood.", "_t")
-t("Teleport: Kroshkkur", "Teleport: Kroshkkur", "_t")
 t("The target is waiting to be recalled back to Kroshkkur.", "The target is waiting to be recalled back to Kroshkkur.", "_t")
-t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "log")
 t("There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "log")
 t("Slowly transfered to a Forbidden Tome.", "Slowly transfered to a Forbidden Tome.", "_t")
 t("#Target# is entering a Forbidden Tome!", "#Target# is entering a Forbidden Tome!", "_t")
@@ -4021,7 +4014,6 @@ t("#Target# enters a Forbidden Tome!", "#Target# enters a Forbidden Tome!", "_t"
 t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "tformat")
 t("Forbidden Tome Cooldown", "Forbidden Tome Cooldown", "_t")
 t("Unable to enter Forbidden Tomes.", "Unable to enter Forbidden Tomes.", "_t")
-t("Wrath of the Wilds", "Wrath of the Wilds", "_t")
 t("%d%% chance to stun any foes hit.", "%d%% chance to stun any foes hit.", "tformat")
 t("protection", "protection", "effect subtype")
 t("Warborn", "Warborn", "_t")
@@ -4050,7 +4042,6 @@ t("Reduces all damage done by %d%% and increase all detrimental effects duration
 t("Lost in a weird place", "Lost in a weird place", "_t")
 t("The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "tformat")
 t("fail", "fail", "effect subtype")
-t("Glass Splinters", "Glass Splinters", "_t")
 t("Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "tformat")
 t("#Target# starts to bleed due to glass splinters.", "#Target# starts to bleed due to glass splinters.", "_t")
 t("will", "will", "effect subtype")

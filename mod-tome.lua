@@ -18947,7 +18947,7 @@ t("circles", "cercles", "talent type")
 t("Bind the power of the Moon into circles at your feet.", "Liez le pouvoir de la Lune dans des cercles à vos pieds.", "_t")
 t("eclipse", "éclipse", "talent type")
 t("The moment of the Eclipse is the moment of Truth, when Sun and Moon are in tandem and the energies of the world hang in the balance. Intense focus allows the greatest Anorithils to harness these energies to unleash devastating forces...", "Le moment de l'Éclipse est le moment de Vérité, quand le Soleil et la Lune sont de concert et que les énergies du monde sont en équilibre. Un focus intense permet aux plus grands Anorithils d'exploiter ces énergies pour libérer des forces dévastatrices...", "_t")
-t("other", "autre", "talent type")
+t("other", "Autre", "talent type")
 t("Other celestial powers.", "Autres pouvoirs célestes.", "_t")
 t("Various celestial talents.", "Talents célestes variés.", "_t")
 t("Dirges", "Chants Funèbre", "talent type")
@@ -19870,7 +19870,7 @@ t("Spacetime Weaving", "Tissage d'Espace-Temps", "talent type")
 t("Weave the threads of spacetime.", "Tissez les fils de l'espace-temps.", "_t")
 t("Manifold", "Multiplicité", "talent type")
 t("Passive effects that Weapon Folding can trigger.", "Effets passifs que le Repli d'Arme peut déclencher.", "_t")
-t("Other", "autre", "talent type")
+t("Other", "Autre", "talent type")
 t("Miscellaneous Chronomancy effects.", "Effets de chronomancie divers.", "_t")
 t("Age Manipulation", "Manipulation de l'Âge", "talent type")
 t("Manipulate the age of creatures you encounter.", "Manipulez l'âge des créatures que vous rencontrez.", "_t")
@@ -22090,19 +22090,19 @@ t([[Feed from the essence of your enemy. Draws %0.1f hate per turn from a target
 			If you aren't already feeding this will be automatically applied to the nearest enemy.
 		Hate gain improves with your Mindpower.]], [[Se nourrit de l'essence de votre ennemi. Draine %0.1f haine par tour à un ennemi ciblé, tant qu'il reste dans votre ligne de vue.
 		Si vous ne vous nourrissez pas déjà, cela s'appliquera automatiquement à l'ennemi le plus proche.
-		Le gain de haine est proportionel à votre Puissance Mentale.]], "tformat")
+		Le gain de haine est proportionnel à votre Puissance Mentale.]], "tformat")
 t("Devour Life", "Dévorer la Vie", "talent name")
 t([[Devours life from the target of your feeding reducing their life regeneration by %d and adding half of that to yours.
 		Improves with your Mindpower.]], [[Améliore votre alimentation en réduisant la régénération de vie de l'ennemi de %d et en ajoutant la moitié de cette valeur à la vôtre.
-		Est proportionel à votre Puissance Mentale.]], "tformat")
+		Est proportionnel à votre Puissance Mentale.]], "tformat")
 t("Feed Power", "Dévorer la Puissance", "talent name")
 t([[Enhances your feeding by reducing your targeted foe's damage by %d%%, and increasing yours by the same amount.
 		Improves with your Mindpower.]], [[Améliore votre alimentation en réduisant les dégâts de l'ennemi ciblé de %d%%, et en augmentant les vôtres de la même proportion.
-		Est proportionel à votre Puissance Mentale.]], "tformat")
+		Est proportionnel à votre Puissance Mentale.]], "tformat")
 t("Feed Strengths", "Dévorer les Forces", "talent name")
 t([[Enhances your feeding by reducing your targeted foe's resistances, multiplying them by %0.2f and increasing your resistances by the amount drained. Resistance to "all" is not affected.
 		Improves with your Mindpower.]], [[Améliore votre alimentation en réduisant les résistances de l'ennemi ciblé, les multipliant par %0.2f et en augmentant vos résistances du montant drainé. La résistance "globale" n'est pas affectée.
-		Est proportionel à votre Puissance Mentale.]], "tformat")
+		Est proportionnel à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/darkness.lua"
@@ -22146,7 +22146,7 @@ t([[When you focus your attacks on a single foe and strike them in melee for two
 		Bonus niveau 1 : +%d Précision, +%d%% dégâts de mêlée, +%0.2f haine/tour où la proie est touchée
 		Bonus niveau 2 : +%d Précision, +%d%% dégâts de mêlée, +%0.2f haine/tour où la proie est touchée
 		Bonus niveau 3 : +%d Précision, +%d%% dégâts de mêlée, +%0.2f haine/tour où la proie est touchée
-		Le bonus de Précision est proportionel à votre Volonté, et le bonus de dégâts de mêlée à votre Force.]], "tformat")
+		Le bonus de Précision est proportionnel à votre Volonté, et le bonus de dégâts de mêlée à votre Force.]], "tformat")
 t("Harass Prey", "Harceler la Proie", "talent name")
 t("#F53CBE#%s's %s is disrupted!", "#F53CBE#%s voit son talent %s perturbé !", "logSeen")
 t([[Harass your stalked victim with two quick attacks for %d%% (at 0 Hate) to %d%% (at 100+ Hate) damage each. Each attack that scores a hit disrupts one talent, rune or infusion for %d turns. Your opponent will be unnerved by the attacks, reducing the damage they deal by %d%% for %d turns.
@@ -23898,7 +23898,7 @@ t("wild-gift", "don sauvage", "talent category")
 t("spell", "sort", "talent category")
 t("horror spells", "sorts d'horreur", "talent type")
 t("Spell talents of the various horrors of the world.", "Talents magiques des diverses horreurs du monde.", "_t")
-t("other", "autre", "talent category")
+t("other", "Autre", "talent category")
 t("horror powers", "pouvoirs d'horreur", "talent type")
 t("Unclassified talents of the various horrors of the world.", "Talents non classés des diverses horreurs du monde.", "_t")
 t("Frenzied Bite", "Morsure frénétique", "talent name")
@@ -24264,13 +24264,13 @@ t("runes", "runes", "talent type")
 ------------------------------------------------
 section "mod-tome/data/talents/misc/npcs.lua"
 
-t("other", "autre", "talent type")
+t("other", "Autre", "talent type")
 t("Talents of the various entities of the world.", "Talents des diverses entités du monde.", "_t")
 t("chronomancy", "chronomancie", "talent category")
 t("spell", "sort", "talent category")
 t("wild-gift", "don sauvage", "talent category")
 t("psionic", "psionique", "talent category")
-t("other", "autre", "talent category")
+t("other", "Autre", "talent category")
 t("undead", "mort-vivant", "talent category")
 t("keepsake shadow", "ombre souvenir", "talent type")
 t("Keepsake shadows's innate abilities.", "Capacités innées des ombres souvenir.", "_t")
@@ -24729,7 +24729,7 @@ t("Yiilkgur abilities.", "Capacités de Yiilkgur.", "_t")
 t("spell", "sort", "talent category")
 t("object spells", "sorts d'objets", "talent type")
 t("Spell abilities of the various objects of the world.", "Sorts des divers objets du monde.", "_t")
-t("other", "autre", "talent category")
+t("other", "Autre", "talent category")
 t("object powers", "pouvoirs d'objets", "talent type")
 t("Abilities of the various objects of the world.", "Capacités des divers objets du monde.", "_t")
 t("object techniques", "techniques d'objets", "talent type")
@@ -25852,7 +25852,7 @@ t("voracity", "voracité", "talent type")
 t("Pull energy from your surroundings.", "Extrayez de l'énergie de votre environnement.", "_t")
 t("finer energy manipulations", "manipulations énergétiques précise", "talent type")
 t("Subtle applications of the psionic arts.", "Applications subtiles des arts psioniques.", "_t")
-t("other", "autre", "talent type")
+t("other", "Autre", "talent type")
 t("Various psionic talents.", "Divers talents psioniques.", "_t")
 t("kinetic mastery", "maîtrise cinétique", "talent type")
 t("Mastery of telekinetic forces.", "Maîtrise des forces télécinétiques.", "_t")
@@ -28442,7 +28442,7 @@ t("Dual Weapon Mastery", "Maîtrise à Deux Armes", "talent name")
 t([[Your offhand weapon damage penalty is reduced to %d%%.
 		Up to %0.1f times a turn, you have a %d%% chance to parry up to %d damage (based on your offhand weapon damage) from a melee or ranged attack.  The number of parries increases with your Cunning.  (A fractional parry has a reduced chance to succeed.)
 		A successful parry reduces damage like armour (before any attack multipliers) and prevents critical strikes.  It is difficult to parry attacks from unseen attackers and you cannot parry with a mindstar.]], [[La pénalité de dégâts de votre arme secondaire est réduite à %d%%.
-		Jusqu'à %0.1f fois par tour, vous avez %d%% de chance de parer jusqu'à %d dégâts (basé sur les dégâts de votre arme secondaire) d'une attaque de mêlée ou à distance. Le nombre de parades est proportionel à votre Ruse. (Une parade partielle a une chance de succès réduite.)
+		Jusqu'à %0.1f fois par tour, vous avez %d%% de chance de parer jusqu'à %d dégâts (basé sur les dégâts de votre arme secondaire) d'une attaque de mêlée ou à distance. Le nombre de parades est proportionnel à votre Ruse. (Une parade partielle a une chance de succès réduite.)
 		Une parade réussie réduit les dégâts comme une armure (avant tout multiplicateur d'attaque) et empêche les coups critiques. Il est difficile de parer les attaques d'adversaires invisibles et vous ne pouvez pas parer avec une Étoile d'Âme.]], "tformat")
 t([[The flow of battle invigorates you, allowing you to press your advantage as the fight progresses.
 		Up to once each per turn, while dual wielding, you may:
@@ -29787,7 +29787,7 @@ t("dexterity", "dextérité", "talent type")
 t("magic", "magie", "talent type")
 t("willpower", "volonté", "talent type")
 t("cunning", "ruse", "talent type")
-t("other", "autre", "talent type")
+t("other", "Autre", "talent type")
 -- texte non traduit
 --[==[
 t("constitution", "constitution", "talent type")
@@ -34015,7 +34015,7 @@ t("#Target# is writhing in agony!", "#Target# se tord d'agonie !", "_t")
 t("+Agony", "+Agonie", "_t")
 t("#Target# is no longer writhing in agony.", "#Target# ne se tord plus d'agonie.", "_t")
 t("-Agony", "-Agonie", "_t")
-t("madness", "folie", "effect subtype")
+t("madness", "Folie", "effect subtype")
 t("Hateful Whisper", "Chuchotement Pernicieux", "_t")
 t("%s has heard the hateful whisper.", "%s a entendu un chuchotement pernicieux.", "tformat")
 t("#Target# has heard the hateful whisper!", "#Target# a entendu un chuchotement pernicieux !", "_t")
@@ -34736,7 +34736,7 @@ t("Your arcane powers are disrupted by your antimagic equipment.  Arcane talents
 t("prodigy", "prodige", "effect subtype")
 t("Swift Hands", "Mains Agiles", "_t")
 t("You swaped an item without taking time this turn.", "Tu as permuté un objet sans utiliser de temps lors de ce tour.", "_t")
-t("madness", "folie", "effect subtype")
+t("madness", "Folie", "effect subtype")
 t("Hunter!", "Chasseur !", "_t")
 t("Knows where you are!", "Connaît votre position !", "_t")
 t("Through The Crowd", "À Travers la Foule", "_t")
