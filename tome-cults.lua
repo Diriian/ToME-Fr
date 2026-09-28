@@ -2682,136 +2682,121 @@ t("#SLATE#* You have to destroy the Worm's neural spine.#WHITE#", "#SLATE#* Vous
 ------------------------------------------------
 section "tome-cults/data/talents/demented/beyond-sanity.lua"
 
-
--- texte non traduit
---[==[
-t("Chaos Orbs", "Chaos Orbs", "talent name")
+t("Chaos Orbs", "Orbes du Chaos", "talent name")
 t([[You harness the chaos created by high insanity.
 		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
-		Each orb increases your damage by 3%% and can stack up to %d.]], [[You harness the chaos created by high insanity.
-		Each time you trigger an insanity chaotic effect with a power higher than %d or lower than -%d you gain a chaos orb for 10 turns (this effect can only happen once per turn).
-		Each orb increases your damage by 3%% and can stack up to %d.]], "tformat")
-t("Anarchic Walk", "Anarchic Walk", "talent name")
-t("You require at least two chaos orbs.", "You require at least two chaos orbs.", "logPlayer")
+		Each orb increases your damage by 3%% and can stack up to %d.]], [[Vous exploitez le chaos créé par une haute folie.
+		Chaque fois que vous déclenchez un effet chaotique de folie avec une puissance supérieure à %d ou inférieure à -%d, vous gagnez un orbe du chaos pendant 10 tours (cet effet ne peut se produire qu'une fois par tour).
+		Chaque orbe augmente vos dégâts de 3%% et peut s'accumuler jusqu'à %d fois.]], "tformat")
+t("Anarchic Walk", "Marche Anarchique", "talent name")
+t("You require at least two chaos orbs.", "Vous avez besoin d'au moins deux orbes du chaos.", "logPlayer")
 t([[You consume the chaotic forces of 2 chaos orbs, randomly teleporting you in a general direction up to %d tiles away.
-		You will always travel at least %d tiles away if possible.]], [[You consume the chaotic forces of 2 chaos orbs, randomly teleporting you in a general direction up to %d tiles away.
-		You will always travel at least %d tiles away if possible.]], "tformat")
-t("Disjointed Mind", "Disjointed Mind", "talent name")
-t("You require at least one chaos orb.", "You require at least one chaos orb.", "logPlayer")
-t("%s resists the chaotic mental assault!", "%s resists the chaotic mental assault!", "logSeen")
+		You will always travel at least %d tiles away if possible.]], [[Vous consommez les forces chaotiques de 2 orbes du chaos, vous téléportant aléatoirement dans une direction générale jusqu'à %d cases de distance.
+		Vous voyagerez toujours d'au moins %d cases de distance si possible.]], "tformat")
+t("Disjointed Mind", "Esprit Disloqué", "talent name")
+t("You require at least one chaos orb.", "Vous avez besoin d'au moins un orbe du chaos.", "logPlayer")
+t("%s resists the chaotic mental assault!", "%s résiste à l'assaut mental chaotique !", "logSeen")
 t([[You trigger an explosion of your chaos orbs on a target.
 		The orbs do no damage but confuse it for %d turns with a confusion power of 10%% per orb.
 		Your effective spellpower used to overcome the target's mental save is also increased by 10%% per orb.
-		All your orbs are always spent.]], [[You trigger an explosion of your chaos orbs on a target.
-		The orbs do no damage but confuse it for %d turns with a confusion power of 10%% per orb.
-		Your effective spellpower used to overcome the target's mental save is also increased by 10%% per orb.
-		All your orbs are always spent.]], "tformat")
-t("Controlled Chaos", "Controlled Chaos", "talent name")
+		All your orbs are always spent.]], [[Vous déclenchez une explosion de vos orbes du chaos sur une cible.
+		Les orbes n'infligent aucun dégât, mais confondent la cible pendant %d tours avec une puissance de confusion de 10%% par orbe.
+		Votre puissance des sorts effective utilisée pour surmonter la sauvegarde mentale de la cible est également augmentée de 10%% par orbe.
+		Tous vos orbes sont toujours dépensés.]], "tformat")
+t("Controlled Chaos", "Chaos Contrôlé", "talent name")
 t([[You lean to alter chaotic forces to your advantage.
 		Your maximum negative insanity effect is reduced from 50%% to %d%%.
-		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[You lean to alter chaotic forces to your advantage.
-		Your maximum negative insanity effect is reduced from 50%% to %d%%.
-		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], "tformat")
---]==]
-
+		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[Vous apprenez à altérer les forces chaotiques à votre avantage.
+		Votre effet maximal de folie négative est réduit de 50%% à %d%%.
+		Vous pouvez activer ce talent pour consommer tous les Orbes du Chaos que vous possédez, gagnant %d de folie par orbe.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/calamity.lua"
 
-
--- texte non traduit
---[==[
-t("Jinxed Touch", "Jinxed Touch", "talent name")
+t("Jinxed Touch", "Toucher de la Guigne", "talent name")
 t([[Your touch carries an entropic curse, marking your victims for a terrible fate. Each time you deal damage to a target, they are Jinxed for 5 turns. This stacks up to 10 times, reducing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[Your touch carries an entropic curse, marking your victims for a terrible fate. Each time you deal damage to a target, they are Jinxed for 5 turns. This stacks up to 10 times, reducing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], "tformat")
-t("Preordain", "Preordain", "talent name")
-t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "tformat")
-t("Luckdrinker", "Luckdrinker", "talent name")
+			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[Votre toucher porte une malédiction entropique, marquant vos victimes d'un destin terrible. Chaque fois que vous infligez des dégâts à une cible, vous appliquez Guigne pendant 5 tours. Cet effet s'accumule jusqu'à 10 fois, réduisant les sauvegardes et la défense de %0.2f et la chance de coup critique de %0.2f%%.
+			Ceci ne peut être appliqué qu'une fois par cible et par tour, et se dissipera entièrement si vous perdez la ligne de vue de votre cible pendant plus de 2 tours.]], "tformat")
+t("Preordain", "Préordonner", "talent name")
+t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "Vous altérez subtilement le cours des événements pour infliger davantage de malheur à vos ennemis. Chaque cumul de Guigne au-delà de 6 fera également subir à l'ennemi %d%% de chance d'échouer l'utilisation d'un talent.", "tformat")
+t("Luckdrinker", "Buveur de Chance", "talent name")
 t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
-		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], "tformat")
-t("Fatebreaker", "Fatebreaker", "talent name")
+		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[Chaque fois que vous appliquez Guigne à un ennemi, vous avez %d%% de chance de siphonner une partie de sa chance à votre profit pendant 5 tours. Cet effet s'accumule jusqu'à 10 fois, augmentant vos sauvegardes et votre défense de %0.2f et votre chance de coup critique de %0.2f%%.
+		Si vous connaissez Préordonner, les cumuls au-delà de 6 accordent également %d%% de chance d'éviter entièrement les dégâts reçus.]], "tformat")
+t("Fatebreaker", "Briseur de Destin", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
 		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.
-		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
-		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.
-		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], "tformat")
---]==]
-
+		Any Fortune stacks you have and any Jinx stacks the enemy have will then be consumed to heal you for %d life per stack.]], [[Vous formez un lien entre vous et la cible choisie pendant %d tours, liant vos destins ensemble. Si durant cette période vous subissez des dégâts fatals, vous déformez réflexivement la réalité, mettant fin à l'effet et tentant de forcer la cible à mourir à votre place.
+		Tant que votre cible reste en vie, ceci redirige vers elle tous les dégâts que vous subissez, sous forme de dégâts temporels et d'obscurité, pendant 1 tour.
+		Tous vos cumuls de Fortune et tous les cumuls de Guigne de l'ennemi sont alors consommés pour vous soigner de %d point(s) de vie par cumul.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/chronophage.lua"
 
+t("Atrophy", "Atrophie", "talent name")
 t("%s has been cut from the timeline!", "%s a été coupé de la ligne temporelle !", "logSeen")
+t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns, stacking up to %d times.
+			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[Vous êtes entouré d'un vortex d'énergie entropique qui se nourrit des lignes temporelles d'autrui. Chaque fois que vous lancez un sort, des cibles aléatoires dans un rayon de 10 cases se mettent à vieillir et à se décomposer rapidement, réduisant toutes leurs caractéristiques de %d pendant 8 tours, s'accumulant jusqu'à %d fois.
+			Jusqu'à %d cumuls au total seront appliqués aux ennemis à chaque lancement, avec un maximum de 2 cumuls sur une même cible.]], "tformat")
+t("Severed Threads", "Fils Rompus", "talent name")
+t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "En appliquant Atrophie à une cible en dessous de %d%% de sa vie maximale, vous sectionnerez son fil de vie, la tuant instantanément. Vous vous repaîtrez ensuite des vestiges de sa ligne temporelle pendant %d tours, augmentant votre régénération de vie de %0.1f et faisant en sorte que les talents sans temps de recharge fixe se rechargent deux fois plus vite.", "tformat")
+t("Temporal Feast", "Festin Temporel", "talent name")
+t([[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn.
+			The highest atrophy stack found will be used for the spell speed calculation.]], [[Vous buvez plus profondément à la ligne temporelle d'autrui. Chaque fois que vous appliquez Atrophie, vous gagnez %0.1f%% de vitesse de sort par cumul d'atrophie sur la cible, et lui faites perdre %d%% d'un tour.
+			Le cumul d'atrophie le plus élevé trouvé sera utilisé pour le calcul de la vitesse de sort.]], "tformat")
+t("#GREEN#You gain %.1f turns!", "#GREEN#Vous gagnez %.1f tours !", "say")
+t([[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal damage to all targets within radius %d. Any atrophy stacks will be consumed to steal time from your victims, inflicting an additional %0.2f temporal damage and granting you %d%% of a turn per stack (but no more than 3 turns).
+		The damage will scale with your Spellpower.]], [[Vous brisez le continuum spatio-temporel autour de vous, infligeant %0.2f dégâts temporels à toutes les cibles dans un rayon de %d cases. Tous les cumuls d'atrophie seront consommés pour voler du temps à vos victimes, infligeant %0.2f dégâts temporels supplémentaires et vous accordant %d%% d'un tour par cumul (mais pas plus de 3 tours).
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 -- texte non traduit
 --[==[
-t("Atrophy", "Atrophy", "talent name")
-t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns, stacking up to %d times.
-			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns, stacking up to %d times.
-			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], "tformat")
-t("Severed Threads", "Severed Threads", "talent name")
-t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "tformat")
-t("Temporal Feast", "Temporal Feast", "talent name")
-t([[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn.
-			The highest atrophy stack found will be used for the spell speed calculation.]], [[You drink deeper from the timeline of others. Each time you apply atrophy you gain %0.1f%% spell speed per atrophy stack on the target and cause them to lose %d%% of a turn.
-			The highest atrophy stack found will be used for the spell speed calculation.]], "tformat")
 t("Terminus", "Terminus", "talent name")
-t("#GREEN#You gain %.1f turns!", "#GREEN#You gain %.1f turns!", "say")
-t([[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal damage to all targets within radius %d. Any atrophy stacks will be consumed to steal time from your victims, inflicting an additional %0.2f temporal damage and granting you %d%% of a turn per stack (but no more than 3 turns).
-		The damage will scale with your Spellpower.]], [[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal damage to all targets within radius %d. Any atrophy stacks will be consumed to steal time from your victims, inflicting an additional %0.2f temporal damage and granting you %d%% of a turn per stack (but no more than 3 turns).
-		The damage will scale with your Spellpower.]], "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/controlled-horrors.lua"
 
-t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "Une créature ronde, sans tête, avec des jambes et des bras trapus.  Son corps semble être composé uniquement de dents.", "_t")
+t("Decayed Devourers", "Dévoreurs Putrides", "talent name")
+t("Not enough space to invoke your horror!", "Pas assez d'espace pour invoquer votre horreur !", "logPlayer")
+t("decaying devourer", "dévoreur putride", "_t")
+t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "Une créature ronde, sans tête, avec des jambes et des bras trapus. Son corps semble être composé uniquement de dents.", "_t")
 t("Summon", "Invocation", "_t")
-t("bloated horror", "horreur bouffie", "_t")
-t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "Une forme humanoïde bulbeuse flotte ici. Sa tête chauve, semblable à celle d'un enfant, est disproportionnée par rapport à son corps, et sa peau est marquée de vilaines plaies rouges.", "_t")
-t("Call of Amakthel", "Appel d'Amakthel", "talent name")
--- texte non traduit
---[==[
-t("Decayed Devourers", "Decayed Devourers", "talent name")
-t("Not enough space to invoke your horror!", "Not enough space to invoke your horror!", "logPlayer")
-t("decaying devourer", "decaying devourer", "_t")
 t([[You use your bond with horrors to summon three decaying devourers for %d turns.
 The decaying horrors cannot move and will attack all hostile creatures around them. They possess the talents Bloodbath, Gnashing Teeth and Frenzied Bite.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
-Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[You use your bond with horrors to summon three decaying devourers for %d turns.
-The decaying horrors cannot move and will attack all hostile creatures around them. They possess the talents Bloodbath, Gnashing Teeth and Frenzied Bite.
-All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
-Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], "tformat")
-t("Decayed Bloated Horror", "Decayed Bloated Horror", "talent name")
+Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[Vous usez de votre lien avec les horreurs pour invoquer trois dévoreurs putrides pour %d tours.
+Les horreurs putrides ne peuvent pas se déplacer et attaqueront toutes les créatures hostiles autour d'elles. Elles possèdent les talents Bain de Sang, Dents Grinçantes et Morsure Frénétique.
+Toutes leurs caractéristiques primaires seront fixées à %d (basé sur votre Magie), leur rendement de vie augmentée de %d, et tous leurs niveaux de talent fixés à %d. De nombreuses autres statistiques évolueront avec le niveau.
+Vos statistiques de dégâts accrus, de pénétration des dégâts, de chance de coup critique et de multiplicateur de coup critique seront toutes héritées.]], "tformat")
+t("Decayed Bloated Horror", "Horreur Boursouflée Putride", "talent name")
+t("bloated horror", "horreur bouffie", "_t")
+t("A bulbous humanoid form floats here. Its bald, child-like head is disproportionately large compared to its body, and its skin is pock-marked with nasty red sores.", "Une forme humanoïde bulbeuse flotte ici. Sa tête chauve, semblable à celle d'un enfant, est disproportionnée par rapport à son corps, et sa peau est marquée de vilaines plaies rouges.", "_t")
 t([[You use your bond with horrors to summon a decaying bloated horror for %d turns.
 The decaying horror cannot move and will attack all hostile creatures in range of it. It possesses the talents Mind Disruption and Mind Sear.
 All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
 Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.
-		]], [[You use your bond with horrors to summon a decaying bloated horror for %d turns.
-The decaying horror cannot move and will attack all hostile creatures in range of it. It possesses the talents Mind Disruption and Mind Sear.
-All its primary stats will be set to %d (based on your Magic stat), life rating increased by %d, and all talent levels set to %d.  Many other stats will scale with level.
-Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.
-		]], "tformat")
-t("Horrific Display", "Horrific Display", "talent name")
-t("%s resists the horrific assault!", "%s resists the horrific assault!", "logSeen")
+		]], [[Vous usez de votre lien avec les horreurs pour invoquer une horreur boursouflée putride pendant %d tours.
+L'horreur putride ne peut pas se déplacer et attaquera toutes les créatures hostiles à sa portée. Elle possède les talents Perturbation Mentale et Brûlure Mentale.
+Toutes ses caractéristiques primaires seront fixées à %d (basé sur votre Magie), son rendement de vie augmentée de %d, et tous ses niveaux de talent fixés à %d. De nombreuses autres statistiques évolueront avec le niveau.
+Vos statistiques de dégâts accrus, de pénétration des dégâts, de chance de coup critique et de multiplicateur de coup critique seront toutes héritées.]], "tformat")
+t("Horrific Display", "Manifestation Horrible", "talent name")
+t("%s resists the horrific assault!", "%s résiste à l'assaut horrible !", "logSeen")
 t([[You forcefully try to turn a creature into an horror.
 If the target fails a magical save against your Spellpower, its appearance turns into that of a horror for %d turns, making all other creatures hostile to it.
 Enemies near the target will have their target cleared on application.
-This spell does not work on horrors.]], [[You forcefully try to turn a creature into an horror.
-If the target fails a magical save against your Spellpower, its appearance turns into that of a horror for %d turns, making all other creatures hostile to it.
-Enemies near the target will have their target cleared on application.
-This spell does not work on horrors.]], "tformat")
+This spell does not work on horrors.]], [[Vous tentez de force de transformer une créature en horreur.
+Si la cible échoue à une sauvegarde magique contre votre Puissance des Sorts, son apparence se change en celle d'une horreur pendant %d tours, rendant toutes les autres créatures hostiles envers elle.
+Les ennemis proches de la cible verront leur cible actuelle effacée lors de l'application.
+Ce sort ne fonctionne pas sur les horreurs.]], "tformat")
+t("Call of Amakthel", "Appel d'Amakthel", "talent name")
 t([[You attune your horrors to the dead god Amakthel, increasing your summoned horrors damage by %d%%.
 At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
-The damage increase is based on your Spellpower.]], [[You attune your horrors to the dead god Amakthel, increasing your summoned horrors damage by %d%%.
-At talent level 3, your Decaying Devourers spell will summon 4 additional Devourers adjacent to random enemies nearby and your Bloated Horror will learn the Agony talent.
-At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
-The damage increase is based on your Spellpower.]], "tformat")
---]==]
-
+The damage increase is based on your Spellpower.]], [[Vous accordez vos horreurs au dieu mort Amakthel, augmentant les dégâts de vos horreurs invoquées de %d%%.
+Au niveau de talent 3, votre sort Dévoreurs Putrides invoquera 4 Dévoreurs supplémentaires adjacents à des ennemis aléatoires à proximité, et votre Horreur Boursouflée apprendra le talent Agonie.
+Au niveau de talent 5, les victimes de votre sort Manifestation Horrible attireront les ennemis dans un rayon de 10 cases d'une case vers elles à chaque tour.
+L'augmentation de dégâts est basée sur votre Puissance Magique.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/demented.lua"
@@ -2867,162 +2852,146 @@ t("Talents of the various entities of the world.", "Talents des diverses entité
 ------------------------------------------------
 section "tome-cults/data/talents/demented/disfigured-face.lua"
 
-
--- texte non traduit
---[==[
-t("Diseased Tongue", "Diseased Tongue", "talent name")
+t("Diseased Tongue", "Langue Malade", "talent name")
 t([[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{normal}# enemies in a cone.
 		Licked creatures take %d%% tentacle damage that ignores armor and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.
 		
 		If at least one enemy is hit you gain %d insanity.
 		
-		Disease damage will increase with your Spellpower.]], [[Your tongue turns into a diseased tentacle that you use to #{italic}#lick#{normal}# enemies in a cone.
-		Licked creatures take %d%% tentacle damage that ignores armor and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.
+		Disease damage will increase with your Spellpower.]], [[Votre langue se transforme en un tentacule malade que vous utilisez pour #{italic}#lécher#{normal}# les ennemis dans un cône.
+		Les créatures léchées subissent %d%% dégâts de tentacule qui ignorent l'armure, et tombent malades, contractant une maladie aléatoire pendant %d tours qui inflige %0.2f dégâts de fléau par tour et réduit la Force, la Dextérité ou la Constitution de %d.
 		
-		If at least one enemy is hit you gain %d insanity.
+		Si au moins un ennemi est touché, vous gagnez %d folie.
 		
-		Disease damage will increase with your Spellpower.]], "tformat")
-t("Dissolved Face", "Dissolved Face", "talent name")
+		Les dégâts de maladie sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Dissolved Face", "Visage Dissous", "talent name")
 t([[Your face melts, exploding in a targeted gush of blood and gore dealing %0.2f darkness damage (%0.2f total) in a cone over 5 turns.
 		Each turn the target will be dealt an additional %0.2f blight damage per disease.
-		Damage will increase with your Spellpower.]], [[Your face melts, exploding in a targeted gush of blood and gore dealing %0.2f darkness damage (%0.2f total) in a cone over 5 turns.
-		Each turn the target will be dealt an additional %0.2f blight damage per disease.
-		Damage will increase with your Spellpower.]], "tformat")
-t("Writhing Hairs", "Writhing Hairs", "talent name")
+		Damage will increase with your Spellpower.]], [[Votre visage fond, explosant en un jet ciblé de sang et de viscères, infligeant %0.2f dégâts d'obscurité (%0.2f au total) dans un cône sur 5 tours.
+		Chaque tour, la cible subira %0.2f dégâts de fléau supplémentaires par maladie.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Writhing Hairs", "Cheveux Grouillants", "talent name")
 t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
 		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
 		This cannot be saved against.
-		]], [[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
-		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
-		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
-		This cannot be saved against.
-		]], "tformat")
-t("Glimpse of True Horror", "Glimpse of True Horror", "talent name")
+		]], [[Pendant un bref instant, d'horribles cheveux poussent sur votre tête, chacun se terminant par un oeil inquiétant.
+		Vous utilisez ces yeux pour fixer une zone ciblée ; les créatures prises à l'intérieur se transforment partiellement en pierre, réduisant leur vitesse de déplacement de %d%% et les rendant fragiles pendant 7 tours.
+		Les cibles fragiles ont 35%% de chance que tout dégât qu'elles subissent soit augmenté de %d%%.
+		Cet effet ne peut être évité par une sauvegarde.]], "tformat")
+t("Glimpse of True Horror", "Aperçu de la Véritable Horreur", "talent name")
 t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
 		If the affected targets fail a spell save they become frightened for 2 turns, giving them a %d%% chances to fail using talents.
 		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
-		The values will increase with your Spellpower.]], [[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
-		If the affected targets fail a spell save they become frightened for 2 turns, giving them a %d%% chances to fail using talents.
-		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
-		The values will increase with your Spellpower.]], "tformat")
---]==]
-
+		The values will increase with your Spellpower.]], [[Chaque fois que vous utilisez un pouvoir de Visage Défiguré, vous offrez un aperçu de ce qu'est la Véritable Horreur.
+		Si les cibles affectées échouent à une sauvegarde de sort, elles deviennent effrayées pendant 2 tours, ce qui leur donne %d%% de chance d'échouer à utiliser leurs talents.
+		Lorsqu'une cible devient effrayée, contempler son angoisse vous fortifie, augmentant votre pénétration de dégâts d'obscurité et de fléau de %d%% pendant 2 tours.
+		Les valeurs sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/doom.lua"
 
-t("Grand Oration", "Grande Oraison", "talent name")
-t("None", "Aucune", "_t")
-t("Twofold Curse", "Malédiction Double", "talent name")
-t("Revelation", "Révélation", "talent name")
--- texte non traduit
---[==[
-t("Prophecy", "Prophecy", "talent name")
+t("Prophecy", "Prophétie", "talent name")
 t([[By bringing the forces of entropy to bear on a target, you prophesize their inevitable doom. Each point in this talent unlocks additional prophecies. A target can only be affected by a single prophecy at a time.
 Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%% of maximum life.
 Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
-Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[By bringing the forces of entropy to bear on a target, you prophesize their inevitable doom. Each point in this talent unlocks additional prophecies. A target can only be affected by a single prophecy at a time.
-Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%% of maximum life.
-Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
-Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], "tformat")
-t("Prophecy of Madness", "Prophecy of Madness", "talent name")
+Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[En faisant peser les forces de l'entropie sur une cible, vous prophétisez sa perte inévitable. Chaque point investi dans ce talent débloque des prophéties supplémentaires. Une cible ne peut être affectée que par une seule prophétie à la fois.
+Niveau 1 : Prophétie de la Ruine. Inflige %0.2f dégâts en passant sous 75%%, 50%% ou 25%% de la vie maximale.
+Niveau 3 : Prophétie de la Trahison. %d%% de chance chaque tour d'attaquer un allié ou elle-même.
+Niveau 5 : Prophétie de la Folie. Augmente les temps de rechargement des talents de %d%%.]], "tformat")
+t("Prophecy of Madness", "Prophétie de la Folie", "talent name")
 t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns.
-		A target can only be affected by a single prophecy at a time.]], [[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns.
-		A target can only be affected by a single prophecy at a time.]], "tformat")
-t("Prophecy of Ruin", "Prophecy of Ruin", "talent name")
+		A target can only be affected by a single prophecy at a time.]], [[Prononcez une prophétie de la folie imminente de votre cible, augmentant le temps de rechargement de tous ses talents de %d%% pendant 6 tours.
+		Une cible ne peut être affectée que par une seule prophétie à la fois.]], "tformat")
+t("Prophecy of Ruin", "Prophétie de la Ruine", "talent name")
 t([[Utter a prophecy of the impending demise of your target that lasts 6 turns.
 		Each time their life falls below 75%%, 50%% or 25%% of maximum the power of the prophecy will echo outwards, inflicting %0.2f darkness damage to them.
 		A target can only be affected by a single prophecy at a time.
-		The damage increase will increase with your Spellpower.]], [[Utter a prophecy of the impending demise of your target that lasts 6 turns.
-		Each time their life falls below 75%%, 50%% or 25%% of maximum the power of the prophecy will echo outwards, inflicting %0.2f darkness damage to them.
-		A target can only be affected by a single prophecy at a time.
-		The damage increase will increase with your Spellpower.]], "tformat")
-t("Prophecy of Treason", "Prophecy of Treason", "talent name")
-t("%s(%d treason)#LAST#", "%s(%d treason)#LAST#", "tformat")
+		The damage increase will increase with your Spellpower.]], [[Prononcez une prophétie de la mort imminente de votre cible, qui dure 6 tours.
+		Chaque fois que sa vie tombe en dessous de 75%%, 50%% ou 25%% du maximum, la puissance de la prophétie résonne au-dehors, lui infligeant %0.2f dégâts d'obscurité.
+		Une cible ne peut être affectée que par une seule prophétie à la fois.
+		L'augmentation de dégâts est proportionnel à votre Puissance des Sorts.]], "tformat")
+t("Prophecy of Treason", "Prophétie de la Trahison", "talent name")
+t("%s(%d treason)#LAST#", "%s(%d trahison)#LAST#", "tformat")
 t([[Utter a prophecy of the impending treachery of your target. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
-		A target can only be affected by a single prophecy at a time.]], [[Utter a prophecy of the impending treachery of your target. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
-		A target can only be affected by a single prophecy at a time.]], "tformat")
+		A target can only be affected by a single prophecy at a time.]], [[Prononcez une prophétie de la trahison imminente de votre cible. Pendant les 6 prochains tours, elle aura %d%% de chance chaque tour de perdre son tour en tentant d'attaquer une créature adjacente pour 10%% de dégâts d'arme, voire elle-même si aucune créature n'est présente.
+		Une cible ne peut être affectée que par une seule prophétie à la fois.]], "tformat")
+t("Grand Oration", "Grande Oraison", "talent name")
+t("None", "Aucune", "_t")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
-		Current prophecy: %s]], [[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
+		Current prophecy: %s]], [[Vous proclamez une prophétie choisie aux masses. Lors de l'application de cette prophétie, elle se propage à toutes les cibles dans un rayon de %d cases.
+		Une prophétie ne peut être affectée que par l'une des habiletés suivantes : Grande Oraison, Malédiction Double ou Révélation.
 		
-		Current prophecy: %s]], "tformat")
+		Prophétie actuelle : %s]], "tformat")
+t("Twofold Curse", "Malédiction Double", "talent name")
 t([[Weave your chosen prophecy into your speech, dooming your foe twice over. The chosen prophecy will apply instantly to your primary target whenever you cast any other prophecy at talent level %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
-		Current prophecy: %s]], [[Weave your chosen prophecy into your speech, dooming your foe twice over. The chosen prophecy will apply instantly to your primary target whenever you cast any other prophecy at talent level %d.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
+		Current prophecy: %s]], [[Tissez votre prophétie choisie dans votre discours, condamnant votre ennemi à double titre. La prophétie choisie s'appliquera instantanément à votre cible principale chaque fois que vous lancerez toute autre prophétie au niveau de talent %d.
+		Une prophétie ne peut être affectée que par l'une des habiletés suivantes : Grande Oraison, Malédiction Double ou Révélation.
 		
-		Current prophecy: %s]], "tformat")
+		Prophétie actuelle : %s]], "tformat")
+t("Revelation", "Révélation", "talent name")
 t([[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
 		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
 		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
 		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 	
-		Current prophecy: %s]], [[As you speak the chosen prophecy whispers from the void guide you in how to bring about the downfall of your foe. The chosen prophecy will grant one of the following effects.
-		Prophecy of Madness. Each time the target uses a talent one of your talents on cooldown has its cooldown reduced by %d turns.
-		Prophecy of Ruin. Each time the target takes damage you are healed for %d%% of the damage dealt.
-		Prophecy of Treason: %d%% of all damage you take is redirected to a random target affected by Prophecy of Treason.
-		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
-	
-		Current prophecy: %s]], "tformat")
---]==]
-
+		Current prophecy: %s]], [[Tandis que vous prononcez la prophétie choisie, des murmures venus du vide vous guident sur la façon de provoquer la chute de votre ennemi. La prophétie choisie accordera l'un des effets suivants.
+		Prophétie de la Folie : chaque fois que la cible utilise un talent, l'un de vos talents en recharge voit son temps de recharge réduit de %d tours.
+		Prophétie de la Ruine : chaque fois que la cible subit des dégâts, vous êtes soigné de %d%% des dégâts infligés.
+		Prophétie de la Trahison : %d%% de tous les dégâts que vous subissez sont redirigés vers une cible aléatoire affectée par la Prophétie de la Trahison.
+		Une prophétie ne peut être affectée que par l'une des habiletés suivantes : Grande Oraison, Malédiction Double ou Révélation.
+		
+		Prophétie actuelle : %s]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/entropy.lua"
 
+t("Entropic Gift", "Don Entropique", "talent name")
+t("%s's black hole", "trou noir de %s", "tformat")
 t("#Source# pulls #Target# in!", "#Source# attire #Target# !", "logCombat")
--- texte non traduit
---[==[
-t("Entropic Gift", "Entropic Gift", "talent name")
-t("%s's black hole", "%s's black hole", "tformat")
 t([[Your unnatural existence causes the fabric of reality to reject your presence. 25%% of all direct healing received damages you in the form of entropic backlash over 8 turns, which is irresistible and bypasses all shields, but cannot kill you.
 
 You may activate this talent to channel your entropy onto a nearby enemy, removing all entropic backlash to inflict darkness and temporal damage equal to %d%% of your entropy over 4 turns.
 
-The damage dealt when applying this to an enemy will increase with your Spellpower.]], [[Your unnatural existence causes the fabric of reality to reject your presence. 25%% of all direct healing received damages you in the form of entropic backlash over 8 turns, which is irresistible and bypasses all shields, but cannot kill you.
+The damage dealt when applying this to an enemy will increase with your Spellpower.]], [[Votre existence contre nature fait que le tissu de la réalité rejette votre présence. 25%% de tout soin direct reçu vous inflige des dégâts sous forme de contrecoup entropique pendant 8 tours, un effet irrésistible qui contourne tous les boucliers, mais ne peut vous tuer.
 
-You may activate this talent to channel your entropy onto a nearby enemy, removing all entropic backlash to inflict darkness and temporal damage equal to %d%% of your entropy over 4 turns.
+Vous pouvez activer ce talent pour canaliser votre entropie vers un ennemi proche, retirant tout votre contrecoup entropique pour infliger des dégâts d'obscurité et temporels égaux à %d%% de votre entropie sur 4 tours.
 
-The damage dealt when applying this to an enemy will increase with your Spellpower.]], "tformat")
-t("Reverse Entropy", "Reverse Entropy", "talent name")
+Les dégâts infligés lors de l'application sur un ennemi sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Reverse Entropy", "Entropie Inversée", "talent name")
 t([[Your knowledge of entropy allows you to defy the laws of physics, allowing you to better endure your entropic energies.
 			You take %d%% less damage from your entropic backlash.
-		You may activate this talent to instantly remove your current Entropy.]], [[Your knowledge of entropy allows you to defy the laws of physics, allowing you to better endure your entropic energies.
-			You take %d%% less damage from your entropic backlash.
-		You may activate this talent to instantly remove your current Entropy.]], "tformat")
-t("Black Hole", "Black Hole", "talent name")
+		You may activate this talent to instantly remove your current Entropy.]], [[Votre connaissance de l'entropie vous permet de défier les lois de la physique, vous permettant de mieux endurer vos énergies entropiques.
+			Vous subissez %d%% de dégâts en moins de votre contrecoup entropique.
+		Vous pouvez activer ce talent pour retirer instantanément votre Entropie actuelle.]], "tformat")
+t("Black Hole", "Trou Noir", "talent name")
 t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
-		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
-		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], "tformat")
-t("Power Overwhelming", "Power Overwhelming", "talent name")
-t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "tformat")
---]==]
-
+		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[En lançant Don Entropique, une faille dans l'espace-temps d'un rayon de 1 case s'ouvre sous la cible pendant %d tours, son rayon augmentant de 1 case chaque tour jusqu'à un maximum de %d.
+		Tout ce qui est pris dans la faille est attiré vers le centre et subit %0.2f dégâts d'obscurité et %0.2f dégâts temporels, plus %d%% de votre entropie totale à chaque tour (actuellement %d).]], "tformat")
+t("Power Overwhelming", "Puissance Écrasante", "talent name")
+t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "Vous infusez vos sorts de niveaux dangereux d'énergie entropique, augmentant vos dégâts d'obscurité et temporels de %d%% et votre pénétration de résistance de %d%%, au prix de subir %0.2f de contrecoup entropique pour chaque sort non instantané.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/friend-of-the-worm.lua"
 
-t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
-t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
--- texte non traduit
---[==[
-t("Worm that Walks Link", "Worm that Walks Link", "talent name")
-t("Link to the summoner.", "Link to the summoner.", "_t")
+t("Worm that Walks Link", "Lien avec le Ver qui Marche", "talent name")
+t("Link to the summoner.", "Lien avec l'invocateur.", "_t")
 t([[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucus-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[A bulging rotten robe seems to tear at the seams, with masses of bloated worms spilling out all around the moving form.  Two arm-like appendages, each made up of overlapping mucus-drenched maggots, grasp tightly around the handles of bile-coated waraxes.
-Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], "_t")
-t("Your worm that walks is out of sight; you cannot establish direct control.", "Your worm that walks is out of sight; you cannot establish direct control.", "logPlayer")
-t("Worm that Walks", "Worm that Walks", "talent name")
-t("wtw", "wtw", "_t")
-t("worm that walks (servant of %s)", "worm that walks (servant of %s)", "tformat")
-t("Robe of the Worm (Improved)", "Robe of the Worm (Improved)", "_t")
-t("Your friendly horror is not dead.", "Your friendly horror is not dead.", "logPlayer")
+Each swing drips pustulant fluid before it, and each droplet writhes and wriggles in the air before splashing against the ground.]], [[Une robe pourrie et gonflée semble se déchirer aux coutures, des masses de vers boursouflés se répandant tout autour de la silhouette en mouvement. Deux appendices semblables à des bras, chacun composé d'asticots imbriqués et trempés de mucus, s'agrippent fermement aux manches de haches de guerre enduites de bile.
+Chaque coup fait goutter un fluide pustuleux devant lui, et chaque goutte se tord et frétille dans l'air avant de s'écraser au sol.]], "_t")
+t("Your worm that walks is out of sight; you cannot establish direct control.", "Votre Ver qui Marche est hors de vue ; vous ne pouvez pas établir de contrôle direct.", "logPlayer")
+t("Worm that Walks", "Ver qui Marche", "talent name")
+t("wtw", "vqm", "_t")
+t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
+t("worm that walks (servant of %s)", "Ver qui Marche (serviteur de %s)", "tformat")
+t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
+t("Robe of the Worm (Improved)", "Robe du Ver (Améliorée)", "_t")
+t("Your friendly horror is not dead.", "Votre horreur amie n'est pas morte.", "logPlayer")
 t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
 		You can fully control, level, and equip it.
 		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
@@ -3034,269 +3003,248 @@ t([[You invoke a long standing pact with a fellow horror, a Worm that Walks, to 
 		Level 4:  Ring, Ring
 		Level 5:  Ring, Ring, Trinket
 
-		To change your horror's equipment and talents first transfer the equipment from your inventory then take control of it.]], [[You invoke a long standing pact with a fellow horror, a Worm that Walks, to help you in your travels.
-		You can fully control, level, and equip it.
-		Using this spell will ressurect your friendly horror if it died, giving it back %d%% life.
-		Higher raw talent levels will give your horror more equipment slots:
+		To change your horror's equipment and talents first transfer the equipment from your inventory then take control of it.]], [[Vous invoquez un pacte de longue date avec une horreur semblable, un Ver qui Marche, pour vous assister dans vos voyages.
+		Vous pouvez le contrôler entièrement, le faire progresser en niveau et l'équiper.
+		Utiliser ce sort ressuscitera votre horreur si elle est morte, lui redonnant %d%% de vie.
+		Des niveaux de talent bruts plus élevés donneront à votre horreur davantage d'emplacements d'équipement :
 
-		Level 1:  Mainhand, Offhand
-		Level 2:  Body
-		Level 3:  Belt
-		Level 4:  Ring, Ring
-		Level 5:  Ring, Ring, Trinket
+		Niveau 1 : main principale, main secondaire
+		Niveau 2 : corps
+		Niveau 3 : ceinture
+		Niveau 4 : anneau, anneau
+		Niveau 5 : anneau, anneau, breloque
 
-		To change your horror's equipment and talents first transfer the equipment from your inventory then take control of it.]], "tformat")
-t("Foul Convergence", "Foul Convergence", "talent name")
-t("Your friendly horror is dead.", "Your friendly horror is dead.", "logPlayer")
-t("%s's teleport fizzles!", "%s's teleport fizzles!", "logSeen")
+		Pour changer l'équipement et les talents de votre horreur, transférez d'abord l'équipement depuis votre inventaire, puis prenez le contrôle d'elle.]], "tformat")
+t("Foul Convergence", "Convergence Immonde", "talent name")
+t("Your friendly horror is dead.", "Votre horreur amie est morte.", "logPlayer")
+t("%s's teleport fizzles!", "La téléportation de %s échoue !", "logSeen")
 t([[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
-			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[You and your Worm that Walks both teleport to an enemy in range %d and make a melee attack for %d%% damage.
-			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], "tformat")
-t("Shared Insanity", "Shared Insanity", "talent name")
+			Your Worm that Walks' Blindside talent cooldown is reduced by %d.]], [[Vous et votre Ver qui Marche vous téléportez tous deux vers un ennemi à portée %d et effectuez une attaque de mêlée pour %d%% de dégâts.
+			Le temps de recharge du talent Point Aveugle de votre Ver qui Marche est réduit de %d.]], "tformat")
+t("Shared Insanity", "Folie Partagée", "talent name")
 t([[You establish a powerful mental link with your Worm that Walks.
 		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
-		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[You establish a powerful mental link with your Worm that Walks.
-		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
-		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], "tformat")
-t("Terrible Sight", "Terrible Sight", "talent name")
-t("You require your worm that walk to be alive and closeby.", "You require your worm that walk to be alive and closeby.", "logPlayer")
+		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[Vous établissez un puissant lien mental avec votre Ver qui Marche.
+		Tant que vous restez dans un rayon de 3 cases de votre Ver qui Marche, chacun de vous gagne %d%% de résistance générale pendant 5 tours.
+		De plus, votre Ver qui Marche gagne définitivement un emplacement d'inscription tous les 2 niveaux de talent bruts (%d).]], "tformat")
+t("Terrible Sight", "Vue Terrifiante", "talent name")
+t("You require your worm that walk to be alive and closeby.", "Vous avez besoin que votre Ver qui Marche soit vivant et à proximité.", "logPlayer")
 t([[While within range 3 of your Worm that Walks you can project an aura of terror.
 		At the sight of two maddening horrors fighting together all your foes in radius %d must make a physical save against your spellpower or be stunned for %d turns.
 
-		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns.]], [[While within range 3 of your Worm that Walks you can project an aura of terror.
-		At the sight of two maddening horrors fighting together all your foes in radius %d must make a physical save against your spellpower or be stunned for %d turns.
+		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns.]], [[Tant que vous êtes à portée 3 de votre Ver qui Marche, vous pouvez projeter une aura de terreur.
+		À la vue de deux horreurs affolantes combattant ensemble, tous vos ennemis dans un rayon de %d cases doivent effectuer une sauvegarde physique contre votre puissance des sorts, ou être assommé pendant %d tours.
 
-		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns.]], "tformat")
---]==]
-
+		De plus, votre effet Folie Partagée fera perdre aux ennemis dans un rayon de 3 cases %d de sauvegarde des sorts et %d de défense pendant 3 tours.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/horrific-body.lua"
 
-
--- texte non traduit
---[==[
-t("Shed Skin", "Shed Skin", "talent name")
+t("Shed Skin", "Mue", "talent name")
 t([[You shed the outer layer of your mutated skin and empower it to act as a damage shield for %d turns.
 		The shield can absorb up to %d damage before it crumbles.
-		]], [[You shed the outer layer of your mutated skin and empower it to act as a damage shield for %d turns.
-		The shield can absorb up to %d damage before it crumbles.
-		]], "tformat")
-t("Pustulent Growth", "Pustulent Growth", "talent name")
+		]], [[Vous vous débarrassez de la couche externe de votre peau mutante et l'imprégnez de pouvoir pour qu'elle agisse comme un bouclier de dégâts pendant %d tours.
+		Le bouclier peut absorber jusqu'à %d dégâts avant de s'effriter.]], "tformat")
+t("Pustulent Growth", "Excroissance Pustuleuse", "talent name")
 t([[Each time your shed skin looses %d%% of its max power or you take damage over 15%% of your maximum life a black putrescent pustule grows on your body for 5 turns.
 		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
-		Resistance scales with your Spellpower.]], [[Each time your shed skin looses %d%% of its max power or you take damage over 15%% of your maximum life a black putrescent pustule grows on your body for 5 turns.
-		Each pustule increases all your resistances by %d%%. You can have up to %d pustules at once.
-		Resistance scales with your Spellpower.]], "tformat")
-t("Pustulent Fulmination", "Pustulent Fulmination", "talent name")
-t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "tformat")
-t("Defiled Blood", "Defiled Blood", "talent name")
+		Resistance scales with your Spellpower.]], [[Chaque fois que votre mue perd %d%% de sa puissance maximale, ou que vous subissez des dégâts supérieurs à 15%% de votre vie maximale, une pustule noire et putrescente pousse sur votre corps pour 5 tours.
+		Chaque pustule augmente toutes vos résistances de %d%%. Vous pouvez avoir jusqu'à %d pustules à la fois.
+		La résistance est proportionnel à votre Puissance des Sorts.]], "tformat")
+t("Pustulent Fulmination", "Fulmination Pustuleuse", "talent name")
+t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "Vous faites exploser toutes vos pustules putrescentes d'un coup, aspergeant toutes les créatures dans un rayon de %d cases de fluides noirs qui infligent %0.2f dégâts d'obscurité par pustule et vous soignent de %0.1f par pustule.", "tformat")
+t("Defiled Blood", "Sang Souillé", "talent name")
 t([[When you make your pustules explode you leave a pool of defiled blood on the ground for 5 turns.
 		Foes caught inside get assaulted by black tentacles every turn, dealing %d%% darkness tentacle damage and covering them in your black blood for 2 turns.
 		Creatures that hit you while covered in your blood heal you for %d%% of the damage done.
-		The healing received increases with your Spellpower.]], [[When you make your pustules explode you leave a pool of defiled blood on the ground for 5 turns.
-		Foes caught inside get assaulted by black tentacles every turn, dealing %d%% darkness tentacle damage and covering them in your black blood for 2 turns.
-		Creatures that hit you while covered in your blood heal you for %d%% of the damage done.
-		The healing received increases with your Spellpower.]], "tformat")
---]==]
-
+		The healing received increases with your Spellpower.]], [[Lorsque vous faites exploser vos pustules, vous laissez une mare de sang souillé au sol pendant 5 tours.
+		Les ennemis pris à l'intérieur sont assaillis par des tentacules noirs à chaque tour, infligeant %d%% dégâts de tentacule d'obscurité et les couvrant de votre sang noir pendant 2 tours.
+		Les créatures qui vous frappent tant qu'elles sont couvertes de votre sang vous soignent de %d%% des dégâts infligés.
+		Les soins reçus sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/madness.lua"
 
-
--- texte non traduit
---[==[
-t("Dark Whispers", "Dark Whispers", "talent name")
+t("Dark Whispers", "Murmures Sombres", "talent name")
 t([[Terrible visions and maddening voices fill the minds of enemies within a radius %d area, inflicting %0.2f darkness damage each turn for 5 turns. In addition, this distraction will reduce physical, spell and mindpower of those affected by %d.
 The power loss caused by this spell can stack, to a maximum of %d powers.
-		The effect will increase with your Spellpower.]], [[Terrible visions and maddening voices fill the minds of enemies within a radius %d area, inflicting %0.2f darkness damage each turn for 5 turns. In addition, this distraction will reduce physical, spell and mindpower of those affected by %d.
-The power loss caused by this spell can stack, to a maximum of %d powers.
-		The effect will increase with your Spellpower.]], "tformat")
-t("Hideous Visions", "Hideous Visions", "talent name")
-t("hallucination", "hallucination", "_t")
+		The effect will increase with your Spellpower.]], [[Des visions terribles et des voix affolantes emplissent l'esprit des ennemis dans une zone de rayon %d, infligeant %0.2f dégâts d'obscurité par tour pendant 5 tours. De plus, cette distraction réduit la puissance physique, des sorts et mentale des personnes affectées de %d.
+		La perte de puissance causée par ce sort peut s'accumuler, jusqu'à un maximum de %d.
+		L'effet est proportionnel à votre Puissance des Sorts.]], "tformat")
+t("Hideous Visions", "Visions Hideuses", "talent name")
 t([[Each time an enemy takes damage from Dark Whispers, there is a %d%% chance for one of their visions to manifest in an adjacent tile for %d turns. This vision takes no actions but the victim will deal %d%% reduced damage to all other targets until the vision is slain.
-		A target cannot have more than one hallucination at a time.]], [[Each time an enemy takes damage from Dark Whispers, there is a %d%% chance for one of their visions to manifest in an adjacent tile for %d turns. This vision takes no actions but the victim will deal %d%% reduced damage to all other targets until the vision is slain.
-		A target cannot have more than one hallucination at a time.]], "tformat")
-t("Sanity Warp", "Sanity Warp", "talent name")
-t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "tformat")
-t("Cacophony", "Cacophony", "talent name")
+		A target cannot have more than one hallucination at a time.]], [[Chaque fois qu'un ennemi subit des dégâts de Murmures Sombres, il y a %d%% de chance qu'une de ses visions se manifeste sur une case adjacente pendant %d tours. Cette vision n'entreprend aucune action, mais la victime infligera %d%% de dégâts en moins à toutes les autres cibles jusqu'à ce que la vision soit tuée.
+		Une cible ne peut avoir plus d'une hallucination à la fois.]], "tformat")
+t("Sanity Warp", "Distorsion de Raison", "talent name")
+t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "Quand une hallucination issue de Visions Hideuses est tuée, elle déchaîne un hurlement psychique infligeant %0.2f dégâts d'obscurité aux ennemis dans un rayon de %d cases.", "tformat")
+t("Cacophony", "Cacophonie", "talent name")
 t([[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns, applying another stack and drowning out all thought. 
 			Targets afflicted by Dark Whispers will have 20%% higher chance to spawn hallucinations, and each time they take damage from your Dark Whispers or Sanity Warp they will take an additional %d%% damage as temporal damage.
-		The damage will improve with your Spellpower.]], [[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns, applying another stack and drowning out all thought. 
-			Targets afflicted by Dark Whispers will have 20%% higher chance to spawn hallucinations, and each time they take damage from your Dark Whispers or Sanity Warp they will take an additional %d%% damage as temporal damage.
-		The damage will improve with your Spellpower.]], "tformat")
+		The damage will improve with your Spellpower.]], [[Élevez vos Murmures Sombres dans un rayon de %d cases vers un crescendo assourdissant pendant %d tours, appliquant un cumul supplémentaire et noyant toute pensée. 
+			Les cibles affligées par Murmures Sombres auront 20%% de chance supplémentaire de générer des hallucinations, et chaque fois qu'elles subiront des dégâts de vos Murmures Sombres ou de Distorsion de Raison, elles subiront %d%% de dégâts supplémentaires sous forme de dégâts temporels.
+		Les dégâts sont proportionnels à votre Puissance Magique.]], "tformat")
+-- texte non traduit
+--[==[
+t("hallucination", "hallucination", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/nether.lua"
 
-t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
-t("The spell fizzles on %s!", "Le sort échoue sur %s !", "logSeen")
--- texte non traduit
---[==[
-t("Netherblast", "Netherblast", "talent name")
+t("Netherblast", "Déflagration du Néant", "talent name")
 t([[Fire a burst of unstable void energy, dealing %0.2f darkness and %0.2f temporal damage to the target. The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[Fire a burst of unstable void energy, dealing %0.2f darkness and %0.2f temporal damage to the target. The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Rift Cutter", "Rift Cutter", "talent name")
+		The damage will increase with your Spellpower.]], [[Tirez une salve d'énergie instable du vide, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts temporels à la cible. La puissance de ce sort vous inflige un contrecoup entropique, vous faisant subir %d dégâts sur 8 tours. Ces dégâts comptent comme entropie pour le talent Don Entropique.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Rift Cutter", "Trancheur de Faille", "talent name")
 t([[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness damage to enemies within and leaving behind an unstable rift. After 3 turns the rift detonates, dealing %0.2f temporal damage to adjacent enemies.
 		Targets cannot be struck by more than a single rift explosion at once.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], [[Fire a beam of energy that rakes across the ground, dealing %0.2f darkness damage to enemies within and leaving behind an unstable rift. After 3 turns the rift detonates, dealing %0.2f temporal damage to adjacent enemies.
-		Targets cannot be struck by more than a single rift explosion at once.
-		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Spatial Distortion", "Spatial Distortion", "talent name")
-t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s is swallowed by a portal!", "logSeen")
-t("%s resists the warp!", "%s resists the warp!", "logSeen")
-t("entropic maw", "entropic maw", "_t")
-t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "_t")
+		The damage will increase with your Spellpower.]], [[Tirez un faisceau d'énergie qui balaie le sol, infligeant %0.2f dégâts d'obscurité aux ennemis touchés et laissant derrière lui une faille instable. Après 3 tours, la faille détone, infligeant %0.2f dégâts temporels aux ennemis adjacents.
+		Les cibles ne peuvent être frappées par plus d'une explosion de faille à la fois.
+		La puissance de ce sort vous inflige un contrecoup entropique, vous faisant subir %d dégâts sur 8 tours. Ces dégâts comptent comme entropie pour le talent Don Entropique.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Spatial Distortion", "Distorsion Spatiale", "talent name")
+t("Select a teleport location...", "Sélectionnez un lieu de téléportation...", "logPlayer")
+t("The spell fizzles on %s!", "Le sort échoue sur %s !", "logSeen")
+t("#CRIMSON#%s is swallowed by a portal!", "#CRIMSON#%s est englouti par un portail !", "logSeen")
+t("%s resists the warp!", "%s résiste à la distorsion !", "logSeen")
+t("entropic maw", "gueule entropique", "_t")
+t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "Des vrilles fouettent autour de la gueule de cette bête gigantesque, en quête d'une proie à dévorer.", "_t")
 t([[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location. Enemies will take %0.2f darkness and %0.2f temporal damage.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will improve with your Spellpower.]], [[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location. Enemies will take %0.2f darkness and %0.2f temporal damage.
-		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will improve with your Spellpower.]], "tformat")
-t("Halo of Ruin", "Halo of Ruin", "talent name")
+		The damage will improve with your Spellpower.]], [[Ouvrez brièvement une faille dans l'espace-temps d'un rayon de %d cases, téléportant ceux qui s'y trouvent vers l'emplacement ciblé. Les ennemis subiront %0.2f dégâts d'obscurité et %0.2f dégâts temporels.
+		La puissance de ce sort vous inflige un contrecoup entropique, vous faisant subir %d dégâts sur 8 tours. Ces dégâts comptent comme entropie pour le talent Don Entropique.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Halo of Ruin", "Halo de la Ruine", "talent name")
 t([[Each time you cast a non-instant Demented spell, a nether spark begins orbiting around you for 10 turns, to a maximum of 5. Each spark increases your critical strike chance by %d%%, and on reaching 5 sparks your next Nether spell will consume all sparks to empower itself:
 #PURPLE#Netherblast:#LAST# Becomes a deadly lance of void energy, piercing through enemies and dealing an additional %d%% damage over 5 turns.
 #PURPLE#Rift Cutter:#LAST# Those in the rift will be pinned for %d turns, take %0.2f temporal damage each turn, and the rift explosion has %d increased radius.
 #PURPLE#Spatial Distortion:#LAST# An Entropic Maw will be summoned at the rift's exit for %d turns, pulling in and taunting nearby targets with it's tendrils.
-The damage will increase with your Spellpower.  Entropic Maw stats will increase with level and your Magic stat.]], [[Each time you cast a non-instant Demented spell, a nether spark begins orbiting around you for 10 turns, to a maximum of 5. Each spark increases your critical strike chance by %d%%, and on reaching 5 sparks your next Nether spell will consume all sparks to empower itself:
-#PURPLE#Netherblast:#LAST# Becomes a deadly lance of void energy, piercing through enemies and dealing an additional %d%% damage over 5 turns.
-#PURPLE#Rift Cutter:#LAST# Those in the rift will be pinned for %d turns, take %0.2f temporal damage each turn, and the rift explosion has %d increased radius.
-#PURPLE#Spatial Distortion:#LAST# An Entropic Maw will be summoned at the rift's exit for %d turns, pulling in and taunting nearby targets with it's tendrils.
-The damage will increase with your Spellpower.  Entropic Maw stats will increase with level and your Magic stat.]], "tformat")
-t("Grasping Tendrils", "Grasping Tendrils", "talent name")
-t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunting it.", "Grab a target and drag it to your side, dealing %d%% weapon damage and taunting it.", "tformat")
---]==]
-
+The damage will increase with your Spellpower.  Entropic Maw stats will increase with level and your Magic stat.]], [[Chaque fois que vous lancez un sort de Dément non instantané, une étincelle du néant commence à orbiter autour de vous pendant 10 tours, jusqu'à un maximum de 5. Chaque étincelle augmente votre chance de coup critique de %d%%, et en atteignant 5 étincelles, votre prochain sort du Néant consommera toutes les étincelles pour se renforcer :
+#PURPLE#Déflagration du Néant :#LAST# Devient une lance mortelle d'énergie du vide, transperçant les ennemis et infligeant %d%% de dégâts supplémentaires sur 5 tours.
+#PURPLE#Trancheur de Faille :#LAST# Ceux qui sont dans la faille seront immobilisés pendant %d tours, subiront %0.2f dégâts temporels chaque tour, et l'explosion de la faille a un rayon augmenté de %d.
+#PURPLE#Distorsion Spatiale :#LAST# Une Gueule Entropique sera invoquée à la sortie de la faille pendant %d tours, attirant et provoquant les cibles proches avec ses vrilles.
+Les dégâts sont proportionnels à votre Puissance des Sorts. Les statistiques de la Gueule Entropique sont proportionnels a son niveau et votre caractéristique de Magie.]], "tformat")
+t("Grasping Tendrils", "Vrilles Agrippantes", "talent name")
+t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunting it.", "Agrippe une cible et la traîne à vos côtés, infligeant %d%% dégâts d'arme et la provoquant.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/oblivion.lua"
 
+t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "Votre entropie se répand dans le monde qui vous entoure. Lorsqu'un contrecoup entropique vous est appliqué ou augmenté, %d ennemi(s) aléatoire(s) que vous pouvez voir dans un rayon de 10 cases seront enveloppés de forces entropiques pendant 8 tours. Cela prolonge la durée des nouveaux effets négatifs et réduit la durée des nouveaux effets bénéfiques appliqués à la cible de %d%%.", "tformat")
+t("Unravel Existence", "Défaire l'Existence", "talent name")
+t("herald of oblivion", "héraut de l'oubli", "_t")
+t("Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "L'espace se déforme et se brouille autour de cet être titanesque, comme si la réalité elle-même luttait contre lui.", "_t")
 t("Summon", "Invocation", "_t")
--- texte non traduit
---[==[
-t("Nihil", "Nihil", "talent name")
-t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "tformat")
-t("Unravel Existence", "Unravel Existence", "talent name")
-t("herald of oblivion", "herald of oblivion", "_t")
-t("Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "_t")
 t([[Your Nihil unravels the existence of the target, tearing them apart with entropy.
 		If 6 negative magical effects are applied before Nihil expires a Herald of Oblivion will be summoned to assist you for %d turns.
 		Currently existing debuffs, Spellshocked, and Seen by Arcane Eye will not count towards this total.  Refreshing the same debuff is counted.
 		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
-		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[Your Nihil unravels the existence of the target, tearing them apart with entropy.
-		If 6 negative magical effects are applied before Nihil expires a Herald of Oblivion will be summoned to assist you for %d turns.
-		Currently existing debuffs, Spellshocked, and Seen by Arcane Eye will not count towards this total.  Refreshing the same debuff is counted.
-		The Herald will have a bonus to all attributes equal to your Magic.  Many other stats will scale with level.
-		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], "tformat")
-t("Erase", "Erase", "talent name")
+		Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited.]], [[Votre Nihil défait l'existence de la cible, la déchirant avec l'entropie.
+		Si 6 effets magiques négatifs sont appliqués avant l'expiration de Nihil, un Héraut de l'Oubli sera invoqué pour vous assister pendant %d tours.
+		Les affaiblissements déjà existants, Choc de Sort, et Vu par l'oeil Arcanique ne compteront pas dans ce total. Rafraîchir le même affaiblissement est compté.
+		Le Héraut aura un bonus à toutes ses caractéristiques égal à votre Magie. De nombreuses autres statistiques évolueront avec le niveau.
+		Vos statistiques de dégâts accrus, de pénétration des dégâts, de chance de coup critique et de multiplicateur de coup critique seront toutes héritées.]], "tformat")
+t("Erase", "Effacer", "talent name")
 t([[Those affected by your Nihil find themselves increasingly removed from reality, reducing all damage they deal by %d%% and causing them to take %0.2f temporal damage each turn for each negative magical effect they have.
-		The damage will scale with your Spellpower.]], [[Those affected by your Nihil find themselves increasingly removed from reality, reducing all damage they deal by %d%% and causing them to take %0.2f temporal damage each turn for each negative magical effect they have.
-		The damage will scale with your Spellpower.]], "tformat")
-t("All is Dust", "All is Dust", "talent name")
-t("%s's entropic storm", "%s's entropic storm", "tformat")
-t("#ORCHID#The entropic storm destroys %s!#LAST#", "#ORCHID#The entropic storm destroys %s!#LAST#", "tformat")
-t("a projectile", "a projectile", "_t")
+		The damage will scale with your Spellpower.]], [[Ceux affectés par votre Nihil se retrouvent de plus en plus retranchés de la réalité, réduisant tous les dégâts qu'ils infligent de %d%% et leur faisant subir %0.2f dégâts temporels chaque tour pour chaque effet magique négatif qu'ils possèdent.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("All is Dust", "Tout est Poussière", "talent name")
+t("%s's entropic storm", "tempête entropique de %s ", "tformat")
+t("#ORCHID#The entropic storm destroys %s!#LAST#", "#ORCHID#La tempête entropique détruit %s !#LAST#", "tformat")
+t("a projectile", "un projectile", "_t")
 t([[Summon a radius 4 storm of all-consuming oblivion at the targeted location for %d turns, reducing those within to nothing. Targets within will take %0.2f darkness damage and %0.2f temporal damage each turn.  Walls and other terrain within the storm will be disintegrated.
 		Each time the storm deals damage enemies will have any detrimental magical effect with less than 3 duration set to 3 duration, and all enemy projectiles will be destroyed.
-		The damage will scale with your Spellpower.]], [[Summon a radius 4 storm of all-consuming oblivion at the targeted location for %d turns, reducing those within to nothing. Targets within will take %0.2f darkness damage and %0.2f temporal damage each turn.  Walls and other terrain within the storm will be disintegrated.
-		Each time the storm deals damage enemies will have any detrimental magical effect with less than 3 duration set to 3 duration, and all enemy projectiles will be destroyed.
-		The damage will scale with your Spellpower.]], "tformat")
-t("Void Crash", "Void Crash", "talent name")
-t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "tformat")
+		The damage will scale with your Spellpower.]], [[Invoquez une tempête d'oubli dévorant tout, d'un rayon de 4 cases, à l'emplacement ciblé pendant %d tours, réduisant à néant ceux qui s'y trouvent. Les cibles à l'intérieur subiront %0.2f dégâts d'obscurité et %0.2f dégâts temporels chaque tour. Les murs et autres éléments du terrain à l'intérieur de la tempête seront désintégrés.
+		Chaque fois que la tempête inflige des dégâts, tout effet magique néfaste d'une durée inférieure à 3 tours affectant les ennemis sera porté à 3 tours, et tous les projectiles ennemis seront détruits.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Void Crash", "Effondrement du Vide", "talent name")
+t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "Abattez vos armes sur le sol, créant une explosion d'énergie du vide d'un rayon de 2 cases infligeant %d%% dégâts répartis entre obscurité et temporel.", "tformat")
+-- texte non traduit
+--[==[
+t("Nihil", "Nihil", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/path-of-horror.lua"
 
-t("Writhing One", "Grouillant", "talent name")
--- texte non traduit
---[==[
-t("Carrion Feet", "Carrion Feet", "talent name")
+t("Carrion Feet", "Pieds Charognards", "talent name")
 t([[Your feet start to continuously produce carrion worms that are constantly crushed as you walk, passively increasing movement speed by %d%%.
 		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
 		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn.
-		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[Your feet start to continuously produce carrion worms that are constantly crushed as you walk, passively increasing movement speed by %d%%.
-		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
-		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn.
-		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], "tformat")
-t("Horrific Evolution", "Horrific Evolution", "talent name")
+		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[Vos pieds se mettent à produire en continu des vers charognards qui sont constamment écrasés à mesure que vous marchez, augmentant passivement votre vitesse de déplacement de %d%%.
+		Vous pouvez aussi activer ce talent pour détruire instantanément davantage de vers, vous permettant de bondir jusqu'à une portée de %d cases vers un terrain visible.
+		À l'atterrissage, vous écrasez encore plus de vers, créant un cône de viscères d'un rayon de 2 cases ; toute créature prise dedans inflige 70%% de dégâts en moins pendant un tour.
+		Si au moins 1 ennemi est affecté par le cône, vous gagnez 20 folie supplémentaires.]], "tformat")
+t("Horrific Evolution", "Évolution Horrible", "talent name")
 t([[Your mutations have enhanced your offense even farther.
 		You gain %d Accuracy and %d Spellpower.
-		The effects will increase with your Magic stat.]], [[Your mutations have enhanced your offense even farther.
-		You gain %d Accuracy and %d Spellpower.
-		The effects will increase with your Magic stat.]], "tformat")
-t("Overgrowth", "Overgrowth", "talent name")
+		The effects will increase with your Magic stat.]], [[Vos mutations ont encore renforcé votre puissance offensive.
+		Vous gagnez %d Précision et %d Puissance des Sorts.
+		Les effets sont proportionnels à votre Magie.]], "tformat")
+t("Overgrowth", "Sur-croissance", "talent name")
 t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Your body grows much bigger, gaining 2 size categories, making you able to walk through walls and increasing all your damage by %d%% and all your resistances by %d%%.
-		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[You trigger a cascade of rapidly mutating cells in your body for %d turns.
-		Your body grows much bigger, gaining 2 size categories, making you able to walk through walls and increasing all your damage by %d%% and all your resistances by %d%%.
-		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], "tformat")
+		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[Vous déclenchez une cascade de cellules mutant rapidement dans votre corps pendant %d tours.
+		Votre corps grandit considérablement, gagnant 2 catégories de taille, vous permettant de traverser les murs et augmentant tous vos dégâts de %d%% et toutes vos résistances de %d%%.
+		Chaque fois que vous faites un pas, votre forme monstrueuse provoque un petit séisme, détruisant et réorganisant le terrain environnant.]], "tformat")
+t("Writhing One", "Grouillant", "talent name")
 t([[At last you unlock the true power of your mutated body!
-		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[At last you unlock the true power of your mutated body!
-		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], "tformat")
---]==]
-
+		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[Vous débloquez enfin le véritable pouvoir de votre corps mutant !
+		Vous gagnez %d%% d'immunité à l'assommement, %d%% de chance d'ignorer les coups critiques, et vos dégâts d'obscurité et de fléau sont augmentés de %d%%.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
 
-t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
-t("%s's space-time folding fizzles!", "Le pliage d'espace-temps de %s échoue !", "logSeen")
-t("%s emerges from a space-time rift!", "%s émerge d'une faille spatio-temporelle !", "logSeen")
-t("Summon", "Invocation", "_t")
--- texte non traduit
---[==[
-t("Reality Fracture", "Reality Fracture", "talent name")
-t("void rift", "void rift", "_t")
-t("%s (empowered)", "%s (empowered)", "tformat")
+t("Reality Fracture", "Fracture de Réalité", "talent name")
+t("void rift", "faille du vide", "_t")
+t("%s (empowered)", "%s (renforcée)", "tformat")
 t([[The sheer power of your entropy tears holes through spacetime, opening this world to the void.
 On casting a Demented spell you have a 30%% chance of creating a void rift lasting %d turns in a nearby tile, which will launch void blasts each turn at a random enemy in range 7, dealing %0.2f darkness and %0.2f temporal damage.
 
-You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[The sheer power of your entropy tears holes through spacetime, opening this world to the void.
-On casting a Demented spell you have a 30%% chance of creating a void rift lasting %d turns in a nearby tile, which will launch void blasts each turn at a random enemy in range 7, dealing %0.2f darkness and %0.2f temporal damage.
+You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[La pure puissance de votre entropie déchire des trous dans l'espace-temps, ouvrant ce monde au vide.
+Lorsque vous lancez un sort de Dément, vous avez 30%% de chance de créer une faille du vide durant %d tours sur une case proche, qui lancera des explosions du vide chaque tour contre un ennemi aléatoire à portée 7, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts temporels.
 
-You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], "tformat")
-t("Quantum Tunnelling", "Quantum Tunnelling", "talent name")
-t("You must target a void rift.", "You must target a void rift.", "logPlayer")
+Vous pouvez activer ce talent pour déstabiliser de force l'espace-temps, faisant apparaître %d failles du vide autour de vous.]], "tformat")
+t("Quantum Tunnelling", "Tunnellisation Quantique", "talent name")
+t("You do not have line of sight.", "Vous n'avez pas de ligne de vue.", "logPlayer")
+t("You must target a void rift.", "Vous devez cibler une faille du vide.", "logPlayer")
+t("%s's space-time folding fizzles!", "Le pliage d'espace-temps de %s échoue !", "logSeen")
+t("%s emerges from a space-time rift!", "%s émerge d'une faille spatio-temporelle !", "logSeen")
 t([[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
-		The damage absorbed will scale with your Spellpower]], [[You briefly open a tunnel through spacetime, teleporting to a void rift in range %d. This destroys the rift, granting you a shield for %d turns absorbing %d damage.
-		The damage absorbed will scale with your Spellpower]], "tformat")
-t("Pierce the Veil", "Pierce the Veil", "talent name")
-t("nether breach", "nether breach", "_t")
-t("temporal vortex", "temporal vortex", "_t")
-t("dimensional gateway", "dimensional gateway", "_t")
-t("void skitterer", "void skitterer", "_t")
-t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "_t")
+		The damage absorbed will scale with your Spellpower]], [[Vous ouvrez brièvement un tunnel à travers l'espace-temps, vous téléportant vers une faille du vide à portée %d. Cela détruit la faille, vous accordant un bouclier pendant %d tours absorbant %d dégâts.
+		Les dégâts absorbés sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Pierce the Veil", "Percer le Voile", "talent name")
+t("nether breach", "brèche du néant", "_t")
+t("temporal vortex", "vortex temporel", "_t")
+t("dimensional gateway", "portail dimensionnel", "_t")
+t("void skitterer", "traqueur du vide", "_t")
+t("A bizarre creature covered in writhing tendrils, rapidly teleporting from one place to another as it closes in on its prey.", "Une créature étrange couverte de vrilles grouillantes, se téléportant rapidement d'un endroit à l'autre à mesure qu'elle se rapproche de sa proie.", "_t")
+t("Summon", "Invocation", "_t")
 t([[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
 #PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
 #PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%%.
 #PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
-The stats of your Void Skitterers will scale with your Magic stat and level.]], [[Pouring more energy into your rifts, you have a %d%% chance for each one to instead appear as a more powerful type.
-#PURPLE#Nether Breach:#LAST# Fires a beam dealing %0.2f darkness damage at a random target in radius 10.
-#PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%%.
-#PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
-The stats of your Void Skitterers will scale with your Magic stat and level.]], "tformat")
-t("Dimensional Skitter", "Dimensional Skitter", "talent name")
-t("%s's Dimensional Skitter fizzles!", "%s's Dimensional Skitter fizzles!", "logSeen")
-t("Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "tformat")
-t("Zero Point Energy", "Zero Point Energy", "talent name")
+The stats of your Void Skitterers will scale with your Magic stat and level.]], [[En déversant davantage d'énergie dans vos failles, chacune a %d%% de chance d'apparaître à la place sous une forme plus puissante.
+#PURPLE#Brèche du Néant :#LAST# Tire un faisceau infligeant %0.2f dégâts d'obscurité à une cible aléatoire dans un rayon de 10 cases.
+#PURPLE#Vortex Temporel :#LAST# Inflige %0.2f dégâts temporels chaque tour aux ennemis dans un rayon de 4 cases et réduit leur vitesse globale de 30%%.
+#PURPLE#Portail Dimensionnel :#LAST# A 50%% de chance chaque tour d'invoquer un traqueur du vide durant %d tours ; un attaquant de mêlée rapide capable de se téléporter.
+Les statistiques de vos Traqueurs du Vide sont proportionnels à votre Magie et votre niveau.]], "tformat")
+t("Dimensional Skitter", "Saut Dimensionnel", "talent name")
+t("%s's Dimensional Skitter fizzles!", "Le Saut Dimensionnel de %s échoue !", "logSeen")
+t("Teleport to a target within range 10 and strike them with your fangs dealing %d%% weapon damage.", "Téléportez-vous vers une cible à portée 10 et frappez-la avec vos crocs, infligeant %d%% dégâts d'arme.", "tformat")
+t("Zero Point Energy", "Énergie du Point Zéro", "talent name")
 t([[You draw power from the depths of the void causing your Reality Fracture to enhance any existing rifts.
 #GREY#Void Rift:#LAST# Deals %d%% increased damage and projectiles explode in radius 1.
 #PURPLE#Nether Breach:#LAST# Deals %d%% increased damage and chains to 3 targets.
 #PURPLE#Temporal Vortex:#LAST# Deals %d%% increased damage, radius increased by 1, and slow increased to 50%%.
-#PURPLE#Dimensional Gate:#LAST# Voidling Skitterers will be frenzied, increasing their global speed by %d%%.]], [[You draw power from the depths of the void causing your Reality Fracture to enhance any existing rifts.
-#GREY#Void Rift:#LAST# Deals %d%% increased damage and projectiles explode in radius 1.
-#PURPLE#Nether Breach:#LAST# Deals %d%% increased damage and chains to 3 targets.
-#PURPLE#Temporal Vortex:#LAST# Deals %d%% increased damage, radius increased by 1, and slow increased to 50%%.
-#PURPLE#Dimensional Gate:#LAST# Voidling Skitterers will be frenzied, increasing their global speed by %d%%.]], "tformat")
---]==]
-
+#PURPLE#Dimensional Gate:#LAST# Voidling Skitterers will be frenzied, increasing their global speed by %d%%.]], [[Vous puisez de la puissance dans les profondeurs du vide, faisant en sorte que votre Fracture de Réalité renforce toutes les failles existantes.
+#GREY#Faille du Vide :#LAST# Inflige %d%% dégâts supplémentaires et les projectiles explosent dans un rayon de 1 case.
+#PURPLE#Brèche du Néant :#LAST# Inflige %d%% dégâts supplémentaires et rebondit vers 3 cibles.
+#PURPLE#Vortex Temporel :#LAST# Inflige %d%% dégâts supplémentaires, son rayon augmente de 1 case, et le ralentissement passe à 50%%.
+#PURPLE#Portail Dimensionnel :#LAST# Les Traqueurs du Vide entrent en frénésie, augmentant leur vitesse globale de %d%%.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/scourge-drake.lua"
@@ -3745,33 +3693,54 @@ t("blood", "sang", "effect subtype")
 t("Spikeskin", "Peau Épineuse", "_t")
 t("slime", "vase", "effect subtype")
 t("corrupted", "corrompu", "effect subtype")
+t("Carrion Feet", "Pieds Charognards", "_t")
 t("massive", "énorme", "effect subtype")
+t("Overgrowth", "Sur-croissance", "_t")
 t("slow", "ralentissement", "effect subtype")
 t("Reduces global action speed by %d%%.", "Réduit la vitesse d'action globale de %d%%.", "tformat")
 t("miscellaneous", "divers", "effect subtype")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
+t("Shared Insanity", "Folie Partagée", "_t")
+t("Terrible Sight", "Vue Terrifiante", "_t")
 t("damage", "dégâts", "effect subtype")
+t("Chaos Orbs", "Orbes du Chaos", "_t")
 t("horror", "horreur", "effect subtype")
 t("blight", "fléau", "effect subtype")
 t("pain", "douleur", "effect subtype")
 t("tentacles", "Tentacules", "effect subtype")
+t("Horrific Display", "Manifestation Horrible", "_t")
 t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
 t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("darkness", "obscurité", "effect subtype")
+t("Dissolved Face", "Visage Dissous", "_t")
 t("fear", "peur", "effect subtype")
+t("Glimpse of True Horror", "Aperçu de la Véritable Horreur", "_t")
 t("stone", "pierre", "effect subtype")
+t("Writhing Hairs", "Cheveux Grouillants", "_t")
 t("temporal", "temporel", "effect subtype")
+t("Halo of Ruin", "Halo de la Ruine", "_t")
+t("Dark Whispers", "Murmures Sombres", "_t")
+t("Hideous Visions", "Visions Hideuses", "_t")
+t("Cacophony", "Cacophonie", "_t")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
+t("Entropic Gift", "Don Entropique", "_t")
 t("prophecy", "Prophétie", "effect subtype")
+t("Prophecy of Madness", "Prophétie de la Folie", "_t")
+t("Prophecy of Ruin", "Prophétie de la Ruine", "_t")
+t("Prophecy of Treason", "Prophétie de la Trahison", "_t")
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d lié)#LAST#", "tformat")
+t("Atrophy", "Atrophie", "_t")
 t("speed", "rapidité", "effect subtype")
+t("Temporal Feast", "Festin Temporel", "_t")
 t("#Target# is moving at extreme speed!", "#Target# se déplace à une vitesse folle !", "_t")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
 t("#Target# is removed from time!", "#Target# est retiré du temps !", "_t")
 t("#Target# is returned to normal time.", "#Target# revient dans le temps normal.", "_t")
+t("Fatebreaker", "Briseur de Destin", "_t")
 t("disease", "maladie", "effect subtype")
+t("Defiled Blood", "Sang Souillé", "_t")
 t("teleport", "téléportation", "effect subtype")
 t("Teleport: Kroshkkur", "Téléportation : Kroshkkur", "_t")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur est détruit, il n'y a nulle part où se téléporter.", "log")
@@ -3814,12 +3783,10 @@ t("Tentacle Constriction", "Tentacle Constriction", "_t")
 t("Caught by a tentacle from %s that deals %d%% tentacle damage and pulls you 1 space towards them each turn.", "Caught by a tentacle from %s that deals %d%% tentacle damage and pulls you 1 space towards them each turn.", "tformat")
 t("#Target# is constricted by a tentacle.", "#Target# is constricted by a tentacle.", "_t")
 t("#Target# is free from the tentacle constriction.", "#Target# is free from the tentacle constriction.", "_t")
-t("Carrion Feet", "Carrion Feet", "_t")
 t("Caught disgusting worms, reducing all damage by %d%%.", "Caught disgusting worms, reducing all damage by %d%%.", "tformat")
 t("#Target# is caught in gore.", "#Target# is caught in gore.", "_t")
 t("#Target# is free from the gore.", "#Target# is free from the gore.", "_t")
 t("growth", "growth", "effect subtype")
-t("Overgrowth", "Overgrowth", "_t")
 t("Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "tformat")
 t("#Target# suddently grows.", "#Target# suddently grows.", "_t")
 t("#Target# shrinks back.", "#Target# shrinks back.", "_t")
@@ -3831,17 +3798,14 @@ t("Worm that Walks out of sight", "Worm that Walks out of sight", "_t")
 t("The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "_t")
 t("#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "logPlayer")
 t("worm that walks out of sight", "worm that walks out of sight", "_t")
-t("Shared Insanity", "Shared Insanity", "_t")
 t("Linked to their horror ally gaining %d%% all damage resistance.", "Linked to their horror ally gaining %d%% all damage resistance.", "tformat")
 t("#Target# links closer to his ally!", "#Target# links closer to his ally!", "_t")
 t("#Target# no longer seems to be in sync with his ally.", "#Target# no longer seems to be in sync with his ally.", "_t")
-t("Terrible Sight", "Terrible Sight", "_t")
 t("Terrified of the horror duo attacking them reducing defense and spell save by %d.", "Terrified of the horror duo attacking them reducing defense and spell save by %d.", "tformat")
 t("#Target# is terrified of the horrors attacking him!", "#Target# is terrified of the horrors attacking him!", "_t")
 t("#Target# is no longer afraid of the horrors attacking him.", "#Target# is no longer afraid of the horrors attacking him.", "_t")
 t("chaos", "chaos", "effect subtype")
 t("insanity", "insanity", "effect subtype")
-t("Chaos Orbs", "Chaos Orbs", "_t")
 t("%d stacks, +%d%% to all damage dealt.", "%d stacks, +%d%% to all damage dealt.", "tformat")
 t("Putrescent Pustule", "Putrescent Pustule", "_t")
 t("%d pustules increasing resistance by %d%%.", "%d pustules increasing resistance by %d%%.", "tformat")
@@ -3860,21 +3824,17 @@ t("Life leech %d%% chance, %d%% power.", "Life leech %d%% chance, %d%% power.", 
 t("#Target# is empowered by the pain of its victim.", "#Target# is empowered by the pain of its victim.", "_t")
 t("#Target# is less powerfull.", "#Target# is less powerfull.", "_t")
 t("morph", "morph", "effect subtype")
-t("Horrific Display", "Horrific Display", "_t")
 t("Appearance changed to an horror, everything is hostile to it.", "Appearance changed to an horror, everything is hostile to it.", "tformat")
 t("#PURPLE##Target# turns into an horror.", "#PURPLE##Target# turns into an horror.", "_t")
 t("gore", "gore", "effect subtype")
-t("Dissolved Face", "Dissolved Face", "_t")
 t("Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "tformat")
 t("#Target# is covered in gore.", "#Target# is covered in gore.", "_t")
 t("#Target# is no longer covered in gore.", "#Target# is no longer covered in gore.", "_t")
-t("Glimpse of True Horror", "Glimpse of True Horror", "_t")
 t("Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "tformat")
 t("#Target# saw true horror.", "#Target# saw true horror.", "_t")
 t("#Target# is less afraid.", "#Target# is less afraid.", "_t")
 t("Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "tformat")
 t("#Target# is empowered by the fear of #hisher# foes.", "#Target# is empowered by the fear of #hisher# foes.", "_t")
-t("Writhing Hairs", "Writhing Hairs", "_t")
 t("Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "tformat")
 t("#Target# is half-turned to stone.", "#Target# is half-turned to stone.", "_t")
 t("#Target# looks less like a statue.", "#Target# looks less like a statue.", "_t")
@@ -3884,7 +3844,6 @@ t("#Target# is removed from the timeline!", "#Target# is removed from the timeli
 t("+Split", "+Split", "_t")
 t("#Target# returns to normal time.", "#Target# returns to normal time.", "_t")
 t("-Split", "-Split", "_t")
-t("Halo of Ruin", "Halo of Ruin", "_t")
 t("Increases spell critical chance by %d%%. At 5 stacks, next Nether spell is empowered.", "Increases spell critical chance by %d%%. At 5 stacks, next Nether spell is empowered.", "tformat")
 t("%d Halo of Ruin", "%d Halo of Ruin", "tformat")
 t("Voidburn", "Voidburn", "_t")
@@ -3893,15 +3852,12 @@ t("#Target# is ignited by voidfire!", "#Target# is ignited by voidfire!", "_t")
 t("+Voidburn", "+Voidburn", "_t")
 t("#Target# is no longer ignited.", "#Target# is no longer ignited.", "_t")
 t("-Voidburn", "-Voidburn", "_t")
-t("Dark Whispers", "Dark Whispers", "_t")
 t("The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "tformat")
 t("#Target# is haunted by the void!", "#Target# is haunted by the void!", "_t")
 t("+Dark Whispers", "+Dark Whispers", "_t")
 t("#Target#'s whispers fade.", "#Target#'s whispers fade.", "_t")
 t("-Dark Whispers", "-Dark Whispers", "_t")
-t("Hideous Visions", "Hideous Visions", "_t")
 t("The target is being distracted by a hallucination, reducing all damage dealt to non-hallucinations targets by %d%%.", "The target is being distracted by a hallucination, reducing all damage dealt to non-hallucinations targets by %d%%.", "tformat")
-t("Cacophony", "Cacophony", "_t")
 t("The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "tformat")
 t("#Target#'s mind is shattered by the void!", "#Target#'s mind is shattered by the void!", "_t")
 t("+Cacophony", "+Cacophony", "_t")
@@ -3913,25 +3869,21 @@ t("#Target#'s is no longer wasting away.", "#Target#'s is no longer wasting away
 t("-Entropic Wasting", "-Entropic Wasting", "_t")
 t("#{bold}##LIGHT_STEEL_BLUE#%s loses %d health to the entropy.#{normal}##LAST##", "#{bold}##LIGHT_STEEL_BLUE#%s loses %d health to the entropy.#{normal}##LAST##", "logSeen")
 t("#{bold}##RED#%s loses %d health and is almost overcome by the entropy!#{normal}##LAST##", "#{bold}##RED#%s loses %d health and is almost overcome by the entropy!#{normal}##LAST##", "logSeen")
-t("Entropic Gift", "Entropic Gift", "_t")
 t("The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "tformat")
 t("#Target# is consumed by entropy!", "#Target# is consumed by entropy!", "_t")
 t("+Entropic Gift", "+Entropic Gift", "_t")
 t("#Target# has survived the entropic gift.", "#Target# has survived the entropic gift.", "_t")
 t("-Entropic Gift", "-Entropic Gift", "_t")
-t("Prophecy of Madness", "Prophecy of Madness", "_t")
 t("The target is doomed to madness. All talent cooldowns are increased by %d%%.", "The target is doomed to madness. All talent cooldowns are increased by %d%%.", "tformat")
 t("#Target# is doomed to madness!", "#Target# is doomed to madness!", "_t")
 t("+Prophecy of Madness", "+Prophecy of Madness", "_t")
 t("#Target# is free from the prophecy.", "#Target# is free from the prophecy.", "_t")
 t("-Prophecy of Madness", "-Prophecy of Madness", "_t")
 t("%s talent '%s%s' is energized by the revelation!", "%s talent '%s%s' is energized by the revelation!", "logSeen")
-t("Prophecy of Ruin", "Prophecy of Ruin", "_t")
 t("The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "tformat")
 t("#Target# is doomed to ruin!", "#Target# is doomed to ruin!", "_t")
 t("+Prophecy of Ruin", "+Prophecy of Ruin", "_t")
 t("-Prophecy of Ruin", "-Prophecy of Ruin", "_t")
-t("Prophecy of Treason", "Prophecy of Treason", "_t")
 t("The target is doomed to treason. Each turn they have a %d%% chance to attack an adjacent creature.  If no creatures are adjacent they will attack themself.", "The target is doomed to treason. Each turn they have a %d%% chance to attack an adjacent creature.  If no creatures are adjacent they will attack themself.", "tformat")
 t("#Target# is doomed to treason!", "#Target# is doomed to treason!", "_t")
 t("+Prophecy of Treason", "+Prophecy of Treason", "_t")
@@ -3953,13 +3905,11 @@ This effect will fade in 2 turns if the source is not in line of sight.]], "tfor
 t("#Target# is wreathed in entropy.", "#Target# is wreathed in entropy.", "_t")
 t("#Target# is free of the entropy.", "#Target# is free of the entropy.", "_t")
 t("#LIGHT_RED#A void annihilator manifests from %s!", "#LIGHT_RED#A void annihilator manifests from %s!", "logSeen")
-t("Atrophy", "Atrophy", "_t")
 t([[The target's mind and body is wasting away, reducing all stats by %d.
 This effect will fade in 2 turns if the source is not in line of sight.]], [[The target's mind and body is wasting away, reducing all stats by %d.
 This effect will fade in 2 turns if the source is not in line of sight.]], "tformat")
 t("#Target# is wasting away.", "#Target# is wasting away.", "_t")
 t("#Target# regains their strength.", "#Target# regains their strength.", "_t")
-t("Temporal Feast", "Temporal Feast", "_t")
 t("Increases spellcast speed by %d%%.", "Increases spellcast speed by %d%%.", "tformat")
 t("%d Temporal Feast", "%d Temporal Feast", "tformat")
 t("Void Rift", "Void Rift", "_t")
@@ -3989,7 +3939,6 @@ t("Unravelling", "Unravelling", "_t")
 t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "tformat")
 t("#Target# is being erased from reality!", "#Target# is being erased from reality!", "_t")
 t("#Target# has survived the unraveling.", "#Target# has survived the unraveling.", "_t")
-t("Fatebreaker", "Fatebreaker", "_t")
 t("The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "tformat")
 t("#Target# intertwines it's fate!", "#Target# intertwines it's fate!", "_t")
 t("#Target#'s fate is no longer linked to another.", "#Target#'s fate is no longer linked to another.", "_t")
@@ -4002,7 +3951,6 @@ t("Crippling Disease", "Crippling Disease", "_t")
 t("The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "tformat")
 t("#Target# is afflicted by a crippling disease!", "#Target# is afflicted by a crippling disease!", "_t")
 t("#Target# is free from the crippling disease.", "#Target# is free from the crippling disease.", "_t")
-t("Defiled Blood", "Defiled Blood", "_t")
 t("Covered in defiled blood, healing the source for %d%% of all damage done.", "Covered in defiled blood, healing the source for %d%% of all damage done.", "tformat")
 t("#Target# is covered in black blood!", "#Target# is covered in black blood!", "_t")
 t("#Target# is clear from the black blood.", "#Target# is clear from the black blood.", "_t")
