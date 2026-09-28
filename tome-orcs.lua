@@ -4561,13 +4561,13 @@ t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
 section "tome-orcs/data/talents/misc/objects.lua"
 
 t("object techniques", "techniques d'objets", "talent type")
+t("Overgrowth", "Sur-croissance", "talent name")
 t("%s resists!", "%s résiste !", "logSeen")
 t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 -- texte non traduit
 --[==[
 t("steam", "steam", "talent category")
 t("Steam powers of the various objects of the world.", "Steam powers of the various objects of the world.", "_t")
-t("Overgrowth", "Overgrowth", "talent name")
 t([[Instantly grow a moss circle of radius %d at target area.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
@@ -5887,6 +5887,7 @@ t([[Project a radius 3 electric field from your shield lasting %d turns. Enemies
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/mecharachnid.lua"
 
+t("Link to the summoner.", "Lien avec l'invocateur.", "_t")
 t("Self-destruction", "Auto-destruction", "talent name")
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
@@ -5901,7 +5902,6 @@ t("incompatible missile launcher", "incompatible missile launcher", "_t")
 t("incompatible ammo", "incompatible ammo", "_t")
 t("no shooter", "no shooter", "_t")
 t("Mecharachnid Link", "Mecharachnid Link", "talent name")
-t("Link to the summoner.", "Link to the summoner.", "_t")
 t([[The mecharachnid self-destructs, destroying itself and generating a blast of fire in a radius of %d, doing %0.2f fire damage.
 		This spell is only usable when the mecharachnid's master is dead.]], [[The mecharachnid self-destructs, destroying itself and generating a blast of fire in a radius of %d, doing %0.2f fire damage.
 		This spell is only usable when the mecharachnid's master is dead.]], "tformat")

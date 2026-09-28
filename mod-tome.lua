@@ -5949,7 +5949,7 @@ t("A lanky humanoid shape composed of yellow light.", "Une forme humanoïde allo
 t("radiant horror", "horreur rayonnante", "entity name")
 t("A lanky four-armed humanoid shape composed of bright golden light.  It's so bright it's hard to look at, and you can feel heat radiating outward from it.", "Une forme humanoïde allongée à quatre bras composée d'une lumière dorée brillante.  Elle est si brillante qu'il est difficile de la regarder, et vous pouvez sentir la chaleur qui s'en dégage.", "_t")
 t("devourer", "dévoreur", "entity name")
-t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "Une créature ronde, sans tête, avec des jambes et des bras trapus.  Son corps semble être composé uniquement de dents.", "_t")
+t("A headless, round creature with stubby legs and arms.  Its body seems to be all teeth.", "Une créature ronde, sans tête, avec des jambes et des bras trapus. Son corps semble être composé uniquement de dents.", "_t")
 t("blade horror", "horreur tranchante", "entity name")
 t("Blades whirl in the air around this thin, floating figure. The air around it swirls with force, threatening to tear apart anything that approches, if the blades don't do it first.", "Des lames tourbillonnent dans l'air autour de cette mince silhouette flottante. L'air qui l'entoure tourbillonne avec force, menaçant de déchirer tout ce qui s'approche, si les lames ne le font pas avant.", "_t")
 t("oozing horror", "horreur vaseuse", "entity name")
@@ -23901,7 +23901,7 @@ t("Spell talents of the various horrors of the world.", "Talents magiques des di
 t("other", "Autre", "talent category")
 t("horror powers", "pouvoirs d'horreur", "talent type")
 t("Unclassified talents of the various horrors of the world.", "Talents non classés des diverses horreurs du monde.", "_t")
-t("Frenzied Bite", "Morsure frénétique", "talent name")
+t("Frenzied Bite", "Morsure Frénétique", "talent name")
 t("In a frenzy @Source@ bites at @Target@!", "En pleine frénésie, @Source@ mord @Target@ !", "_t")
 t([[A nasty bite that hits for %d%% weapon damage, reduces the targets healing by %d%%, and causes the target to bleed for %d%% weapon damage over 5 turns.
 		Only usable while frenzied.]], [[Une morsure sauvage qui inflige %d%% dégâts d'arme, réduit les soins reçus par la cible de %d%%, et provoque un saignement de %d%% dégâts d'arme sur 5 tours.
@@ -23911,7 +23911,7 @@ t("@Source@ leaps forward in a frenzy!", "@Source@ bondit en avant en pleine fr�
 t([[Leaps toward a target within range.
 		Only usable while frenzied.]], [[Bondit vers une cible à portée.
 		Utilisable uniquement en état de frénésie.]], "tformat")
-t("Gnashing Teeth", "Dents grinçantes", "talent name")
+t("Gnashing Teeth", "Dents Grinçantes", "talent name")
 t("@Source@ tries to bite @Target@ with razor sharp teeth!", "@Source@ tente de mordre @Target@ avec des dents acérées !", "_t")
 t("The scent of blood sends the %ss into a frenzy!", "L'odeur du sang plonge les %s dans la frénésie !", "logSeen")
 t("%s resists the cut!", "%s résiste à la coupure !", "logSeen")
@@ -29656,7 +29656,7 @@ t([[This is your true goal and the purpose of all necromancy - to become a power
 		]], [[Tel est votre véritable objectif et la raison d'être de toute nécromancie : devenir une puissante et éternelle Liche !
 		Une fois appris, la prochaine fois que vous mourrez, les forces arcaniques que vous libérez pourront reconstruire votre corps dans la Forme de Liche désirée.
 		Les Liches sont immunisées aux poisons, maladies, peur, Entailles, assommements, n'ont pas besoin de respirer et ont 20%% de résistance au froid et à l'obscurité.
-		Les Liches gagnent également +12 en Magie, Volonté et Ruse, 60%% de chance d'ignorer les coups critiques, +4 de valorisation de vie (non rétroactif), +35 de sauvegardes magique et mentale et +7 de régénération de mana.
+		Les Liches gagnent également +12 en Magie, Volonté et Ruse, 60%% de chance d'ignorer les coups critiques, +4 de rendement de vie (non rétroactif), +35 de sauvegardes magique et mentale et +7 de régénération de mana.
 
 		Les Liches gagnent un nouvel arbre racial avec les talents suivants :
 		* Mort-Vive Infinie : Le corps d'une Liche est extrêmement résistant, pouvant passer en vie négative et, lorsqu'il est détruit, il peut se régénérer.
@@ -33063,7 +33063,7 @@ t("#Target# stops leeching life.", "#Target# cesse d'aspirer la vie.", "_t")
 t("-Life Tap", "-Ponction de Vie", "_t")
 t("Arcane Eye", "Oeil Arcanique", "_t")
 t("You have an arcane eye observing for you in a radius of %d.", "Un oeil arcanique observe pour vous dans un rayon de %d.", "tformat")
-t("Seen by Arcane Eye", "Vu par l'oeil arcanique", "_t")
+t("Seen by Arcane Eye", "Vu par l'oeil Arcanique", "_t")
 t("An Arcane Eye has seen this creature.", "Un oeil arcanique a vu cette créature.", "_t")
 t("All stats increase", "Augmentation de toutes les statistiques", "_t")
 t("All primary stats of the target are increased by %d.", "Toutes les statistiques primaires de la cible sont augmentées de %d.", "tformat")
