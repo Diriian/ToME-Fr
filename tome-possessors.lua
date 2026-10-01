@@ -76,9 +76,9 @@ t("Bodies Reserve", "Réserve de Corps", "talent name")
 t([[Your mind is so powerful it can bend reality, providing you with an extra-natural #{italic}#storage#{normal}# for bodies you snatch.
 		You can store up to %d bodies.]], [[Votre esprit est si puissant qu'il peut plier la réalité, vous offrant un #{italic}#espace de stockage#{normal}# extra-naturel pour les corps que vous dérobez.
 		Vous pouvez stocker jusqu'à %d corps.]], "tformat")
-t("Psionic Minion", "Serviteur Psionique", "talent name")
-t("Not enough space to invoke your minion!", "Pas assez d'espace pour invoquer votre serviteur !", "logPlayer")
-t("%s (Psionic Minion)", "%s (Serviteur Psionique)", "tformat")
+t("Psionic Minion", "Laquais Psionique", "talent name")
+t("Not enough space to invoke your minion!", "Pas assez d'espace pour invoquer votre laquais !", "logPlayer")
+t("%s (Psionic Minion)", "%s (Laquais Psionique)", "tformat")
 t([[You imbue a part of your own mind into a body without actually taking its form.
 		The body will work as your minion for %d turns.
 		Psionic minions can not heal in any way.
@@ -135,7 +135,7 @@ t([[Your physical form is but a mere extension of your mind, you can bend it at 
 		While under the effect you gain %d%% all resistances and have %d%% chance to ignore all critical hits.
 		On activation you also remove up to %d physical or mental effects.
 		]], [[Votre forme physique n'est qu'une simple extension de votre esprit ; vous pouvez la plier à volonté pendant %d tours.
-		Sous cet effet, vous gagnez %d%% de résistance générale et %d%% de chance d'ignorer tous les coups critiques.
+		Sous cet effet, vous gagnez %d%% de résistance globale et %d%% de chance d'ignorer tous les coups critiques.
 		Lors de l'activation, vous retirez également jusqu'à %d effet(s) physique(s) ou mental(aux).
 		]], "tformat")
 t("Ominous Form", "Forme Sinistre", "talent name")
@@ -418,7 +418,7 @@ t("#Target# stole a talent!", "#Target# a volé un talent !", "_t")
 t("#Target# forgot a talent.", "#Target# a oublié un talent.", "_t")
 t("%s can not use %s because it was stolen!", "%s ne peut pas utiliser %s car il a été volé !", "_t")
 t("Writhing Psionic Mass", "Masse Psionique Grouillante", "_t")
-t("All resists increased by %d%%, chance to be crit reduced by %d%%.", "Résistance générale augmentée de %d%%, chance d'être touché par un coup critique réduite de %d%%.", "tformat")
+t("All resists increased by %d%%, chance to be crit reduced by %d%%.", "Résistance globale augmentée de %d%%, chance d'être touché par un coup critique réduite de %d%%.", "tformat")
 t("#Target#'s body writhe in psionic energies!", "Le corps de #Target# se tord sous des énergies psioniques !", "_t")
 t("#Target#'s body looks more at rest.", "Le corps de #Target# semble plus apaisé.", "_t")
 t("damage", "dégâts", "effect subtype")
@@ -465,7 +465,7 @@ section "tome-possessors/overload/mod/dialogs/AssumeForm.lua"
 t("Assume Form", "Assumer une Forme", "_t")
 t("Possess Body", "Posséder un Corps", "_t")
 t("#SLATE##{italic}#Choose which body to assume. Bodies can never be healed and once they reach 0 life they are permanently destroyed.", "#SLATE##{italic}#Choisissez quel corps assumer. Les corps ne peuvent jamais être soignés et, une fois qu'ils atteignent 0 point de vie, ils sont détruits de façon permanente.", "_t")
-t("Create Minion", "Créer un Serviteur", "_t")
+t("Create Minion", "Créer un Laquais", "_t")
 t("Summon", "Invocation", "_t")
 t("#SLATE##{italic}#Choose which body to summon. Once the effect ends the body will be lost.", "#SLATE##{italic}#Choisissez quel corps invoquer. Une fois l'effet terminé, le corps sera perdu.", "_t")
 t("Cannibalize Body", "Cannibaliser un Corps", "_t")

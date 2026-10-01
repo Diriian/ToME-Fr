@@ -4561,7 +4561,7 @@ t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
 section "tome-orcs/data/talents/misc/objects.lua"
 
 t("object techniques", "techniques d'objets", "talent type")
-t("Overgrowth", "Sur-croissance", "talent name")
+t("Overgrowth", "Sur-Croissance", "talent name")
 t("%s resists!", "%s résiste !", "logSeen")
 t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 -- texte non traduit
@@ -6863,6 +6863,7 @@ section "tome-orcs/data/timed_effects/mental.lua"
 t("psionic", "psionique", "effect subtype")
 t("physical", "physique", "effect subtype")
 t("confusion", "confus", "effect subtype")
+t("#Target# is less afraid.", "#Target# a moins peur.", "_t")
 t("fear", "peur", "effect subtype")
 t("curse", "malédiction", "effect subtype")
 t("#Target# is no longer cursed.", "#Target# n'est plus maudit.", "_t")
@@ -6891,7 +6892,6 @@ t("Physical save reduced by %d, armour and defense by %d.", "Physical save reduc
 t("Unclear Thoughts", "Unclear Thoughts", "_t")
 t("Can not discern foes from friends.", "Can not discern foes from friends.", "tformat")
 t("#Target# wakes up from the nightmare very confused!", "#Target# wakes up from the nightmare very confused!", "_t")
-t("#Target# is less afraid.", "#Target# is less afraid.", "_t")
 t("Psy Worm", "Psy Worm", "_t")
 t("Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "tformat")
 t("#Target# is infected by a psy worm!", "#Target# is infected by a psy worm!", "_t")

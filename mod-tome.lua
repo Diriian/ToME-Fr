@@ -12366,8 +12366,8 @@ t("blighted ruins", "ruines délabrées", "newLore category")
 t("note from the Necromancer", "note du Nécromancien", "_t")
 t("Work on my glorious project has been delayed. This displeases me. The fools from the nearby village are starting to suspect my presence, and have begun guarding their graveyards and cemeteries closely. Whatever meagre remains I can steal away are often too rotted or insubstantial to use for my project, so I have no choice but to use them as sub-par minions instead. Perhaps they will sow enough conflict and discord so that new, fresher remains will become available...", "Le travail sur mon glorieux projet a pris du retard. Cela me déplaît. Les imbéciles du village voisin commencent à soupçonner ma présence, et se sont mis à surveiller étroitement leurs nécropoles et cimetières. Les maigres restes que je parviens à dérober sont bien souvent trop putréfiés ou trop insubstantiels pour servir à mon projet, aussi n'ai-je d'autre choix que de les employer comme sbires de second ordre. Peut-être sèmeront-ils assez de conflit et de discorde pour que de nouveaux restes, plus frais, deviennent disponibles...", "_t")
 t("The cloak of deception is complete! Truly my finest work, not counting my project of course, it allows my minions to walk amongst the living without arousing their suspicions at all. Already I have taken a stroll to a nearby town alongside a ghoulish thrall, wrapped in the cloak... hah! The fools didn't even bat an eyelid! With this item, acquisition of components for my project shall be all the more simple.", "La cape de supercherie est achevée ! Assurément mon plus bel ouvrage, mon grand projet mis à part, elle permet à mes sbires de marcher parmi les vivants sans éveiller le moindre soupçon. Je me suis déjà rendu dans une ville voisine, accompagné d'un thrall goule enveloppé dans la cape... hah ! Ces imbéciles n'ont même pas cillé ! Grâce à cet objet, l'acquisition des composants pour mon projet n'en sera que plus aisée.", "_t")
-t("Fate smiles upon me. What did I come across today but the body of an unfortunate %s? Unfortunate indeed, but rather fortunate for me. The body displays next to no decomposition... it shall be perfect! With this new minion and the cloak of deception, the completion of my project is all but assured. I must prepare for the ritual... my dark menagerie shall soon have a new member.", "Le destin me sourit. Que n'ai-je découvert aujourd'hui, sinon le corps d'un malheureux %s ? Malheureux, certes, mais fort chanceux pour moi. Le corps ne présente presque aucune décomposition... il sera parfait ! Avec ce nouveau sbire et la cape de supercherie, l'achèvement de mon projet est quasiment assuré. Je dois me préparer pour le rituel... ma sombre ménagerie comptera bientôt un nouveau membre.", "tformat")
-t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished, it is finished enough to serve in its purpose of protecting my lair. No would-be hero will be able to defeat it, and once it is complete it will be nigh invulnerable! Now all that remains is to animate my newest minion and bend it to my will... then they'll see. They'll ALL see. What can possibly stop me now, I ask? What?!", "Mon chef-d'oeuvre marche ! Il est glorieux, magnifique. Bien qu'inachevé, il l'est suffisamment pour remplir son rôle de protection de mon antre. Nul prétendu héros ne saura le vaincre, et une fois achevé, il sera pratiquement invulnérable ! Il ne me reste plus qu'à animer mon tout nouveau sbire et à le plier à ma volonté... alors ils verront. Ils verront TOUS. Qu'est-ce qui pourrait bien m'arrêter à présent, je vous le demande ? Quoi donc ?!", "_t")
+t("Fate smiles upon me. What did I come across today but the body of an unfortunate %s? Unfortunate indeed, but rather fortunate for me. The body displays next to no decomposition... it shall be perfect! With this new minion and the cloak of deception, the completion of my project is all but assured. I must prepare for the ritual... my dark menagerie shall soon have a new member.", "Le destin me sourit. Que n'ai-je découvert aujourd'hui, sinon le corps d'un malheureux %s ? Malheureux, certes, mais fort chanceux pour moi. Le corps ne présente presque aucune décomposition... il sera parfait ! Avec ce nouveau laquais et la cape de supercherie, l'achèvement de mon projet est quasiment assuré. Je dois me préparer pour le rituel... ma sombre ménagerie comptera bientôt un nouveau membre.", "tformat")
+t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished, it is finished enough to serve in its purpose of protecting my lair. No would-be hero will be able to defeat it, and once it is complete it will be nigh invulnerable! Now all that remains is to animate my newest minion and bend it to my will... then they'll see. They'll ALL see. What can possibly stop me now, I ask? What?!", "Mon chef-d'oeuvre marche ! Il est glorieux, magnifique. Bien qu'inachevé, il l'est suffisamment pour remplir son rôle de protection de mon antre. Nul prétendu héros ne saura le vaincre, et une fois achevé, il sera pratiquement invulnérable ! Il ne me reste plus qu'à animer mon tout nouveau laquais et à le plier à ma volonté... alors ils verront. Ils verront TOUS. Qu'est-ce qui pourrait bien m'arrêter à présent, je vous le demande ? Quoi donc ?!", "_t")
 
 ------------------------------------------------
 section "mod-tome/data/lore/daikara.lua"
@@ -12464,7 +12464,7 @@ t([[MINIONS: To my newest vampire: burn, foolish adventurer, burn! I bet you are
 
 To the rest of you, there will be punishment. An adventurer got down to my bedroom and surprised me. I, Myself, was hurt and almost had to use My special power. All is well now and I am as dangerous as ever, but you shall suffer for letting him get so low. The next minion I see shall be toasted with my marshmallows. Where then were the special pits of doom I organized? Where were the poisons of my wights or the diseases of my ghouls? Indeed, I should slaughter all of you, and I would, but those who were most foully remiss were already slaughtered by the adventurer. The rest of you? Beware My wrath.]], [[SBIRES : À mon plus récent vampire : brûle, aventurier stupide, brûle ! Je parie que tu regrettes maintenant ce sort de flammes, n'est-ce pas ? Souffre, tandis que je te le rends.
 
-Quant au reste d'entre vous, il y aura punition. Un aventurier est descendu jusqu'à ma chambre et m'a surpris. Moi-même j'ai été blessé et ai bien failli devoir user de Mon pouvoir spécial. Tout va bien à présent, et je suis aussi dangereux que jamais, mais vous souffrirez de l'avoir laissé descendre si bas. Le prochain sbire que je verrai sera grillé avec mes chamallows. Où donc étaient les fosses de perdition spéciales que j'avais organisées ? Où étaient les poisons de mes spectres ou les maladies de mes goules ? En vérité, je devrais tous vous massacrer, et je le ferais, mais ceux qui furent les plus vilement négligents ont déjà été massacrés par l'aventurier. Quant aux autres ? Prenez garde à Ma colère.]], "_t")
+Quant au reste d'entre vous, il y aura punition. Un aventurier est descendu jusqu'à ma chambre et m'a surpris. Moi-même j'ai été blessé et ai bien failli devoir user de Mon pouvoir spécial. Tout va bien à présent, et je suis aussi dangereux que jamais, mais vous souffrirez de l'avoir laissé descendre si bas. Le prochain laquais que je verrai sera grillé avec mes chamallows. Où donc étaient les fosses de perdition spéciales que j'avais organisées ? Où étaient les poisons de mes spectres ou les maladies de mes goules ? En vérité, je devrais tous vous massacrer, et je le ferais, mais ceux qui furent les plus vilement négligents ont déjà été massacrés par l'aventurier. Quant aux autres ? Prenez garde à Ma colère.]], "_t")
 t("A smudged poem chalked on a dark piece of slate", "Un poème illisible, tracé à la craie sur une ardoise", "_t")
 t([[Master of life, Master of death,
 All fall to a word
@@ -19115,7 +19115,7 @@ section "mod-tome/data/talents/celestial/dark-sun.lua"
 t("Collapse", "Effondrement", "talent name")
 t([[Open a radius 1 rift in spacetime at the targeted location for %d turns, increasing in radius by 1 each turn to a maximum of %d.
 		All caught within the rift are pulled towards the center and take %0.2f gravity damage.
-The damage will increase with your Spellpower.]], [[Ouvrez une faille de rayon 1 dans l'espace-temps à l'emplacement ciblé pour %d tours, augmentant son rayon de 1 chaque tour jusqu'à un maximum de %d.
+The damage will increase with your Spellpower.]], [[Ouvrez une faille de rayon 1 dans l'espace-temps à l'emplacement ciblé pour %d tours, augmentant son rayon de 1 par tour jusqu'à un maximum de %d.
 		Tous ceux pris dans la faille sont attirés vers le centre et subissent %0.2f dégâts de gravité.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Devourer Stance", "Posture du Dévoreur", "talent name")
@@ -19273,7 +19273,7 @@ t([[When one of your spells goes critical, you bind glyphs in radius 1 centered 
 		Les glyphes disponibles sont :
 		#ffd700#Glyphe de Lumière Solaire#LAST# : Liez la lumière solaire dans un glyphe. Lorsqu'il est déclenché, il libérera une lumière brillante, infligeant %0.2f dégâts de lumière et vous soignant de %d.
 		#7f7f7f#Glyphe de Clair de Lune#LAST# : Liez le clair de lune dans un glyphe. Lorsqu'il est déclenché, il libérera une obscurité fatigante, infligeant %0.2f dégâts d'obscurité et réduisant les dégâts infligés par l'ennemi de %d%% pendant %d tours.
-		#9D9DC9#Glyphe de Crépuscule#LAST# : Liez le crépuscule dans un glyphe. Lorsqu'il est déclenché, il libérera une explosion de crépuscule, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité et projetant l'ennemi de %d cases.
+		#9D9DC9#Glyphe de Crépuscule#LAST# : Liez le crépuscule dans un glyphe. Lorsqu'il est déclenché, il libérera une explosion de crépuscule, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité et repoussant l'ennemi de %d cases.
 		]], "tformat")
 t("Glyphs of Fury", "Glyphes de Furie", "talent name")
 t([[Your glyphs are imbued with celestial fury; they last %d turns longer and when triggered they will deal damage.
@@ -19291,7 +19291,7 @@ t([[Destabilize your glyphs, triggering every glyph in radius 10 with an enemy s
 		#ffd700#Sunlight#LAST#:  %0.2f light damage.
 		#7f7f7f#Moonlight#LAST#:  %0.2f darkness damage.
 		#9D9DC9#Twilight#LAST#:  %0.2f light and %0.2f darkness damage]], [[Déstabilisez vos glyphes, déclenchant chaque glyphe dans un rayon de 10 avec un ennemi dessus.
-		Au niveau 2, les glyphes déclenchés de cette manière laisseront un résidu sur le sol infligeant des dégâts chaque tour pendant %d tours.
+		Au niveau 2, les glyphes déclenchés de cette manière laisseront un résidu sur le sol infligeant des dégâts par tour pendant %d tours.
 		#ffd700#Glyphe de Lumière Solaire#LAST# : %0.2f dégâts de lumière.
 		#7f7f7f#Glyphe de Clair de Lune#LAST# : %0.2f dégâts d'obscurité.
 		#9D9DC9#Glyphe de Crépuscule#LAST# : %0.2f dégâts de lumière et %0.2f dégâts d'obscurité]], "tformat")
@@ -20522,7 +20522,7 @@ t([[Command your Temporal Hounds to teleport to the targeted location.  If you t
 		When you learn this talent, your hounds gain %d defense and %d%% resist all after any teleport.
 		At talent level five, if you're not at your maximum number of hounds when you cast this spell a new one will be summoned.
 		The teleportation bonuses scale with your Spellpower.]], [[Commandez vos Chien de Chasse Temporels pour qu'ils se téléportent vers l'emplacement ciblé. Si vous ciblez un ennemi, vos chiens définiront cet ennemi comme leur cible.
-		Lorsque vous apprenez ce talent, vos chiens gagnent %d de défense et %d%% de résistance générale après toute téléportation.
+		Lorsque vous apprenez ce talent, vos chiens gagnent %d de défense et %d%% de résistance globale après toute téléportation.
 		Au niveau 5, si vous n'avez pas le nombre maximum de chiens invoqués lorsque vous lancez ce sort, un nouveau sera invoqué.
 		Les bonus de téléportation sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Temporal Vigour", "Vigueur Temporelle", "talent name")
@@ -20552,7 +20552,7 @@ t("You cannot use Thread Walk without an appropriate weapon!", "Vous ne pouvez p
 t([[Attack with your bow or dual-weapons for %d%% damage.  If you shoot an arrow you'll teleport near the target location.  If you use your dual-weapons you'll teleport up to your bow's range away.
 		Additionally you now go Out of Phase for five turns after any teleport, gaining %d defense and %d%% resist all.
 		The Out of Phase bonuses will scale with your Magic stat.]], [[Attaquez avec votre arc ou vos armes doubles pour %d%% dégâts. Si vous tirez une flèche, vous vous téléporterez près de l'emplacement de la cible. Si vous utilisez vos armes doubles, vous vous téléporterez jusqu'à la portée de votre arc.
-		De plus, vous passez maintenant Hors Phase pendant 5 tours après toute téléportation, gagnant %d de défense et %d%% de résistance générale.
+		De plus, vous passez maintenant Hors Phase pendant 5 tours après toute téléportation, gagnant %d de défense et %d%% de résistance globale.
 		Les bonus Hors Phase sont proportionnels à votre Magie.]], "tformat")
 t("Blended Threads", "Trames Mêlées", "talent name")
 t([[Each time you hit with an arrow you reduce the cooldown of one Blade Threading talent on cooldown by one turn.
@@ -20843,7 +20843,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
 		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
 		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[Infecte la cible avec une maladie très contagieuse, infligeant %0.2f dégâts par tour pendant 6 tours.
-		Chaque fois que des dégâts de fléau (hors maladies) touchent la cible, l'épidémie peut s'activer et répandre une maladie aléatoire aux cibles proches dans un rayon de 2 cases.
+		Chaque fois que des dégâts de fléau (hors maladies) touchent la cible, l'épidémie peut s'activer et répandre une maladie aléatoire aux cibles proches dans un rayon de 2.
 		La chance de propagation est proportionnel aux dégâts de fléau infligés et devient 100%% si ces dégâts représentent au moins %d%% de la vie maximale de la cible.
 		Les créatures souffrant de cette maladie subiront également une réduction des soins de %d%% et une réduction de l'immunité aux maladies de %d%%.
 		L'Épidémie est une maladie extrêmement puissante ; à ce titre, elle ignore totalement l'immunité aux maladies de la cible.
@@ -21008,7 +21008,7 @@ t([[Summon a part of the Fearscape to intersect with the current level.
 		Vous et votre cible êtes emmenés dans le Plan de la Peur, piégés là jusqu'à ce que vous mettiez fin au sort ou que votre cible meure.
 		À l'intérieur, une aura constante de flammes vous brûlera tous les deux pour %0.2f dégâts de feu (les démons sont soignés à la place) par tour.
 		Quand le sort prend fin, seulement vous et la cible (si encore en vie), ainsi que tous les objets au sol, êtes ramenés à votre plan d'origine ; toutes les invocations restent dans le Plan de la Peur.
-		Ce puissant sort draine 5 Vitae par tour initialement, augmentant de +1 pour chaque tour d'activité, et se termine lorsque votre Vitae est épuisée.
+		Ce puissant sort draine 5 Vitae par tour initialement, augmentant de +1 par tour d'activité, et se termine lorsque votre Vitae est épuisée.
 		N'a aucun effet si lancé depuis l'intérieur du Plan de la Peur.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
@@ -21740,10 +21740,10 @@ t("Construct attacks all adjacent enemies each turn for %d turns.", "L'effet att
 t("Lay a trap that activates a lethal contraption of whirling blades, lasting %d turns.  This stationary construct is very durable, receives your damage bonuses, and automatically attacks all adjacent enemies each turn.", "Placez un piège qui déclenche un mécanisme mortel composé de lames tournoyantes, d'une durée de %d tours. Cette construction fixe est très résistante, bénéficie de vos bonus de dégâts et attaque automatiquement tous les ennemis adjacents chaque tour.", "tformat")
 t("Beam Trap", "Piège à Rayon", "talent name")
 t("beam trap", "piège à rayon", "_t")
-t("Fires a beam (range 5) at a foe each turn for %0.2f arcane damage.  Lasts %d turns.", "Lance un rayon (portée 5) sur un ennemi chaque tour, infligeant %0.2f dégâts arcaniques. Dure %d tours.", "tformat")
+t("Fires a beam (range 5) at a foe each turn for %0.2f arcane damage.  Lasts %d turns.", "Lance un rayon par tour (portée 5) sur un ennemi, infligeant %0.2f dégâts arcaniques. Dure %d tours.", "tformat")
 t([[Lay a magical trap that fires a beam of arcane energy at a random foe (within range 5) each turn for %d turns, inflicting %0.2f arcane damage.
 This trap requires 20 Magic to prepare and does not refund stamina when it expires.
-#YELLOW#Activates immediately when placed.#LAST#]], [[Placez un piège magique qui lance un rayon d'énergie arcanique sur un ennemi aléatoire (à portée 5) chaque tour pendant %d tours, infligeant %0.2f dégâts arcaniques.
+#YELLOW#Activates immediately when placed.#LAST#]], [[Placez un piège magique qui lance un rayon d'énergie arcanique sur un ennemi aléatoire (à portée 5) par tour pendant %d tours, infligeant %0.2f dégâts arcaniques.
 Ce piège nécessite 20 points de Magie pour être préparé et ne restitue pas d'endurance lorsqu'il expire.
 #YELLOW#S'active immédiatement dès sa mise en place.#LAST#]], "tformat")
 t("Poison Gas Trap", "Piège à Gaz Toxique", "talent name")
@@ -21877,7 +21877,7 @@ When the marked enemy dies, the cooldown of this talent will be reduced by two t
 
 Each point in Bloodstained talents reduces the amount of damage you take from bleed effects by 2%%]], [[Se téléporte vers un ennemi, le frappant pour 100%% dégâts d'arme, le faisant saigner pour %d%% dégâts d'arme sur cinq tours et le marquant pendant six tours. Vous ne vous téléporterez pas si vous êtes déjà adjacent.
 
-Lorsque l'ennemi marqué meurt, le rechargement de ce talent est réduit de deux tours pour chaque tour restant de la marque.
+Lorsque l'ennemi marqué meurt, le rechargement de ce talent est réduit de deux tours par tour restant de la marque.
 
 Chaque point dans les talents Marqué par le Sang réduit de 2%% la quantité de dégâts que vous subissez des effets de saignement.]], "tformat")
 t("Blood Rage", "Rage de Sang", "talent name")
@@ -22190,7 +22190,7 @@ t([[Instill fear in your foes within %d radius of a target location dealing %0.2
 		#ORANGE#Paranoïa :#LAST# Donne à la cible une chance de %d%% d'attaquer physiquement une créature proche, amie ou ennemie. Si elle est touchée, sa cible sera également affectée par la Paranoïa.
 		#ORANGE#Désespoir :#LAST# Réduit la résistance mentale, la sauvegarde mentale, l'armure et la défense de %d.
 		#ORANGE#Terreur :#LAST# Inflige %0.2f dégâts Mentaux et %0.2f dégâts d'Obscurité par tour et augmente les rechargements de %d%%.
-		#ORANGE#Hantise :#LAST# Fait subir à la cible %0.2f dégâts Mentaux et %0.2f dégâts d'Obscurité par effet mental négatif chaque tour.
+		#ORANGE#Hantise :#LAST# Fait subir à la cible %0.2f dégâts Mentaux et %0.2f dégâts d'obscurité par effet mental négatif par tour.
 		]], "tformat")
 t("Heighten Fear", "Intensification de la Peur", "talent name")
 t([[Heighten the fears of those near to you. Any foe you attempt to inflict a fear upon and who remains in a radius of %d and in sight of you for %d (non-consecutive) turns, will take %0.2f mind and %0.2f darkness damage and gain a new fear that lasts for %d turns.
@@ -22311,7 +22311,7 @@ t([[Your awareness extends to your shadows.
 t("Shadows Empathy", "Empathie des Ombres", "talent name")
 t([[You empathy with your shadows causes the line between you and your shadows to blur.
 		You lose %d%% light resistance, but gain %d%% darkness resistance and affinity. You also gain %0.2f%% all resistance for each shadow in your party.]], [[Votre empathie avec vos ombres fait que la frontière entre vous et vos ombres s'estompe.
-		Vous perdez %d%% de résistance à la lumière, mais gagnez %d%% d'affinité et de résistance à l'obscurité. Vous gagnez également %0.2f%% de résistance générale pour chaque ombre dans votre groupe.]], "tformat")
+		Vous perdez %d%% de résistance à la lumière, mais gagnez %d%% d'affinité et de résistance à l'obscurité. Vous gagnez également %0.2f%% de résistance globale pour chaque ombre dans votre groupe.]], "tformat")
 t("Shadow Transposition", "Transposition des Ombres", "talent name")
 t([[Observers find it difficult to tell you and your shadows apart.
 		You can target a shadow in radius %d and instantly trade places with it.
@@ -22392,7 +22392,7 @@ Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 t("Agony", "Agonie", "talent name")
 t([[Sear your hatred into the mind of a target, dealing escalating Mind damage each turn over %d turns. The victim will suffer %0.1f damage on the first turn, slowly increasing up to %0.1f damage on the last, dealing %d Mind damage in total. Re-applying the effect resets the damage escalation. The victim has a 25%% chance of suffering Brainlock each turn from the unbearable pain.
 
-The damage increases with your Mindpower.]], [[Vous gravez votre haine dans l'esprit d'une cible, lui infligeant des dégâts mentaux croissants chaque tour pendant %d tours. La victime subit %0.1f dégâts au premier tour, augmentant lentement jusqu'à %0.1f au dernier, pour un total de %d dégâts mentaux.
+The damage increases with your Mindpower.]], [[Vous gravez votre haine dans l'esprit d'une cible, lui infligeant des dégâts mentaux croissants par tour pendant %d tours. La victime subit %0.1f dégâts au premier tour, augmentant lentement jusqu'à %0.1f au dernier, pour un total de %d dégâts mentaux.
 Réappliquer l'effet réinitialise la progression des dégâts. La victime a 25%% de chances par tour de subir une Paralysie Mentale en raison de l'insoutenable douleur.
 
 Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
@@ -22462,7 +22462,7 @@ This strength comes at a cost: you lose %d%% of your maximum life every turn.  T
 Immédiatement après l'activation, puis chaque tour tant que ce talent est actif, vos effets néfastes expirent et vos talents récupèrent comme si un tour supplémentaire s'était écoulé.
 Ce bonus de récupération s'applique même si vos talents ne devraient normalement pas récupérer.
 Ce talent se désactive automatiquement lors du repos.
-Cette force a un prix : vous perdez %d%% de vos points de vie maximaux chaque tour. Cela peut vous tuer.
+Cette force a un prix : vous perdez %d%% de vos points de vie maximaux par tour. Cela peut vous tuer.
 
 #{italic}#Avec un peu de chance, cela vous prendra tout ce que vous avez.#{normal}#]], "tformat")
 t("Self-Judgement", "Autocritique", "talent name")
@@ -23053,7 +23053,7 @@ t([[Befriend the natural elements that constitute nature. Each time you are hit 
 		* #1133F3#Froid#LAST# : +%d Armure.
 		* #ROYAL_BLUE#Foudre#LAST# : +%d à tous les attributs.
 		* #GREEN#Acide#LAST# : +%0.2f régénération de vie.
-		* #LIGHT_GREEN#Nature#LAST# : +%d%% résistance générale.]], "tformat")
+		* #LIGHT_GREEN#Nature#LAST# : +%d%% résistance globale.]], "tformat")
 t("One with Nature", "Un avec la Nature", "talent name")
 t("Commune with nature, removing the infusion saturation effect and reducing the cooldown of %d infusions by %d turns.", "Communiez avec la nature, supprimant l'effet de saturation des essences et réduisant le rechargement de %d essence(s) de %d tours.", "tformat")
 t("Healing Nexus", "Nexus de Guérison", "talent name")
@@ -23292,7 +23292,7 @@ t([[Your body is more like that of an ooze.
 		Cette vase a autant de points de vie que le double des dégâts que vous avez subis (jusqu'à un maximum de %d, basé sur votre Puissance mentale et votre vie maximale).
 		La chance de se diviser est égale au pourcentage de votre vie perdue multiplié par %0.2f.
 		Vous pouvez avoir jusqu'à %d Vases Gonflées actives à la fois (limitées par le niveau du talent et la limite d'invocation), et tous les dégâts que vous subissez seront répartis équitablement entre vous et elles tant que ce talent est actif.
-		Les Vases Gonflées durent %d tours, sont très résistantes (%d%% de résistance générale à tout dégât ne provenant pas du lien partagé) et régénèrent rapidement.
+		Les Vases Gonflées durent %d tours, sont très résistantes (%d%% de résistance globale à tout dégât ne provenant pas du lien partagé) et régénèrent rapidement.
 		%sLa chance de se diviser est proportionnel à votre Ruse.]], "tformat")
 t("Reabsorb", "Réabsorber", "talent name")
 t([[You randomly merge with an adjacent bloated ooze, granting you 40%% all damage resistance for %d turns.
@@ -23575,7 +23575,7 @@ t([[Destroys one of your summons, making it detonate in radius of %d.
 		- Gelée : Explose en une balle de gelée visqueuse, infligeant %d dégâts de Nature et %0.1f%% de lenteur aux ennemis.
 		- Minotaure : Confond les ennemis à %d%% de puissance pendant 5 tours.
 		- Golem de Pierre : Accorde %d d'armure et %d%% de solidité d'armure à toutes les créatures alliées pendant 5 tours.
-		- Tortue : Accorde un petit bouclier de carapace à toutes les créatures alliées, accordant %d%% de résistance générale pendant 5 tours.
+		- Tortue : Accorde un petit bouclier de carapace à toutes les créatures alliées, accordant %d%% de résistance globale pendant 5 tours.
 		- Araignée : Repousse tous les ennemis de %d cases.
 		De plus, une invocation aléatoire sortira du rechargement.
 		Les effets hostiles ne vous toucheront pas, ni vos autres invocations.
@@ -23864,7 +23864,7 @@ t("Corrosive Mist", "Brume Corrosive", "talent name")
 t([[Exhale a mist of lingering acid, dealing %0.2f acid damage that can critical in a radius of %d each turn for %d turns.
 		Enemies in this mist will be corroded for %d turns, lowering their Accuracy, their Armour and their Defense by %d.
 		The damage and duration will increase with your Mindpower, and the radius will increase with talent level.
-		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Exhale une brume d'acide persistant, infligeant %0.2f dégâts d'acide pouvant être critiques dans un rayon de %d chaque tour pendant %d tours.
+		Each point in acid drake talents also increases your acid resistance by 1%%.]], [[Exhale une brume d'acide persistant, infligeant %0.2f dégâts d'acide pouvant être critiques dans un rayon de %d par tour pendant %d tours.
 		Les ennemis dans cette brume seront corrodés pendant %d tours, réduisant leur Précision, leur Armure et leur Défense de %d.
 		Les dégâts et la durée sont proportionnels à votre Puissance Mentale, et le rayon est proportionnel à le niveau du talent.
 		Chaque point dans les talents de l'Aspect de Dragon de Venin augmente également votre résistance à l'acide de 1%%.]], "tformat")
@@ -23921,7 +23921,7 @@ t([[Bites the target for %d%% weapon damage, potentially causing it to bleed for
 		Si la cible est affectée par le saignement, cela plonge le dévoreur dans une frénésie pour %d tours (ce qui, à son tour, plonge les autres dévoreurs proches dans la frénésie).
 		La frénésie augmente la vitesse globale de %d%%, les chances de critique physique de %d%%, et empêche la mort jusqu'à -%d%% de vie.]], "tformat")
 t("Abyssal Shroud", "Lisière Abyssale", "talent name")
-t("Creates a shroud of darkness over a radius 3 area that lasts %d turns.  The shroud causes %0.2f darkness damage each turn, reduces light radius by %d, and darkness resistance by %d%% of those within.", "Crée un voile d'obscurité sur une zone d'un rayon de 3 qui dure %d tours. Ce voile inflige %0.2f dégâts d'obscurité à chaque tour, réduit le rayon de lumière de %d et diminue la résistance à l'obscurité de %d%% chez ceux qui s'y trouvent.", "tformat")
+t("Creates a shroud of darkness over a radius 3 area that lasts %d turns.  The shroud causes %0.2f darkness damage each turn, reduces light radius by %d, and darkness resistance by %d%% of those within.", "Crée un voile d'obscurité sur une zone d'un rayon de 3 qui dure %d tours. Ce voile inflige %0.2f dégâts d'obscurité par tour, réduit le rayon de lumière de %d et diminue la résistance à l'obscurité de %d%% chez ceux qui s'y trouvent.", "tformat")
 t("Echoes From The Void", "Échos du Vide", "talent name")
 t("@Source@ shows @Target@ the madness of the void.", "@Source@ montre à @Target@ la folie du vide.", "_t")
 t("Shows the target the madness of the void.  Each turn for 6 turns the target must make a mental save or suffer %0.2f mind damage as well as resource damage (based off the mind damage and nature of the resource).", "Révèle à la cible la folie du vide. À chaque tour, pendant 6 tours, la cible doit réussir un jet de sauvegarde mentale, sous peine de subir %0.2f dégâts mentaux ainsi qu'en tant que dégâts aux ressources (calculés en fonction des dégâts mentaux et de la nature de la ressource).", "tformat")
@@ -24148,7 +24148,7 @@ t("radius %d; dur %d; see %s", "rayon : %d ; durée : %d ; voir : %s", "tformat"
 t("Rune: Phase Door", "Rune : Porte de Phase", "talent name")
 t([[Activate the rune to teleport randomly in a range of %d.
 		Afterwards you stay out of phase for %d turns. In this state all new negative status effects duration is reduced by %d%%, your defense is increased by %d and all your resistances by %d%%.]], [[Active la rune pour vous téléporter aléatoirement dans un rayon de %d.
-		Ensuite, vous restez hors phase pendant %d tours. Dans cet état, la durée de tous les nouveaux effets de statut négatifs est réduite de %d%%, votre défense est augmentée de %d et votre résistance générale de %d%%.]], "tformat")
+		Ensuite, vous restez hors phase pendant %d tours. Dans cet état, la durée de tous les nouveaux effets de statut négatifs est réduite de %d%%, votre défense est augmentée de %d et votre résistance globale de %d%%.]], "tformat")
 t("range %d; power %d; dur %d", "portée : %d ; puissance : %d ; durée : %d", "tformat")
 t("Rune: Controlled Phase Door", "Rune : Porte de Phase Contrôlée", "talent name")
 t("The targetted phase door fizzles and works randomly!", "La porte de phase ciblée échoue et fonctionne aléatoirement !", "logPlayer")
@@ -24208,7 +24208,7 @@ t("Paradox Pool", "Réserve de Paradoxe", "talent name")
 t("Hunted!", "Traqué !", "talent name")
 t([[You are hunted!.
 		There is a %d%% chance each turn that all foes in a %d radius get a glimpse of your position for 30 turns.]], [[Vous êtes traqué !
-		Il y a %d%% de chance chaque tour que tous les ennemis dans un rayon de %d aient un aperçu de votre position pendant 30 tours.]], "tformat")
+		Il y a %d%% de chance par tour que tous les ennemis dans un rayon de %d aient un aperçu de votre position pendant 30 tours.]], "tformat")
 t("Teleport: Angolwen", "Téléportation : Angolwen", "talent name")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
 t("There are creatures that could be watching you; you cannot take the risk.", "Il y a des créatures qui pourraient vous observer ; vous ne pouvez pas prendre ce risque.", "log")
@@ -25109,7 +25109,7 @@ t("Forcefield", "Champ de Force", "talent name")
 t([[Surround yourself with a forcefield, reducing all incoming damage by %d%%.
 		Such a shield is very expensive to maintain, draining 5%% of your maximum psi per turn initially plus an addition 5%% for each turn it has been maintained. For example, on turn 2 it will drain 10%%.
 		Current drain rate: %0.1f psi/turn]], [[Crée un champ de force autour de vous, réduisant tout dégât entrant de %d%%.
-		Maintenir ce bouclier est très coûteux : il draine initialement 5%% de votre Psi maximum, et ce coût augmente de 5%% chaque tour qu'il reste actif. Par exemple, au deuxième tour, le drain sera de 10%%.
+		Maintenir ce bouclier est très coûteux : il draine initialement 5%% de votre Psi maximum, et ce coût augmente de 5%% par tour qu'il reste actif. Par exemple, au deuxième tour, le drain sera de 10%%.
 		
 		Taux de drain actuel : %0.1f Psi par tour.]], "tformat")
 
@@ -25405,7 +25405,7 @@ section "mod-tome/data/talents/psionic/feedback.lua"
 
 t("Biofeedback", "Biorétroaction", "talent name")
 t([[Your Feedback decay now heals you for %0.1f times the loss, and the decay rate is reduced to %d%% of the normal rate (up to %0.1f%% per turn).  As a result, you are healed for %0.2f%% of your feedback pool each turn.
-		The healing effect improves with your Willpower.]], [[Votre décroissance de Rétroaction vous soigne maintenant de %0.1f fois la perte, et le taux de décroissance est réduit à %d%% du taux normal (jusqu'à %0.1f%% par tour). En conséquence, vous êtes soigné de %0.2f%% de votre réserve de Rétroaction chaque tour.
+		The healing effect improves with your Willpower.]], [[Votre décroissance de Rétroaction vous soigne maintenant de %0.1f fois la perte, et le taux de décroissance est réduit à %d%% du taux normal (jusqu'à %0.1f%% par tour). En conséquence, vous êtes soigné de %0.2f%% de votre réserve de Rétroaction par tour.
 		L'effet de soin est proportionnel à votre Volonté.]], "tformat")
 t("Resonance Field", "Champ de Résonance", "talent name")
 t([[Activate to create a resonance field that will absorb 50%% of all damage you take (%d max absorption).  The field will not interfere with Feedback gain.
@@ -25479,7 +25479,7 @@ t([[Mentally focus electricity into a ball of plasma and hurl it at the target.
 		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 t("Iron Will", "Volonté de Fer", "talent name")
 t("#ORCHID#%s has recovered!", "#ORCHID#%s s'est rétabli !", "logSeen")
-t("Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chance of recovering from a random mental effect each turn.", "Votre Volonté de Fer améliore votre immunité à l'assommement de %d%% et vous donne %d%% de chance de vous remettre d'un effet mental aléatoire chaque tour.", "tformat")
+t("Your Iron Will improves your stun immunity by %d%% and gives you a %d%% chance of recovering from a random mental effect each turn.", "Votre Volonté de Fer améliore votre immunité à l'assommement de %d%% et vous donne %d%% de chance de vous remettre d'un effet mental aléatoire par tour.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/psionic/grip.lua"
@@ -25781,7 +25781,7 @@ t([[You temporarily set aside a part of you mind to direct your telekinetically-
 		Damage: %d
 		APR: %d
 		Crit: %0.2f
-		Speed: %0.2f]], [[Vous mettez temporairement de côté une partie de votre esprit pour guider votre arc manié télékinétiquement. Il attaquera automatiquement une cible chaque tour pendant %d tours.
+		Speed: %0.2f]], [[Vous mettez temporairement de côté une partie de votre esprit pour guider votre arc manié télékinétiquement. Il attaquera automatiquement une cible par tour pendant %d tours.
 		L'arc manié télékinétiquement utilise la Volonté pour les dégâts (au lieu de la Force) et la Ruse pour la précision (au lieu de la Dextérité).
 			
 		Attributs de combat :
@@ -26099,7 +26099,7 @@ t([[Take direct control of your active thought-form, improving its damage, attac
 		Les bonus de vie, dégâts et vitesse sont proportionnels à votre Puissance Mentale.]], "tformat")
 t("Thought-Form Unity", "Unité des Formes de Pensée", "talent name")
 t([[You now gain %d%% mind speed while Thought-Form: Bowman is active, %d Mindpower while Thought-Form: Warrior is active, and %d%% resist all while Thought-Form: Defender is active. 
-		These bonuses scale with your Mindpower.]], [[Vous gagnez maintenant %d%% de vitesse mentale pendant que Forme de Pensée : Archer est active, %d de Puissance Mentale pendant que Forme de Pensée : Guerrier est active, et %d%% de résistance générale pendant que Forme de Pensée : Défenseur est active.
+		These bonuses scale with your Mindpower.]], [[Vous gagnez maintenant %d%% de vitesse mentale pendant que Forme de Pensée : Archer est active, %d de Puissance Mentale pendant que Forme de Pensée : Guerrier est active, et %d%% de résistance globale pendant que Forme de Pensée : Défenseur est active.
 		Les bonus sont proportionnels à votre Puissance Mentale.]], "tformat")
 
 ------------------------------------------------
@@ -26438,7 +26438,7 @@ t([[Surround yourself with arcane forces, disrupting any attempts to harm you by
 		Current stored energy: %d]], [[Entourez-vous de forces arcaniques, perturbant toute tentative de vous blesser en créant un bouclier d'éther pur pouvant absorber %d dégâts.
 		En combat, la concentration mentale requise pour maintenir et surveiller le bouclier est trop grande et vous le laissez fonctionner seul. Dans cet état, une fois la puissance du bouclier épuisée, il commencera à utiliser votre mana pour absorber les coups, à raison de %0.2f mana par dégât.
 		Chaque fois que le bouclier utilise de la mana, il stocke un résidu de cette énergie (jusqu'à %d au maximum). Lorsque le bouclier est désactivé, toute énergie stockée est libérée dans une tempête arcanique de rayon %d qui dure 5 tours, infligeant 20%% du total des dégâts stockés par tour.
-		Hors combat, le bouclier régénère 10%% de sa puissance chaque tour et l'énergie stockée se dissipe rapidement.
+		Hors combat, le bouclier régénère 10%% de sa puissance par tour et l'énergie stockée se dissipe rapidement.
 		Tomber sous 50%% de mana ou atteindre le stockage d'énergie maximum désactivera automatiquement ce talent.
 		La puissance du bouclier s'améliore avec votre Puissance des Sorts.
 		Le stockage d'énergie maximum est basé sur votre mana totale (en ignorant les sorts soutenus actifs), avec une limite à %d mana effective.
@@ -26914,7 +26914,7 @@ t([[Conjures up a bolt of fire that moves toward the target and explodes into a 
 		The damage will increase with your Spellpower.]], [[Conjure un projectile de feu qui se déplace vers la cible et explose en un éclair de feu, infligeant %0.2f dégâts de feu dans un rayon de %d.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
-		The damage will increase with your Spellpower.]], [[Des flammes déchaînées brûlent ennemis et alliés, infligeant %0.2f dégâts de feu dans un rayon de %d chaque tour pendant %d tours.
+		The damage will increase with your Spellpower.]], [[Des flammes déchaînées brûlent ennemis et alliés, infligeant %0.2f dégâts de feu dans un rayon de %d par tour pendant %d tours.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 -- texte non traduit
 --[==[
@@ -27092,7 +27092,7 @@ t("Improves your golem's armour training, damage resistance, and healing efficie
 t([[Improves your golem's armour training, damage resistance, and healing efficiency.
 		Increases all damage resistance by %d%%; increases Armour value by %d, Armour hardiness by %d%%, reduces chance to be critically hit by %d%% when wearing heavy mail or massive plate armour, and increases healing factor by %d%%.
 		The golem can always use any kind of armour, including massive armours.]], [[Améliore l'entraînement en armure, la résistance aux dégâts et l'efficacité de soin de votre golem.
-		Augmente la résistance générale de %d%% ; augmente la valeur d'armure de %d, la robustesse d'armure de %d%%, réduit la chance d'être touché par un coup critique de %d%% en portant une cotte de mailles lourde ou une armure de plaques massive, et augmente le facteur de soin de %d%%.
+		Augmente la résistance globale de %d%% ; augmente la valeur d'armure de %d, la robustesse d'armure de %d%%, réduit la chance d'être touché par un coup critique de %d%% en portant une cotte de mailles lourde ou une armure de plaques massive, et augmente le facteur de soin de %d%%.
 		Le golem peut toujours utiliser n'importe quel type d'armure, y compris les armures massives.]], "tformat")
 t("Invoke Golem", "Invoquer un Golem", "talent name")
 t("Your golem is currently inactive.", "Votre golem est actuellement inactif.", "logPlayer")
@@ -27375,7 +27375,7 @@ t([[The line between life and death blurs for you.
 		When you are below 1 life you gain %d%% to all resistances.
 		The life amount is based on your Constitution attribute.]], [[La frontière entre la vie et la mort devient floue pour vous.
 		Vous ne pouvez mourir que lorsque vous atteignez -%d de vie, mais votre vie maximale est réduite de %d.
-		Lorsque vous êtes en dessous de 1 de vie, vous gagnez %d%% de résistance générale.
+		Lorsque vous êtes en dessous de 1 de vie, vous gagnez %d%% de résistance globale.
 		La quantité de vie est basée sur votre Constitution.]], "tformat")
 t("Across the Veil", "À Travers le Voile", "talent name")
 t("#GREY#%s unleashes a blast of frostdusk as %s crosses the veil!", "#GREY#%s déchaîne une explosion de crépuscule givré alors que %s traverse le voile !", "logSeen")
@@ -27738,7 +27738,7 @@ t([[You root yourself into the earth, and transform your flesh into stone.  Whil
 		Les résistances sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Earthquake", "Tremblement de Terre", "talent name")
 t([[Causes a violent earthquake that deals %0.2f physical damage in a radius of %d each turn for %d turns, and potentially stuns any and all creatures it affects.
-		The damage will increase with your Spellpower.]], [[Provoque un violent tremblement de terre infligeant %0.2f dégâts physiques dans un rayon de %d chaque tour pendant %d tours, assomant potentiellement toutes les créatures affectées.
+		The damage will increase with your Spellpower.]], [[Provoque un violent tremblement de terre infligeant %0.2f dégâts physiques dans un rayon de %d par tour pendant %d tours, assomant potentiellement toutes les créatures affectées.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Crystalline Focus", "Focus Cristallin", "talent name")
 t([[Concentrate on maintaining a Crystalline Focus, increasing all your physical damage by %0.1f%% and ignoring %d%% physical resistance of your targets.
@@ -27874,7 +27874,7 @@ t([[Hurl ice shards at the targets in the selected area. Each shard travels slow
 t("Glacial Vapour", "Vapeur Glaciale", "talent name")
 t([[Glacial fumes rise from the ground, doing %0.2f cold damage in a radius of 3 each turn for %d turns.
 		Creatures that are wet will take 30%% more damage and have 15%% chance to get frozen.
-		The damage will increase with your Spellpower.]], [[Des vapeurs glaciales s'élèvent du sol, infligeant %0.2f dégâts de froid dans un rayon de 3 chaque tour pendant %d tours.
+		The damage will increase with your Spellpower.]], [[Des vapeurs glaciales s'élèvent du sol, infligeant %0.2f dégâts de froid dans un rayon de 3 par tour pendant %d tours.
 		Les créatures mouillées subissent 30%% de dégâts supplémentaires et ont 15%% de chance d'être gelées.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Tidal Wave", "Raz-de-marée", "talent name")
@@ -28856,7 +28856,7 @@ t("You are being observed too closely to enter Concealment!", "Vous êtes observ
 t([[Enter a concealed sniping stance, increasing your weapon's attack range and vision range by %d, giving all incoming damage a %d%% chance to miss you, and causing your Headshot, Volley and Called Shots to behave as if the target was marked.
 Any non-instant, non-movement action will break concealment, but the increased range and vision and damage avoidance will persist for 3 turns, with the damage avoidance decreasing in power by 33%% each turn.
 This requires a bow to use, and cannot be used if there are foes in sight within range %d.]], [[Adoptez une posture de tireur d'élite dissimulé, augmentant la portée d'attaque et de vision de votre arme de %d, donnant à tous les dégâts entrants %d%% de chance de vous rater, et faisant en sorte que Tir à la Tête, Volée et Tirs Ciblés se comportent comme si la cible était marquée.
-Toute action non instantanée et non liée au déplacement brisera la Dissimulation, mais l'augmentation de portée, de vision et l'esquive de dégâts persisteront pendant 3 tours, la puissance d'esquive diminuant de 33%% chaque tour.
+Toute action non instantanée et non liée au déplacement brisera la Dissimulation, mais l'augmentation de portée, de vision et l'esquive de dégâts persisteront pendant 3 tours, la puissance d'esquive diminuant de 33%% par tour.
 Nécessite un arc et ne peut pas être utilisé si des ennemis sont en vue dans un rayon de %d.]], "tformat")
 t("Shadow Shot", "Tir Fumigène", "talent name")
 t([[Fire an arrow tipped with a smoke bomb inflicting %d%% damage and creating a radius %d cloud of thick, disorientating smoke. Those caught within will have their vision range reduced by %d for 5 turns.
@@ -28894,7 +28894,7 @@ t([[You enter an aggressive battle rage, increasing Accuracy by %d and Physical 
 		Even when sustained, this talent is only active when foes are in sight.
 		The Accuracy bonus increases with your Dexterity, and the Physical Power bonus with your Strength.]], [[Vous entrez dans une rage de combat agressive, devenant quasiment instoppable.
 		Augmente votre Précision de %d, votre Puissance physique de %d, et vous accorde %d%% de résistance à l'assomement et à l'immobilisation.
-		Maintenir cette furie affecte votre corps, diminuant votre vie de 2%% chaque tour.
+		Maintenir cette furie affecte votre corps, diminuant votre vie de 2%% par tour.
 		Pour chaque 1%% de vie manquante, vous gagnez 0,5%% de chance de coup critique.
 		Ce talent n'est actif que lorsque des ennemis sont en vue.
 		Le bonus de Précision est proportionnel à votre Dextérité et le bonus de Puissance physique à votre Force.]], "tformat")
@@ -35411,7 +35411,7 @@ t("+Resonance", "+Résonance", "_t")
 t("#Target# is no longer resonating.", "#Target# ne trouve plus de résonance.", "_t")
 t("-Resonance", "-Résonance", "_t")
 t("Thorn Grab", "Vigne Épineuse", "_t")
-t("The target is encased in thorny vines, dealing %d nature damage each turn and reducing its speed by %d%%.", "La cible est enveloppée de vignes épineuses qui lui infligent %d dégâts de nature chaque tour et réduisent sa vitesse de %d%%.", "tformat")
+t("The target is encased in thorny vines, dealing %d nature damage each turn and reducing its speed by %d%%.", "La cible est enveloppée de vignes épineuses qui lui infligent %d dégâts de nature par tour et réduisent sa vitesse de %d%%.", "tformat")
 t("Leaves Cover", "Couverture de Feuilles", "_t")
 t("%d%% chance to fully absorb any damaging actions.", "%d%% chance d'absorber entièrement tout dégât subi.", "tformat")
 t("#Target# is protected by a layer of thick leaves.", "#Target# est protégé par une épaisse couche de feuilles.", "_t")
