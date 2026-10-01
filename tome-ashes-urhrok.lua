@@ -890,7 +890,7 @@ t([[Each time your kill a creature with non-fire damage you gain a blackice char
 t("Doomfire", "Feu de la Ruine", "talent name")
 t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
 		Demons standing in the doomfire will instead be healed.
-		The damage will increase with your Spellpower.]], [[Des flammes déchaînées brûlent ennemis comme alliés, infligeant %0.2f dégâts de feu dans un rayon de %d chaque tour pendant %d tours.
+		The damage will increase with your Spellpower.]], [[Des flammes déchaînées brûlent ennemis comme alliés, infligeant %0.2f dégâts de feu dans un rayon de %d par tour pendant %d tours.
 		Les démons se trouvant dans le Feu de la Ruine seront soignés à la place.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Pain Affinity", "Affinité à la Douleur", "talent name")
@@ -1193,11 +1193,11 @@ t([[Removes all detrimental effects but causes you to burn for %d%% of your max 
 		L'activation de ce talent est instantanée.]], "tformat")
 t("Infernal Breath", "Souffle Infernal", "talent name")
 t([[Exhale a wave of dark fire with radius %d, lasting 4 turns. Any non-demon caught in the area will take %0.2f fire damage, and flames will be left dealing a further %0.2f each turn. Demons will be healed for the same amount.
-		The damage will increase with your Strength Stat, but critically hit as a spell.]], [[Exhale une vague de feu noir d'un rayon de %d, durant 4 tours. Toute créature non démoniaque prise dans la zone subit %0.2f dégâts de feu, et les flammes laissées sur place infligent %0.2f dégâts supplémentaires chaque tour. Les démons seront soignés du même montant.
+		The damage will increase with your Strength Stat, but critically hit as a spell.]], [[Exhale une vague de feu noir d'un rayon de %d, durant 4 tours. Toute créature non démoniaque prise dans la zone subit %0.2f dégâts de feu, et les flammes laissées sur place infligent %0.2f dégâts supplémentaires par tour. Les démons seront soignés du même montant.
 		Les dégâts sont proportionnels à votre Force, mais les coups critiques suivent les règles des sorts.]], "tformat")
 t("Maw of Urh'rok", "Gueule d'Urh'Rok", "talent name")
 t([[Your body becomes a nexus for the Fearscape, causing you to drag enemies towards you in a cone with a radius of %d, dealing %0.2f fire damage every turn.
-		The damage will increase with your Spellpower.]], [[Votre corps devient un point nodal du Plan de la Peur, attirant les ennemis vers vous dans un cône de rayon %d, infligeant %0.2f dégâts de feu à chaque tour.
+		The damage will increase with your Spellpower.]], [[Votre corps devient un point nodal du Plan de la Peur, attirant les ennemis vers vous dans un cône de rayon %d, infligeant %0.2f dégâts de feu par tour.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
@@ -1607,7 +1607,7 @@ t("-Link of Pain", "-Lien de Douleur", "_t")
 t("#ORANGE##Source# shares some pain with #target#!#LAST#", "#ORANGE##Source# partage un peu de douleur avec #Target# !#LAST#", "delayedLogMessage")
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d lié)#LAST#", "tformat")
 t("Only Ashes Left", "Il Ne Reste Que des Cendres", "_t")
-t("The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "La cible brûle d'obscurité, subissant %0.2f dégâts chaque tour jusqu'à ce qu'elle meure ou s'enfuie.", "tformat")
+t("The target burns with darkness, taking %0.2f damage each turn until it dies or runs away.", "La cible brûle d'obscurité, subissant %0.2f dégâts par tour jusqu'à ce qu'elle meure ou s'enfuie.", "tformat")
 t("#Target# burns with dark flames.", "#Target# brûle de flammes sombres.", "_t")
 t("+Only Ashes Left", "+Il Ne Reste Que des Cendres", "_t")
 t("-Only Ashes Left", "-Il Ne Reste Que des Cendres", "_t")

@@ -2,11 +2,11 @@
 section "tome-cults/data/achievements/all.lua"
 
 t("You were not supposed to see that!", "Vous n'étiez pas censé voir ça !", "achievement name")
-t("Read a Forbidden Tome.", "Lisez un Tome Interdit.", "_t")
+t("Read a Forbidden Tome.", "Lisez un Grimoire Interdit.", "_t")
 t("Bookception!", "Livrecéption !", "achievement name")
-t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "Trouvez la récompense du Tome Interdit à l'intérieur du Tome Interdit : \"Du Savoir et des Horreurs\".", "_t")
+t("Found the Forbidden Tome reward inside the Forbidden Tome: \"Of Knowledge And Horrors\".", "Trouvez la récompense du Grimoire Interdit à l'intérieur du Grimoire Interdit : \"Du Savoir et des Horreurs\".", "_t")
 t("Recursive Home of Recursion", "La Demeure Récursive de la Récursion", "achievement name")
-t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "Laissez le Tome Interdit : \"Foyer, Horrible Foyer\" sur le sol du Foyer Qui N'est Pas.", "_t")
+t("Left the Forbidden Tome: \"Home, Horrific Home\" on the floor of The Home Which Is Not.", "Laissez le Grimoire Interdit : \"Foyer, Horrible Foyer\" sur le sol du Foyer Qui N'est Pas.", "_t")
 t("They Came From Outer Space!", "Ils Sont Venus de l'Espace !", "achievement name")
 t("Discovered the true origin of dwarves and drems.", "Découvrez la véritable origine des nains et des drems.", "_t")
 t("The True Coward", "Le Vrai Lâche", "achievement name")
@@ -784,7 +784,7 @@ t("gross", "répugnant", "entity subtype")
 t("Cut Drem Arm", "Bras de Drem Tranché", "entity name")
 t("bloody arm", "bras ensanglanté", "_t")
 t("The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "Le bras semble desséché, mais vous jureriez voir quelque chose se tortiller sous sa peau cendrée.", "_t")
-t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "Le bras peut parfois s'étendre vers un ennemi dans un rayon de 5 cases et l'attirer à vous d'un coup de tentacule. Cette action n'est pas de votre propre volonté, il semble avoir son propre esprit.", "_t")
+t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "Le bras peut parfois s'étendre vers un ennemi dans un rayon de 5 et l'attirer à vous d'un coup de tentacule. Cette action n'est pas de votre propre volonté, il semble avoir son propre esprit.", "_t")
 t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#Le %s attrape %s avec un tentacule !", "logSeen")
 t("Monolith Armour", "Armure Monolithique", "entity name")
 t("black stone armour", "armure de pierre noire", "_t")
@@ -824,7 +824,7 @@ This stake of wood appears to one of those used to prop up one of the executed h
 Malgré cela, la population continua de brûler vive les ennemis de la nature. À l'insu des autorités, les têtes des coupables défunts continuèrent de répandre leur message longtemps après leur mort.
 
 Ce pieu de bois semble être l'un de ceux utilisés pour soutenir l'une des têtes exécutées. Il semble avoir absorbé la volonté de la tête qu'il portait, et en le tenant, vous pouvez entendre le message des Zigurantes résonner dans votre esprit.]], "_t")
-t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "convaincre tous les non-utilisateurs d'arcane dans un rayon de 10 cases de se retourner contre leurs alliés lanceurs de sorts pendant 6 tours (la chance augmente avec votre Puissance Mentale)", "tformat")
+t("convince all non arcane users in radius 10 to turn on their spellcasting friends for 6 turns (chance increases with your Mindpower)", "convaincre tous les non-utilisateurs d'arcane dans un rayon de 10 de se retourner contre leurs alliés lanceurs de sorts pendant 6 tours (la chance augmente avec votre Puissance Mentale)", "tformat")
 t("Worm Nest", "Nid de Vers", "entity name")
 t("disgusting robe", "robe répugnante", "_t")
 t("This unusually thick robe constantly wriggles and squirms. Small worms sometimes pop out of it, dropping to the floor. The worms will cushion attacks against your person, but you somehow do not like the idea of having so many parasitic creatures so close to your vulnerable flesh.", "Cette robe d'une épaisseur inhabituelle se tortille et se contorsionne sans cesse. De petits vers en jaillissent parfois, tombant au sol. Ces vers amortiront les attaques dirigées contre vous, mais l'idée d'avoir tant de créatures parasites si près de votre chair vulnérable ne vous plaît guère.", "_t")
@@ -2736,7 +2736,7 @@ section "tome-cults/data/talents/demented/chronophage.lua"
 t("Atrophy", "Atrophie", "talent name")
 t("%s has been cut from the timeline!", "%s a été coupé de la ligne temporelle !", "logSeen")
 t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns, stacking up to %d times.
-			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[Vous êtes entouré d'un vortex d'énergie entropique qui se nourrit des lignes temporelles d'autrui. Chaque fois que vous lancez un sort, des cibles aléatoires dans un rayon de 10 cases se mettent à vieillir et à se décomposer rapidement, réduisant toutes leurs caractéristiques de %d pendant 8 tours, s'accumulant jusqu'à %d fois.
+			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[Vous êtes entouré d'un vortex d'énergie entropique qui se nourrit des lignes temporelles d'autrui. Chaque fois que vous lancez un sort, des cibles aléatoires dans un rayon de 10 se mettent à vieillir et à se décomposer rapidement, réduisant toutes leurs caractéristiques de %d pendant 8 tours, s'accumulant jusqu'à %d fois.
 			Jusqu'à %d cumuls au total seront appliqués aux ennemis à chaque lancement, avec un maximum de 2 cumuls sur une même cible.]], "tformat")
 t("Severed Threads", "Fils Rompus", "talent name")
 t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "En appliquant Atrophie à une cible en dessous de %d%% de sa vie maximale, vous sectionnerez son fil de vie, la tuant instantanément. Vous vous repaîtrez ensuite des vestiges de sa ligne temporelle pendant %d tours, augmentant votre régénération de vie de %0.1f et faisant en sorte que les talents sans temps de recharge fixe se rechargent deux fois plus vite.", "tformat")
@@ -2746,7 +2746,7 @@ t([[You drink deeper from the timeline of others. Each time you apply atrophy yo
 			Le cumul d'atrophie le plus élevé trouvé sera utilisé pour le calcul de la vitesse de sort.]], "tformat")
 t("#GREEN#You gain %.1f turns!", "#GREEN#Vous gagnez %.1f tours !", "say")
 t([[Shatter the spacetime continuum around yourself, inflicting %0.2f temporal damage to all targets within radius %d. Any atrophy stacks will be consumed to steal time from your victims, inflicting an additional %0.2f temporal damage and granting you %d%% of a turn per stack (but no more than 3 turns).
-		The damage will scale with your Spellpower.]], [[Vous brisez le continuum spatio-temporel autour de vous, infligeant %0.2f dégâts temporels à toutes les cibles dans un rayon de %d cases. Tous les cumuls d'atrophie seront consommés pour voler du temps à vos victimes, infligeant %0.2f dégâts temporels supplémentaires et vous accordant %d%% d'un tour par cumul (mais pas plus de 3 tours).
+		The damage will scale with your Spellpower.]], [[Vous brisez le continuum spatio-temporel autour de vous, infligeant %0.2f dégâts temporels à toutes les cibles dans un rayon de %d. Tous les cumuls d'atrophie seront consommés pour voler du temps à vos victimes, infligeant %0.2f dégâts temporels supplémentaires et vous accordant %d%% d'un tour par cumul (mais pas plus de 3 tours).
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 -- texte non traduit
 --[==[
@@ -2795,7 +2795,7 @@ At talent level 3, your Decaying Devourers spell will summon 4 additional Devour
 At talent level 5, victims of your Horrific Display spell will pull enemies in radius 10 1 space towards them each turn.
 The damage increase is based on your Spellpower.]], [[Vous accordez vos horreurs au dieu mort Amakthel, augmentant les dégâts de vos horreurs invoquées de %d%%.
 Au niveau de talent 3, votre sort Dévoreurs Putrides invoquera 4 Dévoreurs supplémentaires adjacents à des ennemis aléatoires à proximité, et votre Horreur Boursouflée apprendra le talent Agonie.
-Au niveau de talent 5, les victimes de votre sort Manifestation Horrible attireront les ennemis dans un rayon de 10 cases d'une case vers elles à chaque tour.
+Au niveau de talent 5, les victimes de votre sort Manifestation Horrible attireront les ennemis dans un rayon de 10 d'une case vers elles une fois par tour.
 L'augmentation de dégâts est basée sur votre Puissance Magique.]], "tformat")
 
 ------------------------------------------------
@@ -2897,7 +2897,7 @@ Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%
 Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
 Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[En faisant peser les forces de l'entropie sur une cible, vous prophétisez sa perte inévitable. Chaque point investi dans ce talent débloque des prophéties supplémentaires. Une cible ne peut être affectée que par une seule prophétie à la fois.
 Niveau 1 : Prophétie de la Ruine. Inflige %0.2f dégâts en passant sous 75%%, 50%% ou 25%% de la vie maximale.
-Niveau 3 : Prophétie de la Trahison. %d%% de chance chaque tour d'attaquer un allié ou elle-même.
+Niveau 3 : Prophétie de la Trahison. %d%% de chance par tour d'attaquer un allié ou elle-même.
 Niveau 5 : Prophétie de la Folie. Augmente les temps de rechargement des talents de %d%%.]], "tformat")
 t("Prophecy of Madness", "Prophétie de la Folie", "talent name")
 t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns.
@@ -2914,14 +2914,14 @@ t([[Utter a prophecy of the impending demise of your target that lasts 6 turns.
 t("Prophecy of Treason", "Prophétie de la Trahison", "talent name")
 t("%s(%d treason)#LAST#", "%s(%d trahison)#LAST#", "tformat")
 t([[Utter a prophecy of the impending treachery of your target. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
-		A target can only be affected by a single prophecy at a time.]], [[Prononcez une prophétie de la trahison imminente de votre cible. Pendant les 6 prochains tours, elle aura %d%% de chance chaque tour de perdre son tour en tentant d'attaquer une créature adjacente pour 10%% de dégâts d'arme, voire elle-même si aucune créature n'est présente.
+		A target can only be affected by a single prophecy at a time.]], [[Prononcez une prophétie de la trahison imminente de votre cible. Pendant les 6 prochains tours, elle aura %d%% de chance par tour de perdre son tour en tentant d'attaquer une créature adjacente pour 10%% de dégâts d'arme, voire elle-même si aucune créature n'est présente.
 		Une cible ne peut être affectée que par une seule prophétie à la fois.]], "tformat")
 t("Grand Oration", "Grande Oraison", "talent name")
 t("None", "Aucune", "_t")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
-		Current prophecy: %s]], [[Vous proclamez une prophétie choisie aux masses. Lors de l'application de cette prophétie, elle se propage à toutes les cibles dans un rayon de %d cases.
+		Current prophecy: %s]], [[Vous proclamez une prophétie choisie aux masses. Lors de l'application de cette prophétie, elle se propage à toutes les cibles dans un rayon de %d.
 		Une prophétie ne peut être affectée que par l'une des habiletés suivantes : Grande Oraison, Malédiction Double ou Révélation.
 		
 		Prophétie actuelle : %s]], "tformat")
@@ -2971,8 +2971,8 @@ t([[Your knowledge of entropy allows you to defy the laws of physics, allowing y
 		Vous pouvez activer ce talent pour retirer instantanément votre Entropie actuelle.]], "tformat")
 t("Black Hole", "Trou Noir", "talent name")
 t([[On casting Entropic Gift, a radius 1 rift in spacetime will be opened underneath the target for %d turns, increasing in radius by 1 each turn to a maximum of %d.
-		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[En lançant Don Entropique, une faille dans l'espace-temps d'un rayon de 1 case s'ouvre sous la cible pendant %d tours, son rayon augmentant de 1 case chaque tour jusqu'à un maximum de %d.
-		Tout ce qui est pris dans la faille est attiré vers le centre et subit %0.2f dégâts d'obscurité et %0.2f dégâts temporels, plus %d%% de votre entropie totale à chaque tour (actuellement %d).]], "tformat")
+		All caught within the rift are pulled towards the center and take %0.2f darkness and %0.2f temporal damage, plus %d%% of your total entropy each turn (currently %d).]], [[En lançant Don Entropique, une faille dans l'espace-temps d'un rayon de 1 case s'ouvre sous la cible pendant %d tours, son rayon augmentant de 1 case par tour jusqu'à un maximum de %d.
+		Tout ce qui est pris dans la faille est attiré vers le centre et subit %0.2f dégâts d'obscurité et %0.2f dégâts temporels, plus %d%% de votre entropie totale par tour (actuellement %d).]], "tformat")
 t("Power Overwhelming", "Puissance Écrasante", "talent name")
 t("You empower your spells with dangerous levels of entropic energy, increasing your darkness and temporal damage by %d%% and resistance penetration by %d%% at the cost of suffering %0.2f entropic backlash for each non-instant spell.", "Vous infusez vos sorts de niveaux dangereux d'énergie entropique, augmentant vos dégâts d'obscurité et temporels de %d%% et votre pénétration de résistance de %d%%, au prix de subir %0.2f de contrecoup entropique pour chaque sort non instantané.", "tformat")
 
@@ -3025,7 +3025,7 @@ t("Shared Insanity", "Folie Partagée", "talent name")
 t([[You establish a powerful mental link with your Worm that Walks.
 		As long as you remain within radius 3 of your worm that walks each of you gains %d%% all resistance for 5 turns.
 		Additionally, your Worm that Walks permanently gains an inscription slot every 2 raw talent levels (%d).]], [[Vous établissez un puissant lien mental avec votre Ver qui Marche.
-		Tant que vous restez dans un rayon de 3 cases de votre Ver qui Marche, chacun de vous gagne %d%% de résistance générale pendant 5 tours.
+		Tant que vous restez dans un rayon de 3 de votre Ver qui Marche, chacun de vous gagne %d%% de résistance globale pendant 5 tours.
 		De plus, votre Ver qui Marche gagne définitivement un emplacement d'inscription tous les 2 niveaux de talent bruts (%d).]], "tformat")
 t("Terrible Sight", "Vue Terrifiante", "talent name")
 t("You require your worm that walk to be alive and closeby.", "Vous avez besoin que votre Ver qui Marche soit vivant et à proximité.", "logPlayer")
@@ -3033,9 +3033,9 @@ t([[While within range 3 of your Worm that Walks you can project an aura of terr
 		At the sight of two maddening horrors fighting together all your foes in radius %d must make a physical save against your spellpower or be stunned for %d turns.
 
 		Additionally your Shared Insanity effect will cause enemies in radius 3 to lose %d spell save and %d defense for 3 turns.]], [[Tant que vous êtes à portée 3 de votre Ver qui Marche, vous pouvez projeter une aura de terreur.
-		À la vue de deux horreurs affolantes combattant ensemble, tous vos ennemis dans un rayon de %d cases doivent effectuer une sauvegarde physique contre votre puissance des sorts, ou être assommé pendant %d tours.
+		À la vue de deux horreurs affolantes combattant ensemble, tous vos ennemis dans un rayon de %d doivent effectuer une sauvegarde physique contre votre puissance des sorts, ou être assommé pendant %d tours.
 
-		De plus, votre effet Folie Partagée fera perdre aux ennemis dans un rayon de 3 cases %d de sauvegarde des sorts et %d de défense pendant 3 tours.]], "tformat")
+		De plus, votre effet Folie Partagée fera perdre aux ennemis dans un rayon de 3 %d de sauvegarde des sorts et %d de défense pendant 3 tours.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/horrific-body.lua"
@@ -3052,7 +3052,7 @@ t([[Each time your shed skin looses %d%% of its max power or you take damage ove
 		Chaque pustule augmente toutes vos résistances de %d%%. Vous pouvez avoir jusqu'à %d pustules à la fois.
 		La résistance est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Pustulent Fulmination", "Fulmination Pustuleuse", "talent name")
-t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "Vous faites exploser toutes vos pustules putrescentes d'un coup, aspergeant toutes les créatures dans un rayon de %d cases de fluides noirs qui infligent %0.2f dégâts d'obscurité par pustule et vous soignent de %0.1f par pustule.", "tformat")
+t("You make all your putrescent pustules explode at once, splashing all creatures in radius %d with black fluids that deal %0.2f darkness damage per pustule and healing you for %0.1f per pustule.", "Vous faites exploser toutes vos pustules putrescentes d'un coup, aspergeant toutes les créatures dans un rayon de %d de fluides noirs qui infligent %0.2f dégâts d'obscurité par pustule et vous soignent de %0.1f par pustule.", "tformat")
 t("Defiled Blood", "Sang Souillé", "talent name")
 t([[When you make your pustules explode you leave a pool of defiled blood on the ground for 5 turns.
 		Foes caught inside get assaulted by black tentacles every turn, dealing %d%% darkness tentacle damage and covering them in your black blood for 2 turns.
@@ -3076,11 +3076,11 @@ t([[Each time an enemy takes damage from Dark Whispers, there is a %d%% chance f
 		A target cannot have more than one hallucination at a time.]], [[Chaque fois qu'un ennemi subit des dégâts de Murmures Sombres, il y a %d%% de chance qu'une de ses visions se manifeste sur une case adjacente pendant %d tours. Cette vision n'entreprend aucune action, mais la victime infligera %d%% de dégâts en moins à toutes les autres cibles jusqu'à ce que la vision soit tuée.
 		Une cible ne peut avoir plus d'une hallucination à la fois.]], "tformat")
 t("Sanity Warp", "Distorsion de Raison", "talent name")
-t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "Quand une hallucination issue de Visions Hideuses est tuée, elle déchaîne un hurlement psychique infligeant %0.2f dégâts d'obscurité aux ennemis dans un rayon de %d cases.", "tformat")
+t("When a hallucination from Hideous Visions is slain, it unleashes a psychic shriek dealing %0.2f darkness damage to enemies in radius %d.", "Quand une hallucination issue de Visions Hideuses est tuée, elle déchaîne un hurlement psychique infligeant %0.2f dégâts d'obscurité aux ennemis dans un rayon de %d.", "tformat")
 t("Cacophony", "Cacophonie", "talent name")
 t([[Raise your Dark Whispers in radius %d to a deafening crescendo for %d turns, applying another stack and drowning out all thought. 
 			Targets afflicted by Dark Whispers will have 20%% higher chance to spawn hallucinations, and each time they take damage from your Dark Whispers or Sanity Warp they will take an additional %d%% damage as temporal damage.
-		The damage will improve with your Spellpower.]], [[Élevez vos Murmures Sombres dans un rayon de %d cases vers un crescendo assourdissant pendant %d tours, appliquant un cumul supplémentaire et noyant toute pensée. 
+		The damage will improve with your Spellpower.]], [[Élevez vos Murmures Sombres dans un rayon de %d vers un crescendo assourdissant pendant %d tours, appliquant un cumul supplémentaire et noyant toute pensée. 
 			Les cibles affligées par Murmures Sombres auront 20%% de chance supplémentaire de générer des hallucinations, et chaque fois qu'elles subiront des dégâts de vos Murmures Sombres ou de Distorsion de Raison, elles subiront %d%% de dégâts supplémentaires sous forme de dégâts temporels.
 		Les dégâts sont proportionnels à votre Puissance Magique.]], "tformat")
 -- texte non traduit
@@ -3113,7 +3113,7 @@ t("entropic maw", "gueule entropique", "_t")
 t("Tendrils lash around the mouth of this gigantic beast, seeking prey to devour.", "Des vrilles fouettent autour de la gueule de cette bête gigantesque, en quête d'une proie à dévorer.", "_t")
 t([[Briefly open a radius %d rift in spacetime that teleports those within to the targeted location. Enemies will take %0.2f darkness and %0.2f temporal damage.
 		The power of this spell inflicts entropic backlash on you, causing you to take %d damage over 8 turns. This damage counts as entropy for the purpose of Entropic Gift.
-		The damage will improve with your Spellpower.]], [[Ouvrez brièvement une faille dans l'espace-temps d'un rayon de %d cases, téléportant ceux qui s'y trouvent vers l'emplacement ciblé. Les ennemis subiront %0.2f dégâts d'obscurité et %0.2f dégâts temporels.
+		The damage will improve with your Spellpower.]], [[Ouvrez brièvement une faille dans l'espace-temps d'un rayon de %d, téléportant ceux qui s'y trouvent vers l'emplacement ciblé. Les ennemis subiront %0.2f dégâts d'obscurité et %0.2f dégâts temporels.
 		La puissance de ce sort vous inflige un contrecoup entropique, vous faisant subir %d dégâts sur 8 tours. Ces dégâts comptent comme entropie pour le talent Don Entropique.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Halo of Ruin", "Halo de la Ruine", "talent name")
@@ -3123,7 +3123,7 @@ t([[Each time you cast a non-instant Demented spell, a nether spark begins orbit
 #PURPLE#Spatial Distortion:#LAST# An Entropic Maw will be summoned at the rift's exit for %d turns, pulling in and taunting nearby targets with it's tendrils.
 The damage will increase with your Spellpower.  Entropic Maw stats will increase with level and your Magic stat.]], [[Chaque fois que vous lancez un sort de Dément non instantané, une étincelle du néant commence à orbiter autour de vous pendant 10 tours, jusqu'à un maximum de 5. Chaque étincelle augmente votre chance de coup critique de %d%%, et en atteignant 5 étincelles, votre prochain sort du Néant consommera toutes les étincelles pour se renforcer :
 #PURPLE#Déflagration du Néant :#LAST# Devient une lance mortelle d'énergie du vide, transperçant les ennemis et infligeant %d%% de dégâts supplémentaires sur 5 tours.
-#PURPLE#Trancheur de Faille :#LAST# Ceux qui sont dans la faille seront immobilisés pendant %d tours, subiront %0.2f dégâts temporels chaque tour, et l'explosion de la faille a un rayon augmenté de %d.
+#PURPLE#Trancheur de Faille :#LAST# Ceux qui sont dans la faille seront immobilisés pendant %d tours, subiront %0.2f dégâts temporels par tour, et l'explosion de la faille a un rayon augmenté de %d.
 #PURPLE#Distorsion Spatiale :#LAST# Une Gueule Entropique sera invoquée à la sortie de la faille pendant %d tours, attirant et provoquant les cibles proches avec ses vrilles.
 Les dégâts sont proportionnels à votre Puissance des Sorts. Les statistiques de la Gueule Entropique sont proportionnels a son niveau et votre caractéristique de Magie.]], "tformat")
 t("Grasping Tendrils", "Vrilles Agrippantes", "talent name")
@@ -3132,7 +3132,7 @@ t("Grab a target and drag it to your side, dealing %d%% weapon damage and taunti
 ------------------------------------------------
 section "tome-cults/data/talents/demented/oblivion.lua"
 
-t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "Votre entropie se répand dans le monde qui vous entoure. Lorsqu'un contrecoup entropique vous est appliqué ou augmenté, %d ennemi(s) aléatoire(s) que vous pouvez voir dans un rayon de 10 cases seront enveloppés de forces entropiques pendant 8 tours. Cela prolonge la durée des nouveaux effets négatifs et réduit la durée des nouveaux effets bénéfiques appliqués à la cible de %d%%.", "tformat")
+t("Your entropy bleeds into the world around you. On having entropic backlash applied or increased to you, %d random enemies you can see within radius 10 will be shrouded in entropic forces for 8 turns. This increases the duration of new negative effects and reduces the duration of new beneficial effects applied to the target by %d%%.", "Votre entropie se répand dans le monde qui vous entoure. Lorsqu'un contrecoup entropique vous est appliqué ou augmenté, %d ennemi(s) aléatoire(s) que vous pouvez voir dans un rayon de 10 seront enveloppés de forces entropiques pendant 8 tours. Cela prolonge la durée des nouveaux effets négatifs et réduit la durée des nouveaux effets bénéfiques appliqués à la cible de %d%%.", "tformat")
 t("Unravel Existence", "Défaire l'Existence", "talent name")
 t("herald of oblivion", "héraut de l'oubli", "_t")
 t("Space warps and blurs around this titanic being, as if reality itself was struggling against it.", "L'espace se déforme et se brouille autour de cet être titanesque, comme si la réalité elle-même luttait contre lui.", "_t")
@@ -3148,7 +3148,7 @@ t([[Your Nihil unravels the existence of the target, tearing them apart with ent
 		Vos statistiques de dégâts accrus, de pénétration des dégâts, de chance de coup critique et de multiplicateur de coup critique seront toutes héritées.]], "tformat")
 t("Erase", "Effacer", "talent name")
 t([[Those affected by your Nihil find themselves increasingly removed from reality, reducing all damage they deal by %d%% and causing them to take %0.2f temporal damage each turn for each negative magical effect they have.
-		The damage will scale with your Spellpower.]], [[Ceux affectés par votre Nihil se retrouvent de plus en plus retranchés de la réalité, réduisant tous les dégâts qu'ils infligent de %d%% et leur faisant subir %0.2f dégâts temporels chaque tour pour chaque effet magique négatif qu'ils possèdent.
+		The damage will scale with your Spellpower.]], [[Ceux affectés par votre Nihil se retrouvent de plus en plus retranchés de la réalité, réduisant tous les dégâts qu'ils infligent de %d%% et leur faisant subir %0.2f dégâts temporels par tour pour chaque effet magique négatif qu'ils possèdent.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("All is Dust", "Tout est Poussière", "talent name")
 t("%s's entropic storm", "tempête entropique de %s ", "tformat")
@@ -3156,11 +3156,11 @@ t("#ORCHID#The entropic storm destroys %s!#LAST#", "#ORCHID#La tempête entropiq
 t("a projectile", "un projectile", "_t")
 t([[Summon a radius 4 storm of all-consuming oblivion at the targeted location for %d turns, reducing those within to nothing. Targets within will take %0.2f darkness damage and %0.2f temporal damage each turn.  Walls and other terrain within the storm will be disintegrated.
 		Each time the storm deals damage enemies will have any detrimental magical effect with less than 3 duration set to 3 duration, and all enemy projectiles will be destroyed.
-		The damage will scale with your Spellpower.]], [[Invoquez une tempête d'oubli dévorant tout, d'un rayon de 4 cases, à l'emplacement ciblé pendant %d tours, réduisant à néant ceux qui s'y trouvent. Les cibles à l'intérieur subiront %0.2f dégâts d'obscurité et %0.2f dégâts temporels chaque tour. Les murs et autres éléments du terrain à l'intérieur de la tempête seront désintégrés.
+		The damage will scale with your Spellpower.]], [[Invoquez une tempête d'oubli dévorant tout, d'un rayon de 4, à l'emplacement ciblé pendant %d tours, réduisant à néant ceux qui s'y trouvent. Les cibles à l'intérieur subiront %0.2f dégâts d'obscurité et %0.2f dégâts temporels par tour. Les murs et autres éléments du terrain à l'intérieur de la tempête seront désintégrés.
 		Chaque fois que la tempête inflige des dégâts, tout effet magique néfaste d'une durée inférieure à 3 tours affectant les ennemis sera porté à 3 tours, et tous les projectiles ennemis seront détruits.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Void Crash", "Effondrement du Vide", "talent name")
-t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "Abattez vos armes sur le sol, créant une explosion d'énergie du vide d'un rayon de 2 cases infligeant %d%% dégâts répartis entre obscurité et temporel.", "tformat")
+t("Slam your weapons into the ground, creating a radius 2 explosion of void energy dealing %d%% damage split between darkness and temporal.", "Abattez vos armes sur le sol, créant une explosion d'énergie du vide d'un rayon de 2 infligeant %d%% dégâts répartis entre obscurité et temporel.", "tformat")
 -- texte non traduit
 --[==[
 t("Nihil", "Nihil", "talent name")
@@ -3175,8 +3175,8 @@ t([[Your feet start to continuously produce carrion worms that are constantly cr
 		You can also activate this talent to instantly destroy more worms, letting you jump in range %d to visible terrain.
 		Upon landing you crush more worms, creating a radius 2 cone of gore; any creatures caught inside deals 70%% less damage for one turn.
 		If at least 1 enemy is effected by the cone you gain an additional 20 insanity.]], [[Vos pieds se mettent à produire en continu des vers charognards qui sont constamment écrasés à mesure que vous marchez, augmentant passivement votre vitesse de déplacement de %d%%.
-		Vous pouvez aussi activer ce talent pour détruire instantanément davantage de vers, vous permettant de bondir jusqu'à une portée de %d cases vers un terrain visible.
-		À l'atterrissage, vous écrasez encore plus de vers, créant un cône de viscères d'un rayon de 2 cases ; toute créature prise dedans inflige 70%% de dégâts en moins pendant un tour.
+		Vous pouvez aussi activer ce talent pour détruire instantanément davantage de vers, vous permettant de bondir jusqu'à une portée de %d vers un terrain visible.
+		À l'atterrissage, vous écrasez encore plus de vers, créant un cône de viscères d'un rayon de 2 ; toute créature prise dedans inflige 70%% de dégâts en moins pendant un tour.
 		Si au moins 1 ennemi est affecté par le cône, vous gagnez 20 folie supplémentaires.]], "tformat")
 t("Horrific Evolution", "Évolution Horrible", "talent name")
 t([[Your mutations have enhanced your offense even farther.
@@ -3184,7 +3184,7 @@ t([[Your mutations have enhanced your offense even farther.
 		The effects will increase with your Magic stat.]], [[Vos mutations ont encore renforcé votre puissance offensive.
 		Vous gagnez %d Précision et %d Puissance des Sorts.
 		Les effets sont proportionnels à votre Magie.]], "tformat")
-t("Overgrowth", "Sur-croissance", "talent name")
+t("Overgrowth", "Sur-Croissance", "talent name")
 t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		Your body grows much bigger, gaining 2 size categories, making you able to walk through walls and increasing all your damage by %d%% and all your resistances by %d%%.
 		Each time you take a step your monstrous form causes a small quake destroying and rearranging nearby terrain.]], [[Vous déclenchez une cascade de cellules mutant rapidement dans votre corps pendant %d tours.
@@ -3205,7 +3205,7 @@ t([[The sheer power of your entropy tears holes through spacetime, opening this 
 On casting a Demented spell you have a 30%% chance of creating a void rift lasting %d turns in a nearby tile, which will launch void blasts each turn at a random enemy in range 7, dealing %0.2f darkness and %0.2f temporal damage.
 
 You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[La pure puissance de votre entropie déchire des trous dans l'espace-temps, ouvrant ce monde au vide.
-Lorsque vous lancez un sort de Dément, vous avez 30%% de chance de créer une faille du vide durant %d tours sur une case proche, qui lancera des explosions du vide chaque tour contre un ennemi aléatoire à portée 7, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts temporels.
+Lorsque vous lancez un sort de Dément, vous avez 30%% de chance de créer une faille du vide durant %d tours sur une case proche, qui lancera des explosions du vide par tour contre un ennemi aléatoire à portée 7, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts temporels.
 
 Vous pouvez activer ce talent pour déstabiliser de force l'espace-temps, faisant apparaître %d failles du vide autour de vous.]], "tformat")
 t("Quantum Tunnelling", "Tunnellisation Quantique", "talent name")
@@ -3228,9 +3228,9 @@ t([[Pouring more energy into your rifts, you have a %d%% chance for each one to 
 #PURPLE#Temporal Vortex:#LAST# Inflicts %0.2f temporal damage each turn to enemies in radius 4 and reduces their global speed by 30%%.
 #PURPLE#Dimensional Gate:#LAST# Has a 50%% chance each turn to summon a voidling lasting %d turns; a fast melee attacker that can teleport.
 The stats of your Void Skitterers will scale with your Magic stat and level.]], [[En déversant davantage d'énergie dans vos failles, chacune a %d%% de chance d'apparaître à la place sous une forme plus puissante.
-#PURPLE#Brèche du Néant :#LAST# Tire un faisceau infligeant %0.2f dégâts d'obscurité à une cible aléatoire dans un rayon de 10 cases.
-#PURPLE#Vortex Temporel :#LAST# Inflige %0.2f dégâts temporels chaque tour aux ennemis dans un rayon de 4 cases et réduit leur vitesse globale de 30%%.
-#PURPLE#Portail Dimensionnel :#LAST# A 50%% de chance chaque tour d'invoquer un traqueur du vide durant %d tours ; un attaquant de mêlée rapide capable de se téléporter.
+#PURPLE#Brèche du Néant :#LAST# Tire un faisceau infligeant %0.2f dégâts d'obscurité à une cible aléatoire dans un rayon de 10.
+#PURPLE#Vortex Temporel :#LAST# Inflige %0.2f dégâts temporels par tour aux ennemis dans un rayon de 4 et réduit leur vitesse globale de 30%%.
+#PURPLE#Portail Dimensionnel :#LAST# A 50%% de chance par tour d'invoquer un traqueur du vide durant %d tours ; un attaquant de mêlée rapide capable de se téléporter.
 Les statistiques de vos Traqueurs du Vide sont proportionnels à votre Magie et votre niveau.]], "tformat")
 t("Dimensional Skitter", "Saut Dimensionnel", "talent name")
 t("%s's Dimensional Skitter fizzles!", "Le Saut Dimensionnel de %s échoue !", "logSeen")
@@ -3249,85 +3249,69 @@ t([[You draw power from the depths of the void causing your Reality Fracture to 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/scourge-drake.lua"
 
-
--- texte non traduit
---[==[
-t("Tentacled Wings", "Tentacled Wings", "talent name")
+t("Tentacled Wings", "Ailes Tentaculaires", "talent name")
 t([[You project tentacles in a cone of radius %d in front of you.
-		Any foes caught inside are grappled by the tentacles and suffer %d%% weapon damage as blight, if the attack hits the creatures are also pulled towards you.]], [[You project tentacles in a cone of radius %d in front of you.
-		Any foes caught inside are grappled by the tentacles and suffer %d%% weapon damage as blight, if the attack hits the creatures are also pulled towards you.]], "tformat")
-t("Decaying Grounds", "Decaying Grounds", "talent name")
+		Any foes caught inside are grappled by the tentacles and suffer %d%% weapon damage as blight, if the attack hits the creatures are also pulled towards you.]], [[Vous projetez des tentacules dans un cône de rayon %d devant vous.
+		Tout ennemi pris dedans est agrippé par les tentacules et subit %d%% dégâts d'arme de fléau ; si l'attaque touche, les créatures sont également attirées vers vous.]], "tformat")
+t("Decaying Grounds", "Sol Putréfiant", "talent name")
 t([[You blight a zone as a decaying ground for %d turns. All creatures inside take %0.2f blight damage per turn and have all their cooldowns increased by %d%% for 3 turns.
-		The damage will scale with the highest of your spell or mind power.]], [[You blight a zone as a decaying ground for %d turns. All creatures inside take %0.2f blight damage per turn and have all their cooldowns increased by %d%% for 3 turns.
-		The damage will scale with the highest of your spell or mind power.]], "tformat")
-t("Augment Despair", "Augment Despair", "talent name")
+		The damage will scale with the highest of your spell or mind power.]], [[Vous corrompez une zone, la transformant en terrain putride pour %d tours. Toutes les créatures à l'intérieur subissent %0.2f dégâts de fléau par tour et voient tous leurs temps de rechargement augmentés de %d%% pendant 3 tours.
+		Les dégâts sont proportionnels au plus élevé de votre Puissance des Sorts ou Mentale.]], "tformat")
+t("Augment Despair", "Augmenter le Désespoir", "talent name")
 t([[You target a single creature with all your hatred and insanity, augmenting its despair, increasing the duration of detrimental effects by %d turns and dealing %0.2f blight damage per detrimental effect (each effect deals 75%% of the previous one).
-		The damage will scale with the highest of your spell or mind power.]], [[You target a single creature with all your hatred and insanity, augmenting its despair, increasing the duration of detrimental effects by %d turns and dealing %0.2f blight damage per detrimental effect (each effect deals 75%% of the previous one).
-		The damage will scale with the highest of your spell or mind power.]], "tformat")
-t("Maggot Breath", "Maggot Breath", "talent name")
-t("@Source@ breathes a wave of maggots!", "@Source@ breathes a wave of maggots!", "_t")
+		The damage will scale with the highest of your spell or mind power.]], [[Vous ciblez une seule créature avec toute votre haine et votre folie, augmentant son désespoir, prolongeant la durée des effets néfastes de %d tours et infligeant %0.2f dégâts de fléau par effet néfaste (chaque effet inflige 75%% du précédent).
+		Les dégâts évoluent avec le plus élevé de votre puissance de sort ou mentale.]], "tformat")
+t("Maggot Breath", "Souffle de Vers", "talent name")
+t("@Source@ breathes a wave of maggots!", "@Source@ exhale une vague de vers !", "_t")
 t([[You breathe a wave of dead maggots in a cone of radius %d. Any target caught in the area will take %0.2f blight damage and be infected with a crippling disease for 10 turns.
 		Crippling disease slows creatures by %d%% and deals %0.2f blight damage per turn.
-		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[You breathe a wave of dead maggots in a cone of radius %d. Any target caught in the area will take %0.2f blight damage and be infected with a crippling disease for 10 turns.
-		Crippling disease slows creatures by %d%% and deals %0.2f blight damage per turn.
-		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], "tformat")
---]==]
-
+		The damage will increase with your Magic, and the critical chance is based on your Spell crit rate.]], [[Vous exhalez une vague de vers morts dans un cône d'un rayon de %d. Toute cible prise dans la zone subira %0.2f dégâts de fléau et sera infectée par une maladie invalidante pendant 10 tours.
+		La maladie invalidante ralentit les créatures de %d%% et inflige %0.2f dégâts de fléau par tour.
+		Les dégâts sont proportionnels à votre Magie, et la chance critique est proportionnel à vos critique de sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/slow-death.lua"
 
-
--- texte non traduit
---[==[
-t("Digest", "Digest", "talent name")
-t("%s has no usable talents.", "%s has no usable talents.", "logPlayer")
-t("Painful Agony", "Painful Agony", "_t")
-t("Choose a talent to use:", "Choose a talent to use:", "_t")
+t("Digest", "Digérer", "talent name")
+t("%s has no usable talents.", "%s n'a aucun talent utilisable.", "logPlayer")
+t("Painful Agony", "Agonie Douloureuse", "_t")
+t("Choose a talent to use:", "Choisissez un talent à utiliser :", "_t")
 t([[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
 		While you digest it you gain %d insanity per turn.
 		The digestion lasts for 50 turns for an elite and 25 turns for others.
-		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[Make a melee attack dealing %d%% weapon damage and attempt to snatch a foe that has %d%% life or less left and swallow it whole.
-		While you digest it you gain %d insanity per turn.
-		The digestion lasts for 50 turns for an elite and 25 turns for others.
-		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], "tformat")
-t("Painful Agony", "Painful Agony", "talent name")
+		This effect's remaining duration only goes down while in combat, and its bonuses are only applied while in combat.]], [[Effectuez une attaque de mêlée infligeant %d%% dégâts d'arme et tentez de saisir un ennemi ayant %d%% de vie ou moins pour l'avaler tout entier.
+		Tant que vous le digérez, vous gagnez %d folie par tour.
+		La digestion dure 50 tours pour une créature élite et 25 tours pour les autres.
+		La durée restante de cet effet ne diminue qu'en combat, et ses bonus ne s'appliquent qu'en combat.]], "tformat")
+t("Painful Agony", "Agonie Douloureuse", "talent name")
 t([[The pain you inflict to the victim you are digesting is so intense something breaks inside it, giving you a way into its mind.
 		When you digest you can steal a random talent from your victim and can use it for yourself at talent level %d.
 		At talent level 5 you can choose which talent to use.
 		You may not steal a talent which you already know.
 		The stolen talent will not use any resources to activate.
-		]], [[The pain you inflict to the victim you are digesting is so intense something breaks inside it, giving you a way into its mind.
-		When you digest you can steal a random talent from your victim and can use it for yourself at talent level %d.
-		At talent level 5 you can choose which talent to use.
-		You may not steal a talent which you already know.
-		The stolen talent will not use any resources to activate.
-		]], "tformat")
-t("Inner Tentacles", "Inner Tentacles", "talent name")
+		]], [[La douleur que vous infligez à la victime que vous digérez est si intense que quelque chose se brise en elle, vous ouvrant un accès à son esprit.
+		En digérant, vous pouvez voler un talent aléatoire de votre victime et l'utiliser pour vous-même au niveau de talent %d.
+		Au niveau de talent 5, vous pouvez choisir quel talent utiliser.
+		Vous ne pouvez pas voler un talent que vous connaissez déjà.
+		Le talent volé n'utilisera aucune ressource pour s'activer.]], "tformat")
+t("Inner Tentacles", "Tentacules Internes", "talent name")
 t([[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
 		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[Your stomatch grows small tentacles inside which probe and torment your digested victim even more.
-		Whenever you deal a critical strike the tentacles probe harder, feeding your more energy from the pain of your victim making you able to feed on the pain your cause to others for 3 turns.
-		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], "tformat")
-t("Consume Whole", "Consume Whole", "talent name")
-t("You are not digesting a creature.", "You are not digesting a creature.", "logPlayer")
+		This effect gives you 20%% chances to leech of your attacks, healing you for %d%% of the damage done.]], [[Votre estomac fait pousser de petits tentacules à l'intérieur, qui sondent et tourmentent encore davantage votre victime digérée.
+		Chaque fois que vous portez un coup critique, les tentacules sondent plus fort, vous nourrissant de davantage d'énergie issue de la douleur de votre victime, vous rendant capable de vous nourrir de la douleur que vous infligez aux autres pendant 3 tours.
+		Cet effet vous donne 20%% de chance de drainer la vie à vos attaques, vous soignant de %d%% des dégâts infligés.]], "tformat")
+t("Consume Whole", "Consommer Entièrement", "talent name")
+t("You are not digesting a creature.", "Vous ne digérez aucune créature.", "logPlayer")
 t([[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
 			Activating this will reset the cooldown of your Digest talent.
-		The life healed will increase with your Spellpower.]], [[Instantly consume what remains of your victim, healing yourself for %d life and generating %d insanity.
-			Activating this will reset the cooldown of your Digest talent.
-		The life healed will increase with your Spellpower.]], "tformat")
---]==]
-
+		The life healed will increase with your Spellpower.]], [[Consommez instantanément ce qu'il reste de votre victime, vous soignant de %d points de vie et générant %d folie.
+			Activer ceci réinitialisera le temps de recharge de votre talent Digérer.
+		La vie soignée est proportionnel à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/tentacles.lua"
 
-t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
-t("You require a weapon and an empty offhand!", "Vous avez besoin d'une arme et d'une main secondaire vide !", "logPlayer")
-t("Constrict", "Constriction", "talent name")
--- texte non traduit
---[==[
-t("Mutated Hand", "Mutated Hand", "talent name")
+t("Mutated Hand", "Main Mutante", "talent name")
 t([[Your left hand mutates into a disgusting mass of tentacles.
 		When you have your offhand empty you automatically hit your target and those on the side whenever you hit with a basic attack.
 		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
@@ -3335,129 +3319,138 @@ t([[Your left hand mutates into a disgusting mass of tentacles.
 		You generate a low power psionic field around you when around #{italic}#'civilized people'#{normal}# that prevents them from seeing you for the horror you are.
 
 		Your tentacle hand currently has these stats%s:
-		%s]], [[Your left hand mutates into a disgusting mass of tentacles.
-		When you have your offhand empty you automatically hit your target and those on the side whenever you hit with a basic attack.
-		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
-		Each time you make an attack with your tentacle you gain %d insanity.
-		You generate a low power psionic field around you when around #{italic}#'civilized people'#{normal}# that prevents them from seeing you for the horror you are.
+		%s]], [[Votre main gauche mute en une répugnante masse de tentacules.
+		Lorsque votre main secondaire est vide, vous touchez automatiquement votre cible ainsi que celles à ses côtés à chaque fois que vous frappez avec une attaque de base.
+		Augmente également votre Puissance Physique de %d, et augmente les dégâts d'arme de %d%% pour vos attaques de tentacule.
+		Chaque fois que vous portez une attaque avec votre tentacule, vous gagnez %d folie.
+		Vous générez un champ psionique de faible puissance autour de vous en présence de #{italic}#"gens civilisés"#{normal}#, les empêchant de voir en vous l'horreur que vous êtes réellement.
 
-		Your tentacle hand currently has these stats%s:
+		Votre main tentaculaire possède actuellement les statistiques suivantes%s :
 		%s]], "tformat")
-t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", "_t")
-t("Lash Out", "Lash Out", "talent name")
+t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON#mais est actuellement désactivée car votre main secondaire n'est pas vide#WHITE#", "_t")
+t("Lash Out", "Fouetter", "talent name")
+t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
+t("You require a weapon and an empty offhand!", "Vous avez besoin d'une arme et d'une main secondaire vide !", "logPlayer")
 t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
 				
 				If the mainhand attack hits at least one enemy you gain %d insanity.
 				If the tentacle attack hits at least one enemy you gain %d insanity.
 		
-		#YELLOW_GREEN#When constricting:#WHITE# Your tentacle attack is centered around your constricted target (but not your weapon attack) and only in radius 1 but it also dazes anything hit for 5 turns.]], [[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
+		#YELLOW_GREEN#When constricting:#WHITE# Your tentacle attack is centered around your constricted target (but not your weapon attack) and only in radius 1 but it also dazes anything hit for 5 turns.]], [[Tournez sur vous-même, étendant votre arme et infligeant des dégâts à toutes les cibles autour de vous pour %d%% dégâts d'arme, tandis que votre main tentaculaire s'étend et frappe toutes les cibles dans un rayon de 3 pour %d%% dégâts de tentacule.
 				
-				If the mainhand attack hits at least one enemy you gain %d insanity.
-				If the tentacle attack hits at least one enemy you gain %d insanity.
+				Si l'attaque de la main principale touche au moins un ennemi, vous gagnez %d folie.
+				Si l'attaque de tentacule touche au moins un ennemi, vous gagnez %d folie.
 		
-		#YELLOW_GREEN#When constricting:#WHITE# Your tentacle attack is centered around your constricted target (but not your weapon attack) and only in radius 1 but it also dazes anything hit for 5 turns.]], "tformat")
-t("Tendrils Eruption", "Tendrils Eruption", "talent name")
-t("%s resists the slimy tendril!", "%s resists the slimy tendril!", "logSeen")
+		#YELLOW_GREEN#En cas de constriction :#WHITE# Votre attaque de tentacule (mais pas votre attaque d'arme) est centrée sur votre cible en constriction et se limite à un rayon de 1 case, mais elle étourdit également tout ce qu'elle touche pendant 5 tours.]], "tformat")
+t("Tendrils Eruption", "Éruption de Vrilles", "talent name")
+t("%s resists the slimy tendril!", "%s résiste à la vrille visqueuse !", "logSeen")
 t([[You plant your tentacle hand in the ground where it splits up and extends to a target zone of radius %d.
 		The zone will erupt with many black tendrils to hit all foes caught inside dealing %d%% tentacle damage.
 		Any creature hit by the tentacle must save against spell or be numbed by the attack, reducing its damage by %d%% for 5 turns.
 
 		If at least one enemy is hit you gain %d insanity.
 
-		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], [[You plant your tentacle hand in the ground where it splits up and extends to a target zone of radius %d.
-		The zone will erupt with many black tendrils to hit all foes caught inside dealing %d%% tentacle damage.
-		Any creature hit by the tentacle must save against spell or be numbed by the attack, reducing its damage by %d%% for 5 turns.
+		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], [[Vous plantez votre main tentaculaire dans le sol, où elle se divise et s'étend jusqu'à une zone ciblée d'un rayon de %d.
+		La zone entre en éruption avec de nombreuses vrilles noires pour frapper tous les ennemis pris à l'intérieur, infligeant %d%% dégâts de tentacule.
+		Toute créature touchée par le tentacule doit effectuer une sauvegarde de sort ou être engourdie par l'attaque, réduisant ses dégâts de %d%% pendant 5 tours.
 
-		If at least one enemy is hit you gain %d insanity.
+		Si au moins un ennemi est touché, vous gagnez %d folie.
 
-		#YELLOW_GREEN#When constricting:#WHITE#The tendrils pummel your constricted target for %d%% tentacle damage and if adjacent you make an additional mainhand weapon attack.  Talent cooldown reduced to 10.]], "tformat")
-t("You require a mutated hand!", "You require a mutated hand!", "logPlayer")
-t("%s's tentacle fails to move %s!", "%s's tentacle fails to move %s!", "tformat")
-t("Your constrict target has disappeared!", "Your constrict target has disappeared!", "logPlayer")
-t("This target can not be moved!", "This target can not be moved!", "logPlayer")
+		#YELLOW_GREEN#En cas de constriction :#WHITE# Les vrilles martèlent votre cible en constriction pour %d%% dégâts de tentacule et, si vous êtes adjacent, vous effectuez une attaque supplémentaire avec votre arme principale. Le temps de recharge du talent est réduit à 10.]], "tformat")
+t("Constrict", "Constriction", "talent name")
+t("You require a mutated hand!", "Vous avez besoin d'une main mutante !", "logPlayer")
+t("%s's tentacle fails to move %s!", "Le tentacule de %s échoue à déplacer %s !", "tformat")
+t("Your constrict target has disappeared!", "Votre cible en constriction a disparu !", "logPlayer")
+t("This target can not be moved!", "Cette cible ne peut pas être déplacée !", "logPlayer")
 t([[You extend your tentacle to grab a distant target, pulling it to you.
 		As long as Constrict stays active the target is bound by your tentacle, it can try to move away but each turn you pull it back in 1 tile.
 		While constricting you cannot use your tentacle to enhance your normal attacks but you deal %d%% tentacle damage each turn to your target.
 		Enemies can resist the attempt to pull them but Constrict will always work for purposes of modifying your talents.
-		Your other tentacle talents may act differently when used while constricting (check their descriptions).]], [[You extend your tentacle to grab a distant target, pulling it to you.
-		As long as Constrict stays active the target is bound by your tentacle, it can try to move away but each turn you pull it back in 1 tile.
-		While constricting you cannot use your tentacle to enhance your normal attacks but you deal %d%% tentacle damage each turn to your target.
-		Enemies can resist the attempt to pull them but Constrict will always work for purposes of modifying your talents.
-		Your other tentacle talents may act differently when used while constricting (check their descriptions).]], "tformat")
---]==]
-
+		Your other tentacle talents may act differently when used while constricting (check their descriptions).]], [[Vous étendez votre tentacule pour saisir une cible distante et l'attirer vers vous.
+		Tant que Constriction reste active, la cible est liée par votre tentacule ; elle peut tenter de s'éloigner, mais chaque tour vous la ramenez d'une case.
+		Pendant la constriction, vous ne pouvez pas utiliser votre tentacule pour améliorer vos attaques normales, mais vous infligez %d%% de dégâts de tentacule par tour à votre cible.
+		Les ennemis peuvent résister à la tentative de traction, mais Constriction fonctionnera toujours aux fins de modification de vos talents.
+		Vos autres talents de tentacule peuvent agir différemment lorsqu'ils sont utilisés en constriction (consultez leurs descriptions).]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/timethief.lua"
 
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("%s resists!", "%s résiste !", "logSeen")
-t("Summon", "Invocation", "_t")
--- texte non traduit
---[==[
-t("Accelerate", "Accelerate", "talent name")
+t("Accelerate", "Accélérer", "talent name")
 t([[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
 You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], [[Distorting spacetime around yourself, you reduce the movement speed of all enemies in radius %d by 50%% for %d turns.
-You use the siphoned speed to grant yourself incredible quickness for 1 turn, increasing movement speed by %d%%, increased by a further %d%% for each enemy slowed, to a maximum of 4.
-Any actions other than movement will cancel the effect.]], "tformat")
-t("Switch", "Switch", "talent name")
-t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "tformat")
-t("Suspend", "Suspend", "talent name")
+Any actions other than movement will cancel the effect.]], [[En déformant l'espace-temps autour de vous, vous réduisez la vitesse de déplacement de tous les ennemis dans un rayon de %d de 50%% pendant %d tours.
+Vous utilisez la vitesse siphonnée pour vous accorder une rapidité incroyable pendant 1 tour, augmentant la vitesse de déplacement de %d%%, avec un bonus supplémentaire de %d%% pour chaque ennemi ralenti, jusqu'à un maximum de 4.
+Toute action autre que le déplacement annulera l'effet.]], "tformat")
+t("Switch", "Permuter", "talent name")
+t("Release a surge of entropy, cleansing yourself of afflictions while draining the energy from others. All enemies in range 10 will have the duration of %d beneficial effects reduced by %d turns, while you will have an equal number of detrimental effects reduced by the same duration.", "Libérez une déferlante d'entropie, vous purifiant de vos afflictions tout en drainant l'énergie d'autrui. Tous les ennemis à portée 10 verront la durée de %d effets bénéfiques réduite de %d tours, tandis que vous verrez un nombre égal de vos effets néfastes réduits de la même durée.", "tformat")
+t("Suspend", "Suspendre", "talent name")
 t([[You freeze yourself in time for %d turns, preventing you from taking any action but preventing any damage taken.
-				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], [[You freeze yourself in time for %d turns, preventing you from taking any action but preventing any damage taken.
-				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], "tformat")
-t("Split", "Split", "talent name")
-t("You can't clone summons!", "You can't clone summons!", "logPlayer")
-t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "tformat")
-t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "_t")
+				Negative effects and cooldowns will decrease in duration, while beneficial effects will remain at their current duration.]], "Vous vous figez dans le temps pendant %d tours, vous empêchant d'entreprendre toute action mais vous rendant immunisé contre tout dégât. Les effets néfastes et les temps de rechargement continueront de diminuer en durée, tandis que les effets bénéfiques conserveront leur durée actuelle.", "tformat")
+t("Split", "Diviser", "talent name")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("You can't clone summons!", "Vous ne pouvez pas cloner des invocations !", "logPlayer")
+t("%s resists!", "%s résiste !", "logSeen")
+t("#LIGHT_STEEL_BLUE#%s's Temporal Clone#LAST#", "#LIGHT_STEEL_BLUE#Clone Temporel de %s#LAST#", "tformat")
+t("A warped image resembling the creature it appeared from, its features a flickering blur of all possible futures.", "Une image déformée ressemblant à la créature dont elle est issue, ses traits un flou scintillant de tous les futurs possibles.", "_t")
+t("Summon", "Invocation", "_t")
 t([[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
-While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], [[The target enemy will be partially removed from the normal flow of time for %d turns, inhibiting their ability to interact with the world. All damage taken will be reduced by %d%%, while all damage dealt will be reduced by %d%%.
-While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], "tformat")
---]==]
-
+While active, you form the frayed threads of their timeline into a temporal clone of them for the same duration, which assists you in combat. This clone is identical, but has %d%% reduced life and deals %d%% damage.]], "L'ennemi ciblé sera partiellement retiré du flux normal du temps pendant %d tours, entravant sa capacité à interagir avec le monde. Tous les dégâts subis seront réduits de %d%%, tandis que tous les dégâts infligés seront réduits de %d%%. Pendant que cet effet est actif, vous façonnez les fils effilochés de sa ligne temporelle en un clone temporel de lui pour la même durée, qui vous assiste au combat. Ce clone est identique, mais possède %d%% de vie en moins et inflige %d%% dégâts.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/void.lua"
 
-t("Summon", "Invocation", "_t")
--- texte non traduit
---[==[
-t("Void Stars", "Void Stars", "talent name")
-t("You must be wearing light armor for this talent.", "You must be wearing light armor for this talent.", "logPlayer")
-t("A void star appears around %s.", "A void star appears around %s.", "logSeen")
-t("#FIREBRICK##Target#'s void star absorbs the damage from #Source#, converting it into entropy!#LAST#", "#FIREBRICK##Target#'s void star absorbs the damage from #Source#, converting it into entropy!#LAST#", "logCombat")
-t("%s(%d to entropy)", "%s(%d to entropy)", "tformat")
+t("Void Stars", "Étoiles du Vide", "talent name")
+t("You must be wearing light armor for this talent.", "Vous devez porter une armure légère pour ce talent.", "logPlayer")
+t("A void star appears around %s.", "Une étoile du vide apparaît autour de %s.", "logSeen")
+t("#FIREBRICK##Target#'s void star absorbs the damage from #Source#, converting it into entropy!#LAST#", "#FIREBRICK#L'étoile du vide de #Target# absorbe les dégâts de #Source#, les convertissant en entropie !#LAST#", "logCombat")
+t("%s(%d to entropy)", "%s(%d vers l'entropie)", "tformat")
 t([[Conjure void stars that orbit you, defending you from incoming attacks. Each time an attack deals more than 10%% of your maximum life, a star will be consumed to reduce the damage taken by %d%%, of which 40%% will be dealt to you as entropic backlash.
 		You regenerate 1 star every %d turns, stacking up to 4 times.
-		This talent will only function in light armor.]], [[Conjure void stars that orbit you, defending you from incoming attacks. Each time an attack deals more than 10%% of your maximum life, a star will be consumed to reduce the damage taken by %d%%, of which 40%% will be dealt to you as entropic backlash.
-		You regenerate 1 star every %d turns, stacking up to 4 times.
-		This talent will only function in light armor.]], "tformat")
-t("Nullmail", "Nullmail", "talent name")
+		This talent will only function in light armor.]], [[Invoquez des étoiles du vide qui orbitent autour de vous, vous défendant des attaques entrantes. Chaque fois qu'une attaque inflige plus de 10%% de votre vie maximale, une étoile sera consommée pour réduire les dégâts subis de %d%%, dont 40%% vous seront infligés sous forme de contrecoup entropique.
+		Vous régénérez 1 étoile tous les %d tours, s'accumulant jusqu'à 4 fois.
+		Ce talent ne fonctionne qu'avec une armure légère.]], "tformat")
+t("Nullmail", "Maille Nulle", "talent name")
 t([[Reinforce your armor with countless tiny void stars, increasing armor by %d.
-Each time your void stars are fully depleted, you gain a shield absorbing the next %d damage taken within %d turns. This shield cannot trigger again until your void stars are fully restored.]], [[Reinforce your armor with countless tiny void stars, increasing armor by %d.
-Each time your void stars are fully depleted, you gain a shield absorbing the next %d damage taken within %d turns. This shield cannot trigger again until your void stars are fully restored.]], "tformat")
-t("Black Monolith", "Black Monolith", "talent name")
-t("You must have at least 1 void star to summon a monolith.", "You must have at least 1 void star to summon a monolith.", "logPlayer")
-t("Not enough space to summon your monolith!", "Not enough space to summon your monolith!", "logPlayer")
-t("void monolith", "void monolith", "_t")
-t("This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "_t")
+Each time your void stars are fully depleted, you gain a shield absorbing the next %d damage taken within %d turns. This shield cannot trigger again until your void stars are fully restored.]], [[Renforcez votre armure avec d'innombrables petites étoiles du vide, augmentant l'armure de %d.
+Chaque fois que vos étoiles du vide sont entièrement épuisées, vous gagnez un bouclier absorbant les %d prochains dégâts subis dans les %d tours suivants. Ce bouclier ne peut se déclencher à nouveau tant que vos étoiles du vide ne sont pas entièrement restaurées.]], "tformat")
+t("Black Monolith", "Monolithe Noir", "talent name")
+t("You must have at least 1 void star to summon a monolith.", "Vous devez avoir au moins 1 étoile du vide pour invoquer un monolithe.", "logPlayer")
+t("Not enough space to summon your monolith!", "Pas assez d'espace pour invoquer votre monolithe !", "logPlayer")
+t("void monolith", "monolithe du vide", "_t")
+t("This bizarre oblong shape floats in the air, defying gravity. Its form seems to subtly shift, and you feel an intense desire to move towards it.", "Cette étrange forme oblongue flotte dans les airs, défiant la gravité. Sa forme semble se transformer subtilement, et vous ressentez un désir intense de vous en approcher.", "_t")
+t("Summon", "Invocation", "_t")
 t([[Consuming a void star, you use it to summon a void monolith at the targeted location for %d turns. The monolith is very durable, and while immobile it will attempt to daze enemies within radius %d for 2 turns every half a turn using your spellpower.
-			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[Consuming a void star, you use it to summon a void monolith at the targeted location for %d turns. The monolith is very durable, and while immobile it will attempt to daze enemies within radius %d for 2 turns every half a turn using your spellpower.
-			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], "tformat")
-t("Essence Reave", "Essence Reave", "talent name")
-t("%s rends the essence of %s, restoring %d void shards!", "%s rends the essence of %s, restoring %d void shards!", "logSeen")
+			The monolith will gain %d life rating and %d%% all resist based on your Magic stat.]], [[En consommant une étoile du vide, vous l'utilisez pour invoquer un monolithe du vide à l'emplacement ciblé pendant %d tours. Le monolithe est très résistant, et bien qu'immobile, il tentera d'étourdir les ennemis dans un rayon de %d pendant 2 tours toutes les demi-tours, en utilisant votre puissance magique.
+			Le monolithe gagne %d rendement de vie et %d%% de résistance globale selon votre caractéristique de Magie.]], "tformat")
+t("Essence Reave", "Déchirer l'Essence", "talent name")
+t("%s rends the essence of %s, restoring %d void shards!", "%s déchire l'essence de %s, restaurant %d éclat(s) du vide !", "logSeen")
 t([[You rend the very essence of the target, drawing on their life and converting it to void stars. The target takes %0.2f darkness and %0.2f temporal damage, and you gain %d void star(s).
-		The damage will increase with your Spellpower.]], [[You rend the very essence of the target, drawing on their life and converting it to void stars. The target takes %0.2f darkness and %0.2f temporal damage, and you gain %d void star(s).
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Vous déchirez l'essence même de la cible, puisant dans sa vie pour la convertir en étoiles du vide. La cible subit %0.2f dégâts d'obscurité et %0.2f dégâts temporels, et vous gagnez %d étoile(s) du vide.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/writhing-body.lua"
 
+t("Mutated Hereragegand", "Hereragegand Mutant", "talent name")
+t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
+
+		Your tentacle hand currently has those stats%s:
+		%s]], [[		Augmente également la puissance physique de %d et les dégâts infligés par vos attaques de tentacules de %d%%.
+
+        Votre main tentaculaire présente actuellement les statistiques suivantes%s :
+		%s]], "tformat")
+t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON#mais est actuellement désactivée car votre main secondaire n'est pas vide#WHITE#", "_t")
+t("Lash Outrthrthrth", "Fouet Outrthrthrth", "talent name")
 t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
 t("You require a weapon and an empty offhand!", "Vous avez besoin d'une arme et d'une main secondaire vide !", "logPlayer")
+t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
+		]], [[Tournez sur vous-même en tendant votre arme pour infliger à toutes les cibles autour de vous %d%% dégâts d'arme, tandis que votre main tentaculaire s'étend et touche toutes les cibles situées dans un rayon de 3, leur infligeant %d%% dégâts de tentacule.
+		]], "tformat")
+t("Piercing Tentacle", "Tentacule Perforante", "talent name")
+t([[You quickly extend your tentacle hand up to range %d, impaling all creatures in the way.
+		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], [[Tu étends rapidement ta main tentaculaire jusqu'à une portée de %d, empalant toutes les créatures se trouvant sur son passage.
+        Les créatures empalées subissent %d%% dégâts de tentacule et tombent malades : elles contractent une maladie aléatoire pendant %d tours, qui leur inflige %0.2f dégâts de fléau par tour et réduit leur force, leur dextérité ou leur constitution de %d.]], "tformat")
+t("Tentaclesrsthrhrhrh Ground", "Sol Tentaclesrsthrhrhrh", "talent name")
 t("The diseases of %s spread!", "Les maladies de %s se répandent !", "logSeen")
 t("%s resists the disease!", "%s résiste à la maladie !", "logSeen")
 t([[Infects the target with a very contagious disease, doing %0.2f damage per turn for 6 turns.
@@ -3466,40 +3459,18 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		Creatures suffering from that disease will also suffer healing reduction (%d%%) and diseases immunity reduction (%d%%).
 		Epidemic is an extremely potent disease; as such, it fully ignores the target's diseases immunity.
 		The damage will increase with your Spellpower, and the spread chance increases with the amount of blight damage dealt.]], [[Infecte la cible avec une maladie très contagieuse, infligeant %0.2f dégâts par tour pendant 6 tours.
-		Chaque fois que des dégâts de fléau (hors maladies) touchent la cible, l'épidémie peut s'activer et répandre une maladie aléatoire aux cibles proches dans un rayon de 2 cases.
+		Chaque fois que des dégâts de fléau (hors maladies) touchent la cible, l'épidémie peut s'activer et répandre une maladie aléatoire aux cibles proches dans un rayon de 2.
 		La chance de propagation est proportionnel aux dégâts de fléau infligés et devient 100%% si ces dégâts représentent au moins %d%% de la vie maximale de la cible.
 		Les créatures souffrant de cette maladie subiront également une réduction des soins de %d%% et une réduction de l'immunité aux maladies de %d%%.
 		L'Épidémie est une maladie extrêmement puissante ; à ce titre, elle ignore totalement l'immunité aux maladies de la cible.
 		Les dégâts sont proportionnels à votre Puissance des Sorts, et la chance de propagation est proportionnel à la quantité de dégâts de fléau infligés.]], "tformat")
--- texte non traduit
---[==[
-t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
-t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
-
-		Your tentacle hand currently has those stats%s:
-		%s]], [[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
-
-		Your tentacle hand currently has those stats%s:
-		%s]], "tformat")
-t(", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", ", #CRIMSON# but is currently disabled due to non-empty offhand#WHITE#", "_t")
-t("Lash Outrthrthrth", "Lash Outrthrthrth", "talent name")
-t([[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
-		]], [[Spin around, extending your weapon and damaging all targets around you for %d%% weapon damage while your tentacle hand extends and hits all targets in radius 3 for %d%% tentacle damage.
-		]], "tformat")
-t("Piercing Tentacle", "Piercing Tentacle", "talent name")
-t([[You quickly extend your tentacle hand up to range %d, impaling all creatures in the way.
-		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], [[You quickly extend your tentacle hand up to range %d, impaling all creatures in the way.
-		Impaled creatures take %d%% tentacle damage and get sick, gaining a random disease for %d turns that deals %0.2f blight damage per turn and reduces strength, dexterity or constitution by %d.]], "tformat")
-t("Tentaclesrsthrhrhrh Ground", "Tentaclesrsthrhrhrh Ground", "talent name")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/talents/misc/misc.lua"
 
 t("glass golem", "golem de verre", "_t")
 t("Self-destruction", "Auto-destruction", "talent name")
-t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "Autodétruisez-vous dans une glorieuse explosion de viscères, infligeant %0.2f dégâts de fléau à tous les ennemis dans un rayon de %d cases. L'invocateur doit être mort pour utiliser ce talent.", "tformat")
+t("Self destruct in a glorious explosion of gore dealing %0.2f blight damage to all enemies in %d radius.  Your summoner must be dead to use this talent.", "Autodétruisez-vous dans une glorieuse explosion de viscères, infligeant %0.2f dégâts de fléau à tous les ennemis dans un rayon de %d. L'invocateur doit être mort pour utiliser ce talent.", "tformat")
 t("Teleport: Kroshkkur", "Téléportation : Kroshkkur", "talent name")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur est détruit, il n'y a nulle part où se téléporter.", "logPlayer")
 t("The spell fizzles...", "Le sort échoue...", "logPlayer")
@@ -3513,10 +3484,10 @@ t([[Allows to teleport to Kroshkkur.
 	Le sort met du temps (40 tours) à s'activer, et vous devez être hors de vue de toute autre créature lorsque vous le lancez et lorsque la téléportation prend effet.]], "_t")
 t("Call of Amakthel", "Appel d'Amakthel", "talent name")
 t("%s is pulled in!", "%s est attiré !", "logSeen")
-t("Pull all foes within radius 10 2 grids towards you.", "Attire tous les ennemis dans un rayon de 10 cases de 2 cases vers vous.", "_t")
+t("Pull all foes within radius 10 2 grids towards you.", "Attire tous les ennemis dans un rayon de 10 de 2 cases vers vous.", "_t")
 t("Crumble", "Effondrement", "talent name")
 t([[Fire a blast of darkness at an enemy dealing %0.2f damage and destroying any walls in radius 3 around them.
-		The damage will increase with your Spellpower.]], [[Tirez une salve d'obscurité sur un ennemi, infligeant %0.2f dégâts et détruisant tous les murs dans un rayon de 3 cases autour de lui.
+		The damage will increase with your Spellpower.]], [[Tirez une salve d'obscurité sur un ennemi, infligeant %0.2f dégâts et détruisant tous les murs dans un rayon de 3 autour de lui.
 		Les dégâts sont proportionnels à votre Puissance Magique.]], "tformat")
 t("Blightlash", "Fouet du Fléau", "talent name")
 t("You require an empty offhand to use your tentacle hand.", "Vous avez besoin d'une main secondaire vide pour utiliser votre main tentaculaire.", "logPlayer")
@@ -3526,7 +3497,7 @@ t("Twisted Evolution", "Évolution Tordue", "talent name")
 t([[Evolve %d allies within radius 10 in random ways for 5 turns.
 		#ORCHID#Speed:#LAST# Increases global speed by %d%%.
 		#ORCHID#Form:#LAST# Increases all stats by %d.
-		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], [[Faites évoluer %d alliés dans un rayon de 10 cases de manière aléatoire pendant 5 tours.
+		#ORCHID#Power:#LAST# Increases all damage by %d%%.]], [[Faites évoluer %d alliés dans un rayon de 10 de manière aléatoire pendant 5 tours.
 		#ORCHID#Vitesse :#LAST# Augmente la vitesse globale de %d%%.
 		#ORCHID#Forme :#LAST# Augmente toutes les caractéristiques de %d.
 		#ORCHID#Puissance :#LAST# Augmente tous les dégâts de %d%%.]], "tformat")
@@ -3576,7 +3547,7 @@ t([[Your skin grows small spikes coated in dark blight.
 		You are empowered by the sight of the black blood, for each bleeding creature in radius 2 you gain 5%% all resistances, limited to %d creatures.
 		The damage will scale with your Magic stat.]], [[Votre peau fait pousser de petites épines enduites d'un sombre fléau.
 		Lorsque vous êtes touché en mêlée, l'attaquant se met à saigner du sang noir pendant 5 tours, lui infligeant %0.2f dégâts d'obscurité par tour. Cet effet ne peut se produire qu'une fois par tour.
-		Vous êtes fortifié par la vue du sang noir : pour chaque créature saignante dans un rayon de 2 cases, vous gagnez 5%% de résistance globale, limité à %d créature(s).
+		Vous êtes fortifié par la vue du sang noir : pour chaque créature saignante dans un rayon de 2, vous gagnez 5%% de résistance globale, limité à %d créature(s).
 		Les dégâts sont proportionnels à votre Magie.]], "tformat")
 t("Faceless", "Sans Visage", "talent name")
 t([[Your faceless visage is puzzling and emotionless, allowing you to more easily resist mind tricks.
@@ -3591,7 +3562,7 @@ t([[Your affinity with things that dwell deep beneath the surface allows you to 
 		Each turn the mouth will draw all enemies in radius 10 2 spaces towards itself.
 		Its bonus life depends on your Constitution stat and talent level.  Many other stats will scale with level.]], [[Votre affinité avec les choses qui habitent au plus profond de la surface vous permet d'invoquer une bouche affamée.
 		La bouche a %d de vie bonus, dure %d tours, et n'inflige aucun dégât.
-		Chaque tour, la bouche attire tous les ennemis dans un rayon de 10 cases de 2 cases vers elle.
+		Chaque tour, la bouche attire tous les ennemis dans un rayon de 10 de 2 cases vers elle.
 		Son bonus de vie est proportionnel à votre Constitution et du niveau du talent. De nombreuses autres stats évoluent avec le niveau.]], "tformat")
 t("\
 For Drems this effect activates as long as the hungering mouth summoned by From Below It Devours is alive.", "\
@@ -3686,70 +3657,284 @@ t("#VIOLET#As the bone horror is destroyed you see the remaining bones reassembl
 section "tome-cults/data/timed_effects.lua"
 
 t("other", "Autre", "effect subtype")
+t("S.M.A.C.K.", "B.I.S.E.", "_t")
+t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "Combattez votre adversaire ! Si quelque chose tourne mal, la Forteresse vous en sortira.", "_t")
 t("frenzy", "frénésie", "effect subtype")
 t("Frenzy", "Frénésie", "_t")
+t("Class talents have no cooldown the first time they are used.", "Les talents de classe n'ont pas de temps de rechargement la première fois qu'ils sont utilisés.", "_t")
 t("bleed", "saignement", "effect subtype")
+t("Black Blood Bleeding", "Saignement de Sang Noir", "_t")
+t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "Du sang noir suinte de chaque pore, infligeant %0.2f dégâts d'obscurité par tour.", "tformat")
+t("#Target# starts to bleed black blood.", "#Target# commence à saigner du sang noir.", "_t")
+t("#Target# stops bleeding black blood.", "#Target# cesse de saigner du sang noir.", "_t")
 t("blood", "sang", "effect subtype")
 t("Spikeskin", "Peau Épineuse", "_t")
+t("Empowered by the sight of black blood, granting %d%% all resistances.", "Fortifié par la vue du sang noir, accordant %d%% de résistance globale.", "tformat")
 t("slime", "vase", "effect subtype")
 t("corrupted", "corrompu", "effect subtype")
+t("Slimy Tendril", "Vrille Visqueuse", "_t")
+t("Caught in a slimy tendril, reducing all damage by %d%%.", "Pris dans une vrille visqueuse, réduisant tous les dégâts de %d%%.", "tformat")
+t("#Target# is caught by a slimy tendril.", "#Target# est pris par une vrille visqueuse.", "_t")
+t("#Target# is free from the tendril.", "#Target# est libéré de la vrille.", "_t")
+t("Tentacle Constriction", "Constriction Tentaculaire", "_t")
+t("Caught by a tentacle from %s that deals %d%% tentacle damage and pulls you 1 space towards them each turn.", "Pris par un tentacule de %s qui inflige %d%% dégâts de tentacule et vous tire d'une case vers lui par tour.", "tformat")
+t("#Target# is constricted by a tentacle.", "#Target# est enserré par un tentacule.", "_t")
+t("#Target# is free from the tentacle constriction.", "#Target# est libéré de la constriction du tentacule.", "_t")
 t("Carrion Feet", "Pieds Charognards", "_t")
+t("Caught disgusting worms, reducing all damage by %d%%.", "Couvert de vers répugnants, réduisant tous les dégâts de %d%%.", "tformat")
+t("#Target# is caught in gore.", "#Target# est pris dans les viscères.", "_t")
+t("#Target# is free from the gore.", "#Target# est libéré des viscères.", "_t")
+t("growth", "croissance", "effect subtype")
 t("massive", "énorme", "effect subtype")
-t("Overgrowth", "Sur-croissance", "_t")
+t("Overgrowth", "Sur-Croissance", "_t")
+t("Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "Peut traverser les murs et provoque un séisme chaque tour, %d%% de dégâts en plus et %d%% de résistances en plus.", "tformat")
+t("#Target# suddently grows.", "#Target# grandit soudainement.", "_t")
+t("#Target# shrinks back.", "#Target# rétrécit à nouveau.", "_t")
 t("slow", "ralentissement", "effect subtype")
+t("Decaying Guts", "Viscères Putréfiées", "_t")
 t("Reduces global action speed by %d%%.", "Réduit la vitesse d'action globale de %d%%.", "tformat")
+t("#Target# is covered in decaying guts.", "#Target# est couvert de viscères putréfiées.", "_t")
+t("#Target# is free from the decaying guts.", "#Target# est libéré des viscères putréfiées.", "_t")
 t("miscellaneous", "divers", "effect subtype")
+t("Worm that Walks out of sight", "Ver qui Marche hors de vue", "_t")
+t("The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "Le Ver qui Marche est hors de vue de l'alchimiste ; le contrôle direct sera perdu !", "_t")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
+t("#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "#LIGHT_RED#Vous avez perdu de vue votre Ver qui Marche trop longtemps ; le contrôle direct est rompu !", "logPlayer")
+t("worm that walks out of sight", "Ver qui Marche hors de vue", "_t")
 t("Shared Insanity", "Folie Partagée", "_t")
+t("Linked to their horror ally gaining %d%% all damage resistance.", "Lié à son allié horreur, gagnant %d%% de résistance globale.", "tformat")
+t("#Target# links closer to his ally!", "#Target# se lie davantage à son allié !", "_t")
+t("#Target# no longer seems to be in sync with his ally.", "#Target# ne semble plus être en phase avec son allié.", "_t")
 t("Terrible Sight", "Vue Terrifiante", "_t")
+t("Terrified of the horror duo attacking them reducing defense and spell save by %d.", "Terrifié par le duo d'horreurs qui l'attaque, subissant une réduction de défense et de sauvegarde de sort de %d.", "tformat")
+t("#Target# is terrified of the horrors attacking him!", "#Target# est terrifié par les horreurs qui l'attaquent !", "_t")
+t("#Target# is no longer afraid of the horrors attacking him.", "#Target# n'a plus peur des horreurs qui l'attaquent.", "_t")
 t("damage", "dégâts", "effect subtype")
+t("insanity", "folie", "effect subtype")
 t("Chaos Orbs", "Orbes du Chaos", "_t")
+t("%d stacks, +%d%% to all damage dealt.", "%d cumul(s), +%d%% à tous les dégâts infligés.", "tformat")
 t("horror", "horreur", "effect subtype")
 t("blight", "fléau", "effect subtype")
+t("Putrescent Pustule", "Pustule Putrescente", "_t")
+t("%d pustules increasing resistance by %d%%.", "%d pustule(s) augmentant la résistance de %d%%.", "tformat")
+t("eat", "manger", "effect subtype")
+t("digest", "digérer ", "effect subtype")
+t("Digesting", "Digestion", "_t")
+t("Digesting %s.", "Digestion de %s.", "tformat")
+t("#Target# swallows a foe.", "#Target# avale un ennemi.", "_t")
+t("#Target# has finished digesting.", "#Target# a fini de digérer.", "_t")
+t("The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "La victime dans votre estomac semble encore en vie : \"#CRIMSON#%s\"", "logPlayer")
+t("The victim in your stomach finally dies from the painful agony.", "La victime dans votre estomac meurt enfin dans une douloureuse agonie.", "logPlayer")
 t("pain", "douleur", "effect subtype")
 t("tentacles", "Tentacules", "effect subtype")
+t("leech", "vol de vie", "effect subtype")
+t("Inner Tentacles", "Tentacules Internes", "_t")
+t("Life leech %d%% chance, %d%% power.", "%d%% de chance de vol de vie, %d%% de puissance.", "tformat")
+t("#Target# is empowered by the pain of its victim.", "#Target# est fortifié par la douleur de sa victime.", "_t")
+t("#Target# is less powerfull.", "#Target# est moins puissant.", "_t")
+t("morph", "métamorphose", "effect subtype")
 t("Horrific Display", "Manifestation Horrible", "_t")
+t("Appearance changed to an horror, everything is hostile to it.", "Apparence changée en horreur, tout lui est hostile.", "tformat")
+t("#PURPLE##Target# turns into an horror.", "#PURPLE##Target# se transforme en horreur.", "_t")
 t("#Target# is back to normal.", "#Target# est revenu à la normale.", "_t")
 t("%s is pulled in!", "%s est attiré !", "logSeen")
 t("darkness", "obscurité", "effect subtype")
+t("gore", "viscères", "effect subtype")
 t("Dissolved Face", "Visage Dissous", "_t")
+t("Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "Sang et viscères recouvrent la cible, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts de fléau par maladie.", "tformat")
+t("#Target# is covered in gore.", "#Target# est couvert de viscères.", "_t")
+t("#Target# is no longer covered in gore.", "#Target# n'est plus couvert de viscères.", "_t")
 t("fear", "peur", "effect subtype")
 t("Glimpse of True Horror", "Aperçu de la Véritable Horreur", "_t")
+t("Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "La cible a brièvement vu ce qu'est la Véritable Horreur, la terrifiant profondément. %d%% de chance d'échouer à utiliser un talent.", "tformat")
+t("#Target# saw true horror.", "#Target# a vu la véritable horreur.", "_t")
+t("#Target# is less afraid.", "#Target# a moins peur.", "_t")
+t("Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "Fortifié par la peur de ses ennemis, la pénétration de dégâts d'obscurité et de fléau augmentée de %d%%.", "tformat")
+t("#Target# is empowered by the fear of #hisher# foes.", "#Target# est fortifié par la peur de ses ennemis.", "_t")
 t("stone", "pierre", "effect subtype")
 t("Writhing Hairs", "Cheveux Grouillants", "_t")
+t("Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "À moitié transformé en pierre, réduisant la vitesse de déplacement de %d%% et 35%% de chance de se briser en cas de dégâts, augmentant les dégâts subis de %d%%.", "tformat")
+t("#Target# is half-turned to stone.", "#Target# est à moitié transformé en pierre.", "_t")
+t("#Target# looks less like a statue.", "#Target# ressemble moins à une statue.", "_t")
 t("temporal", "temporel", "effect subtype")
+t("Split", "Diviser", "_t")
+t("Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "Effacé du temps, réduisant les dégâts subis de %d%% et tous les dégâts infligés de %d%%.", "tformat")
+t("#Target# is removed from the timeline!", "#Target# est retiré de la chronologie !", "_t")
+t("+Split", "+Diviser", "_t")
+t("#Target# returns to normal time.", "#Target# revient au temps normal.", "_t")
+t("-Split", "-Diviser", "_t")
 t("Halo of Ruin", "Halo de la Ruine", "_t")
+t("Increases spell critical chance by %d%%. At 5 stacks, next Nether spell is empowered.", "Augmente la chance de critique de sort de %d%%. À 5 cumuls, le prochain sort du Néant est renforcé.", "tformat")
+t("%d Halo of Ruin", "Halo de la Ruine : %d", "tformat")
+t("Voidburn", "Brûlure du Vide", "_t")
+t("The target has been seared by the void, taking %0.2f darkness and %0.2f temporal damage each turn.", "La cible a été brûlée par le vide, subissant %0.2f dégâts d'obscurité et %0.2f dégâts temporels par tour.", "tformat")
+t("#Target# is ignited by voidfire!", "#Target# est enflammé par le feu du vide !", "_t")
+t("+Voidburn", "+Brûlure du Vide", "_t")
+t("#Target# is no longer ignited.", "#Target# n'est plus enflammé.", "_t")
+t("-Voidburn", "-Brûlure du Vide", "_t")
 t("Dark Whispers", "Murmures Sombres", "_t")
+t("The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "La cible est rendue folle par le vide, subissant %0.2f dégâts d'obscurité par tour et voyant toutes ses puissances réduites de %d.", "tformat")
+t("#Target# is haunted by the void!", "#Target# est hanté par le vide !", "_t")
+t("+Dark Whispers", "+Murmures Sombres", "_t")
+t("#Target#'s whispers fade.", "Les murmures de #Target# s'estompent.", "_t")
+t("-Dark Whispers", "-Murmures Sombres", "_t")
 t("Hideous Visions", "Visions Hideuses", "_t")
+t("The target is being distracted by a hallucination, reducing all damage dealt to non-hallucinations targets by %d%%.", "La cible est distraite par une hallucination, réduisant de %d%% tous les dégâts infligés aux cibles qui ne sont pas des hallucinations.", "tformat")
 t("Cacophony", "Cacophonie", "_t")
+t("The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "La cible est submergée par des voix venues du vide, lui donnant 20%% de chance supplémentaire de générer des hallucinations depuis Murmures Sombres et lui faisant subir %d%% de dégâts temporels supplémentaires de Murmures Sombres et Visions Hideuses.", "tformat")
+t("#Target#'s mind is shattered by the void!", "L'esprit de #Target# est brisé par le vide !", "_t")
+t("+Cacophony", "+Cacophonie", "_t")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
+t("-Cacophony", "-Cacophonie", "_t")
+t("Entropic Wasting", "Dépérissement Entropique", "_t")
+t("The target is wasting away from entropic forces, taking %0.2f damage per turn.", "La cible dépérit sous l'effet des forces entropiques, subissant %0.2f dégâts par tour.", "tformat")
 t("#Target# is wasting away!", "#Target# est en train de dépérir !", "_t")
+t("+Entropic Wasting", "+Dépérissement Entropique", "_t")
+t("#Target#'s is no longer wasting away.", "#Target# ne dépérit plus.", "_t")
+t("-Entropic Wasting", "-Dépérissement Entropique", "_t")
+t("#{bold}##LIGHT_STEEL_BLUE#%s loses %d health to the entropy.#{normal}##LAST##", "#{bold}##LIGHT_STEEL_BLUE#%s perd %d point(s) de vie à cause de l'entropie.#{normal}##LAST#", "logSeen")
+t("#{bold}##RED#%s loses %d health and is almost overcome by the entropy!#{normal}##LAST##", "#{bold}##RED#%s perd %d points de vie et est presque submergé par l'entropie !#{normal}##LAST#", "logSeen")
 t("Entropic Gift", "Don Entropique", "_t")
+t("The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "Toute la force de l'entropie s'est abattue sur la cible, infligeant %0.2f dégâts d'obscurité et %0.2f dégâts temporels par tour.", "tformat")
+t("#Target# is consumed by entropy!", "#Target# est consumé par l'entropie !", "_t")
+t("+Entropic Gift", "+Don Entropique", "_t")
+t("#Target# has survived the entropic gift.", "#Target# a survécu au don entropique.", "_t")
+t("-Entropic Gift", "-Don Entropique", "_t")
 t("prophecy", "Prophétie", "effect subtype")
 t("Prophecy of Madness", "Prophétie de la Folie", "_t")
+t("The target is doomed to madness. All talent cooldowns are increased by %d%%.", "La cible est vouée à la folie. Tous les temps de recharge de talents sont augmentés de %d%%.", "tformat")
+t("#Target# is doomed to madness!", "#Target# est voué à la folie !", "_t")
+t("+Prophecy of Madness", "+Prophétie de la Folie", "_t")
+t("#Target# is free from the prophecy.", "#Target# est libéré de la prophétie.", "_t")
+t("-Prophecy of Madness", "-Prophétie de la Folie", "_t")
+t("%s talent '%s%s' is energized by the revelation!", "Le talent '%s%s' de %s est revigoré par la révélation !", "logSeen")
 t("Prophecy of Ruin", "Prophétie de la Ruine", "_t")
+t("The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "La cible est vouée à la ruine. En passant sous 75%%, 50%% ou 25%% de vie, tous les ennemis dans un rayon de %d subiront %0.2f dégâts d'obscurité", "tformat")
+t("#Target# is doomed to ruin!", "#Target# est voué à la ruine !", "_t")
+t("+Prophecy of Ruin", "+Prophétie de la Ruine", "_t")
+t("-Prophecy of Ruin", "-Prophétie de la Ruine", "_t")
 t("Prophecy of Treason", "Prophétie de la Trahison", "_t")
+t("The target is doomed to treason. Each turn they have a %d%% chance to attack an adjacent creature.  If no creatures are adjacent they will attack themself.", "La cible est vouée à la trahison. Chaque tour, elle a %d%% de chance d'attaquer une créature adjacente. Si aucune créature n'est adjacente, elle s'attaquera elle-même.", "tformat")
+t("#Target# is doomed to treason!", "#Target# est voué à la trahison !", "_t")
+t("+Prophecy of Treason", "+Prophétie de la Trahison", "_t")
+t("-Prophecy of Treason", "-Prophétie de la Trahison", "_t")
+t("#F53CBE#%s struggles to resist the prophecy.", "#F53CBE#%s lutte pour résister à la prophétie.", "logSeen")
+t("#F53CBE#%s succumbs to the prophecy, attacking %s!", "#F53CBE#%s succombe à la prophétie et attaque %s !", "logSeen")
+t("#F53CBE#%s succumbs to the prophecy, striking themself!", "#F53CBE#%s succombe à la prophétie et se frappe lui-même !", "logSeen")
+t("Mark of Treason", "Marque de Trahison", "_t")
+t("When this target is damaged %d%% of the damage will also be done to the source of this effect.", "Lorsque cette cible subit des dégâts, %d%% de ces dégâts seront également infligés à la source de cet effet.", "tformat")
+t("#Target# is linked through the prophecy.", "#Target# est lié par la prophétie.", "_t")
+t("+Mark of Treason", "+Marque de Trahison", "_t")
+t("#Target# prophetic link disappears.", "Le lien prophétique de #Target# disparaît.", "_t")
+t("-Mark of Treason", "-Marque de Trahison", "_t")
+t("#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "#ORANGE#Les blessures de #Source# apparaissent sur #Target# !#LAST#", "delayedLogMessage")
 t("#CRIMSON#(%d linked)#LAST#", "#CRIMSON#(%d lié)#LAST#", "tformat")
+t([[The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.
+This effect will fade in 2 turns if the source is not in line of sight.]], [[La cible est engloutie par l'entropie, réduisant la durée des nouveaux effets bénéfiques et augmentant la durée des nouveaux effets négatifs de %d%%.
+Cet effet disparaîtra en 2 tours si la source n'est pas dans la ligne de vue.]], "tformat")
+t("#Target# is wreathed in entropy.", "#Target# est enveloppé d'entropie.", "_t")
+t("#Target# is free of the entropy.", "#Target# est libéré de l'entropie.", "_t")
+t("#LIGHT_RED#A void annihilator manifests from %s!", "#LIGHT_RED#Un annihilateur du vide se manifeste depuis %s !", "logSeen")
 t("Atrophy", "Atrophie", "_t")
+t([[The target's mind and body is wasting away, reducing all stats by %d.
+This effect will fade in 2 turns if the source is not in line of sight.]], [[L'esprit et le corps de la cible dépérissent, réduisant toutes ses caractéristiques de %d.
+Cet effet disparaîtra en 2 tours si la source n'est pas dans la ligne de vue.]], "tformat")
+t("#Target# is wasting away.", "#Target# dépérit.", "_t")
+t("#Target# regains their strength.", "#Target# retrouve ses forces.", "_t")
 t("speed", "rapidité", "effect subtype")
 t("Temporal Feast", "Festin Temporel", "_t")
+t("Increases spellcast speed by %d%%.", "Augmente la vitesse de sort de %d%%.", "tformat")
+t("%d Temporal Feast", "Festin Temporel : %d", "tformat")
+t("Void Rift", "Faille du Vide", "_t")
+t("The target has %d active void rift(s).", "La cible a %d faille(s) du vide active(s).", "tformat")
+t("%d Void Rifts", "Faille du Vide : %d", "tformat")
+t("Accelerate", "Accélérer", "_t")
+t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "Se déplace à une vitesse extrême (%d%% plus rapide). Toute action autre que le déplacement annulera cet effet.", "tformat")
 t("#Target# is moving at extreme speed!", "#Target# se déplace à une vitesse folle !", "_t")
+t("+Accelerate", "+Accélérer", "_t")
 t("#Target# slows down.", "#Target# ralentis.", "_t")
+t("-Accelerate", "-Accélérer", "_t")
+t("Suspend", "Suspendre", "_t")
+t("The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "La cible est retirée du flux temporel normal, incapable d'agir mais incapable de subir des dégâts. Chaque tour, les effets bénéfiques voient leur durée diminuer.", "_t")
 t("#Target# is removed from time!", "#Target# est retiré du temps !", "_t")
+t("+Suspend", "+Suspendre", "_t")
 t("#Target# is returned to normal time.", "#Target# revient dans le temps normal.", "_t")
+t("-Suspend", "-Suspendre", "_t")
+t("The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "La cible est retirée du flux temporel normal, incapable d'agir mais incapable de subir des dégâts. Chaque tour, les effets négatifs et les temps de recharge voient leur durée diminuer.", "_t")
+t("Jinxed", "Guigne", "_t")
+t([[The target has %d reduced saves and defense, and %d%% reduced critical chance.
+This effect will fade in 2 turns if the source is not in line of sight.]], [[La cible a %d de sauvegardes et de défense en moins, et %d%% de chance critique en moins.
+Cet effet disparaîtra en 2 tours si la source n'est pas dans la ligne de vue.]], "_t")
+t([[The target has %d reduced saves and defense, %d%% reduced critical chance, and %d%% chance to fail talent use.
+This effect will fade in 2 turns if the source is not in line of sight.]], [[La cible a %d de sauvegardes et de défense en moins, %d%% de chance critique en moins, et %d%% de chance d'échouer à utiliser un talent.
+Cet effet disparaîtra en 2 tours si la source n'est pas dans la ligne de vue.]], "_t")
+t("%d Jinx", "Guigne : %d", "tformat")
+t("The target has %d increased saves and defense, and %d%% increased critical chance.", "La cible a %d de sauvegardes et de défense en plus, et %d%% de chance critique en plus.", "_t")
+t("The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "La cible a %d de sauvegardes et de défense en plus, %d%% de chance critique en plus, et %d%% de chance d'éviter tous les dégâts.", "_t")
+t("Unravelling", "Défaire l'Existence", "_t")
+t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "La cible est effacée de la réalité. Chaque fois qu'un effet magique est appliqué, elle subit %0.2f dégâts d'obscurité et %0.2f dégâts temporels. Si 5 effets sont appliqués, une puissante horreur du vide apparaîtra.", "tformat")
+t("#Target# is being erased from reality!", "#Target# est effacé de la réalité !", "_t")
+t("#Target# has survived the unraveling.", "#Target# a survécu à la dissolution.", "_t")
 t("Fatebreaker", "Briseur de Destin", "_t")
+t("The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "La cible a lié son destin à celui d'un autre. Si elle meurt, sa cible choisie mourra à sa place, et elle sera soignée de %d pour chaque cumul de Fortune et d'Infortune.", "tformat")
+t("#Target# intertwines it's fate!", "#Target# entrelace son destin !", "_t")
+t("#Target#'s fate is no longer linked to another.", "Le destin de #Target# n'est plus lié à un autre.", "_t")
+t("Redirecting all damage as temporal and darkness to %s.", "Redirige tous les dégâts sous forme de dégâts temporels et d'obscurité vers %s.", "tformat")
+t("Decaying Ground", "Sol Putréfiant", "_t")
+t("All cooldowns increased by %d%%.", "Tous les temps de recharge augmentés de %d%%.", "tformat")
+t("#Target# is caught in decaying ground.", "#Target# est pris dans un sol putréfiant.", "_t")
+t("#Target# is free from the decaying ground.", "#Target# est libéré du sol putréfiant.", "_t")
 t("disease", "maladie", "effect subtype")
+t("Crippling Disease", "Maladie Invalidante", "_t")
+t("The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "La cible est infectée par une maladie, réduisant sa vitesse de %d%% et infligeant %0.2f dégâts de fléau par tour.", "tformat")
+t("#Target# is afflicted by a crippling disease!", "#Target# est affligé par une maladie invalidante !", "_t")
+t("#Target# is free from the crippling disease.", "#Target# est libéré de la maladie invalidante.", "_t")
 t("Defiled Blood", "Sang Souillé", "_t")
+t("Covered in defiled blood, healing the source for %d%% of all damage done.", "Couvert de sang souillé, soignant la source de %d%% de tous les dégâts infligés.", "tformat")
+t("#Target# is covered in black blood!", "#Target# est couvert de sang noir !", "_t")
+t("#Target# is clear from the black blood.", "#Target# est débarrassé du sang noir.", "_t")
 t("teleport", "téléportation", "effect subtype")
 t("Teleport: Kroshkkur", "Téléportation : Kroshkkur", "_t")
+t("The target is waiting to be recalled back to Kroshkkur.", "La cible attend d'être rappelée vers Kroshkkur.", "_t")
 t("#CRIMSON#Kroshkkur is destroyed, there is nothing to teleport to.", "#CRIMSON#Kroshkkur est détruit, il n'y a nulle part où se téléporter.", "log")
+t("There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "Des créatures pourraient vous observer ; vous ne pouvez pas prendre le risque de vous téléporter vers Kroshkkur.", "log")
 t("You are yanked out of this place!", "Vous êtes expulsés de cet endroit !", "logPlayer")
 t("Space restabilizes around you.", "L'espace se réorganise autour de vous.", "logPlayer")
 t("book", "livre", "effect subtype")
 t("Forbidden Tome", "Grimoire Interdit", "_t")
+t("Slowly transfered to a Forbidden Tome.", "Lentement transféré vers un Grimoire Interdit.", "_t")
+t("#Target# is entering a Forbidden Tome!", "#Target# entre dans un Grimoire Interdit !", "_t")
+t("#Target# enters a Forbidden Tome!", "#Target# entre dans un Grimoire Interdit !", "_t")
+t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "À l'intérieur du Grimoire Interdit : \"Foyer, Horrible Foyer\" pendant %d tours.", "tformat")
+t("Forbidden Tome Cooldown", "Rechargement du Grimoire Interdit", "_t")
+t("Unable to enter Forbidden Tomes.", "Incapable d'entrer dans les Tomes Interdits.", "_t")
 t("Wrath of the Wilds", "Courroux Sauvage", "_t")
+t("%d%% chance to stun any foes hit.", "%d%% de chance d'étourdir tout ennemi touché.", "tformat")
+t("Warborn", "Né de la Guerre", "_t")
+t("Reduces all damage taken by %d%%.", "Réduit tous les dégâts subis de %d%%.", "tformat")
+t("opness", "surpuissance", "effect subtype")
+t("Awoken", "Éveillé", "_t")
+t([[True power is revealed!
+
+All debuffs removed and all talent cooldowns reset on application.
+
+Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkness and temporal damage and destroying any diggable walls.]], [[Le véritable pouvoir est révélé !
+
+Tous les affaiblissements sont retirés et tous les temps de recharge des talents sont réinitialisés à l'application.
+
+Chaque tour, une explosion d'un rayon de 2 se produira en un lieu aléatoire, infligeant %0.2f dégâts d'obscurité et temporels et détruisant tous les murs creusables.]], "tformat")
 t("entropy", "entropie", "effect subtype")
+t("Total Collapse", "Effondrement Total", "_t")
+t("Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "Votre corps ne peut pas fonctionner correctement ici, il dépérit lentement. Chaque tour, vous subissez %0.2f dégâts du vide et tout nouvel affaiblissement dure %d%% plus longtemps. Chaque tour, ces pénalités augmentent jusqu'à ce que l'effet soit retiré.", "tformat")
+t("threat", "menace", "effect subtype")
+t("Save Kroshkkur", "Sauver Kroshkkur", "_t")
+t("Kroshkkur is still under threat from %s.", "Kroshkkur est toujours menacé par %s.", "tformat")
+t("#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "#CRIMSON#Vous avez trop attendu, Kroshkkur a été détruit par %s !", "say")
+t("Covered in Gastric Fluids", "Recouvert de Fluides Gastriques", "_t")
+t("Reduces all damage taken by %d%% and remove all detrimental effects on application.", "Réduit tous les dégâts subis de %d%% et retire tous les effets néfastes à l'application.", "tformat")
+t("debilitate", "débilitation", "effect subtype")
+t("Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "Réduit tous les dégâts infligés de %d%% et augmente la durée de tous les effets néfastes de 6 tours à l'application.", "tformat")
 t("blind", "aveuglement", "effect subtype")
 t("Blinded", "Aveuglé", "_t")
 t("The target is blinded, unable to see anything.", "La cible est aveuglée, incapable de voir quoi que ce soit.", "_t")
@@ -3759,266 +3944,52 @@ t("#Target# recovers sight.", "#Target# retrouve la vue.", "_t")
 t("-Blind", "-Aveuglé", "_t")
 t("confusion", "confus", "effect subtype")
 t("madness", "Folie", "effect subtype")
+t("Lost in a weird place", "Perdu dans un Endroit Étrange", "_t")
+t("The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "La cible commence à sombrer dans la folie (%d cumuls), réduisant sa résistance aux dégâts mentaux de %d%%, sa sauvegarde mentale de %d, sa résistance à la confusion de %d%%, et générant %0.1f folie par tour.", "tformat")
 t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
+t("fail", "échec", "effect subtype")
 t("Glass Splinters", "Éclats de Verre", "_t")
+t("Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "De vilains éclats de verre vous font saigner, infligeant %0.2f dégâts arcanique par tour. Inflige %0.2f dégâts arcanique lors d'un déplacement. Les talents ont %d%% de chance d'échouer.", "tformat")
+t("#Target# starts to bleed due to glass splinters.", "#Target# commence à saigner à cause des éclats de verre.", "_t")
 t("#Target# stops bleeding.", "#Target# cesse de saigner.", "_t")
+t("will", "volonté", "effect subtype")
+t("Persistant Will", "Volonté Persistante", "_t")
+t("Convinced that arcane users are filth to be destroyed.", "Convaincu que les pratiquants de l'arcane sont une souillure à détruire.", "tformat")
+t("#PURPLE##Target# is convinced arcane users must be destroyed.", "#PURPLE##Target# est convaincu que les pratiquants de l'arcane doivent être détruits.", "_t")
+t("#Target# looks more kindly toward arcane users.", "#Target# regarde les pratiquants de l'arcane d'un oeil plus bienveillant.", "_t")
+t("Twisted Evolution: Speed", "Évolution Tordue : Vitesse", "_t")
+t("The target is evolved increasing its global speed by %d%%.", "La cible évolue, augmentant sa vitesse globale de %d%%.", "tformat")
+t("#Target# is evolved and acting faster!", "#Target# évolue et agit plus vite !", "_t")
+t("#Target# is no longer evolved to move faster.", "#Target# n'est plus évolué pour se déplacer plus vite.", "_t")
+t("Twisted Evolution: Form", "Évolution Tordue : Forme", "_t")
+t("The target is evolved increasing all its stats by %d.", "La cible évolue, augmentant toutes ses caractéristiques de %d.", "tformat")
+t("#Target#'s body is evolved!", "Le corps de #Target# évolue !", "_t")
+t("#Target#'s body' is no longer evolved.", "Le corps de #Target# n'est plus évolué.", "_t")
+t("Twisted Evolution: Power", "Évolution Tordue : Puissance", "_t")
+t("The target is evolved increasing its damage by %d%%.", "La cible évolue, augmentant ses dégâts de %d%%.", "tformat")
+t("#Target# is evolved to deal more damage!", "#Target# évolue pour infliger plus de dégâts !", "_t")
+t("#Target# is no longer evolved to deal more damage.", "#Target# n'est plus évolué pour infliger plus de dégâts.", "_t")
 t("Shoes of Moving Slowly", "Chaussures du Mouvement Lent", "_t")
+t("Stay put, increasing your armour and defense by %d.", "Restez immobile, augmentant votre armure et votre défense de %d.", "tformat")
+t("Entropic Feedback", "Rétroaction Entropique", "_t")
+t("The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "La guérison de la cible est distordue par l'entropie pour %d%% des soins prodigués sur 8 tours.", "tformat")
+t("#Target# is enveloped with entropic forces!", "#Target# est enveloppé de forces entropiques !", "_t")
+t("#Target# is no longer enveloped by entropic forces.", "#Target# n'est plus enveloppé de forces entropiques.", "_t")
 t("armor", "armure", "effect subtype")
+t("Horrific Fortress", "Forteresse Horrible", "_t")
+t("All damages except physical reduced by %d as long as %s is alive.", "Tous les dégâts, sauf physiques, réduits de %d tant que %s est en vie.", "tformat")
+t("#Target# is bolstered at the sight of the horror!", "#Target# est fortifié à la vue de l'horreur !", "_t")
+t("#Target# is less armoured.", "#Target# est moins blindé.", "_t")
 -- texte non traduit
 --[==[
-t("S.M.A.C.K.", "S.M.A.C.K.", "_t")
-t("Fight your foe! If anything wrong happens, the Fortress will pull you out.", "Fight your foe! If anything wrong happens, the Fortress will pull you out.", "_t")
-t("Class talents have no cooldown the first time they are used.", "Class talents have no cooldown the first time they are used.", "_t")
-t("Black Blood Bleeding", "Black Blood Bleeding", "_t")
-t("Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "Black blood sips from every pore, dealing %0.2f darkness damage per turn.", "tformat")
-t("#Target# starts to bleed black blood.", "#Target# starts to bleed black blood.", "_t")
-t("#Target# stops bleeding black blood.", "#Target# stops bleeding black blood.", "_t")
-t("Empowered by the sight of black blood, granting %d%% all resistances.", "Empowered by the sight of black blood, granting %d%% all resistances.", "tformat")
-t("Slimy Tendril", "Slimy Tendril", "_t")
-t("Caught in a slimy tendril, reducing all damage by %d%%.", "Caught in a slimy tendril, reducing all damage by %d%%.", "tformat")
-t("#Target# is caught by a slimy tendril.", "#Target# is caught by a slimy tendril.", "_t")
-t("#Target# is free from the tendril.", "#Target# is free from the tendril.", "_t")
-t("Tentacle Constriction", "Tentacle Constriction", "_t")
-t("Caught by a tentacle from %s that deals %d%% tentacle damage and pulls you 1 space towards them each turn.", "Caught by a tentacle from %s that deals %d%% tentacle damage and pulls you 1 space towards them each turn.", "tformat")
-t("#Target# is constricted by a tentacle.", "#Target# is constricted by a tentacle.", "_t")
-t("#Target# is free from the tentacle constriction.", "#Target# is free from the tentacle constriction.", "_t")
-t("Caught disgusting worms, reducing all damage by %d%%.", "Caught disgusting worms, reducing all damage by %d%%.", "tformat")
-t("#Target# is caught in gore.", "#Target# is caught in gore.", "_t")
-t("#Target# is free from the gore.", "#Target# is free from the gore.", "_t")
-t("growth", "growth", "effect subtype")
-t("Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "Can walk through walls and quake every turn, %d%% more damage and %d%% more resistances.", "tformat")
-t("#Target# suddently grows.", "#Target# suddently grows.", "_t")
-t("#Target# shrinks back.", "#Target# shrinks back.", "_t")
 t("corruption", "corruption", "effect subtype")
-t("Decaying Guts", "Decaying Guts", "_t")
-t("#Target# is covered in decaying guts.", "#Target# is covered in decaying guts.", "_t")
-t("#Target# is free from the decaying guts.", "#Target# is free from the decaying guts.", "_t")
-t("Worm that Walks out of sight", "Worm that Walks out of sight", "_t")
-t("The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "The Worm that Walks is out of sight of the alchemist; direct control will be lost!", "_t")
-t("#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "#LIGHT_RED#You lost sight of your worm that wakls for too long; direct control is broken!", "logPlayer")
-t("worm that walks out of sight", "worm that walks out of sight", "_t")
-t("Linked to their horror ally gaining %d%% all damage resistance.", "Linked to their horror ally gaining %d%% all damage resistance.", "tformat")
-t("#Target# links closer to his ally!", "#Target# links closer to his ally!", "_t")
-t("#Target# no longer seems to be in sync with his ally.", "#Target# no longer seems to be in sync with his ally.", "_t")
-t("Terrified of the horror duo attacking them reducing defense and spell save by %d.", "Terrified of the horror duo attacking them reducing defense and spell save by %d.", "tformat")
-t("#Target# is terrified of the horrors attacking him!", "#Target# is terrified of the horrors attacking him!", "_t")
-t("#Target# is no longer afraid of the horrors attacking him.", "#Target# is no longer afraid of the horrors attacking him.", "_t")
 t("chaos", "chaos", "effect subtype")
-t("insanity", "insanity", "effect subtype")
-t("%d stacks, +%d%% to all damage dealt.", "%d stacks, +%d%% to all damage dealt.", "tformat")
-t("Putrescent Pustule", "Putrescent Pustule", "_t")
-t("%d pustules increasing resistance by %d%%.", "%d pustules increasing resistance by %d%%.", "tformat")
-t("eat", "eat", "effect subtype")
-t("digest", "digest", "effect subtype")
-t("Digesting", "Digesting", "_t")
-t("Digesting %s.", "Digesting %s.", "tformat")
-t("#Target# swallows a foe.", "#Target# swallows a foe.", "_t")
-t("#Target# has finished digesting.", "#Target# has finished digesting.", "_t")
-t("The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "The victim in your stomach seems to still be alive: '#CRIMSON#%s'", "logPlayer")
-t("The victim in your stomach finally dies from the painful agony.", "The victim in your stomach finally dies from the painful agony.", "logPlayer")
 t("torture", "torture", "effect subtype")
-t("leech", "leech", "effect subtype")
-t("Inner Tentacles", "Inner Tentacles", "_t")
-t("Life leech %d%% chance, %d%% power.", "Life leech %d%% chance, %d%% power.", "tformat")
-t("#Target# is empowered by the pain of its victim.", "#Target# is empowered by the pain of its victim.", "_t")
-t("#Target# is less powerfull.", "#Target# is less powerfull.", "_t")
-t("morph", "morph", "effect subtype")
-t("Appearance changed to an horror, everything is hostile to it.", "Appearance changed to an horror, everything is hostile to it.", "tformat")
-t("#PURPLE##Target# turns into an horror.", "#PURPLE##Target# turns into an horror.", "_t")
-t("gore", "gore", "effect subtype")
-t("Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "Blood and gore cover the target, dealing %0.2f darkness damage and %0.2f blight damage per disease.", "tformat")
-t("#Target# is covered in gore.", "#Target# is covered in gore.", "_t")
-t("#Target# is no longer covered in gore.", "#Target# is no longer covered in gore.", "_t")
-t("Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "Target briefly saw what True Horror means, deeply scaring it. %d%% chances to fail using a talent.", "tformat")
-t("#Target# saw true horror.", "#Target# saw true horror.", "_t")
-t("#Target# is less afraid.", "#Target# is less afraid.", "_t")
-t("Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "Empowered by the fear of its foes, darkness and blight damage penetration increased by %d%%.", "tformat")
-t("#Target# is empowered by the fear of #hisher# foes.", "#Target# is empowered by the fear of #hisher# foes.", "_t")
-t("Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "Half turned to stone, reducing movement speed by %d%% and 35%% chances to shatter on damage, increasing damge taken by %d%%.", "tformat")
-t("#Target# is half-turned to stone.", "#Target# is half-turned to stone.", "_t")
-t("#Target# looks less like a statue.", "#Target# looks less like a statue.", "_t")
-t("Split", "Split", "_t")
-t("Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "Faded from time, reducing damage taken by %d%% and all damage dealt by %d%%.", "tformat")
-t("#Target# is removed from the timeline!", "#Target# is removed from the timeline!", "_t")
-t("+Split", "+Split", "_t")
-t("#Target# returns to normal time.", "#Target# returns to normal time.", "_t")
-t("-Split", "-Split", "_t")
-t("Increases spell critical chance by %d%%. At 5 stacks, next Nether spell is empowered.", "Increases spell critical chance by %d%%. At 5 stacks, next Nether spell is empowered.", "tformat")
-t("%d Halo of Ruin", "%d Halo of Ruin", "tformat")
-t("Voidburn", "Voidburn", "_t")
-t("The target has been seared by the void, taking %0.2f darkness and %0.2f temporal damage each turn.", "The target has been seared by the void, taking %0.2f darkness and %0.2f temporal damage each turn.", "tformat")
-t("#Target# is ignited by voidfire!", "#Target# is ignited by voidfire!", "_t")
-t("+Voidburn", "+Voidburn", "_t")
-t("#Target# is no longer ignited.", "#Target# is no longer ignited.", "_t")
-t("-Voidburn", "-Voidburn", "_t")
-t("The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "The target is being driven mad by the void, taking %0.2f darkness damage per turn and reducing all powers by %d.", "tformat")
-t("#Target# is haunted by the void!", "#Target# is haunted by the void!", "_t")
-t("+Dark Whispers", "+Dark Whispers", "_t")
-t("#Target#'s whispers fade.", "#Target#'s whispers fade.", "_t")
-t("-Dark Whispers", "-Dark Whispers", "_t")
-t("The target is being distracted by a hallucination, reducing all damage dealt to non-hallucinations targets by %d%%.", "The target is being distracted by a hallucination, reducing all damage dealt to non-hallucinations targets by %d%%.", "tformat")
-t("The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "The target is overwhelmed by voices from the void, giving them a 20%% higher chance to spawn hallucinations from Dark Whispers and causing them to take an additional %d%% temporal damage from Dark Whispers and Hideous Visions.", "tformat")
-t("#Target#'s mind is shattered by the void!", "#Target#'s mind is shattered by the void!", "_t")
-t("+Cacophony", "+Cacophony", "_t")
-t("-Cacophony", "-Cacophony", "_t")
-t("Entropic Wasting", "Entropic Wasting", "_t")
-t("The target is wasting away from entropic forces, taking %0.2f damage per turn.", "The target is wasting away from entropic forces, taking %0.2f damage per turn.", "tformat")
-t("+Entropic Wasting", "+Entropic Wasting", "_t")
-t("#Target#'s is no longer wasting away.", "#Target#'s is no longer wasting away.", "_t")
-t("-Entropic Wasting", "-Entropic Wasting", "_t")
-t("#{bold}##LIGHT_STEEL_BLUE#%s loses %d health to the entropy.#{normal}##LAST##", "#{bold}##LIGHT_STEEL_BLUE#%s loses %d health to the entropy.#{normal}##LAST##", "logSeen")
-t("#{bold}##RED#%s loses %d health and is almost overcome by the entropy!#{normal}##LAST##", "#{bold}##RED#%s loses %d health and is almost overcome by the entropy!#{normal}##LAST##", "logSeen")
-t("The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "The full force of entropy has been brought to bear on the target, inflicting %0.2f darkness and %0.2f temporal damage each turn.", "tformat")
-t("#Target# is consumed by entropy!", "#Target# is consumed by entropy!", "_t")
-t("+Entropic Gift", "+Entropic Gift", "_t")
-t("#Target# has survived the entropic gift.", "#Target# has survived the entropic gift.", "_t")
-t("-Entropic Gift", "-Entropic Gift", "_t")
-t("The target is doomed to madness. All talent cooldowns are increased by %d%%.", "The target is doomed to madness. All talent cooldowns are increased by %d%%.", "tformat")
-t("#Target# is doomed to madness!", "#Target# is doomed to madness!", "_t")
-t("+Prophecy of Madness", "+Prophecy of Madness", "_t")
-t("#Target# is free from the prophecy.", "#Target# is free from the prophecy.", "_t")
-t("-Prophecy of Madness", "-Prophecy of Madness", "_t")
-t("%s talent '%s%s' is energized by the revelation!", "%s talent '%s%s' is energized by the revelation!", "logSeen")
-t("The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "The target is doomed to ruin.  On falling below 75%%, 50%% or 25%% life all enemies in radius %d will take %0.2f darkness damage", "tformat")
-t("#Target# is doomed to ruin!", "#Target# is doomed to ruin!", "_t")
-t("+Prophecy of Ruin", "+Prophecy of Ruin", "_t")
-t("-Prophecy of Ruin", "-Prophecy of Ruin", "_t")
-t("The target is doomed to treason. Each turn they have a %d%% chance to attack an adjacent creature.  If no creatures are adjacent they will attack themself.", "The target is doomed to treason. Each turn they have a %d%% chance to attack an adjacent creature.  If no creatures are adjacent they will attack themself.", "tformat")
-t("#Target# is doomed to treason!", "#Target# is doomed to treason!", "_t")
-t("+Prophecy of Treason", "+Prophecy of Treason", "_t")
-t("-Prophecy of Treason", "-Prophecy of Treason", "_t")
-t("#F53CBE#%s struggles to resist the prophecy.", "#F53CBE#%s struggles to resist the prophecy.", "logSeen")
-t("#F53CBE#%s succumbs to the prophecy, attacking %s!", "#F53CBE#%s succumbs to the prophecy, attacking %s!", "logSeen")
-t("#F53CBE#%s succumbs to the prophecy, striking themself!", "#F53CBE#%s succumbs to the prophecy, striking themself!", "logSeen")
-t("Mark of Treason", "Mark of Treason", "_t")
-t("When this target is damaged %d%% of the damage will also be done to the source of this effect.", "When this target is damaged %d%% of the damage will also be done to the source of this effect.", "tformat")
-t("#Target# is linked through the prophecy.", "#Target# is linked through the prophecy.", "_t")
-t("+Mark of Treason", "+Mark of Treason", "_t")
-t("#Target# prophetic link disappears.", "#Target# prophetic link disappears.", "_t")
-t("-Mark of Treason", "-Mark of Treason", "_t")
-t("#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "#ORANGE#The wounds of #Source# appear on #target#!#LAST#", "delayedLogMessage")
 t("Nihil", "Nihil", "_t")
-t([[The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.
-This effect will fade in 2 turns if the source is not in line of sight.]], [[The target is engulfed in entropy, reducing the duration of new beneficial effects and increasing the duration of new negative effects by %d%%.
-This effect will fade in 2 turns if the source is not in line of sight.]], "tformat")
-t("#Target# is wreathed in entropy.", "#Target# is wreathed in entropy.", "_t")
-t("#Target# is free of the entropy.", "#Target# is free of the entropy.", "_t")
-t("#LIGHT_RED#A void annihilator manifests from %s!", "#LIGHT_RED#A void annihilator manifests from %s!", "logSeen")
-t([[The target's mind and body is wasting away, reducing all stats by %d.
-This effect will fade in 2 turns if the source is not in line of sight.]], [[The target's mind and body is wasting away, reducing all stats by %d.
-This effect will fade in 2 turns if the source is not in line of sight.]], "tformat")
-t("#Target# is wasting away.", "#Target# is wasting away.", "_t")
-t("#Target# regains their strength.", "#Target# regains their strength.", "_t")
-t("Increases spellcast speed by %d%%.", "Increases spellcast speed by %d%%.", "tformat")
-t("%d Temporal Feast", "%d Temporal Feast", "tformat")
-t("Void Rift", "Void Rift", "_t")
-t("The target has %d active void rift(s).", "The target has %d active void rift(s).", "tformat")
-t("%d Void Rifts", "%d Void Rifts", "tformat")
-t("Accelerate", "Accelerate", "_t")
-t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "tformat")
-t("+Accelerate", "+Accelerate", "_t")
-t("-Accelerate", "-Accelerate", "_t")
-t("Suspend", "Suspend", "_t")
-t("The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, beneficial effects decrease in duration.", "_t")
-t("+Suspend", "+Suspend", "_t")
-t("-Suspend", "-Suspend", "_t")
-t("The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "The target is removed from the normal time stream, unable to act but unable to take any damage. Each turn, negative effects and cooldowns will decrease in duration.", "_t")
-t("Jinxed", "Jinxed", "_t")
-t([[The target has %d reduced saves and defense, and %d%% reduced critical chance.
-This effect will fade in 2 turns if the source is not in line of sight.]], [[The target has %d reduced saves and defense, and %d%% reduced critical chance.
-This effect will fade in 2 turns if the source is not in line of sight.]], "_t")
-t([[The target has %d reduced saves and defense, %d%% reduced critical chance, and %d%% chance to fail talent use.
-This effect will fade in 2 turns if the source is not in line of sight.]], [[The target has %d reduced saves and defense, %d%% reduced critical chance, and %d%% chance to fail talent use.
-This effect will fade in 2 turns if the source is not in line of sight.]], "_t")
-t("%d Jinx", "%d Jinx", "tformat")
 t("Fortune", "Fortune", "_t")
-t("The target has %d increased saves and defense, and %d%% increased critical chance.", "The target has %d increased saves and defense, and %d%% increased critical chance.", "_t")
-t("The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "The target has %d increased saves and defense, %d%% increased critical chance, and %d%% chance to avoid all damage.", "_t")
-t("Unravelling", "Unravelling", "_t")
-t("The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "The target is being erased from reality. Each time a magical effect is applied, they will take %0.2f darkness damage and %0.2f temporal damage. If 5 effects are applied, a powerful void horror will appear.", "tformat")
-t("#Target# is being erased from reality!", "#Target# is being erased from reality!", "_t")
-t("#Target# has survived the unraveling.", "#Target# has survived the unraveling.", "_t")
-t("The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "The target has tied itself to the fate of another. If it dies, it's chosen target will die in it's place and it will be healed by %d for each stack of Fortune and Jinx.", "tformat")
-t("#Target# intertwines it's fate!", "#Target# intertwines it's fate!", "_t")
-t("#Target#'s fate is no longer linked to another.", "#Target#'s fate is no longer linked to another.", "_t")
-t("Redirecting all damage as temporal and darkness to %s.", "Redirecting all damage as temporal and darkness to %s.", "tformat")
-t("Decaying Ground", "Decaying Ground", "_t")
-t("All cooldowns increased by %d%%.", "All cooldowns increased by %d%%.", "tformat")
-t("#Target# is caught in decaying ground.", "#Target# is caught in decaying ground.", "_t")
-t("#Target# is free from the decaying ground.", "#Target# is free from the decaying ground.", "_t")
-t("Crippling Disease", "Crippling Disease", "_t")
-t("The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "The target is infected by a disease, reducing its speed by %d%% and doing %0.2f blight damage per turn.", "tformat")
-t("#Target# is afflicted by a crippling disease!", "#Target# is afflicted by a crippling disease!", "_t")
-t("#Target# is free from the crippling disease.", "#Target# is free from the crippling disease.", "_t")
-t("Covered in defiled blood, healing the source for %d%% of all damage done.", "Covered in defiled blood, healing the source for %d%% of all damage done.", "tformat")
-t("#Target# is covered in black blood!", "#Target# is covered in black blood!", "_t")
-t("#Target# is clear from the black blood.", "#Target# is clear from the black blood.", "_t")
-t("The target is waiting to be recalled back to Kroshkkur.", "The target is waiting to be recalled back to Kroshkkur.", "_t")
-t("There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "There are creatures that could be watching you; you cannot take the risk of teleporting to Kroshkkur.", "log")
-t("Slowly transfered to a Forbidden Tome.", "Slowly transfered to a Forbidden Tome.", "_t")
-t("#Target# is entering a Forbidden Tome!", "#Target# is entering a Forbidden Tome!", "_t")
-t("#Target# enters a Forbidden Tome!", "#Target# enters a Forbidden Tome!", "_t")
-t("Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "Inside Forbidden Tome: \"Home, Horrific Home\" for %d turns.", "tformat")
-t("Forbidden Tome Cooldown", "Forbidden Tome Cooldown", "_t")
-t("Unable to enter Forbidden Tomes.", "Unable to enter Forbidden Tomes.", "_t")
-t("%d%% chance to stun any foes hit.", "%d%% chance to stun any foes hit.", "tformat")
 t("protection", "protection", "effect subtype")
-t("Warborn", "Warborn", "_t")
-t("Reduces all damage taken by %d%%.", "Reduces all damage taken by %d%%.", "tformat")
-t("opness", "opness", "effect subtype")
-t("Awoken", "Awoken", "_t")
-t([[True power is revealed!
-
-All debuffs removed and all talent cooldowns reset on application.
-
-Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkness and temporal damage and destroying any diggable walls.]], [[True power is revealed!
-
-All debuffs removed and all talent cooldowns reset on application.
-
-Each turn a radius 2 explosion will occur in a random space dealing %0.2f darkness and temporal damage and destroying any diggable walls.]], "tformat")
-t("Total Collapse", "Total Collapse", "_t")
-t("Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "Your body can not function properly here, it is slowly wasting away. Each turn you take %0.2f void damage and any new debuff on you lasts %d%% longer. Each turn those penalties increase until the effect is removed.", "tformat")
-t("threat", "threat", "effect subtype")
-t("Save Kroshkkur", "Save Kroshkkur", "_t")
-t("Kroshkkur is still under threat from %s.", "Kroshkkur is still under threat from %s.", "tformat")
-t("#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "#CRIMSON#You waited too long, Kroshkkur has been destroyed by %s!", "say")
-t("Covered in Gastric Fluids", "Covered in Gastric Fluids", "_t")
-t("Reduces all damage taken by %d%% and remove all detrimental effects on application.", "Reduces all damage taken by %d%% and remove all detrimental effects on application.", "tformat")
-t("debilitate", "debilitate", "effect subtype")
-t("Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "Reduces all damage done by %d%% and increase all detrimental effects durations by 6 turns on application.", "tformat")
-t("Lost in a weird place", "Lost in a weird place", "_t")
-t("The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "The target is starting to get mad (%d stacks), reducing mind damage resistance by %d%%, mental save by %d, confusion resistance by %d%%, generating %0.1f insanity per turn.", "tformat")
-t("fail", "fail", "effect subtype")
-t("Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "Nasty glass splinters that make you bleed, doing %0.2f arcane damage per turn. Deals %0.2f arcane damage on move. Talents have %d%% chances to fail.", "tformat")
-t("#Target# starts to bleed due to glass splinters.", "#Target# starts to bleed due to glass splinters.", "_t")
-t("will", "will", "effect subtype")
 t("domination", "domination", "effect subtype")
-t("Persistant Will", "Persistant Will", "_t")
-t("Convinced that arcane users are filth to be destroyed.", "Convinced that arcane users are filth to be destroyed.", "tformat")
-t("#PURPLE##Target# is convinced arcane users must be destroyed.", "#PURPLE##Target# is convinced arcane users must be destroyed.", "_t")
-t("#Target# looks more kindly toward arcane users.", "#Target# looks more kindly toward arcane users.", "_t")
-t("Twisted Evolution: Speed", "Twisted Evolution: Speed", "_t")
-t("The target is evolved increasing its global speed by %d%%.", "The target is evolved increasing its global speed by %d%%.", "tformat")
-t("#Target# is evolved and acting faster!", "#Target# is evolved and acting faster!", "_t")
-t("#Target# is no longer evolved to move faster.", "#Target# is no longer evolved to move faster.", "_t")
-t("Twisted Evolution: Form", "Twisted Evolution: Form", "_t")
-t("The target is evolved increasing all its stats by %d.", "The target is evolved increasing all its stats by %d.", "tformat")
-t("#Target#'s body is evolved!", "#Target#'s body is evolved!", "_t")
-t("#Target#'s body' is no longer evolved.", "#Target#'s body' is no longer evolved.", "_t")
-t("Twisted Evolution: Power", "Twisted Evolution: Power", "_t")
-t("The target is evolved increasing its damage by %d%%.", "The target is evolved increasing its damage by %d%%.", "tformat")
-t("#Target# is evolved to deal more damage!", "#Target# is evolved to deal more damage!", "_t")
-t("#Target# is no longer evolved to deal more damage.", "#Target# is no longer evolved to deal more damage.", "_t")
-t("Stay put, increasing your armour and defense by %d.", "Stay put, increasing your armour and defense by %d.", "tformat")
-t("Entropic Feedback", "Entropic Feedback", "_t")
-t("The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "The target healing is distorted by entropy for %d%% of the healing done over 8 turns.", "tformat")
-t("#Target# is enveloped with entropic forces!", "#Target# is enveloped with entropic forces!", "_t")
-t("#Target# is no longer enveloped by entropic forces.", "#Target# is no longer enveloped by entropic forces.", "_t")
-t("Horrific Fortress", "Horrific Fortress", "_t")
-t("All damages except physical reduced by %d as long as %s is alive.", "All damages except physical reduced by %d as long as %s is alive.", "tformat")
-t("#Target# is bolstered at the sight of the horror!", "#Target# is bolstered at the sight of the horror!", "_t")
-t("#Target# is less armoured.", "#Target# is less armoured.", "_t")
 --]==]
 
 
