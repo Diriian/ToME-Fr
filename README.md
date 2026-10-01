@@ -31,8 +31,8 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
   - tome-possessors.lua
   - tome-items-vault.lua
 - DLC :
-  - tome-orc.lua (a faire)
-  - tome-cults.lua (a faire)
+  - tome-orc.lua (en cours)
+  - tome-cults.lua
   - tome-ashes-urhorc.lua
 - Pour la traduction : 
   - Outil de traduction intégré au jeu pour l'avoir en francais :
