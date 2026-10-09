@@ -1,51 +1,46 @@
 ------------------------------------------------
 section "tome-orcs/data/achievements/special.lua"
 
-
--- texte non traduit
---[==[
-t("No mercy!", "No mercy!", "achievement name")
-t("Killed 1000 steam giants civilians.", "Killed 1000 steam giants civilians.", "_t")
-t("Mercy, mercy!", "Mercy, mercy!", "achievement name")
-t("Killed Talosis without any civilians deaths.", "Killed Talosis without any civilians deaths.", "_t")
-t("This will make a big Omelette!", "This will make a big Omelette!", "achievement name")
-t("Collected 40 ritch eggs in the Ritch Hive.", "Collected 40 ritch eggs in the Ritch Hive.", "_t")
-t("An Other Brick in the Wall", "An Other Brick in the Wall", "achievement name")
-t("Defeated Aeryn in the Gates of Morning without destroying the Observatory nor using ritches help.", "Defeated Aeryn in the Gates of Morning without destroying the Observatory nor using ritches help.", "_t")
-t("No Steam, No Palace. No Palace, No Palace!", "No Steam, No Palace. No Palace, No Palace!", "achievement name")
-t("Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "_t")
-t("Here, I Think You Dropped This", "Here, I Think You Dropped This", "achievement name")
-t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "Killed Ureslak the Eternal while wielding Ureslak's Femur.", "_t")
-t("Do not go gentle into that good night", "Do not go gentle into that good night", "achievement name")
-t("Trapped John.", "Trapped John.", "_t")
-t("I did not want that!", "I did not want that!", "achievement name")
-t("Tricked Nektosh into killing one of his own people.", "Tricked Nektosh into killing one of his own people.", "_t")
-t("We weren't kidding!", "We weren't kidding!", "achievement name")
-t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "_t")
-t("Make Him Squirm", "Make Him Squirm", "achievement name")
-t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "_t")
-t("True Savior", "True Savior", "achievement name")
-t("Freed all the Orc Prides without killing a single mind-controlled orc.", "Freed all the Orc Prides without killing a single mind-controlled orc.", "_t")
-t("Mender", "Mender", "achievement name")
-t("Destroyed the bosses of the Primal Forest without killing any uncorrupted treants.", "Destroyed the bosses of the Primal Forest without killing any uncorrupted treants.", "_t")
-t("Sufficiently Advanced Technology", "Sufficiently Advanced Technology", "achievement name")
-t("Put five points into each of the tinker-crafting talents as any mage class.", "Put five points into each of the tinker-crafting talents as any mage class.", "_t")
-t("Radiant Horrorc", "Radiant Horrorc", "achievement name")
-t("While fighting in a Sunwall zone, use a Fiery Salve to reach at least 66% affinity for Fire and Light. Pointing and laughing is optional.", "While fighting in a Sunwall zone, use a Fiery Salve to reach at least 66% affinity for Fire and Light. Pointing and laughing is optional.", "_t")
-t("Blood on the Moon", "Blood on the Moon", "achievement name")
-t("Kill all of the Star Gazers within 7 game turns.", "Kill all of the Star Gazers within 7 game turns.", "_t")
-t("Once Upon A Time, In the West...", "Once Upon A Time, In the West...", "achievement name")
-t("Hear the Eidolon's retelling of the Scourge from the West's journey.", "Hear the Eidolon's retelling of the Scourge from the West's journey.", "_t")
-t("A Fistful of Gold", "A Fistful of Gold", "achievement name")
-t("Buy an item from an AAA.", "Buy an item from an AAA.", "_t")
-t("For a Few Gold More", "For a Few Gold More", "achievement name")
-t("Completely deplete an AAA's stock.", "Completely deplete an AAA's stock.", "_t")
-t("The Good, The Bad, and The Yeti", "The Good, The Bad, and The Yeti", "achievement name")
-t("Use mind-controlled yetis to kill 30 foes.", "Use mind-controlled yetis to kill 30 foes.", "_t")
-t("Total Annihilation: Redundancy", "Total Annihilation: Redundancy", "achievement name")
-t("Wield the Annihilator as an Annihilator.", "Wield the Annihilator as an Annihilator.", "_t")
---]==]
-
+t("No mercy!", "Sans pitié !", "achievement name")
+t("Killed 1000 steam giants civilians.", "Tuer 1000 géants vaporeux civils.", "_t")
+t("Mercy, mercy!", "Pitié, pitié !", "achievement name")
+t("Killed Talosis without any civilians deaths.", "Tuer Talosis sans aucune victime civile.", "_t")
+t("This will make a big Omelette!", "Ça va faire une sacrée omelette !", "achievement name")
+t("Collected 40 ritch eggs in the Ritch Hive.", "Récolter 40 oeufs de ritch dans la Ruche des Ritchs.", "_t")
+t("An Other Brick in the Wall", "Une autre brique dans le mur", "achievement name")
+t("Defeated Aeryn in the Gates of Morning without destroying the Observatory nor using ritches help.", "Vaincre Aeryn aux Portes du Matin sans détruire l'Observatoire ni recourir à l'aide des ritchs.", "_t")
+t("No Steam, No Palace. No Palace, No Palace!", "Pas de vapeur, pas de palais. Pas de palais... pas de palais !", "achievement name")
+t("Destroyed the Palace of Fumes without first destroying the geothermal valves in the Steam Quarry.", "Détruire le Palais des Fumées sans avoir détruit au préalable les valves géothermiques de la Carrière de Vapeur.", "_t")
+t("Here, I Think You Dropped This", "Tenez, je crois que vous avez fait tomber ceci", "achievement name")
+t("Killed Ureslak the Eternal while wielding Ureslak's Femur.", "Tuer Ureslak l'Éternel en maniant le Fémur d'Ureslak.", "_t")
+t("Do not go gentle into that good night", "Ne te laisse pas emporter doucement vers cette nuit paisible", "achievement name")
+t("Trapped John.", "Piéger John.", "_t")
+t("I did not want that!", "Je ne voulais pas ça !", "achievement name")
+t("Tricked Nektosh into killing one of his own people.", "Duper Nektosh pour qu'il tue l'un des siens.", "_t")
+t("We weren't kidding!", "On ne plaisantait pas !", "achievement name")
+t("Die to Nektosh's beam without being pinned, stunned, asleep, dazed, or confused.", "Mourir sous le rayon de Nektosh sans être immobilisé, assommé, endormi, étourdis, ni confus.", "_t")
+t("Make Him Squirm", "Faites-le se tortiller", "achievement name")
+t("Made Nektosh use up the last of his power, then left the area and ignored him until beating the game. The other Whitehooves will catch on any second now...", "Forcer Nektosh à épuiser les dernières bribes de son pouvoir, puis quitter la zone et l'ignorer jusqu'à terminer le jeu. Les autres Sabots-Blancs vont s'en apercevoir d'une seconde à l'autre...", "_t")
+t("True Savior", "Véritable Sauveur", "achievement name")
+t("Freed all the Orc Prides without killing a single mind-controlled orc.", "Libérer tous les Fiertés Orcs sans tuer un seul orc sous contrôle mental.", "_t")
+t("Mender", "Réparateur", "achievement name")
+t("Destroyed the bosses of the Primal Forest without killing any uncorrupted treants.", "Détruire les chefs de la Forêt Primordiale sans tuer aucun tréant non corrompu.", "_t")
+t("Sufficiently Advanced Technology", "Technologie Suffisamment Avancée", "achievement name")
+t("Put five points into each of the tinker-crafting talents as any mage class.", "Mettre cinq points dans chacun des talents de fabrication de babioles avec n'importe quelle classe de mage.", "_t")
+t("Radiant Horrorc", "Horrorc Radieux", "achievement name")
+t("While fighting in a Sunwall zone, use a Fiery Salve to reach at least 66% affinity for Fire and Light. Pointing and laughing is optional.", "En combattant dans une zone du Mur Solaire, utiliser un Onguent Ardent pour atteindre au moins 66% d'affinité au Feu et à la Lumière. Pointer du doigt en riant est facultatif.", "_t")
+t("Blood on the Moon", "Du Sang sur la Lune", "achievement name")
+t("Kill all of the Star Gazers within 7 game turns.", "Tuer tous les Contemplateurs d'Étoiles en 7 tours de jeu maximum.", "_t")
+t("Once Upon A Time, In the West...", "Il était une fois dans l'Ouest...", "achievement name")
+t("Hear the Eidolon's retelling of the Scourge from the West's journey.", "Écouter l'Eidolon raconter le périple du Fléau venu de l'Ouest.", "_t")
+t("A Fistful of Gold", "Pour une Poignée de Pièces d'Or", "achievement name")
+t("Buy an item from an AAA.", "Acheter un objet à un AAA.", "_t")
+t("For a Few Gold More", "Et Pour Quelques Pièces d'Or de Plus", "achievement name")
+t("Completely deplete an AAA's stock.", "Épuiser entièrement le stock d'un AAA.", "_t")
+t("The Good, The Bad, and The Yeti", "Le Bon, la Brute et le Yéti", "achievement name")
+t("Use mind-controlled yetis to kill 30 foes.", "Utiliser des yétis sous contrôle mental pour tuer 30 ennemis.", "_t")
+t("Total Annihilation: Redundancy", "Annihilation Totale : Redondance", "achievement name")
+t("Wield the Annihilator as an Annihilator.", "Manier l'Annihilateur en jouant un Annihilateur.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/achievements/story.lua"
@@ -318,87 +313,70 @@ t("This is your destiny! For Garkul's Legacy, for the Glory of the Pride!", "Thi
 ------------------------------------------------
 section "tome-orcs/data/chats/aaa.lua"
 
+t("#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "#LIGHT_GREEN#*Devant vous se dresse un étrange dispositif triangulaire, une sorte d'installation de stockage automatisée.*#WHITE#", "_t")
+t("[access store]", "[accéder à la boutique]", "_t")
+t("[reprogram it to order it to relocate to Kruk Pride]", "[le reprogrammer pour lui ordonner de se relocaliser à la Fierté Kruk]", "_t")
 t("[leave]", "[partir]", "_t")
--- texte non traduit
---[==[
-t("#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated storage facility.*#WHITE#", "_t")
-t("[access store]", "[access store]", "_t")
-t("[reprogram it to order it to relocate to Kruk Pride]", "[reprogram it to order it to relocate to Kruk Pride]", "_t")
-t("#LIGHT_GREEN#*You tinker with the store bot and manage to activate the relocation function.*#WHITE#", "#LIGHT_GREEN#*You tinker with the store bot and manage to activate the relocation function.*#WHITE#", "_t")
-t("[order it to go to Kruk Pride]", "[order it to go to Kruk Pride]", "_t")
---]==]
-
+t("#LIGHT_GREEN#*You tinker with the store bot and manage to activate the relocation function.*#WHITE#", "#LIGHT_GREEN#*Vous bricolez le robot-boutique et parvenez à activer la fonction de relocalisation.*#WHITE#", "_t")
+t("[order it to go to Kruk Pride]", "[lui ordonner d'aller à la Fierté Kruk]", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/aaf.lua"
 
-t("[leave]", "[partir]", "_t")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated facility.*#WHITE#
-It seems to be able to teach you the tinker crafting techniques, but requires input to do so (500 gold and a talent category point).]], [[#LIGHT_GREEN#*Before you stands a strange triangular device, some kind of automated facility.*#WHITE#
-It seems to be able to teach you the tinker crafting techniques, but requires input to do so (500 gold and a talent category point).]], "_t")
-t("[pay 500 gold and a talent category points]", "[pay 500 gold and a talent category points]", "_t")
-t("#PURPLE#The %s teaches you: #GOLD#Steamtech/Physics#LAST#, #GOLD#Steamtech/Chemistry#LAST# and two starter crafting talents.", "#PURPLE#The %s teaches you: #GOLD#Steamtech/Physics#LAST#, #GOLD#Steamtech/Chemistry#LAST# and two starter crafting talents.", "log")
-t("[access store]", "[access store]", "_t")
+It seems to be able to teach you the tinker crafting techniques, but requires input to do so (500 gold and a talent category point).]], [[#LIGHT_GREEN#*Devant vous se dresse un étrange dispositif triangulaire, une sorte d'installation automatisée.*#WHITE#
+Il semble capable de vous enseigner les techniques de fabrication de babioles, mais exige une contrepartie pour cela (500 pièces d'or et un point de catégorie de talent).]], "_t")
+t("[pay 500 gold and a talent category points]", "[Payer 500 pièces d'or et un point de catégorie de talent]", "_t")
+t("#PURPLE#The %s teaches you: #GOLD#Steamtech/Physics#LAST#, #GOLD#Steamtech/Chemistry#LAST# and two starter crafting talents.", "#PURPLE#%s vous enseigne : #GOLD#Vapotech/Physique#LAST#, #GOLD#Vapotech/Chimie#LAST# et deux talents de fabrication de base.", "log")
+t("[access store]", "[accéder à la boutique]", "_t")
+t("[leave]", "[partir]", "_t")
 t([[The machine gives you a small metallic box labelled as #{italic}#"Automated Portable Extractor"#{normal}#.
 It seems to be used to break down metallic items into lumps of metal and infusions into herbs which are used to craft tinkers.
 
 #{bold}#You will have to choose to use it or the Transmogrification Chest when you destroy items. You can choose the default one by using it with no items to destroy.#{normal}#
-]], [[The machine gives you a small metallic box labelled as #{italic}#"Automated Portable Extractor"#{normal}#.
-It seems to be used to break down metallic items into lumps of metal and infusions into herbs which are used to craft tinkers.
+]], [[La machine vous remet une petite boîte métallique étiquetée #{italic}#"Extracteur Portatif Automatisé"#{normal}#.
+Elle semble servir à décomposer les objets métalliques en blocs de métal et les essences en herbes, qui sont utilisés pour fabriquer des babioles.
 
-#{bold}#You will have to choose to use it or the Transmogrification Chest when you destroy items. You can choose the default one by using it with no items to destroy.#{normal}#
+#{bold}#Vous devrez choisir entre l'utiliser ou recourir au Coffre de Transmogrification quand vous détruisez des objets. Vous pouvez définir celui par défaut en l'utilisant sans objet à détruire.#{normal}#
 ]], "_t")
-t("[take it]", "[take it]", "_t")
---]==]
-
+t("[take it]", "[le prendre]", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/destructicus-lead.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*Several loyal Orcs are eagerly waiting outside the palace to meet you; one steps forward, handing you a set of keys.  The word 'DESTRUCTICUS' is etched into one.*#WHITE#
 Chief @playername@!  The Giants are fleeing, and we intercepted a scout carrying this!  We believe they can be used with...  well, you should see for yourself!  Please, come with us to the mountains just south of Kruk Pride!
-#LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], [[#LIGHT_GREEN#*Several loyal Orcs are eagerly waiting outside the palace to meet you; one steps forward, handing you a set of keys.  The word 'DESTRUCTICUS' is etched into one.*#WHITE#
-Chief @playername@!  The Giants are fleeing, and we intercepted a scout carrying this!  We believe they can be used with...  well, you should see for yourself!  Please, come with us to the mountains just south of Kruk Pride!
-#LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], "_t")
-t("Lead the way.", "Lead the way.", "_t")
---]==]
-
+#LIGHT_GREEN#*This sounds important.  You should probably head there right away!*#WHITE#]], [[#LIGHT_GREEN#*Plusieurs orcs loyaux vous attendent avec impatience devant le palais ; l'un d'eux s'avance et vous tend un trousseau de clés.  Le mot "DESTRUCTICUS" est gravé sur l'une d'elles.*#WHITE#
+Chef @playername@ !  Les Géants fuient, et nous avons intercepté un éclaireur qui transportait ceci !  Nous pensons qu'elles peuvent servir avec...  eh bien, vous devriez voir par vous-même !  Je vous en prie, venez avec nous dans les montagnes juste au sud de la Fierté Kruk !
+#LIGHT_GREEN#*Cela semble important.  Vous devriez probablement vous y rendre sans tarder !*#WHITE#]], "_t")
+t("Lead the way.", "Montrez le chemin.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/destructicus.lua"
 
+t("Fire Imp", "Diablotin de Feu", "_t")
+t("Steam Giant Airship", "Dirigeable des Géants Vaporeux", "_t")
+t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, PERFORATEUR IMPOLI DU CIEL#{normal}# se dresse devant vous, et même s'il vous en coûte de l'admettre, la réclame de Kaltor était encore en dessous de la vérité. C'est peut-être l'engin le plus déraisonnablement létal que vous ayez jamais vu. La lumière du soleil, miroitant sur son corps de voratun, paraît terne comparée à la masse de runes instables qui rougeoie intensément à sa pointe ; sa surface porte les rainures ouvragées d'un métal reforgé psioniquement au prix d'heures d'une concentration à donner la migraine. La baïonnette montée sur le tube de lancement tient simplement de la provocation. Ce modèle particulier semble équipé d'une cabine close et ignifugée autour de son panneau de contrôle, dotée d'un distributeur de thé intégré, que vos camarades orcs ont déjà pris la liberté de remplir de bière naine pillée. C'est véritablement une merveille.*#WHITE#", "_t")
 t("[continue]", "[suite]", "_t")
-t("[leave]", "[partir]", "_t")
--- texte non traduit
---[==[
-t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
-t("Fire Imp", "Fire Imp", "_t")
-t("Steam Giant Airship", "Steam Giant Airship", "_t")
-t("#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "#LIGHT_GREEN#*#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# stands before you, and as much as it pains you to admit it, Kaltor's advertisement wasn't flattering enough.  This may be the most unreasonably lethal device you've ever seen.  The sunlight, gleaming off its voratun body, seems dull compared to the intensely glowing mass of unstable runes on its tip; its surface has the ornate grooves of a metal that has been psionically reforged through hours of migraine-inducing concentration.  The bayonet mounted on the launching tube just seems like gloating.  This particular model appears to be equipped with an enclosed, fireproof booth around its control panel, and a built-in tea dispenser in said booth, which your fellow orcs have already taken the liberty of filling with looted Dwarven ale.  It is truly a thing of beauty.*#WHITE#", "_t")
-t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "_t")
+t("#LIGHT_GREEN#*You enter the booth, sit down, and insert the key.  #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# whirrs to life, its base slightly rotating underneath you.  A strange beaded panel slides in front of you, pins pushing out and pulling back by magnetic force to display the outline of an airship (and a tiny speck), and the words #{italic}#\"AERIAL TARGETS FOUND: 2.\"#{normal}#*#WHITE#", "#LIGHT_GREEN#*Vous entrez dans la cabine, vous asseyez et insérez la clé. #{bold}#DESTRUCTICUS, PERFORATEUR IMPOLI DU CIEL#{normal}# s'éveille en vrombissant, sa base pivotant légèrement sous vous. Un étrange panneau à picots glisse devant vous, des tiges sortant et rentrant sous l'effet d'une force magnétique pour afficher la silhouette d'un dirigeable (et un point minuscule), ainsi que les mots #{italic}#\"CIBLES AÉRIENNES DÉTECTÉES : 2.\"#{normal}#*#WHITE#", "_t")
 t([[#LIGHT_GREEN#*#{italic}#"OBTAINING SCRYING LOCK...  OBTAINED."#{normal}#
  
 The beaded panel is suddenly awash with colors, showing the colossal interior of the airship.  Steam Giant families huddle and weep, sorting through the few belongings they could take with them when fleeing; a guard sits on a pile of luggage and storage crates, head in her hands.  The view pans around the cabin, and you see a few crew members hurrying between the captain's quarters and the engine room, pausing to take worried glances out the window - at you.
  
 This airship appears to be evacuating what's left of the Atmos Tribe.  With the press of a single button, you could eradicate the Steam Giant species forever.
  
-You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the panel shifts to show a very lost and very confused Fire Imp, flying in the air near nothing of importance.  Firing on it would have little effect whatsoever, aside from showing off DESTRUCTICUS's power in the most harmless way possible.*#WHITE#]], [[#LIGHT_GREEN#*#{italic}#"OBTAINING SCRYING LOCK...  OBTAINED."#{normal}#
+You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the panel shifts to show a very lost and very confused Fire Imp, flying in the air near nothing of importance.  Firing on it would have little effect whatsoever, aside from showing off DESTRUCTICUS's power in the most harmless way possible.*#WHITE#]], [[#LIGHT_GREEN#*#{italic}#"ACQUISITION DU VERROU DE DIVINATION...  ACQUIS."#{normal}#
  
-The beaded panel is suddenly awash with colors, showing the colossal interior of the airship.  Steam Giant families huddle and weep, sorting through the few belongings they could take with them when fleeing; a guard sits on a pile of luggage and storage crates, head in her hands.  The view pans around the cabin, and you see a few crew members hurrying between the captain's quarters and the engine room, pausing to take worried glances out the window - at you.
+Le panneau à picots s'inonde soudain de couleurs, révélant l'intérieur colossal du dirigeable. Des familles de géants vaporeux se serrent les unes contre les autres en pleurant, triant les rares affaires qu'elles ont pu emporter dans leur fuite ; une garde est assise sur une pile de bagages et de caisses, la tête entre les mains. La vue balaie la cabine, et vous apercevez quelques membres d'équipage qui se pressent entre les quartiers du capitaine et la salle des machines, s'arrêtant pour jeter des regards inquiets par le hublot — vers vous.
  
-This airship appears to be evacuating what's left of the Atmos Tribe.  With the press of a single button, you could eradicate the Steam Giant species forever.
+Ce dirigeable semble évacuer ce qu'il reste de la Tribu Atmos. D'une simple pression sur un bouton, vous pourriez éradiquer à jamais l'espèce des géants vaporeux.
  
-You press a button labelled #{italic}#"SELECT NEXT TARGET"#{normal}#, and the panel shifts to show a very lost and very confused Fire Imp, flying in the air near nothing of importance.  Firing on it would have little effect whatsoever, aside from showing off DESTRUCTICUS's power in the most harmless way possible.*#WHITE#]], "_t")
-t("[shoot down the airship]", "[shoot down the airship]", "_t")
-t("[shoot down the imp]", "[shoot down the imp]", "_t")
-t("#LIGHT_GREEN#*Are you SURE you want to ERADICATE THE STEAM GIANTS?*#WHITE#", "#LIGHT_GREEN#*Are you SURE you want to ERADICATE THE STEAM GIANTS?*#WHITE#", "_t")
-t("[back]", "[back]", "_t")
-t("#LIGHT_GREEN#*Are you SURE you want to WASTE YOUR SHOT?*#WHITE#", "#LIGHT_GREEN#*Are you SURE you want to WASTE YOUR SHOT?*#WHITE#", "_t")
+Vous appuyez sur un bouton étiqueté #{italic}#"SÉLECTIONNER CIBLE SUIVANTE"#{normal}#, et le panneau bascule pour afficher un Diablotin de Feu très perdu et très désorienté, volant dans les airs près de quelque chose sans grand intérêt. Tirer dessus n'aurait pratiquement aucun effet, si ce n'est de faire étalage de la puissance de DESTRUCTICUS de la manière la plus inoffensive possible.*#WHITE#]], "_t")
+t("[shoot down the airship]", "[abattre le dirigeable]", "_t")
+t("[shoot down the imp]", "[abattre le diablotin]", "_t")
+t("#LIGHT_GREEN#*Are you SURE you want to ERADICATE THE STEAM GIANTS?*#WHITE#", "#LIGHT_GREEN#*Êtes-vous SÛR de vouloir ÉRADIQUER LES GÉANTS VAPOREUX ?*#WHITE#", "_t")
+t("[back]", "[retour]", "_t")
+t("#LIGHT_GREEN#*Are you SURE you want to WASTE YOUR SHOT?*#WHITE#", "#LIGHT_GREEN#*Êtes-vous SÛR de vouloir GÂCHER VOTRE TIR ?*#WHITE#", "_t")
 t([[#LIGHT_GREEN#*The Steam Giants are too great a threat to allow their escape - you will not have them simply return someday to finish what they attempted, and wipe out your Pride.  You press the #{italic}#"PREVIOUS TARGET"#{normal}# button, and fire on the airship.  There is a great roar and a flash of flame; you see its missile flying away from you through the window, as you see it racing towards your view, and the terrified passengers, on the scrying panel.
 
 It reaches its mark, and the panel goes dark as a tremendous, multicolored blast fills your vision through the window.
@@ -407,15 +385,16 @@ The Steam Giants are no more.
  
 The secondary charges from the warhead detonate, as burning debris falls into the sea, and the ongoing display serves as a signal to all the Orcs of Var'Eyal, and anyone else who may be watching: This is the fate of all who would try to eradicate the Orcs.  The previous millennia of oppression, genocide, and bullying are over: your people will never be pushed around like this again.
  
-A nagging thought in the back of your head insists that you now know how the Sun Paladins felt, how King Toknor felt, how the halflings felt, how everyone that has always committed such atrocities against the Orcs felt.  It can keep whining all it wants - your people are finally safe.*#WHITE#]], [[#LIGHT_GREEN#*The Steam Giants are too great a threat to allow their escape - you will not have them simply return someday to finish what they attempted, and wipe out your Pride.  You press the #{italic}#"PREVIOUS TARGET"#{normal}# button, and fire on the airship.  There is a great roar and a flash of flame; you see its missile flying away from you through the window, as you see it racing towards your view, and the terrified passengers, on the scrying panel.
+A nagging thought in the back of your head insists that you now know how the Sun Paladins felt, how King Toknor felt, how the halflings felt, how everyone that has always committed such atrocities against the Orcs felt.  It can keep whining all it wants - your people are finally safe.*#WHITE#]], [[#LIGHT_GREEN#*Les géants vaporeux sont une menace trop grande pour qu'on les laisse s'échapper — il est hors de question qu'ils reviennent un jour achever ce qu'ils ont entrepris et anéantir votre Fierté. Vous appuyez sur le bouton #{italic}#"CIBLE PRÉCÉDENTE"#{normal}# et faites feu sur le dirigeable. Un rugissement formidable retentit dans un éclair de flammes ; par le hublot, vous voyez le missile s'éloigner de vous, tandis que sur le panneau de divination vous le voyez foncer vers votre point de vue — et vers les passagers terrifiés.
 
-It reaches its mark, and the panel goes dark as a tremendous, multicolored blast fills your vision through the window.
+Il atteint sa cible, et le panneau s'éteint alors qu'une formidable déflagration multicolore emplit votre champ de vision à travers le hublot.
  
-The Steam Giants are no more.
+Les géants vaporeux ne sont plus.
  
-The secondary charges from the warhead detonate, as burning debris falls into the sea, and the ongoing display serves as a signal to all the Orcs of Var'Eyal, and anyone else who may be watching: This is the fate of all who would try to eradicate the Orcs.  The previous millennia of oppression, genocide, and bullying are over: your people will never be pushed around like this again.
+Les charges secondaires de l'ogive détonent, des débris enflammés tombent dans la mer, et le spectacle qui se prolonge sert de signal à tous les orcs de Var'Eyal, et à quiconque d'autre regarderait : tel est le sort de tous ceux qui tenteraient d'éradiquer les orcs. Les millénaires passés d'oppression, de génocide et de brimades sont terminés : plus jamais votre peuple ne se laissera malmener ainsi.
  
-A nagging thought in the back of your head insists that you now know how the Sun Paladins felt, how King Toknor felt, how the halflings felt, how everyone that has always committed such atrocities against the Orcs felt.  It can keep whining all it wants - your people are finally safe.*#WHITE#]], "_t")
+Une pensée lancinante, au fond de votre crâne, insiste : vous savez désormais ce qu'ont ressenti les Paladins Solaire, ce qu'a ressenti le Roi Toknor, ce qu'ont ressenti les halfelins, ce qu'ont ressenti tous ceux qui ont jadis commis de telles atrocités contre les orcs. Il peut continuer ses lamentations autant qu'il veut - les tiens sont enfin en sécurité.*#WHITE#]], "_t")
+t("[leave]", "[partir]", "_t")
 t([[#LIGHT_GREEN#*No...  you will not sink to the depths that King Toknor did, that the Sun Paladins did, that so many others have sunk to.  These refugees are not a threat, and could not possibly become one for quite some time...  but it might be for the best that they're made fully aware of what you're capable of, the fate you could've given them through so little effort, and given a display that'll make sure they remember that they owe their lives to your mercy.
  
 You target the Fire Imp, and fire the weapon.  With a great roar and a flash of flame, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# races towards the increasingly distressed imp.  It panics, flitting to the side evasively as #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# corrects its course to compensate, until it gives up and shrugs dejectedly; you can't hear the scrying panel over the missile's roaring, but you're fairly sure you can see the imp mouthing "this is 'blazing ridiculous."
@@ -424,15 +403,18 @@ It impacts, and your vision is filled with an enormous, multicolored explosion. 
  
 Taking a swig from a freshly-dispensed mug of ale, you switch the now-empty #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#'s targeting controls over to the airship, and you see the giants cheering and hugging, crying in joy and relief.  A few wonder aloud if you meant to do that, but most recognize it as the display of mercy that it is.
  
-As the secondary charges go off, the ongoing pyrotechnic display acts as a celebratory signal to the Steam Giants, the Orcs, and anyone else who may be watching: The war is over.  Var'Eyal, and the Orcs who now own it, will know peace for the first time in millennia.*#WHITE#]], [[#LIGHT_GREEN#*No...  you will not sink to the depths that King Toknor did, that the Sun Paladins did, that so many others have sunk to.  These refugees are not a threat, and could not possibly become one for quite some time...  but it might be for the best that they're made fully aware of what you're capable of, the fate you could've given them through so little effort, and given a display that'll make sure they remember that they owe their lives to your mercy.
+As the secondary charges go off, the ongoing pyrotechnic display acts as a celebratory signal to the Steam Giants, the Orcs, and anyone else who may be watching: The war is over.  Var'Eyal, and the Orcs who now own it, will know peace for the first time in millennia.*#WHITE#]], [[#LIGHT_GREEN#*Non...  vous ne sombrerez pas dans les abîmes où ont sombré le Roi Toknor, les Paladins Solaire et tant d'autres. Ces réfugiés ne sont pas une menace, et ne pourraient pas en devenir une avant bien longtemps... mais il vaut sans doute mieux qu'ils prennent pleinement conscience de ce dont vous êtes capable, du sort que vous auriez pu leur réserver au prix d'un effort dérisoire — et qu'ils aient droit à une démonstration qui leur rappellera qu'ils doivent la vie à votre clémence.
  
-You target the Fire Imp, and fire the weapon.  With a great roar and a flash of flame, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# races towards the increasingly distressed imp.  It panics, flitting to the side evasively as #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}# corrects its course to compensate, until it gives up and shrugs dejectedly; you can't hear the scrying panel over the missile's roaring, but you're fairly sure you can see the imp mouthing "this is 'blazing ridiculous."
+Vous ciblez le Diablotin de Feu et faites feu. Dans un grand rugissement et un éclair de flammes, #{bold}#DESTRUCTICUS, PERFORATEUR IMPOLI DU CIEL#{normal}# fonce vers le diablotin de plus en plus paniqué. Affolé, il virevolte de côté pour esquiver tandis que #{bold}#DESTRUCTICUS, PERFORATEUR IMPOLI DU CIEL#{normal}# corrige sa trajectoire pour compenser, jusqu'à ce qu'il abandonne et hausse les épaules d'un air dépité ; vous ne pouvez pas entendre le panneau de divination par-dessus le rugissement du missile, mais vous êtes à peu près certain de voir le diablotin articuler "par les flammes, c'est complètement ridicule".
  
-It impacts, and your vision is filled with an enormous, multicolored explosion.  Shrapnel and debris falls harmlessly into a barren mountaintop, and a great booming noise can be heard across the continent.  
+L'impact survient, et votre vision s'emplit d'une énorme explosion multicolore. Éclats et débris retombent sans faire de mal sur un sommet désolé, et une formidable détonation s'entend à travers tout le continent.  
  
-Taking a swig from a freshly-dispensed mug of ale, you switch the now-empty #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#'s targeting controls over to the airship, and you see the giants cheering and hugging, crying in joy and relief.  A few wonder aloud if you meant to do that, but most recognize it as the display of mercy that it is.
+Avalant une gorgée d'une chope de bière fraîchement servie, vous basculez les commandes de visée du désormais vide #{bold}#DESTRUCTICUS, PERFORATEUR IMPOLI DU CIEL#{normal}# vers le dirigeable, et vous voyez les géants exulter et s'étreindre, pleurant de joie et de soulagement. Quelques-uns se demandent à voix haute si vous l'avez fait exprès, mais la plupart y reconnaissent la démonstration de clémence que c'est.
  
-As the secondary charges go off, the ongoing pyrotechnic display acts as a celebratory signal to the Steam Giants, the Orcs, and anyone else who may be watching: The war is over.  Var'Eyal, and the Orcs who now own it, will know peace for the first time in millennia.*#WHITE#]], "_t")
+Tandis que les charges secondaires explosent, le spectacle pyrotechnique qui se poursuit fait office de signal de célébration pour les géants vaporeux, les orcs et quiconque d'autre regarderait : la guerre est finie. Var'Eyal, et les orcs qui en sont désormais les maîtres, connaîtront la paix pour la première fois depuis des millénaires.*#WHITE#]], "_t")
+-- texte non traduit
+--[==[
+t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
 --]==]
 
 
@@ -440,53 +422,49 @@ As the secondary charges go off, the ongoing pyrotechnic display acts as a celeb
 section "tome-orcs/data/chats/john-surrender.lua"
 
 t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
--- texte non traduit
---[==[
-t("HATE!", "HATE!", "_t")
-t("PAIN!", "PAIN!", "_t")
-t("REGRET!", "REGRET!", "_t")
-t("My love...", "My love...", "_t")
-t("I feel so lost.", "I feel so lost.", "_t")
-t("Please let me die!", "Please let me die!", "_t")
-t("RAAAAARGGGG!", "RAAAAARGGGG!", "_t")
-t("Someday you will pay!", "Someday you will pay!", "_t")
-t("DEATH!", "DEATH!", "_t")
-t("*Sobs*", "*Sobs*", "_t")
+t("HATE!", "HAINE !", "_t")
+t("PAIN!", "DOULEUR !", "_t")
+t("REGRET!", "REGRET !", "_t")
+t("My love...", "Mon amour...", "_t")
+t("I feel so lost.", "Je me sens si perdu.", "_t")
+t("Please let me die!", "Par pitié, laissez-moi mourir !", "_t")
+t("Someday you will pay!", "Un jour, vous paierez !", "_t")
+t("DEATH!", "MORT !", "_t")
+t("*Sobs*", "*Sanglots*", "_t")
 t([[#LIGHT_GREEN#*The Crimson Templar looks exhausted, nearly dead. You feel the ring attuning to him and suddenly you understand you could absorb his essence to power the ring.*#WHITE#
-Go on kill me @playername@! My life is destroyed, my friends are dead, my dear Aeryn is dead. All dead by your murderous hands! Finish me, let me have some #{italic}#rest#{normal}#.]], [[#LIGHT_GREEN#*The Crimson Templar looks exhausted, nearly dead. You feel the ring attuning to him and suddenly you understand you could absorb his essence to power the ring.*#WHITE#
-Go on kill me @playername@! My life is destroyed, my friends are dead, my dear Aeryn is dead. All dead by your murderous hands! Finish me, let me have some #{italic}#rest#{normal}#.]], "_t")
-t("#LIGHT_GREEN#[destroy him to power the ring]#WHITE# So be it!", "#LIGHT_GREEN#[destroy him to power the ring]#WHITE# So be it!", "_t")
-t("#LIGHT_GREEN#[bind him to the ring]#WHITE# No, you are more useful alive and broken to me!", "#LIGHT_GREEN#[bind him to the ring]#WHITE# No, you are more useful alive and broken to me!", "_t")
+Go on kill me @playername@! My life is destroyed, my friends are dead, my dear Aeryn is dead. All dead by your murderous hands! Finish me, let me have some #{italic}#rest#{normal}#.]], [[#LIGHT_GREEN#*Le Templier Souillé semble épuisé, presque mort. Vous sentez l'anneau s'accorder à lui et comprenez soudain que vous pourriez absorber son essence pour alimenter l'anneau.*#WHITE#
+Allez-y, tuez-moi @playername@ ! Ma vie est détruite, mes amis sont morts, ma chère Aeryn est morte. Tous morts de vos mains assassines ! Achevez-moi, laissez-moi enfin trouver le #{italic}#repos#{normal}#.]], "_t")
+t("#LIGHT_GREEN#[destroy him to power the ring]#WHITE# So be it!", "#LIGHT_GREEN#[Le détruire pour alimenter l'anneau]#WHITE# Qu'il en soit ainsi !", "_t")
+t("#LIGHT_GREEN#[bind him to the ring]#WHITE# No, you are more useful alive and broken to me!", "#LIGHT_GREEN#[Le lier à l'anneau]#WHITE# Non, tu m'es plus utile vivant et brisé !", "_t")
 t([[#LIGHT_GREEN#*The malevolent energies around you condensate into the ring, absorbing the last remains of John.
 The ring is now much more powerful.*#WHITE#
-Aeryn... my love...]], [[#LIGHT_GREEN#*The malevolent energies around you condensate into the ring, absorbing the last remains of John.
-The ring is now much more powerful.*#WHITE#
-Aeryn... my love...]], "_t")
-t("#LIGHT_GREEN#[done]#WHITE#", "#LIGHT_GREEN#[done]#WHITE#", "_t")
+Aeryn... my love...]], [[#LIGHT_GREEN#*Les énergies malveillantes qui vous entourent se condensent dans l'anneau, absorbant les derniers vestiges de John.
+L'anneau est désormais bien plus puissant.*#WHITE#
+Aeryn... mon amour...]], "_t")
+t("#LIGHT_GREEN#[done]#WHITE#", "#LIGHT_GREEN#[Terminé]#WHITE#", "_t")
 t([[#LIGHT_GREEN#*The malevolent energies around you condense into the ring, binding John to it forever.
 The ring is now able to summon him for a few turns at will.*#WHITE#
-#{bold}#I HATE YOU!#{normal}#]], [[#LIGHT_GREEN#*The malevolent energies around you condense into the ring, binding John to it forever.
-The ring is now able to summon him for a few turns at will.*#WHITE#
-#{bold}#I HATE YOU!#{normal}#]], "_t")
+#{bold}#I HATE YOU!#{normal}#]], [[#LIGHT_GREEN#*Les énergies malveillantes qui vous entourent se condensent dans l'anneau, y liant John pour toujours.
+L'anneau est désormais capable de l'invoquer à volonté pendant quelques tours.*#WHITE#
+#{bold}#JE VOUS HAIS !#{normal}#]], "_t")
+-- texte non traduit
+--[==[
+t("RAAAAARGGGG!", "RAAAAARGGGG!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/chats/john-worldmap.lua"
 
-t("Whatever.", "Peu importe.", "chat_john-worldmap")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*As you approach you recognize Outpost Leader John. But there is a kind of terrible darkness, you can feel his hatred crystallize the air.*#WHITE#
 @playername@. You malevolent creature! #{bold}#YOU KILLED HER! YOU MURDEROUS DOG!#{normal}#
-You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it on you. Give it back! DIE!]], [[#LIGHT_GREEN#*As you approach you recognize Outpost Leader John. But there is a kind of terrible darkness, you can feel his hatred crystallize the air.*#WHITE#
-@playername@. You malevolent creature! #{bold}#YOU KILLED HER! YOU MURDEROUS DOG!#{normal}#
-You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it on you. Give it back! DIE!]], "_t")
-t("Oh you liked that paladin lady? I loved killing her!", "Oh you liked that paladin lady? I loved killing her!", "_t")
-t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "She left me no choice; I had to protect #{bold}#my#{normal}# people.", "_t")
-t("What?", "What?", "_t")
---]==]
-
+You #{italic}#dare#{normal}# carry her ring around like a trophy! I can feel it on you. Give it back! DIE!]], [[#LIGHT_GREEN#*En approchant, vous reconnaissez John, le Chef de l'Avant-poste. Mais une terrible obscurité l'enveloppe ; vous sentez sa haine cristalliser l'air.*#WHITE#
+@playername@. Créature malfaisante ! #{bold}#VOUS L'AVEZ TUÉE ! CHIEN D'ASSASSIN !#{normal}#
+Vous #{italic}#osez#{normal}# porter son anneau comme un trophée ! Je le sens sur vous. Rendez-le ! MOURREZ !]], "_t")
+t("Oh you liked that paladin lady? I loved killing her!", "Oh, vous l'aimiez bien, cette dame paladine ? Moi, j'ai adoré la tuer !", "_t")
+t("She left me no choice; I had to protect #{bold}#my#{normal}# people.", "Elle ne m'a pas laissé le choix ; je devais protéger #{bold}#mon#{normal}# peuple.", "_t")
+t("Whatever.", "Peu importe.", "chat_john-worldmap")
+t("What?", "Quoi ?", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/kaltor-entry.lua"
@@ -513,7 +491,7 @@ t("[fight]", "[fight]", "_t")
 ------------------------------------------------
 section "tome-orcs/data/chats/kaltor-shop.lua"
 
-
+t("DEATH!", "MORT !", "_t")
 -- texte non traduit
 --[==[
 t("Finally a practical giant! Show me your wares.", "Finally a practical giant! Show me your wares.", "_t")
@@ -537,14 +515,13 @@ t([[#LIGHT_GREEN#*Kaltor is busy packing some of his goods away in crates; he ha
 t([[#LIGHT_GREEN#*He frowns in mock disappointment, as he presses a button on his stylish coat; it hisses, and you hear motors whirring*#WHITE#
 Oh, what a pity.  Guards?  Ten thousand gold to whoever gets the killing blow.  Store credit, of course.]], [[#LIGHT_GREEN#*He frowns in mock disappointment, as he presses a button on his stylish coat; it hisses, and you hear motors whirring*#WHITE#
 Oh, what a pity.  Guards?  Ten thousand gold to whoever gets the killing blow.  Store credit, of course.]], "_t")
-t("DEATH!", "DEATH!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/chats/kruk-tinker-shop.lua"
 
-t("Welcome @playername@ to my shop.", "Bienvenue @playername@, dans mon magasin.", "_t")
+t("Welcome @playername@ to my shop.", "Bienvenue dans mon magasin, @playername@.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_kruk-tinker-shop")
 t("No thanks.", "Non merci.", "_t")
@@ -1286,7 +1263,7 @@ t("This huge humanoid form is coated with a thick white fur, with large, vicious
 ------------------------------------------------
 section "tome-orcs/data/general/objects/boss-artifacts.lua"
 
-t("golden telescope", "télescope en or", "_t")
+t("golden telescope", "télescope doré", "_t")
 t("multi-hued", "multi-teintes", "entity subtype")
 -- texte non traduit
 --[==[
@@ -1395,7 +1372,7 @@ section "tome-orcs/data/general/objects/quest-artifacts.lua"
 
 t("tinker", "babiole", "entity type")
 t("power", "pouvoir", "entity subtype")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("Automated Portable Extractor", "Automated Portable Extractor", "entity name")
@@ -2102,7 +2079,7 @@ section "tome-orcs/data/general/stores/orcs.lua"
 
 t("library", "librairie", "entity name")
 t("tinker", "babiole", "entity name")
-t("tool store", "magasin d'outils", "entity name")
+t("tool store", "quincaillerie", "entity name")
 -- texte non traduit
 --[==[
 t("forge", "forge", "entity name")
@@ -2116,7 +2093,7 @@ t("rune and infusion collector", "rune and infusion collector", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/general/traps/ritch.lua"
 
-t("natural", "naturaliste", "entity type")
+t("natural", "naturel", "entity type")
 t("sand", "sable", "entity subtype")
 t("trap", "piège", "_t")
 t("%s resists!", "%s résiste !", "logSeen")
@@ -3288,7 +3265,7 @@ section "tome-orcs/data/lore/pocket-time.lua"
 t("him", "lui", "_t")
 t("he", "il", "_t")
 t("his", "son", "_t")
-t("her", "elle", "_t")
+t("her", "sa", "_t")
 t("she", "elle", "_t")
 -- texte non traduit
 --[==[
@@ -4000,7 +3977,7 @@ t("Clork Peninsula", "Clork Peninsula", "_t")
 ------------------------------------------------
 section "tome-orcs/data/quests/amakthel.lua"
 
-t("Winner", "Victoire", "_t")
+t("Winner", "Vainqueur", "_t")
 -- texte non traduit
 --[==[
 t("The Dead God Awaits", "The Dead God Awaits", "_t")
@@ -4211,7 +4188,7 @@ t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* T
 ------------------------------------------------
 section "tome-orcs/data/quests/ritch-hive.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("A Ritch Party", "A Ritch Party", "_t")
@@ -6917,7 +6894,7 @@ t("speed", "rapidité", "effect subtype")
 t("spacetime", "espace-temps", "effect subtype")
 t("confusion", "confus", "effect subtype")
 t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "La cible est confuse, agit au hasard (chance %d%%) et est incapable d'effectuer des actions complexes.", "tformat")
-t("#Target# wanders around!", "#Target# Max erre dans tous les sens !", "_t")
+t("#Target# wanders around!", "#Target# erre dans tous les sens !", "_t")
 t("+Confused", "+Confus", "_t")
 t("#Target# seems more focused.", "#Target# semble plus attentif.", "_t")
 t("-Confused", "-Confus", "_t")
@@ -6929,7 +6906,7 @@ t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d partagés)#LAST#", "tformat"
 t("miscellaneous", "divers", "effect subtype")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
 t("+Out of sight", "+Hors de vue", "_t")
-t("acid", "dégâts d'acid", "effect subtype")
+t("acid", "dégâts d'acide", "effect subtype")
 t("healing", "soin", "effect subtype")
 t("spell", "sort", "effect subtype")
 t("cunning", "ruse", "effect subtype")
@@ -7045,7 +7022,7 @@ t("#Target# is no longer poisoned.", "#Target# n'est plus empoisonné.", "_t")
 t("moss", "mousse", "effect subtype")
 t("maimed", "mutilé", "effect subtype")
 t("Damage reduced by %d%%.", "Dégâts reduits de %d%%.", "tformat")
-t("acid", "dégâts d'acid", "effect subtype")
+t("acid", "dégâts d'acide", "effect subtype")
 t("The target has been splashed with acid, taking %0.2f acid damage per turn.", "La cible a été aspergée d'acide et subit %0.2f dégâts d'acide par tour.", "tformat")
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide !", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
@@ -7055,7 +7032,7 @@ t("shield", "bouclier", "effect subtype")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
 t("sense", "sens", "effect subtype")
-t("grapple", "lutte", "effect subtype")
+t("grapple", "agrippement", "effect subtype")
 t("%d%% chance to fully absorb any damaging actions.", "%d%% chance d'absorber entièrement tout dégât subi.", "tformat")
 t("Miasma", "Miasme", "_t")
 -- texte non traduit
@@ -7682,7 +7659,7 @@ t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "This y
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/objects.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("a report", "a report", "entity name")
@@ -7745,7 +7722,7 @@ t("halfling", "halfelin", "entity subtype")
 t("immovable", "inamovible", "entity type")
 t("orb", "orbe", "entity subtype")
 t("elf", "elfe", "entity subtype")
-t("Limmir the Jeweler", "Limmir le joaillier", "entity name")
+t("Limmir the Jeweler", "Limmir le Joaillier", "entity name")
 -- texte non traduit
 --[==[
 t("#LIGHT_RED#%s concentrates and casts a powerful shield!", "#LIGHT_RED#%s concentrates and casts a powerful shield!", "_t")
@@ -7839,7 +7816,7 @@ section "tome-orcs/data/zones/gem/objects.lua"
 
 t("lore", "histoire", "entity type")
 t("..", "...", "entity name")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("disk", "disk", "entity subtype")
@@ -7955,7 +7932,7 @@ t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("locked chest", "coffre verrouillé", "entity name")
 t("Locked Chest", "Coffre Verrouillé", "_t")
-t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet tombe du coffre !", "logSeen")
+t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet roule hors du coffre !", "logSeen")
 t("chest (opened)", "coffre (ouvert)", "_t")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
@@ -8511,7 +8488,7 @@ t("You wonder how this yeti can have wandered so far from its native habitat in 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("a journal", "a journal", "entity name")
@@ -8850,7 +8827,7 @@ t("This yeti towers over its comrades. You see a cunning in its eyes unmatched b
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/objects.lua"
 
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à laisser tomber le %s", "logPlayer")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("flesh", "flesh", "entity type")
