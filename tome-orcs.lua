@@ -45,39 +45,30 @@ t("Wield the Annihilator as an Annihilator.", "Manier l'Annihilateur en jouant u
 ------------------------------------------------
 section "tome-orcs/data/achievements/story.lua"
 
-
--- texte non traduit
---[==[
-t("Across the Narrow Sea", "Across the Narrow Sea", "achievement name")
-t("Destroyed the Sunwall Outpost to secure a way to the mainland.", "Destroyed the Sunwall Outpost to secure a way to the mainland.", "_t")
-t("Reclaiming Garkul's Heritage", "Reclaiming Garkul's Heritage", "achievement name")
-t("Freed the remnants of the Prides from the Internment Camp.", "Freed the remnants of the Prides from the Internment Camp.", "_t")
-t("The High Lady's Destiny (Finale)", "The High Lady's Destiny (Finale)", "achievement name")
-t("Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "_t")
-t("One Ill Turn Deserves Another", "One Ill Turn Deserves Another", "achievement name")
-t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "_t")
-t("The Dead God Rests", "The Dead God Rests", "achievement name")
-t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "_t")
-t("To the Bitter End", "To the Bitter End", "achievement name")
-t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "_t")
-t("Imp'ing Away", "Imp'ing Away", "achievement name")
-t("You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "_t")
---]==]
-
+t("Across the Narrow Sea", "Par-delà la Mer Étroite", "achievement name")
+t("Destroyed the Sunwall Outpost to secure a way to the mainland.", "Détruire l'Avant-poste du Mur Solaire pour sécuriser un passage vers le continent.", "_t")
+t("Reclaiming Garkul's Heritage", "Reconquérir l'Héritage de Garkul", "achievement name")
+t("Freed the remnants of the Prides from the Internment Camp.", "Libérer les survivants des Fiertés du Camp d'Internement.", "_t")
+t("The High Lady's Destiny (Finale)", "Le Destin de la Haute Dame (Finale)", "achievement name")
+t("Crushed High Sun Paladin Aeryn and with her destroyed the bastion of the Sunwall.", "Écraser la Haute Paladine Solaire Aeryn et détruire avec elle le bastion du Mur Solaire.", "_t")
+t("One Ill Turn Deserves Another", "Un mauvais tour en appelle un autre", "achievement name")
+t("The Palace of Fumes stands in ruins, its Council shattered. The Atmos Tribe will not bother the Prides anymore.", "Le Palais des Fumées n'est plus que ruines, son Conseil anéanti. La Tribu Atmos n'importunera plus jamais les Orgueils.", "_t")
+t("The Dead God Rests", "Le Dieu Mort repose", "achievement name")
+t("You have defeated the Sher'tul Priest trying to resurrect Amakthel, saving both the Prides and the world.", "Vous avez vaincu le Prêtre Sher'tul qui tentait de ressusciter Amakthel, sauvant à la fois les Orgueils et le monde.", "_t")
+t("To the Bitter End", "Jusqu'au bout de l'amertume", "achievement name")
+t("You have destroyed the last remnants of the Atmos Tribe, ending their civilization.", "Vous avez détruit les derniers vestiges de la Tribu Atmos, mettant fin à leur civilisation.", "_t")
+t("Imp'ing Away", "Détaler comme des diablotins", "achievement name")
+t("You have spared the last remnants of the Atmos Tribe, showing mercy where others gave none to the orcs.", "Vous avez épargné les derniers survivants de la Tribu Atmos, faisant preuve d'une clémence que personne n'a jamais accordée aux orcs.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/birth/classes/empyreal.lua"
 
+t("Empyreal", "Empyréen", "birth descriptor name")
 t("Their most important stats are: Magic and Constitution", "Leurs stats les plus importantes sont : Magie et Constitution", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#Modificateurs de stats :", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +0 Dexterity, +3 Constitution", "#LIGHT_BLUE# * +0 Force, +0 Dextérité, +3 Constitution", "_t")
+t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +6 Magie, +0 Volonté, +0 Ruse", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +0", "#GOLD#Vie par niveau :#LIGHT_BLUE# +0", "_t")
--- texte non traduit
---[==[
-t("Empyreal", "Empyreal", "birth descriptor name")
-t("#LIGHT_BLUE# * +6 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +6 Magic, +0 Willpower, +0 Cunning", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/birth/classes/tinker.lua"
@@ -469,246 +460,214 @@ t("What?", "Quoi ?", "_t")
 ------------------------------------------------
 section "tome-orcs/data/chats/kaltor-entry.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*As you open the door to the shop, you are greeted by a pair of Steam Giant guards, staring at you and holding their steamguns tightly, at the ready but not aimed at you.*#WHITE#
-No sudden moves, @playername@. Kaltor's orders are to consider you a customer for now. Try anything foolish, and you'll be a live demonstration for his newest guns instead.  Understand?]], [[#LIGHT_GREEN#*As you open the door to the shop, you are greeted by a pair of Steam Giant guards, staring at you and holding their steamguns tightly, at the ready but not aimed at you.*#WHITE#
-No sudden moves, @playername@. Kaltor's orders are to consider you a customer for now. Try anything foolish, and you'll be a live demonstration for his newest guns instead.  Understand?]], "_t")
-t("I have gold, you have equipment. This doesn't need to be any more complicated than that.", "I have gold, you have equipment. This doesn't need to be any more complicated than that.", "_t")
-t("Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "_t")
+No sudden moves, @playername@. Kaltor's orders are to consider you a customer for now. Try anything foolish, and you'll be a live demonstration for his newest guns instead.  Understand?]], [[#LIGHT_GREEN#*Alors que vous ouvrez la porte de la boutique, vous êtes accueilli par deux gardes géants vaporeux qui vous fixent, leurs pistolets à vapeur fermement en main, parés mais sans vous viser.*#WHITE#
+Pas de geste brusque, @playername@. Les ordres de Kaltor sont de vous considérer comme un client, pour l'instant. Tentez la moindre bêtise, et vous servirez plutôt de démonstration grandeur nature pour ses tout derniers pistolets. Compris ?]], "_t")
+t("I have gold, you have equipment. This doesn't need to be any more complicated than that.", "J'ai de l'or, vous avez de l'équipement. Inutile de compliquer les choses davantage.", "_t")
+t("Those are some pretty fancy guns. Think it'll be hard to get your blood out of the gears?", "Voilà de bien jolis pistolets. Vous croyez que ce sera difficile de nettoyer votre sang des engrenages ?", "_t")
 t([[#LIGHT_GREEN#*She smiles, relieved but also slightly disappointed.*#WHITE#
-Couldn't have said it better myself. Come on in - and try not to scare the other patrons.]], [[#LIGHT_GREEN#*She smiles, relieved but also slightly disappointed.*#WHITE#
-Couldn't have said it better myself. Come on in - and try not to scare the other patrons.]], "_t")
-t("[enter]", "[enter]", "_t")
+Couldn't have said it better myself. Come on in - and try not to scare the other patrons.]], [[#LIGHT_GREEN#*Elle sourit, soulagée mais aussi légèrement déçue.*#WHITE#
+Je n'aurais pas dit mieux. Entrez donc — et tâchez de ne pas effrayer les autres clients.]], "_t")
+t("[enter]", "[entrer]", "_t")
 t([[Good luck with that, savage.
-#LIGHT_GREEN#*She smirks, and pulls a cord on the wall beside her as her and her partner duck behind cover; a loud bell rings, and you hear a commotion from further inside the shop.*#WHITE#]], [[Good luck with that, savage.
-#LIGHT_GREEN#*She smirks, and pulls a cord on the wall beside her as her and her partner duck behind cover; a loud bell rings, and you hear a commotion from further inside the shop.*#WHITE#]], "_t")
-t("[fight]", "[fight]", "_t")
---]==]
-
+#LIGHT_GREEN#*She smirks, and pulls a cord on the wall beside her as her and her partner duck behind cover; a loud bell rings, and you hear a commotion from further inside the shop.*#WHITE#]], [[Bonne chance pour ça, sauvage.
+#LIGHT_GREEN#*Elle a un sourire narquois et tire sur une corde fixée au mur à côté d'elle tandis qu'elle et son partenaire plongent à couvert ; une cloche retentit bruyamment, et vous entendez un remue-ménage venant du fond de la boutique.*#WHITE#]], "_t")
+t("[fight]", "[combattre]", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/kaltor-shop.lua"
 
-t("DEATH!", "MORT !", "_t")
--- texte non traduit
---[==[
-t("Finally a practical giant! Show me your wares.", "Finally a practical giant! Show me your wares.", "_t")
-t("Die giant scum! For Kruk! For Garkul! For the Pride!", "Die giant scum! For Kruk! For Garkul! For the Pride!", "_t")
-t("No need for shopping now.", "No need for shopping now.", "_t")
+t("Finally a practical giant! Show me your wares.", "Enfin un géant pragmatique ! Montrez-moi vos marchandises.", "_t")
+t("Die giant scum! For Kruk! For Garkul! For the Pride!", "Meurs, vermine de géant ! Pour Kruk ! Pour Garkul ! Pour la Fierté !", "_t")
+t("No need for shopping now.", "Pas besoin de faire des achats pour le moment.", "_t")
 t([[#LIGHT_GREEN#*A well-dressed giant stands in front of you, covered in expensive jewelry; judging from the poorly-fastened clasp on his necklace, you can assume he acquired it all fairly recently.  He grins as he leans down over the counter to get a good view of you.*#WHITE#
 Ah, welcome, @playername@! #LIGHT_GREEN#*he yells in a voice loud enough to catch the attention of all in the shop, as he lifts his head to look around.*#WHITE# Yes, you heard me right, @playername@! The very same one who's been running rampant through the Vaporous Emporium is coming to ME for armaments! I don't think I could've asked for a stronger endorsement! #LIGHT_GREEN#*He looks back down to you, leaning over the counter to point out a glass display case loaded with exotic weaponry and armor.*#WHITE#
-Well, I'm not one to turn down anyone with gold, and seeing as you've already made me rich, I'll even give you a discount, down to my pre-attack prices. #LIGHT_GREEN#*He leans in uncomfortably close, staring you in the eyes.* #WHITE#Or, if you came to do here what you did in the Emporium... #LIGHT_GREEN#*He directs his glare toward the multiple well-armed guards staring at you and standing still on the sides of the room.*#WHITE# I'm sure my #{italic}#emergency safety measures#{normal}# would just #{italic}#love#{normal}# an opportunity to try out their shiny new toys.]], [[#LIGHT_GREEN#*A well-dressed giant stands in front of you, covered in expensive jewelry; judging from the poorly-fastened clasp on his necklace, you can assume he acquired it all fairly recently.  He grins as he leans down over the counter to get a good view of you.*#WHITE#
-Ah, welcome, @playername@! #LIGHT_GREEN#*he yells in a voice loud enough to catch the attention of all in the shop, as he lifts his head to look around.*#WHITE# Yes, you heard me right, @playername@! The very same one who's been running rampant through the Vaporous Emporium is coming to ME for armaments! I don't think I could've asked for a stronger endorsement! #LIGHT_GREEN#*He looks back down to you, leaning over the counter to point out a glass display case loaded with exotic weaponry and armor.*#WHITE#
-Well, I'm not one to turn down anyone with gold, and seeing as you've already made me rich, I'll even give you a discount, down to my pre-attack prices. #LIGHT_GREEN#*He leans in uncomfortably close, staring you in the eyes.* #WHITE#Or, if you came to do here what you did in the Emporium... #LIGHT_GREEN#*He directs his glare toward the multiple well-armed guards staring at you and standing still on the sides of the room.*#WHITE# I'm sure my #{italic}#emergency safety measures#{normal}# would just #{italic}#love#{normal}# an opportunity to try out their shiny new toys.]], "_t")
+Well, I'm not one to turn down anyone with gold, and seeing as you've already made me rich, I'll even give you a discount, down to my pre-attack prices. #LIGHT_GREEN#*He leans in uncomfortably close, staring you in the eyes.* #WHITE#Or, if you came to do here what you did in the Emporium... #LIGHT_GREEN#*He directs his glare toward the multiple well-armed guards staring at you and standing still on the sides of the room.*#WHITE# I'm sure my #{italic}#emergency safety measures#{normal}# would just #{italic}#love#{normal}# an opportunity to try out their shiny new toys.]], [[#LIGHT_GREEN#*Un géant bien mis se tient devant vous, couvert de bijoux coûteux ; à en juger par le fermoir mal attaché de son collier, on peut supposer qu'il a acquis tout cela assez récemment. Il sourit largement en se penchant par-dessus le comptoir pour bien vous regarder.*#WHITE#
+Ah, bienvenue, @playername@ ! #LIGHT_GREEN#*il crie d'une voix assez forte pour attirer l'attention de toute la boutique, en relevant la tête pour regarder autour de lui.*#WHITE# Oui, vous avez bien entendu, @playername@ ! Celui-là même qui a semé le chaos dans l'Emporium Vaporeux vient se fournir en armes chez MOI ! Je ne pouvais pas rêver meilleure publicité ! #LIGHT_GREEN#*Il baisse à nouveau les yeux vers vous et se penche par-dessus le comptoir pour désigner une vitrine remplie d'armes et d'armures exotiques.*#WHITE#
+Bon, je ne suis pas du genre à refuser quiconque a de l'or, et vu que vous m'avez déjà enrichi, je vous accorde même une remise : retour à mes prix d'avant l'attaque. #LIGHT_GREEN#*Il se penche si près que c'en est gênant, et vous fixe droit dans les yeux.* #WHITE#Ou alors, si vous êtes venu faire ici ce que vous avez fait à l'Emporium... #LIGHT_GREEN#*Il tourne son regard noir vers les nombreux gardes lourdement armés qui vous fixent, immobiles, sur les côtés de la salle.*#WHITE# Je suis certain que mes #{italic}#mesures de sécurité d'urgence#{normal}# #{italic}#adoreraient#{normal}# l'occasion d'essayer leurs beaux jouets tout neufs.]], "_t")
 t([[Welcome back, @playername@!  You see this, customers?  This fearsome, savage master of battle was so impressed by my products that he came back for more!
 #LIGHT_GREEN#*He points to a new poster on the wall next to him, showing your face and the caption #{bold}#"KALTOR: THE CHOICE OF DESTROYERS!"#{normal}#*#WHITE#
 
-So, what'll it be?]], [[Welcome back, @playername@!  You see this, customers?  This fearsome, savage master of battle was so impressed by my products that he came back for more!
-#LIGHT_GREEN#*He points to a new poster on the wall next to him, showing your face and the caption #{bold}#"KALTOR: THE CHOICE OF DESTROYERS!"#{normal}#*#WHITE#
+So, what'll it be?]], [[Content de vous revoir, @playername@ ! Vous voyez ça, chers clients ? Ce redoutable et sauvage maître du combat a été si impressionné par mes produits qu'il en redemande !
+#LIGHT_GREEN#*Il désigne une nouvelle affiche au mur à côté de lui, montrant votre visage et la légende #{bold}#"KALTOR : LE CHOIX DES DESTRUCTEURS !"#{normal}#*#WHITE#
 
-So, what'll it be?]], "_t")
+Alors, qu'est-ce que ce sera ?]], "_t")
 t([[#LIGHT_GREEN#*Kaltor is busy packing some of his goods away in crates; he hands one to a worker, carrying it out the back door, before turning to you.*#WHITE#
-	Make it quick, @playername@. Not to be rude, but there's a private airship out there with my name on it, and I'd rather have a bird's-eye view of what you're about to do than a front-row seat.]], [[#LIGHT_GREEN#*Kaltor is busy packing some of his goods away in crates; he hands one to a worker, carrying it out the back door, before turning to you.*#WHITE#
-	Make it quick, @playername@. Not to be rude, but there's a private airship out there with my name on it, and I'd rather have a bird's-eye view of what you're about to do than a front-row seat.]], "_t")
+	Make it quick, @playername@. Not to be rude, but there's a private airship out there with my name on it, and I'd rather have a bird's-eye view of what you're about to do than a front-row seat.]], [[#LIGHT_GREEN#*Kaltor s'affaire à emballer une partie de ses marchandises dans des caisses ; il en tend une à un employé, qui l'emporte par la porte de derrière, avant de se tourner vers vous.*#WHITE#
+	Faites vite, @playername@. Sans vouloir être grossier, il y a dehors un dirigeable privé à mon nom, et je préfère avoir une vue d'ensemble de ce que vous vous apprêtez à faire plutôt qu'une place au premier rang.]], "_t")
 t([[#LIGHT_GREEN#*He frowns in mock disappointment, as he presses a button on his stylish coat; it hisses, and you hear motors whirring*#WHITE#
-Oh, what a pity.  Guards?  Ten thousand gold to whoever gets the killing blow.  Store credit, of course.]], [[#LIGHT_GREEN#*He frowns in mock disappointment, as he presses a button on his stylish coat; it hisses, and you hear motors whirring*#WHITE#
-Oh, what a pity.  Guards?  Ten thousand gold to whoever gets the killing blow.  Store credit, of course.]], "_t")
---]==]
-
+Oh, what a pity.  Guards?  Ten thousand gold to whoever gets the killing blow.  Store credit, of course.]], [[#LIGHT_GREEN#*Il fronce les sourcils dans une moue de déception feinte, tout en pressant un bouton sur son élégant manteau ; celui-ci émet un sifflement, et vous entendez des moteurs vrombir*#WHITE#
+Oh, quel dommage. Gardes ? Dix mille pièces d'or à qui portera le coup fatal. En avoir à la boutique, bien entendu.]], "_t")
+t("DEATH!", "MORT !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/kruk-tinker-shop.lua"
 
 t("Welcome @playername@ to my shop.", "Bienvenue dans mon magasin, @playername@.", "_t")
 t("Let me see your wares.", "Laissez-moi voir vos marchandises.", "_t")
+t("I am looking for special training.", "Je cherche un entraînement spécial.", "_t")
 t("Sorry, I have to go!", "Désolé, je dois y aller !", "chat_kruk-tinker-shop")
+t("I can indeed offer some training (talent category Steamtech/Physics and Steamtech/Chemistry) for a fee of 100 gold pieces each.", "Je peux en effet vous proposer un entraînement (catégories de talent Vapotech/Physique et Vapotech/Chimie) pour la somme de 100 pièces d'or chacune.", "_t")
+t("Please train me in physics.", "Entraînez-moi en physique, je vous prie.", "_t")
+t("The tinker spends some time with you, teaching you the basics of smithing.", "Le bricoleur passe un moment avec vous, à vous enseigner les bases de la forge.", "logPlayer")
+t("Please train me in chemistry.", "Entraînez-moi en chimie, je vous prie.", "_t")
+t("The tinker spends some time with you, teaching you the basics of therapeutics.", "Le bricoleur passe un moment avec vous, à vous enseigner les bases de la thérapeutique.", "logPlayer")
 t("No thanks.", "Non merci.", "_t")
--- texte non traduit
---[==[
-t("I am looking for special training.", "I am looking for special training.", "_t")
-t("I can indeed offer some training (talent category Steamtech/Physics and Steamtech/Chemistry) for a fee of 100 gold pieces each.", "I can indeed offer some training (talent category Steamtech/Physics and Steamtech/Chemistry) for a fee of 100 gold pieces each.", "_t")
-t("Please train me in physics.", "Please train me in physics.", "_t")
-t("The tinker spends some time with you, teaching you the basics of smithing.", "The tinker spends some time with you, teaching you the basics of smithing.", "logPlayer")
-t("Please train me in chemistry.", "Please train me in chemistry.", "_t")
-t("The tinker spends some time with you, teaching you the basics of therapeutics.", "The tinker spends some time with you, teaching you the basics of therapeutics.", "logPlayer")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/chats/metash.lua"
 
-t("Yes?", "Oui ?", "_t")
-t("Not now.", "Pas maintenant.", "_t")
-t("[listen]", "[écouter]", "_t")
-t("Thanks.", "Merci.", "chat_metash")
-t("I will!", "Je le ferai !", "chat_metash")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
-I would like to talk to you.]], [[#LIGHT_GREEN#*Before you stands an impressive undead minotaur.*#WHITE#
-I would like to talk to you.]], "_t")
-t("Your clan is free Metash, the tyrant is no more.", "Your clan is free Metash, the tyrant is no more.", "_t")
-t("Soft-foot of the Kruk, I come to give you a warning, an apology, and a plea for help.  An incredible magical force has awakened within one of our elders, Nektosh the One-Horned, and he has gone mad with its power.  Those who stood up against him were reduced to less than ashes by a beam from his horn, a beam that tunneled far up through the rock above him until we could see the sky.  He has convinced some of us that he can use this terrible force to conquer Eyal and terrified others into going along with him; he has announced that his first step will be to lead his followers in an attack on Kruk Pride.", "Soft-foot of the Kruk, I come to give you a warning, an apology, and a plea for help.  An incredible magical force has awakened within one of our elders, Nektosh the One-Horned, and he has gone mad with its power.  Those who stood up against him were reduced to less than ashes by a beam from his horn, a beam that tunneled far up through the rock above him until we could see the sky.  He has convinced some of us that he can use this terrible force to conquer Eyal and terrified others into going along with him; he has announced that his first step will be to lead his followers in an attack on Kruk Pride.", "_t")
-t("The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "_t")
-t("I will check it out", "I will check it out", "_t")
-t("We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "_t")
-t("Hail, @playername@!", "Hail, @playername@!", "_t")
-t("Our is free Metash, the tyrant is no more.", "Our is free Metash, the tyrant is no more.", "_t")
+I would like to talk to you.]], [[#LIGHT_GREEN#*Devant vous se tient un imposant minotaure mort-vivant.*#WHITE#
+J'aimerais vous parler.]], "_t")
+t("Yes?", "Oui ?", "_t")
+t("Your clan is free Metash, the tyrant is no more.", "Votre clan est libre, Metash : le tyran n'est plus.", "_t")
+t("Not now.", "Pas maintenant.", "_t")
+t("Soft-foot of the Kruk, I come to give you a warning, an apology, and a plea for help.  An incredible magical force has awakened within one of our elders, Nektosh the One-Horned, and he has gone mad with its power.  Those who stood up against him were reduced to less than ashes by a beam from his horn, a beam that tunneled far up through the rock above him until we could see the sky.  He has convinced some of us that he can use this terrible force to conquer Eyal and terrified others into going along with him; he has announced that his first step will be to lead his followers in an attack on Kruk Pride.", "Pied-tendre des Kruk, je viens vous apporter un avertissement, des excuses et un appel à l'aide. Une force magique prodigieuse s'est éveillée chez l'un de nos anciens, Nektosh Une-Corne, et son pouvoir l'a rendu fou. Ceux qui se sont dressés contre lui ont été réduits à moins que des cendres par un rayon jailli de sa corne, un rayon qui a percé la roche au-dessus de lui jusqu'à ce qu'on puisse voir le ciel. Il a convaincu certains des nôtres qu'il peut user de cette force terrible pour conquérir Eyal, et terrorisé les autres pour qu'ils le suivent ; il a annoncé que sa première étape serait de mener ses partisans à l'assaut de la Fierté Kruk.", "_t")
+t("[listen]", "[écouter]", "_t")
+t("The rest of us have fled, hiding in caverns across the peninsula...  I cannot in good conscience ask you to face certain death before his magic for our sakes, but striking first may be the only way to save your people.  He appears to be stalling the invasion, buying you some time, but if you cannot catch him off-guard before he finally commits to it...  I've seen his power cut through a mountain like it was a leaf, soft-foot.  There can be no victory against that kind of magic.  Run, hide, and hope he falls victim to an accident or loses the remaining fragments of his sanity that keep him capable of casting spells.", "Le reste d'entre nous a fui et se cache dans des cavernes à travers la péninsule... Je ne peux pas, en toute conscience, vous demander d'affronter une mort certaine face à sa magie pour notre salut, mais frapper en premier est peut-être le seul moyen de sauver votre peuple. Il semble retarder l'invasion, ce qui vous fait gagner du temps, mais si vous ne parvenez pas à le prendre au dépourvu avant qu'il ne s'y résolve enfin... J'ai vu son pouvoir trancher une montagne comme une feuille, pied-tendre. Aucune victoire n'est possible contre une telle magie. Fuyez, cachez-vous, et espérez qu'il soit victime d'un accident ou qu'il perde les derniers fragments de raison qui lui permettent encore de lancer des sorts.", "_t")
+t("I will check it out", "Je vais aller voir ça.", "_t")
+t("We of the Krimbul Clan have faced our near-certain deaths all too many times, even after our hearts stopped beating; this is the first time we have been shown the kindness of utter salvation by an outsider.  Those who were not enthralled by Nektosh and are not delusionally faithful to his \"cause\" will reclaim the Mana Caves in time; until then, we will join your Pride in your revolution.  You have liberated us, and we will not rest until you are freed of your oppressors as well.", "Nous autres du Clan Krimbul avons affronté une mort quasi certaine bien trop souvent, même après que nos coeurs ont cessé de battre ; c'est la première fois qu'un étranger nous fait la grâce d'un salut total. Ceux qui n'ont pas été asservis par Nektosh et ne vouent pas une foi aveugle à sa \"cause\" reprendront les Grottes de Mana le moment venu ; d'ici là, nous nous joindrons à votre Orgueil dans votre révolution. Vous nous avez libérés, et nous n'aurons de repos que lorsque vous serez à votre tour délivrés de vos oppresseurs.", "_t")
+t("Thanks.", "Merci.", "chat_metash")
+t("Hail, @playername@!", "Salutations, @playername@ !", "_t")
+t("Our is free Metash, the tyrant is no more.", "Notre clan est libre, Metash : le tyran n'est plus.", "_t")
 t([[I came here to warn the Kruk Pride of the threat Nektosh poses and ask for their help, but they have some more immediate threats to deal with...  We should help them repel these Steam Giants.  They are the only people who have ever treated us with respect and dignity; if they are crushed by the Atmos Tribe or the Allied Kingdoms, we will surely be next.  Their success is our survival.
 
-Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves from that tyrant, and I need to stay here to help them defend their land.  The task of freeing our clan is in your hands, when you feel ready for it.]], [[I came here to warn the Kruk Pride of the threat Nektosh poses and ask for their help, but they have some more immediate threats to deal with...  We should help them repel these Steam Giants.  They are the only people who have ever treated us with respect and dignity; if they are crushed by the Atmos Tribe or the Allied Kingdoms, we will surely be next.  Their success is our survival.
+Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves from that tyrant, and I need to stay here to help them defend their land.  The task of freeing our clan is in your hands, when you feel ready for it.]], [[Je suis venu ici avertir la Fierté Kruk de la menace que représente Nektosh et leur demander de l'aide, mais ils ont des dangers plus immédiats à affronter... Nous devrions les aider à repousser ces Géants Vaporeux. Ils sont le seul peuple à nous avoir jamais traités avec respect et dignité ; s'ils sont écrasés par la Tribu Atmos ou les Royaumes Alliés, nous serons assurément les prochains. Leur succès est notre survie.
 
-Unfortunately, they cannot afford to spare the warriors to retake the Mana Caves from that tyrant, and I need to stay here to help them defend their land.  The task of freeing our clan is in your hands, when you feel ready for it.]], "_t")
-t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "_t")
+Hélas, ils ne peuvent pas se permettre de détacher des guerriers pour reprendre les Grottes de Mana à ce tyran, et je dois rester ici pour les aider à défendre leurs terres. La tâche de libérer notre clan repose entre vos mains, quand vous vous en sentirez prêt.]], "_t")
+t("Nektosh claims he is the invincible, omnipotent descendant of a unicorn, but I don't believe that bull for a second.  While the great magical power that suddenly awakened within him is as fearsome as it is insanity-inducing,  he has yet to use it to make a shield or teleport himself, and even with his all-powerful beam, his aim isn't always perfect...  I think he has a weakness he's trying to hide.  Fight with courage, fellow Whitehoof, and the Krimbul Clan may be free once more!", "Nektosh prétend être le descendant invincible et omnipotent d'une licorne, mais je ne crois pas une seconde à ces vacheries. Si le grand pouvoir magique qui s'est soudain éveillé en lui est aussi effrayant qu'il rend fou, il ne s'en est encore jamais servi pour créer un bouclier ou se téléporter, et même avec son rayon tout-puissant, sa visée n'est pas toujours parfaite... Je pense qu'il a une faiblesse qu'il s'efforce de cacher. Combattez avec courage, camarade Sabot-Blanc, et le Clan Krimbul sera peut-être libre à nouveau !", "_t")
+t("I will!", "Je le ferai !", "chat_metash")
 t([[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
 
-Ultimately, though, the choice is yours; it is more important that he is no longer a threat.  There are some who may still cling to the false hope he gave them, but we will retake the Mana Caves from them in time.  We owe you a great debt, and now that we have no more pressing concerns, we can aid Kruk Pride in their rebellion.  Good travels, @playername@.]], [[He...  he found a wand?  And he realized it was running dry, but only after taking over the tribe?  I pity him, but I cannot forgive him for being willing to sacrifice so many Whitehooves and Orcs to escape the consequences of his brief lapse into madness...  still, as a personal request I ask that you not tell others of his last thoughts.  The Nektosh we once knew saved our tribe from the corrupted magic deep under Eyal; he deserves to, at worst, be remembered as one who tragically succumbed to its influence.
+Ultimately, though, the choice is yours; it is more important that he is no longer a threat.  There are some who may still cling to the false hope he gave them, but we will retake the Mana Caves from them in time.  We owe you a great debt, and now that we have no more pressing concerns, we can aid Kruk Pride in their rebellion.  Good travels, @playername@.]], [[Il... il a trouvé une baguette ? Et il ne s'est aperçu qu'elle s'épuisait qu'après avoir pris le contrôle de la tribu ? Je le plains, mais je ne peux pas lui pardonner d'avoir été prêt à sacrifier tant de Sabots-Blancs et d'orcs pour échapper aux conséquences de son bref accès de folie... malgré tout, à titre personnel, je vous demande de ne pas révéler aux autres ses dernières pensées. Le Nektosh que nous avons connu jadis a sauvé notre tribu de la magie corrompue des profondeurs d'Eyal ; il mérite, au pire, qu'on se souvienne de lui comme de quelqu'un qui a tragiquement succombé à son influence.
 
-Ultimately, though, the choice is yours; it is more important that he is no longer a threat.  There are some who may still cling to the false hope he gave them, but we will retake the Mana Caves from them in time.  We owe you a great debt, and now that we have no more pressing concerns, we can aid Kruk Pride in their rebellion.  Good travels, @playername@.]], "_t")
-t("To you too, Metash.", "To you too, Metash.", "_t")
---]==]
-
+Au bout du compte, cependant, le choix vous appartient ; le plus important est qu'il ne soit plus une menace. Certains s'accrochent peut-être encore au faux espoir qu'il leur avait donné, mais nous leur reprendrons les Grottes de Mana le moment venu. Nous avons une grande dette envers vous, et maintenant que nous n'avons plus de souci pressant, nous pouvons aider la Fierté Kruk dans sa rébellion. Bonne route, @playername@.]], "_t")
+t("To you too, Metash.", "À vous aussi, Metash.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/phonograph.lua"
 
-
--- texte non traduit
---[==[
-t("[insert %s]", "[insert %s]", "tformat")
-t("#LIGHT_GREEN#*This machine seems to have a slot for some kind of disks.*#WHITE#", "#LIGHT_GREEN#*This machine seems to have a slot for some kind of disks.*#WHITE#", "_t")
---]==]
-
+t("[insert %s]", "[insérer %s]", "tformat")
+t("#LIGHT_GREEN#*This machine seems to have a slot for some kind of disks.*#WHITE#", "#LIGHT_GREEN#*Cette machine semble dotée d'une fente pour une sorte de disques.*#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/shertul-priest.lua"
 
-
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*Before you stands a tentaculous horror which you recognize for what it truly is. A living #{bold}#Sher'Tul#{normal}#!.*#WHITE#
-Who are you, young creature, to stand up to a High Priest of Amakthel? Do you not know that you are before a servant of the Almighty Creator, the Sunfather, the God of Gods, Lord of all Eyal? In the millenia I have lived I have killed whole races like yourself. I have even wrenched the spirits of immortal gods from this world. So who are you, little one, who dare defy me?]], [[#LIGHT_GREEN#*Before you stands a tentaculous horror which you recognize for what it truly is. A living #{bold}#Sher'Tul#{normal}#!.*#WHITE#
-Who are you, young creature, to stand up to a High Priest of Amakthel? Do you not know that you are before a servant of the Almighty Creator, the Sunfather, the God of Gods, Lord of all Eyal? In the millenia I have lived I have killed whole races like yourself. I have even wrenched the spirits of immortal gods from this world. So who are you, little one, who dare defy me?]], "_t")
-t("I... am %s, of the seed of Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "I... am %s, of the seed of Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "tformat")
-t("I... am %s, though I lack my original body my mind is bound to Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "I... am %s, though I lack my original body my mind is bound to Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "tformat")
-t("I... am %s and I am not mortal! Garkul taught the orcs to fight legends, and to flinch not from even the most desperate deed. We learned that from them! Here and now I face you without fear or hesitation, for cold touch of undeath is within me. And I will #{bold}#break#{normal}# you!", "I... am %s and I am not mortal! Garkul taught the orcs to fight legends, and to flinch not from even the most desperate deed. We learned that from them! Here and now I face you without fear or hesitation, for cold touch of undeath is within me. And I will #{bold}#break#{normal}# you!", "tformat")
-t("I... am %s. Here and now I face you without fear or hesitation, for the utter determination burns within me. And I will #{bold}#break#{normal}# you!", "I... am %s. Here and now I face you without fear or hesitation, for the utter determination burns within me. And I will #{bold}#break#{normal}# you!", "tformat")
---]==]
-
+Who are you, young creature, to stand up to a High Priest of Amakthel? Do you not know that you are before a servant of the Almighty Creator, the Sunfather, the God of Gods, Lord of all Eyal? In the millenia I have lived I have killed whole races like yourself. I have even wrenched the spirits of immortal gods from this world. So who are you, little one, who dare defy me?]], [[#LIGHT_GREEN#*Devant vous se dresse une horreur tentaculaire que vous reconnaissez pour ce qu'elle est vraiment. Un #{bold}#Sher'Tul#{normal}# vivant !*#WHITE#
+Qui es-tu, jeune créature, pour te dresser contre un Grand Prêtre d'Amakthel ? Ne sais-tu pas que tu te trouves devant un serviteur du Créateur Tout-Puissant, le Père-Soleil, le Dieu des Dieux, Seigneur de tout Eyal ? Au cours des millénaires que j'ai vécus, j'ai exterminé des races entières comme la tienne. J'ai même arraché à ce monde les esprits de dieux immortels. Alors qui es-tu, petit être, pour oser me défier ?]], "_t")
+t("I... am %s, of the seed of Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "Je... suis %s, de la semence de Garkul le Dévoreur. Garkul nous a appris à combattre les légendes, et à ne reculer devant aucun acte, même le plus désespéré. Ici et maintenant, je te fais face sans peur ni hésitation, car l'esprit de Garkul brûle en moi. Et en son nom, je vais te #{bold}#briser#{normal}# !", "tformat")
+t("I... am %s, though I lack my original body my mind is bound to Garkul the Devourer. Garkul taught us to fight legends, and to flinch not from even the most desperate deed. Here and now I face you without fear or hesitation, for the spirit of Garkul burns within me. And in his name I will #{bold}#break#{normal}# you!", "Je... suis %s ; bien que j'aie perdu mon corps d'origine, mon esprit est lié à Garkul le Dévoreur. Garkul nous a appris à combattre les légendes, et à ne reculer devant aucun acte, même le plus désespéré. Ici et maintenant, je te fais face sans peur ni hésitation, car l'esprit de Garkul brûle en moi. Et en son nom, je vais te #{bold}#briser#{normal}# !", "tformat")
+t("I... am %s and I am not mortal! Garkul taught the orcs to fight legends, and to flinch not from even the most desperate deed. We learned that from them! Here and now I face you without fear or hesitation, for cold touch of undeath is within me. And I will #{bold}#break#{normal}# you!", "Je... suis %s, et je ne suis pas mortel ! Garkul a appris aux orcs à combattre les légendes, et à ne reculer devant aucun acte, même le plus désespéré. Nous avons appris cela d'eux ! Ici et maintenant, je te fais face sans peur ni hésitation, car le froid de la non-mort m'habite. Et je vais te #{bold}#briser#{normal}# !", "tformat")
+t("I... am %s. Here and now I face you without fear or hesitation, for the utter determination burns within me. And I will #{bold}#break#{normal}# you!", "Je... suis %s. Ici et maintenant, je te fais face sans peur ni hésitation, car une détermination absolue brûle en moi. Et je vais te #{bold}#briser#{normal}# !", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/chats/weissi-machine.lua"
 
-t("[leave]", "[partir]", "_t")
-t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
-t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense :", "_t")
-t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
-t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(s))]", "tformat")
-t("Improve", "Améliore", "_t")
-t("Learn", "Apprendre", "_t")
-t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
--- texte non traduit
---[==[
 t([[#LIGHT_GREEN#*Before you is an extremely old looking machine. It seems to be infused with some sort of psionic energy; impossible as this sounds.
 And it #{bold}#speaks#{normal}# to you!*#WHITE#
-Welcome @playername@. We have been waiting for you.]], [[#LIGHT_GREEN#*Before you is an extremely old looking machine. It seems to be infused with some sort of psionic energy; impossible as this sounds.
-And it #{bold}#speaks#{normal}# to you!*#WHITE#
-Welcome @playername@. We have been waiting for you.]], "_t")
-t("What are you?", "What are you?", "_t")
-t("Waiting for me?", "Waiting for me?", "_t")
-t("What do you need me for?", "What do you need me for?", "_t")
-t("I have muscle tissue for you.", "I have muscle tissue for you.", "_t")
-t("#LIGHT_GREEN#*You feel a powerful presence in your mind.*#WHITE#", "#LIGHT_GREEN#*You feel a powerful presence in your mind.*#WHITE#", "_t")
-t("I see...", "I see...", "_t")
-t("Yes. We predict you will be useful to us. If you are not, another will be.", "Yes. We predict you will be useful to us. If you are not, another will be.", "_t")
+Welcome @playername@. We have been waiting for you.]], [[#LIGHT_GREEN#*Devant vous se trouve une machine d'apparence extrêmement ancienne. Elle semble imprégnée d'une sorte d'énergie psionique, aussi impossible que cela paraisse.
+Et elle vous #{bold}#parle#{normal}# !*#WHITE#
+Bienvenue @playername@. Nous vous attendions.]], "_t")
+t("What are you?", "Qu'êtes-vous ?", "_t")
+t("Waiting for me?", "Vous m'attendiez ?", "_t")
+t("What do you need me for?", "Pourquoi avez-vous besoin de moi ?", "_t")
+t("I have muscle tissue for you.", "J'ai du tissu musculaire pour vous.", "_t")
+t("[leave]", "[partir]", "_t")
+t("#LIGHT_GREEN#*You feel a powerful presence in your mind.*#WHITE#", "#LIGHT_GREEN#*Vous sentez une puissante présence dans votre esprit.*#WHITE#", "_t")
+t("I see...", "Je vois...", "_t")
+t("Yes. We predict you will be useful to us. If you are not, another will be.", "Oui. Nous prédisons que vous nous serez utile. Si vous ne l'êtes pas, un autre le sera.", "_t")
 t([[We require recent yeti muscle tissue from powerful specimens. You will help us, or you will not. Either way they will come to us.
-If you do so we shall reward you with petty knowledge so that you may postpone your death.]], [[We require recent yeti muscle tissue from powerful specimens. You will help us, or you will not. Either way they will come to us.
-If you do so we shall reward you with petty knowledge so that you may postpone your death.]], "_t")
-t("That is... generous of you.", "That is... generous of you.", "_t")
-t("Talent categories", "Talent categories", "_t")
-t("Talents", "Talents", "_t")
-t("Improved core stats", "Improved core stats", "_t")
+If you do so we shall reward you with petty knowledge so that you may postpone your death.]], [[Il nous faut du tissu musculaire de yéti récent, prélevé sur des spécimens puissants. Vous nous aiderez, ou vous ne nous aiderez pas. Dans un cas comme dans l'autre, ils viendront à nous.
+Si vous le faites, nous vous récompenserons de quelques savoirs dérisoires afin que vous puissiez retarder votre mort.]], "_t")
+t("That is... generous of you.", "C'est... généreux de votre part.", "_t")
+t("Talent categories", "Catégories de talent", "_t")
+t("Improved core stats", "Statistiques de base améliorées", "_t")
 t([[#LIGHT_GREEN#*The muscle tissue suddenly vanishes from your inventory.*#WHITE#
-Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], [[#LIGHT_GREEN#*The muscle tissue suddenly vanishes from your inventory.*#WHITE#
-Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], "_t")
-t("What do you wish to learn?", "What do you wish to learn?", "_t")
+Thank you @playername@, this is indeed a suitable specimen. We shall honor our bargain with you. What do you wish to learn?]], [[#LIGHT_GREEN#*Le tissu musculaire disparaît soudain de votre inventaire.*#WHITE#
+Merci @playername@, voilà en effet un spécimen convenable. Nous honorerons notre marché. Que souhaitez-vous apprendre ?]], "_t")
+t("What do you wish to learn?", "Que souhaitez-vous apprendre ?", "_t")
+t("You cannot use your %s anymore; it is tainted by magic.", "Vous ne pouvez plus utiliser votre %s, la magie l'a contaminé.", "logPlayer")
 t([[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
-Do you still wish to take this path?]], [[Antimagic is a very special category. If you learn it you will never be able to use arcane powered items or talents again.
-Do you still wish to take this path?]], "_t")
-t("No.", "No.", "_t")
-t("Yes!", "Yes!", "_t")
-t("Very well. We can teach you a talent category; which do you want?", "Very well. We can teach you a talent category; which do you want?", "_t")
-t("Physical techniques", "Physical techniques", "_t")
-t("Arcane spells", "Arcane spells", "_t")
-t("Nature/Psionic talents", "Nature/Psionic talents", "_t")
-t("Hum no let me change my mind.", "Hum no let me change my mind.", "_t")
-t("Very well. We can teach you a talent.  Which do you want?", "Very well. We can teach you a talent.  Which do you want?", "_t")
-t("Very well. We can teach you a talent; which type do you want?", "Very well. We can teach you a talent; which type do you want?", "_t")
+Do you still wish to take this path?]], [[L'Antimagie est une catégorie très particulière. Si vous l'apprenez, vous ne pourrez plus jamais utiliser d'objets ou de talents alimentés par l'arcane.
+Souhaitez-vous tout de même emprunter cette voie ?]], "_t")
+t("No.", "Non.", "_t")
+t("Yes!", "Oui !", "_t")
+t("Select the party member to receive the reward:", "Sélectionnez le membre du groupe qui recevra la récompense :", "_t")
+t("Very well. We can teach you a talent category; which do you want?", "Très bien. Nous pouvons vous enseigner une catégorie de talent ; laquelle voulez-vous ?", "_t")
+t("Physical techniques", "Techniques Physiques", "_t")
+t("Arcane spells", "Sorts Arcaniques", "_t")
+t("Nature/Psionic talents", "Talents de Nature/Psionique", "_t")
+t("Hum no let me change my mind.", "Hum, non, laissez-moi changer d'avis.", "_t")
+t("[Allow training of talent category %s (at mastery %0.2f)]", "[Autoriser l'apprentissage de la catégorie de talents %s (à la maîtrise %0.2f)]", "tformat")
+t("Very well. We can teach you a talent.  Which do you want?", "Très bien. Nous pouvons vous enseigner un talent. Lequel voulez-vous ?", "_t")
+t("Very well. We can teach you a talent; which type do you want?", "Très bien. Nous pouvons vous enseigner un talent ; de quel type le voulez-vous ?", "_t")
+t("[%s talent %s (+%d level(s))]", "[%s le talent %s (+%d niveau(s))]", "tformat")
+t("Improve", "Améliorer", "_t")
+t("Learn", "Apprendre", "_t")
 t([[Antimagic talents are very special. To learn one means you will never be able to use arcane powered items or talents again.
-Do you still wish to take this path?]], [[Antimagic talents are very special. To learn one means you will never be able to use arcane powered items or talents again.
-Do you still wish to take this path?]], "_t")
-t("Very well. We can teach you a talent (unlocking the talent category is separate). Which do you want?", "Very well. We can teach you a talent (unlocking the talent category is separate). Which do you want?", "_t")
-t("Very well. We can increase one of your core stats by 4, which one?", "Very well. We can increase one of your core stats by 4, which one?", "_t")
+Do you still wish to take this path?]], [[Les talents antimagiques sont très particuliers. En apprendre un signifie que vous ne pourrez plus jamais utiliser d'objets ou de talents alimentés par l'arcane.
+Souhaitez-vous tout de même emprunter cette voie ?]], "_t")
+t("Very well. We can teach you a talent (unlocking the talent category is separate). Which do you want?", "Très bien. Nous pouvons vous enseigner un talent (le déblocage de la catégorie de talent se fait à part). Lequel voulez-vous ?", "_t")
+t("[Improve %s by +%d]", "[Améliore %s par +%d]", "tformat")
+t("Very well. We can increase one of your core stats by 4, which one?", "Très bien. Nous pouvons augmenter l'une de vos caractéristiques de base de 4 points ; laquelle ?", "_t")
+-- texte non traduit
+--[==[
+t("Talents", "Talents", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/damage_types.lua"
 
+t("pulse detonator", "détonateur à impulsion", "damage type")
 t("%s is knocked back!", "%s est repoussé !", "logSeen")
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("darkness pull", "attraction d'obscurité", "damage type")
+t("%s is pulled!", "%s est attiré !", "logSeen")
+t("%s resists the pull!", "%s résiste à l'attraction !", "logSeen")
+t("darkness pin", "immobilisation d'obscurité", "damage type")
 t("%s resists!", "%s résiste !", "logSeen")
--- texte non traduit
---[==[
-t("pulse detonator", "pulse detonator", "damage type")
-t("darkness pull", "darkness pull", "damage type")
-t("%s is pulled!", "%s is pulled!", "logSeen")
-t("%s resists the pull!", "%s resists the pull!", "logSeen")
-t("darkness pin", "darkness pin", "damage type")
-t("drain negative", "drain negative", "damage type")
-t("null_type", "null_type", "damage type")
-t("light + dark", "light + dark", "damage type")
-t("blighted needles", "blighted needles", "damage type")
-t("infective darkness", "infective darkness", "damage type")
-t("fiery vapour", "fiery vapour", "damage type")
-t("repairing", "repairing", "damage type")
-t("mind drone", "mind drone", "damage type")
-t("20% chance of physical repulsion", "20% chance of physical repulsion", "damage type")
-t("temporal ripples", "temporal ripples", "damage type")
-t("curse of amakthel", "curse of amakthel", "damage type")
-t("psionic searing", "psionic searing", "damage type")
-t("resource shock", "resource shock", "damage type")
-t("smoke cloud", "smoke cloud", "damage type")
-t("lightning web", "lightning web", "damage type")
-t("incendiary grenade", "incendiary grenade", "damage type")
-t("chemical grenade", "chemical grenade", "damage type")
-t("shock grenade", "shock grenade", "damage type")
-t("phosphorous", "phosphorous", "damage type")
-t("fire wall", "fire wall", "damage type")
-t("volatile fuel", "volatile fuel", "damage type")
-t("chemical", "chemical", "damage type")
-t("debilitating acid", "debilitating acid", "damage type")
-t("caustic steam", "caustic steam", "damage type")
-t("galvanic", "galvanic", "damage type")
-t("occult", "occult", "damage type")
-t("terrene", "terrene", "damage type")
---]==]
-
+t("drain negative", "drain négatif", "damage type")
+t("null_type", "type nul", "damage type")
+t("light + dark", "lumière + obscurité", "damage type")
+t("blighted needles", "aiguilles pestilentielles", "damage type")
+t("infective darkness", "obscurité infectieuses", "damage type")
+t("fiery vapour", "vapeur ardente", "damage type")
+t("repairing", "réparation", "damage type")
+t("mind drone", "drone mental", "damage type")
+t("20% chance of physical repulsion", "20% de chances de répulsion physique", "damage type")
+t("temporal ripples", "ondulations temporelles", "damage type")
+t("curse of amakthel", "malédiction d'amakthel", "damage type")
+t("psionic searing", "brûlure psionique", "damage type")
+t("resource shock", "choc de ressources", "damage type")
+t("smoke cloud", "nuage de fumée", "damage type")
+t("lightning web", "toile de foudre", "damage type")
+t("incendiary grenade", "grenade incendiaire", "damage type")
+t("chemical grenade", "grenade chimique", "damage type")
+t("shock grenade", "grenade de choc", "damage type")
+t("phosphorous", "phosphore", "damage type")
+t("fire wall", "mur de feu", "damage type")
+t("volatile fuel", "carburant volatil", "damage type")
+t("chemical", "chimique", "damage type")
+t("debilitating acid", "acide débilitant", "damage type")
+t("caustic steam", "vapeur caustique", "damage type")
+t("galvanic", "galvanique", "damage type")
+t("occult", "occulte", "damage type")
+t("terrene", "tellurique", "damage type")
 
 ------------------------------------------------
 section "tome-orcs/data/factions.lua"
 
-
+t("Kruk Pride", "Orgueil Kruk", "faction name")
+t("Free Whitehooves", "Sabots-Blancs Libres", "faction name")
+t("Whitehooves", "Sabots-Blancs", "faction name")
+t("Kar'Haïb Dominion", "Dominion Kar'Haïb", "faction name")
+t("Atmos Tribe", "Tribu Atmos", "faction name")
+t("Kaltor's Shop", "Boutique de Kaltor", "faction name")
 -- texte non traduit
 --[==[
-t("Kruk Pride", "Kruk Pride", "faction name")
-t("Free Whitehooves", "Free Whitehooves", "faction name")
-t("Whitehooves", "Whitehooves", "faction name")
-t("Kar'Haïb Dominion", "Kar'Haïb Dominion", "faction name")
-t("Atmos Tribe", "Atmos Tribe", "faction name")
-t("Kaltor's Shop", "Kaltor's Shop", "faction name")
 t("Amakthel", "Amakthel", "faction name")
 --]==]
 
@@ -724,94 +683,62 @@ t("Anorithil patrol", "Patrouille d'Anorithil", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/general/encounters/fareast.lua"
 
+t("Pocket of Time", "Poche de Temps", "entity name")
 t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
+t("Strange temporal disruption", "Étrange perturbation temporelle", "_t")
 t("Ruined Dungeon", "Donjon en Ruines", "entity name")
 t("Entrance to a ruined dungeon", "Entrée du donjon en ruines", "_t")
--- texte non traduit
---[==[
-t("Pocket of Time", "Pocket of Time", "entity name")
-t("Strange temporal disruption", "Strange temporal disruption", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/general/encounters/maj-eyal.lua"
 
+t("Tinker Cave", "Caverne du Bricoleur", "entity name")
 t("harmless", "inoffensif", "entity type")
 t("special", "spécial", "entity subtype")
--- texte non traduit
---[==[
-t("Tinker Cave", "Tinker Cave", "entity name")
-t("Entrance the tinker's master cave", "Entrance the tinker's master cave", "_t")
---]==]
-
+t("Entrance the tinker's master cave", "Entrée de la caverne du maître bricoleur", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/events/AAA.lua"
 
+t("steamtech weaponry", "armement vapotech", "_t")
+t("defensive items", "objets défensifs", "_t")
 t("tinkers", "Babioles", "_t")
+t("arcane and psi", "arcane et psi", "_t")
+t("runes and infusions", "runes et essences", "_t")
 t("tools", "outils", "_t")
--- texte non traduit
---[==[
-t("steamtech weaponry", "steamtech weaponry", "_t")
-t("defensive items", "defensive items", "_t")
-t("arcane and psi", "arcane and psi", "_t")
-t("runes and infusions", "runes and infusions", "_t")
-t("Ancient Automated Archive (%s)", "Ancient Automated Archive (%s)", "tformat")
-t("An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "_t")
---]==]
-
+t("Ancient Automated Archive (%s)", "Archive Automatisée Antique (%s)", "tformat")
+t("An ancient archive of knowledge! You've heard tales of those triangular store devices, holding items and restoring them. For a price.", "Une antique archive de savoir ! Vous avez entendu parler de ces dispositifs triangulaires qui conservent des objets et les restituent. Contre paiement.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/events/campfire.lua"
 
-
--- texte non traduit
---[==[
-t("campfire", "campfire", "_t")
---]==]
-
+t("campfire", "feu de camp", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/events/drills.lua"
 
-
--- texte non traduit
---[==[
-t("corrupted geothermal drill", "corrupted geothermal drill", "_t")
-t("geothermal drill", "geothermal drill", "_t")
-t("A huge geothermal drill, pumping heat and steam from Eyal's crust.", "A huge geothermal drill, pumping heat and steam from Eyal's crust.", "_t")
---]==]
-
+t("corrupted geothermal drill", "foreuse géothermique corrompue", "_t")
+t("geothermal drill", "foreuse géothermique", "_t")
+t("A huge geothermal drill, pumping heat and steam from Eyal's crust.", "Une immense foreuse géothermique, qui pompe la chaleur et la vapeur de la croûte d'Eyal.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/events/herbs.lua"
 
-
--- texte non traduit
---[==[
-t("pile of herbs", "pile of herbs", "_t")
-t("A little stockpile of herbs, whomever left them there should be thanked.", "A little stockpile of herbs, whomever left them there should be thanked.", "_t")
-t("#OLIVE_DRAB#You carefully pickup the stack of herbs.", "#OLIVE_DRAB#You carefully pickup the stack of herbs.", "log")
---]==]
-
+t("pile of herbs", "tas d'herbes", "_t")
+t("A little stockpile of herbs, whomever left them there should be thanked.", "Un petit stock d'herbes ; quiconque les a laissées là mérite des remerciements.", "_t")
+t("#OLIVE_DRAB#You carefully pickup the stack of herbs.", "#OLIVE_DRAB#Vous ramassez soigneusement le tas d'herbes.", "log")
 
 ------------------------------------------------
 section "tome-orcs/data/general/events/merchant-stall.lua"
 
-
--- texte non traduit
---[==[
-t("market stall", "market stall", "_t")
-t("A market stall, it looks abandoned..", "A market stall, it looks abandoned..", "_t")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f gold#LAST# worth of money", "tformat")
-t("Market Stall", "Market Stall", "_t")
+t("market stall", "étal de marché", "_t")
+t("A market stall, it looks abandoned..", "Un étal de marché ; il semble abandonné.", "_t")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- des objets valant #GOLD#%0.2f pièces d'or#LAST#", "tformat")
+t("Market Stall", "Étal de Marché", "_t")
 t([[You loot the stall and gain:
-]], [[You loot the stall and gain:
+]], [[Vous fouillez l'étal et obtenez :
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/general/events/sewer-alligator-nest.lua"
@@ -4586,6 +4513,7 @@ t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1
 section "tome-orcs/data/talents/misc/races.lua"
 
 t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
+t("Whitehooves", "Sabots-Blancs", "talent name")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
@@ -4615,7 +4543,6 @@ t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic
 		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
 		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], "tformat")
 t("whitehooves", "whitehooves", "talent type")
-t("Whitehooves", "Whitehooves", "talent name")
 t([[Improves your undead body, increasing Strength and Magic by %d.
 		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
 		Each turn spent not moving you lose a charge.]], [[Improves your undead body, increasing Strength and Magic by %d.
@@ -5832,6 +5759,7 @@ t("efficiency %d%% / cooldown %d%%", "efficiency %d%% / cooldown %d%%", "tformat
 section "tome-orcs/data/talents/steam/magnetism.lua"
 
 t("#Source# shatters '#Target#'.", "#Source# fracasse '#Target#'.", "logCombat")
+t("lightning web", "toile de foudre", "_t")
 -- texte non traduit
 --[==[
 t("Static Shock", "Static Shock", "talent name")
@@ -5854,7 +5782,6 @@ Activating this ability discharges blocked damage, firing a bolt of lightning de
 If at maximum charge, this also dazes for 2 turns and the shield strike is a guarenteed critical hit.
 The maximum damage you can absorb will increase with your Steampower.]], "tformat")
 t("Lightning Web", "Lightning Web", "talent name")
-t("lightning web", "lightning web", "_t")
 t([[Project a radius 3 electric field from your shield lasting %d turns. Enemies within this field will take an automatic shield strike for %d%% lightning damage each turn, while allies will gain flat damage reduction equal to %d%% (%d) of block value.
 		All damage reduced by this effect will be stored for Capacitor Discharge.]], [[Project a radius 3 electric field from your shield lasting %d turns. Enemies within this field will take an automatic shield strike for %d%% lightning damage each turn, while allies will gain flat damage reduction equal to %d%% (%d) of block value.
 		All damage reduced by this effect will be stored for Capacitor Discharge.]], "tformat")
@@ -6005,6 +5932,7 @@ t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen
 t("%s resists the blinding light!", "%s résiste à la lumière aveuglante !", "logSeen")
 t("%s is knocked back!", "%s est repoussé !", "logSeen")
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("%s resists the pull!", "%s résiste à l'attraction !", "logSeen")
 -- texte non traduit
 --[==[
 t("Medical Injector", "Medical Injector", "talent name")
@@ -6202,7 +6130,6 @@ t([[You fire a special steamsaw shot with your steamgun(s) at a target for %d%% 
 		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.
 		This talent does not use ammo as it is the ammo.]], "tformat")
 t("Hook Shell", "Hook Shell", "talent name")
-t("%s resists the pull!", "%s resists the pull!", "logSeen")
 t([[You fire a special hook shot with your steamgun(s) at a target creature or location.
 		If you target a creature, they are pulled up to %d tiles towards you.
 		If you target an empty tile, you are pulled up to %d tiles towards it.
@@ -7623,6 +7550,7 @@ t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("floor", "sol", "entity subtype")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- des objets valant #GOLD#%0.2f pièces d'or#LAST#", "tformat")
 -- texte non traduit
 --[==[
 t("stale sewer water", "stale sewer water", "entity name")
@@ -7631,7 +7559,6 @@ t("way into the tower", "way into the tower", "entity name")
 t("way into the sewers", "way into the sewers", "entity name")
 t("structural weakness", "structural weakness", "entity name")
 t("booty chest", "booty chest", "entity name")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- #GOLD#%0.2f gold#LAST# worth of money", "tformat")
 t("Booty chest", "Booty chest", "_t")
 t([[You plunder the chest and gain:
 ]], [[You plunder the chest and gain:
@@ -7974,12 +7901,7 @@ t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!
 ------------------------------------------------
 section "tome-orcs/data/zones/kaltor-shop/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Kaltor's Shop", "Kaltor's Shop", "_t")
---]==]
-
+t("Kaltor's Shop", "Boutique de Kaltor", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/grids.lua"
@@ -8678,12 +8600,7 @@ t("Tinkers Store", "Tinkers Store", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Kruk Pride", "Kruk Pride", "_t")
---]==]
-
+t("Kruk Pride", "Orgueil Kruk", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ureslak-host/npcs.lua"
