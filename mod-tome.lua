@@ -6374,7 +6374,7 @@ t("A not-so-strange growth on the dungeon floor.", "Une croissance pas si étran
 t("giant venus flytrap", "attrape-mouches géant", "entity name")
 t("This flesh-eating plant has grown to enormous proportions and seeks to quell its hunger.", "Cette plante carnivore a atteint des proportions énormes et cherche à apaiser sa faim.", "_t")
 t("treant", "tréant", "entity name")
-t("A very strong near-sentient tree, which has become hostile to other living things.", "Un arbre quasi intelligent, qui est devenu hostile aux autres êtres vivants.", "_t")
+t("A very strong near-sentient tree, which has become hostile to other living things.", "Un arbre doué d'une conscience rudimentaire, devenu hostile envers tout être vivant.", "_t")
 t("poison ivy", "sumac vénéneux", "entity name")
 t("This harmless little plant makes you all itchy.", "Cette petite plante inoffensive vous donne des démangeaisons.", "_t")
 t("honey tree", "arbre à miel", "entity name")
