@@ -388,7 +388,7 @@ t([[#{bold}##GOLD#Ashes of Urh'Rok - Expansion#LAST##{normal}#
 #LIGHT_UMBER#New race:#WHITE# Doomelves. Shalore who've taken to the demonic alterations especially well, corrupting their typical abilities into a darker form.
 #LIGHT_UMBER#New artifacts, lore, zones, events...#WHITE# For your demonic delight!
 
-]], [[#{bold}##GOLD#Ashes of Urh'Rok - Extension#LAST##{normal}#
+]], [[#{bold}##GOLD#Cendres d'Urh'Rok - Extension#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#Beaucoup de personnes dans Maj'Eyal ont entendu parler des "démons", des créatures sadiques qui apparaissent apparemment de nulle part, laissant une traînée de souffrance et de destruction partout où elles vont.#{normal}##DERNIER#
 
 #{bold}#Modifications#{normal}# :
@@ -411,7 +411,7 @@ t([[#{bold}##GOLD#Embers of Rage - Expansion#LAST##{normal}#
 #LIGHT_UMBER#Salves:#WHITE# Bound to the tinker system, create powerful medical salves to inject into your skin, replacing the infusions§runes system.
 #LIGHT_UMBER#A ton#WHITE# of artifacts, lore, zones, events... 
 
-]], [[#{bold}##GOLD#Embers of Rage - Extension#LAST##{normal}#
+]], [[#{bold}##GOLD#Braises de Rage - Extension#LAST##{normal}#
 #{italic}##ANTIQUE_WHITE#Une année s'est écoulée depuis que celui que les Orcs appellent le "Fléau de l'Ouest" est venu écraser à lui seul les Clans Orcs de Grushnak, Vor, Gorbat et Rak'Shor. Les royaumes alliés, désormais liés par un portail lointain à leurs alliés, depuis longtemps perdu, du Mur du Soleil, les ont aidés à conquérir la plus grande partie du Var'Eyal. Les quelques restes des Clans ravagées sont en cage... mais un Clan demeure.#{normal}##LAST#
 
 #{bold}#Modifications#{normal}# :
