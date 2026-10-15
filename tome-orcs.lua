@@ -94,7 +94,7 @@ t("#GOLD#Life per level:#LIGHT_BLUE# -1", "#GOLD#Vie par niveau :#LIGHT_BLUE# -1
 t("Psyshot", "Psychodessoudeur", "birth descriptor name")
 t("Bend the mind, bend the tech. All around inspire dread.", "Pliez l'esprit, pliez la technique. Et tout autour, semez l'effroi.", "_t")
 t("Powerful psionics are able to enter a gestalt with steam generators and technology to enhance their own mental prowess.", "De puissants psioniques sont capables d'entrer en gestalt avec des générateurs à vapeur et la technologie afin d'amplifier leurs propres prouesses mentales.", "_t")
-t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "Le Psychodessoudeur combine cette capacité de gestalt pour renforcer son étoile mentale tout en faisant feu avec son pistolet à vapeur pour dévaster les lignes ennemies.", "_t")
+t("The Psyshot combines this ability to gestalt to enhance his mindstar all the while shooting her steamgun to devastate the enemy lines.", "Le Psychodessoudeur combine cette capacité de gestalt pour renforcer son étoile d'âme tout en faisant feu avec son pistolet à vapeur pour dévaster les lignes ennemies.", "_t")
 t("Their most important stats are: Cunning, Willpower and Dexterity", "Leurs caractéristiques les plus importantes sont : Ruse, Volonté et Dextérité", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +3 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +3 Cunning", "#LIGHT_BLUE# * +0 Magie, +3 Volonté, +3 Ruse", "_t")
@@ -202,8 +202,8 @@ t("aether-infused steamsaw", "scie à vapeur infusée d'éther", "_t")
 t("Saws made of metal? That is no good for a discerning Technomancer so Galen made a saw out of pure arcane forces!", "Des scies en métal ? Pas assez bien pour un Technomancien exigeant, alors Galen en a forgé une à partir de forces arcaniques pures !", "_t")
 t("Increases the steam your arcane dynamo generate per 10 points of mana by 2.", "Augmente de 2 la vapeur générée par votre dynamo arcanique pour chaque tranche de 10 mana dépensés.", "_t")
 t("Eye of the Lost", "Oeil de l'Égaré", "entity name")
-t("pale mindstar", "étoile mentale pâle", "_t")
-t("A strange aura surrounds this mindstar. You feel a presence, but it is obscured, as if it refuses to be found.", "Une aura étrange entoure cette étoile mentale. Vous sentez une présence, mais elle est obscurcie, comme si elle refusait d'être trouvée.", "_t")
+t("pale mindstar", "étoile d'âme pâle", "_t")
+t("A strange aura surrounds this mindstar. You feel a presence, but it is obscured, as if it refuses to be found.", "Une aura étrange entoure cette étoile d'âme. Vous sentez une présence, mais elle est obscurcie, comme si elle refusait d'être trouvée.", "_t")
 t("reduces mental save", "réduit la sauvegarde mentale", "_t")
 t("see all other beings around you for 5 turns", "permet de voir tous les autres êtres alentour pendant 5 tours", "_t")
 t("Brass Goggles", "Lunettes en Laiton", "entity name")
@@ -1222,75 +1222,67 @@ t("yeti", "yeti", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/boss-artifacts.lua"
 
+t("Yeti-fur Cloak", "Cape en Fourrure de Yéti", "entity name")
+t("matted fur cloak", "cape en fourrure emmêlée", "_t")
+t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "Cette cape de fourrure est épaisse et emmêlée, mais reste incroyablement douce au toucher.", "_t")
+t("Korbek's Spyglass", "Longue-vue de Korbek", "entity name")
 t("golden telescope", "télescope doré", "_t")
+t("This antique spyglass is weathered from use, but seems well maintained.", "Cette longue-vue antique est usée par le temps, mais semble bien entretenue.", "_t")
+t("Talosis' Counterpoint", "Contrepoint de Talosis", "entity name")
+t("ornate gun", "arme ornée", "_t")
+t("It's said that Talosis never lost an argument. Now you know why.", "On dit que Talosis n'a jamais perdu un débat. Vous savez maintenant pourquoi.", "_t")
+t("The Twisted Blade", "La Lame Tordue", "entity name")
+t("vile, twisted steamsaw", "scie à vapeur vile et tordue", "_t")
+t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "Vous apercevez des paillettes d'or dans cette masse immonde d'acier tordu, signe d'une origine autrefois grandiose. Quelle que soit la gloire qu'elle eut jadis, elle a depuis longtemps disparu, remplacée par quelque chose de bien plus sinistre...", "_t")
+t("Fully heal yourself. (15 turn cooldown)", "vous soigne entièrement (rechargement : 15 tours)", "_t")
+t("Sunstone", "Pierre du Soleil", "entity name")
+t("warm stone", "pierre tiède", "_t")
+t("This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "Cette étrange pierre rayonne de la chaleur du Soleil. Peut-être pourrait-elle servir à générer davantage de vapeur ?", "_t")
+t("Overseer", "Superviseuse", "entity name")
+t("cracked mindstar", "étoile d'âme fissurée", "_t")
+t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "Des fragments du pouvoir du Mur Mental habitent encore cette gemme antique et fissurée.", "_t")
 t("reduces mental save", "réduit la sauvegarde mentale", "_t")
+t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "domine mentalement ou assomme psychiquement (selon les immunités) une cible proche à portée %d pendant %d tours (la réussite dépend du Pouvoir Mental)", "tformat")
+t("#Source# psychically dominates #target# through %s %s!", "#Source# domine psychiquement #Target# au travers de %s%s !", "logCombat")
+t("Ureslak's Focus", "Foyer d'Ureslak", "entity name")
 t("multi-hued", "multi-teintes", "entity subtype")
--- texte non traduit
---[==[
-t("Yeti-fur Cloak", "Yeti-fur Cloak", "entity name")
-t("matted fur cloak", "matted fur cloak", "_t")
-t("This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "This fur cloak is thick and matted, yet remains incredibly soft to the touch.", "_t")
-t("Korbek's Spyglass", "Korbek's Spyglass", "entity name")
-t("This antique spyglass is weathered from use, but seems well maintained.", "This antique spyglass is weathered from use, but seems well maintained.", "_t")
-t("Talosis' Counterpoint", "Talosis' Counterpoint", "entity name")
-t("ornate gun", "ornate gun", "_t")
-t("It's said that Talosis never lost an argument. Now you know why.", "It's said that Talosis never lost an argument. Now you know why.", "_t")
-t("The Twisted Blade", "The Twisted Blade", "entity name")
-t("vile, twisted steamsaw", "vile, twisted steamsaw", "_t")
-t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "_t")
-t("Fully heal yourself. (15 turn cooldown)", "Fully heal yourself. (15 turn cooldown)", "_t")
-t("Sunstone", "Sunstone", "entity name")
-t("warm stone", "warm stone", "_t")
-t("This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "_t")
-t("Overseer", "Overseer", "entity name")
-t("cracked mindstar", "cracked mindstar", "_t")
-t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "_t")
-t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "tformat")
-t("#Source# psychically dominates #target# through %s %s!", "#Source# psychically dominates #target# through %s %s!", "logCombat")
-t("Ureslak's Focus", "Ureslak's Focus", "entity name")
-t("crystallized drake heart", "crystallized drake heart", "_t")
-t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "_t")
-t("Starcaller", "Starcaller", "entity name")
-t("black staff", "black staff", "_t")
-t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "_t")
-t("Liquid Metal Cloak", "Liquid Metal Cloak", "entity name")
-t("shiny metallic cloak", "shiny metallic cloak", "_t")
-t("This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "_t")
---]==]
-
+t("crystallized drake heart", "coeur de drake cristallisé", "_t")
+t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "Cette gemme fissurée est tombée des restes du défunt Ureslak. Elle semble avoir été transformée en un cristal éclatant par le processus, quel qu'il soit, qui l'a réanimé.", "_t")
+t("Starcaller", "Appel Stellaire", "entity name")
+t("black staff", "bâton noir", "_t")
+t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "Un bâton de lumière recouvert d'estralite et de gemmes. Il semble refléter la lumière des étoiles même en plein jour.", "_t")
+t("Liquid Metal Cloak", "Cape de Métal Liquide", "entity name")
+t("shiny metallic cloak", "cape métallique brillante", "_t")
+t("This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "Cette étrange feuille de métal ondule au vent comme une cape ordinaire. Quiconque l'a fabriquée était un véritable maître.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/egos/steamgun.lua"
 
+t(" of tinkering (#STATBONUS#)", " du bricolage (#STATBONUS#)", "entity name")
 t("tinker", "babiole", "entity keyword")
--- texte non traduit
---[==[
-t(" of tinkering (#STATBONUS#)", " of tinkering (#STATBONUS#)", "entity name")
-t("gunslinger's ", "gunslinger's ", "entity name")
-t("gunslinger", "gunslinger", "entity keyword")
-t("strafer's ", "strafer's ", "entity name")
-t("strafer", "strafer", "entity keyword")
-t(" of life draining", " of life draining", "entity name")
-t("draining", "draining", "entity keyword")
-t("overgrown ", "overgrown ", "entity name")
-t("overgrown", "overgrown", "entity keyword")
---]==]
-
+t("gunslinger's ", "de flingueur ", "entity name")
+t("gunslinger", "flingueur", "entity keyword")
+t("strafer's ", "de mitrailleur ", "entity name")
+t("strafer", "mitrailleur", "entity keyword")
+t(" of life draining", " de drainage de vie", "entity name")
+t("draining", "drainage", "entity keyword")
+t("overgrown ", "envahi ", "entity name")
+t("overgrown", "envahi", "entity keyword")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/generic-world-artifacts.lua"
 
+t("Blood of Undeath", "Sang de la Non-Vie", "entity name")
+t("crimson phial", "fiole cramoisie", "_t")
+t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "Cette fiole de sang corrompu empeste la mort et la décomposition. Et pourtant, vous vous sentez étrangement attiré par elle... Est-ce la tentation de la vie éternelle ? Ou du pouvoir ? Vous ne sauriez le dire, mais l'envie d'en boire est grande.", "_t")
+t("quaff the Blood of Undeath to prepare your body for undeath", "boire le Sang de la Non-Vie pour préparer votre corps à la non-mort", "_t")
 t("%s quaffs the %s!", "%s bois le %s !", "logSeen")
+t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#Vous sentez le Sang de la Non-Vie se précipiter dans vos veines. Vous sentez votre vie se flétrir légèrement (-50 de vie maximale, -120 de vie minimale).", "logPlayer")
+t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#Le Sang de la Non-Vie renforce votre corps de mort-vivant (-60 de vie maximale, -140 de vie minimale).", "logPlayer")
 -- texte non traduit
 --[==[
 t("potion", "potion", "entity type")
 t("potion", "potion", "entity subtype")
-t("Blood of Undeath", "Blood of Undeath", "entity name")
-t("crimson phial", "crimson phial", "_t")
-t("This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "This vial of corrupted blood reeks of death and decay. Yet somehow you feel drawn to it... Is it the tentalizing notion of eternal life? Or power? You can not tell, but the urge to drink it is great.", "_t")
-t("quaff the Blood of Undeath to prepare your body for undeath", "quaff the Blood of Undeath to prepare your body for undeath", "_t")
-t("#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "#CRIMSON#You feel the Blood of Undeath rushing through your veins. Your can feel your life wither away a little (-50 maximum life, -120 minimum life).", "logPlayer")
-t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life, -140 minimum life).", "logPlayer")
 --]==]
 
 
@@ -1298,14 +1290,14 @@ t("#CRIMSON#The Blood of Undeath strengthens your undead body (-60 maximum life,
 section "tome-orcs/data/general/objects/inscriptions.lua"
 
 t("scroll", "parchemin", "entity type")
+t("Steamtech implants can be grafted on the users skin..", "Les implants vapotech peuvent être greffés sur la peau de leur utilisateur.", "_t")
+t("implant on your skin.", "Implanter sur votre peau.", "_t")
+t("steam generator implant", "implant de générateur de vapeur", "entity name")
+t("medical injector implant", "implant d'injecteur médical", "entity name")
 -- texte non traduit
 --[==[
 t("implant", "implant", "entity subtype")
 t("implant", "implant", "_t")
-t("Steamtech implants can be grafted on the users skin..", "Steamtech implants can be grafted on the users skin..", "_t")
-t("implant on your skin.", "implant on your skin.", "_t")
-t("steam generator implant", "steam generator implant", "entity name")
-t("medical injector implant", "medical injector implant", "entity name")
 --]==]
 
 
@@ -1314,72 +1306,59 @@ section "tome-orcs/data/general/objects/leather-hats.lua"
 
 t("armor", "armure", "entity type")
 t("head", "tête", "entity subtype")
+t("A hat made of leather. Very stylish.", "Un chapeau en cuir. Très élégant.", "_t")
+t("rough leather hat", "chapeau de cuir grossier", "entity name")
 t("rough", "brut", "entity short_name")
-t("hardened", "endurci", "entity short_name")
+t("hardened leather hat", "chapeau de cuir durci", "entity name")
+t("hardened", "durci", "entity short_name")
+t("drakeskin leather hat", "chapeau de cuir en peau de dragonnet", "entity name")
 t("drakeskin", "cuir de dragonnet", "entity short_name")
--- texte non traduit
---[==[
-t("A hat made of leather. Very stylish.", "A hat made of leather. Very stylish.", "_t")
-t("rough leather hat", "rough leather hat", "entity name")
-t("hardened leather hat", "hardened leather hat", "entity name")
-t("drakeskin leather hat", "drakeskin leather hat", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/quest-artifacts.lua"
 
 t("tinker", "babiole", "entity type")
 t("power", "pouvoir", "entity subtype")
-t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
--- texte non traduit
---[==[
-t("Automated Portable Extractor", "Automated Portable Extractor", "entity name")
+t("Automated Portable Extractor", "Extracteur Portatif Automatisé", "entity name")
 t([[The APE is a multifunction tinker toolbox. It can store temporarily any amount of items and when requested melt them down using metallurgic and chemical processes.
 The metals are melted into lumps of ore to server for the creation of tinkers.
-Any remains are melted and turned into valuable materials.]], [[The APE is a multifunction tinker toolbox. It can store temporarily any amount of items and when requested melt them down using metallurgic and chemical processes.
-The metals are melted into lumps of ore to server for the creation of tinkers.
-Any remains are melted and turned into valuable materials.]], "_t")
-t("melt all the items in the APE at once (also done automatically when you change level)", "melt all the items in the APE at once (also done automatically when you change level)", "_t")
-t("APE", "APE", "_t")
-t("Make the Automated Portable Extractor the default item's destroyer?", "Make the Automated Portable Extractor the default item's destroyer?", "_t")
-t("You do not have any items to melt in your APE or on the floor.", "You do not have any items to melt in your APE or on the floor.", "_t")
-t("Melt all %d item(s) on the floor?", "Melt all %d item(s) on the floor?", "tformat")
-t("Melt all %d item(s) in your APE?", "Melt all %d item(s) in your APE?", "tformat")
---]==]
-
+Any remains are melted and turned into valuable materials.]], [[L'EPA est une boîte à outils de gadgets multifonction. Elle peut stocker temporairement n'importe quelle quantité d'objets et, sur demande, les faire fondre grâce à des procédés métallurgiques et chimiques.
+Les métaux sont fondus en blocs de minerai destinés à la fabrication de gadgets.
+Tout le reste est fondu et transformé en matériaux précieux.]], "_t")
+t("melt all the items in the APE at once (also done automatically when you change level)", "faire fondre tous les objets de l'EPA en une fois (également effectué automatiquement lors d'un changement de niveau)", "_t")
+t("APE", "EPA", "_t")
+t("Make the Automated Portable Extractor the default item's destroyer?", "Faire de l'Extracteur Portatif Automatisé le destructeur d'objets par défaut ?", "_t")
+t("You do not have any items to melt in your APE or on the floor.", "Vous n'avez aucun objet à fondre dans votre EPA ou au sol.", "_t")
+t("Melt all %d item(s) on the floor?", "Faire fondre tous les objets au sol ? (Quantité : %d)", "tformat")
+t("Melt all %d item(s) in your APE?", "Faire fondre tous les objets de votre EPA ? (Quantité : %d)", "tformat")
+t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/schematics.lua"
 
 t("scroll", "parchemin", "entity type")
--- texte non traduit
---[==[
-t("schematic", "schematic", "entity subtype")
-t("schematic", "schematic", "_t")
-t("Schematics are used by tinkers to learn how to build new constructs.", "Schematics are used by tinkers to learn how to build new constructs.", "_t")
-t("#LIGHT_GREEN#[can be learnt]#LAST#", "#LIGHT_GREEN#[can be learnt]#LAST#", "_t")
-t("#LIGHT_BLUE#[already known tinker]#LAST#", "#LIGHT_BLUE#[already known tinker]#LAST#", "_t")
-t("learn how to build this tinker", "learn how to build this tinker", "_t")
-t("You can not learn schematics without knowing how to craft items.", "You can not learn schematics without knowing how to craft items.", "log")
-t("You already know this schematic.", "You already know this schematic.", "log")
-t("schematic: %s", "schematic: %s", "tformat")
---]==]
-
+t("schematic", "plan", "entity subtype")
+t("schematic", "Plan", "_t")
+t("Schematics are used by tinkers to learn how to build new constructs.", "Les plans sont utilisés par les bricoleurs pour apprendre à fabriquer de nouveaux gadgets.", "_t")
+t("#LIGHT_GREEN#[can be learnt]#LAST#", "#LIGHT_GREEN#[peut être appris]#LAST#", "_t")
+t("#LIGHT_BLUE#[already known tinker]#LAST#", "#LIGHT_BLUE#[gadget déjà connu]#LAST#", "_t")
+t("learn how to build this tinker", "apprendre à fabriquer ce gadget", "_t")
+t("You can not learn schematics without knowing how to craft items.", "Vous ne pouvez pas apprendre de plans sans savoir comment fabriquer des objets.", "log")
+t("You already know this schematic.", "Vous connaissez déjà ce plan.", "log")
+t("schematic: %s", "plan : %s", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/special-misc.lua"
 
-
+t("kruk cloak", "cape kruk", "entity name")
+t("A stylish kruk-style cloak, to look awesome.", "Une élégante cape de style kruk, pour avoir une allure formidable.", "_t")
+t("Teleporter to the Tinker's Cave", "Téléporteur vers la Caverne du Bricoleur", "entity name")
+t("A strange metal contraption imbued with some kind of teleportation magic.", "Un étrange engin métallique imbu d'une sorte de magie de téléportation.", "_t")
+t("teleport.", "Téléporter.", "_t")
+t("The teleporter's delicate systems are perturbed by foes on this level. You must have no foes left to be able to use it.", "Les systèmes délicats du téléporteur sont perturbés par la présence d'ennemis à ce niveau. Vous devez avoir éliminé tous les ennemis pour pouvoir l'utiliser.", "logPlayer")
 -- texte non traduit
 --[==[
-t("kruk cloak", "kruk cloak", "entity name")
 t("kruk", "kruk", "entity short_name")
-t("A stylish kruk-style cloak, to look awesome.", "A stylish kruk-style cloak, to look awesome.", "_t")
-t("Teleporter to the Tinker's Cave", "Teleporter to the Tinker's Cave", "entity name")
-t("A strange metal contraption imbued with some kind of teleportation magic.", "A strange metal contraption imbued with some kind of teleportation magic.", "_t")
-t("teleport.", "teleport.", "_t")
-t("The teleporter's delicate systems are perturbed by foes on this level. You must have no foes left to be able to use it.", "The teleporter's delicate systems are perturbed by foes on this level. You must have no foes left to be able to use it.", "logPlayer")
 --]==]
 
 
@@ -1387,20 +1366,20 @@ t("The teleporter's delicate systems are perturbed by foes on this level. You mu
 section "tome-orcs/data/general/objects/steamgun.lua"
 
 t("weapon", "arme", "entity type")
+t("steamgun", "pistolet à vapeur", "entity subtype")
+t("steamgun", "pistolet à vapeur", "entity combat talented")
+t("Steamguns use bursts of steam directly injected in the barrel to propel metal shots with great force.", "Les pistolets à vapeur utilisent des jets de vapeur injectés directement dans le canon pour propulser des projectiles métalliques avec une grande force.", "_t")
+t("iron steamgun", "pistolet à vapeur en fer", "entity name")
 t("iron", "fer", "entity short_name")
+t("steel steamgun", "pistolet à vapeur en acier", "entity name")
 t("steel", "acier", "entity short_name")
+t("dwarven-steel steamgun", "pistolet à vapeur en acier nain", "entity name")
 t("d.steel", "acier.n", "entity short_name")
+t("stralite steamgun", "pistolet à vapeur en stralite", "entity name")
+t("voratun steamgun", "pistolet à vapeur en voratun", "entity name")
 -- texte non traduit
 --[==[
-t("steamgun", "steamgun", "entity subtype")
-t("steamgun", "steamgun", "entity combat talented")
-t("Steamguns use bursts of steam directly injected in the barrel to propel metal shots with great force.", "Steamguns use bursts of steam directly injected in the barrel to propel metal shots with great force.", "_t")
-t("iron steamgun", "iron steamgun", "entity name")
-t("steel steamgun", "steel steamgun", "entity name")
-t("dwarven-steel steamgun", "dwarven-steel steamgun", "entity name")
-t("stralite steamgun", "stralite steamgun", "entity name")
 t("stralite", "stralite", "entity short_name")
-t("voratun steamgun", "voratun steamgun", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -1409,26 +1388,26 @@ t("voratun", "voratun", "entity short_name")
 section "tome-orcs/data/general/objects/steamsaw.lua"
 
 t("weapon", "arme", "entity type")
-t("iron", "fer", "entity short_name")
-t("steel", "acier", "entity short_name")
-t("d.steel", "acier.n", "entity short_name")
--- texte non traduit
---[==[
-t("steamsaw", "steamsaw", "entity subtype")
-t("steamsaw", "steamsaw", "entity combat talented")
+t("steamsaw", "scie à vapeur", "entity subtype")
+t("steamsaw", "scie à vapeur", "entity combat talented")
 t([[Steamsaws use steam pressure to rotate a serrated metal blade at high speed.
 Those struck suffer severe lacerations and bleed for 10% of the damage done per turn for 5 turns (stacking).
 They can be wielded in the main or off hand.
-Vrmmmmm!]], [[Steamsaws use steam pressure to rotate a serrated metal blade at high speed.
-Those struck suffer severe lacerations and bleed for 10% of the damage done per turn for 5 turns (stacking).
-They can be wielded in the main or off hand.
-Vrmmmmm!]], "_t")
-t("iron steamsaw", "iron steamsaw", "entity name")
-t("steel steamsaw", "steel steamsaw", "entity name")
-t("dwarven-steel steamsaw", "dwarven-steel steamsaw", "entity name")
-t("stralite steamsaw", "stralite steamsaw", "entity name")
+Vrmmmmm!]], [[Les scies à vapeur utilisent la pression de la vapeur pour faire tourner une lame métallique dentée à grande vitesse.
+Les victimes subissent de graves lacérations et saignent pendant 5 tours, à raison de 10% des dégâts infligés par tour (cumulatif).
+Elles peuvent être maniées en main principale ou secondaire.
+Vrrrrrrm !]], "_t")
+t("iron steamsaw", "scie à vapeur en fer", "entity name")
+t("iron", "fer", "entity short_name")
+t("steel steamsaw", "scie à vapeur en acier", "entity name")
+t("steel", "acier", "entity short_name")
+t("dwarven-steel steamsaw", "scie à vapeur en acier nain", "entity name")
+t("d.steel", "acier.n", "entity short_name")
+t("stralite steamsaw", "scie à vapeur en stralite", "entity name")
+t("voratun steamsaw", "scie à vapeur en voratun", "entity name")
+-- texte non traduit
+--[==[
 t("stralite", "stralite", "entity short_name")
-t("voratun steamsaw", "voratun steamsaw", "entity name")
 t("voratun", "voratun", "entity short_name")
 --]==]
 
@@ -1437,184 +1416,172 @@ t("voratun", "voratun", "entity short_name")
 section "tome-orcs/data/general/objects/tinker.lua"
 
 t("tinker", "babiole", "entity type")
+t("steamtech", "vapotech", "entity subtype")
+t("Tinkers can be attached to normal items to improve them with steam power!", "Les objets bricolés peuvent être attachés à des objets ordinaires pour les améliorer grâce à la puissance de la vapeur !", "_t")
 t("misc", "divers", "entity type")
--- texte non traduit
---[==[
-t("steamtech", "steamtech", "entity subtype")
-t("Tinkers can be attached to normal items to improve them with steam power!", "Tinkers can be attached to normal items to improve them with steam power!", "_t")
-t("salve", "salve", "entity subtype")
-t("salve", "salve", "_t")
-t("Medical salve.", "Medical salve.", "_t")
---]==]
-
+t("salve", "onguent", "entity subtype")
+t("salve", "onguent", "_t")
+t("Medical salve.", "Un onguent médicinale.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/chemistry.lua"
 
+t("crude", "rustique", "_t")
+t("good", "correct", "_t")
+t("well-made", "bien fait", "_t")
+t("mastercraft", "chef-d'oeuvre", "_t")
+t("perfect", "parfait", "_t")
+t("%s poison groove", "cannelure empoisonnée (%s)", "tformat")
+t("Deals stacking poison damage.", "Infflige des dégâts de poison cumulatifs.", "_t")
+t("applies a stacking poison dealing %d damage per turn", "applique un poison cumulatif infligeant %d dégâts de poison par tour", "tformat")
+t("%s viral injector", "injecteur viral (%s)", "tformat")
+t("Infects targets with a stat reducing disease.", "Infecte les cibles avec une maladie qui réduit leurs statistiques.", "_t")
+t("injects a simple virus dealing %d blight damage on hit and lowering the victims highest stat", "injecte un virus simple infligeant %d dégâts de fléau au contact et réduisant la statistique la plus élevée de la victime", "tformat")
+t("%s winterchill edge", "lame de froid hivernal (%s)", "tformat")
+t("Deals cold damage and slows.", "Infflige des dégâts de froid et ralentit.", "_t")
+t("chills your foe dealing %d damage and slowing them by one tenth of a turn", "refroidit votre ennemi, infligeant %d dégâts de froid et lui faisant perdre 10%% d'un tour", "tformat")
+t("%s acid groove", "cannelure acide (%s)", "tformat")
+t("Deals acid damage that also reduces armour.", "Infflige des dégâts d'acide qui réduisent également l'armure.", "_t")
+t("splashes acid on your target dealing %d damage and reducing their armor", "projette de l'acide sur votre cible, infligeant %d dégâts d'acide et réduisant son armure", "tformat")
+t("Brain Cap", "Calotte Cérébrale", "entity name")
+t("HEAD", "TETE", "entity on slot")
+t("Brain Flare", "Éclat Cérébral", "entity name")
+t("CLOAK", "CAPE", "entity on slot")
+t("%s waterproof coating", "revêtement imperméable (%s)", "tformat")
+t("%s fireproof coating", "revêtement ignifuge (%s)", "tformat")
+t("HANDS", "MAINS", "entity on slot")
+t("%s flash powder", "poudre aveuglante (%s)", "tformat")
+t("%s itching powder", "poudre à gratter (%s)", "tformat")
 t("armor", "armure", "entity type")
 t("cloak", "cape", "entity subtype")
--- texte non traduit
---[==[
-t("crude", "crude", "_t")
-t("good", "good", "_t")
-t("well-made", "well-made", "_t")
-t("mastercraft", "mastercraft", "_t")
-t("perfect", "perfect", "_t")
-t("%s poison groove", "%s poison groove", "tformat")
-t("Deals stacking poison damage.", "Deals stacking poison damage.", "_t")
-t("applies a stacking poison dealing %d damage per turn", "applies a stacking poison dealing %d damage per turn", "tformat")
-t("%s viral injector", "%s viral injector", "tformat")
-t("Infects targets with a stat reducing disease.", "Infects targets with a stat reducing disease.", "_t")
-t("injects a simple virus dealing %d blight damage on hit and lowering the victims highest stat", "injects a simple virus dealing %d blight damage on hit and lowering the victims highest stat", "tformat")
-t("%s winterchill edge", "%s winterchill edge", "tformat")
-t("Deals cold damage and slows.", "Deals cold damage and slows.", "_t")
-t("chills your foe dealing %d damage and slowing them by one tenth of a turn", "chills your foe dealing %d damage and slowing them by one tenth of a turn", "tformat")
-t("%s acid groove", "%s acid groove", "tformat")
-t("Deals acid damage that also reduces armour.", "Deals acid damage that also reduces armour.", "_t")
-t("splashes acid on your target dealing %d damage and reducing their armor", "splashes acid on your target dealing %d damage and reducing their armor", "tformat")
-t("Brain Cap", "Brain Cap", "entity name")
-t("HEAD", "HEAD", "entity on slot")
-t("Brain Flare", "Brain Flare", "entity name")
-t("CLOAK", "CLOAK", "entity on slot")
-t("%s waterproof coating", "%s waterproof coating", "tformat")
-t("%s fireproof coating", "%s fireproof coating", "tformat")
-t("HANDS", "HANDS", "entity on slot")
-t("%s flash powder", "%s flash powder", "tformat")
-t("%s itching powder", "%s itching powder", "tformat")
-t("Rogue's Gallery", "Rogue's Gallery", "entity name")
-t("action packed cloak", "action packed cloak", "_t")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "_t")
-t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "_t")
-t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "_t")
-t("BODY", "BODY", "entity on slot")
-t("%s rustproof coating", "%s rustproof coating", "tformat")
-t("%d%% chance to avoid a detrimental acid subtype effect.", "%d%% chance to avoid a detrimental acid subtype effect.", "tformat")
-t("BELT", "BELT", "entity on slot")
-t("%s alchemist's helper", "%s alchemist's helper", "tformat")
-t("LITE", "LITE", "entity on slot")
-t("%s black light emitter", "%s black light emitter", "tformat")
---]==]
-
+t("Rogue's Gallery", "Galerie du Voleur", "entity name")
+t("action packed cloak", "cape pleine d'action", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Doublée de mécanismes réactifs, cette cape est équipée pour toute situation que vous pourriez rencontrer, et plusieurs que vous ne pourriez jamais rencontrer !", "_t")
+t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "Lorsque vous tombez sous 20% de vos points de vie maximum, libère un nuage de fumée qui confond les ennemis proches, vous accordant la furtivité et une chance d'éviter les dégâts entrants pendant 5 tours.", "_t")
+t("cause the next damage you deal to inflict crippling poison (does not recharge until used), dealing minor poison damage and causing your target to have a 10% chance to fail all talents", "fait que le prochain dégât que vous infligez applique un poison invalidant (ne se recharge pas avant d'être utilisé), infligeant des dégâts de poison mineurs et donnant à votre cible 10% de chance de rater l'utilisation de ses talents", "_t")
+t("BODY", "CORPS", "entity on slot")
+t("%s rustproof coating", "revêtement antirouille (%s)", "tformat")
+t("%d%% chance to avoid a detrimental acid subtype effect.", "%d%% de chance d'éviter un effet négatif de sous-type acide.", "tformat")
+t("BELT", "CEINTURE", "entity on slot")
+t("%s alchemist's helper", "assistant d'alchimiste (%s)", "tformat")
+t("LITE", "LAMPE", "entity on slot")
+t("%s black light emitter", "émetteur de lumière noire (%s)", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/electricity.lua"
 
+t("crude", "rustique", "_t")
+t("good", "correct", "_t")
+t("well-made", "bien fait", "_t")
+t("mastercraft", "chef-d'oeuvre", "_t")
+t("perfect", "parfait", "_t")
 t("iron", "fer", "_t")
 t("steel", "acier", "_t")
+t("dwarven steel", "acier nain", "_t")
+t("%s lightning coil", "bobine d'éclair (%s)", "tformat")
+t("On critical strikes generates a 3 tiles lightning beam.", "Lors des coups critiques, génère un rayon d'éclair de 3 cases de portée.", "_t")
+t("project a beam of lightning", "projette un rayon d'éclair", "_t")
+t("%s mana coil", "bobine de mana (%s)", "tformat")
+t("Mana regeneration, on spell hit 25%% chances to cast lightning.", "Régénère le mana et accorde 25%% de chance de lancer un éclair lors d'un sort touchant.", "_t")
+t("arcane dynamo", "dynamo arcanique", "entity name")
+t("Allows the use of Technomancy spells.", "Permet l'utilisation des sorts de Technomancie.", "_t")
+t("HANDS", "MAINS", "entity on slot")
+t("%s shocking touch", "toucher choquant (%s)", "tformat")
+t("BELT", "CEINTURE", "entity on slot")
+t("%s deflection field", "champ déflecteur (%s)", "tformat")
+t("%s galvanic retributor", "distributeur galvanique (%s)", "tformat")
+t("Unleash a lightning nova of radius equal to the tinker tier.", "Libère une nova d'éclairs avec un rayon égal au niveau du bricolage.", "_t")
+t("#Source# unleashes GALVANIC RETRIBUTION!", "#Source# libère une RÉTRIBUTION GALVANIQUE !", "logCombat")
+t("%s shocking edge", "lame choquante (%s)", "tformat")
+t("Deals lightning damage and drains resources.", "Infflige des dégâts de foudre et draine des ressources.", "_t")
+t("shock your foe dealing %d damage and draining some of their resources", "électrocute votre ennemi, infligeant %d dégâts et drainant certaines de ses ressources", "tformat")
 t("weapon", "arme", "entity type")
+t("steamsaw", "scie à vapeur", "entity subtype")
+t("Stormcutter", "Découpe-Tempête", "entity name")
+t("steamsaw", "scie à vapeur", "entity combat talented")
+t("electrified steamsaw", "scie à vapeur électrifiée", "_t")
+t("\"Great for combat, cooking, and shaving! We accept no responsibility for ruined follicles.\"", "\"Idéale pour le combat, la cuisine et le rasage ! Nous déclinons toute responsabilité en cas de follicules endommagés.\"", "_t")
+t("deal lightning damage to the target based on cunning with a 25% chance to daze, and arc to up to 3 targets.", "infflige des dégâts de foudre à la cible basés sur la Ruse, avec 25% de chance d'étourdir, et se propage à jusqu'à 3 cibles supplémentaires.", "_t")
+t("%s voltaic sentry", "sentinelle voltaïque (%s)", "tformat")
+t("HEAD", "TETE", "entity on slot")
+t("%s mental stimulator", "stimulateur mental (%s)", "tformat")
+t("%s power distributor", "distributeur d'énergie (%s)", "tformat")
+t("LITE", "LAMPE", "entity on slot")
+t("%s white light emitter", "émetteur de lumière blanche (%s)", "tformat")
 -- texte non traduit
 --[==[
-t("crude", "crude", "_t")
-t("good", "good", "_t")
-t("well-made", "well-made", "_t")
-t("mastercraft", "mastercraft", "_t")
-t("perfect", "perfect", "_t")
-t("dwarven steel", "dwarven steel", "_t")
 t("stralite", "stralite", "_t")
 t("voratun", "voratun", "_t")
-t("%s lightning coil", "%s lightning coil", "tformat")
-t("On critical strikes generates a 3 tiles lightning beam.", "On critical strikes generates a 3 tiles lightning beam.", "_t")
-t("project a beam of lightning", "project a beam of lightning", "_t")
-t("%s mana coil", "%s mana coil", "tformat")
-t("Mana regeneration, on spell hit 25%% chances to cast lightning.", "Mana regeneration, on spell hit 25%% chances to cast lightning.", "_t")
-t("arcane dynamo", "arcane dynamo", "entity name")
-t("Allows the use of Technomancy spells.", "Allows the use of Technomancy spells.", "_t")
-t("HANDS", "HANDS", "entity on slot")
-t("%s shocking touch", "%s shocking touch", "tformat")
-t("BELT", "BELT", "entity on slot")
-t("%s deflection field", "%s deflection field", "tformat")
-t("%s galvanic retributor", "%s galvanic retributor", "tformat")
-t("Unleash a lightning nova of radius equal to the tinker tier.", "Unleash a lightning nova of radius equal to the tinker tier.", "_t")
-t("#Source# unleashes GALVANIC RETRIBUTION!", "#Source# unleashes GALVANIC RETRIBUTION!", "logCombat")
-t("%s shocking edge", "%s shocking edge", "tformat")
-t("Deals lightning damage and drains resources.", "Deals lightning damage and drains resources.", "_t")
-t("shock your foe dealing %d damage and draining some of their resources", "shock your foe dealing %d damage and draining some of their resources", "tformat")
-t("steamsaw", "steamsaw", "entity subtype")
-t("Stormcutter", "Stormcutter", "entity name")
-t("steamsaw", "steamsaw", "entity combat talented")
-t("electrified steamsaw", "electrified steamsaw", "_t")
-t("\"Great for combat, cooking, and shaving! We accept no responsibility for ruined follicles.\"", "\"Great for combat, cooking, and shaving! We accept no responsibility for ruined follicles.\"", "_t")
-t("deal lightning damage to the target based on cunning with a 25% chance to daze, and arc to up to 3 targets.", "deal lightning damage to the target based on cunning with a 25% chance to daze, and arc to up to 3 targets.", "_t")
-t("%s voltaic sentry", "%s voltaic sentry", "tformat")
-t("HEAD", "HEAD", "entity on slot")
-t("%s mental stimulator", "%s mental stimulator", "tformat")
-t("%s power distributor", "%s power distributor", "tformat")
-t("LITE", "LITE", "entity on slot")
-t("%s white light emitter", "%s white light emitter", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/explosive.lua"
 
+t("crude", "rustique", "_t")
+t("good", "correct", "_t")
+t("well-made", "bien fait", "_t")
+t("mastercraft", "chef-d'oeuvre", "_t")
+t("perfect", "parfait", "_t")
+t("%s thunderclap coating", "revêtement de coup de tonnerre (%s)", "tformat")
+t("Strikes can trigger a thunderclap that damages and repel foes.", "Les coups peuvent déclencher un coup de tonnerre qui infflige des dégâts et repousse les ennemis.", "_t")
+t("HEAD", "TETE", "entity on slot")
+t("%s head lamp", "lampe frontale (%s)", "tformat")
+t("BODY", "CORPS", "entity on slot")
+t("%s ablative armour", "armure ablative (%s)", "tformat")
+t("%s incendiary groove", "cannelure incendiaire (%s)", "tformat")
+t("Deals fire damage and ignites the ground.", "Infflige des dégâts de feu et embrase le sol.", "_t")
+t("burn your foe dealing %d damage and igniting the ground for 4 turns", "brûle votre ennemi, infligeant %d dégâts de feu et embrasant le sol pendant 4 tours", "tformat")
+t("BELT", "CEINTURE", "entity on slot")
+t("%s thunder grenade", "grenade de tonnerre (%s)", "tformat")
 t("weapon", "arme", "entity type")
--- texte non traduit
---[==[
-t("crude", "crude", "_t")
-t("good", "good", "_t")
-t("well-made", "well-made", "_t")
-t("mastercraft", "mastercraft", "_t")
-t("perfect", "perfect", "_t")
-t("%s thunderclap coating", "%s thunderclap coating", "tformat")
-t("Strikes can trigger a thunderclap that damages and repel foes.", "Strikes can trigger a thunderclap that damages and repel foes.", "_t")
-t("HEAD", "HEAD", "entity on slot")
-t("%s head lamp", "%s head lamp", "tformat")
-t("BODY", "BODY", "entity on slot")
-t("%s ablative armour", "%s ablative armour", "tformat")
-t("%s incendiary groove", "%s incendiary groove", "tformat")
-t("Deals fire damage and ignites the ground.", "Deals fire damage and ignites the ground.", "_t")
-t("burn your foe dealing %d damage and igniting the ground for 4 turns", "burn your foe dealing %d damage and igniting the ground for 4 turns", "tformat")
-t("BELT", "BELT", "entity on slot")
-t("%s thunder grenade", "%s thunder grenade", "tformat")
-t("steamgun", "steamgun", "entity subtype")
-t("Payload", "Payload", "entity name")
-t("steamgun", "steamgun", "entity combat talented")
-t("absurdly large gun", "absurdly large gun", "_t")
-t("\"I never really liked that village anyway.\" - Charlta, Mad Inventor", "\"I never really liked that village anyway.\" - Charlta, Mad Inventor", "_t")
-t("Boom.", "Boom.", "_t")
-t("QUIVER", "QUIVER", "entity on slot")
-t("%s explosive shell", "%s explosive shell", "tformat")
-t("%s flare shell", "%s flare shell", "tformat")
-t("%s incendiary shell", "%s incendiary shell", "tformat")
-t("%s solid shell", "%s solid shell", "tformat")
-t("%s impaler shell", "%s impaler shell", "tformat")
-t("%s saw shell", "%s saw shell", "tformat")
-t("%s hook shell", "%s hook shell", "tformat")
-t("%s magnetic shell", "%s magnetic shell", "tformat")
-t("%s voltaic shell", "%s voltaic shell", "tformat")
-t("%s antimagic shell", "%s antimagic shell", "tformat")
-t("%s botanical shell", "%s botanical shell", "tformat")
-t("%s corrosive shell", "%s corrosive shell", "tformat")
-t("%s toxic shell", "%s toxic shell", "tformat")
---]==]
-
+t("steamgun", "pistolet à vapeur", "entity subtype")
+t("Payload", "Charge Utile", "entity name")
+t("steamgun", "pistolet à vapeur", "entity combat talented")
+t("absurdly large gun", "pistolet absurdement grand", "_t")
+t("\"I never really liked that village anyway.\" - Charlta, Mad Inventor", "\"De toute façon, je n'ai jamais vraiment aimé ce village.\" - Charlta, Inventrice Folle", "_t")
+t("Boom.", "Boum.", "_t")
+t("QUIVER", "CARQUOIS", "entity on slot")
+t("%s explosive shell", "munition explosive (%s)", "tformat")
+t("%s flare shell", "munition éclairante (%s)", "tformat")
+t("%s incendiary shell", "munition incendiaire (%s)", "tformat")
+t("%s solid shell", "munition solide (%s)", "tformat")
+t("%s impaler shell", "munition empaleuse (%s)", "tformat")
+t("%s saw shell", "munition de scie (%s)", "tformat")
+t("%s hook shell", "munition à crochet (%s)", "tformat")
+t("%s magnetic shell", "munition magnétique (%s)", "tformat")
+t("%s voltaic shell", "munition voltaïque (%s)", "tformat")
+t("%s antimagic shell", "munition antimagique (%s)", "tformat")
+t("%s botanical shell", "munition botanique (%s)", "tformat")
+t("%s corrosive shell", "munition corrosive (%s)", "tformat")
+t("%s toxic shell", "munition toxique (%s)", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/tinkers/mechanical.lua"
 
 t("iron", "fer", "_t")
 t("steel", "acier", "_t")
+t("dwarven steel", "acier nain", "_t")
+t("FEET", "PIEDS", "entity on slot")
+t("%s rocket boots", "bottes-fusées (%s)", "tformat")
+t("HANDS", "MAINS", "entity on slot")
+t("%s hand cannon", "canon de poing (%s)", "tformat")
+t("%s fatal attractor", "attracteur fatal (%s)", "tformat")
+t("%s grip", "griffe mécanique (%s)", "tformat")
+t("%s grapple", "grappin mécanique (%s)", "tformat")
 t("armor", "armure", "entity type")
 t("massive", "énorme", "entity subtype")
+t("Steam Powered Armour", "Armure à vapeur", "entity name")
+t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Grâce à de petits moteurs à vapeur et aux merveilles des dernières découvertes en automatisation, vous pouvez fabriquer une Armure à vapeur. Cette armure de plates complète facilite vos mouvements et dispose de mécanismes de protection intégrés.", "_t")
+t("The more steam the better!", "Plus il y a de vapeur, mieux c'est !", "_t")
+t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#Vos bottes, votre heaume et vos gantelets à vapeur se connectent automatiquement à votre armure à vapeur, activant de nouvelles fonctionnalités.", "logSeen")
+t("#GOLD#Your steam-powered armor disconnects from the other pieces.", "#GOLD#Votre armure à vapeur se déconnecte des autres pièces.", "logPlayer")
+t("%s saw projector", "projecteur de scie (%s)", "tformat")
+t("%s kinetic stabiliser", "stabilisateur cinétique (%s)", "tformat")
 -- texte non traduit
 --[==[
-t("dwarven steel", "dwarven steel", "_t")
 t("stralite", "stralite", "_t")
 t("voratun", "voratun", "_t")
-t("FEET", "FEET", "entity on slot")
-t("%s rocket boots", "%s rocket boots", "tformat")
-t("HANDS", "HANDS", "entity on slot")
-t("%s hand cannon", "%s hand cannon", "tformat")
-t("%s fatal attractor", "%s fatal attractor", "tformat")
-t("%s grip", "%s grip", "tformat")
-t("%s grapple", "%s grapple", "tformat")
-t("Steam Powered Armour", "Steam Powered Armour", "entity name")
-t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "_t")
-t("The more steam the better!", "The more steam the better!", "_t")
-t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "logSeen")
-t("#GOLD#Your steam-powered armor disconnects from the other pieces.", "#GOLD#Your steam-powered armor disconnects from the other pieces.", "logPlayer")
-t("%s saw projector", "%s saw projector", "tformat")
-t("%s kinetic stabiliser", "%s kinetic stabiliser", "tformat")
 --]==]
 
 
@@ -1623,40 +1590,40 @@ section "tome-orcs/data/general/objects/tinkers/smith.lua"
 
 t("iron", "fer", "_t")
 t("steel", "acier", "_t")
+t("dwarven steel", "acier nain", "_t")
+t("crude", "rustique", "_t")
+t("good", "correct", "_t")
+t("well-made", "bien fait", "_t")
+t("mastercraft", "chef-d'oeuvre", "_t")
+t("perfect", "parfait", "_t")
+t("HEAD", "TETE", "entity on slot")
+t("%s focus lens", "lentille de focalisation (%s)", "tformat")
+t("HANDS", "MAINS", "entity on slot")
+t("%s toxic cannister launcher", "lance-cartouche toxique (%s)", "tformat")
+t("%s viral needlegun", "lance-aiguilles viral (%s)", "tformat")
+t("%s razor edge", "tranchant rasoir (%s)", "tformat")
+t("BODY", "CORPS", "entity on slot")
+t("%s armour reinforcement", "renforcement d'armure (%s)", "tformat")
+t("%s crystal edge", "lame de cristal (%s)", "tformat")
+t("Deals high light damage and increases critical multiplier.", "Inflige d'importants dégâts de lumière et augmente le multiplicateur de coup critique.", "_t")
+t("flashes light on your target dealing %d damage", "projette un éclair de lumière sur votre cible, infligeant %d dégâts de lumière", "tformat")
+t("%s crystal plating", "placage de cristal (%s)", "tformat")
 t("armor", "armure", "entity type")
 t("hands", "mains", "entity subtype")
+t("Hands of Creation", "Mains de la Création", "entity name")
+t("plated gauntlets", "gantelets plaqués", "_t")
+t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "De vos mains sont nées des oeuvres extraordinaires. Vos créations ont été forgées dans le feu, tout comme vous.", "_t")
+t("On landing any melee attack, release a fiery shockwave, dealing fire and physical damage each equal to your steampower in a cone from the target of radius 3.", "À chaque attaque de mêlée réussie, vous libérez une onde de choc enflammée infligeant des dégâts physiques et de feu égaux à votre puissance de vapeur, dans un cône de rayon 3 à partir de la cible.", "_t")
+t("%s spike attachment", "fixation à pointes (%s)", "tformat")
+t("%s silver filigree", "filigrane d'argent (%s)", "tformat")
+t("BELT", "CEINTURE", "entity on slot")
+t("%s back support", "soutien lombaire (%s)", "tformat")
+t("CLOAK", "CAPE", "entity on slot")
+t("%s grounding strap", "sangle de mise à la terre (%s)", "tformat")
 -- texte non traduit
 --[==[
-t("dwarven steel", "dwarven steel", "_t")
 t("stralite", "stralite", "_t")
 t("voratun", "voratun", "_t")
-t("crude", "crude", "_t")
-t("good", "good", "_t")
-t("well-made", "well-made", "_t")
-t("mastercraft", "mastercraft", "_t")
-t("perfect", "perfect", "_t")
-t("HEAD", "HEAD", "entity on slot")
-t("%s focus lens", "%s focus lens", "tformat")
-t("HANDS", "HANDS", "entity on slot")
-t("%s toxic cannister launcher", "%s toxic cannister launcher", "tformat")
-t("%s viral needlegun", "%s viral needlegun", "tformat")
-t("%s razor edge", "%s razor edge", "tformat")
-t("BODY", "BODY", "entity on slot")
-t("%s armour reinforcement", "%s armour reinforcement", "tformat")
-t("%s crystal edge", "%s crystal edge", "tformat")
-t("Deals high light damage and increases critical multiplier.", "Deals high light damage and increases critical multiplier.", "_t")
-t("flashes light on your target dealing %d damage", "flashes light on your target dealing %d damage", "tformat")
-t("%s crystal plating", "%s crystal plating", "tformat")
-t("Hands of Creation", "Hands of Creation", "entity name")
-t("plated gauntlets", "plated gauntlets", "_t")
-t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "_t")
-t("On landing any melee attack, release a fiery shockwave, dealing fire and physical damage each equal to your steampower in a cone from the target of radius 3.", "On landing any melee attack, release a fiery shockwave, dealing fire and physical damage each equal to your steampower in a cone from the target of radius 3.", "_t")
-t("%s spike attachment", "%s spike attachment", "tformat")
-t("%s silver filigree", "%s silver filigree", "tformat")
-t("BELT", "BELT", "entity on slot")
-t("%s back support", "%s back support", "tformat")
-t("CLOAK", "CLOAK", "entity on slot")
-t("%s grounding strap", "%s grounding strap", "tformat")
 --]==]
 
 
@@ -1665,55 +1632,244 @@ section "tome-orcs/data/general/objects/tinkers/therapeutics.lua"
 
 t("potent", "puissant", "_t")
 t("powerful", "puissance", "_t")
+t("great", "exceptionnel", "_t")
+t("amazing", "extraordinaire", "_t")
 t("%s healing salve", "onguent curatif (%s)", "tformat")
+t("heal %d", "soigne %d points de vie.", "_t")
+t("%s pain suppressor salve", "onguent antidouleur (%s)", "tformat")
+t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "vous permet de combattre jusqu'à -%%d points de vie et réduit tous les dégâts subis de %d%%%% pendant %d tours (activation instantanée).", "tformat")
 t("%s frost salve", "onguent de givre (%s)", "tformat")
+t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "supprime %d effet(s) physique(s) et confère une aura de givre (%s d'affinité avec le froid, l'obscurité, et la nature).", "tformat")
+t("%s fiery salve", "onguent ardent (%s)", "tformat")
+t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "supprime %d effet(s) magique(s) et confère une aura ardente (%s d'affinité avec le feu, la lumière, et la foudre).", "tformat")
+t("%s water salve", "onguent aquatique (%s)", "tformat")
+t("remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "supprime %d effet(s) mentaux et confère une aura aquatique (%s d'affinité avec le fléau, l'esprit, et l'acide).", "tformat")
+t("%s unstoppable force salve", "onguent de force irrésistible (%s)", "tformat")
+t("increases all saves by %d and healing factor by half", "augmente toutes les sauvegardes de %d et le facteur de soins de 50%%.", "_t")
 t("armor", "armure", "entity type")
 t("light", "lumière", "entity subtype")
+t("Life Support Suit", "Combinaison de survie", "entity name")
+t("advanced medical armour", "armure médicale avancée", "_t")
+t("\"We've done it, men. We cured death.\"", "\"Nous y sommes parvenus, messieurs. Nous avons vaincu la mort.\"", "_t")
+t([[You cannot bleed.
+When you take damage, if your life is under 20%%, heal for 30%% of your max life. %s]], [[Vous ne pouvez pas saigner.
+Lorsque vous subissez des dégâts et que votre vie est inférieure à 20%%, vous récupérez 30%% de votre vie maximale. %s]], "tformat")
+t("(%d turns until ready)", "(%d tours avant réutilisation)", "tformat")
+t("(15 turn cooldown)", "(15 tours de récupération)", "_t")
+t("BODY", "CORPS", "entity on slot")
+t("%s second skin", "seconde peau (%s)", "tformat")
+t("HEAD", "TETE", "entity on slot")
+t("%s air recycler", "recycleur d'air (%s)", "tformat")
+t("Returns %d air each turn.", "Restaure %d points d'air à chaque tour.", "tformat")
+t("FEET", "PIEDS", "entity on slot")
+t("%s moss tread", "semelles de mousse (%s)", "tformat")
+t("BELT", "CEINTURE", "entity on slot")
+t("%s fungal web", "toile fongique (%s)", "tformat")
+t("Heals you for %d life when you use a salve.", "Vous soigne de %d points de vie lorsque vous utilisez un onguent.", "tformat")
 -- texte non traduit
 --[==[
 t("simple", "simple", "_t")
-t("great", "great", "_t")
-t("amazing", "amazing", "_t")
-t("heal %d", "heal %d", "_t")
-t("%s pain suppressor salve", "%s pain suppressor salve", "tformat")
-t("let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "let you fight up to -%%d life and reduces all damage by %d%%%% for %d turns (takes no time to activate)", "tformat")
-t("remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "remove %d physical effects and grants a frost aura (%s cold, darkness and nature affinity)", "tformat")
-t("%s fiery salve", "%s fiery salve", "tformat")
-t("remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "remove %d magical effects and grants a fiery aura (%s fire, light and lightning affinity)", "tformat")
-t("%s water salve", "%s water salve", "tformat")
-t("remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "remove %d mental effects and grants a water aura (%s blight, mind and acid affinity).", "tformat")
-t("%s unstoppable force salve", "%s unstoppable force salve", "tformat")
-t("increases all saves by %d and healing factor by half", "increases all saves by %d and healing factor by half", "_t")
-t("Life Support Suit", "Life Support Suit", "entity name")
-t("advanced medical armour", "advanced medical armour", "_t")
-t("\"We've done it, men. We cured death.\"", "\"We've done it, men. We cured death.\"", "_t")
-t([[You cannot bleed.
-When you take damage, if your life is under 20%%, heal for 30%% of your max life. %s]], [[You cannot bleed.
-When you take damage, if your life is under 20%%, heal for 30%% of your max life. %s]], "tformat")
-t("(%d turns until ready)", "(%d turns until ready)", "tformat")
-t("(15 turn cooldown)", "(15 turn cooldown)", "_t")
-t("BODY", "BODY", "entity on slot")
-t("%s second skin", "%s second skin", "tformat")
-t("HEAD", "HEAD", "entity on slot")
-t("%s air recycler", "%s air recycler", "tformat")
-t("Returns %d air each turn.", "Returns %d air each turn.", "tformat")
-t("FEET", "FEET", "entity on slot")
-t("%s moss tread", "%s moss tread", "tformat")
-t("BELT", "BELT", "entity on slot")
-t("%s fungal web", "%s fungal web", "tformat")
-t("Heals you for %d life when you use a salve.", "Heals you for %d life when you use a salve.", "tformat")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/world-artifacts.lua"
 
+t("Medical Urgency Vest", "Gilet d'urgence médicale", "entity name")
+t("medical armour", "armure médicale", "_t")
+t("This light leather armour features a special medical injector.", "Cette armure légère de cuir est équipée d'un injecteur médical spécial.", "_t")
+t("Steam Powered Boots", "Bottes à vapeur", "entity name")
+t("Boots. But with steam power!", "Des bottes. À vapeur.", "_t")
+t("Generate %d steam each time you walk.", "Génère %d points de vapeur à chaque déplacement.", "tformat")
+t("The more steam the better!", "Plus il y a de vapeur, mieux c'est !", "_t")
+t("Steam Powered Helm", "Heaume à vapeur", "entity name")
+t("A Helmet. But with steam power!", "Un heaume. À vapeur.", "_t")
+t("Steam Powered Gauntlets", "Gantelets à vapeur", "entity name")
+t("Gauntlets. But with steam power!", "Des gantelets. À vapeur.", "_t")
+t("Anti-Gravity Boots", "Bottes antigravité", "entity name")
+t("overheating steel greaves", "grèves d'acier en surchauffe", "_t")
+t([[These boots seem to have been made by a... creative individual who seems to have decided that launching yourself through the air via rocketry qualifies as "anti-gravity".
+They look like they will work, though.
+Probably.
+If you're very careful.]], [[Ces bottes semblent avoir été conçues par un individu... créatif, qui a apparemment décidé que se propulser dans les airs à l'aide de fusées entrait dans la catégorie de "l'antigravité".
+Elles ont toutefois l'air de fonctionner.
+Probablement.
+À condition d'être extrêmement prudent.]], "_t")
+t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "Ces bottes ont %d%% de chances de mal fonctionner (chance réduite par votre Ruse).", "tformat")
+t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "saute vers un emplacement proche dans un rayon de %d cases, provoquant une explosion au point de départ infligeant %d dégâts de feu brûlant dans un rayon de 2 et repoussant les créatures de 2. À l'atterrissage, une seconde explosion affecte un rayon de 3, inflige %d dégâts de feu brûlant et repousse les créatures de 3 cases (les dégâts sont proportionnels à votre Ruse).", "tformat")
+t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#Vous ne voyez aucun endroit où atterrir à proximité.", "logPlayer")
+t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source# enflamme %s %s, créant une #LIGHT_RED#explosion de feu#LAST# qui %s !", "logCombat")
+t("engulfs %s spectacularly", "engloutit %s dans un spectaculaire brasier", "tformat")
+t("launches %s in the air", "projette %s dans les airs", "tformat")
+t("#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "#Source# atterrit dans une #LIGHT_RED#explosion enflammée#LAST# !", "logCombat")
+t("Assassin's Surprise", "Surprise de l'Assassin", "entity name")
+t("glistening steel gauntlets", "gantelets d'acier étincelants", "_t")
+t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "Ces gantelets d'acier renferment un mécanisme dissimulé dans l'index gauche qui tire des projectiles empoisonnés.", "_t")
+t("fire a poisonous bolt out to range %d that deals %d nature damage and afflicts the target with crippling poison (%d%% fail chance) that deals %d addition nature damage over %d turns (damage based on Cunning)", "tire un projectile empoisonné jusqu'à %d cases de portée, infligeant %d dégâts de nature et appliquant un poison invalidant (%d%% de chances d'échec) qui inflige %d dégâts de nature supplémentaires sur %d tours (les dégâts sont proportionnels à votre Ruse).", "tformat")
+t("#Source# fires a bolt of #GREEN#poison#LAST# at #target# from %s %s!", "#Source# tire un projectile de #GREEN#poison#LAST# sur #target# depuis %s %s !", "logCombat")
 t("something", "quelque chose", "_t")
+t("Nacrush's Decimator", "Décimateur de Nacrush", "entity name")
+t("unwieldy gun", "arme encombrante", "_t")
+t("Nacrush was known for a tendency towards overkill.", "Nacrush était réputé pour son goût immodéré de la surenchère destructrice.", "_t")
+t("Knocks you back when fired.", "Vous repousse lorsque vous tirez.", "_t")
+t("#Source# recoils from the shot.", "#Source# est repoussé par le recul du tir.", "logCombat")
+t("red barreled steamgun", "fusil à vapeur au canon rouge", "_t")
+t("An odd, stubby gun with a large, red barrel.", "Une arme étrange et trapue dotée d'un large canon rouge.", "_t")
+t("frozen gun", "arme gelée", "_t")
+t("Strange coils encircle this extremely cold gun.", "D'étranges spirales entourent cette arme d'un froid surnaturel.", "_t")
+t("deal cold damage equal to 100 + the higher of your steam or spellpower, and attempt to freeze the target (20% chance).", "inflige des dégâts de froid égaux à 100 + la plus élevée de vos valeurs entre Puissance de Vapeur ou votre Puissance magique, et tente de geler la cible (20%% de chances).", "_t")
+t("Tinkerer's Twinblaster", "Double-Tonnerre du Bricoleur", "entity name")
+t("two barreled steamgun", "fusil à vapeur à double canon", "_t")
+t([[This gun seems to be some experiment in firing multiple shots simultaneously.
+The design is somewhat rudimentary, but it seems to work.]], [[Cette arme semble être une expérience visant à tirer plusieurs projectiles simultanément.
+Sa conception est plutôt rudimentaire, mais elle paraît fonctionner.]], "_t")
+t("Flashpoint", "Point d'Ignition", "entity name")
+t("overheated gun", "arme surchauffée", "_t")
+t("\"Have you ever looked at some guys and thought 'you know, I really wish they were on fire right now', but you didn't feel like walking all the way over there? Well, there's now a better way!\"", "\"Vous avez déjà regardé certains types en vous disant : \"tiens, j'aimerais bien qu'ils soient en feu là tout de suite\", mais sans avoir envie de marcher jusqu'à eux ? Eh bien, il existe maintenant une meilleure solution !\"", "_t")
+t("S.H. Spear", "Lance S.H.", "entity name")
+t("engraved steamgun", "fusil à vapeur gravé", "_t")
+t([[This gun is engraved with a strange material which focuses mental powers.
+It seems like your mind will operate even faster with this equipped.]], [[Cette arme est gravée d'un matériau étrange qui focalise les pouvoirs mentaux.
+Votre esprit semble fonctionner encore plus vite lorsque vous l'équipez.]], "_t")
+t("Dreamweaver", "Tisseur de Rêves", "entity name")
+t("shimmering steamgun", "fusil à vapeur scintillant", "_t")
+t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "Ce n'est pas vraiment une arme à feu, mais plutôt l'idée d'une arme à feu. Vous arriverez facilement à vous en souvenir si vous la perdez.", "_t")
+t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "lance l'arme pour la faire exploser, infligeant %d dégâts mentaux (basés sur la Ruse et la Volonté) à toutes les cibles dans la zone, tentant de les endormir et vous désarmant pendant 3 tours", "tformat")
+t("%s tosses %s %s!", "%s lance %sson %s !", "logSeen")
 t("%s resists the sleep!", "%s résiste au sommeil !", "logSeen")
+t("Thoughtcaster", "Projeteur de Pensée", "entity name")
+t("crystalline handgun", "pistolet cristallin", "_t")
+t("From body, mind. From mind, body.", "Du corps, l'esprit. De l'esprit, le corps.", "_t")
+t("deal %0.2f mind damage (based on Mindpower) in a radius 1 around the target", "inflige %0.2f dégâts mentaux (basés sur la Puissance Mentale) dans un rayon de 1 autour de la cible", "tformat")
+t("On hitting with a mindstar, deal physical damage equal to your steampower in radius 1 around the target.", "Lorsque vous touchez avec une étoile d'âme, inflige des dégâts physiques égaux à votre puissance de vapeur dans un rayon de 1 autour de la cible.", "_t")
+t("Spider's Fangs", "Crocs d'Araignée", "entity name")
+t("pouch of envenomed shots", "sachet de projectiles empoisonnés", "_t")
+t("A dedicated technician seems to have built pockets of spider venom into these rounds. It's not clear how happy the spiders were about this.", "Un technicien dévoué semble avoir intégré des poches de venin d'araignée dans ces projectiles. On ignore dans quelle mesure les araignées ont apprécié l'expérience.", "_t")
+t("(cooling down: %d turns)", "(recharge : %d tours)", "tformat")
+t("Ready to trigger!", "Prêt à être déclenché !", "_t")
+t("bursts into an cloud of spydric poison, pinning those inside (with a 10 turn cooldown)", "se transforme en nuage de poison arachnéen, immobilisant les cibles à l'intérieur (recharge de 10 tours)", "_t")
+t("Scattermind", "Esprit Fragmenté", "entity name")
+t("shattered mindstar", "étoile d'âme brisée", "_t")
+t("A linen pouch of jagged mindstar fragments, each radiating a palpable sense of confusion and pain. They must have made up an impressive whole originally, before some cretin turned it to bits.", "Une bourse de lin contenant des fragments irréguliers d'étoile d'âme, chacun irradiant une sensation palpable de confusion et de douleur. Ils formaient autrefois un ensemble impressionnant, avant qu'un idiot ne les réduise en miettes.", "_t")
+t("strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "frappe la cible avec Brûlure Mentale, Lobotomie Psychique, ou Briser l'Esprit, de façon aléatoire.", "_t")
+t("Thundercrack", "Fracas du Tonnerre", "entity name")
+t("pouch of copper shots", "sachet de projectiles de cuivre", "_t")
+t("Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "Grâce à une combinaison de magie et de sondes aériennes, ces projectiles invoquent de puissants éclairs qui s'abattent sur votre cible et carbonisent tout autour !", "_t")
+t("a bolt of lightning strikes your target, dealing lightning damage to them and fire damage to those around them.", "un éclair frappe votre cible, infligeant des dégâts de foudre à la cible et des dégâts de feu aux ennemis autour.", "_t")
+t("Vindicator", "Vindicateur", "entity name")
+t("engraved gun", "fusil gravé", "_t")
+t("release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "libère une explosion de lumière infligeant des dégâts égaux à votre Ruse plus votre Magie dans une zone de rayon 2. Si la cible est un mort-vivant, les dégâts et le rayon sont doublés.", "_t")
+t("Overburst", "Surpression", "entity name")
+t("wide barreled steamgun", "fusil à vapeur à large canon", "_t")
+t("Release a burst of shrapnel, dealing physical damage equal to your steampower in a cone from the target of radius 4.", "libère une gerbe d'éclats infligeant des dégâts physiques égaux à votre puissance de vapeur dans un cône de rayon 4 à partir de la cible.", "_t")
+t("Murderfang's Surekill", "Mâchoire de Mort de Murderfang", "entity name")
+t("Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "Explose, infligeant des dégâts physiques égaux à 25%% des dégâts d'origine dans une zone de rayon 1.", "_t")
+t("The Long-Arm", "Le Long Bras", "entity name")
+t("long barreled gun", "fusil à long canon", "_t")
+t("This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "Cette arme possède un canon absurdement long. Vous vous demandez pour qui elle a bien pu être conçue.", "_t")
+t("Focus your aim on a target, marking them for death - reducing their ranged defense by %d and their resistances by %d%%", "Concentrez votre visée sur une cible, la marquant pour la mort - réduisant sa défense à distance de %d et ses résistances de %d%%", "tformat")
+t("#Source# takes aim at #target# using %s!", "#Source# prend pour cible #target# avec %s !", "logCombat")
 t("Annihilator", "Annihilateur", "entity name")
+t("gigantic many barreled gun", "arme gigantesque à canons multiples", "_t")
+t("This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "Cette arme est dotée d'une roue équipée de plusieurs canons et semble fonctionner grâce à un moteur. Elle est... impressionnante.", "_t")
+t("Fire rate increases while firing, up to 5 shots per turn. Resets after 5 turns without firing.", "La cadence de tir augmente à chaque tir, jusqu'à 5 tirs par tour. Réinitialisation après 5 tours sans tir.", "_t")
 t("50% chance to reload 1 ammo", "50% chance de recharger 1 munition", "_t")
+t("The Shotgonne", "Le Shotgonne", "entity name")
+t("huge gun", "arme massive", "_t")
+t([[This huge steamgun can be loaded with more than one bullet so that multiple shots can be fired in a nasty cone of death.
+It also seems to have been carefully balanced to work like a dual gun set.]], [[Cette énorme arme à vapeur peut être chargée avec plusieurs projectiles afin de tirer plusieurs coups dans un terrible cône de mort.
+Elle semble également avoir été soigneusement équilibrée pour fonctionner comme un ensemble d'armes doubles.]], "_t")
+t("When fired, shoots up to 4 extra shots at random foes with a radius 4 cone centered on the target.", "Lors du tir, envoie jusqu'à 4 projectiles supplémentaires sur des ennemis aléatoires dans un cône de rayon 4 centré sur la cible.", "_t")
+t("Cloak of Daggers", "Cape de lames", "entity name")
+t("bladed cloak", "cape armée de lames", "_t")
+t("This cloak seems to incorporate a series of blades attached to various spring mechanisms.  Apparently the designer believed that the best defense was an active one.", "Cette cape intègre une série de lames fixées à divers mécanismes à ressort. Son concepteur semblait croire que la meilleure défense était une défense active.", "_t")
+t("Has a 50%% chance each turn to slash an adjacent enemy for %d physical damage (based on Cunning), making them bleed.", "A 50%% de chances à chaque tour de trancher un ennemi adjacent, infligeant %d dégâts physiques (basés sur la Ruse) et le faisant saigner.", "tformat")
+t("#Source#'s %s #GOLD#lashes out#LAST#, cutting #Target#!", "Le %s de #Source# #GOLD#fouette violemment#LAST#, frappant #Target# !", "logCombat")
+t("a jetpack", "un jetpack", "_t")
+t("Finally.", "Enfin.", "_t")
+t("Therapeutic Platemail", "Plastron thérapeutique", "entity name")
+t("heated armor", "armure chauffée", "_t")
+t("This thick sealed armor utilizes a ventilation system to heal your wounds using a heated mist.", "Cette armure épaisse et scellée utilise un système de ventilation pour soigner vos blessures grâce à une brume chauffée.", "_t")
+t("cleanse up to 3 poisons or wounds detrimental effects", "supprime jusqu'à 3 effets négatifs de poison ou de blessure", "_t")
+t("A gun sure to turn all to ash. As long as its nearby.", "Une arme capable de réduire tout en cendres. Tant que c'est à portée.", "_t")
+t("Golden Gun", "Pistolet Doré", "entity name")
+t("golden gun", "pistolet doré", "_t")
+t("every third hit always crits.", "chaque troisième coup est toujours critique.", "_t")
+t("Cautery Sword", "Épée Cautérisante", "entity name")
+t("searing sword", "épée brûlante", "_t")
+t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "Cette épée est équipée d'un coeur chauffant pour ajouter un supplément de douleur aux blessures.", "_t")
+t("inflict fire damage based on steampower", "inflige des dégâts de feu basés sur la puissance de vapeur", "_t")
+t("injector", "injecteur", "entity subtype")
+t("autosyringe", "seringue automatique", "_t")
+t("This injecting unit is complemented by a belt of tiny vials, containing some sickly yellow liquid. The papers describe the contents as 'invigorating' and 'increasing the combat potency.'", "Cette unité d'injection est complétée par une ceinture de petits flacons contenant un liquide jaune maladif. Les documents décrivent son contenu comme \"revitalisant\" et \"augmentant la puissance de combat\".", "_t")
+t("inject yourself with painkillers, reducing all incoming damage by 5. Stacks up to 5 times. When the effect ends, lose 5% of your max life per stack", "s'injecter des analgésiques, réduisant tous les dégâts reçus de 5. Se cumule jusqu'à 5 fois. Lorsque l'effet prend fin, vous perdez 5%% de votre vie maximale par charge", "_t")
+t("Qog's Essentials", "Essentiels de Qog", "entity name")
+t("strange injector", "injecteur étrange", "_t")
+t("A hypospray full of ...something. There is no telling what you're injecting yourself with.", "Un hypospray rempli de... quelque chose. Impossible de savoir ce que vous vous injectez.", "_t")
+t("Gain a random beneficial effect", "Gagne un effet bénéfique aléatoire", "_t")
+t("Deflector", "Déflecteur", "entity name")
+t("vibrating shield", "bouclier vibrant", "_t")
+t("The front plate of this shield vibrates at all times, covering some strange assembly you can't quite make sense of.", "La plaque frontale de ce bouclier vibre en permanence, dissimulant un assemblage étrange que vous n'arrivez pas à comprendre.", "_t")
+t("Knocks melee attackers away. Distance scales with damage incoming.", "Repousse les attaquants au corps à corps. La distance augmente avec les dégâts reçus.", "_t")
+t("Skysmasher", "Brise-Ciel", "entity name")
+t("rocket powered maul", "masse propulsée par fusées", "_t")
+t("The discovery of rockets has proved incredibly dangerous. It is not always clear for whom.", "La découverte des fusées s'est révélée incroyablement dangereuse. Il n'est pas toujours clair pour qui.", "_t")
+t("Nimbus of Enlightenment", "Nimbus d'Éveil", "entity name")
+t("elaborate cap", "coiffe élaborée", "_t")
+t([[They are out to get you.
+This is not real this is not real this is not real.]], [[Ils sont là pour vous avoir.
+Ce n'est pas réel ce n'est pas réel ce n'est pas réel.]], "_t")
+t([[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
+
+Putting this on your head may not be the best idea.]], [[D'après tout ce qu'on peut en dire, il ne s'agit que d'une simple marmite de cuisine avec un ensemble d'antennes soudées n'importe comment. Le manuel joint ne contient rien d'autre que cinquante pages de charabia délirant, de schémas absurdes et de lignes et de lignes de chiffres sans aucun motif ni raison apparente.
+
+Mettre ça sur votre tête n'est peut-être pas la meilleure idée.]], "_t")
+t("%s's Shadow", "Ombre de %s", "tformat")
+t([[itshereitshereitshereitshere
+itshereitshereitshereitshere
+itshereitshereitshereitshere
+itshereitshereitshereitshere]], [[cestlacestlacestlacestlacestlacestlacestla
+cestlacestlacestlacestlacestlacestla
+cestlacestlacestla]], "_t")
+t("#F53CBE#%s's shadow awakens!", "#F53CBE#A L'ombre de %s se réveille !", "logSeen")
+t("Pressurizer", "Pressuriseur", "entity name")
+t("heavy lined cloak", "cape à doublure épaisse", "_t")
+t("This cloak hides and protects a series of powerful steam compressors.", "Cette cape dissimule et protège une série de puissants compresseurs à vapeur.", "_t")
+t("Eastern Wood Hat", "Chapeu de la forêt de l'est", "entity name")
+t("worn leather hat", "chapeau en cuir usé", "_t")
+t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "Ce chapeau a été confectionné à partir de matériaux trouvés dans une forêt lointaine de l'est, dont le nom s'est perdu depuis longtemps. On dit qu'il aurait appartenu à l'un des premiers pistoleros.", "_t")
+t("Steamcatcher", "Capteur de vapeur", "entity name")
+t("pipe coated leather hat", "chapeau en cuir doublé de tubes", "_t")
+t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "Il y a un vieux dicton qui dit que la plupart de la chaleur corporelle s'échappe pour le crâne. Ce n'est certes pas vrai pour la chaleur corporelle, mais ça se vérifie étonnement très bien pour la vapeur.", "_t")
+t("On taking fire damage: Gain 5% of the damage as steam.", "En recevant des dégâts de feu, recevez 5% des dégâts sous forme de vapeur supplémentaire.", "_t")
+t("Shoes of Moving Quickly", "Chaussures de déplacement rapide", "entity name")
+t("rocket powered boots", "bottes à propulsion", "_t")
+t("Accurately? Less so.", "Avec précision ? Pas vraiment.", "_t")
+t("You move 3 spaces at once.", "Vous reculez de trois cases d'un coup.", "_t")
+t("Band of Protection", "Lanière de protection", "entity name")
+t("reinforced belt", "ceinture renforcée", "_t")
+t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "Cette ceinture utilise un joyau enchanté pour transformer une explosion de vapeur concentrée en barrière puissante.", "_t")
+t("generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "Générez un bouclier personnel qui absorbe jusqu'à %d dégâts et inflige %d dégâts de feu aux attaquants pendant sa durée (évolue avec la Ruse).", "tformat")
+t("%s summons a barrier of steam from %s %s!", "%s invoque une barrière de vapeur de %s à %s!", "logSeen")
+t("Viletooth", "Dent Maléfique", "entity name")
+t("rusted steamsaw", "scie à vapeur rouillée", "_t")
+t("This aged looking saw is very rusty, and you think you see a thin layer of... something... on its blades.", "Cette vieille scie est assez rouillée, et on peut voir une fine couche de... quelque chose... sur les lames.", "_t")
+t("may infect the target with a random disease", "peut infecter la cible avec une maladie aléatoire", "_t")
+t("Mirrorazor", "Miroirasoir", "entity name")
+t("rippling portal", "portail agité", "_t")
+t([[The experiment of a mad chronomancer, this strange device is a portal into a backwards universe!
+That is, everything there spins the opposite direction.
+I guess it probably grinds things pretty well.]], [[Fruit de l'expérience d'un chronomancien excentrique, cet étrange appareil est un portail vers un univers inversé ! 
+Autrement dit, tout y tourne dans le sens inverse.
+Je suppose que ça doit broyer les choses à merveille.]], "_t")
 t("scroll", "parchemin", "_t")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
+t("time-warped paper scrap", "morceau de papier déformé par le temps", "_t")
+t("It came a long way away!", "Il venait de très loin !", "_t")
+t("Screw that!", "Au diable !", "_t")
+t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "Par tous les dieux… Vous n’avez pas le temps de vous occuper de ces bêtises. Vous réactivez le Miroir, le resynchronisez avec l’Univers Miroir et renvoyez la note. Une autre note jaillit de l’autre côté, miraculeusement indemne malgré l’énorme différence de rotation planétaire.", "_t")
+t("#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "#LIGHT_BLUE#O Le miroir tremble lorsqu'une note provenant d'une autre ligne temporelle tombe !", "saySimple")
+t("5 turns after use, mirror yourself across the map (centered around the location you were standing when activated).", "5 tours après utilisation, votre position est inversée sur la carte (centrée sur l'endroit où vous vous trouviez au moment de l'activation)..", "_t")
 t("Razorlock", "Travascie", "entity name")
 t("interlocked steamsaws", "scies à vapeur entrecroisées", "_t")
 t([[This intricate set of steamsaws lock together in a nearly indecipherable system.
@@ -1805,8 +1961,8 @@ t("aether-infused steamsaw", "scie à vapeur infusée d'éther", "_t")
 t("Saws made of metal? That is no good for a discerning Technomancer so Galen made a saw out of pure arcane forces!", "Des scies en métal ? Pas assez bien pour un Technomancien exigeant, alors Galen en a forgé une à partir de forces arcaniques pures !", "_t")
 t("Increases the steam your arcane dynamo generate per 10 points of mana by 2.", "Augmente de 2 la vapeur générée par votre dynamo arcanique pour chaque tranche de 10 mana dépensés.", "_t")
 t("Eye of the Lost", "Oeil de l'Égaré", "entity name")
-t("pale mindstar", "étoile mentale pâle", "_t")
-t("A strange aura surrounds this mindstar. You feel a presence, but it is obscured, as if it refuses to be found.", "Une aura étrange entoure cette étoile mentale. Vous sentez une présence, mais elle est obscurcie, comme si elle refusait d'être trouvée.", "_t")
+t("pale mindstar", "étoile d'âme pâle", "_t")
+t("A strange aura surrounds this mindstar. You feel a presence, but it is obscured, as if it refuses to be found.", "Une aura étrange entoure cette étoile d'âme. Vous sentez une présence, mais elle est obscurcie, comme si elle refusait d'être trouvée.", "_t")
 t("reduces mental save", "réduit la sauvegarde mentale", "_t")
 t("see all other beings around you for 5 turns", "permet de voir tous les autres êtres alentour pendant 5 tours", "_t")
 t("Brass Goggles", "Lunettes en Laiton", "entity name")
@@ -1822,97 +1978,11 @@ t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it v
 t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#Vous sentez la puissance du Marteau de Gloire vous parcourir ! Il est désormais pleinement activé !", "logPlayer")
 -- texte non traduit
 --[==[
-t("Medical Urgency Vest", "Medical Urgency Vest", "entity name")
-t("medical armour", "medical armour", "_t")
-t("This light leather armour features a special medical injector.", "This light leather armour features a special medical injector.", "_t")
-t("Steam Powered Boots", "Steam Powered Boots", "entity name")
-t("Boots. But with steam power!", "Boots. But with steam power!", "_t")
-t("Generate %d steam each time you walk.", "Generate %d steam each time you walk.", "tformat")
-t("The more steam the better!", "The more steam the better!", "_t")
-t("Steam Powered Helm", "Steam Powered Helm", "entity name")
-t("A Helmet. But with steam power!", "A Helmet. But with steam power!", "_t")
-t("Steam Powered Gauntlets", "Steam Powered Gauntlets", "entity name")
-t("Gauntlets. But with steam power!", "Gauntlets. But with steam power!", "_t")
-t("Anti-Gravity Boots", "Anti-Gravity Boots", "entity name")
-t("overheating steel greaves", "overheating steel greaves", "_t")
-t([[These boots seem to have been made by a... creative individual who seems to have decided that launching yourself through the air via rocketry qualifies as "anti-gravity".
-They look like they will work, though.
-Probably.
-If you're very careful.]], [[These boots seem to have been made by a... creative individual who seems to have decided that launching yourself through the air via rocketry qualifies as "anti-gravity".
-They look like they will work, though.
-Probably.
-If you're very careful.]], "_t")
-t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "tformat")
-t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "tformat")
-t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#You see no place to land near there.", "logPlayer")
-t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "logCombat")
-t("engulfs %s spectacularly", "engulfs %s spectacularly", "tformat")
-t("launches %s in the air", "launches %s in the air", "tformat")
-t("#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "logCombat")
-t("Assassin's Surprise", "Assassin's Surprise", "entity name")
-t("glistening steel gauntlets", "glistening steel gauntlets", "_t")
-t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "_t")
-t("fire a poisonous bolt out to range %d that deals %d nature damage and afflicts the target with crippling poison (%d%% fail chance) that deals %d addition nature damage over %d turns (damage based on Cunning)", "fire a poisonous bolt out to range %d that deals %d nature damage and afflicts the target with crippling poison (%d%% fail chance) that deals %d addition nature damage over %d turns (damage based on Cunning)", "tformat")
-t("#Source# fires a bolt of #GREEN#poison#LAST# at #target# from %s %s!", "#Source# fires a bolt of #GREEN#poison#LAST# at #target# from %s %s!", "logCombat")
-t("Nacrush's Decimator", "Nacrush's Decimator", "entity name")
-t("unwieldy gun", "unwieldy gun", "_t")
-t("Nacrush was known for a tendency towards overkill.", "Nacrush was known for a tendency towards overkill.", "_t")
-t("Knocks you back when fired.", "Knocks you back when fired.", "_t")
-t("#Source# recoils from the shot.", "#Source# recoils from the shot.", "logCombat")
 t("Signal", "Signal", "entity name")
-t("red barreled steamgun", "red barreled steamgun", "_t")
-t("An odd, stubby gun with a large, red barrel.", "An odd, stubby gun with a large, red barrel.", "_t")
 t("Glacia", "Glacia", "entity name")
-t("frozen gun", "frozen gun", "_t")
-t("Strange coils encircle this extremely cold gun.", "Strange coils encircle this extremely cold gun.", "_t")
-t("deal cold damage equal to 100 + the higher of your steam or spellpower, and attempt to freeze the target (20% chance).", "deal cold damage equal to 100 + the higher of your steam or spellpower, and attempt to freeze the target (20% chance).", "_t")
-t("Tinkerer's Twinblaster", "Tinkerer's Twinblaster", "entity name")
-t("two barreled steamgun", "two barreled steamgun", "_t")
-t([[This gun seems to be some experiment in firing multiple shots simultaneously.
-The design is somewhat rudimentary, but it seems to work.]], [[This gun seems to be some experiment in firing multiple shots simultaneously.
-The design is somewhat rudimentary, but it seems to work.]], "_t")
-t("Flashpoint", "Flashpoint", "entity name")
-t("overheated gun", "overheated gun", "_t")
-t("\"Have you ever looked at some guys and thought 'you know, I really wish they were on fire right now', but you didn't feel like walking all the way over there? Well, there's now a better way!\"", "\"Have you ever looked at some guys and thought 'you know, I really wish they were on fire right now', but you didn't feel like walking all the way over there? Well, there's now a better way!\"", "_t")
-t("S.H. Spear", "S.H. Spear", "entity name")
-t("engraved steamgun", "engraved steamgun", "_t")
-t([[This gun is engraved with a strange material which focuses mental powers.
-It seems like your mind will operate even faster with this equipped.]], [[This gun is engraved with a strange material which focuses mental powers.
-It seems like your mind will operate even faster with this equipped.]], "_t")
-t("Dreamweaver", "Dreamweaver", "entity name")
-t("shimmering steamgun", "shimmering steamgun", "_t")
-t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "_t")
-t("throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "throw the gun and cause it to explode, dealing by %d mind damage (based on Cunning and Willpower) to all targets in an area, attempting to put them to sleep, and disarming yourself for 3 turns", "tformat")
-t("%s tosses %s %s!", "%s tosses %s %s!", "logSeen")
-t("Thoughtcaster", "Thoughtcaster", "entity name")
-t("crystalline handgun", "crystalline handgun", "_t")
-t("From body, mind. From mind, body.", "From body, mind. From mind, body.", "_t")
-t("deal %0.2f mind damage (based on Mindpower) in a radius 1 around the target", "deal %0.2f mind damage (based on Mindpower) in a radius 1 around the target", "tformat")
-t("On hitting with a mindstar, deal physical damage equal to your steampower in radius 1 around the target.", "On hitting with a mindstar, deal physical damage equal to your steampower in radius 1 around the target.", "_t")
-t("Spider's Fangs", "Spider's Fangs", "entity name")
-t("pouch of envenomed shots", "pouch of envenomed shots", "_t")
-t("A dedicated technician seems to have built pockets of spider venom into these rounds. It's not clear how happy the spiders were about this.", "A dedicated technician seems to have built pockets of spider venom into these rounds. It's not clear how happy the spiders were about this.", "_t")
 t("%s", "%s", "tformat")
-t("(cooling down: %d turns)", "(cooling down: %d turns)", "tformat")
-t("Ready to trigger!", "Ready to trigger!", "_t")
-t("bursts into an cloud of spydric poison, pinning those inside (with a 10 turn cooldown)", "bursts into an cloud of spydric poison, pinning those inside (with a 10 turn cooldown)", "_t")
-t("Scattermind", "Scattermind", "entity name")
-t("shattered mindstar", "shattered mindstar", "_t")
-t("A linen pouch of jagged mindstar fragments, each radiating a palpable sense of confusion and pain. They must have made up an impressive whole originally, before some cretin turned it to bits.", "A linen pouch of jagged mindstar fragments, each radiating a palpable sense of confusion and pain. They must have made up an impressive whole originally, before some cretin turned it to bits.", "_t")
-t("strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "strike the target with one of Mind Sear, Psychic Lobotomy, or Sunder Mind, at random.", "_t")
-t("Thundercrack", "Thundercrack", "entity name")
-t("pouch of copper shots", "pouch of copper shots", "_t")
-t("Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "Through a combination of magic and airborne probes, these shots incite powerful bolts of lightning to strike your target from above, frying them and those around them!", "_t")
-t("a bolt of lightning strikes your target, dealing lightning damage to them and fire damage to those around them.", "a bolt of lightning strikes your target, dealing lightning damage to them and fire damage to those around them.", "_t")
-t("Vindicator", "Vindicator", "entity name")
-t("engraved gun", "engraved gun", "_t")
 t("\"Pesky undead plaguing your village? Necromancers ransacking your burial grounds? The Vindicator is the solution to all your woes!\"", "\"Pesky undead plaguing your village? Necromancers ransacking your burial grounds? The Vindicator is the solution to all your woes!\"", "_t")
-t("release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "release a burst of light dealing damage equal to your cunning plus your magic in a ball of radius 2. If the target is undead, the damage and radius are doubled.", "_t")
-t("Overburst", "Overburst", "entity name")
-t("wide barreled steamgun", "wide barreled steamgun", "_t")
 t("\"Have you ever fired a shot into a group of monsters and thought 'there must be a better way?' Well now, there is!\"", "\"Have you ever fired a shot into a group of monsters and thought 'there must be a better way?' Well now, there is!\"", "_t")
-t("Release a burst of shrapnel, dealing physical damage equal to your steampower in a cone from the target of radius 4.", "Release a burst of shrapnel, dealing physical damage equal to your steampower in a cone from the target of radius 4.", "_t")
-t("Murderfang's Surekill", "Murderfang's Surekill", "entity name")
 t([["Murderfang came over yesterday, raving about this idea for a steamgun he had. He described it in great detail, everything, except for how it would actually work.
 What do you even grip it by? Insisted I make it though, left some design notes.
 They all just say 'make it really flashy'.
@@ -1922,129 +1992,33 @@ What do you even grip it by? Insisted I make it though, left some design notes.
 They all just say 'make it really flashy'.
  
 -Pizurk, Master Tinker]], "_t")
-t("Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "Burst apart, dealing physical damage equal to 25% of the original damage in a ball of radius 1.", "_t")
-t("The Long-Arm", "The Long-Arm", "entity name")
-t("long barreled gun", "long barreled gun", "_t")
-t("This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "This gun has an absurdly long barrel. You wonder for whom it may have been designed.", "_t")
-t("Focus your aim on a target, marking them for death - reducing their ranged defense by %d and their resistances by %d%%", "Focus your aim on a target, marking them for death - reducing their ranged defense by %d and their resistances by %d%%", "tformat")
-t("#Source# takes aim at #target# using %s!", "#Source# takes aim at #target# using %s!", "logCombat")
-t("gigantic many barreled gun", "gigantic many barreled gun", "_t")
-t("This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "This gun features a wheel with several barrels attached and seems to be powered by an engine. It looks... impressive.", "_t")
-t("Fire rate increases while firing, up to 5 shots per turn. Resets after 5 turns without firing.", "Fire rate increases while firing, up to 5 shots per turn. Resets after 5 turns without firing.", "_t")
-t("The Shotgonne", "The Shotgonne", "entity name")
-t("huge gun", "huge gun", "_t")
-t([[This huge steamgun can be loaded with more than one bullet so that multiple shots can be fired in a nasty cone of death.
-It also seems to have been carefully balanced to work like a dual gun set.]], [[This huge steamgun can be loaded with more than one bullet so that multiple shots can be fired in a nasty cone of death.
-It also seems to have been carefully balanced to work like a dual gun set.]], "_t")
-t("When fired, shoots up to 4 extra shots at random foes with a radius 4 cone centered on the target.", "When fired, shoots up to 4 extra shots at random foes with a radius 4 cone centered on the target.", "_t")
-t("Cloak of Daggers", "Cloak of Daggers", "entity name")
-t("bladed cloak", "bladed cloak", "_t")
-t("This cloak seems to incorporate a series of blades attached to various spring mechanisms.  Apparently the designer believed that the best defense was an active one.", "This cloak seems to incorporate a series of blades attached to various spring mechanisms.  Apparently the designer believed that the best defense was an active one.", "_t")
-t("Has a 50%% chance each turn to slash an adjacent enemy for %d physical damage (based on Cunning), making them bleed.", "Has a 50%% chance each turn to slash an adjacent enemy for %d physical damage (based on Cunning), making them bleed.", "tformat")
-t("#Source#'s %s #GOLD#lashes out#LAST#, cutting #Target#!", "#Source#'s %s #GOLD#lashes out#LAST#, cutting #Target#!", "logCombat")
 t("Jetpack", "Jetpack", "entity name")
-t("a jetpack", "a jetpack", "_t")
-t("Finally.", "Finally.", "_t")
-t("Therapeutic Platemail", "Therapeutic Platemail", "entity name")
-t("heated armor", "heated armor", "_t")
-t("This thick sealed armor utilizes a ventilation system to heal your wounds using a heated mist.", "This thick sealed armor utilizes a ventilation system to heal your wounds using a heated mist.", "_t")
-t("cleanse up to 3 poisons or wounds detrimental effects", "cleanse up to 3 poisons or wounds detrimental effects", "_t")
 t("Titan", "Titan", "entity name")
-t("A gun sure to turn all to ash. As long as its nearby.", "A gun sure to turn all to ash. As long as its nearby.", "_t")
-t("Golden Gun", "Golden Gun", "entity name")
-t("golden gun", "golden gun", "_t")
-t("every third hit always crits.", "every third hit always crits.", "_t")
-t("Cautery Sword", "Cautery Sword", "entity name")
-t("searing sword", "searing sword", "_t")
-t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "_t")
-t("inflict fire damage based on steampower", "inflict fire damage based on steampower", "_t")
 t("Stimulus", "Stimulus", "entity name")
-t("injector", "injector", "entity subtype")
-t("autosyringe", "autosyringe", "_t")
-t("This injecting unit is complemented by a belt of tiny vials, containing some sickly yellow liquid. The papers describe the contents as 'invigorating' and 'increasing the combat potency.'", "This injecting unit is complemented by a belt of tiny vials, containing some sickly yellow liquid. The papers describe the contents as 'invigorating' and 'increasing the combat potency.'", "_t")
-t("inject yourself with painkillers, reducing all incoming damage by 5. Stacks up to 5 times. When the effect ends, lose 5% of your max life per stack", "inject yourself with painkillers, reducing all incoming damage by 5. Stacks up to 5 times. When the effect ends, lose 5% of your max life per stack", "_t")
-t("Qog's Essentials", "Qog's Essentials", "entity name")
-t("strange injector", "strange injector", "_t")
-t("A hypospray full of ...something. There is no telling what you're injecting yourself with.", "A hypospray full of ...something. There is no telling what you're injecting yourself with.", "_t")
-t("Gain a random beneficial effect", "Gain a random beneficial effect", "_t")
-t("Deflector", "Deflector", "entity name")
-t("vibrating shield", "vibrating shield", "_t")
-t("The front plate of this shield vibrates at all times, covering some strange assembly you can't quite make sense of.", "The front plate of this shield vibrates at all times, covering some strange assembly you can't quite make sense of.", "_t")
-t("Knocks melee attackers away. Distance scales with damage incoming.", "Knocks melee attackers away. Distance scales with damage incoming.", "_t")
-t("Skysmasher", "Skysmasher", "entity name")
-t("rocket powered maul", "rocket powered maul", "_t")
-t("The discovery of rockets has proved incredibly dangerous. It is not always clear for whom.", "The discovery of rockets has proved incredibly dangerous. It is not always clear for whom.", "_t")
-t("Nimbus of Enlightenment", "Nimbus of Enlightenment", "entity name")
-t("elaborate cap", "elaborate cap", "_t")
-t([[They are out to get you.
-This is not real this is not real this is not real.]], [[They are out to get you.
-This is not real this is not real this is not real.]], "_t")
-t([[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
-
-Putting this on your head may not be the best idea.]], [[By all accounts, just an ordinary cooking pot with an array of antennae haphazardly soldered onto it. An attached manual contains nothing but fifty pages of deranged gibberish, nonsensical diagrams and lines upon lines of numbers with no apparent pattern or reason to them. 
-
-Putting this on your head may not be the best idea.]], "_t")
-t("%s's Shadow", "%s's Shadow", "tformat")
-t([[itshereitshereitshereitshere
-itshereitshereitshereitshere
-itshereitshereitshereitshere
-itshereitshereitshereitshere]], [[itshereitshereitshereitshere
-itshereitshereitshereitshere
-itshereitshereitshereitshere
-itshereitshereitshereitshere]], "_t")
-t("#F53CBE#%s's shadow awakens!", "#F53CBE#%s's shadow awakens!", "logSeen")
-t("Pressurizer", "Pressurizer", "entity name")
-t("heavy lined cloak", "heavy lined cloak", "_t")
-t("This cloak hides and protects a series of powerful steam compressors.", "This cloak hides and protects a series of powerful steam compressors.", "_t")
-t("Eastern Wood Hat", "Eastern Wood Hat", "entity name")
-t("worn leather hat", "worn leather hat", "_t")
-t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "_t")
-t("Steamcatcher", "Steamcatcher", "entity name")
-t("pipe coated leather hat", "pipe coated leather hat", "_t")
-t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "_t")
-t("On taking fire damage: Gain 5% of the damage as steam.", "On taking fire damage: Gain 5% of the damage as steam.", "_t")
-t("Shoes of Moving Quickly", "Shoes of Moving Quickly", "entity name")
-t("rocket powered boots", "rocket powered boots", "_t")
-t("Accurately? Less so.", "Accurately? Less so.", "_t")
-t("You move 3 spaces at once.", "You move 3 spaces at once.", "_t")
-t("Band of Protection", "Band of Protection", "entity name")
-t("reinforced belt", "reinforced belt", "_t")
-t("This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "This belt utilizes an enchanted gem to focus a burst of steam into a powerful barrier.", "_t")
-t("generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "generate a personal shield that absorbs up to %d damage and damages attackers striking the wearer for %d fire damage while it lasts (based on Cunning)", "tformat")
-t("%s summons a barrier of steam from %s %s!", "%s summons a barrier of steam from %s %s!", "logSeen")
-t("Viletooth", "Viletooth", "entity name")
-t("rusted steamsaw", "rusted steamsaw", "_t")
-t("This aged looking saw is very rusty, and you think you see a thin layer of... something... on its blades.", "This aged looking saw is very rusty, and you think you see a thin layer of... something... on its blades.", "_t")
-t("may infect the target with a random disease", "may infect the target with a random disease", "_t")
-t("Mirrorazor", "Mirrorazor", "entity name")
-t("rippling portal", "rippling portal", "_t")
-t([[The experiment of a mad chronomancer, this strange device is a portal into a backwards universe!
-That is, everything there spins the opposite direction.
-I guess it probably grinds things pretty well.]], [[The experiment of a mad chronomancer, this strange device is a portal into a backwards universe!
-That is, everything there spins the opposite direction.
-I guess it probably grinds things pretty well.]], "_t")
-t("time-warped paper scrap", "time-warped paper scrap", "_t")
-t("It came a long way away!", "It came a long way away!", "_t")
-t("Screw that!", "Screw that!", "_t")
-t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "_t")
-t("#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "saySimple")
-t("5 turns after use, mirror yourself across the map (centered around the location you were standing when activated).", "5 turns after use, mirror yourself across the map (centered around the location you were standing when activated).", "_t")
 --]==]
 
+-- ancien texte traduit
+t([["Murderfang came over yesterday, raving about this idea for a steamgun he had. He described it in great detail, everything, except for how it would actually work.
+What do you even grip it by? Insisted I make it though, left some design notes.
+They all just say 'make it really flashy'.
+-Pizurk, Master Tinker]], [["Murderfang est passé hier, exalté par une idée de fusil à vapeur. Il a tout décrit en détail, sauf la partie importante : son fonctionnement.
+On est censé le tenir par quoi, exactement ? Il a insisté pour que je le fabrique quand même et m'a laissé quelques notes de conception.
+Elles disent toutes la même chose : "faites-le très tape-à-l'oeil".
+– Pizurk, Maître ingénieur]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/stores/orcs.lua"
 
 t("library", "librairie", "entity name")
-t("tinker", "babiole", "entity name")
+t("smith", "forgeron", "entity name")
+t("tinker", "bricoleur", "entity name")
+t("expensive goods", "marchandises onéreuses", "entity name")
+t("aracane psi collector", "collecteur psionique arcanique", "entity name")
+t("rune and infusion collector", "collecteur de runes et d'essences", "entity name")
 t("tool store", "quincaillerie", "entity name")
 -- texte non traduit
 --[==[
 t("forge", "forge", "entity name")
-t("smith", "smith", "entity name")
-t("expensive goods", "expensive goods", "entity name")
-t("aracane psi collector", "aracane psi collector", "entity name")
-t("rune and infusion collector", "rune and infusion collector", "entity name")
 --]==]
 
 
@@ -2054,44 +2028,40 @@ section "tome-orcs/data/general/traps/ritch.lua"
 t("natural", "naturel", "entity type")
 t("sand", "sable", "entity subtype")
 t("trap", "piège", "_t")
+t("sand pit", "fosse de sable", "entity name")
+t("@Target@ slides into a sand pit!", "@Target@ glisse dans une fosse de sable !", "_t")
 t("%s resists!", "%s résiste !", "logSeen")
--- texte non traduit
---[==[
-t("sand pit", "sand pit", "entity name")
-t("@Target@ slides into a sand pit!", "@Target@ slides into a sand pit!", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/ingredients.lua"
 
+t("lump of iron", "bloc de fer", "entity name")
+t("A lump of iron.", "Un bloc de fer.", "_t")
+t("lump of steel", "bloc d'acier", "entity name")
+t("A lump of steel.", "Un bloc d'acier.", "_t")
+t("lump of dwarven steel", "bloc d'acier nain", "entity name")
+t("A lump of dwarven steel.", "Un bloc d'acier nain.", "_t")
+t("lump of stralite", "bloc de stralite", "entity name")
+t("A lump of stralite.", "Un bloc de stralite.", "_t")
+t("lump of voratun", "bloc de voratun", "entity name")
+t("A lump of voratun.", "Un bloc de voratun.", "_t")
+t("herbs", "herbes", "entity type")
+t("stack of herbs (viperweed)", "botte d'herbes (herbe-vipère)", "entity name")
+t("A stack of herbs.", "Une botte d'herbes.", "_t")
+t("stack of herbs (sessali)", "botte d'herbes (sessali)", "entity name")
+t("stack of herbs (bilberry)", "botte d'herbes (myrtille)", "entity name")
+t("stack of herbs (burdock)", "botte d'herbes (bardane)", "entity name")
+t("stack of herbs (goldleaf)", "botte d'herbes (feuille-d'or)", "entity name")
 t("misc", "divers", "entity type")
+t("brain in a jar", "cerveau dans un bocal", "entity name")
+t("A still living brain of a powerful psionic creature.", "Le cerveau toujours vivant d'une puissante créature psionique. Quel gaspillage.", "_t")
+t("mechanical core", "coeur mécanique", "entity name")
+t("The core unit of the Automated Defense System.", "Le coeur du Système de Défense Automatisé.", "_t")
+t("primal core", "coeur primal", "entity name")
+t("The core wood of a great tree.", "Le coeur de bois d'un arbre majestueux.", "_t")
 -- texte non traduit
 --[==[
 t("metal", "metal", "entity type")
-t("lump of iron", "lump of iron", "entity name")
-t("A lump of iron.", "A lump of iron.", "_t")
-t("lump of steel", "lump of steel", "entity name")
-t("A lump of steel.", "A lump of steel.", "_t")
-t("lump of dwarven steel", "lump of dwarven steel", "entity name")
-t("A lump of dwarven steel.", "A lump of dwarven steel.", "_t")
-t("lump of stralite", "lump of stralite", "entity name")
-t("A lump of stralite.", "A lump of stralite.", "_t")
-t("lump of voratun", "lump of voratun", "entity name")
-t("A lump of voratun.", "A lump of voratun.", "_t")
-t("herbs", "herbs", "entity type")
-t("stack of herbs (viperweed)", "stack of herbs (viperweed)", "entity name")
-t("A stack of herbs.", "A stack of herbs.", "_t")
-t("stack of herbs (sessali)", "stack of herbs (sessali)", "entity name")
-t("stack of herbs (bilberry)", "stack of herbs (bilberry)", "entity name")
-t("stack of herbs (burdock)", "stack of herbs (burdock)", "entity name")
-t("stack of herbs (goldleaf)", "stack of herbs (goldleaf)", "entity name")
-t("brain in a jar", "brain in a jar", "entity name")
-t("A still living brain of a powerful psionic creature.", "A still living brain of a powerful psionic creature.", "_t")
-t("mechanical core", "mechanical core", "entity name")
-t("The core unit of the Automated Defense System.", "The core unit of the Automated Defense System.", "_t")
-t("primal core", "primal core", "entity name")
-t("The core wood of a great tree.", "The core wood of a great tree.", "_t")
 --]==]
 
 
@@ -5826,6 +5796,7 @@ t("Self-destruction", "Auto-destruction", "talent name")
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("Assault", "Assaut", "_t")
+t("steamtech", "vapotech", "talent category")
 t("#Source# provokes #Target# to attack it.", "#Source# provoque #Target# pour qu'il l'attaque.", "logCombat")
 -- texte non traduit
 --[==[
@@ -5877,7 +5848,6 @@ t([[You craft a new chassis for your mecharachnid, allowing you to tailor it to 
 t("Mecharachnid Piloting", "Mecharachnid Piloting", "talent name")
 t("You require your mecharachnid to be adjacent.", "You require your mecharachnid to be adjacent.", "logPlayer")
 t("Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "Leap into your mecharachnid, assuming direct control of it for %d turns. While piloting it, all damage dealt is increased by %d%%, resistances are increased by %d%%, and all of its talents cooldown twice as fast.", "tformat")
-t("steamtech", "steamtech", "talent category")
 t("armament", "armament", "talent type")
 t("Ranged combat mecharachnid abilities.", "Ranged combat mecharachnid abilities.", "_t")
 t("assault", "assault", "talent type")
@@ -5955,9 +5925,11 @@ t("When you use a shoot class talent to hit a creature affected by bloodstar an 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/other.lua"
 
+t("Medical Urgency Vest", "Gilet d'urgence médicale", "talent name")
 t("Summon", "Invocation", "_t")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
 t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("Steam Powered Armour", "Armure à vapeur", "talent name")
 t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
 t("%s resists the blinding light!", "%s résiste à la lumière aveuglante !", "logSeen")
 t("%s is knocked back!", "%s est repoussé !", "logSeen")
@@ -5966,7 +5938,6 @@ t("%s resists the pull!", "%s résiste à l'attraction !", "logSeen")
 -- texte non traduit
 --[==[
 t("Medical Injector", "Medical Injector", "talent name")
-t("Medical Urgency Vest", "Medical Urgency Vest", "talent name")
 t("#LIGHT_BLUE#Medical Urgency Vest selected to be used first by salves.", "#LIGHT_BLUE#Medical Urgency Vest selected to be used first by salves.", "saySimple")
 t("This medical injector will now be used first if available when using medical salves.", "This medical injector will now be used first if available when using medical salves.", "logPlayer")
 t("The medical urgency vest allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "The medical urgency vest allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "tformat")
@@ -6028,7 +5999,6 @@ t([[Launch a cannister filled with toxic gas at a location.
 		The cannister has %d life and lasts 8 turns. When it ends or is destroyed a last cloud is created.
 		Damage, life, resists, and armor scale with your Steampower.
 		Damage and penetration are inherited from the creator.]], "tformat")
-t("Steam Powered Armour", "Steam Powered Armour", "talent name")
 t([[Activate the armour's active defense system.
 		A flow of electricity covers your armour to attenuate the force of energy attacks while small steam engines move key pieces of the armour to attenuate physical attacks.
 		All damage except mind damage is reduced by a flat %d.
@@ -6354,6 +6324,7 @@ t([[When you kill a foe you place small explosives with shrapnels inside its bod
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/steam.lua"
 
+t("steamtech", "vapotech", "talent category")
 t("other", "Autre", "talent type")
 t("dread", "hanteur", "talent type")
 -- texte non traduit
@@ -6363,7 +6334,6 @@ t("Allows you to have a steam pool. Steam is used to use most steamtech equipmen
 t("inscriptions", "inscriptions", "talent category")
 t("implants", "implants", "talent type")
 t("Steamtech directly embedded on the skin.", "Steamtech directly embedded on the skin.", "_t")
-t("steamtech", "steamtech", "talent category")
 t("Tinkers with stuff.", "Tinkers with stuff.", "_t")
 t("physics", "physics", "talent type")
 t("Learn the mechanical side of steamtech.", "Learn the mechanical side of steamtech.", "_t")
@@ -6858,6 +6828,7 @@ t("sun", "soleil", "effect subtype")
 t("other", "Autre", "effect subtype")
 t("lightning", "foudre", "effect subtype")
 t("tactical", "tactique", "effect subtype")
+t("steamtech", "vapotech", "effect subtype")
 t("#STEEL_BLUE#(%d shared)#LAST#", "#STEEL_BLUE#(%d partagés)#LAST#", "tformat")
 t("miscellaneous", "divers", "effect subtype")
 t("#LIGHT_RED##Target# is out of sight of its master; direct control will break!", "#LIGHT_RED##Target# est hors de vue de son maître ; le contrôle direct est rompu !", "_t")
@@ -6892,7 +6863,6 @@ t("Capacitor Discharge", "Capacitor Discharge", "_t")
 t("Storing damage to unleash as a powerful lightning bolt (%d/%d).", "Storing damage to unleash as a powerful lightning bolt (%d/%d).", "tformat")
 t("Upgrade", "Upgrade", "_t")
 t("This turret has been greatly enhanced.", "This turret has been greatly enhanced.", "tformat")
-t("steamtech", "steamtech", "effect subtype")
 t("Guardian Shield", "Guardian Shield", "_t")
 t("%d%% of all incoming damage is redirected to the adjacent Guardian Turret.", "%d%% of all incoming damage is redirected to the adjacent Guardian Turret.", "tformat")
 t("Countdown", "Countdown", "_t")
@@ -6947,6 +6917,7 @@ t("Vulnerable to more cross tier effects.", "Vulnerable to more cross tier effec
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/physical.lua"
 
+t("steamtech", "vapotech", "effect subtype")
 t("#Target# is less focused.", "#Target# est moins concentré.", "_t")
 t("Cloak", "Cape", "_t")
 t("frost", "gel", "effect subtype")
@@ -7000,7 +6971,6 @@ t("The target is moving while shooting, and will reload %sammo when finished str
 t("%s reloads.", "%s reloads.", "logSeen")
 t("Startled", "Startled", "_t")
 t("The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "tformat")
-t("steamtech", "steamtech", "effect subtype")
 t("Iron Grip", "Iron Grip", "_t")
 t("The target has been crushed, pinning it and reducing defense and armour by %d.", "The target has been crushed, pinning it and reducing defense and armour by %d.", "tformat")
 t("#Target# is crushed by the iron grip.", "#Target# is crushed by the iron grip.", "_t")
@@ -7238,6 +7208,10 @@ t("%d corrosive flechettes are embedded in the target. Each melee and ranged att
 ------------------------------------------------
 section "tome-orcs/data/tinkers/chemistry.lua"
 
+t("Brain Cap", "Calotte Cérébrale", "_t")
+t("Brain Flare", "Éclat Cérébral", "_t")
+t("Rogue's Gallery", "Galerie du Voleur", "_t")
+t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Doublée de mécanismes réactifs, cette cape est équipée pour toute situation que vous pourriez rencontrer, et plusieurs que vous ne pourriez jamais rencontrer !", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
@@ -7248,9 +7222,7 @@ t("Winterchill Edge", "Winterchill Edge", "_t")
 t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "_t")
 t("Acid Groove", "Acid Groove", "_t")
 t("Allows your weapon to spray caustic acid on hit, reducing armor.", "Allows your weapon to spray caustic acid on hit, reducing armor.", "_t")
-t("Brain Cap", "Brain Cap", "_t")
 t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "_t")
-t("Brain Flare", "Brain Flare", "_t")
 t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "_t")
 t("Waterproof Coating", "Waterproof Coating", "_t")
 t("Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "_t")
@@ -7260,8 +7232,6 @@ t("Flash Powder", "Flash Powder", "_t")
 t("What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "_t")
 t("Itching Powder", "Itching Powder", "_t")
 t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "_t")
-t("Rogue's Gallery", "Rogue's Gallery", "_t")
-t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "_t")
 t("flash powder", "flash powder", "_t")
 t("Rustproof Coating", "Rustproof Coating", "_t")
 t("Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "_t")
@@ -7366,6 +7336,7 @@ t("A special shot that contains a deadly toxin.", "A special shot that contains 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/mechanical.lua"
 
+t("Steam Powered Armour", "Armure à vapeur", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
@@ -7382,7 +7353,6 @@ t("Iron Grip", "Iron Grip", "_t")
 t("Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "_t")
 t("Spring Grapple", "Spring Grapple", "_t")
 t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "_t")
-t("Steam Powered Armour", "Steam Powered Armour", "_t")
 t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "_t")
 t("lightning coil", "lightning coil", "_t")
 t("Saw Projector", "Saw Projector", "_t")
@@ -7398,6 +7368,8 @@ section "tome-orcs/data/tinkers/smith.lua"
 t("aquamarine", "aigue-marine", "_t")
 t("ruby", "rubis", "_t")
 t("diamond", "diamant", "_t")
+t("Hands of Creation", "Mains de la Création", "_t")
+t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "De vos mains sont nées des oeuvres extraordinaires. Vos créations ont été forgées dans le feu, tout comme vous.", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("bloodstone", "pierre de sang", "_t")
@@ -7424,8 +7396,6 @@ t("Crystal Edge", "Crystal Edge", "_t")
 t("Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "_t")
 t("Crystal Plating", "Crystal Plating", "_t")
 t("Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "_t")
-t("Hands of Creation", "Hands of Creation", "_t")
-t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "_t")
 t("shocking touch", "shocking touch", "_t")
 t("Spike Attachment", "Spike Attachment", "_t")
 t("Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "_t")
@@ -7441,6 +7411,7 @@ t("Keeping yourself grounded is very important, especially around lightning mage
 ------------------------------------------------
 section "tome-orcs/data/tinkers/therapeutics.lua"
 
+t("Life Support Suit", "Combinaison de survie", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
@@ -7478,7 +7449,6 @@ t("Poison Groove", "Poison Groove", "_t")
 t("Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "_t")
 t("Viral Injector", "Viral Injector", "_t")
 t("Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "_t")
-t("Life Support Suit", "Life Support Suit", "_t")
 t("Apply your extensive therapeutics knowledge to try and defeat death itself!", "Apply your extensive therapeutics knowledge to try and defeat death itself!", "_t")
 t("unstoppable force salve", "unstoppable force salve", "_t")
 t("Second Skin", "Second Skin", "_t")
@@ -7495,10 +7465,10 @@ t("This mesh of fungal threads absorbs nutrients for salves to provide you with 
 ------------------------------------------------
 section "tome-orcs/data/tinkers.lua"
 
+t("smith", "forgeron", "_t")
 t("mechanical", "mécanique", "_t")
 -- texte non traduit
 --[==[
-t("smith", "smith", "_t")
 t("electricity", "electricity", "_t")
 t("therapeutics", "therapeutics", "_t")
 t("chemistry", "chemistry", "_t")
@@ -8017,7 +7987,7 @@ t("It is approaching...", "It is approaching...", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/objects.lua"
 
-t("pale mindstar", "étoile mentale pâle", "_t")
+t("pale mindstar", "étoile d'âme pâle", "_t")
 t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
@@ -9225,6 +9195,7 @@ Talents:
 section "tome-orcs/overload/mod/class/OrcCampaign.lua"
 
 t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
+t("steamtech", "vapotech", "_t")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
 t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous ?", "_t")
@@ -9250,7 +9221,6 @@ t("SteamTech", "SteamTech", "_t")
 t("Steampower: #00ff00#%s", "Steampower: #00ff00#%s", "tformat")
 t("Steam speed : #00ff00#%s", "Steam speed : #00ff00#%s", "tformat")
 t("Powered by ", "Powered by ", "_t")
-t("steamtech", "steamtech", "_t")
 t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
 t("Steampower: ", "Steampower: ", "_t")
 t("Steam crit. chance: ", "Steam crit. chance: ", "_t")
@@ -9325,16 +9295,16 @@ section "tome-orcs/superload/mod/class/Actor.lua"
 
 t("scroll", "parchemin", "_t")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
+t("time-warped paper scrap", "morceau de papier déformé par le temps", "_t")
+t("It came a long way away!", "Il venait de très loin !", "_t")
+t("APE", "EPA", "_t")
 -- texte non traduit
 --[==[
 t("#FFD700#St. power#FFFFFF#: ", "#FFD700#St. power#FFFFFF#: ", "_t")
 t("Kruk Invasion", "Kruk Invasion", "_t")
 t("You can not recall until you have placed the bomb at the tunnel's end!", "You can not recall until you have placed the bomb at the tunnel's end!", "_t")
-t("time-warped paper scrap", "time-warped paper scrap", "_t")
-t("It came a long way away!", "It came a long way away!", "_t")
 t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "saySimple")
 t("You gain %0.2f gold from the melting of %s.", "You gain %0.2f gold from the melting of %s.", "log")
-t("APE", "APE", "_t")
 t("When you close the inventory window, all items in the APE will be melted.", "When you close the inventory window, all items in the APE will be melted.", "_t")
 t("melt down", "melt down", "_t")
 --]==]
