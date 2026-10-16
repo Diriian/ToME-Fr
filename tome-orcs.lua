@@ -104,7 +104,7 @@ t("While normally wielding a steamgun loaded with experimental ammunition and an
 t("More adept at technology than most other tinkers, they supplement their weapons with automated turrets, mechanical minions and other such devices.", "Plus doués en technologie que la plupart des autres bricoleurs, ils complètent leurs armes avec des tourelles automatisées, des serviteurs mécaniques et autres engins du même acabit.", "_t")
 t("#LIGHT_BLUE# * +0 Strength, +4 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +0 Force, +4 Dextérité, +0 Constitution", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +0 Willpower, +5 Cunning", "#LIGHT_BLUE# * +0 Magie, +0 Volonté, +5 Ruse", "_t")
-t("Research. Tinker. Annihilate.", "Cherchez. Bricolez. Annihilez.", "_t")
+t("Research. Tinker. Annihilate.", "Recherchez. Bricolez. Anéantissez.", "_t")
 -- texte non traduit
 --[==[
 t("simple", "simple", "_t")
@@ -1240,7 +1240,7 @@ t("warm stone", "pierre tiède", "_t")
 t("This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "Cette étrange pierre rayonne de la chaleur du Soleil. Peut-être pourrait-elle servir à générer davantage de vapeur ?", "_t")
 t("Overseer", "Superviseuse", "entity name")
 t("cracked mindstar", "étoile d'âme fissurée", "_t")
-t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "Des fragments du pouvoir du Mur Mental habitent encore cette gemme antique et fissurée.", "_t")
+t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "Des fragments du pouvoir de Barment habitent encore cette gemme antique et fissurée.", "_t")
 t("reduces mental save", "réduit la sauvegarde mentale", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "domine mentalement ou assomme psychiquement (selon les immunités) une cible proche à portée %d pendant %d tours (la réussite dépend du Pouvoir Mental)", "tformat")
 t("#Source# psychically dominates #target# through %s %s!", "#Source# domine psychiquement #Target# au travers de %s%s !", "logCombat")
@@ -1454,7 +1454,7 @@ t("%s flash powder", "poudre aveuglante (%s)", "tformat")
 t("%s itching powder", "poudre à gratter (%s)", "tformat")
 t("armor", "armure", "entity type")
 t("cloak", "cape", "entity subtype")
-t("Rogue's Gallery", "Galerie du Voleur", "entity name")
+t("Rogue's Gallery", "Galerie du Brigand", "entity name")
 t("action packed cloak", "cape pleine d'action", "_t")
 t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Doublée de mécanismes réactifs, cette cape est équipée pour toute situation que vous pourriez rencontrer, et plusieurs que vous ne pourriez jamais rencontrer !", "_t")
 t("On falling below 20% of your max life, releases a cloud of smoke, confusing nearby enemies and giving you stealth and a chance to avoid incoming damage for 5 turns.", "Lorsque vous tombez sous 20% de vos points de vie maximum, libère un nuage de fumée qui confond les ennemis proches, vous accordant la furtivité et une chance d'éviter les dégâts entrants pendant 5 tours.", "_t")
@@ -1571,7 +1571,7 @@ t("%s grip", "griffe mécanique (%s)", "tformat")
 t("%s grapple", "grappin mécanique (%s)", "tformat")
 t("armor", "armure", "entity type")
 t("massive", "énorme", "entity subtype")
-t("Steam Powered Armour", "Armure à vapeur", "entity name")
+t("Steam Powered Armour", "Armure à Vapeur", "entity name")
 t("Using small steam engines and the miracles of the latest automation discoveries you are able to create Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Grâce à de petits moteurs à vapeur et aux merveilles des dernières découvertes en automatisation, vous pouvez fabriquer une Armure à vapeur. Cette armure de plates complète facilite vos mouvements et dispose de mécanismes de protection intégrés.", "_t")
 t("The more steam the better!", "Plus il y a de vapeur, mieux c'est !", "_t")
 t("#GOLD#Your steam-powered boots, helm and gauntlets automatically connect to your steam-powered armour, enabling new functions.", "#GOLD#Vos bottes, votre heaume et vos gantelets à vapeur se connectent automatiquement à votre armure à vapeur, activant de nouvelles fonctionnalités.", "logSeen")
@@ -1648,7 +1648,7 @@ t("%s unstoppable force salve", "onguent de force irrésistible (%s)", "tformat"
 t("increases all saves by %d and healing factor by half", "augmente toutes les sauvegardes de %d et le facteur de soins de 50%%.", "_t")
 t("armor", "armure", "entity type")
 t("light", "lumière", "entity subtype")
-t("Life Support Suit", "Combinaison de survie", "entity name")
+t("Life Support Suit", "Combinaison d'Assistance Vitale", "entity name")
 t("advanced medical armour", "armure médicale avancée", "_t")
 t("\"We've done it, men. We cured death.\"", "\"Nous y sommes parvenus, messieurs. Nous avons vaincu la mort.\"", "_t")
 t([[You cannot bleed.
@@ -3892,358 +3892,306 @@ t("You see here a cave painting, depicting a giant holding an object, which is p
 section "tome-orcs/data/maps/zones/worldmap.lua"
 
 t("Far East", "Extrême-Orient", "_t")
+t("WARNING", "ATTENTION", "_t")
+t("Danger!", "Danger !", "_t")
+t("Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "Attention, à l'ouest se trouve le territoire de la #CRIMSON##{bold}#Tribu Atmos#{normal}##LAST#. C'est probablement beaucoup trop dangereux pour vous !", "_t")
+t("Clork Peninsula", "Péninsule de Clork", "_t")
 -- texte non traduit
 --[==[
 t("Var'Eyal", "Var'Eyal", "_t")
-t("WARNING", "WARNING", "_t")
-t("Danger!", "Danger!", "_t")
-t("Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "Warning, to the west is #CRIMSON##{bold}#Atmos Tribe#{normal}##LAST# territory. Likely far too dangerous for you!", "_t")
-t("Clork Peninsula", "Clork Peninsula", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/amakthel.lua"
 
+t("The Dead God Awaits", "Le Dieu Mort attend", "_t")
+t("Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "Au plus profond d'Eyal, vous avez trouvé une immense caverne contenant certains des restes du grand dieu mort, Amakthel...", "_t")
+t("Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "Accompagnés de ce qui semble être un Sher'Tul vivant, manifestement en train d'essayer de le ressusciter.", "_t")
+t("It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "Il doit être arrêté à tout prix. Les Fiertés viennent tout juste de recouvrer leur liberté, vous ne pouvez pas permettre à quoi que ce soit de la leur reprendre !", "_t")
+t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "Le prêtre Sher'Tul a été mis hors d'état de nuire, Amakthel continuera désormais de dormir pour l'éternité. Les Fiertés et le monde sont en sécurité.", "_t")
+t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#Vous avez gagné la partie !#WHITE#", "_t")
+t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#Vous sentez que votre Baguette de Rappel fonctionne à nouveau dans cette zone.", "log")
+t("Orc Warrior", "Guerrier Orc", "_t")
 t("Winner", "Vainqueur", "_t")
+t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#Bien joué ! Vous avez gagné la campagne Tales of Maj'Eyal : Braises de Rage !#WHITE#", "_t")
+t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "Vous avez déjoué les plans génocidaires des Géants Vaporeux et vengé ceux qui ont été tués lors de l'attaque contre la Fierté Kruk. Leur pacte désespéré avec le Grand Prêtre n'a rien fait pour vous arrêter ; le prêtre et son dieu gisent morts à vos pieds, et vous avez assuré qu'ils #{italic}#resteront#{normal}# morts dans un avenir prévisible.", "_t")
+t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "Les humains, les elfes, et les halfelins ne pourront plus jamais faire de mal à votre peuple. En détruisant le portail lointain et en refusant au roi Tolak la glorieuse bataille qu'il espérait, vous avez assuré la sécurité de votre peuple face aux Royaumes Alliés, et en prenant d'assaut les Portes du Matin, vous avez éliminé les derniers porteurs de l'agression haineuse de l'Ouest à Var'Eyal.", "_t")
+t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "Pour l'instant, la paix règne. Vous savez que cela ne durera pas éternellement. Vous avez peut-être repoussé son avant-garde, mais le Dominion Kar'Haïb attend son heure, guettant une faiblesse à exploiter ; les portails des contrebandiers venant de Maj'Eyal restent non découverts, et bien que ni vous ni le roi Tolak n'ayez plus le moindre désir de conquérir le continent de l'autre, la peur d'une invasion persistera dans un coin de vos esprits.", "_t")
+t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", " Les messages de la Cité Perdue vous donnent des raisons de rester vigilant face aux menaces contre lesquelles ils mettaient en garde, y compris leurs auteurs, et vous vous demandez ce que fera votre peuple maintenant que sa lutte pour échapper à l'éradication, lutte qui l'a défini tout au long de son histoire connue, a cessé d'être une préoccupation.", "_t")
+t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "Quoi qu'il en soit... Vous venez de tuer un dieu et d'offrir à votre peuple sa première chance de se détendre depuis des milliers d'années. C'était une plutôt bonne journée.", "_t")
+t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "Vous pouvez continuer à jouer et profiter du reste du monde. Vos soldats voudront peut-être vous parler à l'extérieur...", "_t")
 -- texte non traduit
 --[==[
-t("The Dead God Awaits", "The Dead God Awaits", "_t")
-t("Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "Deep within Eyal you found a huge cavern containing some of the remains of the great dead god Amakthel...", "_t")
-t("Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "Along with what appears to be a living Sher'tul that seems to be trying to resurrect him.", "_t")
-t("It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "It must be stopped at all cost, the Prides only just got their freedom back, you can not allow anything to take it away again!", "_t")
 t("", "", "_t")
-t("The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "The Sher'tul Priest has been taken care of, Amakthel will keep on sleeping forever now. The Prides and the world are safe.", "_t")
-t("#LIGHT_GREEN#You have won the game!.#WHITE#", "#LIGHT_GREEN#You have won the game!.#WHITE#", "_t")
-t("#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "#CRIMSON#You feel as if your Rod of Recall is working again in this area.", "log")
-t("Orc Warrior", "Orc Warrior", "_t")
-t("#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "#GOLD#Well done! You have won the Tales of Maj'Eyal: Embers of Rage!#WHITE#", "_t")
-t("You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "You have thwarted the Steam Giants' genocidal plans, and avenged those killed in the attack on Kruk Pride.  Their desperate pact with the High Priest did nothing to stop you; the priest and his god lay dead at your feet, and you have ensured they will #{italic}#stay#{normal}# dead for the foreseeable future.", "_t")
-t("The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "The humans, elves, and halflings will not be able to hurt your people again.  By destroying the farportal and denying King Tolak's army its glorious battle, you have ensured the safety of your people from the Allied Kingdoms, and by storming the Gates of Morning you have eliminated the last bearers of the West's hateful aggression in Var'Eyal.", "_t")
-t("For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "For now, peace reigns.  You know that this will not last forever.  You may have repelled its vanguard, but the Kar'Haïb Dominion bides its time waiting for a weakness it can exploit; the smugglers' portals from Maj'Eyal remain undiscovered, and while neither you nor King Tolak has any remaining desire to take the other's continent, the fear of invasion will linger in the backs of your minds.", "_t")
-t("  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "  The messages of the Lost City give you cause to remain ever vigilant for the threats they warned of, including their authors, and you wonder what your people will do now that their struggle to escape eradication, one that has defined them for their entire recorded history, has ceased to be a concern.", "_t")
-t("Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "Regardless...  You just killed a god and gave your people the first chance to relax in thousands of years.  It's been a pretty good day.", "_t")
-t("You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "You may continue playing and enjoy the rest of the world.  Your soldiers may want to speak with you outside...", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/annihilator.lua"
 
-t("Research. Tinker. Annihilate.", "Cherchez. Bricolez. Annihilez.", "_t")
--- texte non traduit
---[==[
-t("Inside some of your foes you have found some intact pieces that give you new ideas.", "Inside some of your foes you have found some intact pieces that give you new ideas.", "_t")
-t("Keep on killing mechanical contraptions or steam-related foes...", "Keep on killing mechanical contraptions or steam-related foes...", "_t")
-t("#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The impressive Automated Defense System remains will prove very useful to create automated and self-deploying constructs.#WHITE#", "#LIGHT_GREEN#* The impressive Automated Defense System remains will prove very useful to create automated and self-deploying constructs.#WHITE#", "_t")
---]==]
-
+t("Research. Tinker. Annihilate.", "Recherchez. Bricolez. Anéantissez.", "_t")
+t("Inside some of your foes you have found some intact pieces that give you new ideas.", "À l'intérieur de certains de vos ennemis, vous avez trouvé des pièces intactes qui vous donnent de nouvelles idées.", "_t")
+t("Keep on killing mechanical contraptions or steam-related foes...", "Continuez à détruire des engins mécaniques ou des ennemis liés à la vapeur...", "_t")
+t("#LIGHT_GREEN#* You destroyed a mecharachnid equiped with a flamethrower. Both those things could prove very useful.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit une mécharachnide équipée d'un lance-flammes. Ces deux éléments pourraient s'avérer très utiles.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have studied the 'remains' of an greater or ultimate hethugoroth, providing new ideas for ways to annihilate with heat.#WHITE#", "#LIGHT_GREEN#* Vous avez étudié les \"restes\" d'un hethugoroth majeur ou ultime, fournissant de nouvelles idées sur des méthodes d'anéantissement par la chaleur.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The impressive Automated Defense System remains will prove very useful to create automated and self-deploying constructs.#WHITE#", "#LIGHT_GREEN#* Les impressionnants restes du Système de Défense Automatisé s'avéreront très utiles pour créer des constructions automatisées et auto-déployables.#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/destroy-sunwall.lua"
 
-
--- texte non traduit
---[==[
-t("The Deconstruction of Falling Stars", "The Deconstruction of Falling Stars", "_t")
+t("The Deconstruction of Falling Stars", "La Déconstruction des Étoiles Filantes", "_t")
 t([[The people of the sunwall have lingered on this land for too long and now they are spreading their control to all the mainland. This must not be allowed!
 With the help of their newfound allies in the west they keep a permanent guard over the farportal. The portal must be permanently destroyed to prevent reinforcements.
-The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], [[The people of the sunwall have lingered on this land for too long and now they are spreading their control to all the mainland. This must not be allowed!
-With the help of their newfound allies in the west they keep a permanent guard over the farportal. The portal must be permanently destroyed to prevent reinforcements.
-The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], "_t")
-t("#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come from the west.#WHITE#", "#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come from the west.#WHITE#", "_t")
---]==]
-
+The leader of the Sunwall, High Sun Paladin Aeryn must be punished for her crimes against the Prides.]], [[Le peuple du Mur Solaire s'attarde sur ces terres depuis bien trop longtemps et désormais, ils étendent leur contrôle à tout le continent. Cela ne doit pas être permis !
+Avec l'aide de leurs nouveaux alliés de l'ouest, ils maintiennent une garde permanente sur le portail lointain. Le portail doit être détruit définitivement afin d'empêcher l'arrivée de renforts.
+La chef du Mur Solaire, la Haute Paladine du Soleil Aeryn, doit être punie pour ses crimes contre les Fiertés.]], "_t")
+t("#LIGHT_GREEN#* You have killed Aeryn, making sure no more troops will come from the west.#WHITE#", "#LIGHT_GREEN#* Vous avez tué Aeryn, vous assurant qu'aucune autre troupe ne viendra de l'ouest.#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/free-prides.lua"
 
-
+t("Children of Garkul, Unite!", "Enfants de Garkul, Unissez-Vous !", "_t")
+t("All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "Les quelques orcs restants sur le continent ont tous été capturés par le Mur Solaire et leurs alliés occidentaux.", "_t")
+t("To ensure a future, any future, for our race they must be freed.", "Pour garantir un avenir, quel qu'il soit, à notre race, ils doivent être libérés.", "_t")
+t("The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "Le camp d'internement est situé quelque part au nord. Les orcs sont maintenus dans l'obéissance par un puissant psionique #{halfling}#, Barment, et gardés par des troupes d'élite du Mur Solaire.", "_t")
+t("Mindwall must be taken care of and the prides set free.", "Barment doit être éliminé et les Fiertés libérées.", "_t")
+t("But #{bold}#BEFORE#{normal}# that you should go and destroy the Sunwall Observatory to the east, as our spies have found a way to resist Mindwall's psionic powers which requries #{italic}#ingredients#{normal}# from there.", "Mais #{bold}#AVANT#{normal}# cela, vous devriez aller détruire l'Observatoire du Mur Solaire à l'est, car nos espions ont découvert un moyen de résister aux pouvoirs psioniques de Barment qui nécessite des #{italic}#ingrédients#{normal}# provenant de là-bas.", "_t")
+t("#LIGHT_GREEN#* You have destroyed Mindwall body but he managed to split his mind into many pieces and taken direct control of the subdued orcs. Destroy the pillars in each level four other levels.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit le corps de Barment, mais il a réussi à diviser son esprit en plusieurs morceaux et à prendre le contrôle direct des orcs soumis. Détruisez les piliers dans chacun des quatre autres niveaux.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Vor Pride orcs.#WHITE#", "#LIGHT_GREEN#* Vous avez libéré tous les orcs de la Fierté Vor.#WHITE#", "_t")
+t("#GREY#* You need to have free the Vor Pride orcs.#WHITE#", "#GREY#* Vous devez libérer les orcs de la Fierté Vor.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Rak'Shor Pride orcs.#WHITE#", "#LIGHT_GREEN#* Vous avez libéré tous les orcs de la Fierté Rak'Shor.#WHITE#", "_t")
+t("#GREY#* You need to have free the Rak'Shor Pride orcs.#WHITE#", "#GREY#* Vous devez libérer les orcs de la Fierté Rak'Shor.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Gorbat Pride orcs.#WHITE#", "#LIGHT_GREEN#* Vous avez libéré tous les orcs de la Fierté Gorbat.#WHITE#", "_t")
+t("#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "#GREY#* Vous devez libérer les orcs de la Fierté Gorbat.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "#LIGHT_GREEN#* Vous avez libéré tous les orcs de la Fierté Grushnak.#WHITE#", "_t")
+t("#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "#GREY#* Vous devez libérer les orcs de la Fierté Grushnak.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "#LIGHT_GREEN#* La Fierté est à nouveau libre et unie.#WHITE#", "_t")
 -- texte non traduit
 --[==[
-t("Children of Garkul, Unite!", "Children of Garkul, Unite!", "_t")
-t("All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "All the few remaining orcs of the mainland have been captured by Sunwall and their western allies.", "_t")
-t("To ensure a future, any future, for our race they must be freed.", "To ensure a future, any future, for our race they must be freed.", "_t")
 t("", "", "_t")
-t("The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "The internment camp is located somewhere to the north. The orcs are subdued into obedience by a powerful #{halfling}# psionic, Mindwall, and guarded by elite Sunwall troops.", "_t")
-t("Mindwall must be taken care of and the prides set free.", "Mindwall must be taken care of and the prides set free.", "_t")
-t("But #{bold}#BEFORE#{normal}# that you should go and destroy the Sunwall Observatory to the east, as our spies have found a way to resist Mindwall's psionic powers which requries #{italic}#ingredients#{normal}# from there.", "But #{bold}#BEFORE#{normal}# that you should go and destroy the Sunwall Observatory to the east, as our spies have found a way to resist Mindwall's psionic powers which requries #{italic}#ingredients#{normal}# from there.", "_t")
-t("#LIGHT_GREEN#* You have destroyed Mindwall body but he managed to split his mind into many pieces and taken direct control of the subdued orcs. Destroy the pillars in each level four other levels.#WHITE#", "#LIGHT_GREEN#* You have destroyed Mindwall body but he managed to split his mind into many pieces and taken direct control of the subdued orcs. Destroy the pillars in each level four other levels.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Vor Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Vor Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Vor Pride orcs.#WHITE#", "#GREY#* You need to have free the Vor Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Rak'Shor Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Rak'Shor Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Rak'Shor Pride orcs.#WHITE#", "#GREY#* You need to have free the Rak'Shor Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Gorbat Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Gorbat Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "#GREY#* You need to have free the Gorbat Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "#LIGHT_GREEN#* You have freed all the Grushnak Pride orcs.#WHITE#", "_t")
-t("#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "#GREY#* You need to have free the Grushnak Pride orcs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "#LIGHT_GREEN#* The Pride is once again free and united.#WHITE#", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/gem.lua"
 
-
+t("Mole Down, Two To Go", "Taupe Morte, Encore Deux", "_t")
+t("As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "Alors que vous laissiez les Portes du Matin en ruines, vous avez remarqué un étrange tremblement puissant semblant provenir des environs.", "_t")
+t("Investigating you have found a huge mechanical mole of obvious steam giant origin.", "En enquêtant, vous avez découvert une immense taupe mécanique, manifestement originaire des géants vaporeux.", "_t")
+t("#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "#LIGHT_GREEN#* Vous avez écrasé à la fois les horreurs et les géants, vous assurant qu'aucune information précieuse ne retourne au Palais des Fumées.#WHITE#", "_t")
 -- texte non traduit
 --[==[
-t("Mole Down, Two To Go", "Mole Down, Two To Go", "_t")
-t("As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "As you left the Gates of Morning in ruins you noticed a strange powerful tremor that seems to come from nearby.", "_t")
-t("Investigating you have found a huge mechanical mole of obvious steam giant origin.", "Investigating you have found a huge mechanical mole of obvious steam giant origin.", "_t")
 t("", "", "_t")
-t("#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "#LIGHT_GREEN#* You have crushed both the horrors and the giants, making sure no precious information will come back to the Palace of Fumes.#WHITE#", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/kaltor-shop.lua"
 
-
--- texte non traduit
---[==[
-t("The Grumpy Shopowner", "The Grumpy Shopowner", "_t")
-t("Kaltor's shop seems to be nearby in the mountain. Maybe it could be interesting to pay him a visit?", "Kaltor's shop seems to be nearby in the mountain. Maybe it could be interesting to pay him a visit?", "_t")
-t("He does sound well armed, though, so be prepared as it is likely very dangerous.", "He does sound well armed, though, so be prepared as it is likely very dangerous.", "_t")
-t("So maybe take some time to plan the raid.", "So maybe take some time to plan the raid.", "_t")
-t("#LIGHT_GREEN#* You have disposed of Kaltor, the loot is yours!#WHITE#", "#LIGHT_GREEN#* You have disposed of Kaltor, the loot is yours!#WHITE#", "_t")
-t("#PURPLE#You heard a loud noise!", "#PURPLE#You heard a loud noise!", "saySimple")
---]==]
-
+t("The Grumpy Shopowner", "Le Boutiquier Grincheux", "_t")
+t("Kaltor's shop seems to be nearby in the mountain. Maybe it could be interesting to pay him a visit?", "La boutique de Kaltor semble être toute proche, dans la montagne. Peut-être serait-il intéressant de lui rendre visite ?", "_t")
+t("He does sound well armed, though, so be prepared as it is likely very dangerous.", "Il semble cependant bien armé, alors soyez prêt car c'est probablement très dangereux.", "_t")
+t("So maybe take some time to plan the raid.", "Prenez donc peut-être le temps de planifier le raid.", "_t")
+t("#LIGHT_GREEN#* You have disposed of Kaltor, the loot is yours!#WHITE#", "#LIGHT_GREEN#* Vous vous êtes débarrassé de Kaltor, le butin est à vous !#WHITE#", "_t")
+t("#PURPLE#You heard a loud noise!", "#PURPLE#Vous avez entendu un grand bruit !", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/kill-dominion.lua"
 
-
+t("This is our land!", "Ceci est notre terre !", "_t")
+t("A group of trolls from the Kar'Haïb Dominion is trying to take foot on the mainland.", "Un groupe de trolls du Dominion de Kar'Haïb tente de prendre pied sur le continent.", "_t")
+t("With the Sunwall at full force we can not have the luxury of having to fight on both fronts, the Dominion port of the south must be destroyed.", "Avec le Mur Solaire en pleine force, nous ne pouvons pas nous permettre le luxe de devoir combattre sur deux fronts ; le port du Dominion au sud doit être détruit.", "_t")
+t("A potent bomb was given to you, you must place it at a weak spot of the tower where it will detonate and destroy the port.", "Une bombe puissante vous a été remise, vous devez la placer à un point faible de la tour où elle explosera et détruira le port.", "_t")
+t("It would be a good idea for you to not be there anymore when the bomb explodes however.", "Ce serait toutefois une bonne idée de ne plus être sur place quand la bombe explosera.", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Dominion port, the trolls will not be a problem in the near future.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit le port du Dominion, les trolls ne seront plus un problème dans un avenir proche.#WHITE#", "_t")
+t("Tower Detonator", "Détonateur de tour", "_t")
+t("This bomb was tailored to weaken the structure of the Dominion's port tower. If placed at the right spot it will explode after 100 turns and destroy the whole port.", "Cette bombe a été conçue pour fragiliser la structure de la tour du port du Dominion. Si elle est placée au bon endroit, elle explosera après 100 tours et détruira tout le port.", "_t")
+t("place the bomb on the structural weakness.", "placer la bombe sur le point faible de la structure.", "_t")
+t("Sewer Detonator", "Détonateur d'égout", "_t")
+t("You must first locate the structural weakness in the Dominion's port tower.", "Vous devez d'abord localiser le point faible structurel de la tour du port du Dominion.", "_t")
+t([[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
+Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[Vous placez le détonateur, vous avez 100 tours pour sortir ou être détruit par l'explosion.
+Utilisez votre #{bold}##GOLD#Baguette de Rappel#LAST##{normal}#!]], "_t")
 -- texte non traduit
 --[==[
-t("This is our land!", "This is our land!", "_t")
-t("A group of trolls from the Kar'Haïb Dominion is trying to take foot on the mainland.", "A group of trolls from the Kar'Haïb Dominion is trying to take foot on the mainland.", "_t")
-t("With the Sunwall at full force we can not have the luxury of having to fight on both fronts, the Dominion port of the south must be destroyed.", "With the Sunwall at full force we can not have the luxury of having to fight on both fronts, the Dominion port of the south must be destroyed.", "_t")
 t("", "", "_t")
-t("A potent bomb was given to you, you must place it at a weak spot of the tower where it will detonate and destroy the port.", "A potent bomb was given to you, you must place it at a weak spot of the tower where it will detonate and destroy the port.", "_t")
-t("It would be a good idea for you to not be there anymore when the bomb explodes however.", "It would be a good idea for you to not be there anymore when the bomb explodes however.", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Dominion port, the trolls will not be a problem in the near future.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Dominion port, the trolls will not be a problem in the near future.#WHITE#", "_t")
-t("Tower Detonator", "Tower Detonator", "_t")
-t("This bomb was tailored to weaken the structure of the Dominion's port tower. If placed at the right spot it will explode after 100 turns and destroy the whole port.", "This bomb was tailored to weaken the structure of the Dominion's port tower. If placed at the right spot it will explode after 100 turns and destroy the whole port.", "_t")
-t("place the bomb on the structural weakness.", "place the bomb on the structural weakness.", "_t")
-t("Sewer Detonator", "Sewer Detonator", "_t")
-t("You must first locate the structural weakness in the Dominion's port tower.", "You must first locate the structural weakness in the Dominion's port tower.", "_t")
-t([[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[You place the detonator, you have 100 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/krimbul.lua"
 
-
+t("Clan of the Unicorn", "Clan de la Licorne", "_t")
+t("Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "Metash vous a demandé d'enquêter sur le Clan Krimbul, au sud de la péninsule.", "_t")
+t("A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "Un sabot-blanc devenu fou de pouvoir tente de les mener dans une guerre contre la Fierté Kruk.", "_t")
+t("#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "#LIGHT_GREEN#* Vous avez arrêté le pitoyable Nektosh, garantissant une menace de moins pour la Fierté et un avenir pour les Sabots-blancs.#WHITE#", "_t")
 -- texte non traduit
 --[==[
-t("Clan of the Unicorn", "Clan of the Unicorn", "_t")
-t("Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "Metash has asked you to investigate the Krimbul Clan, south of the peninsula.", "_t")
-t("A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "A whitehoof turned mad with power is trying to lead them in a war against Kruk Pride.", "_t")
 t("", "", "_t")
-t("#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "#LIGHT_GREEN#* You have stopped the pitiful Nektosh, ensuring one less threat for the Pride and a future for the Whitehooves.#WHITE#", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/kruk-invasion.lua"
 
-
--- texte non traduit
---[==[
-t("Homeland", "Homeland", "_t")
-t("The giants have breached the mountain-side of Kruk pride!", "The giants have breached the mountain-side of Kruk pride!", "_t")
-t("They are invading the town just when most of our forces are outside.", "They are invading the town just when most of our forces are outside.", "_t")
+t("Homeland", "Terre Natale", "_t")
+t("The giants have breached the mountain-side of Kruk pride!", "Les géants ont brisé le flanc de la montagne de la Fierté Kruk !", "_t")
+t("They are invading the town just when most of our forces are outside.", "Ils envahissent la ville juste au moment où la plupart de nos forces sont à l'extérieur.", "_t")
 t([[Only you and few others are left to close the breach by collapsing the tunnel from the inside.
-]], [[Only you and few others are left to close the breach by collapsing the tunnel from the inside.
+]], [[Il ne reste que vous et quelques autres pour fermer la brèche en faisant s'effondrer le tunnel de l'intérieur.
 ]], "_t")
-t("#LIGHT_GREEN#* You have collapsed the tunnel, saving the Pride. For now.#WHITE#", "#LIGHT_GREEN#* You have collapsed the tunnel, saving the Pride. For now.#WHITE#", "_t")
-t("#LIGHT_GREY#* You must place the bomb at the end of the tunnel to destroy it.#WHITE#", "#LIGHT_GREY#* You must place the bomb at the end of the tunnel to destroy it.#WHITE#", "_t")
-t("Cave Detonator", "Cave Detonator", "_t")
-t("This bomb was tailored to crumble the tunnel used by the Steam Giants to invade Kruk Pride.", "This bomb was tailored to crumble the tunnel used by the Steam Giants to invade Kruk Pride.", "_t")
+t("#LIGHT_GREEN#* You have collapsed the tunnel, saving the Pride. For now.#WHITE#", "#LIGHT_GREEN#* Vous avez fait s'effondrer le tunnel, sauvant la Fierté. Pour l'instant.#WHITE#", "_t")
+t("#LIGHT_GREY#* You must place the bomb at the end of the tunnel to destroy it.#WHITE#", "#LIGHT_GREY#* Vous devez placer la bombe au bout du tunnel pour le détruire.#WHITE#", "_t")
+t("Cave Detonator", "Détonateur de grotte", "_t")
+t("This bomb was tailored to crumble the tunnel used by the Steam Giants to invade Kruk Pride.", "Cette bombe a été conçue pour faire s'effondrer le tunnel utilisé par les Géants Vaporeux pour envahir la Fierté Kruk.", "_t")
 t([[You place the detonator, you have 220 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[You place the detonator, you have 220 turns to get out or be destroyed by the explosion.
-Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], "_t")
-t("#LIGHT_GREEN#Kruk Pride is safe for now. Now is time for revenge!", "#LIGHT_GREEN#Kruk Pride is safe for now. Now is time for revenge!", "saySimple")
---]==]
-
+Use your #{bold}##GOLD#Rod of Recall#LAST##{normal}#!]], [[Vous placez le détonateur, vous avez 220 tours pour sortir ou être détruit par l'explosion.
+Utilisez votre #{bold}##GOLD#Baguette de Rappel#LAST##{normal}#!]], "_t")
+t("#LIGHT_GREEN#Kruk Pride is safe for now. Now is time for revenge!", "#LIGHT_GREEN#La Fierté Kruk est en sécurité pour l'instant. Il est temps de se venger !", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/palace.lua"
 
-
+t("No Fumes Without Fire", "Pas de Fumée Sans Feu", "_t")
+t("The time for revenge is at hand! The Tribe stands crippled under your assaults.", "L'heure de la vengeance est arrivée ! La Tribu est paralysée sous vos assauts.", "_t")
+t("Enter the Palace of Fumes and crush their leaders once and for all!", "Entrez dans le Palais des Fumées et écrasez leurs chefs une fois pour toutes !", "_t")
+t("For Kruk!", "Pour Kruk !", "_t")
+t("For the Prides!", "Pour les Fiertés !", "_t")
+t("For the Garkul!", "Pour Garkul !", "_t")
+t("#LIGHT_GREEN#* Council Member Nashal is dead.#WHITE#", "#LIGHT_GREEN#* Le membre du Conseil Nashal est mort.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "#LIGHT_GREEN#* Le membre du Conseil Tormak est mort.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "#LIGHT_GREEN#* Le membre du Conseil Pendor est mort.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "#LIGHT_GREEN#* Le membre du Conseil Palaquie est mort.#WHITE#", "_t")
+t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* Le membre du Conseil Tantalos est mort.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit le Conseil et brisé la Tribu.#WHITE#", "_t")
+t("What is all this noise about!", "C'est quoi tout ce boucan !", "_t")
+t("Tantalos! What have you done!", "Tantalos ! Qu'as-tu fait !", "_t")
 -- texte non traduit
 --[==[
-t("No Fumes Without Fire", "No Fumes Without Fire", "_t")
-t("The time for revenge is at hand! The Tribe stands crippled under your assaults.", "The time for revenge is at hand! The Tribe stands crippled under your assaults.", "_t")
-t("Enter the Palace of Fumes and crush their leaders once and for all!", "Enter the Palace of Fumes and crush their leaders once and for all!", "_t")
-t("For Kruk!", "For Kruk!", "_t")
-t("For the Prides!", "For the Prides!", "_t")
-t("For the Garkul!", "For the Garkul!", "_t")
 t("", "", "_t")
-t("#LIGHT_GREEN#* Council Member Nashal is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Nashal is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Tormak is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Pendor is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Palaquie is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "#LIGHT_GREEN#* Council Member Tantalos is dead.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Council and shattered the Tribe.#WHITE#", "_t")
-t("What is all this noise about!", "What is all this noise about!", "_t")
-t("Tantalos! What have you done!", "Tantalos! What have you done!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/quarry.lua"
 
-
--- texte non traduit
---[==[
-t("Hunter, Quarry", "Hunter, Quarry", "_t")
-t("The Steam Quarry is a strategic zone for the Atmos tribe, it provides them with much of their energy needs.", "The Steam Quarry is a strategic zone for the Atmos tribe, it provides them with much of their energy needs.", "_t")
-t("If you are to assault the Palace of Fumes you need to cut that supply off. Destroy the three giant steam valves to make the Palace vulnerable.", "If you are to assault the Palace of Fumes you need to cut that supply off. Destroy the three giant steam valves to make the Palace vulnerable.", "_t")
-t("#LIGHT_GREEN#* The first valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* The first valve has been destroyed.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The second valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* The second valve has been destroyed.#WHITE#", "_t")
-t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "_t")
---]==]
-
+t("Hunter, Quarry", "Chasseur, Carrière", "_t")
+t("The Steam Quarry is a strategic zone for the Atmos tribe, it provides them with much of their energy needs.", "La Carrière de Vapeur est une zone stratégique pour la tribu Atmos ; elle leur fournit une grande partie de leurs besoins en énergie.", "_t")
+t("If you are to assault the Palace of Fumes you need to cut that supply off. Destroy the three giant steam valves to make the Palace vulnerable.", "Si vous devez prendre d'assaut le Palais des Fumées, vous devez couper cet approvisionnement. Détruisez les trois valves à vapeur géantes pour rendre le Palais vulnérable.", "_t")
+t("#LIGHT_GREEN#* The first valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* La première valve a été détruite.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The second valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* La deuxième valve a été détruite.#WHITE#", "_t")
+t("#LIGHT_GREEN#* The third valve has been destroyed.#WHITE#", "#LIGHT_GREEN#* La troisième valve a été détruite.#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/ritch-hive.lua"
 
+t("A Ritch Party", "Ritchs en Fête", "_t")
+t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "Notre objectif ultime sur le continent est de nous débarrasser du Mur Solaire une fois pour toutes.", "_t")
+t("To do that we will prepare a special surprise to help our final attack.", "Pour ce faire, nous préparerons une surprise spéciale pour appuyer notre attaque finale.", "_t")
+t("Go to the Ritch Hive in the mountains north of the Erúan desert and collect a big pile of ritch eggs.  About 30 viable eggs should be sufficient.", "Rendez-vous à la Ruche des Ritchs dans les montagnes au nord du désert d'Erúan et collectez un grand tas d'oeufs de Ritchs. Environ 30 oeufs viables devraient suffire.", "_t")
+t("When you have enough, find a tunnel leading north and use the special sand shredder gloves tinker to open a path under the Gates of Morning.", "Lorsque vous en aurez assez, trouvez un tunnel menant au nord et utilisez le gadget \"gants déchiqueteurs de sable\" pour ouvrir un passage sous les Portes du Matin.", "_t")
+t("Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "Enfin, placez les oeufs dans un endroit protégé pour les faire éclore. Avec un peu de chance, ils fourniront une distraction pendant que vous assiégerez la ville plus tard.", "_t")
+t("#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "#LIGHT_GREEN#* Vous avez collecté assez d'oeufs.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "#LIGHT_GREEN#* Vous avez creusé assez près des Portes du Matin.#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* Vous avez déposé la petite surprise.#WHITE#", "_t")
+t("Stralite Sand Shredder", "Déchiqueteur de sable en Stralite", "_t")
+t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "Déploie automatiquement une énorme foreuse rotative lorsque vous frappez un mur de sable, en en découpant une grande partie rapidement.", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("A Ritch Party", "A Ritch Party", "_t")
-t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "_t")
-t("To do that we will prepare a special surprise to help our final attack.", "To do that we will prepare a special surprise to help our final attack.", "_t")
 t("", "", "_t")
-t("Go to the Ritch Hive in the mountains north of the Erúan desert and collect a big pile of ritch eggs.  About 30 viable eggs should be sufficient.", "Go to the Ritch Hive in the mountains north of the Erúan desert and collect a big pile of ritch eggs.  About 30 viable eggs should be sufficient.", "_t")
-t("When you have enough, find a tunnel leading north and use the special sand shredder gloves tinker to open a path under the Gates of Morning.", "When you have enough, find a tunnel leading north and use the special sand shredder gloves tinker to open a path under the Gates of Morning.", "_t")
-t("Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "Finally, place the eggs in a protected spot to hatch.  With luck, they will provide a distraction while you later assault the city.", "_t")
-t("#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "#LIGHT_GREEN#* You have collected enough eggs.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "#LIGHT_GREEN#* You have tunnelled close enough to the Gates of Morning.#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "#LIGHT_GREEN#* You have placed the little surprise.#WHITE#", "_t")
-t("Stralite Sand Shredder", "Stralite Sand Shredder", "_t")
-t("Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "Automatically deploy a huge rotating drill when you hit a sandwall, carving out a big part of it quickly.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/start-orc.lua"
 
-
--- texte non traduit
---[==[
-t("Of Steamwork and Pain", "Of Steamwork and Pain", "_t")
+t("Of Steamwork and Pain", "De Vapeur et de Douleur", "_t")
 t([[To win the war you must help the Pride by striking a blow to the giant's morale and supply lines.
-]], [[To win the war you must help the Pride by striking a blow to the giant's morale and supply lines.
+]], [[Pour gagner la guerre, vous devez aider la Fierté en portant un coup au moral et aux lignes de ravitaillement des géants.
 ]], "_t")
-t("#LIGHT_GREEN#* You have assaulted the Vaporous Emporium, crushing the morale of the Atmos tribe.#WHITE#", "#LIGHT_GREEN#* You have assaulted the Vaporous Emporium, crushing the morale of the Atmos tribe.#WHITE#", "_t")
-t("#SLATE#* You must assault the Vaporous Emporium to crush the morale of the Atmos tribe!#WHITE#", "#SLATE#* You must assault the Vaporous Emporium to crush the morale of the Atmos tribe!#WHITE#", "_t")
-t("#LIGHT_GREEN#* You have explored the yeti cave and vanquished the Yeti Patriarch.#WHITE#", "#LIGHT_GREEN#* You have explored the yeti cave and vanquished the Yeti Patriarch.#WHITE#", "_t")
-t("#SLATE#* You must explore the Yeti Cave and destroy the patriarch!#WHITE#", "#SLATE#* You must explore the Yeti Cave and destroy the patriarch!#WHITE#", "_t")
---]==]
-
+t("#LIGHT_GREEN#* You have assaulted the Vaporous Emporium, crushing the morale of the Atmos tribe.#WHITE#", "#LIGHT_GREEN#* Vous avez pris d'assaut l'Emporium Vapeureux, écrasant le moral de la tribu Atmos.#WHITE#", "_t")
+t("#SLATE#* You must assault the Vaporous Emporium to crush the morale of the Atmos tribe!#WHITE#", "#SLATE#* Vous devez prendre d'assaut l'Emporium Vapeureux pour écraser le moral de la tribu Atmos !#WHITE#", "_t")
+t("#LIGHT_GREEN#* You have explored the yeti cave and vanquished the Yeti Patriarch.#WHITE#", "#LIGHT_GREEN#* Vous avez exploré la caverne des yétis et vaincu le Patriarche Yéti.#WHITE#", "_t")
+t("#SLATE#* You must explore the Yeti Cave and destroy the patriarch!#WHITE#", "#SLATE#* Vous devez explorer la caverne des yétis et détruire le patriarche !#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/sunwall-observatory.lua"
 
-
+t("Stargazers", "Observateurs d'Etoiles", "_t")
+t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "Notre objectif ultime sur le continent est de nous débarrasser du Mur Solaire une fois pour toutes.", "_t")
+t("Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "Nos éclaireurs ont remarqué que les Portes du Matin sont renforcées par des orbes de soleil et de lune.", "_t")
+t("Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "Rendez-vous à l'Observatoire du Mur Solaire et détruisez tout sur place pour réduire leurs approvisionnements.", "_t")
+t("#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit l'Observatoire, les défenses des Portes du Matin seront affaiblies.#WHITE#", "_t")
 -- texte non traduit
 --[==[
-t("Stargazers", "Stargazers", "_t")
-t("Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "Our ultimate goal on the mainland is to get rid of the Sunwall once and for all.", "_t")
-t("Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "Our scouts have noticed the Gates of Morning is being reinforced with sun and moon orbs.", "_t")
 t("", "", "_t")
-t("Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "Go to the Sunwall Observatory and destroy everything there to reduce their supplies.", "_t")
-t("#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "#LIGHT_GREEN#* You have destroyed the Observatory, the Gates of Morning defenses will be weakened.#WHITE#", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/to-mainland.lua"
 
-
--- texte non traduit
---[==[
-t("You Shall Pass!", "You Shall Pass!", "_t")
-t("The Atmos tribe is not our sole problem. The Sunwall as grown in strength since the Scourge from the West came and murdered the other Prides leaders.", "The Atmos tribe is not our sole problem. The Sunwall as grown in strength since the Scourge from the West came and murdered the other Prides leaders.", "_t")
-t("Our brothers on the mainland lay enslaved, but before we free them you must secure a way to the mainland.", "Our brothers on the mainland lay enslaved, but before we free them you must secure a way to the mainland.", "_t")
+t("You Shall Pass!", "Vous Passerez !", "_t")
+t("The Atmos tribe is not our sole problem. The Sunwall as grown in strength since the Scourge from the West came and murdered the other Prides leaders.", "La tribu Atmos n'est pas notre seul problème. Le Mur Solaire a gagné en puissance depuis que le Fléau de l'Ouest est venu assassiner les chefs des autres Fiertés.", "_t")
+t("Our brothers on the mainland lay enslaved, but before we free them you must secure a way to the mainland.", "Nos frères sur le continent sont réduits en esclavage, mais avant de les libérer, vous devez sécuriser un passage vers le continent.", "_t")
 t([[Go to the sunwall outpost. Show them the wrath of Garkul, show no mercy for they have none for us.
-]], [[Go to the sunwall outpost. Show them the wrath of Garkul, show no mercy for they have none for us.
+]], [[Allez à l'avant-poste du Mur Solaire. Montrez-leur la colère de Garkul, ne faites aucune pitié car ils n'en ont aucune pour nous.
 ]], "_t")
-t("#LIGHT_GREEN#* You have destroyed the sunwall outpost, and secured a way to the mainland.#WHITE#", "#LIGHT_GREEN#* You have destroyed the sunwall outpost, and secured a way to the mainland.#WHITE#", "_t")
-t("To the mainland!", "To the mainland!", "_t")
+t("#LIGHT_GREEN#* You have destroyed the sunwall outpost, and secured a way to the mainland.#WHITE#", "#LIGHT_GREEN#* Vous avez détruit l'avant-poste du Mur Solaire et sécurisé un passage vers le continent.#WHITE#", "_t")
+t("To the mainland!", "Vers le continent !", "_t")
 t([[The way to the mainland is now clear.
-Travel there using the bridge on the worldmap.]], [[The way to the mainland is now clear.
-Travel there using the bridge on the worldmap.]], "_t")
---]==]
-
+Travel there using the bridge on the worldmap.]], [[Le chemin vers le continent est désormais libre.
+Voyagez jusqu'à lui en utilisant le pont sur la carte du monde.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/voyage.lua"
 
-
--- texte non traduit
---[==[
-t("Voyage to the Center of Eyal", "Voyage to the Center of Eyal", "_t")
-t("In the Palace of Fumes you found a geothermal vent that digs deep into the planet's core.", "In the Palace of Fumes you found a geothermal vent that digs deep into the planet's core.", "_t")
-t("Strange mutated giants came out. You must find the source of those titans!", "Strange mutated giants came out. You must find the source of those titans!", "_t")
-t("#LIGHT_GREEN#* Travelling deep within Eyal you found the source of all corruptions: the dead god #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "#LIGHT_GREEN#* Travelling deep within Eyal you found the source of all corruptions: the dead god #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "_t")
---]==]
-
+t("Voyage to the Center of Eyal", "Voyage au Centre d'Eyal", "_t")
+t("In the Palace of Fumes you found a geothermal vent that digs deep into the planet's core.", "Dans le Palais des Fumées, vous avez trouvé une cheminée géothermique qui s'enfonce profondément dans le noyau de la planète.", "_t")
+t("Strange mutated giants came out. You must find the source of those titans!", "D'étranges géants mutés en sont sortis. Vous devez trouver la source de ces titans !", "_t")
+t("#LIGHT_GREEN#* Travelling deep within Eyal you found the source of all corruptions: the dead god #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "#LIGHT_GREEN#* En voyageant au plus profond d'Eyal, vous avez trouvé la source de toutes les corruptions : le dieu mort #{bold}##CRIMSON#Amakthel#LAST##{normal}#.#WHITE#", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/quests/weissi.lua"
 
-
+t("Mystery of the Yetis", "Mystère des Yétis", "_t")
+t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "Vous avez trouvé un morceau de muscle de yéti préservé, quelqu'un quelque part sera probablement intéressé.", "_t")
+t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "Pour chaque muscle de yéti que vous rapporterez aux machines psioniques dans les ruines d'une cité perdue, vous recevrez une grande récompense.", "_t")
+t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* Vous avez aidé les étranges machines psioniques et obtenu des récompenses en échange. Vous avez tout de même l'impression d'avoir mal agi...", "_t")
 -- texte non traduit
 --[==[
-t("Mystery of the Yetis", "Mystery of the Yetis", "_t")
-t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "_t")
 t("", "", "_t")
-t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "_t")
-t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/quests/yeti-abduction.lua"
 
-
+t("Yeti Reinforcements", "Renforts Yétis", "_t")
+t("You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "Vous avez trouvé un gadget de contrôle mental pour yéti. Si vous parvenez à dompter 8 yétis sauvages et à les renvoyer à la Fierté Kruk, ils pourront être entraînés et renvoyés vers vous à votre demande via une balise de psychoportation.", "_t")
+t("Wild yetis are mostly found in yeti's caves.", "Les yétis sauvages se trouvent principalement dans les cavernes à yétis.", "_t")
+t("#LIGHT_GREEN#* Captured eight yetis (will be available to summon at level 20).#WHITE#", "#LIGHT_GREEN#* Vous avez capturé huit yétis (ils seront disponibles pour invocation au niveau 20).#WHITE#", "_t")
+t("#LIGHT_GREY#* Captured %d/8 yetis.#WHITE#", "#LIGHT_GREY#* Yétis capturés : %d/8.#WHITE#", "tformat")
+t("Yeti's Psychoportation Beacon", "Balise de Psychoportation Yéti", "_t")
+t("Call a trained yeti to your side.", "Appelez un yéti entraîné à vos côtés.", "_t")
+t("Yetis left to call: %d", "Yétis restants à appeler : %d", "tformat")
+t("call a trained yeti for help", "appeler un yéti entraîné à l'aide", "_t")
+t("The yetis are not ready yet.", "Les yétis ne sont pas encore prêts.", "log")
+t("You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "Vous extrayez la balise de psychoportation du contrôleur mental. Les yétis nécessiteront un certain temps d'entraînement avant d'être utilisables.", "log")
 -- texte non traduit
 --[==[
-t("Yeti Reinforcements", "Yeti Reinforcements", "_t")
-t("You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "You found a yeti mind control tinker. If you can tame 8 wild yetis and send them back to Kruk Pride they can be trained and sent back to you at your request using a psychoportation beacon.", "_t")
-t("Wild yetis are mostly found in yeti's caves.", "Wild yetis are mostly found in yeti's caves.", "_t")
 t("", "", "_t")
-t("#LIGHT_GREEN#* Captured eight yetis (will be available to summon at level 20).#WHITE#", "#LIGHT_GREEN#* Captured eight yetis (will be available to summon at level 20).#WHITE#", "_t")
-t("#LIGHT_GREY#* Captured %d/8 yetis.#WHITE#", "#LIGHT_GREY#* Captured %d/8 yetis.#WHITE#", "tformat")
-t("Yeti's Psychoportation Beacon", "Yeti's Psychoportation Beacon", "_t")
-t("Call a trained yeti to your side.", "Call a trained yeti to your side.", "_t")
-t("Yetis left to call: %d", "Yetis left to call: %d", "tformat")
-t("call a trained yeti for help", "call a trained yeti for help", "_t")
-t("The yetis are not ready yet.", "The yetis are not ready yet.", "log")
 t("Yeti", "Yeti", "_t")
-t("You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "You extract the psychoportation beacon from the mind controller. Yetis will require some time to train before being usable.", "log")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/resolvers.lua"
 
-
--- texte non traduit
---[==[
-t("Using medical injector with %d%% efficiency and %d%% cooldown modifier.", "Using medical injector with %d%% efficiency and %d%% cooldown modifier.", "tformat")
-t("No medical injector available, values are indicative only.", "No medical injector available, values are indicative only.", "_t")
---]==]
-
+t("Using medical injector with %d%% efficiency and %d%% cooldown modifier.", "Utilisation d'un injecteur médical avec une efficacité de %d%% et un modificateur de temps de recharge de %d%%.", "tformat")
+t("No medical injector available, values are indicative only.", "Aucun injecteur médical disponible, les valeurs sont données à titre indicatif.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/celestial-empyreal.lua"
@@ -5927,14 +5875,39 @@ section "tome-orcs/data/talents/steam/other.lua"
 
 t("Medical Urgency Vest", "Gilet d'urgence médicale", "talent name")
 t("Summon", "Invocation", "_t")
+t("Hand Cannon", "Canon à Main", "talent name")
+t("Fatal Attractor", "Attracteur Fatal", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("Rocket Boots", "Bottes-Fusées", "talent name")
+t("Iron Grip", "Poigne de Fer", "talent name")
+t("Spring Grapple", "Grappin à Ressort", "talent name")
 t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
-t("Steam Powered Armour", "Armure à vapeur", "talent name")
+t("Toxic Cannister Launcher", "Lance-Cylindre Toxique", "talent name")
+t("Steam Powered Armour", "Armure à Vapeur", "talent name")
+t("Viral Needlegun", "Fusil à Aiguilles Viral", "talent name")
 t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
+t("Shocking Touch", "Toucher Choquant", "talent name")
+t("Flash Powder", "Poudre Aveuglante", "talent name")
 t("%s resists the blinding light!", "%s résiste à la lumière aveuglante !", "logSeen")
+t("Itching Powder", "Poudre Grattante", "talent name")
+t("Thunder Grenade", "Grenade Tonnerre", "talent name")
+t("Voltaic Sentry", "Sentinelle Voltaïque", "talent name")
+t("Explosive Shell", "Munition Explosive", "talent name")
+t("Flare Shell", "Munition Éclairante", "talent name")
+t("Solid Shell", "Munition Solide", "talent name")
 t("%s is knocked back!", "%s est repoussé !", "logSeen")
 t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
+t("Saw Shell", "Munition Scie", "talent name")
+t("Hook Shell", "Munition à Crochet", "talent name")
 t("%s resists the pull!", "%s résiste à l'attraction !", "logSeen")
+t("Magnetic Shell", "Munition Magnétique", "talent name")
+t("Voltaic Shell", "Munition Voltaïque", "talent name")
+t("Antimagic Shell", "Munition Antimagique", "talent name")
+t("Botanical Shell", "Munition Botanique", "talent name")
+t("Corrosive Shell", "Munition Corrosive", "talent name")
+t("Toxic Shell", "Munition Toxique", "talent name")
+t("Moss Tread", "Foulée Moussue", "talent name")
+t("Arcane Dynamo", "Dynamo Arcanique", "talent name")
 -- texte non traduit
 --[==[
 t("Medical Injector", "Medical Injector", "talent name")
@@ -5955,12 +5928,10 @@ t("#F53CBE#%s runs out of power.", "#F53CBE#%s runs out of power.", "logSeen")
 t([[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
 		]], [[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
 		]], "tformat")
-t("Hand Cannon", "Hand Cannon", "talent name")
 t("You have no ammo!", "You have no ammo!", "logPlayer")
 t([[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tinker is made of voratun you will fire an additional shot.
 			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], [[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tinker is made of voratun you will fire an additional shot.
 			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], "tformat")
-t("Fatal Attractor", "Fatal Attractor", "talent name")
 t("fatal attractor", "fatal attractor", "_t")
 t("A psionic contraption that reflects damage and forces things to attack it.", "A psionic contraption that reflects damage and forces things to attack it.", "_t")
 t([[Quickly create a psionic-enhanced metal contraption that lures all your foes to it and reflects %d%% of the damage it takes to its attackers.
@@ -5968,7 +5939,6 @@ t([[Quickly create a psionic-enhanced metal contraption that lures all your foes
 		Damage, life, resists, and armor scale with your Steampower.]], [[Quickly create a psionic-enhanced metal contraption that lures all your foes to it and reflects %d%% of the damage it takes to its attackers.
 		The contraption will have %d life and last 5 turns.
 		Damage, life, resists, and armor scale with your Steampower.]], "tformat")
-t("Rocket Boots", "Rocket Boots", "talent name")
 t([[Activate the rocket boots, firing huge flames from your boots increasing your movement speed by %d%%.
 		Each movement will leave a trail of flames doing %0.2f fire damage for 4 turns.
 		Doing any other actions will break the effect.
@@ -5976,16 +5946,13 @@ t([[Activate the rocket boots, firing huge flames from your boots increasing you
 		Each movement will leave a trail of flames doing %0.2f fire damage for 4 turns.
 		Doing any other actions will break the effect.
 		#{italic}#Burninate them all!#{normal}#]], "tformat")
-t("Iron Grip", "Iron Grip", "talent name")
 t("%s resists the iron grip!", "%s resists the iron grip!", "logSeen")
 t([[Activate the pistons to crush your target for %d turns and dealing %d%% unarmed melee damage.
 		While the target is held it can not move and its armour and defense are reduced by %d.
 		#{italic}#Crush their bones!#{normal}#]], [[Activate the pistons to crush your target for %d turns and dealing %d%% unarmed melee damage.
 		While the target is held it can not move and its armour and defense are reduced by %d.
 		#{italic}#Crush their bones!#{normal}#]], "tformat")
-t("Spring Grapple", "Spring Grapple", "talent name")
 t("Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "tformat")
-t("Toxic Cannister Launcher", "Toxic Cannister Launcher", "talent name")
 t("toxic cannister", "toxic cannister", "_t")
 t("A smelly cannister.", "A smelly cannister.", "_t")
 t([[Launch a cannister filled with toxic gas at a location.
@@ -6008,7 +5975,6 @@ t([[Activate the armour's active defense system.
 		All damage except mind damage is reduced by a flat %d.
 		In addition the electric power of the armour sometimes leaks, each turn there is a 50%% chance to produce a electrical arc toward a foe, dealing %0.2f to %0.2f lightning damage to all foes in radius 1.
 		The effects increase with your Steampower.]], "tformat")
-t("Viral Needlegun", "Viral Needlegun", "talent name")
 t([[You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and reducing either Constitution, Strength or Dexterity by %d for 20 turns.
 		The damage and disease effects increase with your Steampower.]], [[You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.
@@ -6037,7 +6003,6 @@ t([[Shatters the mind of your victim, giving you full control over its actions f
 		When the effect ends, you pull out your mind and the victim's body collapses, dead.
 		This effect does not work on rares, bosses, or undead.
 		.]], "tformat")
-t("Shocking Touch", "Shocking Touch", "talent name")
 t([[Touch a creature to release a nasty electrical charge into them, doing %0.2f lightning damage.
 		If this tinker is above tier 1, the electricity can arc to another target up to 2 tiles away.
 		The number of enemies hit is at most the tinker tier.
@@ -6045,20 +6010,17 @@ t([[Touch a creature to release a nasty electrical charge into them, doing %0.2f
 		If this tinker is above tier 1, the electricity can arc to another target up to 2 tiles away.
 		The number of enemies hit is at most the tinker tier.
 		The damage increases with your Steampower.]], "tformat")
-t("Flash Powder", "Flash Powder", "talent name")
 t([[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
 		Creatures in a cone of radius %d are blinded for %d turns.
 		The blindness effect is applied with your Steampower.]], [[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
 		Creatures in a cone of radius %d are blinded for %d turns.
 		The blindness effect is applied with your Steampower.]], "tformat")
-t("Itching Powder", "Itching Powder", "talent name")
 t("%s resists the itching powder!", "%s resists the itching powder!", "logSeen")
 t([[Throw a handful of dust that is very itchy to touch.
 		Creatures in a cone of radius %d are itchy for %d turns, causing them to fail talents %d%% of the time.
 		The itchiness effect is applied with your Steampower.]], [[Throw a handful of dust that is very itchy to touch.
 		Creatures in a cone of radius %d are itchy for %d turns, causing them to fail talents %d%% of the time.
 		The itchiness effect is applied with your Steampower.]], "tformat")
-t("Thunder Grenade", "Thunder Grenade", "talent name")
 t("%s resists the explosion!", "%s resists the explosion!", "logSeen")
 t([[Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.
 		Creatures hit will also be stunned for %d turns.
@@ -6075,7 +6037,6 @@ t("Voltaic Bolt", "Voltaic Bolt", "talent name")
 t([[Fires a bolt of lightning, doing %0.2f lightning damage.
 		The damage will increase with your Steampower.]], [[Fires a bolt of lightning, doing %0.2f lightning damage.
 		The damage will increase with your Steampower.]], "tformat")
-t("Voltaic Sentry", "Voltaic Sentry", "talent name")
 t("volatic sentry", "volatic sentry", "_t")
 t("A strange device. Your hair stands on end when you approach.", "A strange device. Your hair stands on end when you approach.", "_t")
 t([[Place an electrically charged sentry device at a location.
@@ -6089,14 +6050,12 @@ t([[Place an electrically charged sentry device at a location.
 		The sentry has %d life and lasts 10 turns.
 		Damage, life, resists, and armor scale with your Steampower.
 		Damage and penetration are inherited from the creator.]], "tformat")
-t("Explosive Shell", "Explosive Shell", "talent name")
 t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which does %0.2f physical damage.
 		This talent does not use ammo as it is the ammo.]], [[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which does %0.2f physical damage.
 		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Flare Shell", "Flare Shell", "talent name")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which lights up the area and blinds for %d turns.
 		This talent does not use ammo as it is the ammo.]], [[You fire a special explosive shot with your steamgun(s) at a spot within range.
@@ -6111,7 +6070,6 @@ t([[You fire a special explosive shot with your steamgun(s) at a spot within ran
 		When each shot reaches its target, it does normal steamgun damage and releases %d explosive charges in a radius of 2.
 		These charges will shortly explode for %0.2f fire damage in a radius of 1.
 		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Solid Shell", "Solid Shell", "talent name")
 t([[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back %d tiles.
 		This talent does not use ammo as it is the ammo.]], [[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
@@ -6123,13 +6081,11 @@ t([[You fire a special stake shot with your steamgun(s) at a target for %d%% phy
 		This talent does not use ammo as it is the ammo.]], [[You fire a special stake shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back 2 tiles and they will be pinned for %d turns.
 		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Saw Shell", "Saw Shell", "talent name")
 t([[You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.
 		This talent does not use ammo as it is the ammo.]], [[You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.
 		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Hook Shell", "Hook Shell", "talent name")
 t([[You fire a special hook shot with your steamgun(s) at a target creature or location.
 		If you target a creature, they are pulled up to %d tiles towards you.
 		If you target an empty tile, you are pulled up to %d tiles towards it.
@@ -6137,7 +6093,6 @@ t([[You fire a special hook shot with your steamgun(s) at a target creature or l
 		If you target a creature, they are pulled up to %d tiles towards you.
 		If you target an empty tile, you are pulled up to %d tiles towards it.
 		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Magnetic Shell", "Magnetic Shell", "talent name")
 t([[You fire a special magnetic shot with your steamgun(s) at a target for normal weapon damage.
 		The shot will magnetise the target for %d turns. This lowers their defense and increases fatigue by %d.
 		This talent does not use ammo as it is the ammo.
@@ -6145,7 +6100,6 @@ t([[You fire a special magnetic shot with your steamgun(s) at a target for norma
 		The shot will magnetise the target for %d turns. This lowers their defense and increases fatigue by %d.
 		This talent does not use ammo as it is the ammo.
 		Effect strength scales with Steampower.]], "tformat")
-t("Voltaic Shell", "Voltaic Shell", "talent name")
 t([[You fire a special voltaic shot with your steamgun(s) at a target for 100%% weapon damage as lightning.
 		The shot will release powerful electrical currents at up to %d nearby enemies. 
 		Each bolt does %0.2f lightning damage.
@@ -6155,7 +6109,6 @@ t([[You fire a special voltaic shot with your steamgun(s) at a target for 100%% 
 		Each bolt does %0.2f lightning damage.
 		This talent does not use ammo as it is the ammo.
 		Bolt damage scales with Steampower.]], "tformat")
-t("Antimagic Shell", "Antimagic Shell", "talent name")
 t([[You fire a special antimagic shot with your steamgun(s) at a target for 100%% normal weapon damage.
 		The shot will release antimagic sap on the target, doing %0.2f arcane resource burn damage.
 		This talent does not use ammo as it is the ammo.
@@ -6163,7 +6116,6 @@ t([[You fire a special antimagic shot with your steamgun(s) at a target for 100%
 		The shot will release antimagic sap on the target, doing %0.2f arcane resource burn damage.
 		This talent does not use ammo as it is the ammo.
 		Sap damage scales with Steampower.]], "tformat")
-t("Botanical Shell", "Botanical Shell", "talent name")
 t([[You fire a special botanical shot with your steamgun(s) at a target for 100%% weapon damage as nature.
 		The shot will release spores which grow into Nourishing Moss in a radius of %d for %d turns.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
@@ -6175,7 +6127,6 @@ t([[You fire a special botanical shot with your steamgun(s) at a target for 100%
 		This moss has vampiric properties and heals the user for %d%% of the damage done.
 		This talent does not use ammo as it is the ammo.
 		Moss damage scales with Steampower.]], "tformat")
-t("Corrosive Shell", "Corrosive Shell", "talent name")
 t([[You fire a special corrosive shot with your steamgun(s) at a target for %d%% weapon damage as acid.
 		The acid released by the shot will also corrode the target, reducing its accuracy, defense and armour by %d.
 		This talent does not use ammo as it is the ammo.
@@ -6183,7 +6134,6 @@ t([[You fire a special corrosive shot with your steamgun(s) at a target for %d%%
 		The acid released by the shot will also corrode the target, reducing its accuracy, defense and armour by %d.
 		This talent does not use ammo as it is the ammo.
 		Corrosion strength scales with Steampower.]], "tformat")
-t("Toxic Shell", "Toxic Shell", "talent name")
 t("%s resists the toxin!", "%s resists the toxin!", "logSeen")
 t([[You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
@@ -6192,7 +6142,6 @@ t([[You fire a special toxic shot with your steamgun(s) at a target for 100%% we
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
 		This talent does not use ammo as it is the ammo.
 		Toxin strength scales with Steampower.]], "tformat")
-t("Moss Tread", "Moss Tread", "talent name")
 t([[For %d turns, you lay down Grasping Moss where you walk or stand.
 		The moss is placed automatically every step and lasts %d turns.
 		Each turn the moss deals %0.2f nature damage to each foe standing on it.
@@ -6202,7 +6151,6 @@ t([[For %d turns, you lay down Grasping Moss where you walk or stand.
 		Each turn the moss deals %0.2f nature damage to each foe standing on it.
 		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
 		The damage scales with your Steampower.]], "tformat")
-t("Arcane Dynamo", "Arcane Dynamo", "talent name")
 t([[Allows the use of Technomancy spells.
 		Grants a magical steam reserve that regenerates %d steam per 10 mana spent.
 		Grants Spellpower based on current steam level (currently %d; %d%% steam filled).
@@ -6326,6 +6274,7 @@ section "tome-orcs/data/talents/steam/steam.lua"
 
 t("steamtech", "vapotech", "talent category")
 t("other", "Autre", "talent type")
+t("chemistry", "chimie", "talent type")
 t("dread", "hanteur", "talent type")
 -- texte non traduit
 --[==[
@@ -6337,7 +6286,6 @@ t("Steamtech directly embedded on the skin.", "Steamtech directly embedded on th
 t("Tinkers with stuff.", "Tinkers with stuff.", "_t")
 t("physics", "physics", "talent type")
 t("Learn the mechanical side of steamtech.", "Learn the mechanical side of steamtech.", "_t")
-t("chemistry", "chemistry", "talent type")
 t("Learn the chemistry side of steamtech.", "Learn the chemistry side of steamtech.", "_t")
 t("blacksmith", "blacksmith", "talent type")
 t("All this metalworking has improved you.", "All this metalworking has improved you.", "_t")
@@ -6918,11 +6866,17 @@ t("Vulnerable to more cross tier effects.", "Vulnerable to more cross tier effec
 section "tome-orcs/data/timed_effects/physical.lua"
 
 t("steamtech", "vapotech", "effect subtype")
+t("Iron Grip", "Poigne de Fer", "_t")
 t("#Target# is less focused.", "#Target# est moins concentré.", "_t")
 t("Cloak", "Cape", "_t")
+t("Pain Suppressor Salve", "Onguent Suppresseur de Douleur", "_t")
 t("frost", "gel", "effect subtype")
+t("Frost Salve", "Onguent de Givre", "_t")
 t("fire", "feu", "effect subtype")
+t("Fiery Salve", "Onguent Ardent", "_t")
 t("water", "eau", "effect subtype")
+t("Water Salve", "Onguent d'Eau", "_t")
+t("Unstoppable Force Salve", "Onguent de Force Implacable", "_t")
 t("slow", "ralentissement", "effect subtype")
 t("ice", "glace", "effect subtype")
 t("disease", "maladie", "effect subtype")
@@ -6936,6 +6890,7 @@ t("You have %d charges.", "Vous avez %d charge(s).", "tformat")
 t("steam", "vapeur", "effect subtype")
 t("psionic", "psionique", "effect subtype")
 t("Marked for Death", "Condamné Marqué", "_t")
+t("Itching Powder", "Poudre Grattante", "_t")
 t("#Target# regains their concentration.", "#Target# retrouve sa concentration.", "_t")
 t("blood", "sang", "effect subtype")
 t("heal", "soin", "effect subtype")
@@ -6948,6 +6903,7 @@ t("blight", "fléau", "effect subtype")
 t("#Target# is poisoned!", "#Target# est empoisonné !", "_t")
 t("#Target# is no longer poisoned.", "#Target# n'est plus empoisonné.", "_t")
 t("moss", "mousse", "effect subtype")
+t("Moss Tread", "Foulée Moussue", "_t")
 t("maimed", "mutilé", "effect subtype")
 t("Damage reduced by %d%%.", "Dégâts reduits de %d%%.", "tformat")
 t("acid", "dégâts d'acide", "effect subtype")
@@ -6971,7 +6927,6 @@ t("The target is moving while shooting, and will reload %sammo when finished str
 t("%s reloads.", "%s reloads.", "logSeen")
 t("Startled", "Startled", "_t")
 t("The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "The target is startled after being strangely missed by a shot. The next shot it takes will deal %d%% more damage.", "tformat")
-t("Iron Grip", "Iron Grip", "_t")
 t("The target has been crushed, pinning it and reducing defense and armour by %d.", "The target has been crushed, pinning it and reducing defense and armour by %d.", "tformat")
 t("#Target# is crushed by the iron grip.", "#Target# is crushed by the iron grip.", "_t")
 t("+Iron Grip", "+Iron Grip", "_t")
@@ -6998,29 +6953,24 @@ t("+Cloak", "+Cloak", "_t")
 t("#Target# re-appears.", "#Target# re-appears.", "_t")
 t("-Cloak", "-Cloak", "_t")
 t("nature", "nature", "effect subtype")
-t("Pain Suppressor Salve", "Pain Suppressor Salve", "_t")
 t("Fight to the brink of death, can not die before going under -%d life (but life under 0 is not shown) and increases all resistances by %d%%.", "Fight to the brink of death, can not die before going under -%d life (but life under 0 is not shown) and increases all resistances by %d%%.", "tformat")
 t("#Target# uses a pain suppressor salve.", "#Target# uses a pain suppressor salve.", "_t")
 t("+Pain Suppressor", "+Pain Suppressor", "_t")
 t("#Target# is not affected anymore by the salve.", "#Target# is not affected anymore by the salve.", "_t")
 t("-Pain Suppressor", "-Pain Suppressor", "_t")
-t("Frost Salve", "Frost Salve", "_t")
 t("Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "Provides a frost aura, giving you +%d%% cold, nature and darkness affinity.", "tformat")
 t("#Target# uses a frost salve.", "#Target# uses a frost salve.", "_t")
 t("+Frost Salve", "+Frost Salve", "_t")
 t("-Frost Salve", "-Frost Salve", "_t")
-t("Fiery Salve", "Fiery Salve", "_t")
 t("Provides a frost aura, giving you +%d%% fire, light, and lightning affinity.", "Provides a frost aura, giving you +%d%% fire, light, and lightning affinity.", "tformat")
 t("#Target# uses a fiery salve.", "#Target# uses a fiery salve.", "_t")
 t("+Fiery Salve", "+Fiery Salve", "_t")
 t("-Fiery Salve", "-Fiery Salve", "_t")
-t("Water Salve", "Water Salve", "_t")
 t("Provides a frost aura, giving you +%d%% blight, mind and acid affinity.", "Provides a frost aura, giving you +%d%% blight, mind and acid affinity.", "tformat")
 t("#Target# uses a water salve.", "#Target# uses a water salve.", "_t")
 t("+Water Salve", "+Water Salve", "_t")
 t("-Water Salve", "-Water Salve", "_t")
 t("tech", "tech", "effect subtype")
-t("Unstoppable Force Salve", "Unstoppable Force Salve", "_t")
 t("Increases all saves by %d and healing factor by %d%%.", "Increases all saves by %d and healing factor by %d%%.", "tformat")
 t("#Target# uses an unstoppable force salve.", "#Target# uses an unstoppable force salve.", "_t")
 t("+Unstoppable Force", "+Unstoppable Force", "_t")
@@ -7099,7 +7049,6 @@ t("Ranged defense reduced by %d, takes %d%% extra damage from all sources.", "Ra
 t("#Target# is marked!", "#Target# is marked!", "_t")
 t("+Marked for Death", "+Marked for Death", "_t")
 t("powder", "powder", "effect subtype")
-t("Itching Powder", "Itching Powder", "_t")
 t("The target is very itchy, causing their actions to fail.", "The target is very itchy, causing their actions to fail.", "tformat")
 t("#Target# is very itching!", "#Target# is very itching!", "_t")
 t("+Itching Powder", "+Itching Powder", "_t")
@@ -7127,7 +7076,6 @@ t("Metal Poisoning", "Metal Poisoning", "_t")
 t("The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "The target is poisoned with heavy metals, taking %0.2f blight damage per turn and decreasing their global speed by %d%%.", "tformat")
 t("+Metal Poisoning", "+Metal Poisoning", "_t")
 t("-Metal Poisoning", "-Metal Poisoning", "_t")
-t("Moss Tread", "Moss Tread", "_t")
 t("You lay moss where you walk.", "You lay moss where you walk.", "tformat")
 t("+Moss", "+Moss", "_t")
 t("-Moss", "-Moss", "_t")
@@ -7208,281 +7156,256 @@ t("%d corrosive flechettes are embedded in the target. Each melee and ranged att
 ------------------------------------------------
 section "tome-orcs/data/tinkers/chemistry.lua"
 
+t("Winterchill Edge", "Fil de Froid Hivernal", "_t")
+t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "La chaleur est de l'énergie. En utilisant vos connaissances en physique, en chimie et en forge, vous pouvez ajouter un tranchant glaçant à vos armes. Bien que les dégâts infligés soient relativement faibles, chaque coup fait également perdre à vos ennemis un dixième de tour.", "_t")
+t("Acid Groove", "Rainure Acide", "_t")
+t("Allows your weapon to spray caustic acid on hit, reducing armor.", "Permet à votre arme de projeter de l'acide caustique au toucher, réduisant l'armure.", "_t")
 t("Brain Cap", "Calotte Cérébrale", "_t")
+t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "En montant un cerveau dans un bocal au sein d'un cadre de stralite, cette merveille augmentera vos résistances mentales et vous permettra d'émettre une puissante onde de disruption magique.", "_t")
 t("Brain Flare", "Éclat Cérébral", "_t")
-t("Rogue's Gallery", "Galerie du Voleur", "_t")
+t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "En montant un cerveau dans un bocal au sein d'un cadre de stralite, cette merveille augmentera vos résistances mentales et vous permettra d'envahir l'esprit de vos ennemis pour en prendre le contrôle.", "_t")
+t("Waterproof Coating", "Revêtement Imperméable", "_t")
+t("Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "Votre vieux manteau ne vous garde plus aussi sec qu'avant ? Un revêtement imperméable est exactement ce qu'il vous faut !", "_t")
+t("Fireproof Coating", "Revêtement Ignifuge", "_t")
+t("New cloak doesn't have all the resistances you wanted? A fireproof coating it just what you need!", "Votre nouveau manteau n'a pas toutes les résistances que vous vouliez ? Un revêtement ignifuge est exactement ce qu'il vous faut !", "_t")
+t("Flash Powder", "Poudre Aveuglante", "_t")
+t("What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "Qu'y a-t-il de mieux que de jeter du sable au visage de quelqu'un ? Jeter du sable qui brille aussi fort que le Soleil !", "_t")
+t("Itching Powder", "Poudre Grattante", "_t")
+t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "La poudre grattante \"Fourmis Rampantes\" détournera vos ennemis de toute action compliquée.", "_t")
+t("Rogue's Gallery", "Galerie du Brigand", "_t")
 t("Lined with reactive mechanisms, this cloak is equipped for any situation you might possibly encounter, and several you couldn't possibly encounter!", "Doublée de mécanismes réactifs, cette cape est équipée pour toute situation que vous pourriez rencontrer, et plusieurs que vous ne pourriez jamais rencontrer !", "_t")
+t("flash powder", "poudre aveuglante", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
 t("bloodstone", "pierre de sang", "_t")
--- texte non traduit
---[==[
-t("Winterchill Edge", "Winterchill Edge", "_t")
-t("Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "Heat is energy.  Using your knowledge of physics, chemistry, and blacksmithing you can add a chilling edge to your weapons.  While the damage this deals is relatively small each blow will also cause your enemies to lose one tenth of a turn.", "_t")
-t("Acid Groove", "Acid Groove", "_t")
-t("Allows your weapon to spray caustic acid on hit, reducing armor.", "Allows your weapon to spray caustic acid on hit, reducing armor.", "_t")
-t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and allow you to emit a powerful magic disrupting wave.", "_t")
-t("By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "By mounting a brain in a jar in a stralite frame this marvel will increases your mental resistances and to invade your foe's minds, taking control.", "_t")
-t("Waterproof Coating", "Waterproof Coating", "_t")
-t("Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "Old cloak not keeping you as dry as it used to? A waterproof coating it just what you need!", "_t")
-t("Fireproof Coating", "Fireproof Coating", "_t")
-t("New cloak doesn't have all the resistances you wanted? A fireproof coating it just what you need!", "New cloak doesn't have all the resistances you wanted? A fireproof coating it just what you need!", "_t")
-t("Flash Powder", "Flash Powder", "_t")
-t("What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "What is better than throwing sand in someone's face? Throwing sand that shines as bright as the Sun!", "_t")
-t("Itching Powder", "Itching Powder", "_t")
-t("The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "The 'Crawling Ants' itching powder will distract your enemies from any complicated actions.", "_t")
-t("flash powder", "flash powder", "_t")
-t("Rustproof Coating", "Rustproof Coating", "_t")
-t("Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "_t")
-t("Alchemist's Helper", "Alchemist's Helper", "_t")
-t("An ingenius collection of tough no-spill pockets allows you to keep all those dangerous reagents close at hand. (increases acid, fire, nature and blight damage.)", "An ingenius collection of tough no-spill pockets allows you to keep all those dangerous reagents close at hand. (increases acid, fire, nature and blight damage.)", "_t")
-t("Black Light Emitter", "Black Light Emitter", "_t")
-t("Make the invisible visible.", "Make the invisible visible.", "_t")
---]==]
-
+t("Rustproof Coating", "Revêtement Antirouille", "_t")
+t("Protects your armour from nasty corrosives like swamp, sea spray, acids, orc sweat, drake saliva...", "Protège votre armure des corrosifs désagréables comme les marais, les embruns marins, les acides, la sueur d'orc, la salive de dragonnet...", "_t")
+t("Alchemist's Helper", "Assistant d'Alchimiste", "_t")
+t("An ingenius collection of tough no-spill pockets allows you to keep all those dangerous reagents close at hand. (increases acid, fire, nature and blight damage.)", "Une ingénieuse collection de poches robustes et étanches vous permet de garder tous ces réactifs dangereux à portée de main. (Augmente les dégâts d'acide, de feu, de nature et de fléau.)", "_t")
+t("Black Light Emitter", "Émetteur de Lumière Noire", "_t")
+t("Make the invisible visible.", "Rend visible l'invisible.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/electricity.lua"
 
+t("Lightning Coil", "Bobine de Foudre", "_t")
+t("Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "Les bobines de foudre peuvent être attachées aux armes de corps à corps pour générer un faisceau électrique à courte portée lors des coups critiques en mêlée.", "_t")
+t("Mana Coil", "Bobine de Mana", "_t")
+t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "Les bobines de mana peuvent être attachées aux bâtons pour améliorer la régénération de mana et lancer un sort de foudre lors d'un toucher en mêlée.", "_t")
 t("sapphire", "saphir", "_t")
+t("Arcane Dynamo", "Dynamo Arcanique", "_t")
+t("Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "Les Dynamos Arcaniques bâtissent un pont entre les forces arcaniques et la vapotech, régénérant les réserves de vapeur lors du lancement de sorts et permettant l'utilisation de la Technomancie.", "_t")
 t("amethyst", "améthyste", "_t")
+t("Shocking Touch", "Toucher Choquant", "_t")
+t("Gives you the Electric Touch. Higher tiers will chain.", "Vous accorde le Toucher Électrique. Les paliers supérieurs enchaînent les cibles.", "_t")
+t("Deflection Field", "Champ de Déviation", "_t")
+t("Protect yourself with the Power of Magnetism! Attach this device to your belt and watch those bullets miss every time! (not guaranteed to work every time)", "Protégez-vous grâce au pouvoir du magnétisme ! Attachez ce dispositif à votre ceinture et regardez les balles vous manquer à chaque fois ! (Ne fonctionne pas de manière garantie à chaque fois.)", "_t")
+t("Galvanic Retributor", "Distributeur de Représailles Galvanique", "_t")
+t("Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "Fortifiez votre bouclier avec de l'électricité et préparez-vous à déchaîner des REPRÉSAILLES GALVANIQUES contre vos attaquants !", "_t")
+t("Shocking Edge", "Fil Choquant", "_t")
+t("Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "Attacher un condensateur à votre arme, de la bonne manière, est un excellent moyen d'électrocuter vos ennemis.", "_t")
+t("Steamsaw: Stormcutter", "Scie à Vapeur : Trancheorage", "_t")
+t("The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "Le summum de la technologie des scies à vapeur. Chacun de vos coups déchaînera la puissance de l'orage sur vos ennemis, se propageant entre eux et les assommant !", "_t")
+t("shocking edge", "fil choquant", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
 t("bloodstone", "pierre de sang", "_t")
--- texte non traduit
---[==[
-t("Lightning Coil", "Lightning Coil", "_t")
-t("Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "Lightning coils can be attached to melee weapons to generate a short range beam of electricity on melee crits.", "_t")
-t("Mana Coil", "Mana Coil", "_t")
-t("Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "Mana coils can be attached to staves to improve mana regeneration and cast a lightning spell on spell hits.", "_t")
-t("Arcane Dynamo", "Arcane Dynamo", "_t")
-t("Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "Arcane Dynamos build a bridge between arcane forces and steamtech, regenerating steam supplies when casting spells and allowing the use of Technomancy.", "_t")
-t("Shocking Touch", "Shocking Touch", "_t")
-t("Gives you the Electric Touch. Higher tiers will chain.", "Gives you the Electric Touch. Higher tiers will chain.", "_t")
-t("Deflection Field", "Deflection Field", "_t")
-t("Protect yourself with the Power of Magnetism! Attach this device to your belt and watch those bullets miss every time! (not guaranteed to work every time)", "Protect yourself with the Power of Magnetism! Attach this device to your belt and watch those bullets miss every time! (not guaranteed to work every time)", "_t")
-t("Galvanic Retributor", "Galvanic Retributor", "_t")
-t("Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "Fortify your shield with electricity and prepare to unleash GALVANIC RETRIBUTION against your attackers!", "_t")
-t("Shocking Edge", "Shocking Edge", "_t")
-t("Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "Attaching a capacitor to your weapon in just the right way is a great way to shock your enemies.", "_t")
-t("Steamsaw: Stormcutter", "Steamsaw: Stormcutter", "_t")
-t("The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "The pinnacle of steamsaws technology. Every one of your hits will unleash the power of the storm onto your foes, chaining between them and stunning them!", "_t")
-t("shocking edge", "shocking edge", "_t")
-t("Voltaic Sentry", "Voltaic Sentry", "_t")
-t("Just drop it down and watch the sparks fly when your enemies get near.", "Just drop it down and watch the sparks fly when your enemies get near.", "_t")
-t("Mental Stimulator", "Mental Stimulator", "_t")
-t("Supercharge your thinking and give your brain a boost with the Mental Stimulator!", "Supercharge your thinking and give your brain a boost with the Mental Stimulator!", "_t")
-t("Power Distributor", "Power Distributor", "_t")
-t("The Power Distributor V2 ensures you have the energy where and when you need it, without any of the side effects like V1 had.", "The Power Distributor V2 ensures you have the energy where and when you need it, without any of the side effects like V1 had.", "_t")
-t("White Light Emitter", "White Light Emitter", "_t")
-t("Add more light to your light!", "Add more light to your light!", "_t")
---]==]
-
+t("Voltaic Sentry", "Sentinelle Voltaïque", "_t")
+t("Just drop it down and watch the sparks fly when your enemies get near.", "Il suffit de la poser et de regarder les étincelles voler lorsque vos ennemis s'approchent.", "_t")
+t("Mental Stimulator", "Stimulateur Mental", "_t")
+t("Supercharge your thinking and give your brain a boost with the Mental Stimulator!", "Surchargez votre réflexion et boostez votre cerveau avec le Stimulateur Mental !", "_t")
+t("Power Distributor", "Distributeur d'Énergie", "_t")
+t("The Power Distributor V2 ensures you have the energy where and when you need it, without any of the side effects like V1 had.", "Le Distributeur d'Énergie V2 vous garantit de l'énergie où et quand vous en avez besoin, sans les effets secondaires du modèle V1.", "_t")
+t("White Light Emitter", "Émetteur de Lumière Blanche", "_t")
+t("Add more light to your light!", "Ajoutez encore plus de lumière à votre lumière !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/explosive.lua"
 
+t("Thunderclap Coating", "Revêtement de Coup de Tonnerre", "_t")
+t("Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "Enduisez votre arme d'une substance qui réagit de manière destructrice à l'impact, faisant exploser vos attaques en une zone.", "_t")
+t("Steamgun", "Pistolet à Vapeur", "_t")
+t("Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "Démontez n'importe quelle fronde, ajoutez-y une incroyable puissance de vapeur, et fabriquez un puissant pistolet à vapeur pour déchaîner un enfer de balles sur vos ennemis !", "_t")
+t("a sling (not unique)", "une fronde (non unique)", "_t")
+t("Convert which sling?", "Convertir quelle fronde ?", "_t")
+t("Converted %s into %s", "%s converti en %s", "log")
+t("Headlamp", "Lampe Frontale", "_t")
+t("So much more convenient than a lantern on your waist.", "Tellement plus pratique qu'une lanterne à la ceinture.", "_t")
+t("Ablative Armour", "Armure Ablative", "_t")
+t("Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "Renforcer votre armure avec des explosions n'est pas aussi fou que ça en a l'air ! Ajoute de l'armure et résiste aux coups très puissants.", "_t")
+t("Incendiary Groove", "Rainure Incendiaire", "_t")
+t("A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "Un réservoir spécial infuse l'arme de feu liquide, ajoutant des dégâts de feu et embrasant le sol lorsque vous touchez.", "_t")
+t("Thunder Grenade", "Grenade Tonnerre", "_t")
+t("Small radius, but stuns quite well.", "Petit rayon, mais assomme plutôt bien.", "_t")
+t("Steamgun: Payload", "Pistolet à Vapeur : Charge Utile", "_t")
+t("The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "Le summum de la technologie des pistolets à vapeur. Les coups critiques avec cette arme donneront l'impression d'une explosion massive de flammes ! Et ce sera exactement le cas !", "_t")
+t("incendiary groove", "rainure incendiaire", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
 t("bloodstone", "pierre de sang", "_t")
--- texte non traduit
---[==[
-t("Thunderclap Coating", "Thunderclap Coating", "_t")
-t("Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "Coat your weapon in a substance that will react destructively on impact, causing your attacks to burst out in an area.", "_t")
-t("Steamgun", "Steamgun", "_t")
-t("Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "Dismantle any one sling, add some amazing steampower to it and make a powerful steamgun to fire a bullet hell at your foes!", "_t")
-t("a sling (not unique)", "a sling (not unique)", "_t")
-t("Convert which sling?", "Convert which sling?", "_t")
-t("Converted %s into %s", "Converted %s into %s", "log")
-t("Headlamp", "Headlamp", "_t")
-t("So much more convenient than a lantern on your waist.", "So much more convenient than a lantern on your waist.", "_t")
-t("Ablative Armour", "Ablative Armour", "_t")
-t("Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "Reinforcing your armour with explosions isn't as crazy as it sounds!  Adds armor and resists very large hits.", "_t")
-t("Incendiary Groove", "Incendiary Groove", "_t")
-t("A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "A special reservoir seeps liquid fire onto the weapon, adding fire damage and setting the ground on fire when you hit.", "_t")
-t("Thunder Grenade", "Thunder Grenade", "_t")
-t("Small radius, but stuns quite well.", "Small radius, but stuns quite well.", "_t")
-t("Steamgun: Payload", "Steamgun: Payload", "_t")
-t("The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "The pinnacle of steamguns technology. Critical strikes with this gun will feel like a massive explosion of flames! And it actually will be one!", "_t")
-t("incendiary groove", "incendiary groove", "_t")
-t("Explosive Shell", "Explosive Shell", "_t")
-t("A special shot that explodes on impact.", "A special shot that explodes on impact.", "_t")
-t("Flare Shell", "Flare Shell", "_t")
-t("A special shot that releases intense light on impact.", "A special shot that releases intense light on impact.", "_t")
-t("Solid Shell", "Solid Shell", "_t")
-t("A special shot that packs a punch.", "A special shot that packs a punch.", "_t")
-t("Saw Shell", "Saw Shell", "_t")
-t("A special shot that slices 'n' dices.", "A special shot that slices 'n' dices.", "_t")
-t("Magnetic Shell", "Magnetic Shell", "_t")
-t("A special shot that magnetises on impact.", "A special shot that magnetises on impact.", "_t")
-t("Antimagic Shell", "Antimagic Shell", "_t")
-t("A special shot filled with antimagic sap.", "A special shot filled with antimagic sap.", "_t")
-t("Corrosive Shell", "Corrosive Shell", "_t")
-t("A special shot that releases acid on impact.", "A special shot that releases acid on impact.", "_t")
-t("Hook Shell", "Hook Shell", "_t")
-t("A special shot moving yourself, or others quickly.", "A special shot moving yourself, or others quickly.", "_t")
-t("Voltaic Shell", "Voltaic Shell", "_t")
-t("A special shot that releases electricity on impact.", "A special shot that releases electricity on impact.", "_t")
-t("Botanical Shell", "Botanical Shell", "_t")
-t("A special shot grows moss on impact.", "A special shot grows moss on impact.", "_t")
-t("Toxic Shell", "Toxic Shell", "_t")
-t("A special shot that contains a deadly toxin.", "A special shot that contains a deadly toxin.", "_t")
---]==]
-
+t("Explosive Shell", "Munition Explosive", "_t")
+t("A special shot that explodes on impact.", "Une munition spéciale qui explose à l'impact.", "_t")
+t("Flare Shell", "Munition Éclairante", "_t")
+t("A special shot that releases intense light on impact.", "Une munition spéciale qui libère une lumière intense à l'impact.", "_t")
+t("Solid Shell", "Munition Solide", "_t")
+t("A special shot that packs a punch.", "Une munition spéciale qui a du répondant.", "_t")
+t("Saw Shell", "Munition Scie", "_t")
+t("A special shot that slices 'n' dices.", "Une munition spéciale qui tranche et découpe.", "_t")
+t("Magnetic Shell", "Munition Magnétique", "_t")
+t("A special shot that magnetises on impact.", "Une munition spéciale qui magnétise à l'impact.", "_t")
+t("Antimagic Shell", "Munition Antimagique", "_t")
+t("A special shot filled with antimagic sap.", "Une munition spéciale remplie de sève antimagique.", "_t")
+t("Corrosive Shell", "Munition Corrosive", "_t")
+t("A special shot that releases acid on impact.", "Une munition spéciale qui libère de l'acide à l'impact.", "_t")
+t("Hook Shell", "Munition à Crochet", "_t")
+t("A special shot moving yourself, or others quickly.", "Une munition spéciale qui vous déplace vous, ou d'autres, rapidement.", "_t")
+t("Voltaic Shell", "Munition Voltaïque", "_t")
+t("A special shot that releases electricity on impact.", "Une munition spéciale qui libère de l'électricité à l'impact.", "_t")
+t("Botanical Shell", "Munition Botanique", "_t")
+t("A special shot grows moss on impact.", "Une munition spéciale qui fait pousser de la mousse à l'impact.", "_t")
+t("Toxic Shell", "Munition Toxique", "_t")
+t("A special shot that contains a deadly toxin.", "Une munition spéciale qui contient une toxine mortelle.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/mechanical.lua"
 
-t("Steam Powered Armour", "Armure à vapeur", "_t")
+t("Rocket Boots", "Bottes-Fusées", "_t")
+t("Attach small steam rocket to your boots, granting faster movement and leaving a trail of fire to burn those foolish enough to follow you.", "Attachez une petite fusée à vapeur à vos bottes, vous accordant un déplacement plus rapide et laissant une traînée de feu pour brûler ceux assez fous pour vous suivre.", "_t")
+t("Hand Cannon", "Canon à Main", "_t")
+t("Allows you to fire your equipped shot or arrow ammo via your gloves.", "Vous permet de tirer votre munition ou flèche équipée par le biais de vos gants.", "_t")
+t("Fatal Attractor", "Attracteur Fatal", "_t")
+t("Creates a small psionic device that will taunt nearby enemies and reflect damage received.", "Crée un petit dispositif psionique qui provoque les ennemis proches et reflète les dégâts reçus.", "_t")
+t("Iron Grip", "Poigne de Fer", "_t")
+t("Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "Attache de puissants pistons à vapeur à vos gants, vous donnant une poigne ferme sur votre arme (empêchant le désarmement) et vous permettant d'écraser un ennemi, l'immobilisant et réduisant sa défense et son armure.", "_t")
+t("Spring Grapple", "Grappin à Ressort", "_t")
+t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "Attache un mécanisme à ressort à vos gants, vous permettant de traîner les ennemis à portée de corps à corps et de leur porter un coup rapide, les immobilisant devant vous.", "_t")
+t("Steam Powered Armour", "Armure à Vapeur", "_t")
+t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "En utilisant de petits moteurs à vapeur et les miracles des dernières découvertes en automatisation, vous pouvez créer une Armure à Vapeur. Une armure de plates complète qui facilite vos mouvements et possède des mécanismes de protection intrinsèques.", "_t")
+t("lightning coil", "bobine de foudre", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
 t("bloodstone", "pierre de sang", "_t")
--- texte non traduit
---[==[
-t("Rocket Boots", "Rocket Boots", "_t")
-t("Attach small steam rocket to your boots, granting faster movement and leaving a trail of fire to burn those foolish enough to follow you.", "Attach small steam rocket to your boots, granting faster movement and leaving a trail of fire to burn those foolish enough to follow you.", "_t")
-t("Hand Cannon", "Hand Cannon", "_t")
-t("Allows you to fire your equipped shot or arrow ammo via your gloves.", "Allows you to fire your equipped shot or arrow ammo via your gloves.", "_t")
-t("Fatal Attractor", "Fatal Attractor", "_t")
-t("Creates a small psionic device that will taunt nearby enemies and reflect damage received.", "Creates a small psionic device that will taunt nearby enemies and reflect damage received.", "_t")
-t("Iron Grip", "Iron Grip", "_t")
-t("Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "Attach powerful steam-powered pistons to your gloves, giving you a tight grip on your weapon (preventing disarming) and allowing you to crush a foe, pinning it and reducing its defense and armour.", "_t")
-t("Spring Grapple", "Spring Grapple", "_t")
-t("Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "Attach a spring loaded mechanism to your gloves, allowing you to drag enemies into melee range and deliver a quick blow, pinning them in front of you.", "_t")
-t("Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "Using small steam engines and the miracles of the latest automation discoveries you are able to create a Steam Powered Armour. A full plate armour that helps your movement and has intrinsic protection mechanisms.", "_t")
-t("lightning coil", "lightning coil", "_t")
-t("Saw Projector", "Saw Projector", "_t")
-t("A mechanical device for launching a spinning buzzsaw! What else could you want?", "A mechanical device for launching a spinning buzzsaw! What else could you want?", "_t")
-t("Kinetic Stabiliser", "Kinetic Stabiliser", "_t")
-t("Helps keep your feet on the ground, but still allows mobility.", "Helps keep your feet on the ground, but still allows mobility.", "_t")
---]==]
-
+t("Saw Projector", "Projecteur de Scie", "_t")
+t("A mechanical device for launching a spinning buzzsaw! What else could you want?", "Un dispositif mécanique pour lancer une scie circulaire tournante ! Que pourriez-vous demander de plus ?", "_t")
+t("Kinetic Stabiliser", "Stabilisateur Cinétique", "_t")
+t("Helps keep your feet on the ground, but still allows mobility.", "Aide à garder les pieds sur terre, tout en préservant la mobilité.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/smith.lua"
 
+t("Steamsaw", "Scie à Vapeur", "_t")
+t("Dismantle any one handed sword/axe/mace, add some amazing steampower to it and make a powerful steamsaw to shred your foes to pieces!", "Démontez n'importe quelle épée, hache ou masse à une main, ajoutez-y une incroyable puissance de vapeur, et fabriquez une puissante scie à vapeur pour déchiqueter vos ennemis en morceaux !", "_t")
+t("a one handed sword/axe/mace (not unique, without a special damage type)", "une épée, hache ou masse à une main (non unique, sans type de dégâts spécial)", "_t")
+t("Convert which weapon?", "Convertir quelle arme ?", "_t")
+t("Converted %s into %s", "%s converti en %s", "log")
+t("Focus Lens", "Lentille de Concentration", "_t")
+t("A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "Une simple engeance composée d'une gemme et de métal pour améliorer votre vue, votre détection et votre infravision ! Au palier 4, elle vous permet même de combattre aveuglé. #{italic}#Incroyable !#{normal}#", "_t")
 t("aquamarine", "aigue-marine", "_t")
 t("ruby", "rubis", "_t")
 t("diamond", "diamant", "_t")
+t("Toxic Cannister Launcher", "Lance-Cylindre Toxique", "_t")
+t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "Impressionnez vos amis avec ce lance-cylindre qui vous permet de projeter des nuages de poison mortel d'un simple geste de la main. #{italic}#Mortel !#{normal}#", "_t")
+t("Viral Needlegun", "Fusil à Aiguilles Viral", "_t")
+t("Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "Le fléau n'est pas sale pour un bricoleur, il est utile ! En combinant des matériaux infectés à une simple arme mécanique, vous pouvez tirer une attaque à faibles dégâts qui infecte vos ennemis de terribles maladies.", "_t")
+t("Razor Edge", "Fil de Rasoir", "_t")
+t("Properly working and tempering a metal can make it harder than normal, and hold a sharper edge.", "Travailler et tremper correctement un métal peut le rendre plus dur que la normale, et lui conférer un tranchant plus affûté.", "_t")
+t("Armour Reinforcement", "Renforcement d'Armure", "_t")
+t("Want more defense? Wear more armour!", "Vous voulez plus de défense ? Portez plus d'armure !", "_t")
+t("Crystal Edge", "Lame de Cristal", "_t")
+t("Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "Ajouter une lame de cristal à votre arme en fera la plus tape-à-l'oeil des environs ! (avec des dégâts de lumière supplémentaires et un multiplicateur critique augmenté)", "_t")
+t("Crystal Plating", "Placage de Cristal", "_t")
+t("Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "Votre armure terne n'est pas assez sophistiquée ? Faites-la briller avec un placage de cristal ! Augmente toutes vos caractéristiques de base.", "_t")
 t("Hands of Creation", "Mains de la Création", "_t")
 t("From your hands have been wrought incredible works. Your works have been forged in fire, and so have you.", "De vos mains sont nées des oeuvres extraordinaires. Vos créations ont été forgées dans le feu, tout comme vous.", "_t")
+t("shocking touch", "toucher choquant", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("bloodstone", "pierre de sang", "_t")
+t("Spike Attachment", "Fixation à Pointes", "_t")
+t("Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "Ajouter des pointes de métal à n'importe quoi le rend plus dangereux. (Et aussi plus encombrant et malcommode.)", "_t")
+t("Silver Filigree", "Filigrane d'Argent", "_t")
+t("In addition to making a weapon look more fancy, it also makes it more deadly against undead and other nasties.", "En plus de rendre une arme plus élégante, cela la rend aussi plus mortelle contre les morts-vivants et autres créatures répugnantes.", "_t")
+t("Back Support", "Soutien Lombaire", "_t")
+t("Just what you need to support your back when lifting heavy things; like armour, weapons or Yetis.", "Exactement ce qu'il vous faut pour soutenir votre dos en soulevant des choses lourdes ; comme des armures, des armes, ou des yétis.", "_t")
+t("Grounding Strap", "Sangle de Mise à la Terre", "_t")
+t("Keeping yourself grounded is very important, especially around lightning mages.  Increases lightning and stun resistance.", "Rester ancré au sol est très important, surtout à proximité de mages de la foudre. Augmente la résistance à la foudre et à l'assommement.", "_t")
 -- texte non traduit
 --[==[
-t("Steamsaw", "Steamsaw", "_t")
-t("Dismantle any one handed sword/axe/mace, add some amazing steampower to it and make a powerful steamsaw to shred your foes to pieces!", "Dismantle any one handed sword/axe/mace, add some amazing steampower to it and make a powerful steamsaw to shred your foes to pieces!", "_t")
-t("a one handed sword/axe/mace (not unique, without a special damage type)", "a one handed sword/axe/mace (not unique, without a special damage type)", "_t")
-t("Convert which weapon?", "Convert which weapon?", "_t")
-t("Converted %s into %s", "Converted %s into %s", "log")
-t("Focus Lens", "Focus Lens", "_t")
-t("A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "A simple contraption consisting of a gem and some metal to enhance your sight, detection and infravision! At tier 4 it even allows you to fight while blinded. #{italic}#Amazing!#{normal}#", "_t")
 t("citrine", "citrine", "_t")
 t("quartz", "quartz", "_t")
-t("Toxic Cannister Launcher", "Toxic Cannister Launcher", "_t")
-t("Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "Amaze your friends with this cannister launcher which lets you project deadly poison clouds with but a wave of your hand. #{italic}#Deadly!#{normal}#", "_t")
-t("Viral Needlegun", "Viral Needlegun", "_t")
-t("Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "Blight is not dirty to a Tinker, it is useful! By combining blighted materials with a simple mechanical gun, you can fire a low damaging attack that infects foes with terrible diseases.", "_t")
-t("Razor Edge", "Razor Edge", "_t")
-t("Properly working and tempering a metal can make it harder than normal, and hold a sharper edge.", "Properly working and tempering a metal can make it harder than normal, and hold a sharper edge.", "_t")
-t("Armour Reinforcement", "Armour Reinforcement", "_t")
-t("Want more defense? Wear more armour!", "Want more defense? Wear more armour!", "_t")
-t("Crystal Edge", "Crystal Edge", "_t")
-t("Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "Adding a crystal blade to your weapon will make it the flashiest around! (with added light damage and increased critical multiplier)", "_t")
-t("Crystal Plating", "Crystal Plating", "_t")
-t("Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "Boring armour not fancy enough? Bling it up with crystal plating!  Increases all of your base stats.", "_t")
-t("shocking touch", "shocking touch", "_t")
-t("Spike Attachment", "Spike Attachment", "_t")
-t("Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "Adding metal spikes to anything makes it more dangerous. (and also unwieldy and inconvenient)", "_t")
-t("Silver Filigree", "Silver Filigree", "_t")
-t("In addition to making a weapon look more fancy, it also makes it more deadly against undead and other nasties.", "In addition to making a weapon look more fancy, it also makes it more deadly against undead and other nasties.", "_t")
-t("Back Support", "Back Support", "_t")
-t("Just what you need to support your back when lifting heavy things; like armour, weapons or Yetis.", "Just what you need to support your back when lifting heavy things; like armour, weapons or Yetis.", "_t")
-t("Grounding Strap", "Grounding Strap", "_t")
-t("Keeping yourself grounded is very important, especially around lightning mages.  Increases lightning and stun resistance.", "Keeping yourself grounded is very important, especially around lightning mages.  Increases lightning and stun resistance.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers/therapeutics.lua"
 
-t("Life Support Suit", "Combinaison de survie", "_t")
+t("Healing Salve", "Onguent Curatif", "_t")
+t([[A powerful healing salve.
+To be used with the medical injector implant.]], [[Un puissant onguent curatif.
+À utiliser avec l'implant d'injecteur médical.]], "_t")
+t("Pain Suppressor Salve", "Onguent Suppresseur de Douleur", "_t")
+t([[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
+To be used with the medical injector implant.]], [[Un puissant onguent qui aguerrit temporairement votre corps, vous permettant de survivre sous 0 de vie tout en augmentant vos résistances.
+À utiliser avec l'implant d'injecteur médical.]], "_t")
+t("Frost Salve", "Onguent de Givre", "_t")
+t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
+To be used with the medical injector implant.]], [[Un puissant onguent qui peut purger votre corps d'effets physiques néfastes et vous accorder une aura de givre (affinité au froid, à l'obscurité et à la nature).
+À utiliser avec l'implant d'injecteur médical.]], "_t")
+t("Fiery Salve", "Onguent Ardent", "_t")
+t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
+To be used with the medical injector implant.]], [[Un puissant onguent qui peut purger votre corps d'effets magiques néfastes et vous accorder une aura ardente (affinité au feu, à la lumière et à la foudre).
+À utiliser avec l'implant d'injecteur médical.]], "_t")
+t("Water Salve", "Onguent d'Eau", "_t")
+t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
+To be used with the medical injector implant.]], [[Un puissant onguent qui peut purger votre corps d'effets mentaux néfastes et vous accorder une aura d'eau (affinité au fléau, au mental et à l'acide).
+À utiliser avec l'implant d'injecteur médical.]], "_t")
+t("Unstoppable Force Salve", "Onguent de Force Implacable", "_t")
+t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
+To be used with the medical injector implant.]], [[Un puissant onguent qui vous rend plus résistant aux effets physiques, mentaux et magiques, et accorde des soins augmentés.
+À utiliser avec l'implant d'injecteur médical.]], "_t")
+t("frost salve", "onguent de givre", "_t")
+t("fiery salve", "onguent ardent", "_t")
+t("water salve", "onguent d'eau", "_t")
+t("Poison Groove", "Rainure de Poison", "_t")
+t("Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "Les rainures de poison peuvent être attachées aux armes pour appliquer un poison cumulatif lors des attaques. Bien que ceci soit idéal pour cumuler de simples dégâts, vous ne pouvez vous empêcher de vous demander si vous pourriez infliger des effets plus puissants avec davantage de connaissances...", "_t")
+t("Viral Injector", "Injecteur Viral", "_t")
+t("Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "Les rainures virales permettent à vos armes d'appliquer un agent infectieux au contact, infligeant des dégâts de fléau immédiats et réduisant la caractéristique la plus élevée de la cible. Bien que cette souche soit efficace, elle manque de la capacité à se propager ou à s'adapter aux faiblesses de son hôte. Peut-être existe-t-il de meilleures méthodes à découvrir.", "_t")
+t("Life Support Suit", "Combinaison d'Assistance Vitale", "_t")
+t("Apply your extensive therapeutics knowledge to try and defeat death itself!", "Appliquez votre vaste connaissance thérapeutique pour tenter de vaincre la mort elle-même !", "_t")
+t("unstoppable force salve", "onguent de force implacable", "_t")
 t("fire opal", "opale de feu", "_t")
 t("pearl", "perle", "_t")
 t("diamond", "diamant", "_t")
 t("bloodstone", "pierre de sang", "_t")
--- texte non traduit
---[==[
-t("Healing Salve", "Healing Salve", "_t")
-t([[A powerful healing salve.
-To be used with the medical injector implant.]], [[A powerful healing salve.
-To be used with the medical injector implant.]], "_t")
-t("Pain Suppressor Salve", "Pain Suppressor Salve", "_t")
-t([[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
-To be used with the medical injector implant.]], [[A powerful salve that steels your body for a while, letting you survive below 0 life while increasing resistances.
-To be used with the medical injector implant.]], "_t")
-t("Frost Salve", "Frost Salve", "_t")
-t([[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
-To be used with the medical injector implant.]], [[A powerful salve that can clean physical detrimental effects from your body and grant a frost aura (cold, darkness and nature affinity).
-To be used with the medical injector implant.]], "_t")
-t("Fiery Salve", "Fiery Salve", "_t")
-t([[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
-To be used with the medical injector implant.]], [[A powerful salve that can clean magical detrimental effects from your body and grant a fiery aura (fire, light and lightning affinity).
-To be used with the medical injector implant.]], "_t")
-t("Water Salve", "Water Salve", "_t")
-t([[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
-To be used with the medical injector implant.]], [[A powerful salve that can clean mental detrimental effects from your body and grant a water aura (blight, mind and acid affinity).
-To be used with the medical injector implant.]], "_t")
-t("Unstoppable Force Salve", "Unstoppable Force Salve", "_t")
-t([[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
-To be used with the medical injector implant.]], [[A powerful salve that makes you more resilient to physical, mental and magic effects and grants increased healing.
-To be used with the medical injector implant.]], "_t")
-t("frost salve", "frost salve", "_t")
-t("fiery salve", "fiery salve", "_t")
-t("water salve", "water salve", "_t")
-t("Poison Groove", "Poison Groove", "_t")
-t("Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "Poison grooves can be attached to weapons to apply a stacking poison on attacks.  While this is ideal for stacking simple damage, you can't help but wonder if you could inflict stronger effects with more knowledge..", "_t")
-t("Viral Injector", "Viral Injector", "_t")
-t("Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "Viral grooves allow your weapons to apply an infectious agent on contact, dealing immediate blight damage and reducing their highest stat.  While this strain is effective it lacks the ability to spread or adapt to its hosts weaknesses.  Perhaps there are better methods to be found.", "_t")
-t("Apply your extensive therapeutics knowledge to try and defeat death itself!", "Apply your extensive therapeutics knowledge to try and defeat death itself!", "_t")
-t("unstoppable force salve", "unstoppable force salve", "_t")
-t("Second Skin", "Second Skin", "_t")
-t("Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "_t")
-t("Air Recycler", "Air Recycler", "_t")
-t("Helps keep your airway open and lets you hold your breath longer.", "Helps keep your airway open and lets you hold your breath longer.", "_t")
-t("Moss Tread", "Moss Tread", "_t")
-t("Where you walk nature grows! Well moss. Sticky moss.", "Where you walk nature grows! Well moss. Sticky moss.", "_t")
-t("Fungal Web", "Fungal Web", "_t")
-t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "_t")
---]==]
-
+t("Second Skin", "Seconde Peau", "_t")
+t("Not only does it help seal wounds, protecting you from bleeding and enhancing your healing, it also protects from armour chafe!", "Non seulement cela aide à sceller les plaies, vous protégeant des saignements et améliorant vos soins, mais cela protège également des irritations dues à l'armure !", "_t")
+t("Air Recycler", "Recycleur d'Air", "_t")
+t("Helps keep your airway open and lets you hold your breath longer.", "Aide à garder vos voies respiratoires dégagées et vous permet de retenir votre souffle plus longtemps.", "_t")
+t("Moss Tread", "Foulée Moussue", "_t")
+t("Where you walk nature grows! Well moss. Sticky moss.", "Là où vous marchez, la nature pousse ! Enfin, de la mousse. De la mousse collante.", "_t")
+t("Fungal Web", "Toile Fongique", "_t")
+t("This mesh of fungal threads absorbs nutrients for salves to provide you with added healing!", "Ce maillage de filaments fongiques absorbe des nutriments pour que les onguents vous procurent un soin supplémentaire !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/tinkers.lua"
 
 t("smith", "forgeron", "_t")
 t("mechanical", "mécanique", "_t")
--- texte non traduit
---[==[
-t("electricity", "electricity", "_t")
-t("therapeutics", "therapeutics", "_t")
-t("chemistry", "chemistry", "_t")
-t("explosives", "explosives", "_t")
---]==]
-
+t("electricity", "électricité", "_t")
+t("therapeutics", "thérapeutique", "_t")
+t("chemistry", "chimie", "_t")
+t("explosives", "explosifs", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/wda/orcs.lua"
 
-
+t("Clork Peninsula", "Péninsule de Clork", "_t")
 -- texte non traduit
 --[==[
-t("Clork Peninsula", "Clork Peninsula", "_t")
 t("Var'Eyal", "Var'Eyal", "_t")
 --]==]
 
