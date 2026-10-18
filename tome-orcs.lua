@@ -836,7 +836,7 @@ section "tome-orcs/data/general/events/merchant-stall.lua"
 
 t("market stall", "étal de marché", "_t")
 t("A market stall, it looks abandoned..", "Un étal de marché ; il semble abandonné.", "_t")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- des objets valant #GOLD#%0.2f pièces d'or#LAST#", "tformat")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- des objets d'une valeur de #GOLD#%0.2f pièces d'or#LAST#", "tformat")
 t("Market Stall", "Étal de Marché", "_t")
 t([[You loot the stall and gain:
 ]], [[Vous fouillez l'étal et obtenez :
@@ -875,7 +875,7 @@ t("floor", "sol", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
-t("mech", "mécanique", "entity subtype")
+t("mech", "méca", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("mech wall", "mur mécanique", "entity name")
@@ -891,7 +891,7 @@ t("floor", "sol", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
-t("mech", "mécanique", "entity subtype")
+t("mech", "méca", "entity subtype")
 t("floor", "sol", "entity name")
 t("wall", "mur", "entity type")
 t("mech wall", "mur mécanique", "entity name")
@@ -2346,7 +2346,7 @@ I'm sure you have your doubts as to the efficacy of my lovingly-made armaments; 
 ------------------------------------------------
 section "tome-orcs/data/lore/gem.lua"
 
-
+t("erratic scribblings", "griffonnages erratiques", "_t")
 -- texte non traduit
 --[==[
 t("G.E.M", "G.E.M", "newLore category")
@@ -2410,7 +2410,6 @@ t([[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sou
 "Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sounds of struggling and bludgeoning, swords slicing through flesh, steamguns being fired, and shouts of pain from giant and horror alike.  Parmor sounds panicked.)#{normal}#
 
 "Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], "_t")
-t("erratic scribblings", "erratic scribblings", "_t")
 t("why is it down there why is it ANYWHERE", "why is it down there why is it ANYWHERE", "_t")
 t("If anyone finds this, tell the Jarsovi brothers their father lov", "If anyone finds this, tell the Jarsovi brothers their father lov", "_t")
 t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "_t")
@@ -6888,6 +6887,7 @@ t("power", "pouvoir", "effect subtype")
 t("pin", "immobilisé", "effect subtype")
 t("You have %d charges.", "Vous avez %d charge(s).", "tformat")
 t("steam", "vapeur", "effect subtype")
+t("Pressure-enhanced Slashproof Combat Suit", "Combinaison de Combat Anti-Coupure Pressurisée", "_t")
 t("psionic", "psionique", "effect subtype")
 t("Marked for Death", "Condamné Marqué", "_t")
 t("Itching Powder", "Poudre Grattante", "_t")
@@ -7031,7 +7031,6 @@ t("+Net Projector", "+Net Projector", "_t")
 t("#Target# is free from the net.", "#Target# is free from the net.", "_t")
 t("-Net Projector", "-Net Projector", "_t")
 t("Molten Point", "Molten Point", "_t")
-t("Pressure-enhanced Slashproof Combat Suit", "Pressure-enhanced Slashproof Combat Suit", "_t")
 t("Molten Iron Blood", "Molten Iron Blood", "_t")
 t("All resistances increased by %d%%, all new detrimental effects reduced by %d%%, %0.2f fire splash damage.", "All resistances increased by %d%%, all new detrimental effects reduced by %d%%, %0.2f fire splash damage.", "tformat")
 t("#Target#'s blood turn into molten iron.", "#Target#'s blood turn into molten iron.", "_t")
@@ -7415,126 +7414,102 @@ section "tome-orcs/data/zones/cave-hatred/npcs.lua"
 
 t("undead", "mort-vivant", "entity type")
 t("shadow", "ombre", "entity subtype")
+t("shadow of pain", "ombre de la douleur", "entity name")
+t("A shadowy embodiment of pain.", "Une incarnation ombreuse de la douleur.", "_t")
+t("shadow of hate", "ombre de la haine", "entity name")
+t("A shadowy embodiment of hate.", "Une incarnation ombreuse de la haine.", "_t")
+t("shadow of despair", "ombre du désespoir", "entity name")
+t("A shadowy embodiment of despair.", "Une incarnation ombreuse du désespoir.", "_t")
+t("shadow of remorse", "ombre du remords", "entity name")
+t("A shadowy embodiment of remorse.", "Une incarnation ombreuse du remords.", "_t")
+t("shadow of guilt", "ombre de la culpabilité", "entity name")
+t("A shadowy embodiment of guilt.", "Une incarnation ombreuse de la culpabilité.", "_t")
+t("shadow of anger", "ombre de la colère", "entity name")
+t("A shadowy embodiment of anger.", "Une incarnation ombreuse de la colère.", "_t")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("shadow of pain", "shadow of pain", "entity name")
-t("A shadowy embodiment of pain.", "A shadowy embodiment of pain.", "_t")
-t("shadow of hate", "shadow of hate", "entity name")
-t("A shadowy embodiment of hate.", "A shadowy embodiment of hate.", "_t")
-t("shadow of despair", "shadow of despair", "entity name")
-t("A shadowy embodiment of despair.", "A shadowy embodiment of despair.", "_t")
-t("shadow of remorse", "shadow of remorse", "entity name")
-t("A shadowy embodiment of remorse.", "A shadowy embodiment of remorse.", "_t")
-t("shadow of guilt", "shadow of guilt", "entity name")
-t("A shadowy embodiment of guilt.", "A shadowy embodiment of guilt.", "_t")
-t("shadow of anger", "shadow of anger", "entity name")
-t("A shadowy embodiment of anger.", "A shadowy embodiment of anger.", "_t")
-t("Crimson Templar John", "Crimson Templar John", "entity name")
+t("Crimson Templar John", "John, Templier Souillé", "entity name")
 t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], [[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], "_t")
+This warrior's once glowing armor now emits a sinister crimson light. As he marches towards you can see his eyes, they are empty.]], [[Là où vous voyiez autrefois un guerrier baigné de lumière, quelqu'un que vous auriez pu, dans une autre vie, même respecter, vous ne voyez plus désormais que de la haine.
+L'armure autrefois rayonnante de ce guerrier émet maintenant une sinistre lumière cramoisie. Tandis qu'il marche vers vous, vous voyez ses yeux : ils sont vides.]], "_t")
 t([[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards your foes you can see his eyes, they are empty.]], [[Where you once saw a warrior bathed in light, whom in an other life you could have even respected, you now see only hatred.
-This warrior's once glowing armor now emits a sinister crimson light. As he marches towards your foes you can see his eyes, they are empty.]], "_t")
---]==]
-
+This warrior's once glowing armor now emits a sinister crimson light. As he marches towards your foes you can see his eyes, they are empty.]], [[Là où vous voyiez autrefois un guerrier baigné de lumière, quelqu'un que vous auriez pu, dans une autre vie, même respecter, vous ne voyez plus désormais que de la haine.
+L'armure autrefois rayonnante de ce guerrier émet maintenant une sinistre lumière cramoisie. Tandis qu'il marche vers vos ennemis, vous voyez ses yeux : ils sont vides.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/cave-hatred/objects.lua"
 
-
--- texte non traduit
---[==[
-t("schematic: Rogue's Gallery", "schematic: Rogue's Gallery", "entity name")
---]==]
-
+t("schematic: Rogue's Gallery", "schéma : Galerie du Brigand", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/cave-hatred/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Cave of Hatred", "Cave of Hatred", "_t")
-t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#You feel a great power nearby!", "saySimple")
---]==]
-
+t("Cave of Hatred", "Caverne de la Haine", "_t")
+t("#CRIMSON#You feel a great power nearby!", "#CRIMSON#Vous sentez un grand pouvoir à proximité !", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/grids.lua"
 
+t("stale sewer water", "eau stagnante d'égout", "entity name")
 t("#Source# poisons #Target#!", "#Source# empoisonne #Target# !", "logCombat")
 t("floor", "sol", "entity type")
 t("sand", "sable", "entity subtype")
 t("previous level", "niveau précédent", "entity name")
 t("next level", "niveau suivant", "entity name")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("exit to the port", "sortie vers le port", "entity name")
+t("way into the tower", "chemin vers la tour", "entity name")
+t("way into the sewers", "chemin vers les égouts", "entity name")
 t("floor", "sol", "entity subtype")
-t("- #GOLD#%0.2f gold#LAST# worth of money", "- des objets valant #GOLD#%0.2f pièces d'or#LAST#", "tformat")
--- texte non traduit
---[==[
-t("stale sewer water", "stale sewer water", "entity name")
-t("exit to the port", "exit to the port", "entity name")
-t("way into the tower", "way into the tower", "entity name")
-t("way into the sewers", "way into the sewers", "entity name")
-t("structural weakness", "structural weakness", "entity name")
-t("booty chest", "booty chest", "entity name")
-t("Booty chest", "Booty chest", "_t")
+t("structural weakness", "faiblesse structurelle", "entity name")
+t("booty chest", "coffre de butin", "entity name")
+t("- #GOLD#%0.2f gold#LAST# worth of money", "- des objets d'une valeur de #GOLD#%0.2f pièces d'or#LAST#", "tformat")
+t("Booty chest", "Coffre de Butin", "_t")
 t([[You plunder the chest and gain:
-]], [[You plunder the chest and gain:
+]], [[Vous pillez le coffre et obtenez :
 ]], "_t")
-t("chest (plundered)", "chest (plundered)", "_t")
---]==]
-
+t("chest (plundered)", "coffre (pillé)", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/npcs.lua"
 
-
+t("Admiral Korbek", "Amiral Korbek", "entity name")
+t("This old troll stands tall and proud in somewhat ornate clothing; it's clear he is an important figure. He holds in his right hand a wicked looking blade, and in his left hand what seems to be an antique handgun.", "Ce vieux troll se tient grand et fier, vêtu de vêtements plutôt ornés ; il est clair qu'il s'agit d'une figure importante. Il tient dans sa main droite une lame à l'aspect vicieux, et dans sa main gauche ce qui semble être un pistolet ancien.", "_t")
+t("mutant snake", "serpent mutant", "entity name")
+t("This snake seems to... thrive... in the polluted water of the sewers.", "Ce serpent semble... prospérer... dans l'eau polluée des égouts.", "_t")
+t("Captured Yeti Behemoth", "Yéti Béhémoth Capturé", "entity name")
+t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "Ce yéti surpasse même les trolls en taille. Une rage aveugle rend son regard fou.", "_t")
 -- texte non traduit
 --[==[
-t("Admiral Korbek", "Admiral Korbek", "entity name")
-t("This old troll stands tall and proud in somewhat ornate clothing; it's clear he is an important figure. He holds in his right hand a wicked looking blade, and in his left hand what seems to be an antique handgun.", "This old troll stands tall and proud in somewhat ornate clothing; it's clear he is an important figure. He holds in his right hand a wicked looking blade, and in his left hand what seems to be an antique handgun.", "_t")
 t("reptile", "reptile", "entity type")
-t("mutant snake", "mutant snake", "entity name")
-t("This snake seems to... thrive... in the polluted water of the sewers.", "This snake seems to... thrive... in the polluted water of the sewers.", "_t")
-t("Captured Yeti Behemoth", "Captured Yeti Behemoth", "entity name")
-t("This yeti towers over even the trolls. Blind rage maddens its eyes.", "This yeti towers over even the trolls. Blind rage maddens its eyes.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/objects.lua"
 
+t("a report", "un rapport", "entity name")
+t("A report.", "Un rapport.", "_t")
+t("flesh", "chair", "entity type")
+t("Yeti's Muscle Tissue (Behemoth)", "Tissu Musculaire de Yéti (Béhémoth)", "entity name")
+t("flesh", "chair", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Tissu musculaire extrait d'un puissant yéti. Quelque part, quelqu'un ou quelque chose sera sûrement intéressé !", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("a report", "a report", "entity name")
-t("A report.", "A report.", "_t")
-t("flesh", "flesh", "entity type")
 t("muscle", "muscle", "entity subtype")
-t("Yeti's Muscle Tissue (Behemoth)", "Yeti's Muscle Tissue (Behemoth)", "entity name")
-t("flesh", "flesh", "_t")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/dominion-port/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Dominion Port", "Dominion Port", "_t")
-t("Dominion Port: Sewers 1", "Dominion Port: Sewers 1", "_t")
-t("Dominion Port: Sewers 2", "Dominion Port: Sewers 2", "_t")
-t("Dominion Port: Tower", "Dominion Port: Tower", "_t")
-t("Dominion Port ???", "Dominion Port ???", "_t")
-t("Dominion's Port Tower", "Dominion's Port Tower", "_t")
-t("As you enter you see the door lock behind you. It's a trap!", "As you enter you see the door lock behind you. It's a trap!", "_t")
---]==]
-
+t("Dominion Port", "Port du Dominion", "_t")
+t("Dominion Port: Sewers 1", "Port du Dominion : Égouts 1", "_t")
+t("Dominion Port: Sewers 2", "Port du Dominion : Égouts 2", "_t")
+t("Dominion Port: Tower", "Port du Dominion : Tour", "_t")
+t("Dominion Port ???", "Port du Dominion : ???", "_t")
+t("Dominion's Port Tower", "Tour du Port du Dominion", "_t")
+t("As you enter you see the door lock behind you. It's a trap!", "En entrant, vous voyez la porte se verrouiller derrière vous. C'est un piège !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/grids.lua"
@@ -7545,6 +7520,7 @@ t("old road", "vieille route", "entity name")
 t("rockwall", "mur de roche", "entity type")
 t("grass", "herbe", "entity subtype")
 t("Sunwall mountain", "Montagnes du Mur Solaire", "entity name")
+t("Way into the caves", "Chemin vers les cavernes", "entity name")
 t("Farportal: Last Hope", "Portail Lointain : Dernier Espoir", "entity name")
 t([[A farportal is a way to travel incredible distances in the blink of an eye. They usually require an external item to use. You have no idea if it is even two-way.
 This one seems to go near the town of Last Hope in Maj'Eyal.]], [[Un portail lointain permet de parcourir des distances incroyables en un clin d'oeil. Son utilisation nécessite généralement un objet externe. On ignore même s'il est bidirectionnel.
@@ -7553,11 +7529,6 @@ t("#VIOLET#You enter the swirling portal and in the blink of an eye you set foot
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
 t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
--- texte non traduit
---[==[
-t("Way into the caves", "Way into the caves", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/npcs.lua"
@@ -7566,24 +7537,24 @@ t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
 t("High Sun Paladin Aeryn", "Aeryn, Haute Paladine Solaire", "entity name")
 t("A beautiful woman, clad in shining plate armour. Power radiates from her.", "Une femme magnifique, vêtue d'une armure de plates étincelante. Elle dégage une puissance incroyable.", "_t")
+t("#LIGHT_RED#%s concentrates and casts a powerful shield!", "#LIGHT_RED#%s se concentre et invoque un puissant bouclier !", "_t")
+t("#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "#GOLD#Avant de tomber, Aeryn parvient à invoquer un puissant bouclier !", "saySimple")
+t("halfling pyremaster", "maître du bûcher halfelin", "entity name")
 t("halfling", "halfelin", "entity subtype")
+t("This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "Cette minuscule boule de haine ardente est venue au Mur Solaire en renfort des Royaumes Alliés. Il va le regretter !", "_t")
+t("shalore liberator", "libérateur shaloréen", "entity name")
+t("A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "Un puissant lutteur shaloréen venu au Mur Solaire en renfort des Royaumes Alliés. Il va le regretter !", "_t")
 t("immovable", "inamovible", "entity type")
 t("orb", "orbe", "entity subtype")
+t("sun orb", "orbe solaire", "entity name")
+t("A small orb infused with the power of the Sun.", "Un petit orbe infusé du pouvoir du Soleil.", "_t")
+t("moon orb", "orbe lunaire", "entity name")
+t("A small orb infused with the power of the Moons.", "Un petit orbe infusé du pouvoir des Lunes.", "_t")
 t("elf", "elfe", "entity subtype")
 t("Limmir the Jeweler", "Limmir le Joaillier", "entity name")
 -- texte non traduit
 --[==[
-t("#LIGHT_RED#%s concentrates and casts a powerful shield!", "#LIGHT_RED#%s concentrates and casts a powerful shield!", "_t")
-t("#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "#GOLD#Before she falls, Aeryn manages to cast a powerful shield!", "saySimple")
-t("halfling pyremaster", "halfling pyremaster", "entity name")
-t("This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "This tiny ball of fiery hatred came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "_t")
-t("shalore liberator", "shalore liberator", "entity name")
 t("shalore", "shalore", "entity subtype")
-t("A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "A powerful shalore brawler that came to the Sunwall as reinforcement from the Allied Kingdoms. He shall regret it!", "_t")
-t("sun orb", "sun orb", "entity name")
-t("A small orb infused with the power of the Sun.", "A small orb infused with the power of the Sun.", "_t")
-t("moon orb", "moon orb", "entity name")
-t("A small orb infused with the power of the Moons.", "A small orb infused with the power of the Moons.", "_t")
 t("Melnela", "Melnela", "entity name")
 --]==]
 
@@ -7591,20 +7562,15 @@ t("Melnela", "Melnela", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/objects.lua"
 
-
--- texte non traduit
---[==[
-t("a journal", "a journal", "entity name")
-t("A journal.", "A journal.", "_t")
-t("Ring of Lost Love", "Ring of Lost Love", "entity name")
-t("pure crimson ring", "pure crimson ring", "_t")
+t("a journal", "un journal", "entity name")
+t("A journal.", "Un journal.", "_t")
+t("Ring of Lost Love", "Anneau de l'Amour Perdu", "entity name")
+t("pure crimson ring", "anneau cramoisi pur", "_t")
 t([[This crimson ring has a palpable bittersweet feel to it.
-Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], [[This crimson ring has a palpable bittersweet feel to it.
-Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], "_t")
-t("You feel something is #{bold}#very wrong#{normal}# with this ring.", "You feel something is #{bold}#very wrong#{normal}# with this ring.", "_t")
-t("Crimson Templar John", "Crimson Templar John", "_t")
---]==]
-
+Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], [[Cet anneau cramoisi dégage une sensation douce-amère palpable.
+À l'intérieur est gravée la phrase #{italic}#"À Aeryn, mon amour, ma vie. À toi pour toujours. John"#{normal}#]], "_t")
+t("You feel something is #{bold}#very wrong#{normal}# with this ring.", "Vous sentez que quelque chose ne va #{bold}#vraiment pas#{normal}# avec cet anneau.", "_t")
+t("Crimson Templar John", "John, Templier Souillé", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gates-of-morning/traps.lua"
@@ -7626,73 +7592,59 @@ t("Zemekkys Home", "Demeure de Zemekkys", "entity name")
 section "tome-orcs/data/zones/gates-of-morning/zone.lua"
 
 t("Gates of Morning", "Portes du Matin", "_t")
--- texte non traduit
---[==[
-t("Caves of Morning (%d)", "Caves of Morning (%d)", "tformat")
---]==]
-
+t("Caves of Morning (%d)", "Cavernes du Matin (%d)", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gem/grids.lua"
 
+t("giant mole hull", "coque de taupe géante", "entity name")
+t("breach into the giant mole hull", "brèche dans la coque de la taupe géante", "entity name")
+t("dug rubble", "décombres creusés", "entity name")
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
 t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
--- texte non traduit
---[==[
-t("giant mole hull", "giant mole hull", "entity name")
-t("breach into the giant mole hull", "breach into the giant mole hull", "entity name")
-t("dug rubble", "dug rubble", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gem/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Haze Commander Parmor", "Haze Commander Parmor", "entity name")
-t("The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "_t")
-t("Half-Mechanized Yeti", "Half-Mechanized Yeti", "entity name")
-t("Whoever tortured and tormented this yeti did an amazing job of pain and destruction. As you gaze upon its fur you notice several vital spots reinforced with stralite plating. One of its arms has been replaced with a steamsaw.", "Whoever tortured and tormented this yeti did an amazing job of pain and destruction. As you gaze upon its fur you notice several vital spots reinforced with stralite plating. One of its arms has been replaced with a steamsaw.", "_t")
---]==]
-
+t("Haze Commander Parmor", "Commandante de la Brume Parmor", "entity name")
+t("The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "Commandante du G.E.M., cette géante à l'allure noble vous toise avec mépris. Elle manie deux immenses scies rotatives encore couvertes des entrailles de diverses horreurs.", "_t")
+t("Half-Mechanized Yeti", "Yéti Semi-Mécanisé", "entity name")
+t("Whoever tortured and tormented this yeti did an amazing job of pain and destruction. As you gaze upon its fur you notice several vital spots reinforced with stralite plating. One of its arms has been replaced with a steamsaw.", "Quiconque a torturé et tourmenté ce yéti a accompli un travail remarquable de douleur et de destruction. En observant sa fourrure, vous remarquez plusieurs points vitaux renforcés de plaques de stralite. L'un de ses bras a été remplacé par une scie à vapeur.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gem/objects.lua"
 
 t("lore", "histoire", "entity type")
+t("disk", "disque", "entity subtype")
+t("disk", "disque", "_t")
+t([[A strange black disk found in the G.E.M.
+You have no idea how to use it.]], [[Un étrange disque noir trouvé dans le G.E.M.
+Vous n'avez aucune idée de la manière de l'utiliser.]], "_t")
+t("erratic scribblings", "griffonnages erratiques", "entity name")
+t("A journal.", "Un journal.", "_t")
 t("..", "...", "entity name")
+t("schematic: Steam Powered Armour", "schéma : Armure à Vapeur", "entity name")
+t("flesh", "chair", "entity type")
+t("Yeti's Muscle Tissue (Mech)", "Tissu Musculaire de Yéti (Méca)", "entity name")
+t("flesh", "chair", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Tissu musculaire extrait d'un puissant yéti. Quelque part, quelqu'un ou quelque chose sera sûrement intéressé !", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("disk", "disk", "entity subtype")
-t("disk", "disk", "_t")
-t([[A strange black disk found in the G.E.M.
-You have no idea how to use it.]], [[A strange black disk found in the G.E.M.
-You have no idea how to use it.]], "_t")
-t("erratic scribblings", "erratic scribblings", "entity name")
-t("A journal.", "A journal.", "_t")
-t("schematic: Steam Powered Armour", "schematic: Steam Powered Armour", "entity name")
-t("flesh", "flesh", "entity type")
 t("muscle", "muscle", "entity subtype")
-t("Yeti's Muscle Tissue (Mech)", "Yeti's Muscle Tissue (Mech)", "entity name")
-t("flesh", "flesh", "_t")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/gem/zone.lua"
 
-
+t("G.E.M. Exterior", "Extérieur du G.E.M.", "_t")
+t("G.E.M. Crew Deck", "Pont d'Équipage du G.E.M.", "_t")
+t("G.E.M. Command Deck", "Pont de Commandement du G.E.M.", "_t")
 -- texte non traduit
 --[==[
 t("G.E.M.", "G.E.M.", "_t")
-t("G.E.M. Exterior", "G.E.M. Exterior", "_t")
-t("G.E.M. Crew Deck", "G.E.M. Crew Deck", "_t")
-t("G.E.M. Command Deck", "G.E.M. Command Deck", "_t")
 --]==]
 
 
@@ -7701,77 +7653,63 @@ section "tome-orcs/data/zones/internment-camp/grids.lua"
 
 t("floor", "sol", "entity type")
 t("underground", "souterrain", "entity subtype")
+t("wooden barricade", "barricade de bois", "entity name")
 t("wall", "mur", "entity type")
 t("burnt tree", "arbre brûlé", "entity name")
--- texte non traduit
---[==[
-t("wooden barricade", "wooden barricade", "entity name")
-t("way to the Vor section", "way to the Vor section", "entity name")
-t("way to the Gorbat section", "way to the Gorbat section", "entity name")
-t("way to the Grushnak section", "way to the Grushnak section", "entity name")
-t("way to the Rak'Shor section", "way to the Rak'Shor section", "entity name")
-t("way back", "way back", "entity name")
---]==]
-
+t("way to the Vor section", "chemin vers la section Vor", "entity name")
+t("way to the Gorbat section", "chemin vers la section Gorbat", "entity name")
+t("way to the Grushnak section", "chemin vers la section Grushnak", "entity name")
+t("way to the Rak'Shor section", "chemin vers la section Rak'Shor", "entity name")
+t("way back", "chemin du retour", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/internment-camp/npcs.lua"
 
+t("%s (subdued)", "%s (soumis)", "tformat")
+t("This body is fun!", "Ce corps est amusant !", "_t")
+t("I present you my latest orc-toy!", "Je vous présente mon dernier jouet-orc !", "_t")
+t("Crush this body, crush it!", "Écrasez ce corps, écrasez-le !", "_t")
+t("I am everywhere, you can't defeat me!", "Je suis partout, vous ne pouvez pas me vaincre !", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("halfling", "halfelin", "entity subtype")
+t("Mindwall", "Barment", "entity name")
+t("You should be parked with the others!", "Vous devriez être parqué avec les autres !", "_t")
+t("You have no place in this new world!", "Vous n'avez pas de place dans ce nouveau monde !", "_t")
+t("Your mind looks delicious...", "Votre esprit a l'air délicieux...", "_t")
+t("I hunger for more brains...", "J'ai faim de plus de cerveaux...", "_t")
+t("#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "#YELLOW#Barment concentre ses pensées sur votre esprit. Vous vous sentez extrêmement confus.", "logPlayer")
 t("immovable", "inamovible", "entity type")
+t("pillar", "pilier", "entity subtype")
+t("Mindcontrol Pillar", "Pilier de Contrôle Mental", "entity name")
+t("A glass pillar containing a still living brain.", "Un pilier de verre contenant un cerveau encore vivant.", "_t")
 -- texte non traduit
 --[==[
-t("%s (subdued)", "%s (subdued)", "tformat")
-t("This body is fun!", "This body is fun!", "_t")
-t("I present you my latest orc-toy!", "I present you my latest orc-toy!", "_t")
-t("Crush this body, crush it!", "Crush this body, crush it!", "_t")
-t("I am everywhere, you can't defeat me!", "I am everywhere, you can't defeat me!", "_t")
-t("Mindwall", "Mindwall", "entity name")
 t(".", ".", "_t")
-t("You should be parked with the others!", "You should be parked with the others!", "_t")
-t("You have no place in this new world!", "You have no place in this new world!", "_t")
-t("Your mind looks delicious...", "Your mind looks delicious...", "_t")
-t("I hunger for more brains...", "I hunger for more brains...", "_t")
-t("#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "#YELLOW#Mindwall focuses his thoughts on your mind.  You feel extremely confused.", "logPlayer")
-t("pillar", "pillar", "entity subtype")
-t("Mindcontrol Pillar", "Mindcontrol Pillar", "entity name")
-t("A glass pillar containing a still living brain.", "A glass pillar containing a still living brain.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/internment-camp/objects.lua"
 
-
--- texte non traduit
---[==[
-t("piece of correspondence", "piece of correspondence", "entity name")
-t("An internal correspondence letter.", "An internal correspondence letter.", "_t")
---]==]
-
+t("piece of correspondence", "lettre de correspondance", "entity name")
+t("An internal correspondence letter.", "Une lettre de correspondance interne.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/internment-camp/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Internment Camp", "Internment Camp", "_t")
-t("Internment Camp (Rak'Shor)", "Internment Camp (Rak'Shor)", "_t")
-t("Internment Camp (Vor)", "Internment Camp (Vor)", "_t")
-t("Internment Camp (Gorbat)", "Internment Camp (Gorbat)", "_t")
-t("Internment Camp (Grushnak)", "Internment Camp (Grushnak)", "_t")
-t("Strange Clearing", "Strange Clearing", "_t")
-t("Freedom! Let's rally to Kruk Pride!", "Freedom! Let's rally to Kruk Pride!", "_t")
-t("Mindwall", "Mindwall", "_t")
+t("Internment Camp", "Camp d'Internement", "_t")
+t("Internment Camp (Rak'Shor)", "Camp d'Internement (Rak'Shor)", "_t")
+t("Internment Camp (Vor)", "Camp d'Internement (Vor)", "_t")
+t("Internment Camp (Gorbat)", "Camp d'Internement (Gorbat)", "_t")
+t("Internment Camp (Grushnak)", "Camp d'Internement (Grushnak)", "_t")
+t("Strange Clearing", "Clairière Étrange", "_t")
+t("Freedom! Let's rally to Kruk Pride!", "Liberté ! Ralliez-vous à la Fierté Kruk !", "_t")
+t("Mindwall", "Barment", "_t")
 t([[Mindwall's will falters and reveals the truth about your surroundings.
 
-As Mindwall's body crumbles you can sense a burst of psionic forces splitting up and flying to new hosts.]], [[Mindwall's will falters and reveals the truth about your surroundings.
+As Mindwall's body crumbles you can sense a burst of psionic forces splitting up and flying to new hosts.]], [[La volonté de Barment vacille et révèle la vérité sur votre environnement.
 
-As Mindwall's body crumbles you can sense a burst of psionic forces splitting up and flying to new hosts.]], "_t")
---]==]
-
+Tandis que le corps de Barment s'effondre, vous sentez une explosion de forces psioniques se diviser et s'envoler vers de nouveaux hôtes.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/kaltor-shop/grids.lua"
@@ -7780,44 +7718,34 @@ t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
 t("locked chest", "coffre verrouillé", "entity name")
 t("Locked Chest", "Coffre Verrouillé", "_t")
+t("Open the chest with Kaltor's key?", "Ouvrir le coffre avec la clé de Kaltor ?", "_t")
 t("#GOLD#An object rolls from the chest!", "#GOLD#Un objet roule hors du coffre !", "logSeen")
 t("chest (opened)", "coffre (ouvert)", "_t")
 t("Open", "Ouvrir", "_t")
 t("Leave", "Partir", "_t")
--- texte non traduit
---[==[
-t("Open the chest with Kaltor's key?", "Open the chest with Kaltor's key?", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/kaltor-shop/npcs.lua"
 
-
+t("Arch-Merchant Kaltor", "Archi-Marchand Kaltor", "entity name")
+t("A well dressed giant, covered in gold, gems and fineries. Also wielding nasty looking guns at his sides. He seems to look strangely friendly while eyeing your gold purse.", "Un géant élégamment vêtu, couvert d'or, de gemmes et de raffinements. Il manie également des armes à l'aspect menaçant à ses côtés. Il semble étrangement amical tandis qu'il lorgne votre bourse d'or.", "_t")
+t("As Kaltor falls you quickly grab a big golden key from his waist. Surely this opens the chests.", "Alors que Kaltor s'effondre, vous saisissez rapidement une grande clé dorée à sa ceinture. Elle doit sûrement ouvrir les coffres.", "_t")
 -- texte non traduit
 --[==[
-t("Arch-Merchant Kaltor", "Arch-Merchant Kaltor", "entity name")
-t("A well dressed giant, covered in gold, gems and fineries. Also wielding nasty looking guns at his sides. He seems to look strangely friendly while eyeing your gold purse.", "A well dressed giant, covered in gold, gems and fineries. Also wielding nasty looking guns at his sides. He seems to look strangely friendly while eyeing your gold purse.", "_t")
 t("Kaltor", "Kaltor", "_t")
-t("As Kaltor falls you quickly grab a big golden key from his waist. Surely this opens the chests.", "As Kaltor falls you quickly grab a big golden key from his waist. Surely this opens the chests.", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/kaltor-shop/objects.lua"
 
-
--- texte non traduit
---[==[
-t("Pressure-enhanced Slashproof Combat Suit", "Pressure-enhanced Slashproof Combat Suit", "entity name")
-t("steam-enhanced leather coat", "steam-enhanced leather coat", "_t")
-t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "_t")
-t("When you take a hit of more than 10% of your total life the suit's motors activate for the next turn, displacing you before any blow could hit you.", "When you take a hit of more than 10% of your total life the suit's motors activate for the next turn, displacing you before any blow could hit you.", "_t")
-t("Brilliant Auto-loading Orc Expeller", "Brilliant Auto-loading Orc Expeller", "entity name")
-t("expensive gun", "expensive gun", "_t")
-t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "_t")
---]==]
-
+t("Pressure-enhanced Slashproof Combat Suit", "Combinaison de Combat Anti-Coupure Pressurisée", "entity name")
+t("steam-enhanced leather coat", "manteau de cuir amélioré à la vapeur", "_t")
+t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "Une simple armure de cuir d'excellente facture, astucieusement améliorée par de minuscules moteurs à vapeur cachés, destinés à renforcer les réflexes et offrir des fonctions de sécurité.", "_t")
+t("When you take a hit of more than 10% of your total life the suit's motors activate for the next turn, displacing you before any blow could hit you.", "Lorsque vous subissez un coup dépassant 10% de votre vie totale, les moteurs de la combinaison s'activent pour le tour suivant, vous déplaçant avant qu'un coup ne puisse vous toucher.", "_t")
+t("Brilliant Auto-loading Orc Expeller", "Brillant Expulseur d'Orcs à Auto-Chargement", "entity name")
+t("expensive gun", "pistolet coûteux", "_t")
+t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "Une arme finement forgée, conçue spécifiquement pour tuer les orcs. Et, on ne sait comment, les géants aussi !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/kaltor-shop/zone.lua"
@@ -7827,179 +7755,126 @@ t("Kaltor's Shop", "Boutique de Kaltor", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/grids.lua"
 
+t("airship hull", "coque de dirigeable", "entity name")
+t("breach into the airship hull", "brèche dans la coque du dirigeable", "entity name")
 t("trigger", "déclencher", "entity type")
 t("trigger", "déclencher", "entity subtype")
 t("floor", "sol", "entity type")
 t("water", "eau", "entity subtype")
--- texte non traduit
---[==[
-t("airship hull", "airship hull", "entity name")
-t("breach into the airship hull", "breach into the airship hull", "entity name")
-t("underwater luminous algae", "underwater luminous algae", "entity name")
---]==]
-
+t("underwater luminous algae", "algues lumineuses sous-marines", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Nektosh the One-Horned", "Nektosh the One-Horned", "entity name")
-t("A withered Whitehoof, with two horns that curve over his head and spiral into a cone.  The tip of his \"horn\" glows intensely, but is slowly fading; he acts confident, but his darting, wild eyes reveal panic behind them.", "A withered Whitehoof, with two horns that curve over his head and spiral into a cone.  The tip of his \"horn\" glows intensely, but is slowly fading; he acts confident, but his darting, wild eyes reveal panic behind them.", "_t")
-t("KNOW MY POWER, FOOLISH MORTAL!", "KNOW MY POWER, FOOLISH MORTAL!", "_t")
-t("Stop--  stop moving and this will be over before you can feel pain!  STOP!", "Stop--  stop moving and this will be over before you can feel pain!  STOP!", "_t")
-t("No...  come on, come on, there has to be something left...", "No...  come on, come on, there has to be something left...", "_t")
-t("...it's gone...  FINE!  I don't need that power to destroy you!", "...it's gone...  FINE!  I don't need that power to destroy you!", "_t")
---]==]
-
+t("Nektosh the One-Horned", "Nektosh le Monocorne", "entity name")
+t("A withered Whitehoof, with two horns that curve over his head and spiral into a cone.  The tip of his \"horn\" glows intensely, but is slowly fading; he acts confident, but his darting, wild eyes reveal panic behind them.", "Un Sabot-Blanc décharné, avec deux cornes qui se courbent au-dessus de sa tête et s'enroulent en cône. La pointe de sa \"corne\" brille intensément, mais s'estompe lentement ; il affiche une assurance apparente, mais ses yeux fous et fuyants trahissent la panique qui se cache derrière.", "_t")
+t("KNOW MY POWER, FOOLISH MORTAL!", "CONNAIS MA PUISSANCE, STUPIDE MORTEL !", "_t")
+t("Stop--  stop moving and this will be over before you can feel pain!  STOP!", "Arrête-- arrête de bouger et ce sera fini avant que tu ne sentes la douleur ! ARRÊTE !", "_t")
+t("No...  come on, come on, there has to be something left...", "Non... allez, allez, il doit bien rester quelque chose...", "_t")
+t("...it's gone...  FINE!  I don't need that power to destroy you!", "...c'est parti... TRÈS BIEN ! Je n'ai pas besoin de ce pouvoir pour te détruire !", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/objects.lua"
 
 t("tattered paper scrap", "morceau de papier déchiré", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
+t("Visage of Nektosh", "Visage de Nektosh", "entity name")
 t("horned helm", "heaume à cornes", "_t")
--- texte non traduit
---[==[
-t("Visage of Nektosh", "Visage of Nektosh", "entity name")
-t("You always thought his horns looked kind of stupid, to be honest.", "You always thought his horns looked kind of stupid, to be honest.", "_t")
-t("Increases your maximum stacks of Death Momentum by 1.", "Increases your maximum stacks of Death Momentum by 1.", "_t")
-t("#DARK_BLUE#This helm is your birthright! Deathright? Whichever.", "#DARK_BLUE#This helm is your birthright! Deathright? Whichever.", "logPlayer")
---]==]
-
+t("You always thought his horns looked kind of stupid, to be honest.", "Pour être honnête, vous avez toujours trouvé ses cornes plutôt ridicules.", "_t")
+t("Increases your maximum stacks of Death Momentum by 1.", "Augmente votre cumul maximum d'Élan de la Mort de 1.", "_t")
+t("#DARK_BLUE#This helm is your birthright! Deathright? Whichever.", "#DARK_BLUE#Ce heaume est votre droit de naissance ! Ou de mort, peu importe.", "logPlayer")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/krimbul/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Krimbul Territory", "Krimbul Territory", "_t")
---]==]
-
+t("Krimbul Territory", "Territoire Krimbul", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/grids.lua"
 
 t("floor", "sol", "entity type")
 t("sand", "sable", "entity subtype")
--- texte non traduit
---[==[
-t("Stair to the ruins", "Stair to the ruins", "entity name")
-t("Stair to the cave", "Stair to the cave", "entity name")
-t("Old Psi-Machine", "Old Psi-Machine", "entity name")
---]==]
-
+t("Stair to the ruins", "Escalier vers les ruines", "entity name")
+t("Stair to the cave", "Escalier vers la caverne", "entity name")
+t("Old Psi-Machine", "Vieille Machine Psy", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("guardian psi-ghost", "guardian psi-ghost", "entity name")
-t("A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "_t")
-t("Soon...", "Soon...", "_t")
-t("The day is drawing near...", "The day is drawing near...", "_t")
-t("They will come back...", "They will come back...", "_t")
-t("It is approaching...", "It is approaching...", "_t")
---]==]
-
+t("guardian psi-ghost", "fantôme psy gardien", "entity name")
+t("A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "Un fantôme étrangement humanoïde, apparaissant et disparaissant tandis que sa forme est secouée de décharges psioniques.", "_t")
+t("Soon...", "Bientôt...", "_t")
+t("The day is drawing near...", "Le jour approche...", "_t")
+t("They will come back...", "Ils reviendront...", "_t")
+t("It is approaching...", "Ca approche...", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/objects.lua"
 
+t("schematic: Payload", "schéma : Charge Utile", "entity name")
+t("The Forgotten", "L'Oubliée", "entity name")
 t("pale mindstar", "étoile d'âme pâle", "_t")
+t("A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "Une étrange étoile d'âme, envahie de granit et fissurée. Elle semble incroyablement ancienne et horriblement endommagée, mais fonctionne encore.", "_t")
+t("confuse all enemies in radius 3 for 5 turns", "confond tous les ennemis dans un rayon de 3 pendant 5 tours", "_t")
 t("%s resists!", "%s résiste !", "logSeen")
--- texte non traduit
---[==[
-t("schematic: Payload", "schematic: Payload", "entity name")
-t("The Forgotten", "The Forgotten", "entity name")
-t("A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "A strange mindstar, overgrown with granite and cracked. It seems incredibly ancient and horribly damaged, but still functions.", "_t")
-t("confuse all enemies in radius 3 for 5 turns", "confuse all enemies in radius 3 for 5 turns", "_t")
-t("The Cage", "The Cage", "entity name")
-t("thick leather cap", "thick leather cap", "_t")
-t("Nothing will ever reach you again.", "Nothing will ever reach you again.", "_t")
-t("You are immune to mental status effects.", "You are immune to mental status effects.", "_t")
---]==]
-
+t("The Cage", "La Cage", "entity name")
+t("thick leather cap", "épais bonnet de cuir", "_t")
+t("Nothing will ever reach you again.", "Plus rien ne vous atteindra jamais plus.", "_t")
+t("You are immune to mental status effects.", "Vous êtes immunisé aux effets de statut mentaux.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ruins of a lost city", "Ruins of a lost city", "_t")
---]==]
-
+t("Ruins of a lost city", "Ruines d'une cité perdue", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/palace-fumes/grids.lua"
 
 t("floor", "sol", "entity type")
 t("floor", "sol", "entity subtype")
+t("stair descending into Eyal's depths", "escalier descendant vers les profondeurs d'Eyal", "entity name")
 t("wall", "mur", "entity type")
-t("mech", "mécanique", "entity subtype")
+t("mech", "méca", "entity subtype")
+t("locked mech door", "porte mécanique verrouillée", "entity name")
 t("open mech door", "porte mécanique ouverte", "entity name")
+t("Phonograph", "Phonographe", "entity name")
 t("throne", "trône", "entity type")
 t("throne", "trône", "entity name")
--- texte non traduit
---[==[
-t("stair descending into Eyal's depths", "stair descending into Eyal's depths", "entity name")
-t("locked mech door", "locked mech door", "entity name")
-t("Phonograph", "Phonograph", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/palace-fumes/npcs.lua"
 
 t("giant", "géant", "entity type")
 t("steam", "vapeur", "entity subtype")
+t("Council Member Nashal", "Membre du Conseil Nashal", "entity name")
+t("The noble features on the face of this giantess contrast heavily with the evil grin she carries and the huge rotating saws on her arms.", "Les traits nobles du visage de cette géante contrastent fortement avec le sourire malveillant qu'elle arbore et les énormes scies rotatives fixées à ses bras.", "_t")
+t("Council Member Tormak", "Membre du Conseil Tormak", "entity name")
+t("A master in all things arcane, Tormak stands in your way, steadfast in his resolution to crush you under his mighty spells.", "Maître en toutes choses arcaniques, Tormak se dresse sur votre chemin, ferme dans sa résolution de vous écraser sous ses puissants sorts.", "_t")
+t("Council Member Pendor", "Membre du Conseil Pendor", "entity name")
+t("Wielding two huge steamguns this giant is amazingly elusive and agile for his size. Oh and very deadly!", "Maniant deux énormes pistolets à vapeur, ce géant est étonnamment insaisissable et agile pour sa taille. Ah, et très mortel !", "_t")
+t("Council Member Palaquie", "Membre du Conseil Palaquie", "entity name")
+t("Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "Se tenant fièrement, la géante manie à la fois un pistolet à vapeur et une étoile d'âme ; tandis que les balles fusent, vous sentez une puissante pression mentale sur votre esprit, vous engourdissant.", "_t")
+t("Council Member Tantalos", "Membre du Conseil Tantalos", "entity name")
+t("It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "Il semble raisonnable de supposer que le plus haut fonctionnaire élu de la Tribu Atmos n'a pas toujours été cette hideuse et titanesque abomination, rappelant les rares images de Sher'Tul que vous avez pu voir, avec une apparence contre nature et des gargouillements écoeurants qui vous révulsent à tous les niveaux, du dégoût intellectuel et moral jusqu'à un instinct primaire qui rugit sans mots dans votre esprit avec une peur et une haine plus anciennes que tout langage. S'il l'a été, ses talents de manipulation électorale ont dû être légendaires.", "_t")
 t("construct", "créature artificielle", "entity type")
 t("mechanical", "mécanique", "entity subtype")
--- texte non traduit
---[==[
-t("Council Member Nashal", "Council Member Nashal", "entity name")
-t("The noble features on the face of this giantess contrast heavily with the evil grin she carries and the huge rotating saws on her arms.", "The noble features on the face of this giantess contrast heavily with the evil grin she carries and the huge rotating saws on her arms.", "_t")
-t("Council Member Tormak", "Council Member Tormak", "entity name")
-t("A master in all things arcane, Tormak stands in your way, steadfast in his resolution to crush you under his mighty spells.", "A master in all things arcane, Tormak stands in your way, steadfast in his resolution to crush you under his mighty spells.", "_t")
-t("Council Member Pendor", "Council Member Pendor", "entity name")
-t("Wielding two huge steamguns this giant is amazingly elusive and agile for his size. Oh and very deadly!", "Wielding two huge steamguns this giant is amazingly elusive and agile for his size. Oh and very deadly!", "_t")
-t("Council Member Palaquie", "Council Member Palaquie", "entity name")
-t("Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "Standing proud, the giantess wields both a steamgun and a mindstar, as the bullets fly you can feel a powerful mental pressure on your mind, numbing you.", "_t")
-t("Council Member Tantalos", "Council Member Tantalos", "entity name")
-t("It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "It seems like a safe assumption that the highest elected official of the Atmos Tribe was not always a hideous, titanic abomination, reminiscent of the few images of Sher'Tul you have seen, with a combination of unnatural appearance and sickening gurgling noises that revulses you on every level from intellectual and moral disgust, all the way down to a primal instinct that roars wordlessly in your mind with a fear and hatred older than any language.  If he was, his campaign's gerrymandering talents must have been legendary.", "_t")
-t("steam defence turret", "steam defence turret", "entity name")
+t("steam defence turret", "tourelle de défense à vapeur", "entity name")
 t([[This appears to be mechanized pedestal.
-Two steamguns mounted on its top constantly swivel back and forth, seeking enemies of the Atmos.]], [[This appears to be mechanized pedestal.
-Two steamguns mounted on its top constantly swivel back and forth, seeking enemies of the Atmos.]], "_t")
---]==]
-
+Two steamguns mounted on its top constantly swivel back and forth, seeking enemies of the Atmos.]], [[Ceci semble être un piédestal mécanisé.
+Deux pistolets à vapeur montés à son sommet pivotent constamment d'avant en arrière, à la recherche d'ennemis des Atmos.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/palace-fumes/objects.lua"
 
 t("paper scrap", "bouts de papier", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
--- texte non traduit
---[==[
-t("DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "entity name")
-t("A flyer.", "A flyer.", "_t")
---]==]
-
+t("DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY", "DESTRUCTICUS, IMPOLI PÉNÉTRATEUR DU CIEL", "entity name")
+t("A flyer.", "Un prospectus.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/palace-fumes/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Palace of Fumes", "Palace of Fumes", "_t")
---]==]
-
+t("Palace of Fumes", "Palais des Fumées", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/pocket-time/grids.lua"
@@ -8012,91 +7887,66 @@ t("previous level", "niveau précédent", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/pocket-time/npcs.lua"
 
+t("timeswapped %s", "%s échangé dans le temps", "_t")
+t("splitted %s", "%s scindé", "_t")
+t("temporal %s", "%s temporel", "_t")
+t("paradox %s", "%s paradoxal", "_t")
 t("humanoid", "humanoïde", "entity type")
 t("human", "humain", "entity subtype")
--- texte non traduit
---[==[
-t("timeswapped %s", "timeswapped %s", "_t")
-t("splitted %s", "splitted %s", "_t")
-t("temporal %s", "temporal %s", "_t")
-t("paradox %s", "paradox %s", "_t")
-t("Maltoth the Mad", "Maltoth the Mad", "entity name")
-t("This wretched human seems stuck in temporal flux.", "This wretched human seems stuck in temporal flux.", "_t")
-t("and dispersed across the timelines", "and dispersed across the timelines", "_t")
---]==]
-
+t("Maltoth the Mad", "Maltoth le Fou", "entity name")
+t("This wretched human seems stuck in temporal flux.", "Ce misérable humain semble coincé dans un flux temporel.", "_t")
+t("and dispersed across the timelines", "et dispersé à travers les lignes temporelles", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/pocket-time/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Pocket of Distorted Time", "Pocket of Distorted Time", "_t")
-t("Time-locked Vault", "Time-locked Vault", "_t")
---]==]
-
+t("Pocket of Distorted Time", "Poche de Temps Distordu", "_t")
+t("Time-locked Vault", "Chambre forte Bloquée dans le Temps", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/grids.lua"
 
 t("void", "vide", "entity type")
 t("void", "vide", "entity subtype")
+t("bottom of forest", "fond de la forêt", "entity name")
 t("wall", "mur", "entity type")
 t("grass", "herbe", "entity subtype")
+t("primal tree", "arbre primordial", "entity name")
+t("tall thick primal tree", "arbre primordial haut et épais", "entity name")
+t("huge primal tree", "immense arbre primordial", "entity name")
 t("trigger", "déclencher", "entity type")
 t("trigger", "déclencher", "entity subtype")
+t("climb", "grimper", "_t")
+t("Huge Tree", "Arbre Immense", "_t")
+t("You think you can climb this tree if you want.", "Vous pensez pouvoir grimper à cet arbre si vous le souhaitez.", "_t")
+t("Climb", "Grimper", "_t")
 t("Stay", "Rester", "_t")
 t("floor", "sol", "entity type")
 t("primal trunk", "tronc primordial", "entity subtype")
--- texte non traduit
---[==[
-t("bottom of forest", "bottom of forest", "entity name")
-t("primal tree", "primal tree", "entity name")
-t("tall thick primal tree", "tall thick primal tree", "entity name")
-t("huge primal tree", "huge primal tree", "entity name")
-t("climb", "climb", "_t")
-t("Huge Tree", "Huge Tree", "_t")
-t("You think you can climb this tree if you want.", "You think you can climb this tree if you want.", "_t")
-t("Climb", "Climb", "_t")
-t("climb back to the ground", "climb back to the ground", "entity name")
---]==]
-
+t("climb back to the ground", "redescendre au sol", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/npcs.lua"
 
+t("crystalbark", "écorce de cristal", "entity name")
+t("A very strong near-sentient tree, which has become infected with crystalline structures.", "Un arbre très puissant, presque sensible, qui a été infecté par des structures cristallines.", "_t")
 t("giant", "géant", "entity type")
 t("treant", "tréant", "entity subtype")
--- texte non traduit
---[==[
-t("crystalbark", "crystalbark", "entity name")
-t("A very strong near-sentient tree, which has become infected with crystalline structures.", "A very strong near-sentient tree, which has become infected with crystalline structures.", "_t")
-t("Crystallized Primal Root", "Crystallized Primal Root", "entity name")
-t("This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "_t")
---]==]
-
+t("Crystallized Primal Root", "Racine Primordiale Cristallisée", "entity name")
+t("This once great primal tree has been infused and corrupted by crystals growing wildly all over it. Such a terrible end.", "Cet arbre primordial autrefois grandiose a été infusé et corrompu par des cristaux poussant sauvagement sur toute sa surface. Quelle fin terrible.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/objects.lua"
 
 t("journal page", "page de journal", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
--- texte non traduit
---[==[
-t("schematic: Life Support Suit", "schematic: Life Support Suit", "entity name")
---]==]
-
+t("schematic: Life Support Suit", "schéma : Combinaison d'Assistance Vitale", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/primal-forest/zone.lua"
 
+t("Primal Forest", "Forêt Primordiale", "_t")
 t("#YELLOW_GREEN#One of the trees shakes for a moment and awakens!", "#YELLOW_GREEN#L'un des arbres s'agite un instant et s'éveille !", "logSeen")
--- texte non traduit
---[==[
-t("Primal Forest", "Primal Forest", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ritch-hive/grids.lua"
@@ -8165,16 +8015,15 @@ t("way up", "way up", "entity name")
 ------------------------------------------------
 section "tome-orcs/data/zones/shertul-cave/objects.lua"
 
-
+t("Pressure-enhanced Slashproof Combat Suit", "Combinaison de Combat Anti-Coupure Pressurisée", "entity name")
+t("steam-enhanced leather coat", "manteau de cuir amélioré à la vapeur", "_t")
+t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "Une simple armure de cuir d'excellente facture, astucieusement améliorée par de minuscules moteurs à vapeur cachés, destinés à renforcer les réflexes et offrir des fonctions de sécurité.", "_t")
+t("Brilliant Auto-loading Orc Expeller", "Brillant Expulseur d'Orcs à Auto-Chargement", "entity name")
+t("expensive gun", "pistolet coûteux", "_t")
+t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "Une arme finement forgée, conçue spécifiquement pour tuer les orcs. Et, on ne sait comment, les géants aussi !", "_t")
 -- texte non traduit
 --[==[
-t("Pressure-enhanced Slashproof Combat Suit", "Pressure-enhanced Slashproof Combat Suit", "entity name")
-t("steam-enhanced leather coat", "steam-enhanced leather coat", "_t")
-t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "_t")
 t("When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "_t")
-t("Brilliant Auto-loading Orc Expeller", "Brilliant Auto-loading Orc Expeller", "entity name")
-t("expensive gun", "expensive gun", "_t")
-t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "_t")
 --]==]
 
 
@@ -8222,11 +8071,10 @@ t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s awakens and empowers %s!"
 ------------------------------------------------
 section "tome-orcs/data/zones/slumbering-caves/objects.lua"
 
-
+t("a journal", "un journal", "entity name")
+t("A journal.", "Un journal.", "_t")
 -- texte non traduit
 --[==[
-t("a journal", "a journal", "entity name")
-t("A journal.", "A journal.", "_t")
 t("Gardanion, the Light of God", "Gardanion, the Light of God", "entity name")
 t("pure white amulet", "pure white amulet", "_t")
 t([["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
@@ -8277,11 +8125,10 @@ t("This heavily armored mecharachnid looks extremely dangerous and well equipped
 ------------------------------------------------
 section "tome-orcs/data/zones/steam-quarry/objects.lua"
 
-
+t("A journal.", "Un journal.", "_t")
 -- texte non traduit
 --[==[
 t("a very old journal", "a very old journal", "entity name")
-t("A journal.", "A journal.", "_t")
 t("schematic: Stormcutter", "schematic: Stormcutter", "entity name")
 --]==]
 
@@ -8331,22 +8178,22 @@ t("You wonder how this yeti can have wandered so far from its native habitat in 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
+t("a journal", "un journal", "entity name")
+t("A journal.", "Un journal.", "_t")
+t("flesh", "chair", "entity type")
+t("flesh", "chair", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Tissu musculaire extrait d'un puissant yéti. Quelque part, quelqu'un ou quelque chose sera sûrement intéressé !", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("a journal", "a journal", "entity name")
-t("A journal.", "A journal.", "_t")
 t("Cap of the Undisturbed Mind", "Cap of the Undisturbed Mind", "entity name")
 t("red cap", "red cap", "_t")
 t([[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
 With it you can spend your time stargazing without fear.]], [[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
 With it you can spend your time stargazing without fear.]], "_t")
 t("Allows you to resist the most terrible assaults on your mind.", "Allows you to resist the most terrible assaults on your mind.", "_t")
-t("flesh", "flesh", "entity type")
 t("muscle", "muscle", "entity subtype")
 t("Yeti's Muscle Tissue (Astral)", "Yeti's Muscle Tissue (Astral)", "entity name")
-t("flesh", "flesh", "_t")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 --]==]
 
 
@@ -8367,11 +8214,7 @@ section "tome-orcs/data/zones/sunwall-outpost/grids.lua"
 
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
--- texte non traduit
---[==[
-t("wooden barricade", "wooden barricade", "entity name")
---]==]
-
+t("wooden barricade", "barricade de bois", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-outpost/npcs.lua"
@@ -8448,6 +8291,7 @@ t("grass", "herbe", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
+t("wooden barricade", "barricade de bois", "entity name")
 t("wall", "mur", "entity type")
 t("bamboo hut", "hutte en bambou", "entity subtype")
 t("bamboo wall", "mur en bambou", "entity name")
@@ -8460,7 +8304,6 @@ t("cave", "grotte", "entity subtype")
 --[==[
 t("Coward!", "Coward!", "_t")
 t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
-t("wooden barricade", "wooden barricade", "entity name")
 t("tunnel weakness", "tunnel weakness", "entity name")
 --]==]
 
@@ -8665,14 +8508,14 @@ t("This yeti towers over its comrades. You see a cunning in its eyes unmatched b
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/objects.lua"
 
+t("flesh", "chair", "entity type")
+t("flesh", "chair", "_t")
+t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Tissu musculaire extrait d'un puissant yéti. Quelque part, quelqu'un ou quelque chose sera sûrement intéressé !", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("flesh", "flesh", "entity type")
 t("muscle", "muscle", "entity subtype")
 t("Yeti's Muscle Tissue (Patriarch)", "Yeti's Muscle Tissue (Patriarch)", "entity name")
-t("flesh", "flesh", "_t")
-t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "_t")
 --]==]
 
 

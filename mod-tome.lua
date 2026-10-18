@@ -32456,7 +32456,7 @@ Apprenez de nouveaux Talents :#YELLOW#
 Echangez vos talents de Paladin :#YELLOW#
 - Rayonnement devient Angoisse : Projetez sur les autres votre propre haine, ce qui les empêche d'avancer
 - Croisé devient Soleil Noir : Faites appel aux énergies des soleils morts pour écraser vos ennemis
-- Guardien devient Templier Pourpre : Utilisez le pouvoir du sang pour contrôler et vaincre les fous qui s'opposent à vous
+- Guardien devient Templier Souillé : Utilisez le pouvoir du sang pour contrôler et vaincre les fous qui s'opposent à vous
 #WHITE#
 
 Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe. Elles ne sont visibles que pour la classe concernée.
