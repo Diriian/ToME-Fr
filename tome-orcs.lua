@@ -762,7 +762,7 @@ t("terrene", "tellurique", "damage type")
 ------------------------------------------------
 section "tome-orcs/data/factions.lua"
 
-t("Kruk Pride", "Orgueil Kruk", "faction name")
+t("Kruk Pride", "Fierté Kruk", "faction name")
 t("Free Whitehooves", "Sabots-Blancs Libres", "faction name")
 t("Whitehooves", "Sabots-Blancs", "faction name")
 t("Kar'Haïb Dominion", "Dominion Kar'Haïb", "faction name")
@@ -1195,7 +1195,7 @@ t("minotaur", "minotaure", "entity subtype")
 t("whitehoof ghoul", "goule sabot-blanc", "entity name")
 t("It is a cross between a human and a bull, but more ... dead.", "C'est un croisement entre un humain et un taureau, mais en plus... mort.", "_t")
 t("whitehoof maulotaur", "maulotaure sabot-blanc", "entity name")
-t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "Ce grand minotaure mort-vivant porte un marteau d'aspect inquiétant, imbu de foudre.", "_t")
+t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "Ce grand minotaure mort-vivant porte un marteau à l'aspect menaçant, imprégné de foudre.", "_t")
 t("whitehoof invoker", "invocateur sabot-blanc", "entity name")
 t("Vortexes of sickly arcane energies circle this great undead frame.", "Des vortex d'énergies arcaniques maladives tourbillonnent autour de cette grande carcasse morte-vivante.", "_t")
 t("whitehoof hailstorm", "tempête de grêle sabot-blanc", "entity name")
@@ -1353,7 +1353,7 @@ section "tome-orcs/data/general/objects/special-misc.lua"
 t("kruk cloak", "cape kruk", "entity name")
 t("A stylish kruk-style cloak, to look awesome.", "Une élégante cape de style kruk, pour avoir une allure formidable.", "_t")
 t("Teleporter to the Tinker's Cave", "Téléporteur vers la Caverne du Bricoleur", "entity name")
-t("A strange metal contraption imbued with some kind of teleportation magic.", "Un étrange engin métallique imbu d'une sorte de magie de téléportation.", "_t")
+t("A strange metal contraption imbued with some kind of teleportation magic.", "Un étrange engin métallique imprégné d'une sorte de magie de téléportation.", "_t")
 t("teleport.", "Téléporter.", "_t")
 t("The teleporter's delicate systems are perturbed by foes on this level. You must have no foes left to be able to use it.", "Les systèmes délicats du téléporteur sont perturbés par la présence d'ennemis à ce niveau. Vous devez avoir éliminé tous les ennemis pour pouvoir l'utiliser.", "logPlayer")
 -- texte non traduit
@@ -1864,8 +1864,8 @@ Autrement dit, tout y tourne dans le sens inverse.
 Je suppose que ça doit broyer les choses à merveille.]], "_t")
 t("scroll", "parchemin", "_t")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
-t("time-warped paper scrap", "morceau de papier déformé par le temps", "_t")
-t("It came a long way away!", "Il venait de très loin !", "_t")
+t("time-warped paper scrap", "morceau de papier distordu par le temps", "_t")
+t("It came a long way away!", "Il vient de très loin !", "_t")
 t("Screw that!", "Au diable !", "_t")
 t("Oh, for the love of...  You're way too busy to deal with this nonsense.  You rev up Mirrorazor again, re-syncing it with the Mirror Universe, and toss the note back in.  A different note flies out the other side, miraculously not torn to shreds by the massive difference in planetary rotations.", "Par tous les dieux… Vous n’avez pas le temps de vous occuper de ces bêtises. Vous réactivez le Miroir, le resynchronisez avec l’Univers Miroir et renvoyez la note. Une autre note jaillit de l’autre côté, miraculeusement indemne malgré l’énorme différence de rotation planétaire.", "_t")
 t("#LIGHT_BLUE#Mirrorazor shudders as a note falls out from a different timeline!", "#LIGHT_BLUE#O Le miroir tremble lorsqu'une note provenant d'une autre ligne temporelle tombe !", "saySimple")
@@ -2875,9 +2875,9 @@ t("(This note had already caught fire when the paradox anomaly pulled it in from
 section "tome-orcs/data/lore/orcs.lua"
 
 t("orc prides", "Fiertés Orcs", "newLore category")
+t("The Shunned Kruk", "Le Kruk Rejeté", "_t")
 -- texte non traduit
 --[==[
-t("The Shunned Kruk", "The Shunned Kruk", "_t")
 t([[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
 
 Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
@@ -6165,10 +6165,9 @@ t([[Allows the use of Technomancy spells.
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/physics.lua"
 
-
+t("Smith", "Forgeron", "talent name")
 -- texte non traduit
 --[==[
-t("Smith", "Smith", "talent name")
 t([[Allows you to create smithed tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
@@ -7953,64 +7952,51 @@ section "tome-orcs/data/zones/ritch-hive/grids.lua"
 
 t("floor", "sol", "entity type")
 t("sand", "sable", "entity subtype")
+t("pile of ritch eggs", "tas d'oeufs de ritch", "entity name")
+t("comfy ritch nest", "nid de ritch confortable", "entity name")
 t("wall", "mur", "entity type")
 t("cracks", "fissures", "entity subtype")
 t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
--- texte non traduit
---[==[
-t("pile of ritch eggs", "pile of ritch eggs", "entity name")
-t("comfy ritch nest", "comfy ritch nest", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ritch-hive/objects.lua"
 
 t("egg", "Oeuf", "entity type")
+t("pile of ritch eggs", "tas d'oeufs de ritch", "entity name")
+t("A gross pile of eggs.", "Un tas d'oeufs répugnant.", "_t")
+t("#YELLOW#You carefully collect some ritch eggs.", "#YELLOW#Vous récoltez soigneusement quelques oeufs de ritch.", "easing")
+t("Ritch Claws", "Griffes de Ritch", "entity name")
+t("sharply clawed gloves", "gants aux griffes acérées", "_t")
+t("A pair of sharply honed gauntlets made from the claws of Ritch Impalers.", "Une paire de gantelets finement aiguisés, faits à partir des griffes de Ritchs Empaleurs.", "_t")
+t("Stinger", "Dard", "entity name")
+t("scaled steamsaw", "scie à vapeur écaillée", "_t")
+t("Is that... an ovipositor?", "Est-ce que c'est... un ovipositeur ?", "_t")
 -- texte non traduit
 --[==[
 t("ritch", "ritch", "entity subtype")
-t("pile of ritch eggs", "pile of ritch eggs", "entity name")
-t("A gross pile of eggs.", "A gross pile of eggs.", "_t")
-t("#YELLOW#You carefully collect some ritch eggs.", "#YELLOW#You carefully collect some ritch eggs.", "easing")
-t("Ritch Claws", "Ritch Claws", "entity name")
-t("sharply clawed gloves", "sharply clawed gloves", "_t")
-t("A pair of sharply honed gauntlets made from the claws of Ritch Impalers.", "A pair of sharply honed gauntlets made from the claws of Ritch Impalers.", "_t")
-t("Stinger", "Stinger", "entity name")
-t("scaled steamsaw", "scaled steamsaw", "_t")
-t("Is that... an ovipositor?", "Is that... an ovipositor?", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ritch-hive/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ritch Hive", "Ritch Hive", "_t")
+t("Ritch Hive", "Ruche des Ritchs", "_t")
 t([[You arrive in a maze of shifty sand tunnels.
 But you have with you the power of technology! You have been given a #GOLD#Stralite Sand Shredder#LAST#. Use it to dig yourself a path should there be none to be found.
 #{italic}#Simply walk into a wall with the shredder equipped and the sand will crumble before you!#{normal}#
 
-Beware to not draw too much attention to yourself, and do not forget to collect the eggs!]], [[You arrive in a maze of shifty sand tunnels.
-But you have with you the power of technology! You have been given a #GOLD#Stralite Sand Shredder#LAST#. Use it to dig yourself a path should there be none to be found.
-#{italic}#Simply walk into a wall with the shredder equipped and the sand will crumble before you!#{normal}#
+Beware to not draw too much attention to yourself, and do not forget to collect the eggs!]], [[Vous arrivez dans un labyrinthe de tunnels de sable instables.
+Mais vous avez avec vous le pouvoir de la technologie ! On vous a confié un #GOLD#Broyeur de Sable en Stralite#LAST#. Utilisez-le pour vous creuser un passage s'il n'en existe aucun.
+#{italic}#Il suffit de marcher contre un mur avec le broyeur équipé, et le sable s'effondrera devant vous !#{normal}#
 
-Beware to not draw too much attention to yourself, and do not forget to collect the eggs!]], "_t")
-t("%d Collected", "%d Collected", "tformat")
---]==]
-
+Prenez garde à ne pas trop attirer l'attention sur vous, et n'oubliez pas de récolter les oeufs !]], "_t")
+t("%d Collected", "%d Récoltés", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/shertul-cave/grids.lua"
 
+t("way up", "chemin vers le haut", "entity name")
 t("Mirror of Reflection", "Miroir de Réflexion", "entity name")
--- texte non traduit
---[==[
-t("way up", "way up", "entity name")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/shertul-cave/objects.lua"
@@ -8018,196 +8004,141 @@ section "tome-orcs/data/zones/shertul-cave/objects.lua"
 t("Pressure-enhanced Slashproof Combat Suit", "Combinaison de Combat Anti-Coupure Pressurisée", "entity name")
 t("steam-enhanced leather coat", "manteau de cuir amélioré à la vapeur", "_t")
 t("A simple leather armour of excellent facture that has been craftily enhanced with hidden miniature steam engines to enhance reflexes and provide safety features.", "Une simple armure de cuir d'excellente facture, astucieusement améliorée par de minuscules moteurs à vapeur cachés, destinés à renforcer les réflexes et offrir des fonctions de sécurité.", "_t")
+t("When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "Lorsque vous subissez un coup dépassant 10% de votre vie totale, les moteurs de la combinaison s'activent pour le tour suivant, vous déplaçant avant qu'un coup ne puisse vous toucher.", "_t")
 t("Brilliant Auto-loading Orc Expeller", "Brillant Expulseur d'Orcs à Auto-Chargement", "entity name")
 t("expensive gun", "pistolet coûteux", "_t")
 t("A finely crafted gun, designed specifically to kill orcs. And giants somehow!", "Une arme finement forgée, conçue spécifiquement pour tuer les orcs. Et, on ne sait comment, les géants aussi !", "_t")
--- texte non traduit
---[==[
-t("When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "When you take a hit of more than 10% of your total life the suit's motors activate fo the next turn, displacing you before any blow could hit you.", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/zones/shertul-cave/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ruined Cave", "Ruined Cave", "_t")
-t("This cave looks very solid and stable. You can probably leave items here for later.", "This cave looks very solid and stable. You can probably leave items here for later.", "_t")
---]==]
-
+t("Ruined Cave", "Caverne en Ruines", "_t")
+t("This cave looks very solid and stable. You can probably leave items here for later.", "Cette caverne semble très solide et stable. Vous pouvez probablement y laisser des objets pour plus tard.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/slumbering-caves/npcs.lua"
 
+t("Amakthel's Hand", "Main d'Amakthel", "entity name")
 t("god", "dieu", "entity type")
 t("eyal", "Eyal", "entity subtype")
-t("shertul", "sher'tul", "entity subtype")
--- texte non traduit
---[==[
-t("Amakthel's Hand", "Amakthel's Hand", "entity name")
 t([[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
 The god that myths say was slain by the Sher'tul, themselves nothing but a myth.
-But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], [[You never thought this could even exist. You certainly never thought you'd encounter it. But this is true, in front of you stands a piece of Amakthel himself.
-The god that myths say was slain by the Sher'tul, themselves nothing but a myth.
-But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], "_t")
-t("Amakthel's Mouth", "Amakthel's Mouth", "entity name")
-t("#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "saySimple")
-t("#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "log")
-t("Amakthel's Eye", "Amakthel's Eye", "entity name")
-t("spiked tentacle", "spiked tentacle", "entity name")
-t("A huge tentacle, ready to crush you with its many spikes.", "A huge tentacle, ready to crush you with its many spikes.", "_t")
-t("oozing tentacle", "oozing tentacle", "entity name")
-t("Ooze pours out of this disgusting tentacle.", "Ooze pours out of this disgusting tentacle.", "_t")
-t("eyed tentacle", "eyed tentacle", "entity name")
-t("A single malevolent eye is set atop this tentacle. And it watches you.", "A single malevolent eye is set atop this tentacle. And it watches you.", "_t")
-t("Sher'Tul High Priest", "Sher'Tul High Priest", "entity name")
-t("So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "_t")
-t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s awakens and empowers %s!", "saySimple")
---]==]
-
+But there it is, half alive, half dead but you can feel his thoughts in your head, there is no mistake: #{bold}#The Dead God is here!#{normal}#]], [[Vous n'auriez jamais cru que cela puisse même exister. Vous n'auriez certainement jamais pensé le rencontrer un jour. Mais c'est bien réel, devant vous se dresse un fragment d'Amakthel lui-même.
+Le dieu que les mythes disent avoir été tué par les Sher'Tul, eux-mêmes n'étant qu'un mythe.
+Mais il est bien là, mi-vivant, mi-mort, et vous pouvez sentir ses pensées dans votre tête, aucun doute possible : #{bold}#Le Dieu Mort est ici !#{normal}#]], "_t")
+t("Amakthel's Mouth", "Bouche d'Amakthel", "entity name")
+t("#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "#PURPLE#%s hurle : \"VOUS NE M'ÉCHAPPEREZ PAS !\"", "saySimple")
+t("#PURPLE#%s shouts: 'YOU DO NOT GET AWAY!'", "#PURPLE#%s hurle : \"VOUS NE M'ÉCHAPPEREZ PAS !\"", "log")
+t("Amakthel's Eye", "Oeil d'Amakthel", "entity name")
+t("spiked tentacle", "tentacule à pointes", "entity name")
+t("A huge tentacle, ready to crush you with its many spikes.", "Un énorme tentacule, prêt à vous écraser sous ses nombreuses pointes.", "_t")
+t("oozing tentacle", "tentacule suintant", "entity name")
+t("Ooze pours out of this disgusting tentacle.", "De la vase s'écoule de ce tentacule répugnant.", "_t")
+t("eyed tentacle", "tentacule aux yeux", "entity name")
+t("A single malevolent eye is set atop this tentacle. And it watches you.", "Un unique oeil malveillant surmonte ce tentacule. Et il vous observe.", "_t")
+t("Sher'Tul High Priest", "Grand Prêtre Sher'Tul", "entity name")
+t("shertul", "sher'tul", "entity subtype")
+t("So they do exist! Sher'Tul! The stuff of myth and legends. The stuff of terror. The stuff of nightmares. The stuff of unlimited power. The race that turned on the gods of old and actually won. This one seems intent on resurrecting Amakthel, the most powerful of all the gods. You do not know why but this cannot happen or all Orcs, and the world, will be doomed.", "Alors ils existent vraiment ! Les Sher'Tul ! L'étoffe des mythes et légendes. L'étoffe de la terreur. L'étoffe des cauchemars. L'étoffe du pouvoir sans limites. La race qui s'est retournée contre les dieux d'antan et l'a réellement emporté. Celui-ci semble déterminé à ressusciter Amakthel, le plus puissant de tous les dieux. Vous ignorez pourquoi, mais cela ne doit pas arriver, ou tous les orcs, et le monde entier, seront condamnés.", "_t")
+t("#CRIMSON#%s awakens and empowers %s!", "#CRIMSON#%s s'éveille et renforce %s !", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/slumbering-caves/objects.lua"
 
 t("a journal", "un journal", "entity name")
 t("A journal.", "Un journal.", "_t")
--- texte non traduit
---[==[
-t("Gardanion, the Light of God", "Gardanion, the Light of God", "entity name")
-t("pure white amulet", "pure white amulet", "_t")
+t("Gardanion, the Light of God", "Gardanion, la Lumière de Dieu", "entity name")
+t("pure white amulet", "amulette blanche et pure", "_t")
 t([["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
-You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], [["#{italic}#When Amakthel arrived, he created the Sun and brought life to this world.
-You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], "_t")
-t("When worn, gives you an additional prodigy point.", "When worn, gives you an additional prodigy point.", "_t")
-t("#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "logPlayer")
-t("#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "saySimple")
---]==]
-
+You carry a piece of His Sun with you now. Do not forget who gave it to you, lest you become like those wretched fools who would forsake Him.#{normal}#"]], "\"#{italic}#Quand Amakthel vint, il créa le Soleil et apporta la vie à ce monde. Tu portes désormais avec toi un fragment de Son Soleil. N'oublie jamais qui te l'a offert, de peur de devenir comme ces misérables insensés qui L'ont abandonné.#{normal}#\"", "_t")
+t("When worn, gives you an additional prodigy point.", "Lorsqu'elle est porté, vous accorde un point de prodige supplémentaire.", "_t")
+t("#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "#GOLD#La lumière de l'Amulette vous enveloppe, puis s'estompe. Vous vous sentez plus fort. (+1 Point de Prodige)", "logPlayer")
+t("#GOLD#The light of the Amulet envelops you, then subsides. You feel stronger. (+1 Prodigy Points)", "#GOLD#La lumière de l'Amulette vous enveloppe, puis s'estompe. Vous vous sentez plus fort. (+1 Point de Prodige)", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/slumbering-caves/zone.lua"
 
-
--- texte non traduit
---[==[
-t("The Slumbering Caves", "The Slumbering Caves", "_t")
-t("The Slumbering Caves (%d)", "The Slumbering Caves (%d)", "tformat")
-t("Amakthel's Prison", "Amakthel's Prison", "_t")
-t("Fall", "Fall", "_t")
-t("The end of the staircase was trapped, you fell for a long time, luckily not breaking anything. But you have no way back now...", "The end of the staircase was trapped, you fell for a long time, luckily not breaking anything. But you have no way back now...", "_t")
---]==]
-
+t("The Slumbering Caves", "Les Cavernes Endormies", "_t")
+t("The Slumbering Caves (%d)", "Les Cavernes Endormies (%d)", "tformat")
+t("Amakthel's Prison", "Prison d'Amakthel", "_t")
+t("Fall", "Chute", "_t")
+t("The end of the staircase was trapped, you fell for a long time, luckily not breaking anything. But you have no way back now...", "L'extrémité de l'escalier était piégée ; vous êtes tombé pendant un long moment, par chance sans rien vous briser. Mais vous n'avez désormais plus aucun moyen de revenir en arrière...", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/steam-quarry/grids.lua"
 
-
--- texte non traduit
---[==[
-t("giant steam valve", "giant steam valve", "entity name")
-t("#PURPLE#You kick and destroy the valve!", "#PURPLE#You kick and destroy the valve!", "log")
---]==]
-
+t("giant steam valve", "vanne à vapeur géante", "entity name")
+t("#PURPLE#You kick and destroy the valve!", "#PURPLE#Vous donnez un coup de pied et détruisez la vanne !", "log")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/steam-quarry/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Automated Defense System", "Automated Defense System", "entity name")
-t("This heavily armored mecharachnid looks extremely dangerous and well equipped to defend the quarry.", "This heavily armored mecharachnid looks extremely dangerous and well equipped to defend the quarry.", "_t")
---]==]
-
+t("Automated Defense System", "Système de Défense Automatisé", "entity name")
+t("This heavily armored mecharachnid looks extremely dangerous and well equipped to defend the quarry.", "Ce mécarachnide fortement blindé paraît extrêmement dangereux et bien équipé pour défendre la carrière.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/steam-quarry/objects.lua"
 
+t("a very old journal", "un très vieux journal", "entity name")
 t("A journal.", "Un journal.", "_t")
--- texte non traduit
---[==[
-t("a very old journal", "a very old journal", "entity name")
-t("schematic: Stormcutter", "schematic: Stormcutter", "entity name")
---]==]
-
+t("schematic: Stormcutter", "schéma : Trancheorage", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/steam-quarry/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Steam Quarry", "Steam Quarry", "_t")
---]==]
-
+t("Steam Quarry", "Carrière de Vapeur", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/grids.lua"
 
 t("void", "vide", "entity type")
 t("void", "vide", "entity subtype")
+t("bottom of the mountain", "pied de la montagne", "entity name")
 t("floor", "sol", "entity type")
 t("rocks", "rochers", "entity subtype")
 t("rocks", "rochers", "entity name")
--- texte non traduit
---[==[
-t("bottom of the mountain", "bottom of the mountain", "entity name")
-t("way into a strange cave", "way into a strange cave", "entity name")
-t("stairs to the previous level", "stairs to the previous level", "entity name")
-t("stairs to the cavern", "stairs to the cavern", "entity name")
-t("pillar of the sun", "pillar of the sun", "entity name")
-t("pillar of the moons", "pillar of the moons", "entity name")
---]==]
-
+t("way into a strange cave", "chemin vers une étrange caverne", "entity name")
+t("stairs to the previous level", "escaliers vers le niveau précédent", "entity name")
+t("stairs to the cavern", "escaliers vers la caverne", "entity name")
+t("pillar of the sun", "pilier du soleil", "entity name")
+t("pillar of the moons", "pilier des lunes", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/npcs.lua"
 
 t("elf", "elfe", "entity subtype")
--- texte non traduit
---[==[
-t("Star Gazer", "Star Gazer", "entity name")
-t("This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "_t")
-t("Astral-Infused Yeti", "Astral-Infused Yeti", "entity name")
-t("You wonder how this yeti can have wandered so far from its native habitat in the Clork Peninsula. You also wonder what happened to it that produced the celestial energies-wielding creature you angrily marching towards you.", "You wonder how this yeti can have wandered so far from its native habitat in the Clork Peninsula. You also wonder what happened to it that produced the celestial energies-wielding creature you angrily marching towards you.", "_t")
---]==]
-
+t("Star Gazer", "Observateur d'Étoiles", "entity name")
+t("This astromancer radiates the power of all celestial bodies. You can discern a distinct elven shape under the hood and robes.", "Cet astromancien irradie de la puissance de tous les corps célestes. Vous pouvez discerner une silhouette elfique distincte sous la capuche et les robes.", "_t")
+t("Astral-Infused Yeti", "Yéti à essences Astrale", "entity name")
+t("You wonder how this yeti can have wandered so far from its native habitat in the Clork Peninsula. You also wonder what happened to it that produced the celestial energies-wielding creature you angrily marching towards you.", "Vous vous demandez comment ce yéti a pu errer si loin de son habitat natal de la Péninsule de Clork. Vous vous demandez également ce qui lui est arrivé pour produire cette créature maniant des énergies célestes qui marche furieusement vers vous.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/objects.lua"
 
 t("a journal", "un journal", "entity name")
 t("A journal.", "Un journal.", "_t")
+t("Cap of the Undisturbed Mind", "Bonnet de l'Esprit Serein", "entity name")
+t("red cap", "bonnet rouge", "_t")
+t([[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
+With it you can spend your time stargazing without fear.]], [[Pour éviter de perdre la santé mentale en contemplant les horreurs du Vide, ce bonnet contient encore des tissus cérébraux vivants incorporés.
+Avec lui, vous pouvez passer votre temps à observer les étoiles sans crainte.]], "_t")
+t("Allows you to resist the most terrible assaults on your mind.", "Vous permet de résister aux assauts les plus terribles contre votre esprit.", "_t")
 t("flesh", "chair", "entity type")
+t("Yeti's Muscle Tissue (Astral)", "Tissu Musculaire de Yéti (Astral)", "entity name")
 t("flesh", "chair", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Tissu musculaire extrait d'un puissant yéti. Quelque part, quelqu'un ou quelque chose sera sûrement intéressé !", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
-t("Cap of the Undisturbed Mind", "Cap of the Undisturbed Mind", "entity name")
-t("red cap", "red cap", "_t")
-t([[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
-With it you can spend your time stargazing without fear.]], [[To prevent losing your mental health when gazing at the horrors of the Void there are still living brain tissues embedded into this cap.
-With it you can spend your time stargazing without fear.]], "_t")
-t("Allows you to resist the most terrible assaults on your mind.", "Allows you to resist the most terrible assaults on your mind.", "_t")
 t("muscle", "muscle", "entity subtype")
-t("Yeti's Muscle Tissue (Astral)", "Yeti's Muscle Tissue (Astral)", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-observatory/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Sunwall Observatory", "Sunwall Observatory", "_t")
-t("Path into the mountain", "Path into the mountain", "_t")
-t("Caverns below the Observatory", "Caverns below the Observatory", "_t")
---]==]
-
+t("Sunwall Observatory", "Observatoire du Mur Solaire", "_t")
+t("Path into the mountain", "Chemin vers la montagne", "_t")
+t("Caverns below the Observatory", "Cavernes sous l'Observatoire", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-outpost/grids.lua"
@@ -8220,16 +8151,16 @@ t("wooden barricade", "barricade de bois", "entity name")
 section "tome-orcs/data/zones/sunwall-outpost/npcs.lua"
 
 t("human", "humain", "entity subtype")
+t("Outpost Leader John", "John, Chef de l'Avant-poste", "entity name")
+t("This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "L'armure de ce guerrier brille d'une lumière dorée éclatante. Il manie une épée et un bouclier ornementés, et marche vers vous avec assurance.", "_t")
 t("humanoid", "humanoïde", "entity type")
+t("orc retaliator", "orc vengeur", "entity name")
+t("A stern-looking orc, armed to the teeth.", "Un orc à l'air sévère, armé jusqu'aux dents.", "_t")
+t("orc gunslinger", "orc flingueur", "entity name")
+t("A nasty looking orc armed with double steamguns.", "Un orc à l'aspect menaçant armé de deux pistolets à vapeur.", "_t")
 -- texte non traduit
 --[==[
-t("Outpost Leader John", "Outpost Leader John", "entity name")
-t("This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "This warrior's armor glows with a bright golden light. He wields an ornate sword and shield, and marches towards you with confidence.", "_t")
 t("orc", "orc", "entity subtype")
-t("orc retaliator", "orc retaliator", "entity name")
-t("A stern-looking orc, armed to the teeth.", "A stern-looking orc, armed to the teeth.", "_t")
-t("orc gunslinger", "orc gunslinger", "entity name")
-t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed with double steamguns.", "_t")
 --]==]
 
 
@@ -8242,46 +8173,27 @@ t("A paper scrap.", "Un bout de papier.", "_t")
 ------------------------------------------------
 section "tome-orcs/data/zones/sunwall-outpost/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Sunwall Outpost", "Sunwall Outpost", "_t")
-t("Reinforcements!", "Reinforcements!", "_t")
-t("An %s has managed to join forces with you!", "An %s has managed to join forces with you!", "tformat")
---]==]
-
+t("Sunwall Outpost", "Avant-poste du Mur Solaire", "_t")
+t("Reinforcements!", "Renforts !", "_t")
+t("An %s has managed to join forces with you!", "Un(e) %s a réussi à unir ses forces aux vôtres !", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/tinker-master/grids.lua"
 
-
--- texte non traduit
---[==[
-t("way up", "way up", "entity name")
---]==]
-
+t("way up", "chemin vers le haut", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/tinker-master/npcs.lua"
 
 t("construct", "créature artificielle", "entity type")
 t("mechanical", "mécanique", "entity subtype")
--- texte non traduit
---[==[
-t("Ancient Automated Teacher", "Ancient Automated Teacher", "entity name")
-t("An ancient archive of knowledge! It seems to have some kind of vocal interface.", "An ancient archive of knowledge! It seems to have some kind of vocal interface.", "_t")
---]==]
-
+t("Ancient Automated Teacher", "Ancien Enseignant Automatisé", "entity name")
+t("An ancient archive of knowledge! It seems to have some kind of vocal interface.", "Une antique archive de savoir ! Elle semble posséder une forme d'interface vocale.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/tinker-master/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ancient Cave", "Ancient Cave", "_t")
---]==]
-
+t("Ancient Cave", "Caverne Antique", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/grids.lua"
@@ -8289,6 +8201,8 @@ section "tome-orcs/data/zones/town-kruk/grids.lua"
 t("floor", "sol", "entity type")
 t("grass", "herbe", "entity subtype")
 t("exit to the worldmap", "sortie vers la carte du monde", "entity name")
+t("Coward!", "Lâche !", "_t")
+t("You are not coward enough to leave your home unprotected!", "Vous n'êtes pas assez lâche pour laisser votre foyer sans protection !", "_t")
 t("floor", "sol", "entity subtype")
 t("old road", "vieille route", "entity name")
 t("wooden barricade", "barricade de bois", "entity name")
@@ -8300,182 +8214,138 @@ t("open door", "porte ouverte", "entity name")
 t("rock", "rocher", "entity subtype")
 t("ladder to the next level", "échelle vers le niveau suivant", "entity name")
 t("cave", "grotte", "entity subtype")
--- texte non traduit
---[==[
-t("Coward!", "Coward!", "_t")
-t("You are not coward enough to leave your home unprotected!", "You are not coward enough to leave your home unprotected!", "_t")
-t("tunnel weakness", "tunnel weakness", "entity name")
---]==]
-
+t("tunnel weakness", "faiblesse du tunnel", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/npcs.lua"
 
 t("humanoid", "humanoïde", "entity type")
+t("orc guard", "orc garde", "entity name")
 t("A stern-looking guard, he will not let you disturb the town.", "Un garde au visage sévère, il ne vous laissera pas troubler la ville.", "_t")
-t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "Ce grand minotaure mort-vivant porte un marteau d'aspect inquiétant, imbu de foudre.", "_t")
+t("orc gunslinger", "orc flingueur", "entity name")
+t("A nasty looking orc armed with double steamguns.", "Un orc à l'aspect menaçant armé de deux pistolets à vapeur.", "_t")
+t("Commander Fralor", "Commandant Fralor", "entity name")
+t("This heavily armored steam giant carries a huge battleaxe, swinging it menacingly towards you.", "Ce géant de vapeur fortement blindé porte une énorme hache de guerre, qu'il balance de manière menaçante vers vous.", "_t")
+t("Metash the Maulotaur", "Metash le Martelotaure", "entity name")
+t("This big undead minotaur is carrying a nasty looking hammer, imbued with lightning.", "Ce grand minotaure mort-vivant porte un marteau à l'aspect menaçant, imprégné de foudre.", "_t")
 -- texte non traduit
 --[==[
 t("orc", "orc", "entity subtype")
-t("orc guard", "orc guard", "entity name")
-t("orc gunslinger", "orc gunslinger", "entity name")
-t("A nasty looking orc armed with double steamguns.", "A nasty looking orc armed with double steamguns.", "_t")
-t("Commander Fralor", "Commander Fralor", "entity name")
-t("This heavily armored steam giant carries a huge battleaxe, swinging it menacingly towards you.", "This heavily armored steam giant carries a huge battleaxe, swinging it menacingly towards you.", "_t")
-t("Metash the Maulotaur", "Metash the Maulotaur", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/objects.lua"
 
-
--- texte non traduit
---[==[
-t("The Shunned Kruk", "The Shunned Kruk", "entity name")
-t("A history lesson.", "A history lesson.", "_t")
-t("Yeti Mind Controller", "Yeti Mind Controller", "entity name")
-t("This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "_t")
-t("hack the mind of a weakened yeti", "hack the mind of a weakened yeti", "_t")
-t("#CRIMSON#Impossible to to control.", "#CRIMSON#Impossible to to control.", "logPlayer")
-t("#CRIMSON#Impossible to to control.", "#CRIMSON#Impossible to to control.", "saySimple")
-t("#CRIMSON#The yeti is not hurt enough to control.", "#CRIMSON#The yeti is not hurt enough to control.", "logPlayer")
-t("#CRIMSON#The yeti is not hurt enough to control.", "#CRIMSON#The yeti is not hurt enough to control.", "saySimple")
-t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "logPlayer")
-t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "saySimple")
---]==]
-
+t("The Shunned Kruk", "Le Kruk Rejeté", "entity name")
+t("A history lesson.", "Une leçon d'histoire.", "_t")
+t("Yeti Mind Controller", "Contrôleur Mental de Yéti", "entity name")
+t("This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "Ce dispositif semble conçu pour \"pirater\" l'esprit d'un yéti sauvage, afin qu'il puisse être utilisé comme une arme de guerre.", "_t")
+t("hack the mind of a weakened yeti", "pirater l'esprit d'un yéti affaibli", "_t")
+t("#CRIMSON#Impossible to to control.", "#CRIMSON#Impossible à contrôler.", "logPlayer")
+t("#CRIMSON#Impossible to to control.", "#CRIMSON#Impossible à contrôler.", "saySimple")
+t("#CRIMSON#The yeti is not hurt enough to control.", "#CRIMSON#Le yéti n'est pas assez blessé pour être contrôlé.", "logPlayer")
+t("#CRIMSON#The yeti is not hurt enough to control.", "#CRIMSON#Le yéti n'est pas assez blessé pour être contrôlé.", "saySimple")
+t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "#AQUAMARINE#Vous prenez le contrôle de l'esprit du yéti et lui ordonnez de se présenter à la Fierté Kruk.", "logPlayer")
+t("#AQUAMARINE#You overtake the yeti's mind and order it to report to Kruk Pride.", "#AQUAMARINE#Vous prenez le contrôle de l'esprit du yéti et lui ordonnez de se présenter à la Fierté Kruk.", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/traps.lua"
 
 t("Armoury", "Armurerie", "entity name")
 t("Tanner", "Tanneur", "entity name")
+t("Smith", "Forgeron", "entity name")
 t("Herbalist", "Herboriste", "entity name")
+t("Tinkers Store", "Boutique de Babioles", "entity name")
 t("Library", "Bibliothèque", "entity name")
 -- texte non traduit
 --[==[
 t("Forge", "Forge", "entity name")
-t("Smith", "Smith", "entity name")
-t("Tinkers Store", "Tinkers Store", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/zone.lua"
 
-t("Kruk Pride", "Orgueil Kruk", "_t")
+t("Kruk Pride", "Fierté Kruk", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ureslak-host/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("Ureslak the Eternal", "Ureslak the Eternal", "entity name")
-t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "_t")
---]==]
-
+t("Ureslak the Eternal", "Ureslak l'Éternel", "entity name")
+t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "Le légendaire Draconien semble être tombé, bien que cela ne semble pas avoir duré.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ureslak-host/objects.lua"
 
 t("paper scrap", "bouts de papier", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
--- texte non traduit
---[==[
-t("schematic: Hands of Creation", "schematic: Hands of Creation", "entity name")
---]==]
-
+t("schematic: Hands of Creation", "schéma : Mains de la Création", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ureslak-host/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Ureslak's Host", "Ureslak's Host", "_t")
---]==]
-
+t("Ureslak's Host", "Antre d'Ureslak", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/vaporous-emporium/grids.lua"
 
-
--- texte non traduit
---[==[
-t("merchant stall", "merchant stall", "entity name")
---]==]
-
+t("merchant stall", "étal de marchand", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/vaporous-emporium/npcs.lua"
 
 t("giant", "géant", "entity type")
 t("steam", "vapeur", "entity subtype")
+t("An unarmed steam giant.", "Un géant de vapeur désarmé.", "_t")
+t("Guards!", "Gardes !", "_t")
 t("Help!", "Au Secours !", "_t")
--- texte non traduit
---[==[
-t("An unarmed steam giant.", "An unarmed steam giant.", "_t")
-t("Guards!", "Guards!", "_t")
-t("steam giant commoner", "steam giant commoner", "entity name")
-t("Pockets of gold jingle around the waist of this giant.", "Pockets of gold jingle around the waist of this giant.", "_t")
-t("You won't get my gold!", "You won't get my gold!", "_t")
-t("steam giant scribe", "steam giant scribe", "entity name")
-t("This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "_t")
-t("Stay back, I'm warning you!", "Stay back, I'm warning you!", "_t")
-t("High Guard Talosis", "High Guard Talosis", "entity name")
-t("This heavily armored steam giant carries a gun in each hand. The gun in his right hand is ornate and well worn.", "This heavily armored steam giant carries a gun in each hand. The gun in his right hand is ornate and well worn.", "_t")
---]==]
-
+t("steam giant commoner", "géant de vapeur roturier", "entity name")
+t("Pockets of gold jingle around the waist of this giant.", "Des bourses d'or tintent à la ceinture de ce géant.", "_t")
+t("You won't get my gold!", "Vous n'aurez pas mon or !", "_t")
+t("steam giant scribe", "géant de vapeur scribe", "entity name")
+t("This well-dressed giant is is covered in ink smudges and looks somewhat alarmed.", "Ce géant élégamment vêtu est couvert de taches d'encre et semble quelque peu alarmé.", "_t")
+t("Stay back, I'm warning you!", "Reculez, je vous préviens !", "_t")
+t("High Guard Talosis", "Haute Garde Talosis", "entity name")
+t("This heavily armored steam giant carries a gun in each hand. The gun in his right hand is ornate and well worn.", "Ce géant de vapeur fortement blindé porte une arme dans chaque main. L'arme de sa main droite est ornementée et bien usée.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/vaporous-emporium/objects.lua"
 
-
--- texte non traduit
---[==[
-t("poster", "poster", "entity name")
-t("An advertisement poster.", "An advertisement poster.", "_t")
---]==]
-
+t("poster", "affiche", "entity name")
+t("An advertisement poster.", "Une affiche publicitaire.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/vaporous-emporium/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Vaporous Emporium", "Vaporous Emporium", "_t")
---]==]
-
+t("Vaporous Emporium", "Emporium Vaporeux", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/wilderness-add/grids.lua"
 
+t("bridge to the mainland", "pont vers le continent", "entity name")
+t("Kruk Pride (Town)", "Fierté Kruk (Ville)", "entity name")
+t("The last free Pride of the Orcs", "La dernière Fierté libre des Orcs", "_t")
+t("Entrance to the Yeti Caves", "Entrée des Cavernes des Yétis", "entity name")
+t("Entrance to Krimbul territory", "Entrée du territoire Krimbul", "entity name")
+t("Entrance to the Vaporous Emporium", "Entrée de l'Emporium Vaporeux", "entity name")
+t("Huge door to Kaltor's Shop", "Immense porte vers la Boutique de Kaltor", "entity name")
+t("Entrance to the Sunwall Outpost", "Entrée de l'Avant-poste du Mur Solaire", "entity name")
+t("Way into old ruins in the Erúan desert", "Chemin vers d'anciennes ruines dans le désert d'Erúan", "entity name")
+t("Entrance to the Dominion Port", "Entrée du Port du Dominion", "entity name")
+t("Destroyed Dominion Port", "Port du Dominion Détruit", "entity name")
+t("Entrance to a Ritch Hive", "Entrée d'une Ruche des Ritchs", "entity name")
+t("Path to a peak leading to the Sunwall Observatory", "Chemin vers un pic menant à l'Observatoire du Mur Solaire", "entity name")
+t("Entrance to the Pride's Internment Camp", "Entrée du Camp d'Internement de la Fierté", "entity name")
 t("Gates of Morning (Town)", "Portes du Matin (Ville)", "entity name")
 t("A massive hole in the Sunwall.", "Un énorme trou dans le Mur Solaire.", "_t")
+t("Strange mechanical mole", "Étrange taupe mécanique", "entity name")
+t("Path to a Ureslak's Host", "Chemin vers l'Antre d'Ureslak", "entity name")
+t("Entrance to the Steam Quarry", "Entrée de la Carrière de Vapeur", "entity name")
+t("Entrance to the Palace of Fumes", "Entrée du Palais des Fumées", "entity name")
+t("Way into a primal forest", "Chemin vers une forêt primordiale", "entity name")
 -- texte non traduit
 --[==[
-t("bridge to the mainland", "bridge to the mainland", "entity name")
-t("Kruk Pride (Town)", "Kruk Pride (Town)", "entity name")
-t("The last free Pride of the Orcs", "The last free Pride of the Orcs", "_t")
-t("Entrance to the Yeti Caves", "Entrance to the Yeti Caves", "entity name")
-t("Entrance to Krimbul territory", "Entrance to Krimbul territory", "entity name")
-t("Entrance to the Vaporous Emporium", "Entrance to the Vaporous Emporium", "entity name")
-t("Huge door to Kaltor's Shop", "Huge door to Kaltor's Shop", "entity name")
-t("Entrance to the Sunwall Outpost", "Entrance to the Sunwall Outpost", "entity name")
-t("Way into old ruins in the Erúan desert", "Way into old ruins in the Erúan desert", "entity name")
-t("Entrance to the Dominion Port", "Entrance to the Dominion Port", "entity name")
-t("Destroyed Dominion Port", "Destroyed Dominion Port", "entity name")
-t("Entrance to a Ritch Hive", "Entrance to a Ritch Hive", "entity name")
-t("Path to a peak leading to the Sunwall Observatory", "Path to a peak leading to the Sunwall Observatory", "entity name")
-t("Entrance to the Pride's Internment Camp", "Entrance to the Pride's Internment Camp", "entity name")
-t("Strange mechanical mole", "Strange mechanical mole", "entity name")
-t("Path to a Ureslak's Host", "Path to a Ureslak's Host", "entity name")
-t("Entrance to the Steam Quarry", "Entrance to the Steam Quarry", "entity name")
-t("Entrance to the Palace of Fumes", "Entrance to the Palace of Fumes", "entity name")
-t("Way into a primal forest", "Way into a primal forest", "entity name")
 t("DESTRUCTICUS!", "DESTRUCTICUS!", "entity name")
 t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
 --]==]
@@ -8486,84 +8356,62 @@ section "tome-orcs/data/zones/yeti-caves/grids.lua"
 
 t("wall", "mur", "entity type")
 t("icecave", "grotte de glace", "entity subtype")
--- texte non traduit
---[==[
-t("a crude mural painting", "a crude mural painting", "entity name")
---]==]
-
+t("a crude mural painting", "une peinture murale rudimentaire", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/npcs.lua"
 
-
--- texte non traduit
---[==[
-t("immature ice ant", "immature ice ant", "_t")
-t("An oversized white ant. It seems not yet fully developed.", "An oversized white ant. It seems not yet fully developed.", "_t")
-t("Yeti Patriarch", "Yeti Patriarch", "entity name")
-t("This yeti towers over its comrades. You see a cunning in its eyes unmatched by the others.", "This yeti towers over its comrades. You see a cunning in its eyes unmatched by the others.", "_t")
---]==]
-
+t("immature ice ant", "fourmi de glace immature", "_t")
+t("An oversized white ant. It seems not yet fully developed.", "Une fourmi blanche surdimensionnée. Elle ne semble pas encore pleinement développée.", "_t")
+t("Yeti Patriarch", "Yéti Patriarche", "entity name")
+t("This yeti towers over its comrades. You see a cunning in its eyes unmatched by the others.", "Ce yéti domine ses compagnons de toute sa hauteur. Vous voyez dans ses yeux une ruse que les autres n'égalent pas.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/objects.lua"
 
 t("flesh", "chair", "entity type")
+t("Yeti's Muscle Tissue (Patriarch)", "Tissu Musculaire de Yéti (Patriarche)", "entity name")
 t("flesh", "chair", "_t")
 t("Muscle tissue, extracted from a powerful yeti. Somewhere, somebody or something is bound to be interested!", "Tissu musculaire extrait d'un puissant yéti. Quelque part, quelqu'un ou quelque chose sera sûrement intéressé !", "_t")
 t("You cannot bring yourself to drop the %s", "Vous ne pouvez pas vous résoudre à jeter %s", "logPlayer")
 -- texte non traduit
 --[==[
 t("muscle", "muscle", "entity subtype")
-t("Yeti's Muscle Tissue (Patriarch)", "Yeti's Muscle Tissue (Patriarch)", "entity name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/zones/yeti-caves/zone.lua"
 
-
--- texte non traduit
---[==[
-t("Yetis Cave", "Yetis Cave", "_t")
---]==]
-
+t("Yetis Cave", "Caverne des Yétis", "_t")
 
 ------------------------------------------------
 section "tome-orcs/init.lua"
 
-
--- texte non traduit
---[==[
-t("Embers of Rage", "Embers of Rage", "init.lua long_name")
+t("Embers of Rage", "Braises de Rage", "init.lua long_name")
 t([[Play as an orc of the Kruk Pride, located on an island near Var'Eyal.
-Learn to master steam technology, battle the terrible Atmos Tribe and ensure dominion of Var'Eyal for your race.]], [[Play as an orc of the Kruk Pride, located on an island near Var'Eyal.
-Learn to master steam technology, battle the terrible Atmos Tribe and ensure dominion of Var'Eyal for your race.]], "init.lua description")
---]==]
-
+Learn to master steam technology, battle the terrible Atmos Tribe and ensure dominion of Var'Eyal for your race.]], [[Incarnez un orc de la Fierté Kruk, établie sur une île proche de Var'Eyal.
+Apprenez à maîtriser la technologie à vapeur, combattez la terrible Tribu Atmos et assurez la domination de Var'Eyal pour votre race.]], "init.lua description")
 
 ------------------------------------------------
 section "tome-orcs/overload/data/calendar_orc.lua"
 
+t("Remembrance", "Souvenir", "calendar orc")
+t("Retaking", "Reconquête", "calendar orc")
+t("Revenge", "Vengeance", "calendar orc")
+t("Pain", "Douleur", "calendar orc")
 t("Dearth", "Disette", "calendar orc")
 t("Loss", "Perte", "calendar orc")
+t("Renewal", "Renouveau", "calendar orc")
 -- texte non traduit
 --[==[
-t("Remembrance", "Remembrance", "calendar orc")
-t("Retaking", "Retaking", "calendar orc")
-t("Revenge", "Revenge", "calendar orc")
-t("Pain", "Pain", "calendar orc")
 t("Destruction", "Destruction", "calendar orc")
-t("Renewal", "Renewal", "calendar orc")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/intro-orc-whitehooves.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You were a member of the shunned and hunted minotaur race. Your tribe found a way to survive through necromancy.
 
@@ -8572,24 +8420,19 @@ If you help the Orcs with their problems you hope they will with yours; for the 
 
 You have been sent to the Vaporous Emporium to wreak havoc and demoralize the giants.
 For the Krimbul Clan !
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You were a member of the shunned and hunted minotaur race. Your tribe found a way to survive through necromancy.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous étiez membre de la race répudiée et traquée des minotaures. Votre tribu a trouvé un moyen de survivre par la nécromancie.
 
-The only race to ever show respect, if not kindness, to yours was the Orcs and now you found your tribe under the control of a mad leader.
-If you help the Orcs with their problems you hope they will with yours; for the sake of both your kinds.
+La seule race à jamais avoir montré du respect, sinon de la bonté, envers la vôtre fut celle des Orcs, et vous découvrez à présent que votre propre tribu est sous le contrôle d'un chef fou.
+Si vous aidez les Orcs à résoudre leurs problèmes, vous espérez qu'ils vous aideront à résoudre les vôtres ; pour le bien de vos deux peuples.
 
-You have been sent to the Vaporous Emporium to wreak havoc and demoralize the giants.
-For the Krimbul Clan !
+Vous avez été envoyé à l'Emporium Vaporeux pour semer le chaos et démoraliser les géants.
+Pour le Clan Krimbul !
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/intro-orc-yeti.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You were a member of the prideful but dwindling Orc race.
 
@@ -8605,31 +8448,26 @@ Using psytech you #{bold}#hacked#{normal}# into a yeti's simple mind and took re
 
 You have been sent to the Vaporous Emporium to wreak havoc and demoralize the giants.
 For the Pride, for Garkul's legacy !
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You were a member of the prideful but dwindling Orc race.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous étiez membre de la fière, mais déclinante, race des Orcs.
 
-Throughout history your race has been hated, hunted and mercilessly killed by the others. It also committed its lot of atrocities and destructions.
-But now, the Orcs are on the brink of extinction. All their strongholds in Var'Eyal have been destroyed either by the Sunwall or the one you name the #{italic}#Scourge of the West#{normal}#.
-Of the four Prides on the mainland none stood. They all fell and very few of their members were able to flee.
+Tout au long de l'histoire, votre race a été haïe, traquée et impitoyablement massacrée par les autres. Elle a également commis son lot d'atrocités et de destructions.
+Mais désormais, les Orcs sont au bord de l'extinction. Toutes leurs places fortes en Var'Eyal ont été détruites, soit par le Mur Solaire, soit par celui que vous nommez le #{italic}#Fléau de l'Ouest#{normal}#.
+Des quatre Fiertés du continent, aucune n'a tenu bon. Toutes sont tombées, et bien peu de leurs membres ont pu fuir.
 
-Only the Kruk Pride, stationed on the Clork Peninsula still stands, but for how long?
-The Sunwall outpost blocks the way to the mainland and the peninsula itself is home to an advanced race of aggressive giants who mastered steam technology.
+Seule la Fierté Kruk, établie sur la Péninsule de Clork, tient encore debout, mais pour combien de temps ?
+L'avant-poste du Mur Solaire bloque la route vers le continent, et la péninsule elle-même abrite une race avancée de géants agressifs, maîtres de la technologie à vapeur.
 
-In your previous incarnation you were a powerful psionic and took part in a program to give Kruk a fighting advantage over the towering mass of muscles that giants are.
-Using psytech you #{bold}#hacked#{normal}# into a yeti's simple mind and took residence there, letting your own body to wither and die. You lost most of your experiences and powers in doing so but gained a powerful body to help the Pride.
+Dans votre précédente incarnation, vous étiez un puissant psionique, et avez pris part à un programme visant à donner à Kruk un avantage décisif face à cette imposante masse de muscles que sont les géants.
+En usant de psychotec, vous avez #{bold}#piraté#{normal}# l'esprit simple d'un yéti et vous y êtes installé, laissant votre propre corps dépérir et mourir. Ce faisant, vous avez perdu l'essentiel de vos souvenirs et de vos pouvoirs, mais gagné un corps puissant pour aider la Fierté.
 
-You have been sent to the Vaporous Emporium to wreak havoc and demoralize the giants.
-For the Pride, for Garkul's legacy !
+Vous avez été envoyé à l'Emporium Vaporeux pour semer le chaos et démoraliser les géants.
+Pour la Fierté, pour l'héritage de Garkul !
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/intro-orc.lua"
 
-
--- texte non traduit
---[==[
 t([[Welcome #LIGHT_GREEN#@name@#WHITE#.
 You are a member of the prideful but dwindling Orc race.
 
@@ -8645,51 +8483,41 @@ They must be stopped at any cost, if Kruk falls the Orc race dies with it.
 
 You grabbed a bomb from the stocks and now you must enter the tunnel and detonate it on a weak spot to make it crumble.
 For the orcs, for Garkul's legacy !
-]], [[Welcome #LIGHT_GREEN#@name@#WHITE#.
-You are a member of the prideful but dwindling Orc race.
+]], [[Bienvenue #LIGHT_GREEN#@name@#WHITE#.
+Vous êtes membre de la fière, mais déclinante, race des Orcs.
 
-Throughout history your race has been hated, hunted and mercilessly killed by the others. It also committed its lot of atrocities and destructions.
-But now, the Orcs are on the brink of extinction. All their strongholds in Var'Eyal have been destroyed either by the Sunwall or the one you name the #{italic}#Scourge of the West#{normal}#.
-Of the four Prides on the mainland none stood. They all fell and very few of their members were able to flee.
+Tout au long de l'histoire, votre race a été haïe, traquée et impitoyablement massacrée par les autres. Elle a également commis son lot d'atrocités et de destructions.
+Mais désormais, les Orcs sont au bord de l'extinction. Toutes leurs places fortes en Var'Eyal ont été détruites, soit par le Mur Solaire, soit par celui que vous nommez le #{italic}#Fléau de l'Ouest#{normal}#.
+Des quatre Fiertés du continent, aucune n'a tenu bon. Toutes sont tombées, et bien peu de leurs membres ont pu fuir.
 
-Only the Kruk Pride, stationed on the Clork Peninsula still stands, but for how long?
-The Sunwall outpost blocks the way to the mainland and the peninsula itself is home to an advanced race of aggressive giants who mastered steam technology.
+Seule la Fierté Kruk, établie sur la Péninsule de Clork, tient encore debout, mais pour combien de temps ?
+L'avant-poste du Mur Solaire bloque la route vers le continent, et la péninsule elle-même abrite une race avancée de géants agressifs, maîtres de la technologie à vapeur.
 
-And now the giants have dug a tunnel through the mountains right into Kruk, pouring out of it to end the Pride once and for all while the bulk of Kruk forces are away.
-They must be stopped at any cost, if Kruk falls the Orc race dies with it.
+Et voilà que les géants ont creusé un tunnel à travers les montagnes, en plein coeur de Kruk, déversant leurs troupes pour en finir avec la Fierté une bonne fois pour toutes, profitant de l'absence du gros des forces de Kruk.
+Ils doivent être arrêtés à tout prix ; si Kruk tombe, la race orc s'éteindra avec elle.
 
-You grabbed a bomb from the stocks and now you must enter the tunnel and detonate it on a weak spot to make it crumble.
-For the orcs, for Garkul's legacy !
+Vous avez saisi une bombe dans les stocks, et vous devez maintenant pénétrer dans le tunnel et la faire détoner sur un point faible pour le faire s'effondrer.
+Pour les orcs, pour l'héritage de Garkul !
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-cosmetic_race_orc.lua"
 
-
--- texte non traduit
---[==[
-t("New Cosmetic Race Option: #LIGHT_GREEN#Orc Headgear", "New Cosmetic Race Option: #LIGHT_GREEN#Orc Headgear", "_t")
+t("New Cosmetic Race Option: #LIGHT_GREEN#Orc Headgear", "Nouvelle Option Cosmétique de Race : #LIGHT_GREEN#Coiffe d'Orc", "_t")
 t([[You have played an orc tinker up to level 10.
 
 You may now create orc characters proudly sporting goggles or monocles.
 This has no effect on gameplay at all but it is fun!
-]], [[You have played an orc tinker up to level 10.
+]], [[Vous avez joué un orc bricoleur jusqu'au niveau 10.
 
-You may now create orc characters proudly sporting goggles or monocles.
-This has no effect on gameplay at all but it is fun!
+Vous pouvez désormais créer des personnages orcs arborant fièrement des lunettes de protection ou des monocles.
+Cela n'a strictement aucun effet sur le jeu, mais c'est amusant !
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-mage_technomancer.lua"
 
-
--- texte non traduit
---[==[
-t("New Class Evolution: #LIGHT_GREEN#Technomancer (Archmage)", "New Class Evolution: #LIGHT_GREEN#Technomancer (Archmage)", "_t")
+t("New Class Evolution: #LIGHT_GREEN#Technomancer (Archmage)", "Nouvelle Évolution de Classe : #LIGHT_GREEN#Technomancien (Archimage)", "_t")
 t([[#{bold}##GOLD#EUREKA!#LAST##{normal}#
 
 As an archmage you are trained into the intricacies of the arcane forces, but as a tinker you know how to build and create. And suddently it hit you!
@@ -8706,103 +8534,80 @@ Features:#YELLOW#
 #WHITE#
 
 Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
-]], [[#{bold}##GOLD#EUREKA!#LAST##{normal}#
+]], [[#{bold}##GOLD#EUREKA !#LAST##{normal}#
 
-As an archmage you are trained into the intricacies of the arcane forces, but as a tinker you know how to build and create. And suddently it hit you!
-#{italic}#You now understand how to combine magic and technology!#{normal}#
+En tant qu'archimage, vous êtes formé aux subtilités des forces arcaniques, mais en tant que Bricoleur, vous savez aussi construire et créer. Et soudain, l'évidence vous frappe !
+#{italic}#Vous comprenez maintenant comment combiner la magie et la technologie !#{normal}#
 
-You have unlocked the #LIGHT_GREEN#Technomancer class evolution#WHITE# for Archmages.
+Vous avez débloqué l'évolution de classe #LIGHT_GREEN#Technomancien#WHITE# pour les Archimages.
 
-Features:#YELLOW#
-- Occult Technomancy: Use a rapidly spinning steamsaw to rip appart reality itself and project arcane and temporal onslaughts
-- Galvanic Technomancy: Create galvanic rods that link up to create deadly fields of fire and lightning to burn down your foes
-- Terrene Technomancy: Craft and control swarms of micro spiderbots to damage and debilitate your foes with water and earth forces
-- Arcane Dynamo: Casting spells generates steam and steam increases spellpower
-- Access to physics and chemistry: All Technomancers know the basics of crafting tinkers
+Caractéristiques :#YELLOW#
+- Technomancie Occulte : Utilisez une scie à vapeur tournant rapidement pour déchirer la réalité elle-même et projeter des assauts arcaniques et temporels
+- Technomancie Galvanique : Créez des tiges galvaniques qui se relient entre elles pour former de mortels champs de feu et de foudre afin de consumer vos ennemis
+- Technomancie Terrène : Fabriquez et contrôlez des essaims de micro robots-araignées pour endommager et affaiblir vos ennemis avec les forces de l'eau et de la terre
+- Dynamo Arcanique : Lancer des sorts génère de la vapeur, et la vapeur augmente la Puissance des sorts
+- Accès à la physique et à la chimie : Tous les Technomanciens connaissent les bases de la fabrication de babioles
 #WHITE#
 
-Class evolutions are selected as prodigies and grant new ways to build and expand your class and are only visible to the concerned class.
+Les évolutions de classe sont sélectionnées comme des prodiges et accordent de nouvelles façons de construire et d'étendre votre classe ; elles ne sont visibles que pour la classe concernée.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-orcs_campaign_all_classes.lua"
 
-
--- texte non traduit
---[==[
-t("New birth option: #LIGHT_GREEN#All classes", "New birth option: #LIGHT_GREEN#All classes", "_t")
+t("New birth option: #LIGHT_GREEN#All classes", "Nouvelle option de création : #LIGHT_GREEN#Toutes les classes", "_t")
 t([[You have freed the Prides from the Internment Camp for the third time.
 
 You can now create new characters in the orc campaign with any classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
-]], [[You have freed the Prides from the Internment Camp for the third time.
+]], [[Vous avez libéré les Fiertés du Camp d'Internement pour la troisième fois.
 
-You can now create new characters in the orc campaign with any classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
+Vous pouvez désormais créer de nouveaux personnages dans la campagne orc avec n'importe quelle classe que vous avez débloquée #LIGHT_GREEN#v#WHITE#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-orcs_campaign_mage.lua"
 
-
--- texte non traduit
---[==[
-t("New birth option: #LIGHT_GREEN#Mages", "New birth option: #LIGHT_GREEN#Mages", "_t")
+t("New birth option: #LIGHT_GREEN#Mages", "Nouvelle option de création : #LIGHT_GREEN#Mages", "_t")
 t([[You have freed the Prides from the Internment Camp.
 
 You can now create new characters in the orc campaign with any mage classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
-]], [[You have freed the Prides from the Internment Camp.
+]], [[Vous avez libéré les Fiertés du Camp d'Internement.
 
-You can now create new characters in the orc campaign with any mage classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
+Vous pouvez désormais créer de nouveaux personnages dans la campagne orc avec n'importe quelle classe de mage que vous avez débloquée #LIGHT_GREEN#dans la classique Ère de l'Ascendance#WHITE#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-orcs_campaign_rogue.lua"
 
-
--- texte non traduit
---[==[
-t("New birth option: #LIGHT_GREEN#Rogues", "New birth option: #LIGHT_GREEN#Rogues", "_t")
+t("New birth option: #LIGHT_GREEN#Rogues", "Nouvelle option de création : #LIGHT_GREEN#Brigands", "_t")
 t([[You have freed the Prides from the Internment Camp.
 
 You can now create new characters in the orc campaign with any rogue classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
-]], [[You have freed the Prides from the Internment Camp.
+]], [[Vous avez libéré les Fiertés du Camp d'Internement.
 
-You can now create new characters in the orc campaign with any rogue classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy#WHITE#.
+Vous pouvez désormais créer de nouveaux personnages dans la campagne orc avec n'importe quelle classe de brigand que vous avez débloquée #LIGHT_GREEN#dans la classique Ère de l'Ascendance#WHITE#.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-orcs_tinker_eyal.lua"
 
-
--- texte non traduit
---[==[
-t("New Age of Ascendancy birth option: #LIGHT_GREEN#Tinkers", "New Age of Ascendancy birth option: #LIGHT_GREEN#Tinkers", "_t")
+t("New Age of Ascendancy birth option: #LIGHT_GREEN#Tinkers", "Nouvelle option de création pour l'Ère de l'Ascendance : #LIGHT_GREEN#Bricoleurs", "_t")
 t([[You have defeated Outpost Leader John with two different tinker classes.
 You can now create new characters with any tinker classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy, Infinite Dungeon and Arena campaigns#WHITE#.
 Also tinker escorts may start to appear in Maj'Eyal now.
 
-Playing characters this way is not lore-canon, but fun!]], [[You have defeated Outpost Leader John with two different tinker classes.
-You can now create new characters with any tinker classes you have unlocked #LIGHT_GREEN#in the classical Age of Ascendancy, Infinite Dungeon and Arena campaigns#WHITE#.
-Also tinker escorts may start to appear in Maj'Eyal now.
+Playing characters this way is not lore-canon, but fun!]], [[Vous avez vaincu John, Chef de l'Avant-poste, avec deux classes de bricoleurs différentes.
 
-Playing characters this way is not lore-canon, but fun!]], "_t")
---]==]
+Vous pouvez désormais créer de nouveaux personnages avec n'importe quelle classe de Bricoleur que vous avez débloquée dans les campagnes #LIGHT_GREEN#de la classique Ère de l'Ascendance#WHITE#, #LIGHT_GREEN#Donjon Infini#WHITE# et #LIGHT_GREEN#Arène#WHITE#.
 
+De plus, des aventuriers bricoleurs à escorter pourront désormais apparaître en Maj'Eyal.
+
+Faire intervenir des bricoleurs dans les événements de l'Ère de l'Ascendance n'est pas canonique, mais c'est amusant !]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-race_whitehooves.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Whitehoof", "New Race: #LIGHT_GREEN#Whitehoof", "_t")
+t("New Race: #LIGHT_GREEN#Whitehoof", "Nouvelle Race : #LIGHT_GREEN#Sabot-Blanc", "_t")
 t([[A clan of minotaurs turned to necromancy when faced with imminent destruction. Ever since they have kept to themselves.
 But the discovery of a strange artifact in a crashed airship changed their fate. One of them tried to assert control over the clan, a few resist and hope to free their comrades.
 
@@ -8814,28 +8619,23 @@ Race features:#YELLOW#
 - Silence resistance
 - No need to breathe
 - Special whitehoof talents: Dead Hide, Lifeless Rush, Essence Drain#WHITE#
-]], [[A clan of minotaurs turned to necromancy when faced with imminent destruction. Ever since they have kept to themselves.
-But the discovery of a strange artifact in a crashed airship changed their fate. One of them tried to assert control over the clan, a few resist and hope to free their comrades.
+]], [[Confronté à une destruction imminente, un clan de minotaures se tourna vers la nécromancie. Depuis lors, ils se sont tenus à l'écart, gardant jalousement leurs sombres secrets.
+Mais la découverte d'un étrange artefact dans un dirigeable accidenté a changé leur destin. L'un d'eux, séduit par le pouvoir de l'artefact, tenta d'usurper le pouvoir et de prendre le contrôle du clan, tandis que d'autres résistent, déterminés à libérer leurs compagnons de l'emprise de ce nouveau chef.
 
-You have helped free the Whitehoof Clan from the reign of Nektosh can now create a new character with the #LIGHT_GREEN#Whitehoof race#WHITE#.
+Vous avez aidé à libérer le Clan Sabot-Blanc du règne de Nektosh, et pouvez désormais créer un nouveau personnage de race #LIGHT_GREEN#Sabot-Blanc#WHITE#.
 
-Race features:#YELLOW#
-- Poison immunity
-- Bleeding immunity
-- Silence resistance
-- No need to breathe
-- Special whitehoof talents: Dead Hide, Lifeless Rush, Essence Drain#WHITE#
+Caractéristiques de race :#YELLOW#
+- Immunité au poison (100%)
+- Immunité au saignement (100%)
+- Résistance au silence (50%)
+- Aucun besoin de respirer
+- Talents spéciaux de Sabot-Blanc : Cuir Mort, Charge sans Vie, Drain d'Essence#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-race_yeti.lua"
 
-
--- texte non traduit
---[==[
-t("New Race: #LIGHT_GREEN#Yeti", "New Race: #LIGHT_GREEN#Yeti", "_t")
+t("New Race: #LIGHT_GREEN#Yeti", "Nouvelle Race : #LIGHT_GREEN#Yéti", "_t")
 t([[Yetis are native creatures to the cold mountains of the Clork peninsula, highly evolved bipedal animals they still lack true sentience.
 Their white fur covers an extremely strong body, but their minds are weak.
 Techno-psionics of the Kruk Pride have managed to devise a system to hijack a yeti's body, transferring their own mind into them to increase the Pride's fighting power.
@@ -8846,27 +8646,22 @@ Race features:#YELLOW#
 - Algid Rage, call upon the harsh climate of their birthplace to freeze their foes
 - Mindwave, the controlling orc retains a small part of his psionic powers, giving them a powerful mind-tool
 - Strong body#WHITE#
-]], [[Yetis are native creatures to the cold mountains of the Clork peninsula, highly evolved bipedal animals they still lack true sentience.
-Their white fur covers an extremely strong body, but their minds are weak.
-Techno-psionics of the Kruk Pride have managed to devise a system to hijack a yeti's body, transferring their own mind into them to increase the Pride's fighting power.
+]], [[Les Yétis sont des créatures natives des montagnes glaciales de la péninsule de Clork ; des animaux bipèdes hautement évolués, mais qui ne possèdent pas encore de véritable conscience.
+Leur fourrure blanche recouvre un corps extrêmement puissant, mais leur esprit reste faible.
+Les technopsioniques de la Fierté Kruk ont mis au point un système permettant de détourner le corps d'un yéti, en y transférant leur propre esprit afin d'accroître la puissance de combat de la Fierté.
 
-You have helped capture multiple Yetis for such purpose and can now create a new character with the #LIGHT_GREEN#Yeti race#WHITE#.
+Vous avez aidé à capturer plusieurs Yétis à cette fin, et pouvez désormais créer un nouveau personnage de race #LIGHT_GREEN#Yéti#WHITE#.
 
-Race features:#YELLOW#
-- Algid Rage, call upon the harsh climate of their birthplace to freeze their foes
-- Mindwave, the controlling orc retains a small part of his psionic powers, giving them a powerful mind-tool
-- Strong body#WHITE#
+Caractéristiques de race :#YELLOW#
+- Rage Algide : invoque le climat rigoureux de leur terre natale pour geler leurs ennemis
+- Explosion Mentale : l'orc contrôleur conserve une petite part de ses pouvoirs psioniques, lui offrant un puissant outil mental
+- Un corps robuste#WHITE#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-tinker_annihilator.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Annihilator (Tinker)", "New Class: #LIGHT_GREEN#Annihilator (Tinker)", "_t")
+t("New Class: #LIGHT_GREEN#Annihilator (Tinker)", "Nouvelle Classe : #LIGHT_GREEN#Annihilateur (Bricoleur)", "_t")
 t([[After researching the remains of many foes you found new ways to bring the literal heat of battle to your foes!
 You can now create new characters with the #LIGHT_GREEN#Annihilator class#WHITE#.
 
@@ -8878,28 +8673,25 @@ Class features:#YELLOW#
 - Make your foes suffer in many new ways: fire rockets and grenades at them, equip an exoskeleton, ... #WHITE#
 
 All Tinker classes use Steam for their powers.
-]], [[After researching the remains of many foes you found new ways to bring the literal heat of battle to your foes!
-You can now create new characters with the #LIGHT_GREEN#Annihilator class#WHITE#.
+]], [[Après avoir étudié minutieusement les dépouilles de nombreux ennemis, vous avez découvert de nouveaux moyens d'apporter la chaleur, au sens littéral, de la bataille à vos adversaires !
 
-Annihilators are Tinkers that can create and use heavy weapons (flamethrowers, shockstaves, boltguns) and apply their tinkering knowledge to create advanced war contraptions.
-Class features:#YELLOW#
-- Unleash the power of your heavy weapons
-- Construct automated turrets for war or even medical purposes
-- Build an mecharachnid bot to help you in combat that can act independently or be directly piloted
-- Make your foes suffer in many new ways: fire rockets and grenades at them, equip an exoskeleton, ... #WHITE#
+Vous pouvez désormais créer de nouveaux personnages avec la classe #LIGHT_GREEN#Annihilateur#WHITE#.
 
-All Tinker classes use Steam for their powers.
+Les Annihilateurs sont des Bricoleurs capables de créer et d'utiliser des armes lourdes (lance-flammes, bâtons de choc, fusils à boulons), et d'appliquer leur savoir-faire pour concevoir des engins de guerre avancés.
+
+Caractéristiques de classe :#YELLOW#
+- Déchaînez la puissance de vos armes lourdes
+- Construisez des tourelles automatisées, à des fins de guerre ou même médicales
+- Fabriquez un robot mécarachnide pour vous assister au combat, capable d'agir de manière autonome ou d'être piloté directement
+- Faites souffrir vos ennemis de bien des nouvelles façons : tirez-leur dessus des roquettes et des grenades, équipez un exosquelette...#WHITE#
+
+Toutes les classes de Bricoleurs utilisent la Vapeur pour leurs pouvoirs.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-tinker_psyshot.lua"
 
-
--- texte non traduit
---[==[
-t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "New Class: #LIGHT_GREEN#Psyshot (Tinker)", "_t")
+t("New Class: #LIGHT_GREEN#Psyshot (Tinker)", "Nouvelle Classe : #LIGHT_GREEN#Psychodessoudeur (Bricoleur)", "_t")
 t([[You have found extremely old machines powered by advanced psionics and technology. Psionics without a living mind was never thought possible.
 You can now create new characters with the #LIGHT_GREEN#Psyshot class#WHITE#.
 
@@ -8911,28 +8703,25 @@ Class features:#YELLOW#
 - Enter a psionic gestalt with your steam generators, boosting them#WHITE#
 
 All Tinker classes use Steam for their powers.
-]], [[You have found extremely old machines powered by advanced psionics and technology. Psionics without a living mind was never thought possible.
-You can now create new characters with the #LIGHT_GREEN#Psyshot class#WHITE#.
+]], [[Vous avez découvert des machines extrêmement anciennes, alimentées par une technologie et une psionique avancées. On pensait jusqu'alors que la psionique sans esprit vivant était impossible.
 
-Psyshots are Tinkers that merge psionics and steamtech in a lethal blend, wielding a steamgun in one hand and a mindstar in the other.
-Class features:#YELLOW#
-- Project mindstar attacks with each bullet you fire
-- Inspire dread to weaken your foes to your gunslinging
-- Manipulate the very air around your victims
-- Enter a psionic gestalt with your steam generators, boosting them#WHITE#
+Vous pouvez désormais créer de nouveaux personnages avec la classe #LIGHT_GREEN#Psychodessoudeur#WHITE#.
 
-All Tinker classes use Steam for their powers.
+Les Psychodessoudeurs sont des Bricoleurs qui fusionnent psionique et vapotech en un mélange mortel, maniant un pistolet à vapeur d'une main et une étoile d'âme de l'autre.
+
+Caractéristiques :#YELLOW#
+- Projette des attaques d'étoile d'âme à chaque balle tirée
+- Inspire l'effroi pour affaiblir vos ennemis face à vos tirs
+- Manipule l'air même autour de vos victimes
+- Entre en gestalt psionique avec vos générateurs de vapeur, les amplifiant#WHITE#
+
+Toutes les classes de Bricoleur utilisent la Vapeur pour leurs pouvoirs.
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/data/texts/unlock-wyrmic_undead.lua"
 
-
--- texte non traduit
---[==[
-t("New Talent Category: #LIGHT_GREEN#Undead Drake", "New Talent Category: #LIGHT_GREEN#Undead Drake", "_t")
+t("New Talent Category: #LIGHT_GREEN#Undead Drake", "Nouvelle Catégorie de Talent : #LIGHT_GREEN#Aspect de Dragon Mort-Vivant", "_t")
 t([[Drakes are forces of Nature, the ultimate apex predators. But as they grow old some gain sentience and some of those may wish to prolong their lives beyond death.
 You have encountered one such and vanquished it.
 
@@ -8943,26 +8732,48 @@ Talents:
 - #YELLOW#Infectious Miasma: #WHITE#Release a deadly cloud of diseases and blight
 - #YELLOW#Vampiric Surge: #WHITE#Revel in the pain of others to heal yourself
 - #YELLOW#Necrotic Breath: #WHITE#Breath pure darkness
-]], [[Drakes are forces of Nature, the ultimate apex predators. But as they grow old some gain sentience and some of those may wish to prolong their lives beyond death.
-You have encountered one such and vanquished it.
+]], [[Les dragons sont des forces de la Nature, les prédateurs suprêmes. Mais en vieillissant, certains acquièrent une conscience, et certains d'entre eux peuvent désirer prolonger leur vie au-delà de la mort.
+Vous en avez rencontré un tel spécimen, et l'avez vaincu.
 
-You can now master Undead Drake magic and create new Wyrmic characters that can learn the #LIGHT_GREEN#Undead Drake talents#WHITE#.
+Vous pouvez désormais maîtriser la magie du Dragon Mort-Vivant et créer de nouveaux personnages Draconiens capables d'apprendre le talent #LIGHT_GREEN#Aspect de Dragon Mort-Vivant#WHITE#.
 
-Talents:
-- #YELLOW#Raze: #WHITE#Augment your melee strikes with deadly energies, absorbing the souls of your foes
-- #YELLOW#Infectious Miasma: #WHITE#Release a deadly cloud of diseases and blight
-- #YELLOW#Vampiric Surge: #WHITE#Revel in the pain of others to heal yourself
-- #YELLOW#Necrotic Breath: #WHITE#Breath pure darkness
+Talents :
+- #YELLOW#Dévastation : #WHITE#Renforcez vos frappes de corps à corps avec des énergies mortelles, absorbant les âmes de vos ennemis
+- #YELLOW#Miasme Infectieux : #WHITE#Libérez un nuage mortel de maladies et de fléau
+- #YELLOW#Sursaut Vampirique : #WHITE#Délectez-vous de la douleur d'autrui pour vous soigner
+- #YELLOW#Souffle Nécrotique : #WHITE#Exhalez des ténèbres pures
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/overload/mod/class/OrcCampaign.lua"
 
+t("Steam", "Vapeur", "_t")
+t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Votre réserve de vapeur. La vapeur sert à alimenter la plupart des dispositifs technologiques. Il est très difficile d'augmenter votre vapeur maximale, mais elle se régénère rapidement.", "_t")
+t("Tail", "Queue", "_t")
+t("Object held in your tail. It can be a steamgun or steamsaw.", "Objet tenu par votre queue. Il peut s'agir d'un pistolet à vapeur ou d'une scie à vapeur.", "_t")
+t("SteamTech", "Vapotech", "_t")
+t("Steampower: #00ff00#%s", "Puissance de Vapeur : #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
+t("Steam speed : #00ff00#%s", "Vitesse de vapeur : #00ff00#%s", "tformat")
+t("Powered by ", "Alimenté par ", "_t")
 t("steamtech", "vapotech", "_t")
+t("Steampower: ", "Puissance de Vapeur : ", "_t")
+t("Steam crit. chance: ", "Chance de crit de vapeur : ", "_t")
+t("Steamtech Speed: ", "Vitesse Vapotech : ", "_t")
+t("Steam each turn: ", "Vapeur par tour : ", "_t")
+t("Maximum steam: ", "Vapeur maximale : ", "_t")
+t("You may not shoot while using a heavy weapon.", "Vous ne pouvez pas tirer tant que vous utilisez une arme lourde.", "logPlayer")
+t("lost tinker", "bricoleur perdu", "_t")
+t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Aidez-moi, je vous en prie ! Je crains de m'être perdue en cet endroit en testant une nouvelle vapotech. Je sais qu'un portail de rappel a été laissé quelque part par ici par une amie, mais j'ai livré trop de combats, et je crains de ne pas y parvenir. Voudriez-vous m'aider ?", "_t")
+t("%s, the experimenting tinker", "%s, la bricoleuse expérimentatrice", "_t")
 t("She looks tired and wounded.", "Elle a l'air blessé et fatigué.", "_t")
+t("[Ask where to learn tinkers crafting]", "[Demander où apprendre l'art des Bricoleurs]", "_t")
+t("Reveal the location of a teacher.", "Révèle l'emplacement d'un enseignant.", "_t")
+t("Tinker's Master", "Maître Bricoleur", "_t")
+t("She points a location on your map, in a remote area to the north.", "Elle vous indique un emplacement sur votre carte, dans une région isolée au nord.", "_t")
+t("You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "On vous remet une étrange engeance métallique, en vous expliquant que son utilisation vous transportera jusqu'à la caverne du bricoleur.", "_t")
+t("gained knowledge of tinker technology", "a acquis la connaissance de la technologie des Bricoleurs", "_t")
+t("Steamtech", "Vapotech", "_t")
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
 t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
@@ -8979,52 +8790,23 @@ t("Oh, let's try something else then.", "Oh, alors essayons autre chose.", "_t")
 t("Oh well, maybe later then.", "Eh bien, peut-être plus tard alors.", "_t")
 -- texte non traduit
 --[==[
-t("Steam", "Steam", "_t")
-t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "_t")
-t("Tail", "Tail", "_t")
-t("Object held in your tail. It can be a steamgun or steamsaw.", "Object held in your tail. It can be a steamgun or steamsaw.", "_t")
-t("SteamTech", "SteamTech", "_t")
-t("Steampower: #00ff00#%s", "Steampower: #00ff00#%s", "tformat")
-t("Steam speed : #00ff00#%s", "Steam speed : #00ff00#%s", "tformat")
-t("Powered by ", "Powered by ", "_t")
 t("%+d #LAST#(%+d eff.)", "%+d #LAST#(%+d eff.)", "_t")
-t("Steampower: ", "Steampower: ", "_t")
-t("Steam crit. chance: ", "Steam crit. chance: ", "_t")
-t("Steamtech Speed: ", "Steamtech Speed: ", "_t")
-t("Steam each turn: ", "Steam each turn: ", "_t")
-t("Maximum steam: ", "Maximum steam: ", "_t")
-t("You may not shoot while using a heavy weapon.", "You may not shoot while using a heavy weapon.", "logPlayer")
-t("lost tinker", "lost tinker", "_t")
-t("Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "Please help me! I am afraid I lost myself in this place while testing some new steamtech. I know there is a recall portal left around here by a friend, but I have fought too many battles, and I fear I will not make it. Would you help me?", "_t")
-t("%s, the experimenting tinker", "%s, the experimenting tinker", "_t")
-t("[Ask where to learn tinkers crafting]", "[Ask where to learn tinkers crafting]", "_t")
-t("Reveal the location of a teacher.", "Reveal the location of a teacher.", "_t")
-t("Tinker's Master", "Tinker's Master", "_t")
-t("She points a location on your map, in a remote area to the north.", "She points a location on your map, in a remote area to the north.", "_t")
-t("You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "_t")
-t("gained knowledge of tinker technology", "gained knowledge of tinker technology", "_t")
-t("Steamtech", "Steamtech", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/overload/mod/class/interface/PartyTinker.lua"
 
-
--- texte non traduit
---[==[
-t("unknown tinker", "unknown tinker", "_t")
-t("can not create tier %d", "can not create tier %d", "tformat")
-t("requires %s level %d", "requires %s level %d", "tformat")
-t("requires %d %s", "requires %d %s", "tformat")
-t("requires %s", "requires %s", "tformat")
-t("Impossible to create %s(%s)", "Impossible to create %s(%s)", "tformat")
-t("Created tinker: %s", "Created tinker: %s", "log")
-t("Created tinker: %s", "Created tinker: %s", "saySimple")
-t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "Learnt new tinker schematic: #LIGHT_GREEN#%s", "log")
-t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "Learnt new tinker schematic: #LIGHT_GREEN#%s", "saySimple")
---]==]
-
+t("unknown tinker", "babiole inconnue", "_t")
+t("can not create tier %d", "impossible de créer le palier %d", "tformat")
+t("requires %s level %d", "Requiert %s niveau %d", "tformat")
+t("requires %d %s", "Requiert %dx %s", "tformat")
+t("requires %s", "Requiert %s", "tformat")
+t("Impossible to create %s(%s)", "Impossible de créer %s (%s)", "tformat")
+t("Created tinker: %s", "Babiole créée : %s", "log")
+t("Created tinker: %s", "Babiole créée : %s", "saySimple")
+t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "Nouveau schéma appris : #LIGHT_GREEN#%s", "log")
+t("Learnt new tinker schematic: #LIGHT_GREEN#%s", "Nouveau schéma appris : #LIGHT_GREEN#%s", "saySimple")
 
 ------------------------------------------------
 section "tome-orcs/overload/mod/dialogs/CreateTinker.lua"
@@ -9032,89 +8814,70 @@ section "tome-orcs/overload/mod/dialogs/CreateTinker.lua"
 t("Tinkers", "Babioles", "_t")
 t("Search: ", "Chercher : ", "_t")
 t("Tinker", "Bricoleur", "_t")
+t("Slot", "Emplacement", "_t")
+t("School", "École", "_t")
 t("Status", "Statut", "_t")
 t("Create", "Créer", "_t")
+t("Tier 1", "Palier 1", "_t")
+t("Tier 2", "Palier 2", "_t")
+t("Tier 3", "Palier 3", "_t")
+t("Tier 4", "Palier 4", "_t")
+t("Tier 5", "Palier 5", "_t")
+t("Requires talents:", "Requiert des talents :", "_t")
+t("Requires ingredients:", "Requiert des ingrédients :", "_t")
+t(" (You have: %s)", " (Vous possédez : %s)", "tformat")
+t("Requires items:", "Requiert des objets :", "_t")
 t("Requires:", "Requis : ", "_t")
+t("Example Item:", "Exemple d'Objet :", "_t")
+t("body", "corps", "_t")
+t("create tier( %s )", "palier %s", "tformat")
+t("missing reqs", "prérequis manquants", "_t")
 -- texte non traduit
 --[==[
 t("", "", "_t")
-t("Slot", "Slot", "_t")
-t("School", "School", "_t")
-t("Tier 1", "Tier 1", "_t")
-t("Tier 2", "Tier 2", "_t")
-t("Tier 3", "Tier 3", "_t")
-t("Tier 4", "Tier 4", "_t")
-t("Tier 5", "Tier 5", "_t")
-t("Requires talents:", "Requires talents:", "_t")
-t("Requires ingredients:", "Requires ingredients:", "_t")
-t(" (You have: %s)", " (You have: %s)", "tformat")
-t("Requires items:", "Requires items:", "_t")
-t("Example Item:", "Example Item:", "_t")
-t("body", "body", "_t")
-t("create tier( %s )", "create tier( %s )", "tformat")
-t("missing reqs", "missing reqs", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/Actor.lua"
 
+t("#FFD700#St. power#FFFFFF#: ", "#FFD700#P. vapeur#FFFFFF# : ", "_t")
+t("Kruk Invasion", "Invasion de Kruk", "_t")
+t("You can not recall until you have placed the bomb at the tunnel's end!", "Vous ne pouvez pas être rappelé tant que vous n'avez pas placé la bombe au bout du tunnel !", "_t")
 t("scroll", "parchemin", "_t")
 t("This parchment contains some lore.", "Ce parchemin contient des histoires.", "_t")
-t("time-warped paper scrap", "morceau de papier déformé par le temps", "_t")
-t("It came a long way away!", "Il venait de très loin !", "_t")
+t("time-warped paper scrap", "morceau de papier distordu par le temps", "_t")
+t("It came a long way away!", "Il vient de très loin !", "_t")
+t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#L'espace-temps frémit un instant tandis qu'un billet tombe d'une ligne temporelle différente !", "saySimple")
+t("You gain %0.2f gold from the melting of %s.", "Vous gagnez %0.2f pièces d'or grâce à la fonte de %s.", "log")
 t("APE", "EPA", "_t")
--- texte non traduit
---[==[
-t("#FFD700#St. power#FFFFFF#: ", "#FFD700#St. power#FFFFFF#: ", "_t")
-t("Kruk Invasion", "Kruk Invasion", "_t")
-t("You can not recall until you have placed the bomb at the tunnel's end!", "You can not recall until you have placed the bomb at the tunnel's end!", "_t")
-t("#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "#LIGHT_BLUE#Spacetime shudders for an instant as a note falls out from a different timeline!", "saySimple")
-t("You gain %0.2f gold from the melting of %s.", "You gain %0.2f gold from the melting of %s.", "log")
-t("When you close the inventory window, all items in the APE will be melted.", "When you close the inventory window, all items in the APE will be melted.", "_t")
-t("melt down", "melt down", "_t")
---]==]
-
+t("When you close the inventory window, all items in the APE will be melted.", "Lorsque vous fermez la fenêtre d'inventaire, tous les objets présents dans l'EPA seront fondus.", "_t")
+t("melt down", "Fondre", "_t")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/Game.lua"
 
-
--- texte non traduit
---[==[
-t("Race: Yeti", "Race: Yeti", "_t")
-t("Race: Whitehooves", "Race: Whitehooves", "_t")
-t("Class tree: Undead drake", "Class tree: Undead drake", "_t")
-t("Cosmetic: orcs", "Cosmetic: orcs", "_t")
-t("Build Option: Tinkers in Maj'Eyal Campaign", "Build Option: Tinkers in Maj'Eyal Campaign", "_t")
-t("Build Option: Mages in Orcs Campaign", "Build Option: Mages in Orcs Campaign", "_t")
-t("Build Option: Rogues in Orcs Campaign", "Build Option: Rogues in Orcs Campaign", "_t")
-t("Build Option: All classes in Orcs Campaign", "Build Option: All classes in Orcs Campaign", "_t")
-t("Class: Psyshot", "Class: Psyshot", "_t")
-t("Class evolution: Technomancer", "Class evolution: Technomancer", "_t")
---]==]
-
+t("Race: Yeti", "Race : Yéti", "_t")
+t("Race: Whitehooves", "Race : Sabot-Blanc", "_t")
+t("Class tree: Undead drake", "Arbre de classe : Aspect de Dragon Mort-Vivant", "_t")
+t("Cosmetic: orcs", "Option cosmétique : orcs", "_t")
+t("Build Option: Tinkers in Maj'Eyal Campaign", "Option de création : Bricoleurs dans la Campagne de Maj'Eyal", "_t")
+t("Build Option: Mages in Orcs Campaign", "Option de création : Mages dans la Campagne des Orcs", "_t")
+t("Build Option: Rogues in Orcs Campaign", "Option de création : Brigands dans la Campagne des Orcs", "_t")
+t("Build Option: All classes in Orcs Campaign", "Option de création : Toutes les classes dans la Campagne des Orcs", "_t")
+t("Class: Psyshot", "Classe : Psychodessoudeur", "_t")
+t("Class evolution: Technomancer", "Évolution de classe : Technomancien", "_t")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/Object.lua"
 
-
--- texte non traduit
---[==[
-t("You have no medical injector available.", "You have no medical injector available.", "_t")
---]==]
-
+t("You have no medical injector available.", "Vous n'avez aucun injecteur médical disponible.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/Projectile.lua"
 
-
--- texte non traduit
---[==[
-t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Automated Reflex System activated!", "saySimple")
-t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Automated Reflex System activated!", "log")
---]==]
-
+t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Système de Réflexes Automatisé activé !", "saySimple")
+t("#PURPLE#Automated Reflex System activated!", "#PURPLE#Système de Réflexes Automatisé activé !", "log")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/Archery.lua"
@@ -9124,84 +8887,62 @@ t("%s is knocked back!", "%s est repoussé !", "logSeen")
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/Combat.lua"
 
-
--- texte non traduit
---[==[
-t("#{bold}#%s's tinker attains critical power!#{normal}#", "#{bold}#%s's tinker attains critical power!#{normal}#", "logSeen")
---]==]
-
+t("#{bold}#%s's tinker attains critical power!#{normal}#", "#{bold}#La babiole de %s atteint sa puissance critique !#{normal}#", "logSeen")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/class/interface/TooltipsData.lua"
 
-
--- texte non traduit
---[==[
 t([[#GOLD#Steam#LAST#
 Steam is created by special generators and is used to power most technological things.
 It is very hard to increase your maximum steam capacity, but it regenerates quickly.
 Use it or lose it fast.
-]], [[#GOLD#Steam#LAST#
-Steam is created by special generators and is used to power most technological things.
-It is very hard to increase your maximum steam capacity, but it regenerates quickly.
-Use it or lose it fast.
+]], [[#GOLD#Vapeur#LAST#
+La vapeur est produite par des générateurs spéciaux et sert à alimenter la plupart des dispositifs technologiques.
+Il est très difficile d'augmenter votre capacité maximale de vapeur, mais elle se régénère rapidement.
+Utilisez-la, ou perdez-la rapidement.
 ]], "_t")
 t([[#GOLD#Steampower#LAST#
 Your steampower represents how powerful and effective your steamtech abilities are.
 It is similar to Physical Power but is improved with Cunning.
-]], [[#GOLD#Steampower#LAST#
-Your steampower represents how powerful and effective your steamtech abilities are.
-It is similar to Physical Power but is improved with Cunning.
+]], [[#GOLD#Puissance de Vapeur#LAST#
+Votre Puissance de Vapeur représente la force et l'efficacité de vos capacités vapotech.
+Elle est similaire à la Puissance Physique, mais s'améliore avec la Ruse.
 ]], "_t")
 t([[#GOLD#Steamtech critical chance#LAST#
 Each time you deal damage with a steamtech - based attack you may have a chance to perform a critical hit that deals extra damage.
 Some talents allow you to increase this percentage.
 It is improved by Cunning.
-]], [[#GOLD#Steamtech critical chance#LAST#
-Each time you deal damage with a steamtech - based attack you may have a chance to perform a critical hit that deals extra damage.
-Some talents allow you to increase this percentage.
-It is improved by Cunning.
+]], [[#GOLD#Chance de Critique Vapotech#LAST#
+Chaque fois que vous infligez des dégâts avec une attaque basée sur la vapotech, vous avez une chance de porter un coup critique infligeant des dégâts supplémentaires.
+Certains talents vous permettent d'augmenter ce pourcentage.
+Elle s'améliore avec la Ruse.
 ]], "_t")
 t([[#GOLD#Steamtech speed#LAST#
 Steamtech speed represents how fast you use your steamtech - powered abilities compared to normal.
 Higher is faster.
-]], [[#GOLD#Steamtech speed#LAST#
-Steamtech speed represents how fast you use your steamtech - powered abilities compared to normal.
-Higher is faster.
-]], "_t")
---]==]
-
+]], [[#GOLD#Vitesse Vapotech#LAST#
+La vitesse vapotech représente la rapidité avec laquelle vous utilisez vos capacités alimentées à la vapeur, par rapport à la normale.
+Plus elle est élevée, plus c'est rapide.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/dialogs/Birther.lua"
 
-
--- texte non traduit
---[==[
-t("Welcome to #CRIMSON#Embers of Rage", "Welcome to #CRIMSON#Embers of Rage", "_t")
+t("Welcome to #CRIMSON#Embers of Rage", "Bienvenue dans #CRIMSON#Braises de Rage", "_t")
 t([[Thank you for purchasing #CRIMSON#Embers of Rage#WHITE#, the second expansion pack of Tales of Maj'Eyal.
 
 To begin your steamy adventures of hot metal mayhem simply select the #LIGHT_GREEN#Embers of Rage Campaign#WHITE# and be on your way to glory!
 
 Have fun crushing the foes of the Pride!
-]], [[Thank you for purchasing #CRIMSON#Embers of Rage#WHITE#, the second expansion pack of Tales of Maj'Eyal.
+]], [[Merci d'avoir acquis #CRIMSON#Braises de Rage#WHITE#, la deuxième extension de Tales of Maj'Eyal.
 
-To begin your steamy adventures of hot metal mayhem simply select the #LIGHT_GREEN#Embers of Rage Campaign#WHITE# and be on your way to glory!
+Pour commencer vos aventures fumantes de chaos en métal brûlant, sélectionnez simplement la campagne #LIGHT_GREEN#Braises de Rage#WHITE# et partez sur le chemin de la gloire !
 
-Have fun crushing the foes of the Pride!
-]], "tformat")
---]==]
-
+Amusez-vous à écraser les ennemis de la Fierté !]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/dialogs/LevelupDialog.lua"
 
-
--- texte non traduit
---[==[
-t("Steampower: ", "Steampower: ", "_t")
---]==]
-
+t("Steampower: ", "Puissance de Vapeur : ", "_t")
 
 ------------------------------------------------
 section "tome-orcs/superload/mod/dialogs/debug/DebugMain.lua"
