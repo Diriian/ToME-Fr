@@ -110,113 +110,6 @@ t("Research. Tinker. Annihilate.", "Recherchez. Bricolez. Anéantissez.", "_t")
 t("simple", "simple", "_t")
 --]==]
 
--- ancien texte traduit
-t("Razorlock", "Travascie", "entity name")
-t("interlocked steamsaws", "scies à vapeur entrecroisées", "_t")
-t([[This intricate set of steamsaws lock together in a nearly indecipherable system.
-They sure seem sharp though.]], [[Cet ensemble complexe de scies à vapeur s'emboîte dans un système quasi indéchiffrable.
-Elles ont l'air sacrément tranchantes, cela dit.]], "_t")
-t("Ramroller", "Scieroule", "entity name")
-t("a... chariot?", "Une... charrette ?", "_t")
-t("\"So we were thinking. You know what's better than saws? Really BIG saws. Unfortunately, no one could lift them. So we came up with an innovative new solution: Mount them on a motorized platform, allowing easy transportation and unparalleled cutting power!\"", "\"Alors on s'est dit : qu'est-ce qui est mieux que des scies ? Des scies VRAIMENT ÉNORMES. Pas de bol, personne n'arrivait à les soulever. On a donc pondu une solution innovante : les monter sur une plateforme motorisée, pour un transport facile et une puissance de coupe inégalée !\"", "_t")
-t("Moving builds up a stacking movement speed (caps at 25%) and damage bonus (caps at double). Hitting removes the bonus.", "Se déplacer génère un bonus cumulable de vitesse de mouvement (plafond à 25 %) et de dégâts (plafond au double). Frapper réinitialise le bonus.", "_t")
-t("Overcutter", "Surcoupe", "entity name")
-t("enormous steamsaw", "scie à vapeur énorme", "_t")
-t("Earlier steamsaws were notably not meant to be used with one hand.", "Les premières scies à vapeur n'étaient visiblement pas conçues pour être tenues d'une seule main.", "_t")
-t("Turbocutter", "Turboscie", "entity name")
-t("red striped steamsaw", "scie à vapeur rayée de rouge", "_t")
-t("\"Have you ever thought your steamsaws were just too slow? Well, have I got the thing for you...\"", "\"Vous avez déjà trouvé vos scies à vapeur trop lentes ? Eh bien, j'ai exactement ce qu'il vous faut...\"", "_t")
-t("Increases the speed bonus from Saw Wheels by 25%.", "Augmente le bonus de vitesse des Roues à scie de 25 %.", "_t")
-t("Whipsnap", "Fouett-Scie", "entity name")
-t("spring loaded steamsaw", "scie à vapeur à ressort", "_t")
-t("\"Sick of your pesky enemies hitting you with weapons? Well, with the new spring loaded Whipsnap, you can quickly put a stop to that!\"", "\"Marre que vos ennemis enquiquinants vous frappent avec leurs armes ? Avec le nouveau Fouett-Scie à ressort, vous pouvez rapidement mettre le holà à ça !\"", "_t")
-t("Pinwheel", "Scie-Épingle", "entity name")
-t("spike tipped steamsaw", "scie à vapeur hérissée", "_t")
-t("\"Create new, exciting connections in other people's lives, such as between their feet and the floor!\"", "\"Créez de nouvelles connexions palpitantes dans la vie des gens, par exemple entre leurs pieds et le sol !\"", "_t")
-t("15% chance to pin the target", "15% de chances d'immobiliser la cible", "_t")
-t("Frostbite", "Givre-Mort", "entity name")
-t("icy steamsaw", "scie à vapeur glaciale", "_t")
-t("Fashioned from magical ice, and perfect for carving ice - especially ice with someone else inside it.", "Façonnée dans une glace magique, parfaite pour sculpter la glace, surtout lorsqu'il y a quelqu'un à l'intérieur.", "_t")
-t("The Lumberator", "Le Bûcheronnator", "entity name")
-t("vined coated steamsaw", "scie à vapeur recouverte de lianes", "_t")
-t("\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "\"Répandez les merveilles de la nature plus vite que jamais avec cette scie à vapeur injectrice de graines ! Vos anciens ennemis seront des arbres tout neufs avant même que vous ne vous en rendiez compte !\"", "_t")
-t("summon a treant (5 turn cooldown)", "invoque un tréant (5 tours de récupération)", "_t")
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
-t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
-t("treant", "tréant", "_t")
-t("A very strong near-sentient tree, which has become hostile to other living things.", "Un arbre doué d'une conscience rudimentaire, devenu hostile envers tout être vivant.", "_t")
-t("Summon", "Invocation", "_t")
-t("Grinder", "Broyeur", "entity name")
-t("bloody steamsaw", "scie à vapeur ensanglantée", "_t")
-t("Originally a kitchen implement used by the giants to saw through tough, frozen carcasses. Something is especially sinister about this example though.", "À l'origine un ustensile de cuisine utilisé par les géants pour scier des carcasses congelées coriaces. Il y a cependant quelque chose de particulièrement sinistre chez ce spécimen.", "_t")
-t("On Taking Damage: Blindside the attacker (range 6).", "En subissant des dégâts : Applique Angle mort à l'attaquant (portée 6).", "_t")
-t("Overclocked Radius", "Rayon Overclocké", "entity name")
-t("distorted steamsaw", "scie à vapeur distordue", "_t")
-t([[Faced with the petty quandaries of 'conventional physics', some mad tinker must have coated this sawblade with a fine sheathe of dilated time to maximize its speed.
- 
-There were ...side effects.]], [[Confronté aux dilemmes mesquins de la "physique conventionnelle", un bricoleur fou a dû recouvrir cette lame d'une fine pellicule de temps dilaté pour maximiser sa vitesse.
- 
-Il y a eu... des effets secondaires.]], "_t")
-t("Attack speed increases with paradox, up to 250% at 1000 paradox.", "La vitesse d'attaque augmente avec le paradoxe, jusqu'à 250% à 1000 de paradoxe.", "_t")
-t("increase paradox by a random amount", "augmente le paradoxe d'un montant aléatoire", "_t")
-t("increase paradox by a drastic amount with a chance to do an anomaly (%d%% chance). If anomaly triggers, halve paradox.", "augmente le paradoxe d'un montant drastique avec une chance de provoquer une anomalie (%d%% de chances). Si l'anomalie se déclenche, le paradoxe est réduit de moitié.", "tformat")
-t("Heartrend", "Coeur-Brisé", "entity name")
-t([[There is an attached note.
- 
-'I've spilt the heartsblood of my work, feeling it pound, like a heart, in my palms.
-Some people just can't let go until they've bled dry.']], [[Une note est attachée :
- 
-"J'ai répandu le sang de mon ouvrage, le sentant battre, tel un coeur, au creux de mes mains.
-Certaines personnes ne savent tout simplement pas lâcher prise avant de s'être vidées de leur sang."]], "_t")
-t([[All damage dealt by or to you (that is over 1% of max life) bleeds for an additional 20% of the damage as physical damage (ignores most status resistances).
-While you are bleeding, Heartrend's damage increases and it gains lifesteal.]], [[Tous les dégâts que vous infligez ou recevez (supérieurs à 1% de vos PV max) provoquent un saignement, infligeant 20% de dégâts physiques supplémentaires (ignore la plupart des résistances aux statuts).
-Tant que vous saignez, les dégâts de Coeur-Brisé augmentent et il gagne du vol de vie.]], "_t")
-t("If bleed damage per turn is greater than 5% of max life, attacks cleave.", "Si les dégâts de saignement par tour dépassent 5% des PV max, les attaques tranchent.", "_t")
-t("Dethzaw", "Scie-Mort", "entity name")
-t("fiery steamsaw", "scie à vapeur ardente", "_t")
-t([[Grushgore the Destroyer was absolutely enthralled when he discovered steamsaws. He immediately kidnapped several tinkerers and forced them to create this for him.
-His naming skills have not improved.]], "Grushgore le Destructeur fut absolument fasciné par sa découverte des scies à vapeur. Il kidnappa immédiatement plusieurs bricoleurs pour qu'ils lui en fabriquent une. Ses talents de nommage, eux, ne se sont pas améliorés.", "_t")
-t("deal a melee attack against all other enemies in a circle around you", "effectue une attaque de mêlée contre tous les autres ennemis dans un cercle autour de vous", "_t")
-t("Galen's Flowing Robe", "Robe fluide de Galen", "entity name")
-t("ample robe", "robe ample", "_t")
-t("This robe was worn by the Technomancer Galen, infused with technomancy enchantments it is said to react to techno-spells!", "Cette robe fut portée par le Technomancien Galen ; infusée d'enchantements technomantiques, on dit qu'elle réagit aux sorts technologiques !", "_t")
-t([[20% chance when casting a technomancy spell (or 10% chance when casting a normal spell) to power-up the internal defense circuits of the robe.
-The circuit will do one of:
-#AQUAMARINE#if more than one foe is in melee range#LAST#: teleport away all foes
-#AQUAMARINE#if below 50% life#LAST#: increase all resistances by 20% for 5 turns
-#AQUAMARINE#if below 20 steam#LAST#: supercharge the arcane dynamo to produce 4 more steam per 10 mana spent for 5 turns
-#AQUAMARINE#otherwise#LAST#: reset the cooldown of the spell with the highest remaining cooldown
-]], [[20% de chances lors du lancement d'un sort technomantique (ou 10% lors d'un sort normal) d'activer les circuits de défense internes de la robe.
-Le circuit effectue l'une des actions suivantes :
-* #AQUAMARINE#Si plusieurs ennemis sont en mêlée#LAST# : téléporte tous les ennemis au loin
-* #AQUAMARINE#Si PV < 50%#LAST# : augmente toutes les résistances de 20% pendant 5 tours
-* #AQUAMARINE#Si Vapeur < 20#LAST# : suralimente la dynamo arcanique pour produire 4 points de vapeur supplémentaires par 10 points de mana dépensés pendant 5 tours
-* #AQUAMARINE#Sinon#LAST# : réinitialise la récupération du sort ayant le plus long délai restant
-]], "_t")
-t("#PURPLE#%s activates and teleports away all nearby creatures!", "#PURPLE#%s s'active et téléporte toutes les créatures proches !", "logSeen")
-t("#PURPLE#%s activates and increases %s's resistances!", "#PURPLE#%s s'active et augmente les résistances de %s !", "logSeen")
-t("#PURPLE#%s activates and increases %s's arcane dynamo power!", "#PURPLE#%s s'active et augmente la puissance de la dynamo arcanique de %s !", "logSeen")
-t("#PURPLE#%s activates and resets %s's %s cooldown!", "#PURPLE#%s s'active et réinitialise la récupération du sort %s de %s !", "logSeen")
-t("Galen's Will", "Volonté de Galen", "entity name")
-t("aether-infused steamsaw", "scie à vapeur infusée d'éther", "_t")
-t("Saws made of metal? That is no good for a discerning Technomancer so Galen made a saw out of pure arcane forces!", "Des scies en métal ? Pas assez bien pour un Technomancien exigeant, alors Galen en a forgé une à partir de forces arcaniques pures !", "_t")
-t("Increases the steam your arcane dynamo generate per 10 points of mana by 2.", "Augmente de 2 la vapeur générée par votre dynamo arcanique pour chaque tranche de 10 mana dépensés.", "_t")
-t("Eye of the Lost", "Oeil de l'Égaré", "entity name")
-t("pale mindstar", "étoile d'âme pâle", "_t")
-t("A strange aura surrounds this mindstar. You feel a presence, but it is obscured, as if it refuses to be found.", "Une aura étrange entoure cette étoile d'âme. Vous sentez une présence, mais elle est obscurcie, comme si elle refusait d'être trouvée.", "_t")
-t("reduces mental save", "réduit la sauvegarde mentale", "_t")
-t("see all other beings around you for 5 turns", "permet de voir tous les autres êtres alentour pendant 5 tours", "_t")
-t("Brass Goggles", "Lunettes en Laiton", "entity name")
-t("classy goggles", "lunettes élégantes", "_t")
-t("No self respecting craftsman would be caught without them!", "Aucun artisan digne de ce nom ne se laisserait surprendre sans !", "_t")
-t("X-Ray Goggles", "Lunettes à Rayons X", "entity name")
-t("pitch black goggles", "lunettes d'un noir d'encre", "_t")
-t("How do these even work?", "Comment ça marche, ce truc ?", "_t")
-t("see everything. EVERYTHING. For 5 turns, anyway", "voir tout. ABSOLUMENT TOUT. Pendant 5 tours, du moins.", "_t")
-t("Laser Powered Giant Smasher", "Super-Broyeur à Laser", "entity name")
-t("radiant hammer", "marteau rayonnant", "_t")
-t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "L'Écrase-Géant laser, surnommé le \"Marteau de Gloire\". Vous pouvez le sentir vibrer d'une puissance indicible dans vos mains.", "_t")
-t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#Vous sentez la puissance du Marteau de Gloire vous parcourir ! Il est désormais pleinement activé !", "logPlayer")
 
 ------------------------------------------------
 section "tome-orcs/data/birth/races/orc.lua"
@@ -1997,14 +1890,6 @@ t("Titan", "Titan", "entity name")
 t("Stimulus", "Stimulus", "entity name")
 --]==]
 
--- ancien texte traduit
-t([["Murderfang came over yesterday, raving about this idea for a steamgun he had. He described it in great detail, everything, except for how it would actually work.
-What do you even grip it by? Insisted I make it though, left some design notes.
-They all just say 'make it really flashy'.
--Pizurk, Master Tinker]], [["Murderfang est passé hier, exalté par une idée de fusil à vapeur. Il a tout décrit en détail, sauf la partie importante : son fonctionnement.
-On est censé le tenir par quoi, exactement ? Il a insisté pour que je le fabrique quand même et m'a laissé quelques notes de conception.
-Elles disent toutes la même chose : "faites-le très tape-à-l'oeil".
-– Pizurk, Maître ingénieur]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/stores/orcs.lua"
@@ -2068,11 +1953,7 @@ t("metal", "metal", "entity type")
 ------------------------------------------------
 section "tome-orcs/data/lore/destructicus.lua"
 
-
--- texte non traduit
---[==[
-t("kaltor's shop", "kaltor's shop", "newLore category")
-t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
+t("kaltor's shop", "magasin de Kaltor", "newLore category")
 t([[INTRODUCING!
 
 The most powerful, most fearsome, most awesome weapon ever conceived by giants, men, nature, or anything before us:
@@ -2091,36 +1972,36 @@ A MANDATORY addition to your home or airship!
 
 For pricing, please discuss the matter with Kaltor, and then forget about it entirely.  If price is a factor for you, you almost certainly cannot afford DESTRUCTICUS.
 
-#{italic}#(Disclaimer: We are not responsible for any injuries, deaths, or loss of property resulting from improper transport of DESTRUCTICUS.  We are not responsible for determining the proper method of transporting DESTRUCTICUS.  Additional missiles for DESTRUCTICUS are not available.  Accuracy at ranges greater than DESTRUCTICUS' blast radius is not guaranteed.  We are not responsible for any injuries, deaths, or loss of property resulting from DESTRUCTICUS changing direction in mid-flight.)#{normal}#]], [[INTRODUCING!
+#{italic}#(Disclaimer: We are not responsible for any injuries, deaths, or loss of property resulting from improper transport of DESTRUCTICUS.  We are not responsible for determining the proper method of transporting DESTRUCTICUS.  Additional missiles for DESTRUCTICUS are not available.  Accuracy at ranges greater than DESTRUCTICUS' blast radius is not guaranteed.  We are not responsible for any injuries, deaths, or loss of property resulting from DESTRUCTICUS changing direction in mid-flight.)#{normal}#]], [[Voici !
 
-The most powerful, most fearsome, most awesome weapon ever conceived by giants, men, nature, or anything before us:
+L'arme la plus puissante, la plus redoutable et la plus impressionnante jamais créée par des géants, des humains, des nains ou toute autre créature ayant jamais existé :
 
-#{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF THE SKY#{normal}#
+#{bold}#DESTRUCTICUS, LE DESTRUCTEUR DES CIEUX#{normal}#
 
-Containing a warhead laden with explosive runes, alchemical reagents, vile curses, steel drake scales, ritch venom, and little slips of paper bearing most unkind statements about your target's mother
+Contient une ogive chargée de runes explosives, de réactifs alchimiques, de malédictions infâmes, d'écailles de dragon en acier, de venin de mante religieuse et de petits papiers portant des inscriptions obscènes sur la mère de votre cible.
 
-Travelling at a speed which could be charitably described as absurd, and uncharitably described as obscene
+Se déplace à une vitesse que l'on pourrait qualifier affectueusement d'absurde, voire d'obscène.
 
-Launched with such force that its operator will need a fireproof suit to avoid immolation from the backblast alone (fireproof suit not included)
+Son lancement est si puissant que son utilisateur devra porter une combinaison ignifugée pour se protéger des brûlures dues aux gaz de l'explosion (combinaison non fournie).
 
-Absolutely guaranteed to destroy ANY autonomous entity it detonates against!  Orcs!  Dragons!  Golems smaller than a medium-sized village!
+Destruction garantie de toute entité autonome sur sa cible ! Orcs ! Dragons ! Golems de la taille d'un village moyen !
 
-A MANDATORY addition to your home or airship!
+Un ajout indispensable à votre demeure ou à votre vaisseau !
 
-For pricing, please discuss the matter with Kaltor, and then forget about it entirely.  If price is a factor for you, you almost certainly cannot afford DESTRUCTICUS.
+Quant au prix, parlez-en à Kaltor, puis oubliez-le. Si le prix est un critère important pour vous, le DESTRUCTICUS est presque certainement hors de votre budget.
 
-#{italic}#(Disclaimer: We are not responsible for any injuries, deaths, or loss of property resulting from improper transport of DESTRUCTICUS.  We are not responsible for determining the proper method of transporting DESTRUCTICUS.  Additional missiles for DESTRUCTICUS are not available.  Accuracy at ranges greater than DESTRUCTICUS' blast radius is not guaranteed.  We are not responsible for any injuries, deaths, or loss of property resulting from DESTRUCTICUS changing direction in mid-flight.)#{normal}#]], "_t")
+#{italic}#(Avertissement légal : Nous déclinons toute responsabilité en cas de blessures, de décès ou de dommages matériels résultant d'un transport inadéquat du DESTRUCTICUS. Nous ne sommes pas responsables non plus du choix du mode de transport approprié pour le DESTRUCTICUS. Aucun missile supplémentaire n'est disponible pour le DESTRUCTICUS. La précision au-delà du rayon d'explosion du DESTRUCTICUS n'est pas garantie. Nous déclinons toute responsabilité en cas de blessures, de décès ou de dommages matériels résultant d'une modification de la trajectoire du DESTRUCTICUS après son lancement..#{normal}#]], "_t")
+-- texte non traduit
+--[==[
+t("DESTRUCTICUS!", "DESTRUCTICUS!", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/lore/dominion-port.lua"
 
-
--- texte non traduit
---[==[
-t("dominion port", "dominion port", "newLore category")
-t("'disciplinary report'", "'disciplinary report'", "_t")
+t("dominion port", "Port du Dominion", "newLore category")
+t("'disciplinary report'", "\"Rapport disciplinaire\"", "_t")
 t([[DISCIPLINARY REPORT:
 
 -Blackhorn the Brash, theft of personal quantities of Atmos absinthe.  Twenty lashes.
@@ -2146,33 +2027,33 @@ t([[DISCIPLINARY REPORT:
 -First Mate Brakka, failure to keelhaul enough attempted mutineers.  Keelhauled.
 -Captain Bloody-Keel, excessive keelhauling.  Keelhauled twice.
 -Swabbie Grapeshot, improper use of a mop.  Fifty lashes, demotion.
-]], [[DISCIPLINARY REPORT:
+]], [[RAPPORT DISCIPLINAIRE :
 
--Blackhorn the Brash, theft of personal quantities of Atmos absinthe.  Twenty lashes.
--Swabbie Grobbo, theft of personal quantities of Shaloren wine.  Twelve lashes.
--First Mate Grapeshot, improper use of a cannon.  Twenty lashes, demotion.
--Taroggos, killing crew of targeted supply ship in defiance of client's wishes.  Three lashes.  [i]note: payment received regardless,  all goods retrieved and delivered accordingly[/i]
--Runty, theft of personal quantities of Dwarven ale.  Eleven lashes.
--Hamfist, theft of commercial quantities of Ogric brandy.  Fifty lashes, docked pay.
--Dogchucker the Summoner, disfiguring another crewmember.  Punishment waived.  [i]note: determined to be accident[/i]
--Tidal Torgor, accidental sinking of friendly vessel.  One thousand lashes, over five days.  [i]note: should be keelhauled but we need all the aquamancers we can get![/i]
--Lieutenant Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
--Lady Laggo, skimming profits from loot sales.  Thirty lashes, demotion to punitive duties.
--Shifty, insubordination.  Ten lashes.
--Swabbie Grogbreath, insufficient swabbing.  Loss of liquor privileges.
--Cannoneer Grapeshot, improper use of a cannon.  Thirty lashes, demotion.
--Pencil-Pusher Pilgo, reassigning Grapeshot to cannoneer position.  Thirty-five lashes.  [i]note: laugh it up you insubordinate punk[/i]
--Smokey, excessive use of fire onboard flammable ship.  Will not be allowed healing for wounds sustained when hat caught fire.
--Swabbie Grogbreath, violation of loss of liquor privileges.  Punishment waived.  [i]note: the foul swill he found is punishment enough[/i]
--Sticks, attempted mutiny.  Keelhauled.
--Crabhide, support of attempted mutiny.  Keelhauled.
--Pegfist Pogga, failure to report attempted mutiny.  Keelhauled.
--Gunner Bilgebloat, fraternizing with attempted mutineers.  Keelhauled.
--First Mate Brakka, failure to keelhaul enough attempted mutineers.  Keelhauled.
--Captain Bloody-Keel, excessive keelhauling.  Keelhauled twice.
--Swabbie Grapeshot, improper use of a mop.  Fifty lashes, demotion.
+- Blackhorn le Téméraire : vol de quantités personnelles d'absinthe d'Atmos. Vingt coups de fouet.
+- Mousse Grobbo : vol de quantités personnelles de vin Shaloren. Douze coups de fouet.
+- Officier en second Grapeshot : utilisation inappropriée d'un canon. Vingt coups de fouet, rétrogradation.
+- Taroggos : meurtre de l'équipage d'un navire de ravitaillement cible, contre les souhaits du client. Trois coups de fouet. [i]note : paiement reçu dans tous les cas, toutes les marchandises ont été récupérées et livrées comme convenu.[/i]
+- Runty : vol de quantités personnelles de bière naine. Onze coups de fouet.
+- Hamfist : vol de quantités commerciales d'eau-de-vie ogre. Cinquante coups de fouet, retenue sur salaire.
+- Dogchucker l'Invocateur : défiguration d'un autre membre d'équipage. Peine annulée. [i]note : jugé accidentel.[/i]
+- Tidal Torgor : sabordage accidentel d'un navire allié. Mille coups de fouet, sur cinq jours. [i]note : il mériterait d'être passé sous la quille, mais nous avons besoin de tous les aquamanciens possibles ![/i]
+- Lieutenant Grapeshot : utilisation inappropriée d'un canon. Trente coups de fouet, rétrogradation.
+- Lady Laggo : détournement de bénéfices sur la vente de butin. Trente coups de fouet, affectée aux corvées punitives.
+- Shifty : insubordination. Dix coups de fouet.
+- Mousse Grogbreath : nettoyage insuffisant du pont. Perte des privilèges de boisson.
+- Canonnier du Grapeshot : utilisation inappropriée d'un canon. Trente coups de fouet, rétrogradation.
+- Pilgo le Paperassier : réaffectation sur le Grapeshot au poste de canonnier. Trente-cinq coups de fouet. [i]note : ris bien, espèce d'insubordonné de bas étage.[/i]
+- Smokey : usage excessif de feu à bord d'un navire inflammable. Interdiction d'accéder aux soins pour les brûlures subies quand son chapeau prendra feu.
+- Mousse Grogbreath : violation de la perte des privilèges de boisson. Peine annulée. [i]note : la piquette infâme qu'il a trouvée est une punition suffisante.[/i]
+- Sticks : tentative de mutinerie. Passé sous la quille.
+- Crabhide : soutien à une tentative de mutinerie. Passé sous la quille.
+- Pegfist Pogga : refus de signaler une tentative de mutinerie. Passé sous la quille.
+- Canonnier Bilgebloat : fraternisation avec des mutins. Passé sous la quille.
+- Officier en second Brakka : nombre insuffisant de mutins passés sous la quille. Passé sous la quille.
+- Capitaine Bloody-Keel : abus de passage sous la quille. Passé sous la quille, deux fois.
+- Mousse Grapeshot : utilisation inappropriée d'un balai-brosse. Cinquante coups de fouet, rétrogradation.
 ]], "_t")
-t("operations performed", "operations performed", "_t")
+t("operations performed", "opérations effectuées", "_t")
 t([[OPERATIONS PERFORMED:
 
 -With information provided by "Sunny Day," we were able to secure an Allied Kingdoms supply ship during the brief window in which it was unguarded, with no personal casualties.  We technically broke our agreement (Taroggos has been adequately disciplined), but because the ship was carrying more useful materials than expected, we were able to take a hefty supply of troll-sized (or close enough to it) arms and armor, alongside lumber, furniture, and smaller stralite equipment which can be easily melted down and repurposed into something useful, before delivering the promised amount of cargo to "Vapor Trail."  Combined with the payment received from "Sunny Day," we made a significant profit and reinforced our relationship with "Vapor Trail."  (Our relationship with "Sunny Day" is of no consequence; repeat business was unlikely.)
@@ -2181,40 +2062,35 @@ t([[OPERATIONS PERFORMED:
 
 -Our contacts with the black market of Maj'Eyal and our establishment of a safe trading hub for their activity has continued to be immensely profitable, in addition to providing us an exploitable means of getting objects of our choosing into Maj'Eyal.  "Vapor Trail" has been an eager participant, and we've made a killing off selling Atmos absinthe to the Allied Kingdoms smugglers, as well as selling Elvala wine and brandy to them.  I'll be sending a ship full of our profits (useful metals, alchemical ingredients, slaves) back home on a bi-monthly basis; search the crew to make sure they haven't been lining their pockets, and keelhaul any you catch.
 
--Crew disobedience and morale continues to be something of a problem, despite regular floggings, but we're still retaining enough of them and getting enough use out of them.  That said, feel free to keep sending sentenced criminals our way - they're surprisingly productive as long as we give them enough booze and cheerblossom.]], [[OPERATIONS PERFORMED:
+-Crew disobedience and morale continues to be something of a problem, despite regular floggings, but we're still retaining enough of them and getting enough use out of them.  That said, feel free to keep sending sentenced criminals our way - they're surprisingly productive as long as we give them enough booze and cheerblossom.]], [[OPÉRATIONS EFFECTUÉES :
 
--With information provided by "Sunny Day," we were able to secure an Allied Kingdoms supply ship during the brief window in which it was unguarded, with no personal casualties.  We technically broke our agreement (Taroggos has been adequately disciplined), but because the ship was carrying more useful materials than expected, we were able to take a hefty supply of troll-sized (or close enough to it) arms and armor, alongside lumber, furniture, and smaller stralite equipment which can be easily melted down and repurposed into something useful, before delivering the promised amount of cargo to "Vapor Trail."  Combined with the payment received from "Sunny Day," we made a significant profit and reinforced our relationship with "Vapor Trail."  (Our relationship with "Sunny Day" is of no consequence; repeat business was unlikely.)
+- Grâce aux informations fournies par "Sunny Day", nous avons pu sécuriser un navire de ravitaillement des Royaumes Alliés durant le court laps de temps où il était sans surveillance, sans aucune perte de notre côté. Nous avons techniquement rompu notre accord (Taroggos a été dûment discipliné), mais comme le navire transportait plus de matériaux utiles que prévu, nous avons pu récupérer un stock important d'armes et d'armures de taille troll (ou presque), ainsi que du bois, du mobilier et du petit équipement en stralite facilement refondable et réutilisable, avant de livrer la cargaison promise à "Vapor Trail". Combiné au paiement reçu de "Sunny Day", nous avons réalisé un profit significatif et renforcé nos relations avec "Vapor Trail". (Notre relation avec "Sunny Day" n'a aucune importance ; toute réitération commerciale était improbable.)
 
--The last cargo ship I had sent home, the one with countless small crates and the order to confiscate them all and hold onto them for further instruction, contains one crate full of You-Know-What received as payment for a product received via Iron Throne smugglers.  This crate is labelled "47-C."  Dispose of the others, as they are [i]extremely[/i] thoroughly trapped.  The exchange with "Sherry Toll" was mercifully uneventful, and the goods provided appear to be functional.  With all due respect, Boss, if this doesn't get me a promotion, what will?
+- Le dernier cargo que j'ai envoyé au port, celui contenant d'innombrables petites caisses avec l'ordre de les confisquer toutes et de les garder pour instruction ultérieure, contient une caisse remplie de "Vous-Savez-Quoi", reçue en paiement d'un produit transitant via les contrebandiers du Trône de Fer. Cette caisse est étiquetée "47-C". Débarrassez-vous des autres, car elles sont [i]extrêmement[/i] piégées. L'échange avec "Sherry Toll" fut heureusement sans histoire, et les marchandises fournies semblent fonctionnelles. Avec tout le respect que je vous dois, Boss, si cela ne me vaut pas une promotion, qu'est-ce qui le méritera ?
 
--Our contacts with the black market of Maj'Eyal and our establishment of a safe trading hub for their activity has continued to be immensely profitable, in addition to providing us an exploitable means of getting objects of our choosing into Maj'Eyal.  "Vapor Trail" has been an eager participant, and we've made a killing off selling Atmos absinthe to the Allied Kingdoms smugglers, as well as selling Elvala wine and brandy to them.  I'll be sending a ship full of our profits (useful metals, alchemical ingredients, slaves) back home on a bi-monthly basis; search the crew to make sure they haven't been lining their pockets, and keelhaul any you catch.
+- Nos contacts avec le marché noir de Maj'Eyal et l'établissement d'une plaque tournante commerciale sûre pour leurs activités restent immensément profitables, tout en nous offrant un moyen détourné d'introduire les objets de notre choix dans Maj'Eyal. "Vapor Trail" a été un participant enthousiaste, et nous avons fait fortune en vendant de l'absinthe d'Atmos aux contrebandiers des Royaumes Alliés, ainsi que du vin et du brandy d'Elvala. J'enverrai un navire rempli de nos profits (métaux utiles, ingrédients alchimiques, esclaves) au port tous les deux mois ; fouillez l'équipage pour vous assurer qu'ils n'ont pas fait main basse sur la marchandise, et passez quiconque se fait prendre sous la quille.
 
--Crew disobedience and morale continues to be something of a problem, despite regular floggings, but we're still retaining enough of them and getting enough use out of them.  That said, feel free to keep sending sentenced criminals our way - they're surprisingly productive as long as we give them enough booze and cheerblossom.]], "_t")
-t("overall analysis", "overall analysis", "_t")
+- La désobéissance et le moral de l'équipage restent problématiques, malgré les séances de fouet régulières, mais nous en conservons suffisamment et nous en tirons un bon rendement. Cela dit, n'hésitez pas à continuer à nous envoyer des condamnés — ils sont étonnamment productifs tant que nous leur fournissons suffisamment d'alcool et de pétales de bonheur.]], "_t")
+t("overall analysis", "analyse globale", "_t")
 t([[OVERALL ANALYSIS:
 
 Boss, if there's one thing I can say, it's that you didn't make a mistake by pardoning me and my crew.  The materials I've shipped home have surely been invaluable for our preparations, and the moment the top brass decides they want to start the invasion, I can start spiking the outgoing liquors and cheerblossom with time-delay potions of your choice, crippling the Allied Kingdoms from within by starting a plague or turning every minor lawbreaker into a berserk madman.  If nothing else, the You-Know-What will be [i]very[/i] useful when push comes to shove.
 
 As per your orders, we've restricted most of our intervention to sabotaging the Allied Kingdoms, but I wonder if some amount of focus on the orcs would be helpful.  A band of them has recently emerged from the Clork Peninsula, victorious over Sun Paladins and Atmos alike; we've lost contact with "Sunny Day," and "Vapor Trail" has kept exports to a minimum for fear of detection.  If we don't do something about this soon, they may become a bigger obstacle than the Allied Kingdoms.
 
-I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], [[OVERALL ANALYSIS:
+I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], [[ANALYSE GLOBALE :
 
-Boss, if there's one thing I can say, it's that you didn't make a mistake by pardoning me and my crew.  The materials I've shipped home have surely been invaluable for our preparations, and the moment the top brass decides they want to start the invasion, I can start spiking the outgoing liquors and cheerblossom with time-delay potions of your choice, crippling the Allied Kingdoms from within by starting a plague or turning every minor lawbreaker into a berserk madman.  If nothing else, the You-Know-What will be [i]very[/i] useful when push comes to shove.
+Boss, s'il y a une chose que je peux dire, c'est que vous n'avez pas fait d'erreur en nous graciant, mon équipage et moi. Les matériaux que j'ai renvoyés au port ont certainement été inestimables pour nos préparatifs, et dès que l'état-major décidera de lancer l'invasion, je pourrai commencer à couper les alcools et pétales de bonheur sortants avec des potions à effet retardé de votre choix. Cela paralysera les Royaumes Alliés de l'intérieur, en déclenchant une peste ou en transformant le moindre petit délinquant en fou furieux berserker. Au pire, le "Vous-Savez-Quoi" sera [i]très[/i] utile quand les choses tourneront mal.
 
-As per your orders, we've restricted most of our intervention to sabotaging the Allied Kingdoms, but I wonder if some amount of focus on the orcs would be helpful.  A band of them has recently emerged from the Clork Peninsula, victorious over Sun Paladins and Atmos alike; we've lost contact with "Sunny Day," and "Vapor Trail" has kept exports to a minimum for fear of detection.  If we don't do something about this soon, they may become a bigger obstacle than the Allied Kingdoms.
+Conformément à vos ordres, nous avons limité la plupart de nos interventions au sabotage des Royaumes Alliés, mais je me demande si un peu d'attention portée aux orcs ne serait pas profitable. Une bande d'entre eux a récemment émergé de la péninsule de Clork, victorieuse aussi bien des Paladins Solaire que d'Atmos ; nous avons perdu le contact avec "Sunny Day", et "Vapor Trail" a réduit les exportations au minimum par peur d'être repéré. Si nous ne faisons rien à ce sujet rapidement, ils pourraient devenir un obstacle plus important que les Royaumes Alliés.
 
-I await your reply - and more dried meat, my crew loves the stuff and these smugglers can't be arsed to bring us something so mundane.]], "_t")
---]==]
-
+J'attends votre réponse — ainsi que plus de viande séchée ; mon équipage adore ça, et ces contrebandiers ont la flemme de nous apporter des produits aussi banals.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/emporium.lua"
 
-
--- texte non traduit
---[==[
-t("vaporous emporium", "vaporous emporium", "newLore category")
-t("a large poster", "a large poster", "_t")
+t("vaporous emporium", "emporium vaporeux", "newLore category")
+t("a large poster", "une grande affiche", "_t")
 t([[#{bold}#CLOGGING NO MORE!#{normal}#
 If steam-vent congestion ails you, avail yourself of:
  
@@ -2228,35 +2104,35 @@ ALSO EFFECTIVE FOR: Headaches, nausea, ennui, fatigue, aches and pains, and gene
  
 #{italic}#[A disclaimer occupies the bottom margin of the poster, in print so small you doubt the giants would be able to read it.]#{normal}#
  
-WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], [[#{bold}#CLOGGING NO MORE!#{normal}#
-If steam-vent congestion ails you, avail yourself of:
+WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], [[#{bold}#FINI LES BOUCHONS !#{normal}#
+Si vos évents à vapeur vous font souffrir, offrez-vous :
  
-#{italic}#[An illustration depicts a rectangular glass bottle, labelled "DR. RAGLUK's DECLOGGING DRAUGHT".]#{normal}#
+#{italic}#[Une illustration montre une bouteille en verre rectangulaire, étiquetée "BREUVAAGE DÉBOUCHEUR DU DR RAGLUK".]#{normal}#
  
-MADE WITH LOVE, CARE, AND THE PUREST MINERALS FROM THE STEAM QUARRY
+FABRIQUÉ AVEC AMOUR, SOIN ET LES MINÉRAUX LES PLUS PURS DE LA CARRIÈRE DE VAPEUR
  
-Just one capful will cleanse your pores, flushing toxins out with the steam!
+Un seul bouchon nettoiera vos pores, évacuant les toxines avec la vapeur !
  
-ALSO EFFECTIVE FOR: Headaches, nausea, ennui, fatigue, aches and pains, and general malaise!
+AUSSI EFFICACE CONTRE : Maux de tête, nausées, ennui, fatigue, douleurs diverses et mal-être général !
  
-#{italic}#[A disclaimer occupies the bottom margin of the poster, in print so small you doubt the giants would be able to read it.]#{normal}#
+#{italic}#[Une clause de non-responsabilité occupe la marge inférieure de l'affiche, en caractères si minuscules que vous doutez qu'un géant puisse les lire.]#{normal}#
  
-WARNING: This product has been determined by the Council of Health Authority to be correlated with the following conditions: Inverse vertigo, increased hair flammability, non-vaporous sweating, night terrors, liver dysphoria, headaches, miner's lung, brainlock, day terrors, mitosis, visions of a great butchered being, miner's elbow, skeletal emancipation, gastrointestinal infamy, brittle kidney, pinaciphobia, decreased global speed, teleportitis, miner's tongue, merged nostrils, an ancient and foul curse, lowered steam pressure, fat burning (literal), ocular feathering, Orcish body odor, arcane disruption, gravity loss, bloodlock, malfeasance, rectal carpeting, nihilism, mid-evening terrors, knee rust, and minor clogging of the pores.]], "_t")
-t("tattered poster", "tattered poster", "_t")
+ATTENTION : Le Conseil de l'Autorité Sanitaire a établi une corrélation entre ce produit et les affections suivantes : Vertige inversé, inflammabilité capillaire accrue, sudation non-vaporeuse, terreurs nocturnes, dysphorie hépatique, maux de tête, poumon de mineur, verrouillage cérébral, terreurs diurnes, mitose, visions d'un grand être dépecé, coude de mineur, émancipation squelettique, infamie gastro-intestinale, rein fragile, pinaciphobie, vitesse globale réduite, téléportite, langue de mineur, narines fusionnées, malédiction ancienne et immonde, baisse de pression de vapeur, combustion de graisse (littérale), plumage oculaire, odeur corporelle d'orc, perturbation arcanique, perte de gravité, blocage sanguin, malfaisance, tapis rectal, nihilisme, terreurs vespérales, rouille du genou et colmatage mineur des pores.]], "_t")
+t("tattered poster", "affiche en lambeaux", "_t")
 t([[CLOSING SALE
 for
 KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
  
 It is with a heavy heart that I must announce our closing.  After over twenty years of service, I am shutting my doors - the people of the Atmos Tribe apparently wish to trust the Guard with their well-being, and the Guard chooses to maintain the weapons it already has rather than purchase things like the #{italic}#BRILLIANT AUTO-LOADING ORC EXPELLER#{normal}# (only 30 gold!), or the #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}# (only 450 gold!).  I even offered discount options such as the #{italic}#LIL SURPRISE#{normal}# (now only 15 gold!), and yet the city would have none of it.  It would seem my services, and my talents, are simply not wanted.
  
-Even if you have no fear of the orcish tribes, ritch swarms, and other assorted threats that lurk just outside our city walls, please consider purchasing some of my wares.  They are truly beautiful displays of craftsmanship, and would do well as a desk sculpture or (if properly disarmed) a child's toy.  If nothing else, you will be ensuring that a once-proud artisan with great love and respect for his craft need not resort to begging on the streets.]], [[CLOSING SALE
-for
-KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
+Even if you have no fear of the orcish tribes, ritch swarms, and other assorted threats that lurk just outside our city walls, please consider purchasing some of my wares.  They are truly beautiful displays of craftsmanship, and would do well as a desk sculpture or (if properly disarmed) a child's toy.  If nothing else, you will be ensuring that a once-proud artisan with great love and respect for his craft need not resort to begging on the streets.]], [[LIQUIDATION AVANT FERMETURE
+des
+ARMES À FEU, ARMURES ET AUTRES FOUTAISES MARTIALES DE KALTOR
  
-It is with a heavy heart that I must announce our closing.  After over twenty years of service, I am shutting my doors - the people of the Atmos Tribe apparently wish to trust the Guard with their well-being, and the Guard chooses to maintain the weapons it already has rather than purchase things like the #{italic}#BRILLIANT AUTO-LOADING ORC EXPELLER#{normal}# (only 30 gold!), or the #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}# (only 450 gold!).  I even offered discount options such as the #{italic}#LIL SURPRISE#{normal}# (now only 15 gold!), and yet the city would have none of it.  It would seem my services, and my talents, are simply not wanted.
+C'est le coeur lourd que j'annonce la fermeture. Après vingt ans de service, je ferme boutique - les gens de la Tribu Atmos préfèrent confier leur sécurité à la Garde, et la Garde préfère conserver ses vieilles pétoires plutôt que d'acheter des merveilles comme le #{italic}#BRILLANT EXPULSEUR D'ORCS AUTO-CHARGEUR#{normal}# (30 pièces d'or seulement !), ou la #{italic}#COMBINAISON DE COMBAT RENFORCÉE À PRESSION ET ANTI-TRANCHAGE#{normal}# (450 pièces d'or !). J'ai même proposé des options à prix réduit comme la #{italic}#PTITE SURPRISE#{normal}# (15 pièces d'or !), mais la ville n'en a pas voulu. Apparemment, mes services et mon génie sont de trop.
  
-Even if you have no fear of the orcish tribes, ritch swarms, and other assorted threats that lurk just outside our city walls, please consider purchasing some of my wares.  They are truly beautiful displays of craftsmanship, and would do well as a desk sculpture or (if properly disarmed) a child's toy.  If nothing else, you will be ensuring that a once-proud artisan with great love and respect for his craft need not resort to begging on the streets.]], "_t")
-t("ornately-painted poster", "ornately-painted poster", "_t")
+Même si vous ne craignez pas les tribus orcs, les essaims de ritchs et autres menaces qui rôdent juste devant nos murs, achetez mes articles. Ce sont des objets d'artisanat magnifiques, qui feraient d'excellentes décorations de bureau ou (si on les désarme) des jouets pour enfants. Au moins, vous empêcherez un artisan autrefois fier de devoir mendier dans la rue.]], "_t")
+t("ornately-painted poster", "affiche richement décorée", "_t")
 t([[Stylish.  Elegant.  Exclusive.
 
 #{bold}#EXTINCTION#{normal}#, a new line from Faerlhing's Weavings, the finest name in fashion.
@@ -2266,17 +2142,17 @@ Steel drakes can no longer be found in the wild - our pens contain the ONLY livi
 Place your orders now.  Open bidding will run for 30 days, after which point orders will be handled on a first-come, first-serve basis.
 
 Other fashions come and go.  #{bold}#EXTINCTION#{normal}# is forever.
-]], [[Stylish.  Elegant.  Exclusive.
+]], [[Stylé. Élégant. Exclusif.
 
-#{bold}#EXTINCTION#{normal}#, a new line from Faerlhing's Weavings, the finest name in fashion.
+#{bold}#EXTINCTION#{normal}#, la nouvelle ligne de Tissages Faerlhing, le summum de la mode.
 
-Steel drakes can no longer be found in the wild - our pens contain the ONLY living ones in Var'Eyal, and possibly the last generation to not be marred by inbreeding-induced deformities.  When you wear our wonderful coats, dresses, boots, or corsets to a party, meeting, or other get-together, the others won't just notice the unique, metallic sheen matched with unparalleled flexibility unique to their scales.  They'll know that they CANNOT imitate your look.  That it's a look their children will NEVER have.  That YOU have made your mark on ecological history, and reaped the fashionable, comfortable benefits.  And steel drake scales are not known to decay naturally, so proof of your impeccable taste will live far longer than the species they were taken from.
+Les dragonnets d'acier ont disparu à l'état sauvage - nos enclos abritent les SEULS spécimens vivants de Var'Eyal, et probablement la dernière génération non marquée par les difformités de la consanguinité. Quand vous porterez nos merveilleux manteaux, robes, bottes ou corsets lors d'une réception, les autres ne remarqueront pas seulement l'éclat métallique unique et la flexibilité incomparable de leurs écailles. Ils sauront qu'ils NE PEUVENT PAS imiter votre style. Que c'est un look que leurs enfants n'auront JAMAIS. Que VOUS avez marqué l'histoire écologique tout en profitant du confort et du luxe. Les écailles de dragonnet d'acier ne se décomposant pas naturellement, la preuve de votre goût impeccable survivra bien plus longtemps que l'espèce dont elles sont issues.
 
-Place your orders now.  Open bidding will run for 30 days, after which point orders will be handled on a first-come, first-serve basis.
+Passez vos commandes maintenant. Les enchères seront ouvertes pendant 30 jours, après quoi les commandes seront traitées dans l'ordre d'arrivée.
 
-Other fashions come and go.  #{bold}#EXTINCTION#{normal}# is forever.
+Les modes passent. #{bold}#EXTINCTION#{normal}# est éternelle.
 ]], "_t")
-t("official-looking poster", "official-looking poster", "_t")
+t("official-looking poster", "affiche à l'aspect officiel", "_t")
 t([[#{bold}#KEEP THE PRESSURE UP!#{normal}#
 #{italic}#An announcement on power consumption, paid for by the Council of Geothermal Authority#{normal}#
 
@@ -2292,23 +2168,23 @@ As per our previous announcements, the geothermal vents of the Steam Quarry have
 
 -Do NOT pressurize tanks from the tap and sell them to others!  This is a violation of Council law, punishable by a fine of up to 3,000 gold and up to four years in prison, per tank.
 
-Thank you for helping ensure we ALL have power, while we work on curing this shortage!]], [[#{bold}#KEEP THE PRESSURE UP!#{normal}#
-#{italic}#An announcement on power consumption, paid for by the Council of Geothermal Authority#{normal}#
+Thank you for helping ensure we ALL have power, while we work on curing this shortage!]], [[#{bold}#MAINTENEZ LA PRESSION !#{normal}#
+#{italic}#Une annonce sur la consommation d'énergie, financée par le Conseil de l'Autorité Géothermique#{normal}#
 
-As per our previous announcements, the geothermal vents of the Steam Quarry have begun to taper off in output.  While our geologists and military consider all available options for finding new vents (or alternative sources of steam power), we need YOUR cooperation to keep the pipes from running dry!  Here's how you can help make sure we have enough steam for everyone:
+Comme annoncé précédemment, le débit des évents géothermiques de la Carrière de Vapeur commence à faiblir. Tandis que nos géologues et nos militaires étudient toutes les options pour trouver de nouveaux évents, nous avons besoin de VOTRE coopération pour éviter l'assèchement des conduites ! Voici comment vous pouvez aider :
 
--Cook the old-fashioned way - with flame magic, or a firewood stove.  Flash-steamers, although certainly a convenient way of preparing food, are VERY inefficient.  For a free handbook on delicious and easy-to-learn recipes for a conventional or pyromancy-based stove, simply come to the Council of Geothermal Authority offices and take one from the lobby.
+- Cuisinez à l'ancienne - magie de feu ou cuisinière à bois. Les vaporisateurs, bien que pratiques, sont TRÈS inefficaces. Pour un manuel gratuit de recettes délicieuses pour cuisinière conventionnelle ou pyromancienne, passez aux bureaux du Conseil de l'Autorité Géothermique.
 
--Remember to shut off your appliances when you're done with them!  A full 5% of our power usage is estimated to be from washing machines, mills, carousels, generator-powered lighting, and other such devices left plugged in when not in use.  When you are done using an appliance, make sure it has been deactivated; to be completely sure, our experts recommend shutting off the valve entirely, then disconnecting the appliance and placing a standard cap over the output pipe.
+- N'oubliez pas d'éteindre vos appareils ! On estime que 5% de notre consommation d'énergie provient de machines à laver, moulins, carrousels et éclairages laissés branchés inutilement. Quand vous avez fini, assurez-vous que l'appareil est désactivé ; pour être sûr, nos experts recommandent de fermer la vanne, de débrancher l'appareil et de placer un bouchon sur le tuyau.
 
--Have your pipes checked regularly.  Leaking valves and loose fittings can consume tremendous amounts of steam pressure; you are only required to have your home steam-pipes inspected every three years, but additional inspections are available at no charge (once every six months).  Volunteering for these inspections can reduce your geothermal consumption, and fees, dramatically.
+- Faites vérifier vos tuyaux régulièrement. Les vannes qui fuient consomment une pression énorme ; les inspections sont obligatoires tous les trois ans, mais des contrôles gratuits sont disponibles tous les six mois. Le volontariat peut réduire drastiquement votre consommation et vos factures.
 
--Use your own steam!  With regular exercise and a good diet, you can create your own power by wearing a collection suit, and plug the pressurized reserve tanks into your home intake valves to reduce the amount of power drawn from the geothermal system by over 40% (depending on personal production).  Short-term use of declogging tonics may help, but long-term use is generally ill-advised.
+- Utilisez votre propre vapeur ! Avec de l'exercice et un régime adapté, vous pouvez générer votre propre énergie via une combinaison de collecte, et brancher les réservoirs pressurisés sur vos vannes d'admission pour réduire la ponction sur le système géothermique de 40%. Les toniques débouchants à court terme peuvent aider, mais l'usage à long terme est déconseillé.
 
--Do NOT pressurize tanks from the tap and sell them to others!  This is a violation of Council law, punishable by a fine of up to 3,000 gold and up to four years in prison, per tank.
+- NE pressurisez PAS de réservoirs depuis le robinet pour les revendre ! C'est une violation de la loi du Conseil, passible d'une amende de 3 000 pièces d'or et quatre ans de prison par réservoir.
 
-Thank you for helping ensure we ALL have power, while we work on curing this shortage!]], "_t")
-t("hastily-written poster", "hastily-written poster", "_t")
+Merci d'assurer l'énergie pour TOUS pendant que nous résolvons cette pénurie !]], "_t")
+t("hastily-written poster", "affiche écrite à la hâte", "_t")
 t([[KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
 is
 OPEN FOR BUSINESS AGAIN!
@@ -2324,24 +2200,22 @@ Don't make the same mistake twice!  Purchase the #{italic}#LIL SURPRISE#{normal}
 I'm sure you have your doubts as to the efficacy of my lovingly-made armaments; for a free demonstration of the quality and effectiveness of my goods, you are invited to try to take them by force.  I dare you - and that includes the City Guard, should they have any delusions about confiscating them for the public good.  The public has dug their own grave, and I will not pull them up simply out of charity; after all, they have offered me no such charity in the past.
  
 #{italic}#[An address is listed at the bottom of this poster.  You could attempt to raid this store, if you wanted, but the owner's armed to the teeth - it's unlikely it'll be worth the risk.]#{normal}#
-]], [[KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
-is
-OPEN FOR BUSINESS AGAIN!
+]], [[ARMES À FEU, ARMURES ET AUTRES FOUTAISES MARTIALES DE KALTOR
+est
+À NOUVEAU OUVERT !
  
-The orcish hordes are upon us!  Although I am not normally one for gloating, I feel I must take this opportunity to say:
+Les hordes orcs sont sur nous ! Bien que je ne sois pas du genre à fanfaronner, je me dois de dire :
  
-#{bold}#I TOLD YOU SO, YOU INGRATES#{normal}#
+#{bold}#JE VOUS L'AVAIS BIEN DIT, BANDE D'INGRATS#{normal}#
  
-Do you see the need for my wonderful devices of self-defense NOW?  Do you see why I toiled so thoughtfully and tirelessly to make such exquisite contraptions that could've saved so many lives, if you'd only been willing to pay what I was asking for them, only a tiny fraction of what they were worth?  Does the USELESS City Guard see why they should have been purchasing my newest, improved models, such as the #{italic}#BRILLIANT AUTO-LOADING ORC EXPELLER#{normal}# (only 600 gold!  Get yours now!  Protect your family!) instead of abusing my built-to-last craftsmanship to keep my original production run around for over a decade?
+Voyez-vous l'utilité de mes merveilleux appareils de défense MAINTENANT ? Comprenez-vous pourquoi j'ai travaillé si dur pour créer ces engins exquis qui auraient pu sauver tant de vies, si seulement vous aviez accepté de payer une fraction de leur valeur ? La GARDE MUNICIPALE INUTILE voit-elle enfin pourquoi elle aurait dû acheter mes modèles améliorés, comme le #{italic}#BRILLANT EXPULSEUR D'ORCS AUTO-CHARGEUR#{normal}# (600 pièces d'or ! Achetez-le ! Protégez votre famille !) au lieu d'abuser de mon artisanat pour faire durer ma production originale pendant dix ans ?
  
-Don't make the same mistake twice!  Purchase the #{italic}#LIL SURPRISE#{normal}# for merely 150 gold!  What's that?  You can't afford that entry-level price?  I guess you should've bought it while I was still making them!  Don't want to get your guts torn out by a little green-skinned savage?  My old price for the #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}# was a steal at 700 gold - if you want one now, I'm sure your life is worth at least 3800 gold to you.  It utilizes your own vents to power tiny motors hidden in its joints, granting an unparalleled combination of fortitude and mobility; guaranteed to protect you from ANY sort of harm those savages can dish out, without slowing you down!  Notice all those dead guardsmen around?  Notice how they AREN'T wearing a #{italic}#PRESSURE-ENHANCED SLASHPROOF COMBAT SUIT#{normal}#, despite my desperate recommendations?  Don't let that be you or your loved ones!
+Ne faites pas la même erreur deux fois ! Achetez la #{italic}#PTITE SURPRISE#{normal}# pour 150 pièces d'or ! Quoi ? Trop cher ? Fallait acheter quand j'en fabriquais ! Vous ne voulez pas vous faire éventrer par un sauvage à peau verte ? Mon ancien prix pour la #{italic}#COMBINAISON DE COMBAT RENFORCÉE À PRESSION ET ANTI-TRANCHAGE#{normal}# était une aubaine à 700 pièces d'or - si vous en voulez une maintenant, je suppose que votre vie vaut bien 3800 pièces d'or. Elle utilise votre propre vapeur pour actionner des moteurs miniatures dans les articulations, offrant une fortitude et une mobilité inégalées ; garanti pour vous protéger de TOUT ce que ces sauvages peuvent vous infliger, sans vous ralentir ! Vous voyez tous ces gardes morts autour ? Ils ne portent PAS de #{italic}#COMBINAISON DE COMBAT RENFORCÉE#{normal}#, malgré mes recommandations désespérées ! Ne finissez pas comme eux !
  
-I'm sure you have your doubts as to the efficacy of my lovingly-made armaments; for a free demonstration of the quality and effectiveness of my goods, you are invited to try to take them by force.  I dare you - and that includes the City Guard, should they have any delusions about confiscating them for the public good.  The public has dug their own grave, and I will not pull them up simply out of charity; after all, they have offered me no such charity in the past.
+Vous doutez de l'efficacité de mes armements faits avec amour ? Pour une démonstration gratuite, essayez de venir les prendre par la force. Je vous mets au défi - et cela inclut la Garde municipale, si jamais elle a des idées de saisie pour le "bien public". Le public a creusé sa propre tombe, je ne vais pas l'en sortir par charité ; après tout, ils ne m'en ont jamais offert par le passé.
  
-#{italic}#[An address is listed at the bottom of this poster.  You could attempt to raid this store, if you wanted, but the owner's armed to the teeth - it's unlikely it'll be worth the risk.]#{normal}#
+#{italic}#[Une adresse figure en bas de l'affiche. Vous pourriez tenter un raid sur ce magasin, mais le propriétaire est armé jusqu'aux dents - ça n'en vaut probablement pas la peine.]#{normal}#
 ]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/lore/gem.lua"
@@ -2422,7 +2296,7 @@ t("so that's what it looks like.  what THEY look like.  now I see why so many de
 ------------------------------------------------
 section "tome-orcs/data/lore/internment-camp.lua"
 
-
+t("internment camp correspondence (3)", "correspondance du camp d'internement (3)", "_t")
 -- texte non traduit
 --[==[
 t("internment camp", "internment camp", "newLore category")
@@ -2534,7 +2408,6 @@ Do you have #{italic}#any#{normal}# idea how much it costs to transport an ogre-
 
 With growing impatience,
 Administrator Quellop]], "_t")
-t("internment camp correspondence (3)", "internment camp correspondence (3)", "_t")
 t([[#{italic}#To: Condescending Little Cretin
 From: Guard Captain Galsamae#{normal}#
 
@@ -2720,65 +2593,61 @@ i'm sorry karbatha]], "_t")
 ------------------------------------------------
 section "tome-orcs/data/lore/misc.lua"
 
-
--- texte non traduit
---[==[
-t("sunwall observatory", "sunwall observatory", "newLore category")
-t("an astronomer's journal", "an astronomer's journal", "_t")
+t("sunwall observatory", "observatoire du mur solaire", "newLore category")
+t("an astronomer's journal", "journal d'un astronome", "_t")
 t([[The strange movement on the far side of Wintertide continues - a shadow here, a tiny speck or flash of light there.  Still obscured and difficult to identify.  Obfuscating magic is likely at work, but whether it's on our end or Wintertide's, I cannot say.
 
 The nebula behind the Neira constellation continues its slow fading.  Star Gerlyk-P is gone now too, and by most current models, Amakthel-N will be next.  If the last century is any indication, the rate of disappearances is accelerating...  this is most worrying, but what may be more worrying is that Star Quekjora-B has reappeared in an abrupt flash of light, powerful enough to illuminate the night sky for a brief moment.  It is oscillating between green and purple now, a far cry from its original glow of pale orange, and does not quite seem to be spherical...  I can feel its power from here just like I can Shandral or our two moons, dimly but growing stronger.  It's impossible to meaningfully speculate on something so unprecedented, so I will not write my theories down here, but none of them are reassuring.
 
-Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other Spellblaze-blasted planets in other systems are still slowly fading, and the lights on more distant worlds continue to twinkle.  Stars outside the Neira constellation remain steady, or decay according to standard astronomical models.]], [[The strange movement on the far side of Wintertide continues - a shadow here, a tiny speck or flash of light there.  Still obscured and difficult to identify.  Obfuscating magic is likely at work, but whether it's on our end or Wintertide's, I cannot say.
+Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other Spellblaze-blasted planets in other systems are still slowly fading, and the lights on more distant worlds continue to twinkle.  Stars outside the Neira constellation remain steady, or decay according to standard astronomical models.]], [[L'étrange mouvement sur la face cachée de la marée hivernale persiste — une ombre ici, une minuscule tache ou un éclair de lumière là. Toujours obscurci et difficile à identifier. Une magie d'occultation est probablement à l'oeuvre, mais je ne saurais dire si elle provient de notre côté ou de la marée hivernale.
 
-The nebula behind the Neira constellation continues its slow fading.  Star Gerlyk-P is gone now too, and by most current models, Amakthel-N will be next.  If the last century is any indication, the rate of disappearances is accelerating...  this is most worrying, but what may be more worrying is that Star Quekjora-B has reappeared in an abrupt flash of light, powerful enough to illuminate the night sky for a brief moment.  It is oscillating between green and purple now, a far cry from its original glow of pale orange, and does not quite seem to be spherical...  I can feel its power from here just like I can Shandral or our two moons, dimly but growing stronger.  It's impossible to meaningfully speculate on something so unprecedented, so I will not write my theories down here, but none of them are reassuring.
+La nébuleuse derrière la constellation de Neira poursuit son lent effacement. L'étoile Gerlyk-P a maintenant disparu elle aussi, et selon la plupart des modèles actuels, Amakthel-N sera la prochaine. Si le siècle dernier est un indicateur, le taux de disparitions s'accélère... c'est très inquiétant, mais ce qui l'est peut-être davantage, c'est que l'étoile Quekjora-B a réapparu dans un éclair de lumière soudain, assez puissant pour illuminer le ciel nocturne un bref instant. Elle oscille désormais entre le vert et le violet, bien loin de son éclat orange pâle originel, et elle ne semble pas tout à fait sphérique... Je peux sentir sa puissance d'ici, tout comme je sens Shandral ou nos deux lunes, faiblement mais de plus en plus fort. Il est impossible de spéculer de manière sensée sur quelque chose d'aussi inédit, je n'écrirai donc pas mes théories ici, mais aucune n'est rassurante.
 
-Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other Spellblaze-blasted planets in other systems are still slowly fading, and the lights on more distant worlds continue to twinkle.  Stars outside the Neira constellation remain steady, or decay according to standard astronomical models.]], "_t")
-t("ureslak's lair", "ureslak's lair", "newLore category")
-t("a note lying in a puddle", "a note lying in a puddle", "_t")
+Hormis ces phénomènes, tout est normal. Les fissures sur Mal'Rok et les autres planètes ravagées par le cataclysme magique dans d'autres systèmes s'estompent lentement, et les lumières sur les mondes plus lointains continuent de scintiller. Les étoiles en dehors de la constellation de Neira restent stables ou déclinent selon les modèles astronomiques standards.]], "_t")
+t("ureslak's lair", "repaire d'Ureslak", "newLore category")
+t("a note lying in a puddle", "note gisant dans une flaque", "_t")
 t([[If you think I'd just leave my plans lying around for anyone to find them, you're an even greater buffoon than Rak'Shor's followers.  You, unlike them, are of no use to me.  [b]Die.[/b]
 
-[i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], [[If you think I'd just leave my plans lying around for anyone to find them, you're an even greater buffoon than Rak'Shor's followers.  You, unlike them, are of no use to me.  [b]Die.[/b]
+[i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], [[Si vous pensez que je laisserais mes plans traîner pour que n'importe qui les trouve, vous êtes un bouffon encore plus grand que les sbires de Rak'Shor. Contrairement à eux, vous ne m'êtes d'aucune utilité. [b]Mourez.[/b]
 
-[i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], "_t")
-t("var'eyal", "var'eyal", "newLore category")
-t("dropped demonic orders", "dropped demonic orders", "_t")
+[i](La moitié inférieure du papier est illisible, maculée par l'eau qui goutte d'une stalactite au-dessus, mais elle a la forme approximative d'un piège à rune explosive. Vous lâchez la note, méfiant quant à tout pouvoir résiduel qu'elle pourrait encore contenir.)[/i] ]], "_t")
+t("dropped demonic orders", "ordres démoniaques égarés", "_t")
 t([[I'm not going to lie to you: things aren't going great.  Between the Doomelf escape incidents, the deaths of Khulmanar and a great deal of our more expensive combatants at the hands of the Anomaly, and the disappearance of the First Duathedlen, we've been set back pretty far this year.  As such, your orders are simple: lay low.  Stay out of sight, and conduct passive observation until we can get a foothold and a new plan.
 
 And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
 
-[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], [[I'm not going to lie to you: things aren't going great.  Between the Doomelf escape incidents, the deaths of Khulmanar and a great deal of our more expensive combatants at the hands of the Anomaly, and the disappearance of the First Duathedlen, we've been set back pretty far this year.  As such, your orders are simple: lay low.  Stay out of sight, and conduct passive observation until we can get a foothold and a new plan.
+[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], [[Je ne vais pas vous mentir : les choses ne vont pas fort. Entre les incidents d'évasion des Elfes de la Ruine, la mort de Khulmanar et d'une grande partie de nos combattants les plus coûteux aux mains de l'Anomalie, et la disparition du Premier Duathedlen, nous avons pris un sérieux retard cette année. Par conséquent, vos ordres sont simples : faites profil bas. Restez hors de vue et menez une observation passive jusqu'à ce que nous puissions prendre pied et élaborer un nouveau plan.
 
-And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
+Et concernant le Premier Duathedlen — cessez vos murmures immédiatement. Je connais son dossier, et je sais que la plupart d'entre vous le connaissent aussi. C'est pourquoi nous pouvons affirmer sans risque que, malgré sa... nature, sa loyauté n'est [b]pas[/b] en question — nous pouvons supposer que son arrêt brutal de communication est une partie nécessaire de ses investigations, et non le signe qu'il a fait défection. Si vous le voyez, informez-nous de sa position, mais n'interférez pas.
 
-[i](The letter is signed with an unreadable but formal-looking demonic seal.)[/i] ]], "_t")
-t("bootlegger's complaint letter", "bootlegger's complaint letter", "_t")
+[i](La lettre est signée d'un sceau démoniaque illisible mais à l'aspect formel.)[/i] ]], "_t")
+t("bootlegger's complaint letter", "lettre de plainte d'un contrebandier", "_t")
 t([[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
 
-I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
+I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[Écoutez, je sais que le but de ce marché était de créer un lieu pour TOUT type de commerce ouvert, sans que les voyants des Royaumes Alliés ne nous soufflent dans le cou, et je sais qu'il n'est pas vraiment faisable d'installer un autre portail hors du continent... mais avez-vous la moindre idée de ce que c'est mauvais pour les affaires d'avoir des esclavagistes qui utilisent cet endroit avec nous ? Personne ne voudra boire une bonne chope de bière non réglementée ou acheter un nouveau collier volé alors qu'à dix mètres, une pauvre personne est emmenée enchaînée en gémissant de misère.
 
-I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], "_t")
-t("wand-smuggler's apology letter", "wand-smuggler's apology letter", "_t")
+Je vous le dis, débarrassez-vous des esclaves et vous attirerez dix fois plus de clients pour tout le reste. Peu importe ce que votre patron vous paie pour les esclaves, vous gagnerez plus que ça — et si vous utilisez la main-d'oeuvre pour vous-mêmes, utilisez simplement les fonds excédentaires pour acheter des golems ! Une décision gagnant-gagnant, à mon avis.]], "_t")
+t("wand-smuggler's apology letter", "lettre d'excuses d'un contrebandier de baguettes", "_t")
 t([[My sincerest apologies, Admiral.  I received the conjuration wands in bulk, and I had no idea that several of them were merely wands of trap destruction - testing each one would have drained some charge from each, providing an inferior product.
 
-I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], [[My sincerest apologies, Admiral.  I received the conjuration wands in bulk, and I had no idea that several of them were merely wands of trap destruction - testing each one would have drained some charge from each, providing an inferior product.
+I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], [[Mes plus sincères excuses, Amiral. J'ai reçu les baguettes de conjuration en gros volume, et je n'avais aucune idée que plusieurs d'entre elles étaient de simples baguettes de destruction de pièges — les tester individuellement aurait drainé une partie de leur charge, offrant un produit de qualité inférieure.
 
-I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], "_t")
-t("slaver's inquiry", "slaver's inquiry", "_t")
+Je vais récupérer la part de pétales de bonheur que je peux obtenir auprès de mon fournisseur douteux, ou sa tête — selon ce que vous préférez. À ce moment-là, je vous demanderai de bien vouloir envisager de révoquer mon bannissement de votre marché.]], "_t")
+t("slaver's inquiry", "requête d'un esclavagiste", "_t")
 t([[The anti-scrying nexus you folk set up here is damn impressive, as is the time-release pseudo-rune powered by it - hard to find a spare spot on my skin for it, but I can feel it working for a few days after I'm back in Maj'Eyal.  Great for making sure we can get away from the West portal and disperse without the A.K. catching on or tracking us to a common point of convergence.
 
 Got a proposal, though.  With a few little tweaks, I could make one that doesn't require the bearer's consent to use.  You aren't the only ones buying slaves from me, and when I get a customer who wants them taken right back to the West, we have to do the anti-scrying enchantments ourselves.  I don't know if you've noticed, but proper mages still aren't easy to come by - I barely made a profit last time I did it.
 
 Say the word, and I'll send over the temporary rune design so you can set the nexus to recognize it.  No charge from me - if you accept it, it'll pay for itself.
 
-[i](You assume the elaborate, glowing shape below is an Ogric equivalent to a signature.)[/i] ]], [[The anti-scrying nexus you folk set up here is damn impressive, as is the time-release pseudo-rune powered by it - hard to find a spare spot on my skin for it, but I can feel it working for a few days after I'm back in Maj'Eyal.  Great for making sure we can get away from the West portal and disperse without the A.K. catching on or tracking us to a common point of convergence.
+[i](You assume the elaborate, glowing shape below is an Ogric equivalent to a signature.)[/i] ]], [[Le réseau anti-divination que vous avez mis en place ici est sacrément impressionnant, tout comme la pseudo-rune à libération différée qu’il alimente — j’ai du mal à trouver un endroit libre sur ma peau pour la placer, mais je sens qu’elle continue d’agir pendant quelques jours après mon retour à Maj’Eyal. C'est parfait pour s'assurer que nous pouvons nous éloigner du portail Ouest et nous disperser sans que les R.A. ne se doutent de rien ou ne nous traquent jusqu'à un point de convergence commun.
 
-Got a proposal, though.  With a few little tweaks, I could make one that doesn't require the bearer's consent to use.  You aren't the only ones buying slaves from me, and when I get a customer who wants them taken right back to the West, we have to do the anti-scrying enchantments ourselves.  I don't know if you've noticed, but proper mages still aren't easy to come by - I barely made a profit last time I did it.
+J'ai une proposition, cependant. Avec quelques petits ajustements, je pourrais en fabriquer une qui ne nécessite pas le consentement du porteur. Vous n'êtes pas les seuls à m'acheter des esclaves, et quand j'ai un client qui veut qu'ils soient ramenés directement à l'Ouest, nous devons faire les enchantements anti-divination nous-mêmes. Je ne sais pas si vous avez remarqué, mais les mages compétents ne courent pas les rues — j'ai à peine fait de bénéfice la dernière fois.
 
-Say the word, and I'll send over the temporary rune design so you can set the nexus to recognize it.  No charge from me - if you accept it, it'll pay for itself.
+Dites le moi, et je vous enverrai le modèle de rune temporaire pour que vous puissiez configurer le Nexus afin qu'il la reconnaisse. Je ne vous facturerai rien : si vous l'acceptez, cela s'autofinancera.
 
-[i](You assume the elaborate, glowing shape below is an Ogric equivalent to a signature.)[/i] ]], "_t")
-t("STOP BLOWING OUR COVER", "STOP BLOWING OUR COVER", "_t")
+[i](Vous supposez que la forme élaborée et lumineuse ci-dessous est un équivalent ogre d'une signature.)[/i] ]], "_t")
+t("STOP BLOWING OUR COVER", "ARRÊTEZ DE GRILLER NOTRE COUVERTURE", "_t")
 t([[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
 
 In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, wherever that might be.
@@ -2787,16 +2656,16 @@ My point is, when you're writing those letters, write them like King Tolak's loo
 
 -Korbek
 
-PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], [[We get it: it's our fault the farportal mailing system isn't perfect.  Our people are still working on undoing that jury-rigged configuration that keeps your portal from transporting anything that isn't living - and if we get it wrong, that means people start getting teleported into walls again.  It's already a damn miracle you can get through the portal without coming out naked on the other side, let alone still carrying your backpacks and all their contents.
+PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], [[On a compris : c'est notre faute si le système postal des lointains-portails n'est pas parfait. Nos gars travaillent toujours à défaire cette configuration de fortune qui empêche votre portail de transporter tout ce qui n'est pas vivant — et si on se rate, ça signifie que les gens recommencent à être téléportés dans des murs. C'est déjà un sacré miracle que vous puissiez traverser le portail sans ressortir à poil de l'autre côté, et encore moins avec vos sacs à dos et tout leur contenu.
 
-In the meantime: we're still losing a few letters going through the mailing system, and the lost ones could end up teleported to pretty much anywhere.  They could end up ten feet from the portal, or they could end up right in some A.K. busybody's hands, or they could just warp themselves right up Urh'Rok's nose for all we know.  Likewise, anything written on those notes could end up exactly where you don't want them, wherever that might be.
+En attendant : on perd encore quelques lettres dans le système postal, et les lettres perdues peuvent finir téléportées n'importe où. Elles peuvent atterrir à trois mètres du portail, dans les mains d'un fouineur des R.A., ou même se retrouver en plein dans le nez d'Urh'Rok pour ce qu'on en sait. De même, tout ce qui est écrit sur ces notes peut finir exactement là où vous ne voulez pas, où que ce soit.
 
-My point is, when you're writing those letters, write them like King Tolak's looking over your left shoulder and your grandmother's looking over your right - or at least show SOME semblance of subtlety.  Don't complain about the prices of "illegal potions," complain about "extra-strength medicine."  Don't ask about safety accommodations for "slaves," ask about "private servants."  And please, for the love of Linaniil, [i]stop calling the farportal a farportal![/i]  The A.K. doesn't even know we [i]have[/i] this thing yet, and we don't want to give them any ideas on where or how to start looking.  Call it a courier, or a pack golem, or a trained uruivellas for all I care.
+Ce que je veux dire, c'est que quand vous écrivez ces lettres, écrivez-les comme si le Roi Tolak regardait par-dessus votre épaule gauche et votre grand-mère par-dessus la droite — ou montrez au moins QUELQUE semblant de subtilité. Ne vous plaignez pas des prix des "potions illégales", plaignez-vous des "médicaments extra-forts". Ne demandez pas de conditions de sécurité pour des "esclaves", demandez pour des "serviteurs privés". Et s'il vous plaît, pour l'amour de Linaniil, [i]arrêtez d'appeler le lointain-portail un lointain-portail ![/i] Les R.A. ne savent même pas encore que nous [i]avons[/i] cette chose, et nous ne voulons pas leur donner d'idées sur où ou comment commencer à chercher. Appelez-le un courrier, ou un golem de bât, ou un uruivellas dressé, je m'en fiche.
 
 -Korbek
 
-PS: Yes, I'm breaking my own rules with this letter - you idiots clearly don't understand subtlety, so I can't assume you'd understand a subtly-written letter.  Yes, I'm aware there's a chance this letter could end up in enemy hands.  No, the irony of that situation would not be lost on me.  Yes, I will hurt whoever thinks they're clever by bringing up any of the preceding.]], "_t")
-t("severed hand", "severed hand", "_t")
+PS : Oui, je casse mes propres règles avec cette lettre — vous êtes des idiots qui ne comprenez clairement rien à la subtilité, donc je ne peux pas supposer que vous comprendriez une lettre écrite avec subtilité. Oui, je suis conscient qu'il y a une chance que cette lettre tombe entre les mains de l'ennemi. Non, l'ironie de cette situation ne m'échappe pas. Oui, je ferai mal à quiconque se croira assez malin pour évoquer l'un des points précédents.]], "_t")
+t("severed hand", "main coupée", "_t")
 t([[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
 
 "Drew the short straw" for the calibration [i]my entire ass.[/i]  That cheat used translocation magic and everyone there knew it.  If there's one thing I miss about the Ziguranth, it's that with them around, you only had to watch for sleight-of-hand and wear a mind-caging cap to avoid getting ripped off.
@@ -2808,18 +2677,45 @@ Well, I guess that's what made him a [i]mad[/i] alchemist, and not some rich pot
 Anyway...  Korbek, if you're reading this, it means those crotch-heights screwed up again.  Send them back the orb, and hopefully it'll tell them what they need (well, as far as I'm concerned, [i]hopefully[/i] it'll blow them apart).  You got the calibration right on your end, and your poorly-disguised thugs are doing just fine (and stop with the illusions, it's just insulting, we don't care who or what you are as long as your gold glitters).  We just need to get the signal lock straight on our side, and we'll be able to fill the order you sent over, and then some.
 
 Seriously, though, I'm writing this note so even if I get killed from this, I'm doing you a favor.  If I'm dead, I'd appreciate you showing your gratitude by making sure that ankle-biting son-of-a-ritch has played his last game of musical straws.
-]], [[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
+]], [[[i](Vous voyez ici une main humaine en décomposition dans un gant de cuir noir, sectionnée au poignet. Elle serre encore un artefact fissuré ressemblant à un Orbe des Multiples Voies, avec une note pliée entre l'orbe et la paume.)[/i]
 
-"Drew the short straw" for the calibration [i]my entire ass.[/i]  That cheat used translocation magic and everyone there knew it.  If there's one thing I miss about the Ziguranth, it's that with them around, you only had to watch for sleight-of-hand and wear a mind-caging cap to avoid getting ripped off.
+"Tirer à la courte paille" pour la calibration, [i]mon cul ouais.[/i] Ce tricheur a utilisé la magie de translocation et tout le monde là-bas le savait. S'il y a une chose qui me manque chez les Ziguranths, c'est qu'avec eux, il suffisait de surveiller les tours de passe-passe et de porter un capuchon anti-mental pour éviter de se faire arnaquer.
 
-Speaking of ripoffs, why are we trusting this corpse-lover anyway? I guess it WOULD cost more to make a fake this convincing than we paid for it, but...  why would Tannen have made a portal that only works on the living, then used it to pay off a necromancer, [i]the only type of person who'd call that a downside?[/i]
+En parlant d'arnaques, pourquoi on fait confiance à ce baiseur de cadavres d'ailleurs ? J'imagine que ça coûterait PLUS cher de fabriquer un faux aussi convaincant que ce qu'on a payé, mais... pourquoi Tannen aurait-il fait un portail qui ne fonctionne que sur les vivants, pour ensuite l'utiliser pour payer un nécromancien, [i]le seul type de personne qui appellerait ça un inconvénient ?[/i]
 
-Well, I guess that's what made him a [i]mad[/i] alchemist, and not some rich potion-brewer living comfortably.  Not like anyone can ask him now, except for who we got this altar from.
+Eh bien, je suppose que c'est ce qui faisait de lui un alchimiste [i]fou[/i], et pas un riche fabricant de potions vivant confortablement. Ce n'est pas comme si quelqu'un pouvait lui demander maintenant, sauf ceux à qui on a pris cet autel.
 
-Anyway...  Korbek, if you're reading this, it means those crotch-heights screwed up again.  Send them back the orb, and hopefully it'll tell them what they need (well, as far as I'm concerned, [i]hopefully[/i] it'll blow them apart).  You got the calibration right on your end, and your poorly-disguised thugs are doing just fine (and stop with the illusions, it's just insulting, we don't care who or what you are as long as your gold glitters).  We just need to get the signal lock straight on our side, and we'll be able to fill the order you sent over, and then some.
+Bref... Korbek, si tu lis ceci, ça veut dire que ces nains de jardin ont encore tout foiré. Renvoie-leur l'orbe, et avec un peu de chance, ça leur dira ce dont ils ont besoin (enfin, en ce qui me concerne, [i]espérons[/i] que ça les fera exploser). Tu as réussi la calibration de ton côté, et tes voyous mal déguisés s'en sortent très bien (et arrêtez avec les illusions, c'est insultant, on se fiche de qui ou de ce que vous êtes tant que votre or brille). On a juste besoin de verrouiller le signal de notre côté, et on pourra remplir la commande que vous avez envoyée, et même plus.
 
-Seriously, though, I'm writing this note so even if I get killed from this, I'm doing you a favor.  If I'm dead, I'd appreciate you showing your gratitude by making sure that ankle-biting son-of-a-ritch has played his last game of musical straws.
+Sérieusement, j'écris cette note pour que, même si je me fais tuer là-dedans, je vous rende service. Si je suis mort, j'apprécierais que vous montriez votre gratitude en vous assurant que ce fils de traînée mordu aux chevilles ait joué sa dernière partie de chaises musicales avec les pailles.
 ]], "_t")
+t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "Évaluation des Espèces par l'Érudit Graynot, Chapitre 48 : Géants Vaporeux", "_t")
+t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
+
+Steam Giants are strikingly similar to what humans would look like, were they 8-10 feet tall and slightly on the stocky side (in contrast to the gangly, yet deceptively strong giants of Daikara).  Their most distinguishing physical trait is almost certainly their steam, for which they are named - their skin has numerous pores and vents which are capable of emitting pressurized steam.  They have limited conscious control over this; at rest they are nearly invisible and emit either a gentle mist or nothing at all, but they can will them to seal shut or distend widely, which, in addition to being rather disconcerting to watch, emits a stream or burst of pressurized steam.
+
+Rather ingeniously, they have figured out how to use this steam to power and operate a wide array of metallic contraptions.  Although the giants' oldest texts have been lost to occasional fires and other disasters, they claim that the first bit of "steam-tech" was a simple whistle; from there, they discovered a sort of pressurized stone-cleaner, and from there more and more complex contraptions.  A similar effect can theoretically be achieved by using a furnace to boil water, but this method requires attention and adjustment that comes as naturally to the Steam Giants as breathing; perhaps it is this intuitive quality that made it so easy for them to accomplish so much with it.
+
+The Steam Giants of the Atmos Tribe have hidden in the Clork mountains for ages; it is truly fortunate for them that the Spellblaze missed them entirely, for they were so concentrated and so few in number that it surely would have eradicated them.  They have kept their interactions with other races to a minimum; while Grand Councilor Kasyros claims this was due to fear of both what the outside world could do to them, and what their careless intervention could do to outsiders, most of the other Atmos I spoke to claimed to merely find the "lesser races" to be boorish and unpleasant.  (This is an entirely understandable view, seeing as their only neighbors until just recently have been Orcs.) 
+
+While this isolation has given them peace to let their society develop, it has also fostered a strain of sophistry and disconnection to reality, according to Kasyros, who has begun open trade with the Sunwall and Allied Kingdoms to grant his citizens some fresh perspective.  I could not hope to fully analyze this society during my brief stay; the only deeper insight worth noting I was able to see is that they value physical fitness almost exactly as much as intellectual pursuits, perhaps owing to the fact that steam-tech can be made more powerful through more efficient construction OR simply being able to force out more steam from one's vents.  Their government, accordingly, is chosen by an apparent compromise between democracy and bloodsport (aside from a brief period under King Traglamar, which Kasyros would only tell me "was deeply embarassing for all involved").  Although I cannot say how it reflects on the Atmos people in a greater sense, I feel I must make special note that they have learned how to make the best absinthe I have ever tasted.
+
+Alas, I was not able to study them for long enough to learn more than this.  Kasyros tells me he cannot accompany me any longer, for he has arranged a meeting with the Hero of Maj'Eyal - something about using an exploratory farportal for disposal purposes?  Whatever the case, although most of our contact with the Atmos is still done via constructs dropped from airships, we will soon gain the opportunity to meet more of them in person, and perhaps outsiders other than myself will soon be allowed to see their cities for themselves.  Their help in crushing the Kruk Rebellion and thwarting their leader's attempts to commandeer [b]IMMOLATUS, IMPUDENT RAVAGER OF THE HEAVENS[/b] has ensured that they will be enduring allies with us for an age to come.]], [[Penser qu'une civilisation aussi avancée se cachait presque sous notre nez ! Non pas que la proximité ait facilité mes recherches - il semble qu'à moins d'être citoyen du Mur Solaire, parent de sang du Roi Tolak ou marchand avec assez d'or pour soudoyer les gardes pour qu'ils regardent ailleurs, il est presque impossible pour un civil d'utiliser le portail vers l'Est. Heureusement, le Grand Conseiller Kasyros lui-même a pu consulter mes écrits pour lui donner un aperçu de base de toutes les espèces que son peuple ne connaissait pas, et il a sollicité ma présence pour étudier son peuple.
+
+Les Géants Vaporeux ressemblent étrangement à ce à quoi ressembleraient des humains s'ils mesuraient 2,5 à 3 mètres et étaient un peu trapus (contrairement aux géants de Daikara, dégingandés mais trompeusement forts). Leur trait physique le plus distinctif est presque certainement leur vapeur, d'où leur nom - leur peau possède de nombreux pores et évents capables d'émettre de la vapeur pressurisée. Ils ont un contrôle conscient limité sur cela ; au repos, ils sont presque invisibles et émettent une légère brume ou rien du tout, mais ils peuvent choisir de les sceller ou de les ouvrir largement, ce qui, en plus d'être assez déconcertant à regarder, émet un jet ou une bouffée de vapeur pressurisée.
+
+De manière ingénieuse, ils ont trouvé comment utiliser cette vapeur pour alimenter et faire fonctionner un large éventail de mécanismes métalliques. Bien que les textes les plus anciens des géants aient été perdus lors d'incendies occasionnels et d'autres désastres, ils prétendent que la première "vapotech" était un simple sifflet ; à partir de là, ils ont découvert une sorte de nettoyeur de pierre pressurisé, puis des mécanismes de plus en plus complexes. Un effet similaire peut théoriquement être obtenu en utilisant une fournaise pour faire bouillir l'eau, mais cette méthode nécessite une attention et des ajustements qui viennent aussi naturellement aux Géants Vaporeux que la respiration ; c'est peut-être cette qualité intuitive qui leur a rendu si facile d'accomplir autant de choses avec.
+
+Les Géants Vaporeux de la Tribu Atmos se sont cachés dans les montagnes Clork pendant des lustres ; il est vraiment heureux pour eux que le cataclysme magique les ait totalement manqués, car ils étaient si concentrés et si peu nombreux qu'il les aurait sûrement éradiqués. Ils ont maintenu leurs interactions avec les autres races au minimum ; bien que le Grand Conseiller Kasyros affirme que cela était dû à la peur de ce que le monde extérieur pourrait leur faire, et de ce que leur intervention négligente pourrait faire aux étrangers, la plupart des autres Atmos avec qui j'ai parlé prétendaient simplement trouver les "races inférieures" grossières et désagréables. (C'est un point de vue tout à fait compréhensible, étant donné que leurs seuls voisins jusqu'à récemment étaient des Orcs.)
+
+Bien que cet isolement leur ait donné la paix pour laisser leur société se développer, il a aussi favorisé une forme de sophisme et de déconnexion de la réalité, selon Kasyros, qui a commencé un commerce ouvert avec le Mur Solaire et les Royaumes Alliés pour donner à ses citoyens une perspective nouvelle. Je ne pouvais espérer analyser pleinement cette société lors de mon bref séjour ; la seule perspicacité plus profonde digne d'être notée que j'ai pu voir est qu'ils valorisent la condition physique presque autant que les activités intellectuelles, peut-être parce que la vapeur-tech peut être rendue plus puissante grâce à une construction plus efficace OU simplement par la capacité de forcer plus de vapeur hors de ses évents. Leur gouvernement, par conséquent, est choisi par un compromis apparent entre démocratie et sport de combat (mis à part une brève période sous le Roi Traglamar, dont Kasyros m'a seulement dit qu'elle "fut profondément embarrassante pour toutes les personnes impliquées"). Bien que je ne puisse pas dire comment cela se reflète sur le peuple Atmos dans un sens plus large, je sens que je dois noter spécialement qu'ils ont appris à fabriquer la meilleure absinthe que j'aie jamais goûtée.
+
+Hélas, je n'ai pas pu les étudier assez longtemps pour en apprendre davantage. Kasyros me dit qu'il ne peut plus m'accompagner, car il a organisé une rencontre avec le Héros de Maj'Eyal - quelque chose concernant l'utilisation d'un lointain-portail exploratoire à des fins de mise au rebut ? Quoi qu'il en soit, bien que la plupart de nos contacts avec les Atmos se fassent encore via des constructions lâchées depuis des dirigeables, nous aurons bientôt l'opportunité de rencontrer davantage d'entre eux en personne, et peut-être que d'autres étrangers que moi seront bientôt autorisés à voir leurs cités par eux-mêmes. Leur aide pour écraser la Rébellion Kruk et contrecarrer les tentatives de leur chef de réquisitionner [b]IMMOLATUS, IMPUDENT DÉVASTATEUR DES CIEUX[/b] a assuré qu'ils seront des alliés durables avec nous pour une ère à venir.]], "_t")
+t("Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "Évaluation des Espèces par l'Érudit Graynot, Chapitre 83 : Wei...", "_t")
+t("(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "(Cette note avait déjà pris feu quand l'anomalie paradoxale l'a extraite d'une autre ligne temporelle. Vous n'avez eu que le temps de lire une partie du titre avant qu'elle ne soit complètement consumée.)", "_t")
+-- texte non traduit
+--[==[
+t("var'eyal", "var'eyal", "newLore category")
 t("?...secar", "?...secar", "newLore category")
 t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "_t")
 t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
@@ -2844,30 +2740,6 @@ t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpo
 
 .emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], "_t")
 t("races...?", "races...?", "newLore category")
-t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "_t")
-t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
-
-Steam Giants are strikingly similar to what humans would look like, were they 8-10 feet tall and slightly on the stocky side (in contrast to the gangly, yet deceptively strong giants of Daikara).  Their most distinguishing physical trait is almost certainly their steam, for which they are named - their skin has numerous pores and vents which are capable of emitting pressurized steam.  They have limited conscious control over this; at rest they are nearly invisible and emit either a gentle mist or nothing at all, but they can will them to seal shut or distend widely, which, in addition to being rather disconcerting to watch, emits a stream or burst of pressurized steam.
-
-Rather ingeniously, they have figured out how to use this steam to power and operate a wide array of metallic contraptions.  Although the giants' oldest texts have been lost to occasional fires and other disasters, they claim that the first bit of "steam-tech" was a simple whistle; from there, they discovered a sort of pressurized stone-cleaner, and from there more and more complex contraptions.  A similar effect can theoretically be achieved by using a furnace to boil water, but this method requires attention and adjustment that comes as naturally to the Steam Giants as breathing; perhaps it is this intuitive quality that made it so easy for them to accomplish so much with it.
-
-The Steam Giants of the Atmos Tribe have hidden in the Clork mountains for ages; it is truly fortunate for them that the Spellblaze missed them entirely, for they were so concentrated and so few in number that it surely would have eradicated them.  They have kept their interactions with other races to a minimum; while Grand Councilor Kasyros claims this was due to fear of both what the outside world could do to them, and what their careless intervention could do to outsiders, most of the other Atmos I spoke to claimed to merely find the "lesser races" to be boorish and unpleasant.  (This is an entirely understandable view, seeing as their only neighbors until just recently have been Orcs.) 
-
-While this isolation has given them peace to let their society develop, it has also fostered a strain of sophistry and disconnection to reality, according to Kasyros, who has begun open trade with the Sunwall and Allied Kingdoms to grant his citizens some fresh perspective.  I could not hope to fully analyze this society during my brief stay; the only deeper insight worth noting I was able to see is that they value physical fitness almost exactly as much as intellectual pursuits, perhaps owing to the fact that steam-tech can be made more powerful through more efficient construction OR simply being able to force out more steam from one's vents.  Their government, accordingly, is chosen by an apparent compromise between democracy and bloodsport (aside from a brief period under King Traglamar, which Kasyros would only tell me "was deeply embarassing for all involved").  Although I cannot say how it reflects on the Atmos people in a greater sense, I feel I must make special note that they have learned how to make the best absinthe I have ever tasted.
-
-Alas, I was not able to study them for long enough to learn more than this.  Kasyros tells me he cannot accompany me any longer, for he has arranged a meeting with the Hero of Maj'Eyal - something about using an exploratory farportal for disposal purposes?  Whatever the case, although most of our contact with the Atmos is still done via constructs dropped from airships, we will soon gain the opportunity to meet more of them in person, and perhaps outsiders other than myself will soon be allowed to see their cities for themselves.  Their help in crushing the Kruk Rebellion and thwarting their leader's attempts to commandeer [b]IMMOLATUS, IMPUDENT RAVAGER OF THE HEAVENS[/b] has ensured that they will be enduring allies with us for an age to come.]], [[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
-
-Steam Giants are strikingly similar to what humans would look like, were they 8-10 feet tall and slightly on the stocky side (in contrast to the gangly, yet deceptively strong giants of Daikara).  Their most distinguishing physical trait is almost certainly their steam, for which they are named - their skin has numerous pores and vents which are capable of emitting pressurized steam.  They have limited conscious control over this; at rest they are nearly invisible and emit either a gentle mist or nothing at all, but they can will them to seal shut or distend widely, which, in addition to being rather disconcerting to watch, emits a stream or burst of pressurized steam.
-
-Rather ingeniously, they have figured out how to use this steam to power and operate a wide array of metallic contraptions.  Although the giants' oldest texts have been lost to occasional fires and other disasters, they claim that the first bit of "steam-tech" was a simple whistle; from there, they discovered a sort of pressurized stone-cleaner, and from there more and more complex contraptions.  A similar effect can theoretically be achieved by using a furnace to boil water, but this method requires attention and adjustment that comes as naturally to the Steam Giants as breathing; perhaps it is this intuitive quality that made it so easy for them to accomplish so much with it.
-
-The Steam Giants of the Atmos Tribe have hidden in the Clork mountains for ages; it is truly fortunate for them that the Spellblaze missed them entirely, for they were so concentrated and so few in number that it surely would have eradicated them.  They have kept their interactions with other races to a minimum; while Grand Councilor Kasyros claims this was due to fear of both what the outside world could do to them, and what their careless intervention could do to outsiders, most of the other Atmos I spoke to claimed to merely find the "lesser races" to be boorish and unpleasant.  (This is an entirely understandable view, seeing as their only neighbors until just recently have been Orcs.) 
-
-While this isolation has given them peace to let their society develop, it has also fostered a strain of sophistry and disconnection to reality, according to Kasyros, who has begun open trade with the Sunwall and Allied Kingdoms to grant his citizens some fresh perspective.  I could not hope to fully analyze this society during my brief stay; the only deeper insight worth noting I was able to see is that they value physical fitness almost exactly as much as intellectual pursuits, perhaps owing to the fact that steam-tech can be made more powerful through more efficient construction OR simply being able to force out more steam from one's vents.  Their government, accordingly, is chosen by an apparent compromise between democracy and bloodsport (aside from a brief period under King Traglamar, which Kasyros would only tell me "was deeply embarassing for all involved").  Although I cannot say how it reflects on the Atmos people in a greater sense, I feel I must make special note that they have learned how to make the best absinthe I have ever tasted.
-
-Alas, I was not able to study them for long enough to learn more than this.  Kasyros tells me he cannot accompany me any longer, for he has arranged a meeting with the Hero of Maj'Eyal - something about using an exploratory farportal for disposal purposes?  Whatever the case, although most of our contact with the Atmos is still done via constructs dropped from airships, we will soon gain the opportunity to meet more of them in person, and perhaps outsiders other than myself will soon be allowed to see their cities for themselves.  Their help in crushing the Kruk Rebellion and thwarting their leader's attempts to commandeer [b]IMMOLATUS, IMPUDENT RAVAGER OF THE HEAVENS[/b] has ensured that they will be enduring allies with us for an age to come.]], "_t")
-t("Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "_t")
-t("(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "_t")
 --]==]
 
 
@@ -2875,9 +2747,7 @@ t("(This note had already caught fire when the paradox anomaly pulled it in from
 section "tome-orcs/data/lore/orcs.lua"
 
 t("orc prides", "Fiertés Orcs", "newLore category")
-t("The Shunned Kruk", "Le Kruk Rejeté", "_t")
--- texte non traduit
---[==[
+t("The Shunned Kruk", "La Kruk Rejeté", "_t")
 t([[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
 
 Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
@@ -2894,25 +2764,27 @@ We held strong when the other Prides came for us, and we were fighting with weap
 
 The Atmos, however, did not see the dire circumstances we were in.  They did not see the threat we faced, and I doubt that even if the Grand Architect of the Pride had told them what she knew, they would have listened.  All they saw was their tools of creation being used to destroy, their beautiful inventions being used for something so monstrous, their darling clever "children" causing bloody carnage on a scale hundreds of times greater than they'd ever seen.  They denounced us, and those who had begun to mingle with us promptly retreated back to the mountains.  We were no longer welcome using their technology, and perhaps not even living near their mountains.
 
-We will miss their company, their ancient wisdom, and their cautious kindness.  We will not miss their squeamish ignorance and pompous self-righteousness.]], [[Our pride has never been held in high esteem by the others.  We were the backbone of Garkul's army, the supply-runners, the road-builders, the medics tending to the wounded - all roles that had to be done to support those who gloriously fought in the thick of battle...  Alas, all this meant is that the others only barely accepted our necessity, barely concealing their distaste for us "cowards" and "weaklings."  Garkul stood up for us whenever the opportunity arose, so their prejudices were a moot point until his defeat; unfortunately, once the Allied Kingdoms started pushing us back and attacking the fortified towns we'd built in Maj'Eyal, we took the blame for not making them strong enough to hold off all attackers.  "What good are they?"  Rak'shor once asked.  "Even when they're hiding behind us, they still can't make anything worthwhile!"  When it was revealed that our then-leader had held off the Allied Kingdoms at one of their strongholds to buy enough time for most of our Pride's women and children to retreat to Var'Eyal, by way of launching ancient Nargol golems into human ranks via trebuchet, the accusations of cowardice gave way to ones of selfishness and betrayal.  We kept quiet about them, hoping to change their minds when rebuilding Orcish towns in Var'Eyal, hoping that they would come to see reason when they had roofs over their heads and wells to drink from, courtesy of our Pride; it seemed to work for the time being.  We kept our distance from the others, building our own homes in a distant corner of the continent, and only sending small groups out to do minor repair and construction.  The walls we built were strong enough to keep the Sunwall forces from simply walking over them, and that seemed to be enough.
+We will miss their company, their ancient wisdom, and their cautious kindness.  We will not miss their squeamish ignorance and pompous self-righteousness.]], [[Notre fierté n'a jamais été tenue en haute estime par les autres. Nous étions l'épine dorsale de l'armée de Garkul : les convoyeurs de ravitaillement, les constructeurs de routes, les médecins soignant les blessés — toutes les fonctions nécessaires pour soutenir ceux qui combattaient glorieusement au coeur de la mêlée... Hélas, tout cela signifiait simplement que les autres acceptaient à peine notre utilité, dissimulant mal leur dégoût pour nous, ces "lâches" et ces "mauviettes". Garkul nous défendait chaque fois que l'occasion se présentait, si bien que leurs préjugés demeuraient sans conséquence jusqu'à sa défaite ; malheureusement, dès que les Royaumes Alliés commencèrent à nous repousser et à attaquer les villes fortifiées que nous avions bâties à Maj'Eyal, on nous reprocha de ne pas les avoir rendues assez solides pour résister à tous les assaillants.
 
-Alas, this acceptance would neither grow nor last.  One fateful night, Grand Architect Kruk came running back after a meeting with the other leaders of the Prides, saying we had to leave immediately, and that the women had to go first.  To this day, we are not entirely certain what drove her to such a panic...  she only told us that we would never want peace with the other Prides if we knew what we were running from, and that we may need that peace someday.  We swiftly built a bridge to the Clork Peninsula over the next few days, looking back over our shoulders towards the other Prides as we worked, and on the night the last Orc made it across, Kruk set it ablaze with burning arrows.  On the distant shore, we could only see the torches of those who we had narrowly escaped.
+"À quoi servent-ils ?" demanda un jour Rak'Shor. "Même quand ils se cachent derrière nous, ils ne réussissent toujours rien qui vaille !" Lorsqu'il fut révélé que notre chef de l'époque avait tenu tête aux Royaumes Alliés dans l'une de leurs forteresses pour gagner suffisamment de temps afin que la plupart des femmes et des enfants de notre Fierté se retirent vers Var'Eyal, en propulsant d'anciens golems de Nargol dans les rangs humains à l'aide de trébuchets, les accusations de lâcheté cédèrent la place à celles d'égoïsme et de trahison.
 
-We barely had time to sigh in relief before a thunderous noise roared above us, and a bright light came down from the sky, lighting us up but leaving the surrounding land dark.  A curious sort of golem fell from it, made of springs and gears rather than runes and stone.  It spoke with a scratchy yet organic-sounding voice, asking what had happened and what had caused the lights and noises in the dead of night; we told it we had fled the mainland for our own safety, and that we were only looking for a place to exist.  Hooks descended from the whirring airship above, dragging the construct back up, and it left without another word.
+Nous restâmes silencieux à ce sujet, espérant leur faire changer d'avis en reconstruisant les villes orcs de Var'Eyal, espérant qu'ils finiraient par entendre raison quand ils auraient un toit sur la tête et des puits pour s'abreuver, grâce à notre Fierté ; cela sembla fonctionner pour un temps. Nous gardâmes nos distances avec les autres, bâtissant nos propres foyers dans un coin reculé du continent, n'envoyant que de petits groupes pour effectuer de menues réparations et constructions. Les murs que nous érigions étaient assez solides pour empêcher les forces du Mur Solaire de simplement les franchir, et cela semblait suffire.
 
-We found a suitable home on the far side of the mountain range, shielded by the surrounding hills and yet fertile enough to sustain us.  Once we had settled in, the airships and constructs began visiting us more and more often, at first simply watching, then conversing with us and even helping us build homes.  It was not too long until one of the constructs' masters finally came to speak with us in person; he introduced himself as one of the Atmos, the Steam Giants we'd assumed for so long to be merely an ancient myth.  They were a strange people, and one we began to admire as we became fast friends.  Wise and reasoned yet valuing strength, neither overly arrogant nor overly timid...  a bit on the frivolous and eccentric side, but living for countless ages alone on a mountaintop would do that to anyone, we reasoned.  Likewise, they seemed to think of us as their rambunctious but gifted children, and when they began to teach us of their steam-pressure-driven machinery, they were impressed by how quickly we adapted to and improved on it.  They gave us guidance and wisdom, we gave them drive and innovation; we could have become true allies, if we'd only had enough time.
+Hélas, cette acceptation ne devait ni croître ni durer. Une nuit fatidique, la Grande Architecte Kruk revint en courant d'une réunion avec les autres chefs des Fiertés, nous disant que nous devions partir immédiatement et que les femmes devaient passer en premier. À ce jour, nous ne savons toujours pas avec certitude ce qui la poussa à une telle panique... elle nous dit seulement que nous ne voudrions jamais la paix avec les autres Fiertés si nous savions de quoi nous fuyions, et que nous aurions peut-être besoin de cette paix un jour. En quelques jours, nous construisîmes rapidement un pont vers la Péninsule de Clork, regardant par-dessus notre épaule vers les autres Fiertés pendant que nous travaillions, et la nuit où le dernier Orc traversa, Kruk embrasa le pont avec des flèches enflammées. Sur la rive lointaine, nous ne pouvions voir que les torches de ceux que nous avions tout juste réussi à fuir.
 
-All good things must come to an end, it seems.  One day, a panicked scout ran into our camp and announced that an Orcish army had arrived by boat on the shores of the Clork Peninsula, and was charging toward us with hostile intent.  Whatever they had originally wanted that drove Grand Architect Kruk away, they were no longer content to go without it.
+À peine avions-nous eu le temps de soupirer de soulagement qu'un fracas tonnant mugit au-dessus de nous, et une vive lumière descendit du ciel, nous illuminant mais laissant les terres alentour dans l'obscurité. Un curieux golem en tomba, fait de ressorts et d'engrenages plutôt que de runes et de pierre. Il parla d'une voix rauque mais à la sonorité organique, demandant ce qui s'était passé et ce qui avait causé ces lumières et ces bruits au coeur de la nuit ; nous lui dîmes que nous avions fui le continent pour notre propre sécurité, et que nous cherchions seulement un endroit où exister. Des crochets descendirent du dirigeable vrombissant au-dessus, remontant la créature artificielle, et il repartit sans un mot de plus.
 
-We told the Atmos, and they told us to simply reason with them; they had clearly never been under attack!  We would obtain no assistance from them, not even when our lives clearly depended on it.  Instead, Grand Architect Kruk showed us a series of schematics she'd made, ones that she dared not reveal before for fear of the Atmos seeing them - ones showing how to turn our helpful steam contraptions into hideously effective weaponry.  A harness to wear the great whirling lumber-saws as weapons, portable steam generators so we could power our machinery like the Atmos could without being tethered to a pipe or hose, a means of removing the safety mechanisms on nail-guns and swapping their barrels out so they could fire sling-bullets at incredible speeds, a giant version of the jewelry-plating device they gave us that could electrocute dozens of invaders at once...
+Nous trouvâmes un foyer convenable de l'autre côté de la chaîne de montagnes, protégé par les collines environnantes et pourtant suffisamment fertile pour nous nourrir. Une fois installés, les dirigeables et les créatures artificielles commencèrent à nous rendre visite de plus en plus souvent, se contentant d'abord d'observer, puis conversant avec nous et nous aidant même à bâtir des maisons. Il ne fallut pas longtemps avant que l'un des maîtres des créatures artificielles vienne enfin nous parler en personne ; il se présenta comme l'un des Atmos, les Géants Vaporeux que nous avions si longtemps pris pour un simple mythe ancien. C'était un peuple étrange, que nous commençâmes à admirer au fil de notre amitié naissante. Sages et posés tout en valorisant la force, ni trop arrogants ni trop timides... un brin frivoles et excentriques, certes, mais vivre seul pendant d'innombrables ères au sommet d'une montagne ferait cela à n'importe qui, pensions-nous. De même, ils semblaient nous voir comme leurs enfants turbulents mais talentueux, et lorsqu'ils commencèrent à nous enseigner leurs machineries fonctionnant à la vapeur, ils furent impressionnés par la rapidité avec laquelle nous nous y adaptâmes et y apportâmes des améliorations. Ils nous offraient guidance et sagesse, nous leur apportions dynamisme et innovation ; nous aurions pu devenir de véritables alliés, si seulement nous avions eu suffisamment de temps.
 
-We held strong when the other Prides came for us, and we were fighting with weapons they had never encountered before, inflicting wounds they had never learned to tolerate or heal, fighting with forces that they could not hope to even understand, let alone fight.  The shrieking din of sawblades shredding through armor and severing limbs, the screams of Gorbat's wyrm-riders as giant grappling hooks pulled them out of the sky, the smell of Orcish flesh cooked through to the core by lightning or scalded by jets of steam, the rattling of steamguns as they turned an attacking formation into a pile of corpses - these sensations might haunt the nightmares of Atmos and the other Prides, but to us they were the sweet sounds, sights, and smells of victory and safety.  We had prevailed, with only a handful dead on our side before they fled.  Kruk Pride would not be conquered.
+Toute bonne chose a une fin, semble-t-il. Un jour, un éclaireur affolé courut jusqu'à notre camp et annonça qu'une armée orc était arrivée par bateau sur les rivages de la Péninsule de Clork, et fondait sur nous avec des intentions hostiles. Quoi qu'ils aient voulu à l'origine, ce qui avait poussé la Grande Architecte Kruk à fuir, ils n'étaient plus disposés à s'en passer.
 
-The Atmos, however, did not see the dire circumstances we were in.  They did not see the threat we faced, and I doubt that even if the Grand Architect of the Pride had told them what she knew, they would have listened.  All they saw was their tools of creation being used to destroy, their beautiful inventions being used for something so monstrous, their darling clever "children" causing bloody carnage on a scale hundreds of times greater than they'd ever seen.  They denounced us, and those who had begun to mingle with us promptly retreated back to the mountains.  We were no longer welcome using their technology, and perhaps not even living near their mountains.
+Nous le signalâmes aux Atmos, qui nous dirent simplement de leur parler raison ; ils n'avaient manifestement jamais été attaqués ! Nous n'obtiendrions aucune aide de leur part, pas même quand nos vies en dépendaient manifestement. À la place, la Grande Architecte Kruk nous présenta une série de plans qu'elle avait conçus, qu'elle n'avait osé révéler jusqu'alors par crainte que les Atmos ne les voient — des plans montrant comment transformer nos utiles engins à vapeur en armements d'une redoutable efficacité. Un harnais pour manier les grandes scies circulaires tournoyantes comme des armes, des générateurs de vapeur portables pour alimenter nos machines comme le faisaient les Atmos sans être reliés à un tuyau ou une conduite, un moyen de supprimer les mécanismes de sécurité des pistolets à clous et d'en remplacer les canons pour qu'ils tirent des balles de fronde à des vitesses incroyables, et une version géante de l'appareil de galvanoplastie qu'ils nous avaient offert, capable d'électrocuter des dizaines d'envahisseurs à la fois...
 
-We will miss their company, their ancient wisdom, and their cautious kindness.  We will not miss their squeamish ignorance and pompous self-righteousness.]], "_t")
---]==]
+Nous tînmes bon lorsque les autres Fiertés vinrent nous chercher, et nous combattîmes avec des armes qu'ils n'avaient jamais rencontrées, infligeant des blessures qu'ils n'avaient jamais appris à endurer ni à soigner, maniant des forces qu'ils ne pouvaient espérer ni comprendre ni affronter. Le vacarme strident des scies circulaires déchirant les armures et tranchant les membres, les cris des cavaliers wyrms de Gorbat arrachés du ciel par de gigantesques grappins, l'odeur de chair orcique grillée jusqu'aux os par la foudre ou ébouillantée par des jets de vapeur, le crépitement des fusils à vapeur transformant des formations d'assaut en tas de cadavres — ces sensations pourraient hanter les cauchemars des Atmos et des autres Fiertés, mais pour nous, c'étaient les doux sons, images et odeurs de la victoire et de la sécurité. Nous l'avions emporté, avec seulement une poignée de morts dans nos rangs avant qu'ils ne s'enfuient. La Fierté Kruk ne serait pas conquise.
 
+Les Atmos, cependant, ne virent pas la situation désespérée dans laquelle nous nous trouvions. Ils ne virent pas la menace à laquelle nous faisions face, et je doute que même si la Grande Architecte de la Fierté leur avait dit ce qu'elle savait, ils l'auraient écoutée. Tout ce qu'ils voyaient, c'étaient leurs outils de création utilisés pour détruire, leurs belles inventions employées à quelque chose d'aussi monstrueux, leurs chers et ingénieux "enfants" causant un carnage sanglant à une échelle des centaines de fois supérieure à tout ce qu'ils avaient jamais vu. Ils nous renièrent, et ceux qui avaient commencé à se mêler à nous se retirèrent promptement vers les montagnes. Nous n'étions plus les bienvenus pour utiliser leur technologie, ni peut-être même pour vivre près de leurs montagnes.
+
+Leur compagnie, leur sagesse ancienne et leur bienveillance prudente vont nous manquer. Leur ignorance frileuse et leur prétentieuse suffisance, en revanche, ne nous manqueront pas.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/palace-fumes.lua"
@@ -8237,7 +8109,7 @@ t("orc", "orc", "entity subtype")
 ------------------------------------------------
 section "tome-orcs/data/zones/town-kruk/objects.lua"
 
-t("The Shunned Kruk", "Le Kruk Rejeté", "entity name")
+t("The Shunned Kruk", "La Kruk Rejeté", "entity name")
 t("A history lesson.", "Une leçon d'histoire.", "_t")
 t("Yeti Mind Controller", "Contrôleur Mental de Yéti", "entity name")
 t("This device seems to be designed to 'hack' the mind of a wild yeti to make it able to be used as a weapon of war.", "Ce dispositif semble conçu pour \"pirater\" l'esprit d'un yéti sauvage, afin qu'il puisse être utilisé comme une arme de guerre.", "_t")
