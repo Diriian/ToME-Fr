@@ -2220,11 +2220,8 @@ Vous doutez de l'efficacité de mes armements faits avec amour ? Pour une démon
 ------------------------------------------------
 section "tome-orcs/data/lore/gem.lua"
 
-t("erratic scribblings", "griffonnages erratiques", "_t")
--- texte non traduit
---[==[
-t("G.E.M", "G.E.M", "newLore category")
-t("strange black disk (1)", "strange black disk (1)", "_t")
+t("G.E.M", "T.E.G", "newLore category")
+t("strange black disk (1)", "étrange disque noir (1)", "_t")
 t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Exploratory Mole, on a mission to..."  She sighs. " 'Find the Loyalist and arrange for our safe transport to his refuge, offering him his previous terms of agreement.' Which is Council-speak for 'flee in terror to the only thing that could bail us out of this mess, and bring the Eye with us.' Personally, I'm not keen on putting our fates in the hands of some nutter who lives underground and..." Indistinct grumbling. "...not even my damn job, I didn't sign up to be some politician's valet--"
 
 #{italic}#(You hear a door opening, and another voice speaks.)#{normal}#
@@ -2233,16 +2230,16 @@ t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Ex
 
 #{italic}#(The door closes.)#{normal}#
 
-"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Exploratory Mole, on a mission to..."  She sighs. " 'Find the Loyalist and arrange for our safe transport to his refuge, offering him his previous terms of agreement.' Which is Council-speak for 'flee in terror to the only thing that could bail us out of this mess, and bring the Eye with us.' Personally, I'm not keen on putting our fates in the hands of some nutter who lives underground and..." Indistinct grumbling. "...not even my damn job, I didn't sign up to be some politician's valet--"
+"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], [["...marche ? Bon, très bien. Ici la Commandante de la Brume Parmor de la Taupe Exploratoire Géothermique, en mission pour..." Elle soupire. "Trouver le Loyaliste et organiser notre transport en lieu sûr jusqu'à son refuge, en lui proposant les termes de notre ancien accord." Ce qui, en langage du Conseil, veut dire "fuir de terreur vers la seule chose capable de nous tirer de ce pétrin, et emmener l'Oeil avec nous." Personnellement, je n'ai aucune envie de remettre notre sort entre les mains d'un cinglé qui vit sous terre et... Grommellements indistincts. "...même pas mon foutu travail, je ne me suis pas engagée pour servir de valet à un politicien--"
 
-#{italic}#(You hear a door opening, and another voice speaks.)#{normal}#
+#{italic}#(Vous entendez une porte s'ouvrir, puis une autre voix se fait entendre.)#{normal}#
 
-"Captain, the tea-maker isn't working!  Get someone on that, post-haste!"
+"Capitaine, la machine à thé ne fonctionne plus ! Faites-moi régler ça, et vite !"
 
-#{italic}#(The door closes.)#{normal}#
+#{italic}#(La porte se referme.)#{normal}#
 
-"...Yeah, Councillor Tantalos is getting his tea as soon as he can un-kick the hornet's nest that got us into this chaos.  Moving on...  departure was on time, projected journey to the Loyalist's last known position is underway, making a tunnel there from right under the palace.  All systems functioning, except for the tea-maker, and I can't give a slag about that.  End log."]], "_t")
-t("strange black disk (2)", "strange black disk (2)", "_t")
+"...Ouais, le Conseiller Tantalos aura son thé dès qu'il aura fini de remettre en ordre le nid de frelons qu'il a lui-même provoqué et qui nous a plongés dans ce chaos. Bref... le départ était à l'heure, le trajet vers la dernière position connue du Loyaliste est en cours, on creuse un tunnel depuis le dessous du palais. Tous les systèmes fonctionnent, sauf la machine à thé, et je m'en fiche comme de mes premières scories. Fin du journal."]], "_t")
+t("strange black disk (2)", "étrange disque noir (2)", "_t")
 t([["...for posterity!  Let's make sure future generations can hear the moments of history being made!" You hear the voice of Councillor Tantalos again... and then you hear a very strange voice, one that's all too clear. Even with the device playing it, it sounds like it's coming from inside your own head.#{normal}#
 
 "Yes, yes, good idea. This is an important day, for both of us - no, for Eyal...  You've brought what I asked for so long ago, then?"
@@ -2260,154 +2257,151 @@ t([["...for posterity!  Let's make sure future generations can hear the moments 
 "AMAKTHEL WILL REWARD YOU FOR YOUR SERVICE AS YOU DESERVE." More crashing.  "YOU SHALL BE BLESSED WITH A BETTER NEW FORM.  A BETTER NEW MIND.  ALL YOUR PEOPLE ARE WELCOME TO..."
 
 #{italic}#(You hear Parmor's voice again.)#{normal}#  "Slag it, RUN!  Grab everything and--"  (The recording ends.)
-]], [["...for posterity!  Let's make sure future generations can hear the moments of history being made!" You hear the voice of Councillor Tantalos again... and then you hear a very strange voice, one that's all too clear. Even with the device playing it, it sounds like it's coming from inside your own head.#{normal}#
+]], [["...pour la postérité ! Assurons-nous que les générations futures puissent entendre les moments où l'Histoire s'écrit !" Vous entendez de nouveau la voix du Conseiller Tantalos... puis vous entendez une voix très étrange, d'une clarté troublante. Même diffusée par l'appareil, elle semble venir de l'intérieur de votre propre tête.#{normal}#
 
-"Yes, yes, good idea. This is an important day, for both of us - no, for Eyal...  You've brought what I asked for so long ago, then?"
+"Oui, oui, bonne idée. C'est un jour important, pour nous deux - non, pour Eyal... Vous avez donc apporté ce que j'ai demandé il y a si longtemps ?"
 
-"Of course!  It's just--  bring the cart around here!"  (Clanking and grinding.)  "Open it up, if you wish."
+"Bien sûr ! C'est juste-- amenez le chariot par ici !" (Cliquetis et grincements.) "Ouvrez-le, si vous le souhaitez."
 
-"No need.  I can feel its power, it's so familiar and yet so new...  This could only be the Eye of Amakthel Himself!  It's beautiful, and all will know its beauty..."
+"Inutile. Je sens sa puissance, si familière et pourtant si nouvelle... Ce ne peut être que l'Oeil d'Amakthel en personne ! Il est magnifique, et tous connaîtront sa beauté..."
 
-"Er...  splendid, I assume!  This is the beginning of a long and beautiful partnership between the Atmos and...  your people!  Shall I go back up and tell them we're ready for them, and you're ready to handle the Orc situation? They're, ah, rather eager to come down here--"
+"Euh... splendide, j'imagine ! C'est le début d'un long et beau partenariat entre les Atmos et... votre peuple ! Dois-je remonter leur dire que nous sommes prêts à les accueillir, et que vous êtes prêt à vous occuper de la situation avec les Orcs ? Ils sont, euh, plutôt impatients de descendre ici--"
 
-"GO FORTH, MY HERALD. TELL THEM ALL ARE WELCOME."
+"ALLEZ, MON HÉRAUT. DITES-LEUR QUE TOUS SONT LES BIENVENUS."
 
-"Wh-what are you--"  #{italic}#Screams in the background.  Gurgling.  Crashing.  A distant, bestial roar.#{normal}#
+"Qu-que faites-vous--" #{italic}#Des cris en arrière-plan. Des gargouillis. Des fracas. Un rugissement bestial, au loin.#{normal}#
 
-"AMAKTHEL WILL REWARD YOU FOR YOUR SERVICE AS YOU DESERVE." More crashing.  "YOU SHALL BE BLESSED WITH A BETTER NEW FORM.  A BETTER NEW MIND.  ALL YOUR PEOPLE ARE WELCOME TO..."
+"AMAKTHEL VOUS RÉCOMPENSERA POUR VOTRE SERVICE COMME VOUS LE MÉRITEZ." Encore des fracas. "VOUS SEREZ BÉNI D'UNE FORME NOUVELLE ET MEILLEURE. D'UN ESPRIT NOUVEAU ET MEILLEUR. TOUT VOTRE PEUPLE EST LE BIENVENU POUR..."
 
-#{italic}#(You hear Parmor's voice again.)#{normal}#  "Slag it, RUN!  Grab everything and--"  (The recording ends.)
+#{italic}#(Vous entendez de nouveau la voix de Parmor.)#{normal}# "Bon sang de scorie, COUREZ ! Prenez tout et--" (L'enregistrement s'arrête.)
 ]], "_t")
-t("strange black disk (3)", "strange black disk (3)", "_t")
+t("strange black disk (3)", "étrange disque noir (3)", "_t")
 t([[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sounds of struggling and bludgeoning, swords slicing through flesh, steamguns being fired, and shouts of pain from giant and horror alike.  Parmor sounds panicked.)#{normal}#
 
-"Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sounds of struggling and bludgeoning, swords slicing through flesh, steamguns being fired, and shouts of pain from giant and horror alike.  Parmor sounds panicked.)#{normal}#
+"Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(Vous entendez un grondement mécanique assourdissant ; au loin, vous entendez des bruits de lutte et de coups assénés, d'épées tranchant la chair, de fusils à vapeur qui tirent, et des cris de douleur poussés aussi bien par des géants que par des horreurs. Parmor semble paniquée.)#{normal}#
 
-"Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], "_t")
-t("why is it down there why is it ANYWHERE", "why is it down there why is it ANYWHERE", "_t")
-t("If anyone finds this, tell the Jarsovi brothers their father lov", "If anyone finds this, tell the Jarsovi brothers their father lov", "_t")
-t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "_t")
-t("What have we done...  why didn't I stop it?", "What have we done...  why didn't I stop it?", "_t")
-t("nothing living should have that many", "nothing living should have that many", "_t")
-t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "_t")
---]==]
-
+"Mayday, mayday, on se tire ! Tantalos est perdu, et on ne retourne PAS le chercher ! Oubliez le tunnel vers le Palais des Fumées, oubliez le Conseil tout entier, on s'éloigne d'ici le plus possible--" Sifflement strident. "MÈRE DE--!" Grognements, bruits d'écrasement, entailles. "Pied au plancher jusqu'au foutu Mur Solaire, on prend le premier portail lointain hors de ce continent, que ces petiots le veuillent ou non ! On dira que c'est de la trahison, de la mutinerie, peu importe, mais si le Conseil entend ça, ALLEZ VOUS FAIRE VOIR PAR VOS ORIFICES À VAPEUR, ON PRÉFÈRE VIVRE ! Altitude en hausse, surface en approche, ici C.B. Parmor qui signe--"]], "_t")
+t("erratic scribblings", "griffonnages erratiques", "_t")
+t("why is it down there why is it ANYWHERE", "pourquoi est-ce en bas pourquoi est-ce QUELQUE PART", "_t")
+t("If anyone finds this, tell the Jarsovi brothers their father lov", "Si quelqu'un trouve ceci, dites aux frères Jarsovi que leur père les aim", "_t")
+t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "Trop nombreux. Impossible de faire remonter d'autres Atmos à bord, trop risqué, impossible de les distinguer des autres. J'espère qu'on a assez de carburant pour atteindre la surface.", "_t")
+t("What have we done...  why didn't I stop it?", "Qu'avons-nous fait... pourquoi ne l'ai-je pas arrêté ?", "_t")
+t("nothing living should have that many", "rien de vivant ne devrait en avoir autant", "_t")
+t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "voilà donc à quoi ça ressemble, à quoi ILS ressemblent. maintenant je comprends pourquoi tant de représentations ont été détruites", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/internment-camp.lua"
 
+t("internment camp", "camp d'internement", "newLore category")
+t("internment camp correspondence (1)", "correspondance du camp d'internement (1)", "_t")
+t([[#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+It's good to see that you and your followers have arrived safely! Hopefully you're settling in all right; thank you for coming, and pass my thanks on to the Elvala diplomats for getting you here on such short notice. I hope this is the first step in your kind - you Ogres, of course, but also the Shaloren who sent you here - joining forces with the Allied Kingdoms.
+
+There are no Ziguranth here in the Far East, and the orcs in this camp have been compliant so far, on account of Mindwall's elaborate illusions. It's the most humane way to deal with them that we've found so far - we hope that his influence will have a permanent calming effect on them over time, but until then, they're happy and docile in their little dream-world. All you have to do is protect against any stragglers outside the walls looking to break their kin out of here, and patrol the halls to make sure any orcs who've managed to shake off the illusions are swiftly apprehended and dealt with. This should be a pretty easy job - if you need any particular help or provisions, though, let me know and I'll do what I can!
+
+Sincerely,
+Administrator Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Administrator Quellop
+From: Guard Captain Galsamae#{normal}#
+
+We need four more chairs in the break room.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+I'm sorry, but we can't really afford that, as the budget for amenities and luxuries is stretched pretty thin here as-is. Please try to keep your requests limited to necessities - even with Last Hope's merchants competing on price, the security over by the farportal means it's still not cheap to get things here.
+
+Regretfully,
+Administrator Quellop]], [[#{italic}#À : Capitaine de la garde Galsamae
+De : Administrateur Quellop#{normal}#
+
+Je suis heureux de voir que vous et vos disciples êtes bien arrivés ! J'espère que vous vous installez correctement ; merci d'être venus, et transmettez mes remerciements aux diplomates d'Elvala pour vous avoir amenés ici dans des délais aussi courts. J'espère que c'est le premier pas pour que votre peuple - vous, les Ogres, bien sûr, mais aussi les Shaloréens qui vous ont envoyés ici - rejoigne les forces des Royaumes Alliés.
+
+Il n'y a aucun Zigurante ici, en Extrême Orient, et les orcs de ce camp se sont montrés dociles jusqu'à présent, grâce aux illusions élaborées de Barment. C'est la façon la plus humaine de les traiter que nous ayons trouvée - nous espérons que son influence aura à terme un effet apaisant permanent sur eux, mais en attendant, ils sont heureux et dociles dans leur petit monde de rêve. Tout ce que vous avez à faire, c'est de vous protéger contre les éventuels retardataires qui rôderaient hors des murs pour libérer leurs semblables, et de patrouiller dans les couloirs pour vous assurer que tout orc parvenu à se défaire des illusions soit rapidement appréhendé et maîtrisé. Ce devrait être un travail plutôt facile - mais si vous avez besoin d'une aide ou de provisions particulières, faites-le-moi savoir et je ferai de mon mieux !
+
+Cordialement,
+Administrateur Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#À : Administrateur Quellop
+De : Capitaine de la garde Galsamae#{normal}#
+
+Il nous faut quatre chaises de plus dans la salle de repos.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#À : Capitaine de la garde Galsamae
+De : Administrateur Quellop#{normal}#
+
+Je suis désolé, mais nous ne pouvons pas vraiment nous le permettre, car le budget consacré au confort et aux luxes est déjà très serré ici. Veuillez limiter vos demandes au strict nécessaire - même avec les marchands de Dernier Espoir qui se font concurrence sur les prix, la sécurité près du portail lointain fait qu'il n'est toujours pas bon marché de faire venir des choses ici.
+
+Avec regret,
+Administrateur Quellop]], "_t")
+t("internment camp correspondence (2)", "correspondance du camp d'internement (2)", "_t")
+t([[#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+I'm disappointed. I went around the camp for my first inspection today, and the hallways are filthy! Haven't you mopped them once since you got here? Not only that, but there was a guard sleeping on the job by the northwest corner! I thought you guys making a good impression was the entire point of this - if things keep going this poorly, I've got half a mind to ship you lot out and bring in some dwarves instead! They might not be cheap, but at least they're reliable!
+
+Get your act together,
+Administrator Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Administrator Quellop
+From: Guard Captain Galsamae#{normal}#
+
+We need four more chairs in the break room. If you want the floors mopped, we'll need five chairs.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#To: Guard Captain Galsamae
+From: Administrator Quellop#{normal}#
+
+Do you have #{italic}#any#{normal}# idea how much it costs to transport an ogre-sized chair #{italic}#all the way out here?#{normal}# No.
+
+With growing impatience,
+Administrator Quellop]], [[#{italic}#À : Capitaine de la garde Galsamae
+De : Administrateur Quellop#{normal}#
+
+Je suis déçu. J'ai fait le tour du camp pour ma première inspection aujourd'hui, et les couloirs sont dégoûtants ! Les avez-vous seulement lavés une fois depuis votre arrivée ? Et ce n'est pas tout : il y avait un garde endormi à son poste près de l'angle nord-ouest ! Je croyais que l'objectif de tout ceci était que vous fassiez bonne impression - si les choses continuent aussi mal, j'ai bien envie de vous renvoyer tous et de faire venir des nains à votre place ! Ils ne sont peut-être pas bon marché, mais au moins ils sont fiables !
+
+Ressaisissez-vous,
+Administrateur Quellop
+
+#{bold}#---#{normal}#
+
+#{italic}#À : Administrateur Quellop
+De : Capitaine de la garde Galsamae#{normal}#
+
+Il nous faut quatre chaises de plus dans la salle de repos. Si vous voulez que les sols soient lavés, il nous en faudra cinq.
+
+-Galsamae
+
+#{bold}#---#{normal}#
+
+#{italic}#À : Capitaine de la garde Galsamae
+De : Administrateur Quellop#{normal}#
+
+Avez-vous #{italic}#la moindre#{normal}# idée de ce que coûte le transport d'une chaise de taille ogre #{italic}#jusqu'ici ?#{normal}# Non.
+
+Avec une impatience grandissante,
+Administrateur Quellop]], "_t")
 t("internment camp correspondence (3)", "correspondance du camp d'internement (3)", "_t")
--- texte non traduit
---[==[
-t("internment camp", "internment camp", "newLore category")
-t("internment camp correspondence (1)", "internment camp correspondence (1)", "_t")
-t([[#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-It's good to see that you and your followers have arrived safely! Hopefully you're settling in all right; thank you for coming, and pass my thanks on to the Elvala diplomats for getting you here on such short notice. I hope this is the first step in your kind - you Ogres, of course, but also the Shaloren who sent you here - joining forces with the Allied Kingdoms.
-
-There are no Ziguranth here in the Far East, and the orcs in this camp have been compliant so far, on account of Mindwall's elaborate illusions. It's the most humane way to deal with them that we've found so far - we hope that his influence will have a permanent calming effect on them over time, but until then, they're happy and docile in their little dream-world. All you have to do is protect against any stragglers outside the walls looking to break their kin out of here, and patrol the halls to make sure any orcs who've managed to shake off the illusions are swiftly apprehended and dealt with. This should be a pretty easy job - if you need any particular help or provisions, though, let me know and I'll do what I can!
-
-Sincerely,
-Administrator Quellop
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Administrator Quellop
-From: Guard Captain Galsamae#{normal}#
-
-We need four more chairs in the break room.
-
--Galsamae
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-I'm sorry, but we can't really afford that, as the budget for amenities and luxuries is stretched pretty thin here as-is. Please try to keep your requests limited to necessities - even with Last Hope's merchants competing on price, the security over by the farportal means it's still not cheap to get things here.
-
-Regretfully,
-Administrator Quellop]], [[#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-It's good to see that you and your followers have arrived safely! Hopefully you're settling in all right; thank you for coming, and pass my thanks on to the Elvala diplomats for getting you here on such short notice. I hope this is the first step in your kind - you Ogres, of course, but also the Shaloren who sent you here - joining forces with the Allied Kingdoms.
-
-There are no Ziguranth here in the Far East, and the orcs in this camp have been compliant so far, on account of Mindwall's elaborate illusions. It's the most humane way to deal with them that we've found so far - we hope that his influence will have a permanent calming effect on them over time, but until then, they're happy and docile in their little dream-world. All you have to do is protect against any stragglers outside the walls looking to break their kin out of here, and patrol the halls to make sure any orcs who've managed to shake off the illusions are swiftly apprehended and dealt with. This should be a pretty easy job - if you need any particular help or provisions, though, let me know and I'll do what I can!
-
-Sincerely,
-Administrator Quellop
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Administrator Quellop
-From: Guard Captain Galsamae#{normal}#
-
-We need four more chairs in the break room.
-
--Galsamae
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-I'm sorry, but we can't really afford that, as the budget for amenities and luxuries is stretched pretty thin here as-is. Please try to keep your requests limited to necessities - even with Last Hope's merchants competing on price, the security over by the farportal means it's still not cheap to get things here.
-
-Regretfully,
-Administrator Quellop]], "_t")
-t("internment camp correspondence (2)", "internment camp correspondence (2)", "_t")
-t([[#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-I'm disappointed. I went around the camp for my first inspection today, and the hallways are filthy! Haven't you mopped them once since you got here? Not only that, but there was a guard sleeping on the job by the northwest corner! I thought you guys making a good impression was the entire point of this - if things keep going this poorly, I've got half a mind to ship you lot out and bring in some dwarves instead! They might not be cheap, but at least they're reliable!
-
-Get your act together,
-Administrator Quellop
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Administrator Quellop
-From: Guard Captain Galsamae#{normal}#
-
-We need four more chairs in the break room. If you want the floors mopped, we'll need five chairs.
-
--Galsamae
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-Do you have #{italic}#any#{normal}# idea how much it costs to transport an ogre-sized chair #{italic}#all the way out here?#{normal}# No.
-
-With growing impatience,
-Administrator Quellop]], [[#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-I'm disappointed. I went around the camp for my first inspection today, and the hallways are filthy! Haven't you mopped them once since you got here? Not only that, but there was a guard sleeping on the job by the northwest corner! I thought you guys making a good impression was the entire point of this - if things keep going this poorly, I've got half a mind to ship you lot out and bring in some dwarves instead! They might not be cheap, but at least they're reliable!
-
-Get your act together,
-Administrator Quellop
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Administrator Quellop
-From: Guard Captain Galsamae#{normal}#
-
-We need four more chairs in the break room. If you want the floors mopped, we'll need five chairs.
-
--Galsamae
-
-#{bold}#---#{normal}#
-
-#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
-
-Do you have #{italic}#any#{normal}# idea how much it costs to transport an ogre-sized chair #{italic}#all the way out here?#{normal}# No.
-
-With growing impatience,
-Administrator Quellop]], "_t")
 t([[#{italic}#To: Condescending Little Cretin
 From: Guard Captain Galsamae#{normal}#
 
@@ -2425,25 +2419,25 @@ I've said it before, and I'm saying it for the last time: #{bold}#WE NEED MORE C
 
 -Galsamae
 
-PS: If any mention of this is made to your superiors, I'll make sure they also know about the Atmos absinthe you had smuggled in here last week.]], [[#{italic}#To: Condescending Little Cretin
-From: Guard Captain Galsamae#{normal}#
+PS: If any mention of this is made to your superiors, I'll make sure they also know about the Atmos absinthe you had smuggled in here last week.]], [[#{italic}#À : Petit crétin condescendant
+De : Capitaine de la garde Galsamae#{normal}#
 
-Listen here, you little cretin.
+Écoutez-moi bien, petit crétin.
 
-When we agreed to this, we requested 60 mind-caging helmets, properly sized, alongside 60 sets of mail armor, a minimum of 30 beds, and shifts of no more than eight hours a day. We GOT 35 helmets, and had to send 25 of our guards back lest they get sucked into Mindwall's illusions like these orcs - furthermore, the helmets were crudely modified, and wound up weighing about twice as much as they needed to. We got plate armor instead of mail, further increasing the burden each of us has to carry, and our reduced numbers mean we have to take 12-hour shifts. (Obviously, such a schedule leaves no time for mopping.) Combined with all that, we don't even have enough beds for everyone - depending on the day, 5 to 10 of us are stuck without a place to sleep.
+Quand nous avons accepté ceci, nous avions demandé 60 casques d'emprisonnement mental, à la bonne taille, ainsi que 60 cottes de mailles, au moins 30 lits, et des tours de garde ne dépassant pas huit heures par jour. Nous avons REÇU 35 casques, et nous avons dû renvoyer 25 de nos gardes de peur qu'ils ne soient aspirés par les illusions de Barment comme ces orcs - de plus, les casques avaient été grossièrement modifiés, et pesaient environ deux fois plus lourd que nécessaire. On nous a donné des armures de plaques au lieu de cottes de mailles, ce qui alourdit encore la charge que chacun de nous doit porter, et nos effectifs réduits nous obligent à faire des tours de 12 heures. (Évidemment, un tel emploi du temps ne laisse aucun moment pour laver les sols.) En plus de tout cela, nous n'avons même pas assez de lits pour tout le monde - selon les jours, 5 à 10 d'entre nous se retrouvent sans endroit où dormir.
 
-With anyone else, this would be a recipe for a workforce that would quickly get exhausted. Our runes buy us a lot of time before that happens, but that saturation still builds up over time, and we need to rest. We can't just sleep on the floor, we're too big to not get sores from our weight pressing into a hard surface, so each shift, a few of us are stuck without sleep or rest. What you saw in the northwest corner was someone who'd collapsed from exhaustion, who has the longest patrol route and (due to my personal oversight, and I apologize for that) wound up being one of the few who couldn't sleep the previous night.
+Avec n'importe qui d'autre, ce serait la recette d'une main-d'œuvre qui s'épuiserait vite. Nos runes nous font gagner beaucoup de temps avant d'en arriver là, mais cette saturation finit tout de même par s'accumuler, et nous avons besoin de repos. Nous ne pouvons pas simplement dormir par terre, nous sommes trop grands pour ne pas nous faire d'escarres sous notre poids contre une surface dure, alors à chaque tour de garde, quelques-uns d'entre nous restent sans sommeil ni repos. Ce que vous avez vu dans l'angle nord-ouest, c'était quelqu'un qui s'était effondré d'épuisement, qui a la plus longue route de patrouille et qui (à cause d'un oubli de ma part, et je m'en excuse) s'est retrouvé parmi les rares à n'avoir pas pu dormir la nuit précédente.
 
-We know that getting more mind-caging helmets would cost a lot, as would more beds, so we've come up with the cheapest available option to fix this: more chairs. We can get almost as good a rest sleeping in a chair as we can in a bed, provided we throw in the couple of pillows we've managed to make from spare grain sacks. If we don't get this, though, my estimate is that within the next three months, we'll have another guard collapse on a main patrol route, not just that way-out-there one the last guy collapsed on. As in, close enough to the prisoners where his or her helmet might just roll off and into their grasp. And the moment some Orc puts that helmet on, it's all over.
+Nous savons qu'obtenir davantage de casques d'emprisonnement mental coûterait cher, tout comme des lits supplémentaires, alors nous avons imaginé la solution la moins chère pour y remédier : plus de chaises. Nous pouvons nous reposer presque aussi bien dans une chaise que dans un lit, à condition d'y ajouter les quelques oreillers que nous avons réussi à fabriquer avec des sacs de grain usagés. Si nous n'obtenons pas cela, mon estimation est que d'ici trois mois, nous aurons un autre garde qui s'effondrera sur une route de patrouille principale, et pas seulement sur celle, tout au bout, où le dernier s'est effondré. C'est-à-dire assez près des prisonniers pour que son casque puisse rouler et finir entre leurs mains. Et à la seconde où un Orc enfile ce casque, tout est fini.
 
-We're fine with these miserable conditions. All things considered, it's still some of the best interpersonal interaction we've gotten outside of Elvala. We'd even be fine with a few of us dying from overwork, if that was the only consequence of such an awful work schedule - but it'd lead to a breakout. And we will NOT be blamed for ANOTHER catastrophe that WASN'T OUR FAULT.
+Nous nous accommodons de ces conditions misérables. Tout bien considéré, ce sont encore parmi les meilleures relations humaines que nous ayons eues en dehors d'Elvala. Nous accepterions même que quelques-uns d'entre nous meurent de surmenage, si c'était la seule conséquence d'un emploi du temps aussi épouvantable - mais cela mènerait à une évasion. Et nous ne serons PAS tenus responsables d'UNE AUTRE catastrophe qui n'était PAS DE NOTRE FAUTE.
 
-I've said it before, and I'm saying it for the last time: #{bold}#WE NEED MORE CHAIRS IN THE BREAK ROOM.#{normal}# If you think it's too expensive, I will #{italic}#personally#{normal}# come down to your quarters and restrain you while my men confiscate your fancy little bed, desk, and dresser, then repurpose them as scrap lumber and padding to build ourselves some new chairs. I'm not any more comfortable with insubordination than you are, but this is quite literally a matter of life and death, and not just for my people.
+Je l'ai déjà dit, et je le dis pour la dernière fois : #{bold}#IL NOUS FAUT PLUS DE CHAISES DANS LA SALLE DE REPOS.#{normal}# Si vous trouvez que c'est trop cher, je viendrai #{italic}#en personne#{normal}# jusque dans vos quartiers pour vous maîtriser pendant que mes hommes confisqueront votre joli petit lit, votre bureau et votre commode, avant de les recycler en bois de rebut et en rembourrage pour nous fabriquer de nouvelles chaises. Je ne suis pas plus à l'aise que vous avec l'insubordination, mais il s'agit littéralement d'une question de vie ou de mort, et pas seulement pour mon peuple.
 
 -Galsamae
 
-PS: If any mention of this is made to your superiors, I'll make sure they also know about the Atmos absinthe you had smuggled in here last week.]], "_t")
-t("internment camp correspondence (4)", "internment camp correspondence (4)", "_t")
+PS : Si la moindre mention de ceci est faite à vos supérieurs, je m'assurerai qu'ils soient aussi informés de l'absinthe des Atmos que vous avez fait passer ici en contrebande la semaine dernière.]], "_t")
+t("internment camp correspondence (4)", "correspondance du camp d'internement (4)", "_t")
 t([[#{italic}#To: Guard Captain Galsamae
 From: Administrator Quellop#{normal}#
 
@@ -2468,42 +2462,37 @@ From: Administrator Quellop#{normal}#
 
 Done.
 
--Quellop]], [[#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
+-Quellop]], [[#{italic}#À : Capitaine de la garde Galsamae
+De : Administrateur Quellop#{normal}#
 
-I've requested an increase to our budget. Ten beds and eight chairs are on their way. Is there anything else you need?
+J'ai demandé une augmentation de notre budget. Dix lits et huit chaises sont en route. Avez-vous besoin d'autre chose ?
 
-With my sincerest apologies,
-Administrator Quellop
+Avec mes plus sincères excuses,
+Administrateur Quellop
 
 #{bold}#---#{normal}#
 
-#{italic}#To: Administrator Quellop
-From: Guard Captain Galsamae#{normal}#
+#{italic}#À : Administrateur Quellop
+De : Capitaine de la garde Galsamae#{normal}#
 
-A steel hand-rail on the south staircase would be nice.
+Une main courante en acier dans l'escalier sud serait la bienvenue.
 
 -Galsamae
 
 #{bold}#---#{normal}#
 
-#{italic}#To: Guard Captain Galsamae
-From: Administrator Quellop#{normal}#
+#{italic}#À : Capitaine de la garde Galsamae
+De : Administrateur Quellop#{normal}#
 
-Done.
+Fait.
 
 -Quellop]], "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-orcs/data/lore/krimbul.lua"
 
-
--- texte non traduit
---[==[
-t("krimbul clan", "krimbul clan", "newLore category")
-t("the journey of the Krimbul Clan", "the journey of the Krimbul Clan", "_t")
+t("krimbul clan", "Clan Krimbul", "newLore category")
+t("the journey of the Krimbul Clan", "le voyage du clan Krimbul", "_t")
 t([[We are not people of great ambition or complex desires, we Minotaurs.  We seek not to choose a direction for the world, we wish not to spread across the land, we are content not to build great machines or greater empires.  What we wish more than anything is simply to live; alas, the rest of the world wishes that we do not.  We cannot say where or how the hostilities started...  if we had to guess, perhaps the soft-footed considered us a pest for seeking out homes in their storerooms and armories.  We are drawn to great magic, especially when it is concentrated into artifacts, and over the eons of persecution, we have developed an equally strong instinctual drive towards safe places underground (although, again, this is simply a guess).  If there is enough stray magic around, we can live on it without eating or drinking, and see no need to come to the surface; indeed, under such conditions we might not even age.  Most minotaur tribes that find a safe habitat - glowing with magic, and filled with enough dark twisting passages that the soft-footed will not come down in force - discover that they no longer need cooperation to survive, and slowly lose themselves to instinct; for a long time, it was only our willpower that made us different, and even that was beginning to wane.  In a way, maybe what happened to us was genuinely a blessing.
 
 We cannot tell you how long ago it was, as we did not write down our history at that time, and we had more pressing concerns soon after.  At some point, though, we felt a home, better than any we'd ever felt before, through a long, long series of caverns and tunnels.  The magic here... it was incredible!  It...  well, you do not have a word for it, but "tasted" is close enough - different than anything we'd absorbed before, hearty and rich, and it soaked into our tired bodies so easily.  We did not even need to stop to rest, it kept us so rejuvenated...  so we kept going down, losing track of how far it was.  In truth, I think we walked the length of a continent, if not more, cheerfully pressing onward, eager to see what awaited us at the end.
@@ -2522,26 +2511,26 @@ He was not our only necromancer, but the idea was still nearly unthinkable...  u
 
 We reluctantly agreed, and he prepared the spells and potions needed to keep us mostly as we were, but bereft of life.  Preserved, strong, even feeling and smelling when most liches could not..  but still cut off from Nature's gifts entirely, and still incapable of bearing young.  This generation would not age to death, but it would nonetheless be our last.  He volunteered to be the last one, only instructing another of us on how to convert him once all of us had been treated...  Whether it was because the infection had more time to fester within him, or because of what he suffered through in his sister's tent, Nektosh has never really been the same since then.
 
-In a cruel twist of fate, we found what would have been paradise not long after our escape - the Mana Caves, laden with magic, but we only needed a tenth of it now as we did alive.  Nonetheless, it has been our home ever since...  most soft-feet would have raided the caverns and wiped us out like common vermin, but the Kruk Pride treated us with respect and dignity that perhaps no minotaur OR undead creature has received before (let alone the combination).  We are still a reclusive people, and our current state gives us even fewer reasons to need trade with them...  but they are the closest thing we have ever had to friends, and I suspect that right now, we are that to them as well.]], [[We are not people of great ambition or complex desires, we Minotaurs.  We seek not to choose a direction for the world, we wish not to spread across the land, we are content not to build great machines or greater empires.  What we wish more than anything is simply to live; alas, the rest of the world wishes that we do not.  We cannot say where or how the hostilities started...  if we had to guess, perhaps the soft-footed considered us a pest for seeking out homes in their storerooms and armories.  We are drawn to great magic, especially when it is concentrated into artifacts, and over the eons of persecution, we have developed an equally strong instinctual drive towards safe places underground (although, again, this is simply a guess).  If there is enough stray magic around, we can live on it without eating or drinking, and see no need to come to the surface; indeed, under such conditions we might not even age.  Most minotaur tribes that find a safe habitat - glowing with magic, and filled with enough dark twisting passages that the soft-footed will not come down in force - discover that they no longer need cooperation to survive, and slowly lose themselves to instinct; for a long time, it was only our willpower that made us different, and even that was beginning to wane.  In a way, maybe what happened to us was genuinely a blessing.
+In a cruel twist of fate, we found what would have been paradise not long after our escape - the Mana Caves, laden with magic, but we only needed a tenth of it now as we did alive.  Nonetheless, it has been our home ever since...  most soft-feet would have raided the caverns and wiped us out like common vermin, but the Kruk Pride treated us with respect and dignity that perhaps no minotaur OR undead creature has received before (let alone the combination).  We are still a reclusive people, and our current state gives us even fewer reasons to need trade with them...  but they are the closest thing we have ever had to friends, and I suspect that right now, we are that to them as well.]], [[Nous ne sommes pas un peuple de grandes ambitions ni de désirs complexes, nous, les Minotaures. Nous ne cherchons pas à choisir la direction du monde, nous ne souhaitons pas nous répandre sur les terres, nous nous contentons de ne bâtir ni grandes machines ni empires plus grands encore. Ce que nous désirons plus que tout, c'est simplement vivre ; hélas, le reste du monde désire que nous ne vivions pas. Nous ne saurions dire où ni comment les hostilités ont commencé... si nous devions deviner, peut-être que les pieds-tendres nous considéraient comme une vermine à force de chercher refuge dans leurs réserves et leurs armureries. Nous sommes attirés par la grande magie, surtout lorsqu'elle est concentrée dans des artefacts, et au fil des éons de persécution, nous avons développé une pulsion instinctive tout aussi forte vers les lieux sûrs sous terre (bien que, là encore, ce ne soit qu'une supposition). S'il y a assez de magie errante alentour, nous pouvons en vivre sans manger ni boire, et ne voyons aucune raison de remonter à la surface ; en vérité, dans de telles conditions, nous pourrions même ne pas vieillir. La plupart des tribus de minotaures qui trouvent un habitat sûr - rayonnant de magie, et parcouru d'assez de passages sombres et tortueux pour que les pieds-tendres n'y descendent pas en force - découvrent qu'elles n'ont plus besoin de coopérer pour survivre, et se perdent peu à peu dans l'instinct ; pendant longtemps, seule notre volonté nous distinguait, et même elle commençait à faiblir. D'une certaine façon, ce qui nous est arrivé était peut-être véritablement une bénédiction.
 
-We cannot tell you how long ago it was, as we did not write down our history at that time, and we had more pressing concerns soon after.  At some point, though, we felt a home, better than any we'd ever felt before, through a long, long series of caverns and tunnels.  The magic here... it was incredible!  It...  well, you do not have a word for it, but "tasted" is close enough - different than anything we'd absorbed before, hearty and rich, and it soaked into our tired bodies so easily.  We did not even need to stop to rest, it kept us so rejuvenated...  so we kept going down, losing track of how far it was.  In truth, I think we walked the length of a continent, if not more, cheerfully pressing onward, eager to see what awaited us at the end.
+Nous ne saurions dire il y a combien de temps, car nous n'avons pas consigné notre histoire à cette époque, et nous avions des préoccupations plus pressantes peu après. À un moment, pourtant, nous avons ressenti un foyer, meilleur que tout ce que nous avions jamais connu, au bout d'une très, très longue série de cavernes et de tunnels. La magie ici... elle était incroyable ! Elle... eh bien, vous n'avez pas de mot pour cela, mais « avait du goût » s'en approche assez - différente de tout ce que nous avions absorbé auparavant, riche et consistante, et elle imprégnait si aisément nos corps fatigués. Nous n'avions même pas besoin de nous arrêter pour nous reposer, elle nous revigorait tant... alors nous avons continué à descendre, perdant le compte de la distance parcourue. À vrai dire, je pense que nous avons marché sur la longueur d'un continent, voire plus, avançant gaiement, impatients de voir ce qui nous attendait au bout.
 
-If only we'd noticed that what we were feeling wasn't rejuvenation.
+Si seulement nous avions remarqué que ce que nous ressentions n'était pas un regain de vigueur.
 
-Our leader, Garnok of the Stormy Fist, was the first to fall victim to it, and if he hadn't done so in such dramatic fashion, we may have all been lost.  His eyes became frantic and wandering as we walked onward, and he began making odd, pained grunts before stumbling and falling.  We heard a crack, and suspected that he may have broken an arm; we dashed closer to him, but stopped when his back and shoulders bulged and shifted, shortly before several tentacles burst from him, covered in the blood, fur, and skin that they dragged with them.  He simply pushed himself up with these new appendages, as though nothing was wrong.
+Notre chef, Garnok du Poing Orageux, fut le premier à en être victime, et s'il ne l'avait pas été de façon aussi spectaculaire, nous aurions peut-être tous été perdus. Ses yeux sont devenus fous et vagabonds tandis que nous avancions, et il s'est mis à émettre d'étranges grognements de douleur avant de trébucher et de tomber. Nous avons entendu un craquement, et soupçonné qu'il s'était peut-être cassé un bras ; nous nous sommes précipités vers lui, mais nous nous sommes arrêtés quand son dos et ses épaules se sont gonflés et déformés, peu avant que plusieurs tentacules ne jaillissent de lui, couvertes du sang, de la fourrure et de la peau qu'elles traînaient avec elles. Il s'est simplement redressé à l'aide de ces nouveaux appendices, comme si de rien n'était.
 
-We backed away from him, and he grew wild, grabbing at Karbatha the One-Horned and surging that unfamiliar magic that saturated these caverns; at once, a strange creature burst forth, separating the two before hovering over us.  He made false promises to us as Nektosh ran to his sister's side, claiming that Garnok's fate was a gift, and asking us to join him.
+Nous avons reculé, et il est devenu sauvage, agrippant Karbatha la Monocorne et faisant jaillir cette magie inconnue qui saturait ces cavernes ; aussitôt, une étrange créature a surgi, les séparant avant de planer au-dessus de nous. Il nous a fait de fausses promesses tandis que Nektosh courait auprès de sa sœur, affirmant que le sort de Garnok était un don, et nous demandant de le rejoindre.
 
-We are simple, but we are not fools.  We ran; we felt a wave of magic surge forth, sickly like rotten meat, and Karbatha cried out in her brother's arms.  We kept running, as the tunnels bent back and forth, spiraling upward, until we were certain the creature had lost sight of us...  and then we heard a message in our minds.  "It's too late.  The blessing is already within you, and these tunnels are far too long to escape before it takes root.  Come back, so we can guide it into a form you will find pleasing."  And from deeper back in the tunnels, we heard a bellow from what used to be Garnok.
+Nous sommes simples, mais nous ne sommes pas des imbéciles. Nous avons fui ; nous avons senti une vague de magie déferler, écœurante comme de la viande avariée, et Karbatha a crié dans les bras de son frère. Nous avons continué à courir, tandis que les tunnels serpentaient en tous sens, grimpant en spirale, jusqu'à être certains que la créature nous avait perdus de vue... et puis nous avons entendu un message dans nos esprits. « Il est trop tard. La bénédiction est déjà en vous, et ces tunnels sont bien trop longs pour s'échapper avant qu'elle ne prenne racine. Revenez, afin que nous puissions la guider vers une forme qui vous plaira. » Et du fond des tunnels derrière nous, nous avons entendu un mugissement venu de ce qui avait été Garnok.
 
-As we examined ourselves, feeling tiny hints of that blighted magic within us all, Nektosh took Karbatha away to a hastily-assembled tent, and she...  well, she was gone.  After the commotion ended, he strode out and gave a remarkably lucid assessment: the magic seemed to only work on the living.  Karbatha's illness stopped when her heart did...  and although it was certainly a drastic idea, if we couldn't purge this curse through some other means, we had to consider purging the life it fed on instead.
+Tandis que nous nous examinions, sentant de infimes traces de cette magie flétrie en chacun de nous, Nektosh a emmené Karbatha dans une tente montée à la hâte, et elle... eh bien, elle n'était plus. Une fois l'agitation retombée, il est ressorti et a livré une analyse remarquablement lucide : la magie semblait n'agir que sur les vivants. La maladie de Karbatha s'était arrêtée quand son cœur l'avait fait... et bien que ce fût assurément une idée radicale, si nous ne pouvions purger cette malédiction par un autre moyen, il nous fallait envisager de purger plutôt la vie dont elle se nourrissait.
 
-He was not our only necromancer, but the idea was still nearly unthinkable...  until we realized that it was growing.  There were no visible signs, our bodies and minds were resisting it...  but it was only a matter of time, and perhaps even less time for Nektosh.
+Il n'était pas notre seul nécromancien, mais l'idée restait presque impensable... jusqu'à ce que nous nous rendions compte qu'elle grandissait. Il n'y avait aucun signe visible, nos corps et nos esprits y résistaient... mais ce n'était qu'une question de temps, et peut-être encore moins pour Nektosh.
 
-We reluctantly agreed, and he prepared the spells and potions needed to keep us mostly as we were, but bereft of life.  Preserved, strong, even feeling and smelling when most liches could not..  but still cut off from Nature's gifts entirely, and still incapable of bearing young.  This generation would not age to death, but it would nonetheless be our last.  He volunteered to be the last one, only instructing another of us on how to convert him once all of us had been treated...  Whether it was because the infection had more time to fester within him, or because of what he suffered through in his sister's tent, Nektosh has never really been the same since then.
+Nous avons accepté à contrecœur, et il a préparé les sorts et les potions nécessaires pour nous garder presque tels que nous étions, mais privés de vie. Préservés, forts, capables même de toucher et de sentir quand la plupart des liches en sont incapables.. mais pourtant coupés des dons de la Nature, et toujours incapables d'engendrer. Cette génération ne mourrait pas de vieillesse, mais elle serait néanmoins la dernière. Il s'est porté volontaire pour être le dernier, se contentant d'indiquer à l'un des nôtres comment le convertir une fois que nous aurions tous été traités... Que ce soit parce que l'infection avait eu plus de temps pour couver en lui, ou à cause de ce qu'il a subi dans la tente de sa sœur, Nektosh n'a plus jamais vraiment été le même depuis.
 
-In a cruel twist of fate, we found what would have been paradise not long after our escape - the Mana Caves, laden with magic, but we only needed a tenth of it now as we did alive.  Nonetheless, it has been our home ever since...  most soft-feet would have raided the caverns and wiped us out like common vermin, but the Kruk Pride treated us with respect and dignity that perhaps no minotaur OR undead creature has received before (let alone the combination).  We are still a reclusive people, and our current state gives us even fewer reasons to need trade with them...  but they are the closest thing we have ever had to friends, and I suspect that right now, we are that to them as well.]], "_t")
-t("a transcribed speech", "a transcribed speech", "_t")
+Par un cruel coup du sort, nous avons trouvé ce qui aurait été un paradis peu après notre fuite - les Grottes de mana, regorgeant de magie, mais nous n'en avions plus besoin que du dixième de ce qu'il nous fallait vivants. Néanmoins, elles sont notre foyer depuis... la plupart des pieds-tendres auraient pillé les cavernes et nous auraient exterminés comme de la vulgaire vermine, mais la Fierté Kruk nous a traités avec un respect et une dignité qu'aucun minotaure OU mort-vivant n'avait peut-être jamais reçus (a fortiori les deux à la fois). Nous restons un peuple reclus, et notre état actuel nous donne encore moins de raisons de commercer avec eux... mais ils sont ce que nous avons connu de plus proche d'amis, et je soupçonne qu'en ce moment, nous le sommes aussi pour eux.]], "_t")
+t("a transcribed speech", "un discours retranscrit", "_t")
 t([[Men and women of the Krimbul Clan!  I come before you today because with my awakening shall come a greater destiny, one we shall all share.  The dawn of a new age is at hand, and it would do you no good to sleep through it.  Allow me to open your eyes, before I lead you to our ultimate destiny!
 
 Unicorns!  I'm sure you know the story of these incredible creatures, their beauty and power.  The Humans know it too!  And the Orcs!  And the Steam Giants - they ALL had their own variants on this myth, a one-horned creature of incredible magical potential, but an elusive one.  For many years, I have told you that Karbatha and I were descendants of these "mythical" creatures, and you denied it!  For just as many years, I could not prove it...  but all that changed when the flying machine fell in the lake.  None of you foolish cowards wanted to go down and investigate, none of you - so I had to go down instead.
@@ -2553,19 +2542,19 @@ Look, to the south, at Frostgraze Mountain!  Do you see the hole through it?  TH
 Cheer!  CHEER, DAMN YOU!
 
 Now...  as your new Lord, you are lucky that I am a merciful one.  I grant you all a tremendous honor, the opportunity to serve me and personally witness the fall of all who would oppose me.  Gone are the days of hiding from the Steam Giants, gone are the days of treating those Kruk Orcs as equals.  Gone are the days of the living claiming dominion over this world; they shall bow to us for the mercy of being made undead, or I shall personally annihilate them.  The living - and those who would not join me - shall be crushed under our hooves, and the world shall be ours!
-]], [[Men and women of the Krimbul Clan!  I come before you today because with my awakening shall come a greater destiny, one we shall all share.  The dawn of a new age is at hand, and it would do you no good to sleep through it.  Allow me to open your eyes, before I lead you to our ultimate destiny!
+]], [[Hommes et femmes du clan Krimbul ! Je me présente à vous aujourd'hui car mon éveil apportera avec lui un plus grand destin, un destin que nous partagerons tous. L'aube d'un nouvel âge est proche, et il ne vous servirait à rien de la passer à dormir. Permettez-moi de vous ouvrir les yeux, avant que je ne vous mène vers notre destin ultime !
 
-Unicorns!  I'm sure you know the story of these incredible creatures, their beauty and power.  The Humans know it too!  And the Orcs!  And the Steam Giants - they ALL had their own variants on this myth, a one-horned creature of incredible magical potential, but an elusive one.  For many years, I have told you that Karbatha and I were descendants of these "mythical" creatures, and you denied it!  For just as many years, I could not prove it...  but all that changed when the flying machine fell in the lake.  None of you foolish cowards wanted to go down and investigate, none of you - so I had to go down instead.
+Les licornes ! Je suis sûr que vous connaissez l'histoire de ces créatures extraordinaires, de leur beauté et de leur puissance. Les Humains la connaissent aussi ! Et les Orcs ! Et les Géants de vapeur - ILS ONT TOUS leur propre variante de ce mythe, celle d'une créature à une seule corne au potentiel magique incroyable, mais insaisissable. Pendant de nombreuses années, je vous ai dit que Karbatha et moi descendions de ces créatures « mythiques », et vous l'avez nié ! Pendant tout autant d'années, je n'ai pas pu le prouver... mais tout a changé quand la machine volante est tombée dans le lac. Aucun de vous, lâches stupides, n'a voulu descendre enquêter, aucun - alors j'ai dû y descendre moi-même.
 
-Fortunately, your ignorance paid off.  Without any of you other wastrels to scare it off, the unicorns of old myth, the creatures that have stayed hidden from me because you were all too close, finally found me in enough privacy to grant me their blessing.  Even still, they did not directly appear to me...  but in their own way, they awakened the power that it has always been my right to possess, the strength that has lied dormant inside me for so long.  And AWAKEN IT DID!
+Heureusement, votre ignorance a payé. Sans aucun de vous, bons à rien, pour les effrayer, les licornes des anciens mythes, ces créatures qui se sont cachées de moi parce que vous étiez tous trop près, m'ont enfin trouvé dans une intimité suffisante pour m'accorder leur bénédiction. Même ainsi, elles ne me sont pas apparues directement... mais à leur manière, elles ont éveillé la puissance qu'il a toujours été de mon droit de posséder, la force qui sommeillait en moi depuis si longtemps. Et ELLE S'EST ÉVEILLÉE !
 
-Look, to the south, at Frostgraze Mountain!  Do you see the hole through it?  THAT is my power, a mere side effect of what happened when some insolent swine dared to question it!  THAT is the power I have always had, the power I have always deserved, the power that shall now lead me to my rightful place over the Giants, the Orcs, and Nature itself!
+Regardez, au sud, le mont Frostgraze ! Voyez-vous le trou qui le traverse ? VOILÀ ma puissance, un simple effet secondaire de ce qui s'est passé quand un porc insolent a osé la remettre en question ! VOILÀ la puissance que j'ai toujours eue, la puissance que j'ai toujours méritée, la puissance qui va maintenant me mener à ma place légitime au-dessus des Géants, des Orcs et de la Nature elle-même !
 
-Cheer!  CHEER, DAMN YOU!
+Acclamez ! ACCLAMEZ, MAUDITS SOYEZ-VOUS !
 
-Now...  as your new Lord, you are lucky that I am a merciful one.  I grant you all a tremendous honor, the opportunity to serve me and personally witness the fall of all who would oppose me.  Gone are the days of hiding from the Steam Giants, gone are the days of treating those Kruk Orcs as equals.  Gone are the days of the living claiming dominion over this world; they shall bow to us for the mercy of being made undead, or I shall personally annihilate them.  The living - and those who would not join me - shall be crushed under our hooves, and the world shall be ours!
+Maintenant... en tant que votre nouveau Seigneur, vous avez de la chance que je sois miséricordieux. Je vous accorde à tous un immense honneur, celui de me servir et d'assister personnellement à la chute de tous ceux qui s'opposeraient à moi. Finis les jours où nous nous cachions des Géants de vapeur, finis les jours où nous traitions ces Orcs Kruk en égaux. Finis les jours où les vivants prétendaient dominer ce monde ; ils s'inclineront devant nous en remerciement de la clémence d'être faits morts-vivants, ou je les anéantirai moi-même. Les vivants - et ceux qui refuseraient de me rejoindre - seront écrasés sous nos sabots, et le monde sera à nous !
 ]], "_t")
-t("personal journal of Nektosh the One-Horned", "personal journal of Nektosh the One-Horned", "_t")
+t("personal journal of Nektosh the One-Horned", "journal personnel de Nektosh le Monocorne", "_t")
 t([[no no no no no no no no no no no no no
 
 I can feel it running out...  the voice spoke to me again, said "Warning, low energy, less than ten pulses remaining," and the energy that once flowed so beautifully through this artifact is beginning to grow cold.  No matter how much I beg and plead down in the lake, the unicorns will not come to me directly, will not tell me why I've angered them or what I could do for them to keep my power...  was this power ever mine in the first place...?
@@ -2576,19 +2565,17 @@ someone just told me the giants attacked the orcs, the orcs won
 
 I...  yes.  I've got a way out.  The Orcs must be weakened, wounded, easily dealt with or at least intimidated.  My people march on Kruk Pride, I arrange a meeting with the Giants and tell them the favor I did them, give them back the artifact if I can get it out of my horn without blowing my hand off...  they'll shelter me.  they'll give my people a plot of land.  they'll...  they'll do something that gives me some chance of not getting trampled by an angry mob...
 
-i'm sorry karbatha]], [[no no no no no no no no no no no no no
+i'm sorry karbatha]], [[non non non non non non non non non non non non non
 
-I can feel it running out...  the voice spoke to me again, said "Warning, low energy, less than ten pulses remaining," and the energy that once flowed so beautifully through this artifact is beginning to grow cold.  No matter how much I beg and plead down in the lake, the unicorns will not come to me directly, will not tell me why I've angered them or what I could do for them to keep my power...  was this power ever mine in the first place...?
+Je le sens s'épuiser... la voix m'a parlé de nouveau, elle a dit « Avertissement, énergie faible, moins de dix impulsions restantes », et l'énergie qui coulait si magnifiquement dans cet artefact commence à refroidir. J'ai beau supplier et implorer au fond du lac, les licornes ne viendront pas à moi directement, ne me diront pas pourquoi je les ai mises en colère ni ce que je pourrais faire pour conserver ma puissance... cette puissance a-t-elle seulement jamais été à moi...?
 
-...  All right.  So, five to ten more uses...  I need to think about how this is going to work.  I've gone way too far to simply back out and act like everything should go back to normal - hee hee, can you imagine...  what do i do what do i do i can't keep stalling the conquest i can't come clean i can't win against the steam giants i can't i can't
+... Bon. Alors, cinq à dix utilisations de plus... il faut que je réfléchisse à la façon dont ça va se passer. Je suis allé beaucoup trop loin pour simplement faire marche arrière et agir comme si tout devait redevenir normal - hi hi, vous imaginez... que faire que faire je ne peux pas retarder encore la conquête je ne peux pas avouer je ne peux pas gagner contre les géants de vapeur je ne peux pas je ne peux pas
 
-someone just told me the giants attacked the orcs, the orcs won
+quelqu'un vient de me dire que les géants ont attaqué les orcs, les orcs ont gagné
 
-I...  yes.  I've got a way out.  The Orcs must be weakened, wounded, easily dealt with or at least intimidated.  My people march on Kruk Pride, I arrange a meeting with the Giants and tell them the favor I did them, give them back the artifact if I can get it out of my horn without blowing my hand off...  they'll shelter me.  they'll give my people a plot of land.  they'll...  they'll do something that gives me some chance of not getting trampled by an angry mob...
+Je... oui. J'ai une issue. Les Orcs doivent être affaiblis, blessés, faciles à vaincre ou du moins intimidés. Mon peuple marche sur la Fierté Kruk, j'organise une rencontre avec les Géants et je leur raconte le service que je leur ai rendu, je leur rends l'artefact si j'arrive à le sortir de ma corne sans me faire sauter la main... ils m'abriteront. ils donneront à mon peuple un lopin de terre. ils... ils feront quelque chose qui me laisse une chance de ne pas être piétiné par une foule en colère...
 
-i'm sorry karbatha]], "_t")
---]==]
-
+pardon karbatha]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/misc.lua"
@@ -2689,6 +2676,28 @@ Bref... Korbek, si tu lis ceci, ça veut dire que ces nains de jardin ont encore
 
 Sérieusement, j'écris cette note pour que, même si je me fais tuer là-dedans, je vous rende service. Si je suis mort, j'apprécierais que vous montriez votre gratitude en vous assurant que ce fils de traînée mordu aux chevilles ait joué sa dernière partie de chaises musicales avec les pailles.
 ]], "_t")
+t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "ruepav ed stnaéG : 84 ertipahc ,tonyarG tiduré'l rap secèpse sed noitaulavÉ", "_t")
+t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
+
+.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
+
+.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
+
+ (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
+
+.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
+
+.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.elpuep nos reiduté ruop ecnesérp am édnamed a li te ,sap tiassiannoc en elpuep nos euq secèpse sel setuot ed larénég uçrepa nu riova'd nifa stircé sem erttemer uv tse's sorysaK relliesnoC dnarG el ,tnemesuerueH .tsE'l srev liatrop el retnurpme'd livic nu à elbissopmi tnemisauq tios li ,sruellia redrager eriaf ruel te sedrag sel reyoduos ruop ro'd zessa ceva dnahcram nu uo kaloT ior ud tnerap nu ,erialoS ruM ud neyotic nu ertê'd sniom à'uq elbmes li - sehcrehcer sem renem ruop ehcât al étilicaf tia'm étimixorp ettec euq sap noN ! zen erton suos euqserp tiahcac es eécnava issua noitasilivic enu'uq eriD
+
+.noisserp suos ruepav ed eéffuob enu uo tej nu ettejorp ,revresbo à tnatrecnocéd zessa ertê'd sulp ne ,iuq ec ,tnemegral retalid sel uo rerutbo sel tnevuep sli siam ,tuot ud neir eriov ,emurb erègél enu'uq tnettemé'n te selbisivni euqserp tnos sli ,soper ua ; sussed-àl étimil tneicsnoc elôrtnoc nu'uq tno'n slI .noisserp suos ruepav al ed erttemé'd selbapac secifiro te serop xuerbmon ed etropmoc uaep ruel - mon ruel tnerit sli tnod ,ruepav ruel tnemeniatrec euqserp tse fitcnitsid sulp el euqisyhp tiart rueL .(araikaD ed eénnoçpuosni ecrof enu'd siam sédnagnigéd stnaég xua tnemeriartnoc) supart sulp uep nu tneiaté te sertèm 3 te 5,2 ertne tneiarusem sli's sniamuh sed tneiares euq ec à tnemegnarté tnelbmesser ruepav ed stnaéG seL
+
+.ceva sesohc ed tnatua rilpmocca'd simrep a ruel iuq evitiutni étilauq ettec ertê-tuep tse'c ; noitaripser al euq ruepav ed stnaéG xua tnemellerutan issua tnenneiv iuq stnemetsuja sed te noitnetta enu egixe edohtém ettec siam ,uaenruof nu snad uae'l ed rilliuob tnasiaf ne unetbo ertê tnemeuqiroéht tiarruop erialimis teffe nU .sexelpmoc sulp sruojuot semsinacém sed ,àl ed ,siup ,noisserp suos erreip ed rueyotten ed etros enu trevuocéd tno sli ,àl ed ; telffis elpmis nu tiaté "hcetopav" ed tnemélé reimerp tuot el euq tnemriffa sli ,sehportsatac sertua'd te slennoisacco seidnecni'd srol sudrep été tneia stnaég sed setxet sneicna sulp sel euq neiB .seuqillatém semsinacém ed liatnevé nu tuot rennoitcnof eriaf te retnemila ruop ruepav ettec resilitu tnemmoc évuort tno sli ,esueinégni zessa noçaf eD
+
+ (.scrO sed tneiaté tnemmecér sèrt à'uqsuj snisiov slues sruel euqsiup ,elbisnehérpmoc tiaf à tuot tse euv ed tniop eC) .selbaérgaséd te serèissorg "serueiréfni secar" sel revuort tnemelpmis tneiasid élrap ia'j iuq à somtA sed trapulp al ,sregnarté xua eriaf tiarruop eihcélférri noitnevretni ruel euq ec ed te ,eriaf ruel tiarruop rueirétxe ednom el euq ec ed etniarc rap tiaté'c euq dnetérp sorysaK relliesnoC dnarG el is ; secar sertua sel ceva snoitcaretni sruel muminim ua tiudér tno slI .séuqidaré tnemerûs tiarua sel elle'uq xuerbmon uep is te sértnecnoc is tneiaté sli rac ,séuqnam tnemetèlpmoc tia sel euqigaM erulûrB al euq xue ruop ecnahc elbatirév enu tse'c ; selcèis sed siuped krolC ed sengatnom sel snad tnehcac es somtA sed ubirt al ed ruepav ed stnaéG seL
+
+.eétûog siamaj eia'j euq ehtnisba eruelliem al eriaf à sirppa tno sli'uq tnemerèilucitrap tuot reton à sneit ej ,egral sulp snes nu snad somtA elpuep ud elèvér alec euq ec erid essiup en ej euq neiB .("sésserétni sel suot ruop etnassarrabme tnemédnoforp tuf" elle'uq tid tnemelues a'm sorysaK tnod ,ramlagarT ior el suos edoirép evèrb enu trap à sim) tnalgnas trops te eitarcoméd ertne tnerappa simorpmoc nu noles isiohc tse ,ecneuqésnoc ne ,tnemenrevuog rueL .secifiro ses rap ruepav ed egatnavad rerébil ed elbapac tnaté ne tnemelpmis UO ecaciffe sulp noitcurtsnoc enu à ecârg ecnassiup ne rengag tuep hcetopav al euq ecrap ertê-tuep ,selleutcelletni sétivitca xua'uq ruelav ed tnatua euqserp euqisyhp emrof al à tnedrocca sli'uq tse reton up ia'j euq dnoforp sulp uep nu uçrepa lues el ; ruojés ferb nom tnarud étéicos ettec tnemenielp resylana rerépse siavuop en eJ .fuen drager nu sneyotic ses à rirffo'd nifa séillA semuayoR sel te erialoS ruM el ceva tnemetrevuo recremmoc à écnemmoc a iuq ,sorysaK sèrpa'd ,étilaér al ed tnemehcatéd nu te euqitsihpos al à ecnadnet enu irruon issua a li ,étéicos ruel reppolevéd ruop eriassecén xiap al énnod a ruel tnemelosi tec iS
+
+.rinev à segâ sed ruop selèdif séilla sed xue'd tiaf a [b]XUEIC SED RUEGAVAR TNEDUPMI ,SUTALOMMI[/b] ed rerapme's ed fehc ruel ed sevitatnet sel reuojéd te kurK noillebér al resarcé ruop edia rueL .semêm-xue rap sétic sruel riov à sésirotua tôtneib tnores iom euq sregnarté sertua'd euq ertê-tuep te ,ennosrep ne egatnavad rertnocner ne'd noisacco'l tôtneib snorua suon ,selbaegirid sed siuped seéugral selleicifitra serutaérc sed rap erocne tnessap somtA sel ceva stcatnoc son ed trapulp al euq neib ,tios ne li'uq iouQ ? noitanimilé'd snif sed à erioratolpxe niatniol liatrop nu'd noitasilitu'l ed soporp à esohc euqleuq - layE'jaM ed soréH el ceva ertnocner enu ésinagro a li rac ,rengapmocca'm sulp tuep en li'uq tid em sorysaK .egatnavad erdnerppa ne ruop spmetgnol zessa reiduté sel up sap ia'n ej ,saléH]], "_t")
 t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "Évaluation des Espèces par l'Érudit Graynot, Chapitre 48 : Géants Vaporeux", "_t")
 t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
 
@@ -2717,28 +2726,6 @@ t("(This note had already caught fire when the paradox anomaly pulled it in from
 --[==[
 t("var'eyal", "var'eyal", "newLore category")
 t("?...secar", "?...secar", "newLore category")
-t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "_t")
-t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
-
-.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
-
-.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
-
- (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
-
-.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
-
-.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], [[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
-
-.maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
-
-.ti htiw hcum os hsilpmocca ot meht rof ysae os ti edam taht ytilauq evitiutni siht si ti spahrep ;gnihtaerb sa stnaiG maetS eht ot yllarutan sa semoc taht tnemtsujda dna noitnetta seriuqer dohtem siht tub ,retaw liob ot ecanruf a gnisu yb deveihca eb yllaciteroeht nac tceffe ralimis A  .snoitpartnoc xelpmoc erom dna erom ereht morf dna ,renaelc-enots dezirusserp fo tros a derevocsid yeht ,ereht morf ;eltsihw elpmis a saw "hcet-maets" fo tib tsrif eht taht mialc yeht ,sretsasid rehto dna serif lanoisacco ot tsol neeb evah stxet tsedlo 'stnaig eht hguohtlA  .snoitpartnoc cillatem fo yarra ediw a etarepo dna rewop ot maets siht esu ot woh tuo derugif evah yeht ,ylsuoinegni rehtaR
-
- (.scrO neeb evah yltnecer tsuj litnu srobhgien ylno rieht sa gniees ,weiv elbadnatsrednu yleritne na si sihT)  .tnasaelpnu dna hsiroob eb ot "secar ressel" eht dnif ylerem ot demialc ot ekops I somtA rehto eht fo tsom ,sredistuo ot od dluoc noitnevretni sselerac rieht tahw dna ,meht ot od dluoc dlrow edistuo eht tahw htob fo raef ot eud saw siht smialc sorysaK rolicnuoC dnarG elihw ;muminim a ot secar rehto htiw snoitcaretni rieht tpek evah yehT  .meht detacidare evah dluow ylerus ti taht rebmun ni wef os dna detartnecnoc os erew yeht rof ,yleritne meht dessim ezalbllepS eht taht meht rof etanutrof ylurt si ti ;sega rof sniatnuom krolC eht ni neddih evah ebirT somtA eht fo stnaiG maetS ehT
-
-.detsat reve evah I ehtnisba tseb eht ekam ot woh denrael evah yeht taht eton laiceps ekam tsum I leef I ,esnes retaerg a ni elpoep somtA eht no stcelfer ti woh yas tonnac I hguohtlA  .("devlovni lla rof gnissarabme ylpeed saw" em llet ylno dluow sorysaK hcihw ,ramalgarT gniK rednu doirep feirb a morf edisa) tropsdoolb dna ycarcomed neewteb esimorpmoc tnerappa na yb nesohc si ,ylgnidrocca ,tnemnrevog riehT  .stnev s'eno morf maets erom tuo ecrof ot elba gnieb ylpmis RO noitcurtsnoc tneiciffe erom hguorht lufrewop erom edam eb nac hcet-maets taht tcaf eht ot gniwo spahrep ,stiusrup lautcelletni sa hcum sa yltcaxe tsomla ssentif lacisyhp eulav yeht taht si ees ot elba saw I gniton htrow thgisni repeed ylno eht ;yats feirb ym gnirud yteicos siht ezylana ylluf ot epoh ton dluoc I  .evitcepsrep hserf emos snezitic sih tnarg ot smodgniK deillA dna llawnuS eht htiw edart nepo nugeb sah ohw ,sorysaK ot gnidrocca ,ytilaer ot noitcennocsid dna yrtsihpos fo niarts a deretsof osla sah ti ,poleved yteicos rieht tel ot ecaep meht nevig sah noitalosi siht elihW
-
-.emoc ot ega na rof su htiw seilla gnirudne eb lliw yeht taht derusne sah [b]SNEVAEH EHT FO REGAVAR TNEDUPMI ,SUTALOMMI[/b] reednammoc ot stpmetta s'redael rieht gnitrawht dna noillebeR kurK eht gnihsurc ni pleh riehT  .sevlesmeht rof seitic rieht ees ot dewolla eb noos lliw flesym naht rehto sredistuo spahrep dna ,nosrep ni meht fo erom teem ot ytinutroppo eht niag noos lliw ew ,spihsria morf deppord stcurtsnoc aiv enod llits si somtA eht htiw tcatnoc ruo fo tsom hguohtla ,esac eht revetahW  ?sesoprup lasopsid rof latropraf yrotarolpxe na gnisu tuoba gnihtemos - layE'jaM fo oreH eht htiw gniteem a degnarra sah eh rof ,regnol yna em ynapmocca tonnac eh em sllet sorysaK  .siht naht erom nrael ot hguone gnol rof meht yduts ot elba ton saw I ,salA]], "_t")
 t("races...?", "races...?", "newLore category")
 --]==]
 
@@ -2789,17 +2776,14 @@ Leur compagnie, leur sagesse ancienne et leur bienveillance prudente vont nous m
 ------------------------------------------------
 section "tome-orcs/data/lore/palace-fumes.lua"
 
-
--- texte non traduit
---[==[
-t("palace of fumes", "palace of fumes", "newLore category")
-t("a reminder", "a reminder", "_t")
+t("palace of fumes", "Palais des Fumées", "newLore category")
+t("a reminder", "un rappel", "_t")
 t([[A Reminder to Our Constituents:
 
-Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], [[A Reminder to Our Constituents:
+Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], [[Un rappel à nos électeurs :
 
-Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], "_t")
-t("a wrinkled pamphlet", "a wrinkled pamphlet", "_t")
+Tout vote en faveur d'un candidat individuel à un poste cesse d'être valable une fois les primaires terminées et le nombre de candidats réduit à deux (ou, rarement, trois, lors d'une compétition serrée). À ce stade, vous ne pouvez plus voter pour votre candidat ; à la place, une compétition sera organisée, à l'issue de laquelle son vainqueur se verra attribuer le poste. Le vote que vous soumettez maintenant détermine la nature de cette compétition. Bien que nous ne puissions imposer la manière dont vous votez ni les raisons qui vous y poussent, nous vous demandons de respecter l'esprit de notre système et de choisir une compétition qui reflète la capacité des candidats à assumer les responsabilités du poste de Conseiller en Chef.]], "_t")
+t("a wrinkled pamphlet", "un pamphlet froissé", "_t")
 t([[A Plea from the Volunteer's Bureau of Gaming:
 
 Once again, we find ourselves faced with an election for the competition of Chief Councilor.  While this is the most prestigious position in our government, it should not be forgotten that is also arguably the most complex, and the one bearing the greatest responsibility for the fate of our people.  A Chief Councilor's duties require not only cautious, reasoned foresight, but a quick wit to get emergencies under control in little time; yet, he or she must be aware of the precedent set or the unintended consequences of such decisive action, never acting rashly or out of ill temper.  Such a leader would wield our citizens and our military like a drunkard with a glass bottle, not caring if his weapon is shattered in the process. He or she must be able to develop creative solutions to problems but be open to outside advice, to be a character judge capable of selecting his or her most valuable acquaintances and a persuader to convince them to do the tasks for which they are most suited...  suffice to say, there are a great many mental skills required.  Accordingly, the competition should be one that tests all these skills.
@@ -2808,22 +2792,22 @@ This election, we are formally endorsing the board game [i]Automobiles and Autom
 
 v9.8 uses the "Crumbling Divide" map, providing a barrier that eliminates the possibility of an aggressive player gaining an early victory, tests the players' ability to plan in the long term, and yet due to the presence of non-player foes on either side, they still must be able to make plans in the short-term that will ensure their survival and leave them in an advantageous position when the barrier fades.  Non-player foes follow a predictable set of rules, eliminating luck as a factor, and our necropsychs have found a method of copying the same spiritual consciousness into two figurines, meaning that both players will be using identical sets of Negotiator figurines to demonstrate their diplomatic finesse.  (As always, the figurines are designed to release their spirits after no more than one month, ensuring that this process is as humane as possible to the deceased.)
 
-The consumer edition of this game, v6.0, has won countless awards for its engaging and challenging play, with special attention given to the diverse array of viable strategies and skills tested by it.  Both sides agreed it was a fair game in the Marshall's election, as v1.0; v9.8 is unlikely to disappoint as a method of selecting our next leader.  Vote for [i]Automobiles and Automatons v9.8[/i] this year, and you will not be let down by its winner.]], [[A Plea from the Volunteer's Bureau of Gaming:
+The consumer edition of this game, v6.0, has won countless awards for its engaging and challenging play, with special attention given to the diverse array of viable strategies and skills tested by it.  Both sides agreed it was a fair game in the Marshall's election, as v1.0; v9.8 is unlikely to disappoint as a method of selecting our next leader.  Vote for [i]Automobiles and Automatons v9.8[/i] this year, and you will not be let down by its winner.]], [[Un appel du Bureau Bénévole du Jeu :
 
-Once again, we find ourselves faced with an election for the competition of Chief Councilor.  While this is the most prestigious position in our government, it should not be forgotten that is also arguably the most complex, and the one bearing the greatest responsibility for the fate of our people.  A Chief Councilor's duties require not only cautious, reasoned foresight, but a quick wit to get emergencies under control in little time; yet, he or she must be aware of the precedent set or the unintended consequences of such decisive action, never acting rashly or out of ill temper.  Such a leader would wield our citizens and our military like a drunkard with a glass bottle, not caring if his weapon is shattered in the process. He or she must be able to develop creative solutions to problems but be open to outside advice, to be a character judge capable of selecting his or her most valuable acquaintances and a persuader to convince them to do the tasks for which they are most suited...  suffice to say, there are a great many mental skills required.  Accordingly, the competition should be one that tests all these skills.
+Une fois encore, nous voici confrontés à une élection pour la compétition du Conseiller en Chef. Bien qu'il s'agisse du poste le plus prestigieux de notre gouvernement, il ne faut pas oublier qu'il est aussi le plus complexe et celui qui porte la plus grande responsabilité pour le destin de notre peuple. Les fonctions de Conseiller en Chef requièrent non seulement une prévoyance prudente et raisonnée, mais aussi un esprit vif pour maîtriser les situations d'urgence en peu de temps ; pourtant, il ou elle doit être conscient des précédents établis et des conséquences involontaires de telles actions décisives, sans jamais agir avec précipitation ni sous l'emprise de la mauvaise humeur. Un tel dirigeant manierait nos citoyens et nos forces armées comme un ivrogne avec une bouteille de verre, sans se soucier de briser son arme dans l'opération. Il ou elle doit être capable de développer des solutions créatives aux problèmes tout en restant ouvert aux conseils extérieurs, d'être un juge de caractère capable de choisir ses associés les plus précieux et d'être un persuadeur pour les convaincre d'accomplir les tâches pour lesquelles ils sont le mieux qualifiés... autant dire qu'un grand nombre de compétences intellectuelles sont requises. En conséquence, la compétition devrait être de nature à toutes les mettre à l'épreuve.
 
-This election, we are formally endorsing the board game [i]Automobiles and Automatons v9.8,[/i] a refined variant of the game introduced last year in a competition for the Marshall of the City Guard.  Its "oil-punk" science-fantasy setting, although perhaps easy to brush off as irrelevant to our reality, has its own consistent internal rules, forcing its players to learn a new status quo and work with it, as our leaders must be willing to learn from ongoing events and rapidly adapt to them; yet, since the game has been out for a year already and there are already numerous books about strategies for it, it also tests our candidates' long-term memory, as our leaders must be able to remember our history, to repeat our ancestors' successes but not their failures.  The rules of v9.8 are somewhat, but not entirely, different from those of previous versions, making these strategy books only partially accurate, just as our ancestors' wisdom only reflected the world they lived in, not the increasingly different one of the present.
+Pour cette élection, nous soutenons formellement le jeu de plateau [i]Automobiles et Automates v9.8,[/i] une variante affinée du jeu présenté l'année dernière lors d'une compétition pour le poste de Maréchal de la Garde Municipale. Son univers de science-fantasy "pétro-punk", bien qu'il soit aisé de le rejeter comme non pertinent pour notre réalité, possède ses propres règles internes cohérentes, obligeant ses joueurs à apprendre un nouveau statu quo et à l'accepter, tout comme nos dirigeants doivent être prêts à tirer des leçons des événements en cours et à s'y adapter rapidement ; cependant, comme le jeu est sorti depuis déjà un an et qu'il existe de nombreux ouvrages de stratégies à son sujet, il met aussi à l'épreuve la mémoire à long terme de nos candidats, car nos dirigeants doivent être en mesure de se souvenir de notre histoire, pour reproduire les succès de nos ancêtres sans répéter leurs échecs. Les règles de la v9.8 diffèrent quelque peu, mais pas entièrement, de celles des versions précédentes, rendant ces ouvrages de stratégies seulement partiellement précis, tout comme la sagesse de nos ancêtres ne reflétait que le monde dans lequel ils vivaient, et non le monde présent, de plus en plus différent.
 
-v9.8 uses the "Crumbling Divide" map, providing a barrier that eliminates the possibility of an aggressive player gaining an early victory, tests the players' ability to plan in the long term, and yet due to the presence of non-player foes on either side, they still must be able to make plans in the short-term that will ensure their survival and leave them in an advantageous position when the barrier fades.  Non-player foes follow a predictable set of rules, eliminating luck as a factor, and our necropsychs have found a method of copying the same spiritual consciousness into two figurines, meaning that both players will be using identical sets of Negotiator figurines to demonstrate their diplomatic finesse.  (As always, the figurines are designed to release their spirits after no more than one month, ensuring that this process is as humane as possible to the deceased.)
+La v9.8 utilise la carte "Division Croulante", offrant une barrière qui élimine la possibilité pour un joueur agressif de remporter une victoire prématurée, testant la capacité des joueurs à planifier sur le long terme ; mais en raison de la présence d'adversaires non-joueurs des deux côtés, ils doivent néanmoins être capables d'élaborer des plans à court terme garantissant leur survie et les laissant en position avantageuse lorsque la barrière disparaît. Les adversaires non-joueurs suivent un ensemble de règles prévisibles, éliminant la chance comme facteur, et nos necropsychiques ont trouvé un moyen de copier la même conscience spirituelle dans deux figurines, ce qui signifie que les deux joueurs utiliseront des ensembles identiques de figurines de Négociateur pour démontrer leur finesse diplomatique. (Comme toujours, les figurines sont conçues pour libérer leurs esprits au bout d'un mois au plus, garantissant que ce procédé soit aussi humain que possible pour les défunts.)
 
-The consumer edition of this game, v6.0, has won countless awards for its engaging and challenging play, with special attention given to the diverse array of viable strategies and skills tested by it.  Both sides agreed it was a fair game in the Marshall's election, as v1.0; v9.8 is unlikely to disappoint as a method of selecting our next leader.  Vote for [i]Automobiles and Automatons v9.8[/i] this year, and you will not be let down by its winner.]], "_t")
-t("a fading poster", "a fading poster", "_t")
+L'édition grand public de ce jeu, la v6.0, a remporté d'innombrables récompenses pour son jeu engageant et stimulant, avec une attention particulière portée à la grande diversité des stratégies viables et des compétences qu'il met à l'épreuve. Les deux camps ont reconnu qu'il s'agissait d'un jeu équitable lors de l'élection du Maréchal, dans sa version v1.0 ; la v9.8 ne devrait pas décevoir en tant que méthode de sélection de notre prochain dirigeant. Votez pour [i]Automobiles et Automates v9.8[/i] cette année, et le vainqueur ne vous décevra pas.]], "_t")
+t("a fading poster", "une affiche délavée", "_t")
 t([[Councilor Tantalos, unlike that cowardly wimp Chief Councilor Kasyros, knows just what to do to solve the steam shortages, and isn't afraid to do it!  Even though he can't reveal his plan yet for security reasons, the Geothermal Authority and our military's highest generals have assured us that his plan would work, without requiring us to ration steam usage or regulate our appliances; let's see Tantalos show that old geezer what-for, and end this drought for good!
 
-VOTE FISTICUFFS]], [[Councilor Tantalos, unlike that cowardly wimp Chief Councilor Kasyros, knows just what to do to solve the steam shortages, and isn't afraid to do it!  Even though he can't reveal his plan yet for security reasons, the Geothermal Authority and our military's highest generals have assured us that his plan would work, without requiring us to ration steam usage or regulate our appliances; let's see Tantalos show that old geezer what-for, and end this drought for good!
+VOTE FISTICUFFS]], [[Le Conseiller Tantalos, contrairement à ce froussard lâche de Conseiller en Chef Kasyros, sait exactement ce qu'il faut faire pour résoudre les pénuries de vapeur, et n'a pas peur d'agir ! Même s'il ne peut pas encore révéler son plan pour des raisons de sécurité, l'Autorité Géothermique et les plus hauts généraux de nos forces armées nous ont assurés que son plan fonctionnerait, sans qu'il soit nécessaire de rationner l'utilisation de la vapeur ni de réglementer nos appareils ; voyons Tantalos montrer à ce vieux grincheux ce dont il est capable, et mettre fin à cette disette une bonne fois pour toutes !
 
-VOTE FISTICUFFS]], "_t")
-t("Kasyros' resignation speech", "Kasyros' resignation speech", "_t")
+VOTEZ PUGILAT]], "_t")
+t("Kasyros' resignation speech", "le discours de démission de Kasyros", "_t")
 t([[My fellow councilors,
 
 In this time of increasing vent-drought, it is tempting for us to seek the easy way out.  I understand that at this point, I am powerless to prevent our new Chief Councillor's plans to take the promising vents under the Kruk orcs, but should we fail, you may be tempted to compensate by approaching that...  entity who called itself "the Loyalist."  I am of the opinion that this would be a foolish decision.
@@ -2846,30 +2830,30 @@ Our forefathers say this creature gave them a means of contacting it again, but 
 
 Perhaps political discourse has gotten a bit...  muddier in recent years.  With the bickering and sniping of modern-day debates, it can be hard to believe that past Councilors had ideas other than their careers in mind, that a vehement display of emotion would be something other than political posturing.  But even if those Councilors were just as petty and selfish as we are, they did not let it affect the Official Histories, not once.
 
-I intend to trust the only advice our ancestors gave us in the Official Histories.  I beg of you all to do so as well.]], [[My fellow councilors,
+I intend to trust the only advice our ancestors gave us in the Official Histories.  I beg of you all to do so as well.]], [[Mes chers collègues conseillers,
 
-In this time of increasing vent-drought, it is tempting for us to seek the easy way out.  I understand that at this point, I am powerless to prevent our new Chief Councillor's plans to take the promising vents under the Kruk orcs, but should we fail, you may be tempted to compensate by approaching that...  entity who called itself "the Loyalist."  I am of the opinion that this would be a foolish decision.
+En cette période de disette de sources croissante, il est tentant de chercher la solution de facilité. Je comprends qu'à ce stade, je suis impuissant à empêcher les plans de notre nouveau Conseiller en Chef de s'emparer des sources prometteuses situées sous les orcs Kruk, mais si nous venons à échouer, certains d'entre vous pourraient être tentés de compenser en approchant cette... entité qui se désignait sous le nom du "Loyaliste". Je suis d'avis que ce serait là une décision insensée.
 
-Do you remember the Official Histories' record of when we first interacted with the lesser races?  They spoke of them as an entertaining, jovial bunch, friends and companions with our own people.  How naive we were back then...  but when our ancestors saw their true nature, the brutality they were capable of, they recorded these acts in detail.  They did not, however, explicitly tell us not to trust the Orcs.  They did not explicitly tell us that they are pests to be avoided, or a scourge to be eradicated, or a pitiful, fallen reminder of why letting the lesser races use our discoveries will only end in tragedy.  They simply recorded what they learned, and allowed future generations to come to those conclusions themselves, compared with their own observations - and in our grandparents' case, by unfortunate personal experience.  Even through the distress and feelings of betrayal at the time, even though opinions ran in every direction from fury to sorrow at the lesser races' barbarism, not one of the Councilors responsible for recording events gave in to editorialism.  Perhaps we would be in a better situation if they had, so we would have not repeated their mistake of trust, but they stayed fair nonetheless.
+Vous souvenez-vous de ce que consignent les Histoires Officielles sur notre première interaction avec les races inférieures ? Elles les décrivaient comme une troupe divertissante et joviale, amis et compagnons de notre propre peuple. Comme nous étions naïfs à cette époque... mais lorsque nos ancêtres virent leur véritable nature, la brutalité dont ils étaient capables, ils consignèrent ces actes en détail. Ils ne nous dirent cependant pas explicitement de ne pas faire confiance aux Orcs. Ils ne nous dirent pas explicitement qu'ils étaient des nuisibles à éviter, ou un fléau à éradiquer, ou un pitoyable et déchu rappel du fait que laisser les races inférieures utiliser nos découvertes ne peut que se terminer en tragédie. Ils consignèrent simplement ce qu'ils apprirent et laissèrent les générations futures parvenir d'elles-mêmes à ces conclusions, en les comparant à leurs propres observations — et dans le cas de nos grands-parents, par une malheureuse expérience personnelle. Même dans la détresse et les sentiments de trahison de l'époque, même si les opinions allaient dans tous les sens, de la fureur à la tristesse face à la barbarie des races inférieures, pas un seul des Conseillers chargés de consigner les événements ne céda à l'éditorialisme. Peut-être serions-nous dans une meilleure situation s'ils l'avaient fait, afin que nous ne répétions pas leur erreur de confiance, mais ils sont restés équitables quoi qu'il en soit.
 
-Going even further back, they spoke of relations with our now-distant kin, the Sturmos Tribe.  Though the records describe a strained relationship, the mentions of their boorish behavior are recorded in a matter-of-fact nature, and interspersed with the mentions of their advanced metallurgy techniques and other such valuable things we gained from cooperating with them.  Although their current state of Great Firestorm-induced exile to the mountains of Maj'Eyal makes it a rather moot point, the fact still stands that if we were somehow in a position to trade with them, we could rely on the Official Histories for a trustworthy indication of, at a minimum, how they [i]used[/i] to behave.
+Remontant encore plus loin dans le temps, ils évoquèrent les relations avec nos proches désormais éloignés, la Tribu Sturmos. Bien que les archives décrivent une relation tendue, les mentions de leur comportement grossier sont consignées de manière factuelle, entremêlées de mentions de leurs techniques métallurgiques avancées et d'autres choses précieuses que nous avons obtenues en coopérant avec eux. Bien que leur état actuel d'exil dans les montagnes de Maj'Eyal, provoqué par la Grande Tempête de Feu, rende la question quelque peu caduque, il reste que si nous étions en mesure de commercer avec eux, nous pourrions nous appuyer sur les Histoires Officielles pour obtenir une indication fiable de la façon dont ils [i]se comportaient[/i] autrefois, à tout le moins.
 
-The examples go on; the Official Histories have remained dispassionate and fair, and a reliable metric for making decisions.  Not once did our forefathers allow their biases to influence their recordings.  Not once did a fervent political movement manage to compromise their integrity.  Not one chapter of these texts can be safely and fully discredited as the subjective, unfair writings of a dominant political party, or the deluded ramblings of a movement influenced by some banal philosophical fad.
+Les exemples s'enchaînent ; les Histoires Officielles sont restées impartiales et équitables, et constituent une référence fiable pour la prise de décisions. Pas une seule fois nos aïeux ne laissèrent leurs préjugés influencer leurs consignations. Pas une seule fois un mouvement politique fervent ne parvint à compromettre leur intégrité. Pas un seul chapitre de ces textes ne peut être pleinement et sans risque discrédité comme les écrits subjectifs et tendancieux d'un parti politique dominant, ou les divagations illusoires d'un mouvement influencé par quelque lubie philosophique banale.
 
-(Obviously, the mercifully brief reign of King Traglamar is an exception, but it should be clear why this was a special case and not worthy of further consideration.)
+(De toute évidence, le règne heureusement bref du Roi Traglamar est une exception, mais il devrait être clair pourquoi il s'agissait là d'un cas particulier ne méritant pas plus ample considération.)
 
-My point is, the Official Histories have a very well-proven track record.  Every single time but once, they have given a solid analysis of the evidence.  Every single time but once, they have refrained from outright suggesting a course of action.  And only once have they allowed something as subjective as a gut feeling into their reports.
+Ce que je veux souligner, c'est que les Histoires Officielles ont un bilan clairement éprouvé. À chaque fois sauf une, elles ont fourni une analyse solide des preuves. À chaque fois sauf une, elles se sont abstenues de suggérer directement un plan d'action. Et une seule fois elles ont permis à quelque chose d'aussi subjectif qu'une intuition de figurer dans leurs rapports.
 
-Do you know what they say about the meeting with the Loyalist?  After a brief description of the events of the meeting - a strange creature approaching the Council of the time, demonstrating its power by using a small wand to blast a hole halfway to Eyal's core (a wand which he then handed them as though it were a child's cheaply-made toy), stating it could offer us a source of near-infinite energy in return for a rather inconvenient magical artifact.  When they turned it down, the creature gave a speech recorded in verbatim detail: "It hardly matters.  I have all the time in the world to wait for your people to trip over their own hubris and shatter.  If you will not allow me to save you, then I need only sift through the shards of your ruined cities to find it."
+Savez-vous ce qu'elles relatent sur la rencontre avec le Loyaliste ? Après une brève description des événements de la rencontre — une étrange créature s'approchant du Conseil de l'époque, démontrant son pouvoir en utilisant une petite baguette pour ouvrir un trou jusqu'à mi-chemin vers le coeur d'Eyal (une baguette qu'il leur remit ensuite comme s'il s'agissait d'un jouet d'enfant bon marché), affirmant pouvoir nous offrir une source d'énergie quasi-infinie en échange d'un artefact magique des plus encombrants. Lorsqu'ils refusèrent, la créature prononça un discours consigné mot pour mot : "Cela importe peu. J'ai tout le temps du monde pour attendre que votre peuple trébuche sur sa propre arrogance et se brise. Si vous ne me permettez pas de vous sauver, il me suffira de tamiser les débris de vos villes en ruines pour le trouver."
 
-Our forefathers say this creature gave them a means of contacting it again, but outright refuse to say what it was; the only reason we still know how to reach it is the yearly messages dropped on the Palace's front steps.  After mentioning that, they wrote this:
+Nos aïeux disent que cette créature leur donna un moyen de la contacter à nouveau, mais refusent catégoriquement de dire ce que c'était ; la seule raison pour laquelle nous savons encore comment la joindre, ce sont les messages annuels déposés sur les marches de l'entrée du Palais. Après avoir mentionné cela, ils écrivirent ceci :
 
-"Do not trust this Loyalist.  When we look upon him, we feel something deep within us, older than ourselves, telling us that he is simply... [i]wrong[/i].  His intentions with the Eye, an artifact with incredible power that we have yet to successfully harness, cannot be good for anyone, least of all ourselves.  Never give him the Eye, and continue our work of trying to find a means of destroying it.  Never accept any other deal he offers.  If you are ever unfortunate enough to see him as well, you will immediately understand why we say this."
+"Ne faites pas confiance à ce Loyaliste. Lorsque nous le regardons, nous ressentons quelque chose de profond en nous, plus ancien que nous-mêmes, qui nous dit qu'il est simplement... [i]mauvais[/i]. Ses intentions concernant l'Oeil, un artefact d'une puissance incroyable que nous n'avons pas encore réussi à maîtriser, ne peuvent être bonnes pour personne, encore moins pour nous. Ne lui remettez jamais l'oeil, et continuez notre travail pour trouver un moyen de le détruire. N'acceptez jamais aucun autre accord qu'il propose. Si jamais vous avez la malchance de le voir à votre tour, vous comprendrez immédiatement pourquoi nous disons cela."
 
-Perhaps political discourse has gotten a bit...  muddier in recent years.  With the bickering and sniping of modern-day debates, it can be hard to believe that past Councilors had ideas other than their careers in mind, that a vehement display of emotion would be something other than political posturing.  But even if those Councilors were just as petty and selfish as we are, they did not let it affect the Official Histories, not once.
+Peut-être que le discours politique est devenu quelque peu... plus trouble ces dernières années. Avec les chamailleries et les piques des débats modernes, il peut être difficile de croire que les Conseillers du passé avaient autre chose que leur carrière en tête, qu'une démonstration véhémente d'émotion puisse être autre chose qu'une posture politique. Mais même si ces Conseillers étaient tout aussi mesquins et égoïstes que nous, ils ne le laissèrent jamais affecter les Histoires Officielles, pas une seule fois.
 
-I intend to trust the only advice our ancestors gave us in the Official Histories.  I beg of you all to do so as well.]], "_t")
-t("excerpts from a Council meeting transcript (1)", "excerpts from a Council meeting transcript (1)", "_t")
+J'ai l'intention de faire confiance au seul conseil que nos ancêtres nous ont laissé dans les Histoires Officielles. Je vous supplie tous d'en faire de même.]], "_t")
+t("excerpts from a Council meeting transcript (1)", "extraits du procès-verbal d'une réunion du Conseil (1)", "_t")
 t([[The Steam Council has been called to order, with Chief Councilor Tantalos presiding.  
 
 TANTALOS: "Greetings, my fellow- heh, now [i]lesser[/i] Councilors!  It is my pleasure to finally lead the proceedings.  The agenda for today..." Ruffles through papers. "Is irrelevant, for I have a solution to every malady mentioned therein.  The first order--"
@@ -2894,32 +2878,32 @@ KASYROS: [Statement was deemed excessively profane and stricken from the record 
 
 TANTALOS: "Such undignified conduct!  All because you can't accept that the public wants their steam back.  More than they want those filthy little greenskins around, more than they fear getting their hands dirty, more than they want [i]your[/i] way of doing things.  So!  It's resolved that we have much to gain from this, it's resolved that we have or can obtain the means to carry it out, and it's resolved that it is what the voting public desires.  I see no need for further debate.  Nashal, I'd like to speak to you after this about a wand.  Meeting adjourned."
 
-[At this time, Councilor Kasyros gave a lengthy speech before officially resigning from the Council.  It has been recorded in a separate document.] ]], [[The Steam Council has been called to order, with Chief Councilor Tantalos presiding.  
+[At this time, Councilor Kasyros gave a lengthy speech before officially resigning from the Council.  It has been recorded in a separate document.] ]], [[Le Conseil de la Vapeur ouvre la séance, sous la présidence du Conseiller en Chef Tantalos.
 
-TANTALOS: "Greetings, my fellow- heh, now [i]lesser[/i] Councilors!  It is my pleasure to finally lead the proceedings.  The agenda for today..." Ruffles through papers. "Is irrelevant, for I have a solution to every malady mentioned therein.  The first order--"
+TANTALOS : "Mes salutations, mes chers... heh, désormais [i]inférieurs[/i] Conseillers ! C'est avec plaisir que je préside enfin la séance. L'ordre du jour d'aujourd'hui..." - [i]Feuilletant ses papiers.[/i] - "...Est sans importance, car j'ai une solution à chaque mal qui y est mentionné. Le premier point —"
 
-KASYROS: "With all due respect, Chief Councilor, the agenda--"
+KASYROS : "Avec tout le respect que je vous dois, Conseiller en Chef, l'ordre du jour —"
 
-TANTALOS: "Is.  [i]Irrelevant.[/i]  Tormak?  You've been scrying on potential sources of geothermal energy, would you care to inform the others where you see the most potential?"
+TANTALOS : "Est. [i]Sans importance.[/i] Tormak ? Vous avez scruté les sources potentielles d'énergie géothermique, voudriez-vous informer les autres de l'endroit où vous percevez le plus grand potentiel ?"
 
-TORMAK: Sighs. "Right under the Kruk orcs, unfortunately.  It's a promising source for sure, the magma powering it hasn't drained out like it has under us, but digging there would...  well, we all know how quickly they turned construction tools into weapons to rival our own.  If we went in there with the state-of-the-art mining equipment necessary to--"
+TORMAK : [i]Soupire.[/i] "Juste sous les orcs Kruk, malheureusement. C'est certes une source prometteuse, le magma qui l'alimente ne s'est pas épuisé comme c'est le cas sous nos territoires, mais creuser là-bas serait... eh bien, nous savons tous à quelle vitesse ils ont transformé des outils de construction en armes rivales des nôtres. Si nous y entrions avec les équipements miniers de pointe nécessaires pour —"
 
-TANTALOS: Laughter. "Mining equipment!  What manner of fool do you take me for?  Palaquie, tell me what's going through the minds of those silly little waist-height warriors, rummaging through the mainland for Orcish rebels." Holds up hand to silence Councilor Emeritus Kasyros. "This IS relevant, I assure you."
+TANTALOS : [i]Rires.[/i] "Des équipements miniers ! Pour quel genre d'imbécile me prenez-vous ? Palaquie, dites-moi ce qui se passe dans la tête de ces ridicules petits guerriers à hauteur de taille, qui fouillent le continent à la recherche de rebelles orcs." - [i]Levant la main pour faire taire le Conseiller Émérite Kasyros.[/i] - "C'est BIEN pertinent, je vous l'assure."
 
-PALAQUIE: "Discontent...  revolving around hidden, long-fermented resentment. Some want the Kruk exterminated, others imprisoned.  Neither can afford direct intervention, but some form of support will assuredly be available."
+PALAQUIE : "Du mécontentement... gravitant autour d'un ressentiment caché et longuement fermenté. Certains veulent l'extermination des Kruk, d'autres leur emprisonnement. Aucun ne peut se permettre une intervention directe, mais une certaine forme de soutien sera assurément disponible."
 
-TANTALOS: "So, with the right negotiation, we can get these tinies, who have [i]endless[/i] experience fighting Orcs, to assist us and make any sort of action in Kruk territory more manageable.  At a bare minimum, we can obtain weaponry that has long proved sufficient for slashing Orcish throats...  although we'll need it custom-fit for our size, naturally."
+TANTALOS : "Ainsi, avec la bonne négociation, nous pouvons obtenir de ces minus, qui ont une expérience [i]sans limite[/i] dans le combat contre les Orcs, qu'ils nous assistent et rendent toute action en territoire Kruk plus gérable. Au strict minimum, nous pouvons obtenir des armements qui se sont longtemps révélés suffisants pour trancher les gorges orcs... bien qu'ils nécessitent une adaptation à notre taille, naturellement."
 
-PALAQUIE: "They have a race whose armor would work.  A tight fit, but sufficient."
+PALAQUIE : "Ils ont une race dont l'armure conviendrait. Plutôt ajustée, mais suffisante."
 
-TANTALOS: "Even better!  And...  Kasyros, I'm going to let [i]you[/i] tell me what the people care about most.  I'm sure your bruises are adequate reminders of the citizens' will?"
+TANTALOS : "Encore mieux ! Et... Kasyros, je vais vous laisser [i]vous-même[/i] me dire ce qui importe le plus au peuple. Je suis certain que vos ecchymoses vous rappellent suffisamment la volonté des citoyens ?"
 
-KASYROS: [Statement was deemed excessively profane and stricken from the record by 4-2 vote.]
+KASYROS : [La déclaration a été jugée excessivement grossière et retirée du procès-verbal par 4 voix contre 2.]
 
-TANTALOS: "Such undignified conduct!  All because you can't accept that the public wants their steam back.  More than they want those filthy little greenskins around, more than they fear getting their hands dirty, more than they want [i]your[/i] way of doing things.  So!  It's resolved that we have much to gain from this, it's resolved that we have or can obtain the means to carry it out, and it's resolved that it is what the voting public desires.  I see no need for further debate.  Nashal, I'd like to speak to you after this about a wand.  Meeting adjourned."
+TANTALOS : "Quelle conduite indigne ! Tout cela parce que vous ne pouvez accepter que le peuple veuille récupérer sa vapeur. Plus qu'il ne veut ces petits peaux-vertes crasseux dans les parages, plus qu'il ne craint de se salir les mains, plus qu'il ne veut [i]votre[/i] façon de faire les choses. Donc ! Il est décidé que nous avons beaucoup à gagner à cela, il est décidé que nous disposons ou pouvons obtenir les moyens de le mener à bien, et il est décidé que c'est ce que le peuple votant désire. Je ne vois aucune raison de débattre davantage. Nashal, j'aimerais vous parler après la séance d'une baguette. Séance levée."
 
-[At this time, Councilor Kasyros gave a lengthy speech before officially resigning from the Council.  It has been recorded in a separate document.] ]], "_t")
-t("excerpts from a Council meeting transcript (2)", "excerpts from a Council meeting transcript (2)", "_t")
+[À ce moment, le Conseiller Kasyros prononça un long discours avant de démissionner officiellement du Conseil. Il a été consigné dans un document séparé.] ]], "_t")
+t("excerpts from a Council meeting transcript (2)", "extraits du procès-verbal d'une réunion du Conseil (2)", "_t")
 t([[(Ink has been spilled on this transcript - you can only read certain passages.)
 
 ???: "[...]ame me for this!  YOUR mechanics examined that airship, YOUR equipment was used to repair it, and it's YOUR fault it went down!"
@@ -2952,40 +2936,40 @@ TANTALOS: "So, a few wastrels in the marketplace are gone, and the Kruk have mov
 
 PALAQUIE: "Additional options?"
 
-TANTALOS: "The meeting has been adjourned.  You should be training our necropsychs, Councilor."]], [[(Ink has been spilled on this transcript - you can only read certain passages.)
+TANTALOS: "The meeting has been adjourned.  You should be training our necropsychs, Councilor."]], [[(De l'encre a été renversée sur ce procès-verbal — vous ne pouvez lire que certains passages.)
 
-???: "[...]ame me for this!  YOUR mechanics examined that airship, YOUR equipment was used to repair it, and it's YOUR fault it went down!"
+??? : "[...]mez-moi pour ça ! VOS mécaniciens ont inspecté ce dirigeable, VOTRE équipement a été utilisé pour le réparer, et c'est VOTRE faute s'il s'est écrasé !"
 
-NASHAL: "Yes, and I told you to call the attack off the moment I heard the news - the Loyalist's wand as a fire-support tool was far too valuable to conduct the invasion without it.  But no, Palaquie had to insist on going right then--"
+NASHAL : "Oui, et je vous ai dit d'annuler l'attaque dès que j'ai appris la nouvelle — la baguette du Loyaliste comme outil de soutien de feu était beaucoup trop précieuse pour conduire l'invasion sans elle. Mais non, Palaquie a tenu à y aller à ce moment précis —"
 
-PALAQUIE: "My visions do not lie.  It was the best way forward.  Our odds of success at that point, low as they were, were still better than if we had let Pendor's inflexible, time-dependent plan sit and--"
+PALAQUIE : "Mes visions ne mentent pas. C'était la meilleure voie à suivre. Nos chances de succès à ce moment-là, aussi faibles qu'elles fussent, étaient toujours meilleures que si nous avions laissé le plan inflexible et dépendant du temps de Pendor s'étirer et —"
 
-PENDOR: "DON'T YOU EVEN START, YOU YETI-LOVI--[...]"
-
-[...]
-
-Motion made to record the statement that Councilor Pendor would not know decent equipment if it shot or stabbed him in the face passed, 3-1, with Councilor Tantalos abstaining.
-
-Motion made to record the statement that Councilor Tormak's robes smell of absinthe and vagrants passed, 3-1, with Councilor Tantalos abstaining.
-
-Motion made to begin an official inquiry passed 3-1, with Councilor Tantalos abstaining.  The first order of business at the next session will be determining whether or not Councilor Nashal's state-of-the-art mining and extracting equipment is capable of extracting her head from her--
+PENDOR : "NE COMMENCEZ MÊME PAS, ESPÈCE D'AMOUREUX-DES-YÉTIS, FILS D'UNE — [...]»
 
 [...]
 
-TANTALOS: "If you are all quite finished with this rubbish...  How bad is the situation, exactly?  I want details and facts, not blame."
+Motion pour consigner la déclaration selon laquelle le Conseiller Pendor ne reconnaîtrait pas un équipement décent même s'il lui tirait dessus ou le poignardait en plein visage approuvée, 3-1, avec l'abstention du Conseiller Tantalos.
 
-TORMAK: "You don't want blame because this whole thing was YOUR idea!  It's YOUR fault we--"
+Motion pour consigner la déclaration selon laquelle les robes du Conseiller Tormak sentent l'absinthe et les vagabonds approuvée, 3-1, avec l'abstention du Conseiller Tantalos.
 
-Motion to censure Councilor Tantalos for defenestrating Councilor Tormak has failed, 1-1 (tie broken by Chief Councilor status), with Palaquie, Nashal, and Pendor abstaining.
+Motion pour entamer une enquête officielle approuvée 3-1, avec l'abstention du Conseiller Tantalos. La première question à l'ordre du jour de la prochaine session sera de déterminer si l'équipement minier et d'extraction de pointe de la Conseillère Nashal est capable d'extraire sa tête de son —
 
 [...]
 
-TANTALOS: "So, a few wastrels in the marketplace are gone, and the Kruk have moved on to the mainland.  As far as I am concerned, they are not presently our responsibility - these 'Allied Kingdoms' and 'Sunwall' folk can deal with them.  Thanks to Pendor's scouts, we have a weapon we can point at the Kruk Pride homeland as a deterrent, which should buy us even more time.  We should use this time to bolster our defenses...  and consider additional options.  Meeting adjourned."
+TANTALOS : "Si vous avez tous bien terminé avec ces sottises... À quel point la situation est-elle grave, exactement ? Je veux des détails et des faits, pas des accusations."
 
-PALAQUIE: "Additional options?"
+TORMAK : "Vous ne voulez pas d'accusations parce que tout cela était VOTRE idée ! C'est VOTRE faute si nous —"
 
-TANTALOS: "The meeting has been adjourned.  You should be training our necropsychs, Councilor."]], "_t")
-t("excerpts from a Council meeting transcript (3)", "excerpts from a Council meeting transcript (3)", "_t")
+Motion pour censurer le Conseiller Tantalos pour avoir défenestré le Conseiller Tormak rejetée, 1-1 (égalité brisée par le statut de Conseiller en Chef), avec l'abstention de Palaquie, Nashal et Pendor.
+
+[...]
+
+TANTALOS : "Ainsi, quelques vauriens du marché ont disparu, et les Kruk sont partis vers le continent. En ce qui me concerne, ils ne sont pas de notre responsabilité pour l'instant — ces gens des "Royaumes Alliés" et du "Mur Solaire" peuvent s'en occuper. Grâce aux éclaireurs de Pendor, nous avons une arme que nous pouvons pointer vers la terre natale de la Fierté Kruk comme moyen de dissuasion, ce qui devrait nous faire gagner encore plus de temps. Nous devrions mettre ce temps à profit pour renforcer nos défenses... et envisager des options supplémentaires. Séance levée."
+
+PALAQUIE : "Des options supplémentaires ?"
+
+TANTALOS : "La séance a été levée. Vous devriez entraîner nos necropsychiques, Conseiller."]], "_t")
+t("excerpts from a Council meeting transcript (3)", "extraits du procès-verbal d'une réunion du Conseil (3)", "_t")
 t([[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
 
 PALAQUIE: "The Kruk Orcs, under %s, appear to have pushed to the last bastion of the Sunwall forces...  none of my visions predict this ending favorably for anyone of non-Orcish descent.  With the Sunwall gone, there will be no further distractions for the Kruk.  In short, the Sunwall are doomed - and we are next."
@@ -3020,43 +3004,43 @@ TANTALOS: "Would everyone who doesn't have any #{italic}#better#{normal}# ideas 
 
 [Silence.]
 
-TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and mechanics.  There is business I must attend to.  Meeting adjourned."]], [[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
+TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and mechanics.  There is business I must attend to.  Meeting adjourned."]], [[TANTALOS : "Informez les autres des développements malheureux, Palaquie."
 
-PALAQUIE: "The Kruk Orcs, under %s, appear to have pushed to the last bastion of the Sunwall forces...  none of my visions predict this ending favorably for anyone of non-Orcish descent.  With the Sunwall gone, there will be no further distractions for the Kruk.  In short, the Sunwall are doomed - and we are next."
+PALAQUIE : "Les orcs Kruk, sous le commandement de %s, semblent avoir avancé jusqu'au dernier bastion des forces du Mur Solaire... aucune de mes visions ne prédit une issue favorable pour quiconque n'est pas d'origine orc. Avec la disparition du Mur Solaire, il n'y aura plus de distractions pour les Kruk. En bref, le Mur Solaire est condamné — et nous sommes les prochains."
 
-TANTALOS: "Where there's a will, Palaquie, there's a way.  What of the Migratory Leviathan?  Nashal, do you have any idea where--"
+TANTALOS : "Vouloir c'est pouvoir, Palaquie. Qu'en est-il du Léviathan Migratoire ? Nashal, avez-vous une idée de l'endroit où —"
 
-NASHAL: "About that...  Kasyros stole it when everything started going to slag.  We'd take it back, but he's using it to evacuate civilians.  We'd end up using too many bullets on our own people that belong in the Kruk Orcs."
+NASHAL : "À ce sujet... Kasyros l'a volé lorsque tout a commencé à partir en vrille. Nous pourrions le récupérer, mais il l'utilise pour évacuer des civils. Nous finirions par gaspiller trop de munitions sur les nôtres, qui devraient plutôt aller aux orcs Kruk."
 
-TANTALOS: "Unfortunate, but we'll surely be able to convict him of treason once this all blows over.  Pendor, you've been working with our marksmen - how are they doing?"
+TANTALOS : "Regrettable, mais nous pourrons certainement le condamner pour trahison une fois que tout cela sera terminé. Pendor, vous avez travaillé avec nos tireurs d'élite — comment s'en sortent-ils ?"
 
-PENDOR: "Scared scrapless, Your Honor, but they're learning quick.  I managed to snatch up some newer Flameshot rifles from Kaltor's surplus, and our Retaliators are as strong as ever."
+PENDOR : "La trouille jusqu'aux engrenages, Votre Honneur, mais ils apprennent vite. J'ai réussi à mettre la main sur quelques nouveaux fusils Flamboiement de l'excédent de Kaltor, et nos Rétaliateurs sont aussi solides que jamais."
 
-TANTALOS: "Splendid to hear.  And what of that backup weapon you had mentioned - what was that name again, #{bold}#DESTRUCTICUS, IMPOLITE PENETRATOR OF-#{normal}#"
+TANTALOS : "Ravi de l'apprendre. Et qu'en est-il de cette arme de réserve dont vous aviez parlé — quel était ce nom déjà, #{bold}#DESTRUCTICUS, L'IMPOLI PÉNÉTRATEUR DE-#{normal}#»
 
-TORMAK: "It's gone.  The mages I sent with Pendor's runners...  their invisibility spells were inadequate.  The Orcs found them...  if it's any consolation, they don't appear to have realized what the keys are for, or what it's capable of.  I'm...  I'm sorry."
+TORMAK : "C'est perdu. Les mages que j'ai envoyés avec les messagers de Pendor... leurs sorts d'invisibilité étaient insuffisants. Les Orcs les ont trouvés... si cela peut consoler, ils ne semblent pas avoir compris à quoi servent les clés, ni de quoi elle est capable. Je suis... je suis désolé."
 
-Lengthy pause.
+Longue pause.
 
-TANTALOS: "...I think it's time."  Removes a briefcase from behind the podium, and opens it to show the other Councilors its contents, before closing it and holding it again.  Councilors Palaquie, Tormak, and Nashal audibly gasp.  Motion to strike all description of its contents from the record passed, 3-2.
+TANTALOS : "...Je crois qu'il est temps." - [i]Retire une mallette de derrière le pupitre et l'ouvre pour montrer son contenu aux autres Conseillers, avant de la refermer et de la tenir à nouveau. Les Conseillers Palaquie, Tormak et Nashal laissent échapper un soupir audible.[/i]
 
-TORMAK: "You can't be serious!  How is that going to make the situation BETTER?"
+Motion pour retirer toute description de son contenu du procès-verbal approuvée, 3-2.
 
-PALAQUIE: "It cannot."
+TORMAK : "Vous ne pouvez pas être sérieux ! Comment cela va-t-il améliorer la situation ?"
 
-NASHAL: "I can't agree with this, Councilor Tantalos, your predecessor had a point--"
+PALAQUIE : "Cela n'est pas possible."
 
-TANTALOS: Pounds fist, breaking podium.  "That doddering old coward knew NOTHING!"  Pause; sighs.  "None of us do.  All we know is, this eye's almost certainly useful for more than making declogging draught from its tears, and the person who wants it is the type of person who casually digs holes to the center of Eyal.  We've tried everything; the time for a last resort has come, and we are in dire need of a miracle.  This... 'Loyalist' is the only possible source of miracles around, and if infinite energy and blasting holes through the planet are within his capabilities, then disposing of these barbarians should be quite simple."
+NASHAL : "Je ne peux pas approuver cela, Conseiller Tantalos, votre prédécesseur n'avait pas tort —"
 
-PALAQUIE: "If our ancestors are to believed, this could result in a fate worse than our own destruction--"
+TANTALOS : [i]Frappe du poing, brisant le pupitre.[/i] "Ce vieux lâche gâteux ne savait RIEN !" - [i]Pause ; soupire.[/i] - "Aucun de nous non plus. Tout ce que nous savons, c'est que cet Oeil est presque certainement utile à bien plus qu'à la fabrication d'une potion de débouchage à partir de ses larmes, et que la personne qui le veut est du genre à creuser nonchalamment des trous jusqu'au centre d'Eyal. Nous avons tout essayé ; l'heure du dernier recours est venue, et nous avons désespérément besoin d'un miracle. Ce... "Loyaliste" est la seule source possible de miracles aux alentours, et si une énergie infinie et l'ouverture de brèches à travers la planète sont dans ses capacités, alors se débarrasser de ces barbares devrait être fort simple."
 
-TANTALOS: "Would everyone who doesn't have any #{italic}#better#{normal}# ideas cease their jabbering before I cease it #{italic}#for them?#{normal}#"
+PALAQUIE : "Si l'on en croit nos ancêtres, cela pourrait aboutir à un destin pire que notre propre destruction —"
+
+TANTALOS : "Tous ceux qui n'ont pas de #{italic}#meilleures#{normal}# idées pourraient-ils cesser de jacasser avant que je les #{italic}#fasse taire moi-même ?#{normal}#»
 
 [Silence.]
 
-TANTALOS: "As I thought.  Nashal, prepare the G.E.M. and a retinue of guards and mechanics.  There is business I must attend to.  Meeting adjourned."]], "tformat")
---]==]
-
+TANTALOS : "Comme je le pensais. Nashal, préparez la T.E.G. et une suite de gardes et de mécaniciens. J'ai des affaires à régler. Séance levée."]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/pocket-time.lua"
@@ -3184,11 +3168,8 @@ Of course, a character like that can't simply be thrown away.  The story may be 
 ------------------------------------------------
 section "tome-orcs/data/lore/primal-forest.lua"
 
-
--- texte non traduit
---[==[
-t("primal forest", "primal forest", "newLore category")
-t("a warning sign", "a warning sign", "_t")
+t("primal forest", "forêt primitive", "newLore category")
+t("a warning sign", "un panneau d'avertissement", "_t")
 t([[WARNING - READ THIS!
 
 ---
@@ -3210,29 +3191,28 @@ I wish you luck, and thank you for doing what I cannot.  There are reasons why t
 With unending gratitude,
 (This is where I would sign my name, were I an utter moron.)
 
-PS: If you wouldn't mind doing me a personal favor, please destroy any written articles you find.  They spilled out of my bag as I fled; I'm already a coward, and I'd rather not be a litterer as well.]], [[WARNING - READ THIS!
+PS: If you wouldn't mind doing me a personal favor, please destroy any written articles you find.  They spilled out of my bag as I fled; I'm already a coward, and I'd rather not be a litterer as well.]], [[ATTENTION - LISEZ CECI !
 
 ---
+Cette forêt est devenue le théâtre d’un désastre écologique immense et continu. Autant que je sache (et, en tant que Rétablisseur, j’ose dire que j’ai au moins [i]une certaine[/i] idée de ce dont je parle), Eyal lutte contre une infection, et cette infection résiste de toutes ses forces. Étant donné l’hostilité indiscriminée des treants locaux, nous pouvons supposer que l’infection l’emporte, ne serait-ce que légèrement. Elle a concentré la majeure partie de sa puissance dans une poignée d’avatars cristallins, situés au sommet du grand arbre. Dans le meilleur des cas, Eyal tente de les expulser comme des échardes, et les détruire résoudrait le problème. Dans le pire des cas, l’arbre est déjà infecté jusqu’aux racines, et ces avatars sont des spores, grandissant et se préparant à se répandre ailleurs. Je suis venu ici pour détruire ces cristaux, mais je ne m’attendais pas à ce que les treants eux-mêmes se retournent contre moi. Et, puisque vous lisez ces mots, félicitations : la responsabilité vous incombe désormais.
 
-This forest is the site of a massive and ongoing ecological disaster.  As far as I can tell (and as a Mender, I have at least [i]some[/i] clue of what I'm talking about), Eyal's trying to fight off an infection, and the infection's fighting back for all it's worth.  Given the indiscriminate hostility of the local treants, we can assume the infection's winning, if only slightly; it's concentrated most of its power into a handful of crystalline avatars at the top of the great tree.  Best case scenario, Eyal's pushing them out like splinters, and destroying these avatars will eliminate the problem; worst case, the tree is already infected down to its roots, and these avatars are its spores, growing until they're ready to leave the tree and spread elsewhere.  I came to destroy these crystals myself, but I wasn't counting on the treants turning on me as well; since you're reading this, congratulations!  This is your responsibility now.
+Mon conseil ? Traversez le portail vers Shatur et demandez des renforts. Malheureusement, je ne peux pas faire cela, car cela impliquerait de m’incriminer en admettant que j’étais à Var’Eyal sans autorisation (et vous me comprendriez si vous saviez combien les trolls payent cher pour les pétales de bonheur). Cependant, je peux vous assurer que ceux qui s’y trouvent sont bien plus dévoués et compétents que moi, surtout lorsqu’ils travaillent ensemble. Ensemble, ils pourront contenir cette infection et soigner les blessures qu’elle a causées. Si vous décidez d’y aller seul, vous risquez fort d’être déchiré par les treants avant même d’atteindre le tronc de l’arbre — et de plus en plus d’entre eux se réveillent à chaque minute. À moins que vous ne soyez le Héros de Maj’Eyal ou le cadavre réanimé de Garkul, vous marchez droit vers votre propre tombe. Laissez les professionnels s’en occuper ; ils savent comment affronter une menace de cette envergure.
 
-My advice?  Head through the portal to Shatur and call for backup.  I don't have that option, as that'd require incriminating myself by admitting that I was in Var'Eyal without a pass (you wouldn't judge me if you knew how much the trolls were paying for cheerblossom).  I can assure you that the others there are considerably more dedicated and competent than I am, even if only as a group; together, they'll be able to control this infection and treat the wounds it's left behind.  If you go in alone, you'll likely get ripped apart by the treants before you can even reach the trunk - and more are waking up every passing minute.  Unless you're the Hero of Maj'Eyal or Garkul's reanimated corpse, you'll be walking into your own grave.  Let the professionals handle this.
+Cependant, si vous insistez pour y aller, voici ce que je sais :
 
-If you insist on going in, though, here's what I know:
+Les treants, malheureusement, ne font plus la différence entre amis et ennemis. Pour eux, toute chose qui ne provient pas de la Nature elle-même est considérée comme une source potentielle d’infection et doit donc être éliminée avant qu’ils ne puissent enfin se rendormir. Je sais qu’un simple "s’il vous plaît" ne suffira pas à les convaincre de cesser leur défense… mais essayez de causer un minimum de dégâts, afin qu’ils puissent un jour guérir cette terre dévastée par cette maladie. Si vous souhaitez les éviter, quittez le niveau du sol et grimpez dans la canopée le plus rapidement possible ; les treants ne s’animeront pas s’ils ne voient rien au sol à attaquer. Et, surtout, **NE PRENEZ PAS D’ÉCHANTILLON DU NOYAU !** Croyez-moi : autant j’aurais aimé découvrir l’étendue de cette infection — si elle s’est déjà répandue dans tout l’arbre ou si elle est concentrée au sommet —, cela attirera les treants vers vous avec la même certitude qu’un Shalore est attiré par une mauvaise décision.
 
--The treants, unfortunately, are no longer concerned with discerning friend from foe.  Anything not stemming from Nature is a potential source of the infection in their eyes, and must be purged before they can slumber once more.  I know that saying "please" isn't exactly sufficient for asking you not to defend yourself...  just try to keep the damage to a minimum, so they can heal the land once ravaged by this sickness.  If you want to avoid them, get off the ground level and into the canopy as soon as you can; they won't animate if they don't see anything on the forest floor to attack.  Also, do NOT try to take a core sample!  Trust me on this - as much as I wanted to know how deep the infection had spread, whether it was all the way through the tree or if it had pushed it all to the top, it attracted the treants to me like Shaloren to a stupid decision.  
+L’agent destructeur en question est un groupe de cristaux arcaniques animés, similaires à ceux déjà documentés dans les Cavernes Scintillantes. Bien que les processus exacts de leur formation restent mystérieux, il est raisonnable de supposer qu’ils sont liés à l’énorme vague de fléau introduite par la Conflagration Magique. Cela suggère que, même maintenant, les dégâts causés sont sans doute pires que ce que nous imaginons. Préparez-vous à affronter de puissantes explosions de tous types de magie, à moins d’avoir une capacité d’évasion exceptionnelle. Heureusement, bien que ces cristaux se téléportent fréquemment, ils restent totalement immobiles entre leurs téléportations. Si l’un d’eux apparaît près de vous, défendez-vous ou détruisez-le sans hésiter avant qu’il ne puisse se repositionner.
 
--The destructive agent in question is a group of animated arcane crystals, of the type previously documented in the Scintillating Caverns.  The exact processes involved in their formation are still unclear, but it's a safe assumption that they're connected to the massive surge of blight introduced by the Spellblaze, and proof that even now, the damage is most likely worse than we can ever be sure of.  Expect to take powerful blasts of every kind of magic if you're not exceptionally evasive; fortunately, although they frequently teleport, they are completely immobile between blinks.  If one teleports near you, either take cover, or destroy it before it can reposition itself.
+Les conséquences de laisser cette situation sans contrôle seraient désastreuses. Même si la croissance de cet arbre géant est un signe que la planète lutte vaillamment contre l’infection en l’expulsant, les avatars cristallins pourraient très bien descendre, s’enfoncer profondément dans la terre et réinfecter Eyal. Et si Eyal perd effectivement ce combat… aussi douloureux que ce soit à admettre, peut-être que ces pyromanes de Shalore pourraient, pour une fois, accomplir quelque chose de valable et cautériser la zone jusqu’aux racines. À condition, bien sûr, qu’ils trouvent un moyen de le faire sans faire exploser le soleil.
 
--The consequences of letting this go unchecked would be disastrous.  Even if this great tree's growth IS a sign of the planet successfully fighting the infection off by pushing it out, the crystalline avatars could simply climb down, bury themselves, and sicken Eyal once more.  And if Eyal's losing...  as much as I loathe to say it, perhaps those Shaloren pyromaniacs could do some good for once in their all-too-long lives, and cauterize the area down to the roots.  Provided, of course, that they can figure out how to do so without blowing up the sun.
+Je vous souhaite bonne chance et vous exprime ma sincère gratitude pour accomplir ce que je ne peux pas. Il y a des raisons pour lesquelles je ne suis pas prêt à prendre un tel risque, mais il est peut-être préférable pour nous deux que vous me considériez comme un lâche. Après tout, ce n’est pas totalement faux.
 
-I wish you luck, and thank you for doing what I cannot.  There are reasons why this is a risk I cannot afford to take, but it's probably best for both of us that you assume I'm a coward.  It's not too far from the truth.
+Avec une infinie gratitude,
+[i](C’est ici que je signerais mon nom, si j’étais un idiot fini.)[/i]
 
-With unending gratitude,
-(This is where I would sign my name, were I an utter moron.)
-
-PS: If you wouldn't mind doing me a personal favor, please destroy any written articles you find.  They spilled out of my bag as I fled; I'm already a coward, and I'd rather not be a litterer as well.]], "_t")
-t("a pamphlet 'Eyal Needs You!'", "a pamphlet 'Eyal Needs You!'", "_t")
+PS : Si vous pouvez me rendre un service personnel, détruisez tous les documents écrits que vous trouverez. Ils sont tombés de mon sac en fuyant ; je suis déjà un lâche, et je préférerais ne pas être considéré également comme un pollueur.]], "_t")
+t("a pamphlet 'Eyal Needs You!'", "un pamphlet : \"Eyal a besoin de vous !\"", "_t")
 t([[EYAL NEEDS YOU!
 
 The damage left in the Scintillating Caverns, in Norgos' Lair, and in countless other places has only now become clear, after the Hero of Maj'Eyal made them safe to explore once more.  Now that peace has been brought to these lands, Eyal is beginning to heal - but with the arrival of our magic-using cousins from the East and the Allied Kingdoms' growing acceptance of magic, the balance may once more tip towards ruin - but YOUR help can keep Eyal healthy!  Join the Menders, and start helping the planet today!
@@ -3248,23 +3228,31 @@ Volunteers who prefer a more hands-on approach can expect to start making a diff
 ABILITY, RESPONSIBILITY, AND ACCEPTANCE
 
 The wilds of Eyal are a dangerous place; we do not expect our scholars to go into them defenseless!  For those who are already accustomed to use of the arcane, our partnership with the Living Fossils allows us to identify safe and responsible methods of using magic, and provide them with an introduction to the ways of Nature, and those who are already adept with Nature can always hone their skills with our veteran members.  If you have no ability with either, you're in luck!  We're eager to show you how to accept Nature's favors to defend yourself.  Anyone can learn to summon loyal beasts or channel wyrmic strength if they're willing to try!  These abilities can be used without giving up your attunement to the arcane, but you may find that you don't need your spells anymore, once you've seen how effective Nature's power is.  We will never force you to give up magic, but if you happen to be looking for a greater commitment, speak to your instructor about following the path of the oozemancer.
-]], [[EYAL NEEDS YOU!
+]], [[EYAL A BESOIN DE VOUS !
 
-The damage left in the Scintillating Caverns, in Norgos' Lair, and in countless other places has only now become clear, after the Hero of Maj'Eyal made them safe to explore once more.  Now that peace has been brought to these lands, Eyal is beginning to heal - but with the arrival of our magic-using cousins from the East and the Allied Kingdoms' growing acceptance of magic, the balance may once more tip towards ruin - but YOUR help can keep Eyal healthy!  Join the Menders, and start helping the planet today!
+Les dégâts laissés dans les **Cavernes Scintillantes**, dans le **Repaire de Norgos** et dans d’innombrables autres endroits ne sont devenus évidents que maintenant, depuis que le **Héros de Maj’Eyal** les a rendus sûrs à explorer à nouveau. Maintenant que la paix est revenue dans ces terres, Eyal commence à guérir… mais avec l’arrivée de nos cousins utilisateurs de magie de l’Est et l’acceptation croissante de la magie par les **Royaumes Alliés**, l’équilibre pourrait à nouveau pencher vers la ruine. **MAIS VOTRE AIDE PEUT GARDER EYAL EN BONNE SANTÉ !** Rejoignez les **Rétablisseurs** et commencez à aider la planète dès aujourd’hui !
 
-LEARNING AND OBSERVING
+---
+**APPRENTISSAGE ET OBSERVATION**
 
-Our founders, once Guardians of Shatur, have always known the importance of maintaining a balanced ecosystem.  Do your hobbies include birdwatching, exploring the wilderness, and taking in the sights of natural flora?  We can provide you with a list of animals, plants, and fungi of interest; simply go out and write down where you explored, when, and how many of these species you saw.  Our experienced naturalists can use this information to track migration patterns and monitor the spread or decline of those species, allowing us to take action if one becomes endangered or invasive; already, they're working to restore the balance disrupted by the Hero of Maj'Eyal's constant slaying of local wildlife.  Change is inherent to the natural order; our experts know to only step in if a change would drastically and destructively hurt the ecosystem.  Nature solves most of its problems on its own, but occasionally we may need to hold its hand (particularly in response to mutations caused by unchecked use of arcane magic).  If you'd like to learn more about the natural order, we have a diverse community of knowledgeable naturalists who are happy to answer questions or provide a more thorough education.
+Nos fondateurs, autrefois **Gardiens de Shatur**, ont toujours su à quel point il était important de maintenir un écosystème équilibré. Vos loisirs incluent-ils l’observation des oiseaux, l’exploration de la nature sauvage ou l’admiration de la flore naturelle ? Nous pouvons vous fournir une liste d’animaux, de plantes et de champignons d’intérêt. Il vous suffit de sortir, de noter où et quand vous avez exploré, ainsi que le nombre d’espèces que vous avez observées. Nos naturalistes expérimentés pourront utiliser ces informations pour suivre les schémas migratoires et surveiller la propagation ou le déclin de ces espèces, ce qui nous permettra d’agir si l’une d’elles devient menacée ou invasive. Ils travaillent déjà à rétablir l’équilibre perturbé par les constantes tueries de la faune locale perpétrées par le **Héros de Maj’Eyal**.
 
-REPAIRING AND HEALING
+Le changement fait partie intégrante de l’ordre naturel. Nos experts savent qu’ils ne doivent intervenir que si un changement risque de nuire gravement et de manière destructive à l’écosystème. La nature résout la plupart de ses problèmes elle-même, mais elle a parfois besoin d’un coup de pouce, notamment pour contrer les mutations causées par un usage non contrôlé de la magie arcane. Si vous souhaitez en savoir plus sur l’ordre naturel, nous avons une communauté diversifiée de naturalistes compétents, prêts à répondre à vos questions ou à vous offrir une éducation plus approfondie.
 
-Volunteers who prefer a more hands-on approach can expect to start making a difference right away, by joining our reclamation and decontamination efforts.  It's no secret that the Hero of Maj'Eyal's many battles took their unfortunate toll; many places are still littered with magic-contaminated objects or bodies, and in some places the ground itself has been polluted by the residual effects of these spells.  (This is, of course, to say nothing of the trees burned down, etc. by beasts and ne'er-do-wells trying to stop the Hero!)  You can help by destroying dangerously magical objects, planting trees, slaying ecologically-disruptive beasts (such as Norgos), and participating in cleansing rituals to speed up the healing process.
+---
+**RÉPARATION ET GUÉRISON**
 
-ABILITY, RESPONSIBILITY, AND ACCEPTANCE
+Les bénévoles qui préfèrent une approche plus pratique pourront commencer à faire la différence immédiatement en rejoignant nos efforts de récupération et de décontamination. Il n’est un secret pour personne que les nombreuses batailles du **Héros de Maj’Eyal** ont laissé des séquelles fâcheuses : de nombreux endroits sont encore jonchés d’objets ou de cadavres contaminés par la magie, et dans certains cas, le sol lui-même a été pollué par les effets résiduels de ces sorts. (Sans parler des arbres brûlés, etc., par les bêtes et les malfrats qui tentaient d’arrêter le Héros !) Vous pouvez aider en détruisant les objets magiques dangereux, en plantant des arbres, en tuant les bêtes perturbant l’écosystème (comme **Norgos**) et en participant à des rituels de purification pour accélérer le processus de guérison.
 
-The wilds of Eyal are a dangerous place; we do not expect our scholars to go into them defenseless!  For those who are already accustomed to use of the arcane, our partnership with the Living Fossils allows us to identify safe and responsible methods of using magic, and provide them with an introduction to the ways of Nature, and those who are already adept with Nature can always hone their skills with our veteran members.  If you have no ability with either, you're in luck!  We're eager to show you how to accept Nature's favors to defend yourself.  Anyone can learn to summon loyal beasts or channel wyrmic strength if they're willing to try!  These abilities can be used without giving up your attunement to the arcane, but you may find that you don't need your spells anymore, once you've seen how effective Nature's power is.  We will never force you to give up magic, but if you happen to be looking for a greater commitment, speak to your instructor about following the path of the oozemancer.
+---
+**CAPACITÉ, RESPONSABILITÉ ET ACCEPTATION**
+
+Les étendues sauvages d’Eyal sont un endroit dangereux. Nous n’attendons pas de nos érudits qu’ils s’y aventurent sans défense ! Pour ceux qui sont déjà habitués à l’usage de l’arcane, notre partenariat avec les **Fossiles Vivants** nous permet d’identifier des méthodes sûres et responsables pour utiliser la magie, tout en leur offrant une introduction aux voies de la **Nature**. Ceux qui maîtrisent déjà la Nature pourront toujours perfectionner leurs compétences avec nos membres vétérans. Si vous n’avez aucune capacité dans l’un ou l’autre domaine, vous avez de la chance ! Nous sommes ravis de vous montrer comment accepter les faveurs de la Nature pour vous défendre. Tout le monde peut apprendre à invoquer des bêtes loyales ou à canaliser la force **draconique** s’il est prêt à essayer !
+
+Ces capacités peuvent être utilisées sans renoncer à votre harmonie avec l’arcane, mais vous pourriez découvrir que vous n’avez plus besoin de vos sorts une fois que vous aurez vu à quel point le pouvoir de la Nature est efficace. Nous ne vous forcerons jamais à renoncer à la magie, mais si vous cherchez un engagement plus profond, parlez à votre instructeur pour suivre la voie du **Boumancien**.
+
 ]], "_t")
-t("'On Tolerance'", "'On Tolerance'", "_t")
+t("'On Tolerance'", "Sur la Tolérance", "_t")
 t([[We recognize that times are changing.  Within a year, the Allied Kingdoms have gone from begrudgingly tolerating magic to openly embracing it, due to the influence of our rediscovered allies in the East.  Furthermore, if the reports are to be believed, the ecosystem of Var'Eyal remains healthy and intact, despite millennia of continuous magic-use.  Therefore, our views and approach must change with the times; we are not ignorant to new knowledge.
 
 At this point, it should go without saying that reckless use of magic is a dire threat to...  everything, more or less.  Eyal has yet to fully recover from even the rampant necromancy of the Age of Dusk, let alone the Spellblaze itself.  Eliminating all use of magic is the only way to be safe from this situation repeating...  but it is possible that lesser uses of arcane magic do not have any inherent corrupting or harmful effect, judging from the Sun Paladins and Anorithil.  They have, contrary to our long-held beliefs, managed to use magic responsibly and safely.  We are not so blind as to deny that this is an incredible reassurance.  That said, this proves nothing about the most terrible potential of magic.  Maybe no Sun Paladin or Anorithil has yet sunk to the depths of depravity of the Age of Dusk sorcerers, or the tragically reckless mages responsible for the Spellblaze, but that is no indication that their magic does not have the potential for abuse.  
@@ -3272,15 +3260,20 @@ At this point, it should go without saying that reckless use of magic is a dire 
 Fortunately, there is an alternative available!  With the proper respect, care, and concentration given to Nature, one can be rewarded with powers rivaling or besting the popular uses of magic.  On the civilian level, summoned fireflies can replace magical lighting, regeneration salves can replace healing spells, and accelerated crop growth makes for a far more nutritious diet than conjured foodstuffs.  For martial purposes, there's very little that can stand up to the powers of Nature.  An experienced disciple of Eyal can summon loyal beasts faster than any mage can blast them, crush spellswords of all types with draconic might, or dissolve a necromancer's army in a tide of corrosive ooze.  And if the disciple in question is familiar with the practices of the Ziguranth...  We do not condone their approach to defending nature, but their techniques speak for themselves when facing a hostile mage.  The best part about these abilities, though, is that they are self-limiting!  There is no potential for a runaway chain reaction, or a lone megalomaniac destroying much of Eyal.  The planet willingly gives us its power, and is conscious enough to take it away if we start abusing its gifts.  Even the most powerful of Wilders cannot abuse their power to the perverse degree that a necromancer can.
 
 Thus, we're putting our efforts into two areas.  The first is advocacy of Natural alternatives to magic, talking to spellcasters to determine what they use magic for and figuring out ways to use Nature's abilities to do the same task just as well (if not more so).  We've continued the Ziguranth efforts to make all-natural replacements for Ogric runes (we predict that life expectancy is now only reduced by 40% with our newest mixtures), developed fertilizing recipes that outperform arcane methods of producing food, created wells near desert settlements otherwise dependent on water magic, and developed so many other techniques and applications that make magic just as obsolete as it is hazardous.  The second is minimizing the harm done by the arcane, by educating spellcasters on the safe, responsible, and Nature-conscious use of magic.  Not every spellcaster is evil, and in fact, some may enrich the lives of those around them!  Runic magic is at least somewhat self-limiting, and we are working with the Living Fossils guild in hopes of developing a new type of magic, one inherently linked to and limited by Nature.  Their stone-wardens have maintained perfect harmony with Nature despite constant use of the arcane; if this is truly the way forward, then we shall welcome it with open arms.
-]], [[We recognize that times are changing.  Within a year, the Allied Kingdoms have gone from begrudgingly tolerating magic to openly embracing it, due to the influence of our rediscovered allies in the East.  Furthermore, if the reports are to be believed, the ecosystem of Var'Eyal remains healthy and intact, despite millennia of continuous magic-use.  Therefore, our views and approach must change with the times; we are not ignorant to new knowledge.
+]], [[NOUS RECONNAISSONS QUE LES TEMPS CHANGENT. En l’espace d’un an, les **Royaumes Alliés** sont passés d’une tolérance à contrecoeur de la magie à son adoption ouverte, sous l’influence de nos alliés retrouvés de l’Est. De plus, si l’on en croit les rapports, l’écosystème de **Var’Eyal** reste sain et intact, malgré des millénaires d’utilisation continue de la magie. Nos opinions et nos approches doivent donc évoluer avec les temps ; nous ne sommes pas ignorants face aux nouvelles connaissances.
 
-At this point, it should go without saying that reckless use of magic is a dire threat to...  everything, more or less.  Eyal has yet to fully recover from even the rampant necromancy of the Age of Dusk, let alone the Spellblaze itself.  Eliminating all use of magic is the only way to be safe from this situation repeating...  but it is possible that lesser uses of arcane magic do not have any inherent corrupting or harmful effect, judging from the Sun Paladins and Anorithil.  They have, contrary to our long-held beliefs, managed to use magic responsibly and safely.  We are not so blind as to deny that this is an incredible reassurance.  That said, this proves nothing about the most terrible potential of magic.  Maybe no Sun Paladin or Anorithil has yet sunk to the depths of depravity of the Age of Dusk sorcerers, or the tragically reckless mages responsible for the Spellblaze, but that is no indication that their magic does not have the potential for abuse.  
+À ce stade, il va de soi qu’un usage imprudent de la magie représente une menace terrible pour… tout, ou presque. Eyal ne s’est pas encore totalement remis de la **nécromancie débridée de l’Ère du Crépuscule**, et encore moins de la **Brûlure Magique** elle-même. Éliminer toute utilisation de la magie est le seul moyen de se prémunir contre la répétition de cette situation… mais il est possible que des usages mineurs de la magie arcane n’aient pas d’effet corrupteur ou nocif intrinsèque, à en juger par les **Paladins Solaires** et **Anorithil**. Contrairement à nos croyances de longue date, ils ont réussi à utiliser la magie de manière responsable et sûre. Nous ne sommes pas assez aveugles pour nier que c’est une assurance incroyable. Cela dit, cela ne prouve rien quant au potentiel le plus terrible de la magie. Peut-être qu’aucun **Paladin Solaire** ou **Anorithil** n’a encore sombré dans la débauche des sorciers de l’**Ère du Crépuscule** ou des mages imprudents responsables de la **Brûlure Magique**, mais cela ne signifie pas que leur magie n’a pas le potentiel d’être abusée.
 
-Fortunately, there is an alternative available!  With the proper respect, care, and concentration given to Nature, one can be rewarded with powers rivaling or besting the popular uses of magic.  On the civilian level, summoned fireflies can replace magical lighting, regeneration salves can replace healing spells, and accelerated crop growth makes for a far more nutritious diet than conjured foodstuffs.  For martial purposes, there's very little that can stand up to the powers of Nature.  An experienced disciple of Eyal can summon loyal beasts faster than any mage can blast them, crush spellswords of all types with draconic might, or dissolve a necromancer's army in a tide of corrosive ooze.  And if the disciple in question is familiar with the practices of the Ziguranth...  We do not condone their approach to defending nature, but their techniques speak for themselves when facing a hostile mage.  The best part about these abilities, though, is that they are self-limiting!  There is no potential for a runaway chain reaction, or a lone megalomaniac destroying much of Eyal.  The planet willingly gives us its power, and is conscious enough to take it away if we start abusing its gifts.  Even the most powerful of Wilders cannot abuse their power to the perverse degree that a necromancer can.
+Heureusement, il existe une alternative ! Avec le respect, les soins et la concentration appropriés envers la **Nature**, on peut obtenir des pouvoirs rivalisant, voire surpassant, les usages populaires de la magie. Au niveau civil, des lucioles invoquées peuvent remplacer l’éclairage magique, des onguents de régénération peuvent remplacer les sorts de soin, et une croissance accélérée des récoltes offre une alimentation bien plus nutritive que les aliments conjurés. Sur le plan martial, il y a peu de choses capables de résister aux pouvoirs de la **Nature**. Un disciple expérimenté d’Eyal peut invoquer des bêtes loyales plus vite qu’un mage ne peut les détruire, écraser des épées magiques de tous types avec une puissance **draconique**, ou dissoudre l’armée d’un **nécromancien** dans une vague de **vase corrosive**.
 
-Thus, we're putting our efforts into two areas.  The first is advocacy of Natural alternatives to magic, talking to spellcasters to determine what they use magic for and figuring out ways to use Nature's abilities to do the same task just as well (if not more so).  We've continued the Ziguranth efforts to make all-natural replacements for Ogric runes (we predict that life expectancy is now only reduced by 40% with our newest mixtures), developed fertilizing recipes that outperform arcane methods of producing food, created wells near desert settlements otherwise dependent on water magic, and developed so many other techniques and applications that make magic just as obsolete as it is hazardous.  The second is minimizing the harm done by the arcane, by educating spellcasters on the safe, responsible, and Nature-conscious use of magic.  Not every spellcaster is evil, and in fact, some may enrich the lives of those around them!  Runic magic is at least somewhat self-limiting, and we are working with the Living Fossils guild in hopes of developing a new type of magic, one inherently linked to and limited by Nature.  Their stone-wardens have maintained perfect harmony with Nature despite constant use of the arcane; if this is truly the way forward, then we shall welcome it with open arms.
+Et si le disciple en question est familier avec les pratiques des **Zigurantes**… Nous n’approuvons pas leur approche pour défendre la nature, mais leurs techniques parlent d’elles-mêmes face à un mage hostile. Le meilleur avec ces capacités, c’est qu’elles sont **auto-limitantes** ! Il n’y a pas de risque de réaction en chaîne incontrôlable ou de mégalomane solitaire détruisant une grande partie d’Eyal. La planète nous donne son pouvoir de bon gré, et elle est assez consciente pour le reprendre si nous commençons à abuser de ses dons. Même les **Naturalistes** les plus puissants ne peuvent pas abuser de leur pouvoir au point de perversion qu’un **nécromancien** le pourrait.
+
+Ainsi, nous concentrons nos efforts sur deux axes. Le premier est la promotion d’alternatives naturelles à la magie, en discutant avec les lanceurs de sorts pour déterminer à quoi ils utilisent la magie et en trouvant des moyens d’utiliser les capacités de la Nature pour accomplir les mêmes tâches, sinon mieux. Nous avons poursuivi les efforts des **Zigurantes** pour créer des substituts entièrement naturels aux **runes ogriques** (nous prévoyons que l’espérance de vie n’est désormais réduite que de 40 % avec nos nouveaux mélanges). Nous avons développé des recettes de fertilisation surpassant les méthodes arcanes de production alimentaire, creusé des puits près des établissements désertiques autrefois dépendants de la magie de l’eau, et mis au point tant d’autres techniques et applications qui rendent la magie aussi obsolète que dangereuse.
+
+Le second axe consiste à minimiser les dégâts causés par l’arcane, en éduquant les lanceurs de sorts sur l’usage sûr, responsable et respectueux de la Nature de la magie. Tous les lanceurs de sorts ne sont pas mauvais, et certains peuvent même enrichir la vie de ceux qui les entourent ! La magie runique est au moins en partie auto-limitante, et nous collaborons avec la guilde des **Fossiles Vivants** dans l’espoir de développer un nouveau type de magie, intrinsèquement lié et limité par la Nature. Leurs **Gardiens de Pierre** ont maintenu une harmonie parfaite avec la Nature malgré l’usage constant de l’arcane. Si c’est vraiment la voie à suivre, alors nous l’accueillerons à bras ouverts.
+
 ]], "_t")
-t("a leaf-bound journal", "a leaf-bound journal", "_t")
+t("a leaf-bound journal", "un journal relié de feuilles", "_t")
 t([[[i](You see here a leaf-bound journal; the moment you open it, it begins to wither and crumble.  You manage to rip out one page; it is still disintegrating, but slowly enough that you can read it before it turns to dust.)[/i]
 
 Another vandalized poster.  Calling us traitors, collaborators, declaring themselves the True Ziguranth.  Fools, the lot of them.
@@ -3293,21 +3286,19 @@ So maybe the old guard's been overrun with Thaloren, youths, and others who care
 
 Perhaps most meaningfully of all, there are [i]far[/i] more Menders now than there were Ziguranth in the last century.  These allies will help us support Nature to an incredible degree, and we've started offering volunteer courses in classical anti-magic training, allowing them to further refine our techniques for dealing with rogue mages.  If and when arcane magic causes another catastrophe, these allies will rally behind us as we defend Nature from those who threaten it...  And, who knows, maybe we actually CAN teach mages to show a sane level of restraint without wiping them all out.  I'm keeping my eyes open for ways to make that happen, no matter how unlikely they may be.
 
-In the meantime, paying off Stone Warden trainers and buying enough mindstars and herbal infusions for our initiates isn't cheap.  I'm not proud of what I'm doing to pay the bills, and am fully aware of what it'd do to the organization if someone saw me, but this is the fastest and easiest money I've ever made.  Ten minutes of concentration, a few hours to re-establish my equilibrium, and I can grow enough cheerblossom to cover our expenses for a week.]], [[[i](You see here a leaf-bound journal; the moment you open it, it begins to wither and crumble.  You manage to rip out one page; it is still disintegrating, but slowly enough that you can read it before it turns to dust.)[/i]
+In the meantime, paying off Stone Warden trainers and buying enough mindstars and herbal infusions for our initiates isn't cheap.  I'm not proud of what I'm doing to pay the bills, and am fully aware of what it'd do to the organization if someone saw me, but this is the fastest and easiest money I've ever made.  Ten minutes of concentration, a few hours to re-establish my equilibrium, and I can grow enough cheerblossom to cover our expenses for a week.]], [[[i](Vous voyez ici un journal relié de feuilles ; au moment où vous l’ouvrez, il commence à se flétrir et à se désagréger. Vous parvenez à en arracher une page ; elle se désintègre encore, mais assez lentement pour que vous puissiez la lire avant qu’elle ne se transforme en poussière.)[/i]
 
-Another vandalized poster.  Calling us traitors, collaborators, declaring themselves the True Ziguranth.  Fools, the lot of them.
+Encore une affiche vandalisée. Nous traitant de traîtres, de collaborateurs, se déclarant les **vrais Zigurantes**. Des fous, toute cette bande.
 
-When I established the Menders, it wasn't because I thought the arrival of a handful of magic-users who also happen to be decent people disproved anything taught in Zigur or my childhood in Shatur.  It wasn't because I suddenly forgot that anything derived from arcane magic, no matter whether or not it's wrapped up in some mumbo-jumbo about the heavens, carries the risk of mutating into something that could put the Spellblaze to shame.  It was because those maniacs had ignored the shifting political tides for so long that they found themselves sliding into irrelevance, then went and skipped directly over irrelevance into pariahdom with that foolhardy assassination attempt.  They can blame the Far East all they want, but that was only the last nail in the coffin, alongside widespread acceptance of runes and alchemists operating openly across the continent.
+Quand j’ai fondé les **Rétablisseurs**, ce n’était pas parce que je pensais que l’arrivée d’une poignée d’utilisateurs de magie, qui se trouvent aussi être des gens décents, réfutait quoi que ce soit de ce qui m’avait été enseigné à **Zigur** ou pendant mon enfance à **Shatur**. Ce n’était pas parce que j’avais soudain oublié que tout ce qui découle de la magie arcane, qu’elle soit enveloppée ou non dans des balivernes sur les cieux, comporte le risque de muter en quelque chose qui ferait pâlir la **Brûlure Magique**. C’était parce que ces fanatiques avaient ignoré les marées politiques changeantes si longtemps qu’ils s’étaient retrouvés glissant dans l’irrélevance, puis avaient carrément sauté de l’irrélevance à la marginalité avec cette tentative d’assassinat insensée. Ils peuvent accuser l’**Extrême-Orient** autant qu’ils veulent, mais ce n’était que le dernier clou dans le cercueil, aux côtés de l’acceptation généralisée des runes et des alchimistes opérant ouvertement à travers le continent.
 
-I can appreciate their dedication.  I can appreciate their frustration, and how seeing the world treating magic-use as normal would just make them want to get more violent - but the fact is, the raid on Zigur was a mercy kill, preventing the fanatics from making us look even worse in the public eye.  We are long past the point where intimidation can get us anywhere - so we need to try a new approach.  If reminding the world of the horrors of magic isn't working anymore, the Spellblaze and the Age of Dusk being too faded from public memory, then we need to remind them of the wonders of Nature instead, wonders they can see for themselves, today.  If the public won't believe that magic is evil, they can believe that Nature is better.  If we can't make magic taboo, we can make magic obsolete...  and all of this gathers support we'd otherwise lack, curious minds waiting to be taught the beauty of Nature and warned of the hazards of the arcane.
+Je peux comprendre leur dévouement. Je peux comprendre leur frustration, et à quel point voir le monde traiter l’usage de la magie comme normal ne peut que les rendre plus violents… mais le raid sur **Zigur** était un coup de grâce, empêchant les fanatiques de nous faire passer pour encore pires aux yeux du public. Nous sommes bien au-delà du point où l’intimidation peut nous mener quelque part. Nous devons donc essayer une nouvelle approche. Si rappeler au monde les horreurs de la magie ne fonctionne plus, la **Brûlure Magique** et l’**Ère du Crépuscule** s’étant estompées dans la mémoire collective, alors nous devons leur rappeler les merveilles de la **Nature** à la place, des merveilles qu’ils peuvent voir de leurs propres yeux, aujourd’hui. Si le public ne croit pas que la magie est maléfique, ils peuvent croire que la Nature est meilleure. Si nous ne pouvons pas rendre la magie taboue, nous pouvons la rendre obsolète… et tout cela nous permet de rassembler un soutien que nous n’aurions pas eu autrement : des esprits curieux, avides d’apprendre la beauté de la Nature et d’être avertis des dangers de l’arcane.
 
-So maybe the old guard's been overrun with Thaloren, youths, and others who care a great deal more about loving nature than hating magic.  I don't see why this is a problem - making Nature stronger will make it more capable of resisting the damage magic may inflict.  We've allowed the idea of supporting Nature over magic to survive the Allied Kingdoms' treaty with the Gates of Morning, the raid on Zigur, and the attacks on Ziguranth patrols.  We've established ourselves as a selfless, charitable organization working for the good of all, a reputation that will grant us significantly more credibility than our previous public image of a band of crazed fanatics.
+Alors, peut-être que la vieille garde a été submergée par des **Thalorens**, des jeunes et d’autres qui se soucient bien plus d’aimer la nature que de haïr la magie. Je ne vois pas en quoi c’est un problème. Rendre la Nature plus forte la rendra plus capable de résister aux dégâts que la magie pourrait lui infliger. Nous avons permis à l’idée de soutenir la Nature plutôt que la magie de survivre au traité des **Royaumes Alliés** avec les **Portes du Matin**, au raid sur **Zigur** et aux attaques contre les patrouilles **Zigurantes**. Nous nous sommes établis comme une organisation désintéressée et caritative travaillant pour le bien de tous, une réputation qui nous accordera bien plus de crédibilité que notre ancienne image publique de bande de fanatiques enragés.
 
-Perhaps most meaningfully of all, there are [i]far[/i] more Menders now than there were Ziguranth in the last century.  These allies will help us support Nature to an incredible degree, and we've started offering volunteer courses in classical anti-magic training, allowing them to further refine our techniques for dealing with rogue mages.  If and when arcane magic causes another catastrophe, these allies will rally behind us as we defend Nature from those who threaten it...  And, who knows, maybe we actually CAN teach mages to show a sane level of restraint without wiping them all out.  I'm keeping my eyes open for ways to make that happen, no matter how unlikely they may be.
+Et surtout, il y a [i]beaucoup[/i] plus de **Rétablisseurs** maintenant qu’il n’y avait de **Zigurantes** au siècle dernier. Ces alliés nous aideront à soutenir la Nature à un degré incroyable, et nous avons commencé à proposer des cours bénévoles de formation classique anti-magie, leur permettant d’affiner davantage nos techniques pour traiter avec les mages renégats. Si et quand la magie arcane provoque une nouvelle catastrophe, ces alliés se rallieront derrière nous pour défendre la Nature contre ceux qui la menacent… Et, qui sait, peut-être que nous pouvons [i]vraiment[/i] apprendre aux mages à montrer un niveau sain de retenue sans tous les exterminer. Je garde les yeux ouverts pour trouver des moyens de rendre cela possible, aussi improbables soient-ils.
 
-In the meantime, paying off Stone Warden trainers and buying enough mindstars and herbal infusions for our initiates isn't cheap.  I'm not proud of what I'm doing to pay the bills, and am fully aware of what it'd do to the organization if someone saw me, but this is the fastest and easiest money I've ever made.  Ten minutes of concentration, a few hours to re-establish my equilibrium, and I can grow enough cheerblossom to cover our expenses for a week.]], "_t")
---]==]
-
+En attendant, payer les formateurs des **Gardiens de Pierre** et acheter suffisamment d’**étoiles d’âme** et d’essences herbales pour nos initiés ne coûte pas cher. Je ne suis pas fier de ce que je fais pour payer les factures, et je suis pleinement conscient de ce que cela ferait à l’organisation si quelqu’un me voyait, mais c’est l’argent le plus rapide et le plus facile que j’aie jamais gagné. Dix minutes de concentration, quelques heures pour rétablir mon équilibre, et je peux faire pousser assez de **pétales de bonheur** pour couvrir nos dépenses d’une semaine.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/lore/quarry.lua"
@@ -7479,7 +7470,7 @@ t("huge crack in the floor", "une énorme crevasse dans le sol", "entity name")
 section "tome-orcs/data/zones/gem/npcs.lua"
 
 t("Haze Commander Parmor", "Commandante de la Brume Parmor", "entity name")
-t("The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "Commandante du G.E.M., cette géante à l'allure noble vous toise avec mépris. Elle manie deux immenses scies rotatives encore couvertes des entrailles de diverses horreurs.", "_t")
+t("The Commander of the G.E.M. this noble looking giant looks down upon you in contempt. She wields two huge rotating saws still covered in various horror entrails.", "Commandante du T.E.G., cette géante à l'allure noble vous toise avec mépris. Elle manie deux immenses scies rotatives encore couvertes des entrailles de diverses horreurs.", "_t")
 t("Half-Mechanized Yeti", "Yéti Semi-Mécanisé", "entity name")
 t("Whoever tortured and tormented this yeti did an amazing job of pain and destruction. As you gaze upon its fur you notice several vital spots reinforced with stralite plating. One of its arms has been replaced with a steamsaw.", "Quiconque a torturé et tourmenté ce yéti a accompli un travail remarquable de douleur et de destruction. En observant sa fourrure, vous remarquez plusieurs points vitaux renforcés de plaques de stralite. L'un de ses bras a été remplacé par une scie à vapeur.", "_t")
 
@@ -7490,7 +7481,7 @@ t("lore", "histoire", "entity type")
 t("disk", "disque", "entity subtype")
 t("disk", "disque", "_t")
 t([[A strange black disk found in the G.E.M.
-You have no idea how to use it.]], [[Un étrange disque noir trouvé dans le G.E.M.
+You have no idea how to use it.]], [[Un étrange disque noir trouvé dans la T.E.G.
 Vous n'avez aucune idée de la manière de l'utiliser.]], "_t")
 t("erratic scribblings", "griffonnages erratiques", "entity name")
 t("A journal.", "Un journal.", "_t")
@@ -7510,14 +7501,10 @@ t("muscle", "muscle", "entity subtype")
 ------------------------------------------------
 section "tome-orcs/data/zones/gem/zone.lua"
 
-t("G.E.M. Exterior", "Extérieur du G.E.M.", "_t")
-t("G.E.M. Crew Deck", "Pont d'Équipage du G.E.M.", "_t")
-t("G.E.M. Command Deck", "Pont de Commandement du G.E.M.", "_t")
--- texte non traduit
---[==[
-t("G.E.M.", "G.E.M.", "_t")
---]==]
-
+t("G.E.M.", "T.E.G.", "_t")
+t("G.E.M. Exterior", "Extérieur de la T.E.G.", "_t")
+t("G.E.M. Crew Deck", "Pont d'Équipage de la T.E.G.", "_t")
+t("G.E.M. Command Deck", "Pont de Commandement de la T.E.G.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/internment-camp/grids.lua"
