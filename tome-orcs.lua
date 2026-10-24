@@ -1568,7 +1568,7 @@ t("simple", "simple", "_t")
 ------------------------------------------------
 section "tome-orcs/data/general/objects/world-artifacts.lua"
 
-t("Medical Urgency Vest", "Gilet d'urgence médicale", "entity name")
+t("Medical Urgency Vest", "Gilet d'Urgence Médicale", "entity name")
 t("medical armour", "armure médicale", "_t")
 t("This light leather armour features a special medical injector.", "Cette armure légère de cuir est équipée d'un injecteur médical spécial.", "_t")
 t("Steam Powered Boots", "Bottes à vapeur", "entity name")
@@ -3333,12 +3333,12 @@ Je ne comprends toujours pas pourquoi le **Conseil** a confisqué la cargaison d
 ------------------------------------------------
 section "tome-orcs/data/lore/slumbering-caves.lua"
 
-t("slumbering caves", "grottes endormies", "newLore category")
-t("a journal (1)", "un journal (1)", "_t")
+t("slumbering caves", "Grottes endormies", "newLore category")
+t("a journal (1)", "Un journal (1) ", "_t")
 t("O #CRIMSON#AMAKTHEL#LAST#!  Rightful ruler of all touched by the sun's light or the core's warmth!  In the era of gods, You innovated when others remained stagnant.  The others were content to work with the same mold - a head, thin skin, a jointed endoskeleton - but You, You had scores of ideas, and even the common threads between them were testaments to flexibility, invention, and adaptability!  The others struggled with stiff, fragile limbs, an easily obstructed windpipe, and one huge mass of vulnerabilities above their torso; You found this form wanting, and proved Your place as the supreme deity by continuing to improve on it.  You gave us arms and legs we could twist into any useful shape we could dream of, and instead of dreadfully fragile eyes and throats, we can see, eat, and breathe through our skin, skin laden with neurons rather than one centralized brain.  Even today, even when unconscious and dismembered, You continue to invent, Your Magic of Creativity tweaking the other gods' creations to see what results.  You are not merely a god of light - You are a god of enlightenment, and all who create owe it to You.", [[Ô #CRIMSON#AMAKTHEL#LAST#! Souverain légitime de tout ce qui est touché par la lumière du soleil ou la chaleur du noyau ! À l’ère des dieux, Vous avez innové alors que les autres restaient stagnants. Les autres se contentaient de travailler avec le même moule : une tête, une peau fine, un endosquelette articulé. Mais Vous, Vous aviez des dizaines d’idées, et même les points communs entre elles témoignaient de flexibilité, d’invention et d’adaptabilité ! Les autres luttaient avec des membres raides et fragiles, une trachée facilement obstruée et une masse de vulnérabilités au-dessus de leur torse. Vous avez jugé cette forme insuffisante et prouvé Votre place de divinité suprême en continuant à l’améliorer. Vous nous avez donné des bras et des jambes que nous pouvons tordre en toute forme utile que nous pouvons imaginer. Et au lieu d’yeux et de gorges terriquement fragiles, nous pouvons voir, manger et respirer à travers notre peau, une peau chargée de neurones plutôt qu’un cerveau centralisé.
 
 Même aujourd’hui, même inconscient et démembré, Vous continuez à innover. Votre **Magie de la Créativité** modifie les créations des autres dieux pour en observer les résultats. Vous n’êtes pas simplement un dieu de la lumière : Vous êtes un dieu de l’illumination, et tous ceux qui créent Vous doivent leur inspiration.]], "_t")
-t("a journal (2)", "un journal (2)", "_t")
+t("a journal (2)", "Un journal (2) ", "_t")
 t([[Great #CRIMSON#AMAKTHEL#LAST#, forgive me, for I could not prevent the actions of my brethren.  I tried.  We tried.  When they spoke of committing the Great Sin, we argued ferociously, until Caldizar and his apostates did it before we could react in time.  We did our best to avenge this foul deed, and used the Magic of Creativity on as many as we could, blessing them with new forms, and blessing ourselves such that we could do battle with their fortresses; alas, it was nonetheless a war we eventually lost, for what chance did we have against weaponry, power, and mercilessness to which even You fell?  Please, Your Brilliance, understand that we did everything we could.  
 
 Our planet lay in ruins, with even the apostates abandoning Eyal for other worlds.  Every one of Your followers fought to our deaths...  except me, coward that I was in those days.  Now, I am all that remains, along with the apostates we blessed with Your magic.  I will not beg for Your forgiveness; as an inventor You are concerned with results over words, and I will prove to You that my moment of weakness will soon have a wondrous result.  With the sinful apostates gone, You will have the time to secure this world for Yourself, purging the creations of the lesser gods...  and preparing to exact justice on the sinners when they return.  
@@ -3346,7 +3346,7 @@ Our planet lay in ruins, with even the apostates abandoning Eyal for other world
 
 Notre planète gisait en ruines, et même les apôtres avaient abandonné Eyal pour d’autres mondes. Chacun de Vos fidèles a combattu jusqu’à la mort… sauf moi, lâche que j’étais en ces temps-là. Maintenant, je suis tout ce qui reste, avec les apôtres que nous avons bénis avec Votre magie. Je ne mendierai pas Votre pardon : en tant qu’inventeur, Vous Vous souciez des résultats plus que des mots, et je Vous prouverai que mon moment de faiblesse aura bientôt un résultat merveilleux. Avec les apôtres pécheurs partis, Vous aurez le temps de sécuriser ce monde pour Vous, de purger les créations des dieux mineurs… et de préparer la justice pour les pécheurs quand ils reviendront.  
 ]], "_t")
-t("a journal (3)", "un journal (3)", "_t")
+t("a journal (3)", "Un journal (3) ", "_t")
 t([[The work continues, and soon all shall know the name of their new god.  Even handling the one Hand that I have makes me weep for the sins of my brothers, and yet eager to see their work undone...  The bowels of Eyal shall be the forge in which You will be remade, the newly-drained magma channels above shall be its fire.
 
 I can barely bring myself to tell You the indignity I suffer through in service to You...  Unfit savages, ones not of Your creation and thus undeserving of Your mercy, are in possession of one of the last two pieces of Your body.  I met with the "Atmos," and offered them a tiny fraction of Your approval and power in return for it, far more than enough to make up for the geothermal vents emptied to fuel Your rebirth; they fear Your blessings, and rejected my offer.  They are a proud tribe, one that has been proud for so long that they never noticed that they no longer had anything to be proud of.  I have seen such pride before only once, and it is even more misplaced by the Atmos.  They will remain blind and defiant until the moment they fall, and I shall simply wait to sift through the fragments of their dead civilization.
@@ -3356,19 +3356,19 @@ I am sorry, my god - were I in a better position, Your rebirth would not be cont
 Je peux à peine me résoudre à Vous avouer l’humiliation que je subis en Votre service… Des sauvages indignes, qui ne sont pas de Votre création et ne méritent donc pas Votre miséricorde, possèdent l’une des deux dernières parties de Votre corps. J’ai rencontré les **"Atmos"**, et je leur ai offert une infime fraction de Votre approbation et de Votre pouvoir en échange, bien plus que suffisant pour compenser les **conduits géothermiques** vidés pour alimenter Votre renaissance. Ils craignent Vos bénédictions et ont rejeté mon offre. C’est une tribu fière, si fière depuis si longtemps qu’elle n’a pas remarqué qu’elle n’avait plus rien dont elle pouvait être fière. J’ai vu une telle fierté une seule fois auparavant, et elle est encore plus mal placée chez les Atmos. Ils resteront aveugles et défiants jusqu’au moment où ils tomberont, et je me contenterai d’attendre pour fouiller dans les débris de leur civilisation morte.
 
 Je suis désolé, mon dieu. Si j’étais dans une meilleure position, Votre renaissance ne dépendrait pas de #{italic}#négociations#{normal}# avec ces âmes indignes qui envahissent Votre monde… mais je ne peux pas me permettre de prendre le risque d’utiliser la force. Peut-être est-ce une faible consolation que Vous pourrez désormais leur montrer personnellement Votre fureur.]], "_t")
-t("a journal (4)", "un journal (4)", "_t")
+t("a journal (4)", "Un journal (4) ", "_t")
 t([[The foolish creations of the lesser gods have simply handed me Your mouth, in return for a few of the apostates' trinkets!  Unearthed by Dwarves, brought from a distant land by Humans, offered to me by Trolls...  None were aware of how they were helping You, so do not spare these humanoids Your wrath.  They deserve cleansing as much as the Giants, Elves, and other creatures from the lesser gods, creatures that still refuse Your blessing.
 
 The Giants are beginning to falter, as the creations of the pettier gods inevitably do.  As amusing as it would have been to watch them demonstrate their inferiority by tearing at each others' throats, the Orcs have brought them ruin and pushed them to desperation even sooner.  They will reconsider my offer, and then...  ]], [[Les créations stupides des dieux mineurs m’ont tout simplement remis Votre **Bouche**, en échange de quelques babiole des apôtres ! Déterrée par les **Nains**, apportée d’une terre lointaine par les **Humains**, offerte par les **Trolls**… Aucun d’eux ne savait qu’ils Vous aidaient, alors ne les épargnez pas de Votre courroux. Ils méritent d’être purifiés autant que les **Géants**, les **Elfes** et les autres créatures des dieux mineurs, des créatures qui refusent toujours Votre bénédiction.
 
 Les **Géants** commencent à faiblir, comme c’est inévitable pour les créations des dieux mineurs. Même si cela aurait été amusant de les voir démontrer leur infériorité en s’entretuant, les **Orcs** les ont ruinés et poussés au désespoir encore plus tôt. Ils reconsidéreront mon offre, et puis…]], "_t")
-t("a journal (5)", "un journal (5)", "_t")
+t("a journal (5)", "Un journal (5) ", "_t")
 t([[This is a time of celebration...  The Atmos have brought us a gift.  I no longer require their cooperation as a people; a handful of Blessed guards (including, in poetic irony, some of the former heretics) will suffice to keep the degenerates from disturbing Your return.  It will only be mere days until You are whole again...  You are an artist, and this world shall be Your canvas.  The degenerates will weep first at Your beauty when they behold You, then for the fate of their world, and then when they realize their sins and the fate they deserve.
 
 I will not beg You for redemption or forgiveness.  My species has already proven itself to be a treacherous, prideful mistake.  All I beg for is to live long enough to see Your masterpiece.]], [[C’est un moment de célébration… Les **Atmos** nous ont offert un cadeau. Je n’ai plus besoin de leur coopération en tant que peuple : une poignée de gardes **Bénis** (dont, par une ironie poétique, certains des anciens hérétiques) suffira à empêcher les dégénérés de perturber Votre retour. Il ne reste plus que quelques jours avant que Vous ne soyez de nouveau entier… Vous êtes un artiste, et ce monde sera Votre toile. Les dégénérés pleureront d’abord devant Votre beauté quand ils Vous verront, puis pour le sort de leur monde, et enfin quand ils réaliseront leurs péchés et le châtiment qu’ils méritent.
 
 Je ne mendierai pas pour la rédemption ou le pardon. Mon espèce a déjà prouvé qu’elle était une erreur traîtresse et orgueilleuse. Tout ce que je demande, c’est de vivre assez longtemps pour voir Votre chef-d’oeuvre.]], "_t")
-t("a journal (6)", "un journal (6)", "_t")
+t("a journal (6)", "Un journal (6) ", "_t")
 t([[the fragments reform
 the visage of genius and beauty is once more
 the glory of #CRIMSON#AMAKTHEL#LAST# is nigh
@@ -3423,8 +3423,8 @@ ceci est le premier jour d’une nouvelle existence
 ------------------------------------------------
 section "tome-orcs/data/lore/sunwall.lua"
 
-t("sunwall", "mur solaire", "newLore category")
-t("a page from Commander Trelle's journal", "une page du journal du Commandant Trelle", "_t")
+t("sunwall", "Mur solaire", "newLore category")
+t("a page from Commander Trelle's journal", "Une page du journal du Commandant Trelle", "_t")
 t([[We've done it... we've finally done it. Well, granted, our %s did much of the work, but the result is the same: neither the East nor the West will ever need to fear Orcish rule again. The Prides have been crushed, the survivors have been contained, and our patrols are mopping up the few remaining bands of futile stragglers. Our long-lost allies from the West have come to support us with materials and manpower, and we can finally turn this entire continent into something beautiful. For the first time, Sunwall will not be the solitary bastion of civilization on Var'Eyal.
 
 And yet...
@@ -3442,9 +3442,9 @@ Un groupe subsiste encore. Une minuscule Fierté orc, davantage un petit village
 Par le Soleil... pourquoi notre Haute Paladine aurait-elle accepté ce traité ? Après tout ce que nous avons traversé...
 
 Les éclaireurs orcs se montrent de plus en plus audacieux. Ils s'approchent davantage avant de battre en retraite, et leurs apparitions se font plus fréquentes. Ils ne nous ont pas encore attaqués, mais ce n'est qu'une question de temps... et tout ce que l'on m'autorise à faire est d'attendre sur ce petit pont disgracieux pendant que l'Ouest observe depuis l'autre bout du continent. Ils contemplent une plaie ouverte en attendant qu'elle s'infecte, parce qu'ils préfèrent nouer un joli ruban autour des bandages.]], "tformat")
-t("hero", "héro", "_t")
-t("heroine", "héroïne", "_t")
-t("a letter addressed to Outpost Leader John", "une lettre adressée au chef de l'avant-poste John", "_t")
+t("hero", "Héro", "_t")
+t("heroine", "Héroïne", "_t")
+t("a letter addressed to Outpost Leader John", "Une lettre adressée au chef de l'avant-poste John", "_t")
 t([[Sir,
 
 The Orcs grow more impudent every day.  Surely you've noticed too - their scouts growing closer, the smoke of their forges drifting over the mountains alongside the clanging of metal being pounded into weaponry, the guttural shouts of their training drills...  Are you really going to obey this suicidal treaty, and keep us from acting until their swords are already through our throats?
@@ -3457,7 +3457,7 @@ Les orcs deviennent chaque jour plus insolents. Vous l'avez certainement remarqu
 Si vous veniez à... [i]voir[/i] une force d'assaut approcher, je confirmerais votre rapport. Légalement, nul ne pourrait nous reprocher d'avoir agi en état de légitime défense. Je vous en prie, veillez à ce que ce conflit inévitable nous accorde au moins l'avantage tactique de la surprise, plutôt qu'à eux.
 
 - Cmdt. Trelle]], "_t")
-t("a letter addressed to Commander Trelle", "une lettre adressée au Commandant Trelle", "_t")
+t("a letter addressed to Commander Trelle", "Une lettre adressée au Commandant Trelle", "_t")
 t([[Trelle,
 
 I respect your intentions and your dedication to our safety, which is the only reason I'm not handing this letter over to Aeryn right this second.  Do you have the faintest clue what this treaty is buying us?  Do you really think we could have kept the Prides' remnants from banding together and becoming, at a minimum, a massive thorn in our side for the next few decades without King Tolak's help? Even if I disagreed with Aeryn that the Orcs deserve a chance of redemption, this treaty is ensuring an [i]extraordinary[/i] amount of help from a nation that, last year, still tolerated roving gangs of mage-lynchers.
@@ -3471,7 +3471,7 @@ Je respecte tes intentions et ton dévouement à notre sécurité, ce qui est la
 Je t'épargnerai le discours sur l'insubordination, le mensonge et le contournement de la chaîne de commandement, car a : techniquement, tu me demandais "seulement" de commettre ces crimes, et b : j'ai mieux à faire que de rédiger un blâme complet pour quelqu'un dont je suis [i]certain[/i] qu'il sait exactement ce qu'il fait de mal. Au lieu de cela, je vais aller droit au but : n'imagine même pas refaire une chose pareille. Je garde ta lettre, et si jamais tu es impliqué dans un usage discutable de la force, je la présenterai comme preuve. Je pensais que tu valais mieux que ça.
 
 -Chef d'avant-poste John]], "_t")
-t("a large, embossed envelope", "un grand enveloppe en relief", "_t")
+t("a large, embossed envelope", "Un grand enveloppe en relief", "_t")
 t([[#{bold}#TO WHOM IT MAY CONCERN:#{normal}#
 
 Whereas, it can be assumed with 100% certainty that the individual reading this note is the most esteemed authority of the group residing on the bridge connecting Var'Eyal and the Clork Peninsula, as the construct trusted to deliver this message cannot be coerced to decode it;
@@ -3516,7 +3516,7 @@ Unofficially?  I'm going to #{italic}#enjoy#{normal}# this.]], [["Eh bien, il s'
 #{italic}#Officiellement#{normal}#, les Atmos n'existent pas, et nous n'avons aucune connaissance de leur existence. Officiellement, si quelques navires de ravitaillement des Royaumes Alliés en route pour le camp d'internement se faisaient #{italic}#juste par hasard#{normal}# intercepter par une bande de pirates à la solde de quelqu'un qui a eu la #{italic}#chance#{normal}# de les frapper juste entre leurs routes de patrouille navale, ce serait #{italic}#bien dommage#{normal}#, et les Atmos ne pourraient être blâmés si cette armure et cet armement se retrouvaient entre leurs mains. Officiellement, nous ne devons quitter notre poste sous aucun prétexte, et si une mystérieuse bande de géants descendait des montagnes, écrasait la Fierté Kruk sur leurs terres natales et les forçait à fuir, il serait contre nos ordres de faire quoi que ce soit, mis à part éliminer les réfugiés qui fuiraient vers notre pont ; officiellement, cela n'entraverait pas les négociations des Atmos avec les Royaumes Alliés et le Mur Solaire après cet incident, car ils n'auraient pas pu savoir que nous poursuivrions un objectif aussi naïf que d'attendre de capturer les Orcs vivants, et cela leur accorderait une revendication incontestée sur le territoire Kruk.
 
 Officieusement ? Je vais #{italic}#apprécier#{normal}# ça."]], "_t")
-t("a torn page from John's journal", "une page arrachée du journal de John", "_t")
+t("a torn page from John's journal", "Une page arrachée du journal de John", "_t")
 t("Aeryn, my love...  I fear Trelle may be right, but I will hold this bridge without resorting to betraying you.  Still, though, I will remain vigilant of approaching attacks, and prepare to strike first if a battle really does seem inevitable.  As long as I stand, no Orc will ever harm you again.  We will have a bright and shining future ahead of us, walking hand in hand into the dawn of a new, peaceful age...  and while I hope the Kruk Pride has a place there, I will not let them put this new age in jeopardy.", "Aeryn, mon amour... Je crains que Trelle n'ait raison, mais je tiendrai ce pont sans avoir recours à la trahison envers toi. Néanmoins, je resterai vigilant face aux attaques imminentes et me préparerai à frapper le premier si une bataille semble vraiment inévitable. Tant que je serai debout, aucun Orc ne te fera plus jamais de mal. Nous aurons un avenir radieux devant nous, marchant main dans la main vers l'aube d'une nouvelle ère de paix... et bien que j'espère que la Fierté Kruk y trouve sa place, je ne les laisserai pas mettre cette nouvelle ère en péril.", "_t")
 t("King Tolak's Condemnation", "Condamnation du roi Tolak", "_t")
 t([[(As you approach the farportal, a herald emerges, holding an envelope; he doesn't quite hand it to you as much as throw it at you from a safe distance, then salutes and retreats back into the swirling rift.  The letter bears the royal seal of the Allied Kingdoms.)
@@ -3552,7 +3552,7 @@ J'attendrai sur la ligne de front de cette glorieuse alliance, épée à la main
 Vous voulez votre revanche sur le peuple de mon père, sale cabot ? #{italic}#Venez la chercher.#{normal}#
 
 (Vous admettez que c'est assez tentant... mais la sécurité garantie de votre peuple est prioritaire, et d'ailleurs, vous ne seriez pas surpris que les Royaumes Alliés aient une équipe d'archers et de frondeurs attendant de sniper tous ceux qui passeraient, un par un. Vous détruisez le portail, éliminant l'armée du roi Tolak comme une menace, et vous assurant que la Paladine Solaire Aeryn ne recevra aucun renfort. Il est temps de profiter de votre nouvelle tranquillité pour éliminer les forces du Mur Solaire, une fois pour toutes...)]], "tformat")
-t("Sun Paladin report", "rapport de Paladin Solaire", "_t")
+t("Sun Paladin report", "Rapport de Paladin Solaire", "_t")
 t([[Lady Aeryn,
 
 My apologies, but you're going to have to go back to King Tolak empty-handed - we still don't have any idea how the smugglers are getting through.  The best evidence we've got is some rumbling in the desert near the Dominion Port (which is still too heavily guarded for a direct attack before the Allied Kingdoms can grant us full assistance), suggesting geomantic tunnel formation, but that could just as easily be the few of Briagh's spawn that the Hero of Maj'Eyal didn't mop up.  Scrying spells aren't helping either - there's some sort of counter-scrying ward being applied, but it's so well-hidden that we can't tell where on the continent it's coming from or how many entities are being affected by it.  The only thing that seems certain is that they've got another farportal hacked together - the only one we know of is right in the middle of Gates of Morning, and I'd like to think that we're not so incompetent we wouldn't notice a steady stream of slavers and bootleggers strolling past 70% of us.  If they're actually using that one, then they're using the best invisibility spell we have ever seen.
@@ -3576,19 +3576,19 @@ All I can hope is that King Tolak has learned something about the Orcs, before h
 Je dois être cette lumière pour le bien de mes alliés. Je dois être forte, résolue, en leur donnant le peu d'espoir que je peux. Non seulement pour maintenir leur moral et nous donner une chance de l'emporter contre la menace inarrêtable contre laquelle le Mur Solaire se dresse depuis des lustres... mais pour que leurs dernières pensées dans la mort puissent être que leur sacrifice nous a tous sauvés. Peut-être que l'un d'eux aura raison.
 
 Tout ce que je peux espérer, c'est que le roi Tolak ait appris quelque chose sur les Orcs, avant que son royaume ne tombe aussi. Je ne lui en veux pas, tout ce qu'il a fait était enraciné dans la sagesse et la bonté... et cela aurait fonctionné pour n'importe quelle espèce, sauf les Orcs. Ils sont la seule exception qui ne mérite aucune pitié.]], "_t")
-t("kindness", "bonté", "_t")
+t("kindness", "Bonté", "_t")
 t([[I stuck up for you. I wanted to forgive you, to give you time and safety to see we meant no harm.  I forgave you for the ages we spent in fear, the lives we lost, for I imagined I could have been tempted to do the same in your position.
 
 Now I see where kindness and mercy get me.]], [[Je t'ai défendu. Je voulais te pardonner, te donner du temps et la sécurité pour voir que nous ne voulions aucun mal. Je t'ai pardonné pour les âges que nous avons passés dans la peur, les vies que nous avons perdues, car j'imaginais que j'aurais pu être tenté de faire de même à ta place.
 
 Maintenant, je vois où la bonté et la miséricorde me mènent.]], "_t")
-t("hope", "espoir", "_t")
+t("hope", "Espoir", "_t")
 t([[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration, no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
 
 My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], [[Tu m'as tout pris. Tu as pris l'aube d'un avenir magnifique, tu as pris les feux de l'espoir et du bonheur, tu as pris la lumière bienveillante et directrice de mon amour Aeryn et tu as éteint l'éclat de la vie que nous méritions d'avoir ensemble. La lumière a disparu... mais tu m'as donné l'obscurité en retour. Et tu es sur le point de connaître cette obscurité très, très bien. L'embrasser pleinement plutôt que de l'exclure... C'est si facile d'utiliser ces pouvoirs maintenant. Je les ai déjà ressentis, mais je n'avais pas de haine à utiliser comme inspiration, pas de vraie misère à verser dans les esprits qui le méritent, pas de vide intérieur pour drainer tes espoirs et ta confiance. Tu as réglé ça pour moi.
 
 Mon coeur bat encore, mais tu as quand même pris ma vie. Tu comprendras sous peu.]], "_t")
-t("suffering", "souffrance", "_t")
+t("suffering", "Souffrance", "_t")
 t([[Fall.  Suffer.  Lose the hope that drives you, or whatever brutish instinct suffices for it in your abominable mind.  Feel the pain you caused me, and know that it will never, ever stop...  you can feel it eroding your will to keep going, can't you?
 
 When your shattered mind succumbs to the pain you gave me, I will take it for my own.  I'll give you back just a little of the hope and love I took, so when you're a mere passenger in your own body, I can watch that light grow dark, as you watch your own body finding everyone you love and killing them slowly and painfully.  Their last words will be cursing your name, and you will be both powerless to stop it, and all too aware that it's your own fault for not preventing it sooner.
@@ -3602,8 +3602,8 @@ Alors, et seulement alors, tu comprendras pleinement ce que tu m'as fait.]], "_t
 ------------------------------------------------
 section "tome-orcs/data/lore/weissi.lua"
 
-t("lost city", "cité perdue", "newLore category")
-t("telepathic message (1)", "message télépathique (1)", "_t")
+t("lost city", "Cité perdue", "newLore category")
+t("telepathic message (1)", "Message télépathique (1)", "_t")
 t([[As you descend the stairway down, you find yourself faced with what appears to be a solid wall of stone, a natural dead-end in a cave.  You start to turn around and walk back up, when you hear a crescendo of cracking and rumbling behind you; you turn back and see the stone falling away, revealing a smooth, white door, which promptly slides into the floor.  The doorway leads to a white hallway of indeterminate construction; rather than having fixed lighting, every square inch of the walls, floors, and ceiling slowly illuminates to a comfortable (if slightly teal-tinged) glow.  It should be beautiful, clean, peaceful, and serene...  and yet your instincts are screaming at you to get out as soon as you can and forget what you've seen here.  A few open panels on the walls reveal an assortment of inscrutable machinery, incorporating a variety of unidentifiable magical and psionic artifacts, yet one appears to be a sort of crushing device made with steam-tech, an invention that is surely newer than these ruins...  the crushing device abruptly activates when you ponder it, pressing minerals into a freshly-formed mindstar-like crystal.  A voice, one that should be soothing but disturbs you on a deeper level than you can translate into conscious thought, enters your mind as the crystal flickers:
 
 "Welcome, %s.  We've been expecting you.  Unfortunately, we can't join you, but we can assure you that what lies ahead can only help you in your quests.  The door will seal behind you to ensure your safety, and reopen the moment you want to leave.  Come.  Learn, discover, and realize how our plans are advantageous to both of us."
@@ -3633,7 +3633,7 @@ Nonetheless, you feel you shouldn't be here.  The fact that this place exists at
 
 #{italic}#Néanmoins, vous sentez que vous ne devriez pas être ici. L'existence même de ce lieu semble... erronée.#{normal}#
 ]], "tformat")
-t("telepathic message (2)", "message télépathique (2)", "_t")
+t("telepathic message (2)", "Message télépathique (2)", "_t")
 t([[Did you know the Sher'Tul had brothers?  Long before their creation, when the gods were still young and gleeful, Quekjora convinced them they could work together to bring life to Eyal. Perhaps they could have, were they more mature at the time...  Eager cooperation withered under exposure to personal tastes and creative differences, the friendships of our creators turned to animosity, and yet we were still made.
  
 We had no overt flaws.  The gods were mercilessly vigilant, eager to use any imperfections as an excuse to berate their perpetrator and claim superiority, and thus we were only allowed to live when they were out of ammunition to use.  We seemed perfect, even to a deep inspection...
@@ -3648,7 +3648,7 @@ Nous n'avions aucun défaut manifeste. Les dieux étaient impitoyablement vigila
 Je doute que l'un d'entre eux nous ait délibérément maudits — aucun d'eux n'aurait pu accomplir quelque chose d'aussi puissant. Des touches subconscientes, des fuites psychiques et d'autres forces imperceptibles se sont accumulées au fil du temps pour indiquer une vérité incontournable : nous n'étions pas désirés. Nous avions été forgés dans un compromis amer, non souhaité par les parties impliquées ; leur haine, leur négligence, leur frustration constituent le fondement de tout ce que nous sommes, et nous portons cela au plus profond de nous-mêmes. Peut-être qu'une telle créature attire naturellement l'ire de l'univers, du destin lui-même.
 
 Ou peut-être avons-nous simplement mis en colère quelqu'un d'assez puissant pour nous lancer une malédiction temporelle rétroactive, ou peut-être était-ce Amakthel personnellement qui s'assurait que son projet favori n'ait aucun égal. Nous ne pourrons peut-être jamais en être certains. Tout ce que nous savons, c'est que quelque chose — que ce soit la probabilité, la volonté combinée de l'univers, ou simplement notre propre malchance — ne tolérera pas notre existence, ni celle de quoi que ce soit qui nous ressemble."]], "_t")
-t("telepathic message (3)", "message télépathique (3)", "_t")
+t("telepathic message (3)", "Message télépathique (3)", "_t")
 t([[Did you know you killed us? You did, in one potential future, ordering our genocide from atop a steel drake.  In others, it was the Dominion, the Allied Kingdoms, Flamewright Industries, the Zigur-Thaloren Pact, or countless other transient mortal city-states.  We've been torn apart by Gerlyk, and dissected by Angolwen at the direction of Headmistress Argoniel or Chief Genius Tannen (yes, the smug git actually called himself that).  We've been devoured (literally and metaphorically) by the New Conclave under Mother Astelrid, wiped out by a plague engineered by the Grand Corruptor, drowned as the world was flooded by the Naloren, and reduced to ash by the reborn Crimson Dragonbrood.  We've been captured as torture-toys by the Demons and The Master's undead servitors, hunted for magical reagents by the Reknor Confederacy, and kept as adding machines by the Greater Republic of Steam.
 
 You know, you should thank the Scourge from the West.  We certainly do.
@@ -3662,7 +3662,7 @@ Vous savez, vous devriez remercier le Fléau de l'Ouest. Nous le faisons certain
 Dans la plupart des cas, c'étaient les Sher'Tul éliminant leur concurrent le plus proche, ou les Mal'Rokka prenant Eyal pour eux-mêmes. Dans les rares où nous avons gagné toutes les guerres, un météore a détruit Eyal à la place — un météore qui a maintenant été intercepté par des débris, provenant de ce que vous appelez la Brûlure Magique. Je vous en prie — un contingent de notre peuple a maintenu les Mal'Rokka réprimés assez longtemps pour permettre que cela arrive. Si vous voulez voir un exemple de la façon dont l'existence veut nous effacer, demandez-leur simplement ce qu'ils savent sur les "Mages de Poussière".
 
 Nous ne vous conseillons pas d'apprendre la prognostication psychique avec autant d'engagement que nous. Voir autant de possibilités, scruter l'infini avec autant de détails sans que l'infini ne vous regarde en retour... vous devez le ressentir. Chaque lance à travers nos coeurs, chaque membre brûlé... et nous l'avons tous fait ensemble, liant nos esprits pour accomplir cela, donc nous avons tous souffert à travers cela. Et après tout ça, nous ne pouvons toujours pas être sûrs à 100 % que c'est exact, bien que nous ayons obtenu plus de 9 après 99,9 % que nous ne pouvons réellement en compter."]], "_t")
-t("telepathic message (4)", "message télépathique (4)", "_t")
+t("telepathic message (4)", "Message télépathique (4)", "_t")
 t([[Do you know what would've happened if you hadn't stepped up to defend Kruk Pride?  The Allied Kingdoms could've gone on to keep the entire world under its thumb.  One unified army, marching under one banner, ready to eliminate us when we're reborn...  and that's assuming that a certain greater threat didn't step in first.  We don't want that, and neither do you.
 
 Deception is beneath us; if there's one thing our creation taught us, it's that respect and alliance are unnecessary for cooperation, if there's an immediate common need to be fulfilled.  We've prepared some of this machinery to enhance your abilities, and grant you new knowledge...  it will serve you well in preserving Eyal's immediate existence, and granting the Orcs a land of their own.  A land that'll have to fight to survive, fending off the Dominion, the Allied Kingdoms, the warped Mal'Rokka calling themselves demons, the Naloren remnants...  and I wouldn't want to spoil the fun by saying what other sorts of special guests are arriving.  Don't worry, we won't be giving anyone an unfair advantage; you, and they, would just stab us in the back anyway.
@@ -3677,7 +3677,7 @@ La tromperie est en dessous de nous ; s'il y a une chose que notre création nou
 La tempête arrive. Ce sera un bain de sang. Nous ne voyons aucune raison d'être présents pour cela, pas avant que le dernier homme ne soit debout, blessé et épuisé, au sommet d'un tas de cadavres. Il sera une cible facile.
 
 Vous pourriez toujours abandonner. Arrêter de vous battre. Laisser les Royaumes Alliés avoir Eyal, et être le dernier d'une longue lignée de facteurs conspirant pour empêcher notre renaissance. Sacrifier votre peuple pour "sauver Eyal" de notre présence. Vous ne le ferez pas, cependant, car vous avez quelque chose que nous n'aurons jamais : l'espoir. L'espoir que nous puissions être repoussés, que notre retour ne surviendra pas de votre vivant. Nos prédictions ne sont de toute façon pas exactes à 100 % ; qui sommes-nous pour vous enlever cet espoir ?"]], "_t")
-t("telepathic message (5)", "message télépathique (5)", "_t")
+t("telepathic message (5)", "Message télépathique (5)", "_t")
 t([[Did you wonder what happened to us?  We wouldn't give fate the satisfaction of killing us through some unlikely coincidence.  We killed ourselves - but not before planting our seeds.
 
 We accomplished a lot before we did, and we wouldn't want to have to accomplish that all over again.  Of course, if we kept that all in one place, our curse would notice it and eradicate it - so we split ourselves and our accomplishments into pieces, and obfuscated them through millenia of evolution and subtle manipulation.  You've probably met one piece of these - the body.  Strong.  Resilient.  Capable of living in any environment.  Rapidly healing.  Eternally youthful.  And very, very easy to assume control of, via psychic transfer, once we decide the time is right...  You're probably considering ordering your Pride to exterminate all the yetis you can.  Go ahead, eliminate all that free labor and see how you fare when the Dominion's using slaves and the Allied Kingdoms have ogres and dwarves.  Once again, it doesn't matter whether or not it's helping us, because it's something you need to survive.
@@ -3704,7 +3704,7 @@ Une fois que la tempête arrivera à Eyal, une fois que le conflit sera résolu.
 Et sinon ? Notre culture est partout. Nous ne pouvons pas être complètement éliminés sans tout détruire. Le destin a décidé que nous sommes une tumeur à exciser ; si nous devons être une tumeur, nous sommes maintenant une tumeur invasive. Maintenant, le destin peut décider si nous sommes une croissance bénigne ou terminalement maligne.
 
 En attendriez-vous moins des incarnations physiques de la détermination rancunière ?"]], "_t")
-t("telepathic message (6)", "message télépathique (6)", "_t")
+t("telepathic message (6)", "Message télépathique (6)", "_t")
 t([[If you would indulge us...  Next to you is a tablet that was just carved by our machines, moments before you arrived.  If our curse holds, it will be completely illegible, but if it has been lifted, it will bear our name.  A blatant, distinct word that is an undeniable mark of our existence, a sign that no matter how it may have wanted to, the universe could not forget us.  Look to your right, and learn the name of those who have far more right to exist than you do, who have fought far harder for it, and will sink their hooks so deep into reality that it must either lift them up or be dragged into the depths with them.  Learn the name feared by existence itself!
 
 #{italic}#(You look to your right, and see a tablet which has been broken into fragments.  The fragments are still arranged roughly in the right shape, and you can read a single word; another, larger fragment bears a sentence.)#{normal}#
@@ -3728,12 +3728,12 @@ DO YOU KNOW OUR NAME?#{normal}#]], [[#{italic}#(D'une manière ou d'une autre, l
 ------------------------------------------------
 section "tome-orcs/data/lore/yeti.lua"
 
-t("yeti's cave", "caverne des yétis", "newLore category")
-t("crude cave painting (1)", "peinture rupestre rudimentaire (1)", "_t")
+t("yeti's cave", "Caverne des yétis", "newLore category")
+t("crude cave painting (1)", "Peinture rupestre rudimentaire (1)", "_t")
 t("You see here a crude cave painting, depicting a drake attacking a group of yetis, as an indistinct figure watches over them.  To the right, you see a drawing of the figure attacking the drake, and the yetis cheering.", "Vous voyez ici une peinture rupestre rudimentaire, représentant un dragonnet attaquant un groupe de yétis, tandis qu'une silhouette indistincte les observe. Sur la droite, vous voyez un dessin de cette silhouette attaquant le dragonnet, et les yétis en train de jubiler.", "_t")
-t("crude cave painting (2)", "peinture rupestre rudimentaire (2)", "_t")
+t("crude cave painting (2)", "Peinture rupestre rudimentaire (2)", "_t")
 t("You see here a cave painting, depicting a giant attempting to lead some yetis away in chains, but being pulled down and mauled by other yetis.", "Vous voyez ici une peinture rupestre, représentant un géant tentant d'emmener quelques yétis enchaînés, mais se faisant renverser et mettre en pièces par d'autres yétis.", "_t")
-t("crude cave painting (3)", "peinture rupestre rudimentaire (3)", "_t")
+t("crude cave painting (3)", "Peinture rupestre rudimentaire (3)", "_t")
 t("You see here a cave painting, depicting a giant holding an object, which is projecting some sort of beam at a yeti.  The affected yeti is walking toward the giant, while other yetis are looking on in horror.", "Vous voyez ici une peinture rupestre, représentant un géant tenant un objet qui projette une sorte de rayon sur un yéti. Le yéti affecté marche vers le géant, tandis que les autres yétis regardent la scène avec horreur.", "_t")
 
 ------------------------------------------------
@@ -4044,15 +4044,15 @@ t("No medical injector available, values are indicative only.", "Aucun injecteur
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/celestial-empyreal.lua"
 
-t("celestial", "céleste", "talent category")
+t("celestial", "Céleste", "talent category")
+t("Cosmic", "Cosmique", "talent type")
+t("Energies", "Énergies", "talent type")
+t("Reflection", "Réflexion", "talent type")
+t("Void", "Néant", "talent type")
 -- texte non traduit
 --[==[
 t("Sol", "Sol", "talent type")
 t("", "", "_t")
-t("Cosmic", "Cosmic", "talent type")
-t("Energies", "Energies", "talent type")
-t("Reflection", "Reflection", "talent type")
-t("Void", "Void", "talent type")
 --]==]
 
 
@@ -4183,183 +4183,172 @@ t("Summons the starscape in the surrounding area in a radius of %d. For %d turns
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
 
-t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
-		Accuracy reduction chance increases with your Physical Power.]], [[Frappe la cible avec votre arme, infligeant %d%% dégâts. Si l'attaque touche, la Précision de la cible est réduite de %d pendant %d turns.
-		La chance de réduction de la Précision est proportionnel à votre Puissance physique.]], "tformat")
-t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
-t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
-t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
--- texte non traduit
---[==[
-t("Petrifying Gaze", "Petrifying Gaze", "talent name")
+t("Petrifying Gaze", "Regard Pétrifiant", "talent name")
 t([[Gaze at your foes and turn them to stone for %d turns.
 		Stoned creatures are unable to act or regen life, and are very brittle.
 		If a stoned creature is hit by an attack that deals more than 30%% of its life, it will shatter and be destroyed.
 		Stoned creatures are highly resistant to fire and lightning, and somewhat resistant to physical attacks.
-		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], [[Gaze at your foes and turn them to stone for %d turns.
-		Stoned creatures are unable to act or regen life, and are very brittle.
-		If a stoned creature is hit by an attack that deals more than 30%% of its life, it will shatter and be destroyed.
-		Stoned creatures are highly resistant to fire and lightning, and somewhat resistant to physical attacks.
-		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], "tformat")
-t("Gnashing Maw", "Gnashing Maw", "talent name")
-t("Sandrush", "Sandrush", "talent name")
-t("@Source@ dives in the sand!", "@Source@ dives in the sand!", "_t")
+		This spell may fail against creatures resistant to being stunned, that are specifically immune to stoning, or certain bosses.]], [[Fixez vos ennemis et transformez-les en pierre pendant %d tours.
+		Les créatures pétrifiées ne peuvent plus agir ni régénérer de vie et sont très fragiles.
+		Si une créature pétrifiée est touchée par une attaque infligeant plus de 30%% de sa vie, elle se brisera et sera détruite.
+		Les créatures pétrifiées sont hautement résistantes au feu et à la foudre, et modérément résistantes aux attaques physiques.
+		Ce sort peut échouer contre les créatures résistantes à l'assommement, celles spécifiquement immunisées à la pétrification, ou certains boss.]], "tformat")
+t("Gnashing Maw", "Gueule Tranchante", "talent name")
+t([[Hits the target with your weapon, doing %d%% damage. If the attack hits, the target's Accuracy is reduced by %d for %d turns.
+		Accuracy reduction chance increases with your Physical Power.]], [[Frappe la cible avec votre arme, infligeant %d%% dégâts. Si l'attaque touche, la Précision de la cible est réduite de %d pendant %d turns.
+		La chance de réduction de la Précision est proportionnel à votre Puissance physique.]], "tformat")
+t("Sandrush", "Ruée de Sable", "talent name")
+t("@Source@ dives in the sand!", "@Source@ plonge dans le sable !", "_t")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 t([[Dive into the sand and rush towards your target at up to range %d, gaining a free attack if you reach it.
 		At the exit point, up to 9 sand pits will appear that last for %d turns (based on your Strength).
-		You must rush from at least 2 tiles away.]], [[Dive into the sand and rush towards your target at up to range %d, gaining a free attack if you reach it.
-		At the exit point, up to 9 sand pits will appear that last for %d turns (based on your Strength).
-		You must rush from at least 2 tiles away.]], "tformat")
-t("Ritch Larva Infect", "Ritch Larva Infect", "talent name")
-t("@Source@ stings with her ovipositor!", "@Source@ stings with her ovipositor!", "_t")
+		You must rush from at least 2 tiles away.]], [[Plongez dans le sable et foncez vers votre cible jusqu'à une portée de %d, gagnant une attaque gratuite si vous l'atteignez.
+		Au point de sortie, jusqu'à 9 puits de sable apparaîtront et dureront %d tours (basé sur votre Force).
+		Vous devez foncer depuis au moins 2 cases de distance.]], "tformat")
+t("Ritch Larva Infect", "Infection de Larve de Rithe", "talent name")
+t("@Source@ stings with her ovipositor!", "@Source@ pique avec son ovipositeur !", "_t")
 t([[Sting the target with your ovipositor, injecting %d larvae into it to finish their hatching process.
 		Over a 5 turn gestation period, the larvae will feed on the victim internally, dealing %0.2f to %0.2f physical damage each turn (increasing as they grow).
 		After the gestation period is complete, each larva will rip itself free of its host, dealing %0.2f physical and %0.2f fire damage.
-		]], [[Sting the target with your ovipositor, injecting %d larvae into it to finish their hatching process.
-		Over a 5 turn gestation period, the larvae will feed on the victim internally, dealing %0.2f to %0.2f physical damage each turn (increasing as they grow).
-		After the gestation period is complete, each larva will rip itself free of its host, dealing %0.2f physical and %0.2f fire damage.
-		]], "tformat")
-t("Slumbering...", "Slumbering...", "talent name")
-t("@Source@ enters a deep slumber.", "@Source@ enters a deep slumber.", "_t")
-t("#STEEL_BLUE#%s slumbers...", "#STEEL_BLUE#%s slumbers...", "saySimple")
-t("#CRIMSON#%s awakens!", "#CRIMSON#%s awakens!", "saySimple")
-t("The Dead God slumbers. For now.", "The Dead God slumbers. For now.", "_t")
-t("Tentacle Spawn", "Tentacle Spawn", "talent name")
-t("@Source@ spawns a tentacle near @target@.", "@Source@ spawns a tentacle near @target@.", "_t")
-t("#ORCHID#%s summons a %s...", "#ORCHID#%s summons a %s...", "logCombat")
-t("#ORCHID#%s summons a %s...", "#ORCHID#%s summons a %s...", "saySimple")
-t("The Dead God wishes to tickle you...", "The Dead God wishes to tickle you...", "_t")
-t("Curse of Amakthel", "Curse of Amakthel", "talent name")
+		]], [[Piquez la cible avec votre ovipositeur, injectant %d larve(s) pour terminer leur processus d'éclosion.
+		Sur une période de gestation de 5 tours, les larves se nourriront de la victime de l'intérieur, infligeant %0.2f à %0.2f dégâts physiques par tour (augmentant à mesure qu'elles grandissent).
+		Une fois la période de gestation terminée, chaque larve s'extirpera de son hôte, infligeant %0.2f dégâts physiques et %0.2f dégâts de feu.]], "tformat")
+t("Slumbering...", "Sommeil...", "talent name")
+t("@Source@ enters a deep slumber.", "@Source@ entre dans un sommeil profond.", "_t")
+t("#STEEL_BLUE#%s slumbers...", "#STEEL_BLUE#%s sommeille...", "saySimple")
+t("#CRIMSON#%s awakens!", "#CRIMSON#%s se réveille !", "saySimple")
+t("The Dead God slumbers. For now.", "Le Dieu Mort sommeille. Pour l'instant.", "_t")
+t("Tentacle Spawn", "Invocation de Tentacule", "talent name")
+t("@Source@ spawns a tentacle near @target@.", "@Source@ fait apparaître un tentacule près de @target@.", "_t")
+t("You cannot summon; you are suppressed!", "Vous ne pouvez pas invoquer ; vous êtes opprimé !", "logPlayer")
+t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("#ORCHID#%s summons a %s...", "#ORCHID#%s invoque un %s...", "logCombat")
+t("#ORCHID#%s summons a %s...", "#ORCHID#%s invoque un %s...", "saySimple")
+t("The Dead God wishes to tickle you...", "Le Dieu Mort souhaite vous chatouiller...", "_t")
+t("Curse of Amakthel", "Malédiction d'Amakthel", "talent name")
 t([[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
-		]], [[Create a circle of cursed ground (radius %d) for %d turns. Any foes inside will be cursed, all new negative effects on them will have their duration doubled.
-		]], "tformat")
-t("Temporal Ripples", "Temporal Ripples", "talent name")
+		]], "Crée un cercle de sol maudit (rayon %d) pendant %d tours. Tous les ennemis à l'intérieur seront maudits, et tous les nouveaux effets négatifs qui les affecteront verront leur durée doublée.", "tformat")
+t("Temporal Ripples", "Ondulations Temporelles", "talent name")
 t([[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
-		]], [[Creates a circle of radius %d of altered time for %d turns. Any damage your foes take while standing in it will heal the attacker for 200%% of the damage dealt.
-		]], "tformat")
-t("Saw Storm", "Saw Storm", "talent name")
+		]], "Crée un cercle de rayon %d de temps altéré pendant %d tours. Tous les dégâts que vos ennemis subissent en se tenant à l'intérieur soigneront l'attaquant de 200%% des dégâts infligés.", "tformat")
+t("Saw Storm", "Tempête de Scies", "talent name")
 t([[Summon a storm of swirling sawblades to slice your foes, inflicting %d physical damage and bleeding to anyone who approaches for %d turns.
-		The damage and duration will increase with your Mindpower.]], [[Summon a storm of swirling sawblades to slice your foes, inflicting %d physical damage and bleeding to anyone who approaches for %d turns.
-		The damage and duration will increase with your Mindpower.]], "tformat")
-t("Razor Saw", "Razor Saw", "talent name")
+		The damage and duration will increase with your Mindpower.]], [[Invoque une tempête de lames de scie tourbillonnantes pour trancher vos ennemis, infligeant %d dégâts physiques et un saignement à quiconque s'approche pendant %d tours.
+		Les dégâts et la durée augmenteront avec votre Puissance Mentale.]], "tformat")
+t("Razor Saw", "Scie Rasoir", "talent name")
 t([[Launches a sawblade with intense power doing %0.2f physical damage to all targets in line.
-		The damage will increase with Mindpower]], [[Launches a sawblade with intense power doing %0.2f physical damage to all targets in line.
-		The damage will increase with Mindpower]], "tformat")
-t("Rocket Dash", "Rocket Dash", "talent name")
-t("@Source@ rockets forward!", "@Source@ rockets forward!", "_t")
+		The damage will increase with Mindpower]], [[Lance une lame de scie avec une puissance intense infligeant %0.2f dégâts physiques à toutes les cibles en ligne.
+		Les dégâts augmenteront avec la Puissance Mentale]], "tformat")
+t("Rocket Dash", "Ruée de Fusée", "talent name")
+t("@Source@ rockets forward!", "@Source@ se propulse vers l'avant !", "_t")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there.
 		This attack does 130% weapon damage.
-		You must dash from at least 2 tiles away.]], [[Dash forward using rockets.
-		If the spot is reached and occupied, you will perform a free melee attack against the target there.
-		This attack does 130% weapon damage.
-		You must dash from at least 2 tiles away.]], "_t")
-t("Mind Controlled Yeti", "Mind Controlled Yeti", "talent name")
---]==]
-
+		You must dash from at least 2 tiles away.]], [[Foncez en avant en utilisant des fusées.
+		Si l'emplacement est atteint et occupé, vous effectuerez une attaque de mêlée gratuite contre la cible qui s'y trouve.
+		Cette attaque inflige 130% dégâts d'arme.
+		Vous devez foncer depuis au moins 2 cases de distance.]], "_t")
+t("Mind Controlled Yeti", "Yéti Sous Contrôle Mental", "talent name")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/objects.lua"
 
 t("steam", "vapeur", "talent category")
 t("object techniques", "techniques d'objets", "talent type")
+t("Steam powers of the various objects of the world.", "Pouvoirs de vapeur des différents objets du monde.", "_t")
 t("Overgrowth", "Sur-Croissance", "talent name")
-t("%s resists!", "%s résiste !", "logSeen")
-t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
--- texte non traduit
---[==[
-t("Steam powers of the various objects of the world.", "Steam powers of the various objects of the world.", "_t")
 t([[Instantly grow a moss circle of radius %d at target area.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
 		The moss lasts %d turns.
 		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], [[Instantly grow a moss circle of radius %d at target area.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
-		The moss lasts %d turns.
-		Moss talents are instant but place all other moss talents on cooldown for 3 turns.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Ceasefire", "Ceasefire", "talent name")
-t("You require at least a steamgun for this talent.", "You require at least a steamgun for this talent.", "logPlayer")
+		The damage will increase with your Mindpower.]], [[Fait immédiatement pousser un cercle de mousse de rayon %d sur la zone ciblée.
+		À chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi dans son rayon.
+		Cette mousse est très épaisse et collante, faisant que tous les ennemis qui la traversent voient leur vitesse de déplacement réduite de %d%% et ont %d%% de chance d'être immobilisés au sol pendant 4 tours.
+		La mousse dure %d tours.
+		Les talents de mousse sont instantanés mais placent tous les autres talents de mousse en rechargement pendant 3 tours.
+		Les dégâts sont proportionnels à votre Puissance mentale.]], "tformat")
+t("Ceasefire", "Cessez-le-feu", "talent name")
+t("You require at least a steamgun for this talent.", "Vous avez besoin d'au moins un pistolet à vapeur pour ce talent.", "logPlayer")
+t("%s resists!", "%s résiste !", "logSeen")
 t([[You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns.
-		The daze chance increases with your Steampower.]], [[You fire an incredibly potent shot at an enemy, doing %d%% damage and dazing them for %d turns.
-		The daze chance increases with your Steampower.]], "tformat")
-t("Surekill", "Surekill", "talent name")
+		The daze chance increases with your Steampower.]], [[Vous tirez un coup incroyablement puissant sur un ennemi, infligeant %d%% dégâts et l'étourdissant pendant %d tours.
+		La chance d'étourdissement est proportionnel à votre Puissance de vapeur.]], "tformat")
+t("Surekill", "Mort Assurée", "talent name")
 t([[You fire an exceptionally lethal shot at an enemy, doing %d%% damage.
-Damage dealt by this talent is increased by half your critical multiplier, if doing so would kill the target.]], [[You fire an exceptionally lethal shot at an enemy, doing %d%% damage.
-Damage dealt by this talent is increased by half your critical multiplier, if doing so would kill the target.]], "tformat")
-t("Rocket Smash", "Rocket Smash", "talent name")
-t("@Source@ rockets forward!", "@Source@ rockets forward!", "_t")
+Damage dealt by this talent is increased by half your critical multiplier, if doing so would kill the target.]], [[Vous tirez un coup exceptionnellement léthal sur un ennemi, infligeant %d%% dégâts.
+Les dégâts de ce talent sont augmentés de la moitié de votre multiplicateur de coup critique, si cela devait tuer la cible.]], "tformat")
+t("Rocket Smash", "Fracas à Fusée", "talent name")
+t("@Source@ rockets forward!", "@Source@ se propulse vers l'avant !", "_t")
+t("You are too close to build up momentum!", "Vous êtes trop proche pour prendre de l'élan !", "logPlayer")
 t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with.
 		This attack does 180% weapon damage.
-		You must dash from at least 2 tiles away.]], [[Dash forward using rockets.
-		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with.
-		This attack does 180% weapon damage.
-		You must dash from at least 2 tiles away.]], "_t")
-t("Laser Powered Smash", "Laser Powered Smash", "talent name")
-t("@Source@ unleashes the power of the Gloryhammer!", "@Source@ unleashes the power of the Gloryhammer!", "_t")
+		You must dash from at least 2 tiles away.]], [[Vous propulsez vers l'avant à l'aide de fusées.
+		Si l'emplacement atteint est occupé, vous effectuez une attaque de mêlée gratuite contre la cible s'y trouvant et la repoussez de 4 cases, ainsi que tout être avec lequel elle entre en collision.
+		Cette attaque inflige 180%% dégâts d'arme.
+		Vous devez vous élancer depuis au moins 2 cases de distance.]], "_t")
+t("Laser Powered Smash", "Fracas à Laser", "talent name")
+t("@Source@ unleashes the power of the Gloryhammer!", "@Source@ déchaîne la puissance du Marteau de Gloire !", "_t")
 t([[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1.
-		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], [[Unleash the ultimate power of the Gloryhammer to all foes around in radius 1.
-		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], "_t")
---]==]
-
+		This attack creates an explosion of radius 1 around every affected target, dealing 50% weapon damage and blinding them for 4 turns.]], [[Déchaîne la puissance ultime du Marteau de Gloire sur tous les ennemis dans un rayon de 1.
+		Cette attaque crée une explosion de rayon 1 autour de chaque cible affectée, infligeant 50%% dégâts d'arme et les aveuglant pendant 4 tours.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/races.lua"
 
 t("The various racial bonuses a character can have.", "Les différents bonus raciaux qu'un personnage peut posséder.", "_t")
+t("Algid Rage", "Rage Algide", "talent name")
+t([[Your yeti is attuned to the cold climates.
+		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
+		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
+		The bonus will increase with your Willpower.]], [[Votre yéti est acclimaté aux climats froids.
+		Pendant 5 tours, tous les dégâts que vous infligez ont %d%% de chance d'emprisonner la cible dans un bloc de glace pendant 3 tours.
+		Tant que la Rage Algide est active, vous percez facilement les blocs de glace, réduisant les dégâts qu'ils absorbent de 50%%.
+		Le bonus est proportionnel à votre Volonté.]], "tformat")
+t("Thick Fur", "Fourrure Épaisse", "talent name")
+t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "La fourrure de votre yéti agit comme un bouclier, procurant %d%% de résistance au froid, %d%% de résistance physique et %d de sauvegarde magique.", "tformat")
+t("Resilient Body", "Corps Résilient", "talent name")
+t([[Your yeti's body is very resilient to detrimental effects.
+		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
+		This effect heals for %d and can only occur up to 3 times per turn.
+		It increases with your Constitution stat.]], [[Le corps de votre yéti est très résistant aux effets négatifs.
+		Chaque fois que vous êtes touché par un effet négatif physique, magique ou mental, votre corps réagit par une bouffée de soin.
+		Cet effet soigne de %d et ne peut se produire que jusqu'à 3 fois par tour.
+		Il est proportionnel à votre statistique de Constitution.]], "tformat")
+t("Mindwave", "Explosion Mentale", "talent name")
+t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
+		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
+		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[Vous grillez volontairement quelques parties du cerveau de votre yéti pour déclencher une énorme explosion psionique en cône de rayon %d.
+		Tout ennemi pris dans l'explosion subira %0.2f dégâts mentaux et sera confus (35%% de puissance) pendant %d tours.
+		Les dégâts sont proportionnels à votre Constitution et la puissance d'application sera la plus élevée entre votre puissance mentale, magique ou physique.]], "tformat")
+t("whitehooves", "sabots-blancs", "talent type")
 t("Whitehooves", "Sabots-Blancs", "talent name")
+t([[Improves your undead body, increasing Strength and Magic by %d.
+		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
+		Each turn spent not moving you lose a charge.]], [[Améliore votre corps mort-vivant, augmentant la Force et la Magie de %d.
+		Chaque fois que vous vous déplacez, vous gagnez une charge (jusqu'à %d) d'Élan de Mort, augmentant votre vitesse de déplacement de 20%%.
+		A chaque tour passé sans vous déplacer, vous perdez une charge.]], "tformat")
+t("Dead Hide", "Peau Morte", "talent name")
+t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "Votre peau de mort-vivant se durcit sous le stress. Chaque charge d'Élan de Mort augmente également toutes les résistances aux dégâts fixes de %d.", "tformat")
+t("Lifeless Rush", "Ruée Sans Vie", "talent name")
+t([[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
+		The effect will only start to decrease after %d turns.
+		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[Vous invoquez vos énergies de mort-vivant pour accumuler instantanément l'Élan de Mort au maximum de charges possible.
+		L'effet ne commencera à décroître qu'après %d tours.
+		De plus, l'effet d'Élan de Mort accorde également +%d%% à tous les dégâts par charge.]], "tformat")
+t("Essence Drain", "Drain d'Essence", "talent name")
+t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
+		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
+		Only usable when you have the death momentum effect.
+		The damage scales with your Magic stat.]], [[Vous envoyez une vague d'obscurité sur votre ennemi, infligeant %0.2f dégâts d'obscurité.
+		L'obscurité drainera une partie de son essence vitale (fonctionne uniquement sur des cibles vivantes) pour augmenter la durée avant que la prochaine charge d'Élan de Mort ne soit utilisée de %d.
+		Utilisable uniquement lorsque vous possédez l'effet Élan de Mort.
+		Les dégâts sont proportionnels à votre statistique de Magie.]], "tformat")
 -- texte non traduit
 --[==[
 t("race", "race", "talent category")
 t("yeti", "yeti", "talent type")
-t("Algid Rage", "Algid Rage", "talent name")
-t([[Your yeti is attuned to the cold climates.
-		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
-		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
-		The bonus will increase with your Willpower.]], [[Your yeti is attuned to the cold climates.
-		For 5 turns all damage you deal has %d%% chance to encase the target in an iceblock for 3 turns.
-		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
-		The bonus will increase with your Willpower.]], "tformat")
-t("Thick Fur", "Thick Fur", "talent name")
-t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "tformat")
-t("Resilient Body", "Resilient Body", "talent name")
-t([[Your yeti's body is very resilient to detrimental effects.
-		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
-		This effect heals for %d and can only occur up to 3 times per turn.
-		It increases with your Constitution stat.]], [[Your yeti's body is very resilient to detrimental effects.
-		Each time you are hit by a physical, magical, or mental detrimental effect your body reacts with a burst of healing.
-		This effect heals for %d and can only occur up to 3 times per turn.
-		It increases with your Constitution stat.]], "tformat")
-t("Mindwave", "Mindwave", "talent name")
-t([[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
-		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
-		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], [[You willingly fry a few parts of your yeti's brain to trigger a huge psionic blast in cone of radius %d.
-		Any foes caught in the blast will suffer %0.2f mind damage and be confused (35%% power) for %d turns.
-		The damage will increase with your Constitution and the apply power will be the highest of your mind, spell, or physical power.]], "tformat")
-t("whitehooves", "whitehooves", "talent type")
-t([[Improves your undead body, increasing Strength and Magic by %d.
-		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
-		Each turn spent not moving you lose a charge.]], [[Improves your undead body, increasing Strength and Magic by %d.
-		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
-		Each turn spent not moving you lose a charge.]], "tformat")
-t("Dead Hide", "Dead Hide", "talent name")
-t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "tformat")
-t("Lifeless Rush", "Lifeless Rush", "talent name")
-t([[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
-		The effect will only start to decrease after %d turns.
-		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], [[You summon your undead energies to instantly build up death momentum to its maximum possible charges.
-		The effect will only start to decrease after %d turns.
-		In addition, the death momentum effect also grants +%d%% to all damage per charge.]], "tformat")
-t("Essence Drain", "Essence Drain", "talent name")
-t([[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
-		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
-		Only usable when you have the death momentum effect.
-		The damage scales with your Magic stat.]], [[You send a wave of darkness at your foe, dealing %0.2f darkness damage.
-		The darkness will drain a part of its life essence (only works on living targets) to increase the duration before the next charge of death momentum is used by %d.
-		Only usable when you have the death momentum effect.
-		The damage scales with your Magic stat.]], "tformat")
 --]==]
 
 
@@ -4482,14 +4471,14 @@ t([[While inside a psionic fog the quantum state of space is warped by your powe
 section "tome-orcs/data/talents/psionic/psionic.lua"
 
 t("psionic", "psionique", "talent category")
+t("Harness steam energies to power your own mind.", "Exploitez les énergies de la vapeur pour alimenter votre propre esprit.", "_t")
+t("action at a distance", "Agir à Distance", "talent type")
+t("Focus your mental energies to make things happen. Or combust.", "Concentrez vos énergies mentales pour faire arriver des choses. Ou exploser.", "_t")
+t("psionic fog", "Brouillard Psionique", "talent type")
+t("Psionically manipulate steam to harass your foes and protect yourself.", "Manipulez psioniquement la vapeur pour harceler vos ennemis et vous protéger.", "_t")
 -- texte non traduit
 --[==[
 t("gestalt", "gestalt", "talent type")
-t("Harness steam energies to power your own mind.", "Harness steam energies to power your own mind.", "_t")
-t("action at a distance", "action at a distance", "talent type")
-t("Focus your mental energies to make things happen. Or combust.", "Focus your mental energies to make things happen. Or combust.", "_t")
-t("psionic fog", "psionic fog", "talent type")
-t("Psionically manipulate steam to harass your foes and protect yourself.", "Psionically manipulate steam to harass your foes and protect yourself.", "_t")
 --]==]
 
 
@@ -4636,20 +4625,16 @@ t([[After casting a technomancy spell you store some of its energies that you ca
 section "tome-orcs/data/talents/spells/spells.lua"
 
 t("spell", "sort", "talent category")
-t("undead drake", "dragonnet mort-vivant", "talent type")
--- texte non traduit
---[==[
-t("Take on the defining aspects of an Undead Drake.", "Take on the defining aspects of an Undead Drake.", "_t")
-t("galvanic technomancy", "galvanic technomancy", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "_t")
-t("terrene technomancy", "terrene technomancy", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "_t")
-t("occult technomancy", "occult technomancy", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "_t")
-t("other technomancy", "other technomancy", "talent type")
-t("Combine the power of steamtech and arcane forces to destroy your foes.", "Combine the power of steamtech and arcane forces to destroy your foes.", "_t")
---]==]
-
+t("undead drake", "Aspect de Dragon Mort-Vivant", "talent type")
+t("Take on the defining aspects of an Undead Drake.", "Adoptez les caractéristiques d'un Dragon Mort-Vivant.", "_t")
+t("galvanic technomancy", "Technomancie Galvanique", "talent type")
+t("Combine the power of steamtech and arcane forces to destroy your foes with fire and lightning.", "Combinez la puissance de la vapotech et des forces arcaniques pour détruire vos ennemis avec le feu et la foudre.", "_t")
+t("terrene technomancy", "Technomancie Terrène", "talent type")
+t("Combine the power of steamtech and arcane forces to destroy your foes with earth and water.", "Combinez la puissance de la vapotech et des forces arcaniques pour détruire vos ennemis avec la terre et l'eau.", "_t")
+t("occult technomancy", "Technomancie Occulte", "talent type")
+t("Combine the power of steamtech and arcane forces to destroy your foes with arcane and time.", "Combinez la puissance de la vapotech et des forces arcaniques pour détruire vos ennemis avec l'arcane et le temps.", "_t")
+t("other technomancy", "Autre Technomancie", "talent type")
+t("Combine the power of steamtech and arcane forces to destroy your foes.", "Combinez la puissance de la vapotech et des forces arcaniques pour détruire vos ennemis.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/terrene-technomancy.lua"
@@ -4732,7 +4717,7 @@ t([[You breathe a wave of deathly miasma in a cone of radius %d. Any target caug
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/artillery.lua"
 
-
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Rocket Pod", "Rocket Pod", "talent name")
@@ -4746,7 +4731,6 @@ The fire damage will increase with your Steampower.]], [[Augment your rockets wi
 Targets affected by this burning that fall below 25%% life enter a state of panic, giving them a %d%% chance each turn to flee in terror from you.
 The fire damage will increase with your Steampower.]], "tformat")
 t("Lock On", "Lock On", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t([[Lock on to your target with your rocket pod for 5 turns.
 While locked on your regular rocket pod attacks are disabled. However, each turn you automatically fire a rocket barrage dealing %d%% increased damage at your target.
 Marked targets also lose %d defense and cannot benefit from concealment or evasion.
@@ -5061,7 +5045,7 @@ t([[You temporarily overcharge the saw motors, increasing the effective talent l
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/chemical-warfare.lua"
 
-
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Miasma Engine", "Miasma Engine", "talent name")
@@ -5077,7 +5061,6 @@ t([[You repurpose your steam engine to emit a cloud of toxic, corrosive chemical
 		Miasma duration does not increase on re-apply.
 		When a creature survives the miasma it becomes immune to it for 9 turns.]], "tformat")
 t("Caustic Dispersal", "Caustic Dispersal", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t("You fire a toxic shell that explodes in radius %d, dealing %d%% weapon damage as acid and leaving behind a cloud of miasma for %d turns that inherits all effects from your Miasma Engine.", "You fire a toxic shell that explodes in radius %d, dealing %d%% weapon damage as acid and leaving behind a cloud of miasma for %d turns that inherits all effects from your Miasma Engine.", "tformat")
 t("Smogscreen", "Smogscreen", "talent name")
 t("You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "tformat")
@@ -5175,7 +5158,7 @@ t("Enhance your grenade with an electrical charge, causing it to deal lightning 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/dread.lua"
 
-
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Mechanical Arms", "Mechanical Arms", "talent name")
@@ -5185,7 +5168,6 @@ t([[Using psionic forces you maintain in place on your back two giant horrific m
 		Each basic turn (as if you had 100%% speed) they can automatically attack up to 2 foes within range 3 with a mindstar attack doing %d%% weapon damage.
 		Creatures harassed by the mechanical arms have their damage reduced by %d%% for 5 turns.]], "tformat")
 t("Lucid Shot", "Lucid Shot", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t([[Fire a powerful shot at a foe doing %d%% weapon damage.
 		If the creature, or any creatures in radius 3, was affected by a fear or nightmare effect it violently wakes up, shaking it off only to find itself disoriented, unable to discern friends from foes for %d turns.]], [[Fire a powerful shot at a foe doing %d%% weapon damage.
 		If the creature, or any creatures in radius 3, was affected by a fear or nightmare effect it violently wakes up, shaking it off only to find itself disoriented, unable to discern friends from foes for %d turns.]], "tformat")
@@ -5356,6 +5338,7 @@ The healing and damage will increase with your Steampower.]], "tformat")
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gunner-training.lua"
 
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 t("%s resists!", "%s résiste !", "logSeen")
 -- texte non traduit
 --[==[
@@ -5364,7 +5347,6 @@ t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamgun
 		Also, increases your reload rate by %d.]], [[Increases weapon damage by %d%% and Physical Power by 30 when using steamguns.
 		Also, increases your reload rate by %d.]], "tformat")
 t("Double Shots", "Double Shots", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
 Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns.
 		The stun chance increases with your Steampower.]], [[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
@@ -5429,6 +5411,8 @@ t([[Your cunning and dexterity allow you to fire incredible trick shots that can
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/heavy-weapons.lua"
 
+t("Flamethrower", "Lance-Flammes", "talent name")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 t("You are disarmed.", "Vous êtes désarmé.", "logPlayer")
 t("%s resists the disarm!", "%s résiste au désarmement !", "logSeen")
 t("%s resists the stunning blow!", "%s résiste au coup assommant !", "logSeen")
@@ -5453,8 +5437,6 @@ t([[You gain the ability to equip one of 3 heavy weapons listed below, temporari
 		The damage dealt by your Heavy Weapons is based off your currently equipped ammunition, and are treated as Steamguns for the purposes of weapon mastery talents and other effects.
 		Firing your Steamgun will immediately unequip your heavy weapon.		
 		]], "tformat")
-t("Flamethrower", "Flamethrower", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t("You require heavy ammunition to use this talent.", "You require heavy ammunition to use this talent.", "logPlayer")
 t([[You replace your steamgun and attack with an incendiary device that projects streams of liquid flame at your foes.
 		
@@ -5536,6 +5518,7 @@ section "tome-orcs/data/talents/steam/inscriptions.lua"
 t("\
 Its effects scale with your %s stat.", "\
 Ses effets sont proportionnels à votre attribut %s.", "tformat")
+t("This medical injector will now be used first if available when using medical salves.", "Cet injecteur médical sera désormais utilisé en priorité, si disponible, lors de l'utilisation d'onguents médicaux.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Implant: Steam Generator", "Implant: Steam Generator", "talent name")
@@ -5545,7 +5528,6 @@ t([[Steam generator that permanently creates %0.1f steam per turn.
 t("steam %d", "steam %d", "tformat")
 t("Implant: Medical Injector", "Implant: Medical Injector", "talent name")
 t("#LIGHT_BLUE#Medical injector selected to be used first by salves.", "#LIGHT_BLUE#Medical injector selected to be used first by salves.", "saySimple")
-t("This medical injector will now be used first if available when using medical salves.", "This medical injector will now be used first if available when using medical salves.", "logPlayer")
 t("Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "Medical injector allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "tformat")
 t("efficiency %d%% / cooldown %d%%", "efficiency %d%% / cooldown %d%%", "tformat")
 --]==]
@@ -5589,11 +5571,13 @@ section "tome-orcs/data/talents/steam/mecharachnid.lua"
 
 t("Link to the summoner.", "Lien avec l'invocateur.", "_t")
 t("Self-destruction", "Auto-destruction", "talent name")
+t("mecharachnid", "Mécaraigné", "_t")
 t("%s (servant of %s)", "%s (serviteur de %s)", "tformat")
 t("Not enough space to invoke!", "Pas assez d'espace pour l'invocation !", "logPlayer")
 t("Assault", "Assaut", "_t")
 t("steamtech", "vapotech", "talent category")
 t("#Source# provokes #Target# to attack it.", "#Source# provoque #Target# pour qu'il l'attaque.", "logCombat")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("disarmed", "disarmed", "_t")
@@ -5609,7 +5593,6 @@ t([[The mecharachnid self-destructs, destroying itself and generating a blast of
 t("A heavily armored mechachnical spider, armed to the teeth with advanced weaponry.", "A heavily armored mechachnical spider, armed to the teeth with advanced weaponry.", "_t")
 t("Your mecharachnid is out of sight; you cannot establish direct control.", "Your mecharachnid is out of sight; you cannot establish direct control.", "logPlayer")
 t("Mecharachnid", "Mecharachnid", "talent name")
-t("mecharachnid", "mecharachnid", "_t")
 t("mecharachnid (servant of %s)", "mecharachnid (servant of %s)", "tformat")
 t("Your mecharachnid is not dead.", "Your mecharachnid is not dead.", "logPlayer")
 t([[You build a mighty mechanical arachnid to assist you in combat. You can equip the mecharachnid with 2 steamguns, ammunition, and armor of your choice.
@@ -5674,7 +5657,6 @@ t([[Improved power output increases the speed of your projectiles by %d%%, criti
 		In addition, you can instantly activate this talent to gain a sudden burst of speed, moving to a tile in range %d.]], [[Improved power output increases the speed of your projectiles by %d%%, critical damage by %d%%, and allows you to automatically reload each turn.
 		In addition, you can instantly activate this talent to gain a sudden burst of speed, moving to a tile in range %d.]], "tformat")
 t("Haywire Missiles", "Haywire Missiles", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t([[Fires a barrage of charged missiles from your tail-mounted steamgun at a radius %d area, dealing %d%% steamgun damage as lightning as well as dazing those within for 2 turns.
 		The daze chance increases with your Accuracy.]], [[Fires a barrage of charged missiles from your tail-mounted steamgun at a radius %d area, dealing %d%% steamgun damage as lightning as well as dazing those within for 2 turns.
 		The daze chance increases with your Accuracy.]], "tformat")
@@ -5721,295 +5703,289 @@ t("When you use a shoot class talent to hit a creature affected by bloodstar an 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/other.lua"
 
-t("Medical Urgency Vest", "Gilet d'urgence médicale", "talent name")
+t("Medical Injector", "Injecteur Médical", "talent name")
+t("Medical Urgency Vest", "Gilet d'Urgence Médicale", "talent name")
+t("#LIGHT_BLUE#Medical Urgency Vest selected to be used first by salves.", "#LIGHT_BLUE#Gilet d'urgence médicale sélectionné pour être utilisé en priorité avec les onguents.", "saySimple")
+t("This medical injector will now be used first if available when using medical salves.", "Cet injecteur médical sera désormais utilisé en priorité, si disponible, lors de l'utilisation d'onguents médicaux.", "logPlayer")
+t("The medical urgency vest allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "Le gilet d'urgence médicale permet d'utiliser des soins thérapeutiques avec %d%% d'efficacité et un modificateur de recharge de %d%%.", "tformat")
+t("Life Support", "Assistance Vitale", "talent name")
+t("#LIGHT_BLUE#Life Support Suit selected to be used first by salves.", "#LIGHT_BLUE#Combinaison d'Assistance Vitale sélectionné pour être utilisé en priorité avec les onguents.", "saySimple")
+t("The life support suit allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "La Combinaison d'Assistance Vitale permet d'utiliser des soins thérapeutiques avec %d%% d'efficacité et un modificateur de recharge de %d%%.", "tformat")
+t("Create Tinker", "Créer une Babiole", "talent name")
+t("Allows you to create tinkers.", "Vous permet de créer des babioles.", "_t")
+t("Weapon Automaton: One Handed", "Automate Armé : Une Main", "talent name")
+t("You cannot use %s without a one handed melee weapon in your inventory!", "Vous ne pouvez pas utiliser %s sans une arme de corps à corps à une main dans votre inventaire !", "logPlayer")
+t("Select a weapon for your Automaton", "Sélectionnez une arme pour votre Automate", "_t")
+t("Weapon Automaton: %s", "Automate Armé : %s", "tformat")
+t("An Automaton wielding a chosen weapon.", "Un automate maniant une arme choisie.", "_t")
+t("#F53CBE#%s runs out of power.", "#F53CBE#%s manque d'énergie.", "logSeen")
 t("Summon", "Invocation", "_t")
+t([[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
+		]], "Déploie un Automate Armé basé sur un objet de corps à corps à une main sélectionné. L'Automate maniera l'arme sélectionnée et la laissera tomber lorsqu'il expirera ou sera détruit. En dehors de l'arme sélectionnée, l'Automate évolue selon les niveaux de talent de Babiole, vos propres caractéristiques, et d'autres éléments qui seront décrits dans cette info-bulle à un moment donné.", "tformat")
 t("Hand Cannon", "Canon à Main", "talent name")
+t("You have no ammo!", "Vous n'avez pas de munitions !", "logPlayer")
+t([[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tinker is made of voratun you will fire an additional shot.
+			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], [[Tire votre munition sur un ennemi à portée %d pour %d%% dégâts d'arme. Si cette babiole est faite de voratun, vous tirez un coup supplémentaire.
+			Ce tir est une attaque de corps à corps à distance mais déclenche également les effets à distance de votre munition.]], "tformat")
 t("Fatal Attractor", "Attracteur Fatal", "talent name")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
-t("Rocket Boots", "Bottes-Fusées", "talent name")
-t("Iron Grip", "Poigne de Fer", "talent name")
-t("Spring Grapple", "Grappin à Ressort", "talent name")
-t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
-t("Toxic Cannister Launcher", "Lance-Cylindre Toxique", "talent name")
-t("Steam Powered Armour", "Armure à Vapeur", "talent name")
-t("Viral Needlegun", "Fusil à Aiguilles Viral", "talent name")
-t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
-t("Shocking Touch", "Toucher Choquant", "talent name")
-t("Flash Powder", "Poudre Aveuglante", "talent name")
-t("%s resists the blinding light!", "%s résiste à la lumière aveuglante !", "logSeen")
-t("Itching Powder", "Poudre Grattante", "talent name")
-t("Thunder Grenade", "Grenade Tonnerre", "talent name")
-t("Voltaic Sentry", "Sentinelle Voltaïque", "talent name")
-t("Explosive Shell", "Munition Explosive", "talent name")
-t("Flare Shell", "Munition Éclairante", "talent name")
-t("Solid Shell", "Munition Solide", "talent name")
-t("%s is knocked back!", "%s est repoussé !", "logSeen")
-t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
-t("Saw Shell", "Munition Scie", "talent name")
-t("Hook Shell", "Munition à Crochet", "talent name")
-t("%s resists the pull!", "%s résiste à l'attraction !", "logSeen")
-t("Magnetic Shell", "Munition Magnétique", "talent name")
-t("Voltaic Shell", "Munition Voltaïque", "talent name")
-t("Antimagic Shell", "Munition Antimagique", "talent name")
-t("Botanical Shell", "Munition Botanique", "talent name")
-t("Corrosive Shell", "Munition Corrosive", "talent name")
-t("Toxic Shell", "Munition Toxique", "talent name")
-t("Moss Tread", "Foulée Moussue", "talent name")
-t("Arcane Dynamo", "Dynamo Arcanique", "talent name")
--- texte non traduit
---[==[
-t("Medical Injector", "Medical Injector", "talent name")
-t("#LIGHT_BLUE#Medical Urgency Vest selected to be used first by salves.", "#LIGHT_BLUE#Medical Urgency Vest selected to be used first by salves.", "saySimple")
-t("This medical injector will now be used first if available when using medical salves.", "This medical injector will now be used first if available when using medical salves.", "logPlayer")
-t("The medical urgency vest allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "The medical urgency vest allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "tformat")
-t("Life Support", "Life Support", "talent name")
-t("#LIGHT_BLUE#Life Support Suit selected to be used first by salves.", "#LIGHT_BLUE#Life Support Suit selected to be used first by salves.", "saySimple")
-t("The life support suit allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "The life support suit allows using therapeutics with %d%% efficiency and cooldown mod of %d%%.", "tformat")
-t("Create Tinker", "Create Tinker", "talent name")
-t("Allows you to create tinkers.", "Allows you to create tinkers.", "_t")
-t("Weapon Automaton: One Handed", "Weapon Automaton: One Handed", "talent name")
-t("You cannot use %s without a one handed melee weapon in your inventory!", "You cannot use %s without a one handed melee weapon in your inventory!", "logPlayer")
-t("Select a weapon for your Automaton", "Select a weapon for your Automaton", "_t")
-t("Weapon Automaton: %s", "Weapon Automaton: %s", "tformat")
-t("An Automaton wielding a chosen weapon.", "An Automaton wielding a chosen weapon.", "_t")
-t("#F53CBE#%s runs out of power.", "#F53CBE#%s runs out of power.", "logSeen")
-t([[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
-		]], [[Deploy a Weapon Automaton based on a selected one handed melee item.  The Automaton will wield the selected weapon and drop it when it times out or is destroyed.  Aside from the weapon selected, the Automaton will scale off Tinker talent levels, your own stats, and other things that will be described in this tooltip at some point.  
-		]], "tformat")
-t("You have no ammo!", "You have no ammo!", "logPlayer")
-t([[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tinker is made of voratun you will fire an additional shot.
-			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], [[Fires your ammo at an enemy in range %d for %d%% weapon damage.  If this tinker is made of voratun you will fire an additional shot.
-			This shot is a ranged melee attack but will use the ranged procs of your ammo as well.]], "tformat")
-t("fatal attractor", "fatal attractor", "_t")
-t("A psionic contraption that reflects damage and forces things to attack it.", "A psionic contraption that reflects damage and forces things to attack it.", "_t")
+t("fatal attractor", "attracteur fatal", "_t")
+t("A psionic contraption that reflects damage and forces things to attack it.", "Une engeance psionique qui reflète les dégâts et force les créatures à l'attaquer.", "_t")
 t([[Quickly create a psionic-enhanced metal contraption that lures all your foes to it and reflects %d%% of the damage it takes to its attackers.
 		The contraption will have %d life and last 5 turns.
-		Damage, life, resists, and armor scale with your Steampower.]], [[Quickly create a psionic-enhanced metal contraption that lures all your foes to it and reflects %d%% of the damage it takes to its attackers.
-		The contraption will have %d life and last 5 turns.
-		Damage, life, resists, and armor scale with your Steampower.]], "tformat")
+		Damage, life, resists, and armor scale with your Steampower.]], [[Créez rapidement une engeance métallique amplifiée par la psionique qui attire tous vos ennemis vers elle et reflète %d%% des dégâts qu'elle subit vers ses attaquants.
+		L'engeance possède %d de vie et dure 5 tours.
+		Les dégâts, la vie, les résistances et l'armure sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Rocket Boots", "Bottes-Fusées", "talent name")
 t([[Activate the rocket boots, firing huge flames from your boots increasing your movement speed by %d%%.
 		Each movement will leave a trail of flames doing %0.2f fire damage for 4 turns.
 		Doing any other actions will break the effect.
-		#{italic}#Burninate them all!#{normal}#]], [[Activate the rocket boots, firing huge flames from your boots increasing your movement speed by %d%%.
-		Each movement will leave a trail of flames doing %0.2f fire damage for 4 turns.
-		Doing any other actions will break the effect.
-		#{italic}#Burninate them all!#{normal}#]], "tformat")
-t("%s resists the iron grip!", "%s resists the iron grip!", "logSeen")
+		#{italic}#Burninate them all!#{normal}#]], [[Activez les bottes-fusées, projetant d'immenses flammes depuis vos bottes et augmentant votre vitesse de déplacement de %d%%.
+		Chaque déplacement laissera une traînée de flammes infligeant %0.2f dégâts de feu pendant 4 tours.
+		Effectuer toute autre action rompra l'effet.
+		#{italic}#Embrasez-les tous !#{normal}#]], "tformat")
+t("Iron Grip", "Poigne de Fer", "talent name")
+t("%s resists the iron grip!", "%s résiste à la poigne de fer !", "logSeen")
 t([[Activate the pistons to crush your target for %d turns and dealing %d%% unarmed melee damage.
 		While the target is held it can not move and its armour and defense are reduced by %d.
-		#{italic}#Crush their bones!#{normal}#]], [[Activate the pistons to crush your target for %d turns and dealing %d%% unarmed melee damage.
-		While the target is held it can not move and its armour and defense are reduced by %d.
-		#{italic}#Crush their bones!#{normal}#]], "tformat")
-t("Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "tformat")
-t("toxic cannister", "toxic cannister", "_t")
-t("A smelly cannister.", "A smelly cannister.", "_t")
+		#{italic}#Crush their bones!#{normal}#]], [[Activez les pistons pour écraser votre cible pendant %d tours, infligeant %d%% dégâts de corps à corps à mains nues.
+		Tant que la cible est maintenue, elle ne peut pas bouger et son armure et sa défense sont réduites de %d.
+		#{italic}#Broyez leurs os !#{normal}#]], "tformat")
+t("Spring Grapple", "Grappin à Ressort", "talent name")
+t("%s resists the pin!", "%s résiste à l'immobilisation !", "logSeen")
+t("Grab the target and pull them towards you, striking for %d%% unarmed melee damage, and if you hit, pinning them for %d turns.", "Agrippe la cible et la tire vers vous, frappant pour %d%% dégâts de corps à corps à mains nues, et si le coup touche, l'immobilise pendant %d tours.", "tformat")
+t("Toxic Cannister Launcher", "Lance-Cylindre Toxique", "talent name")
+t("toxic cannister", "cylindre toxique", "_t")
+t("A smelly cannister.", "Un cylindre nauséabond.", "_t")
 t([[Launch a cannister filled with toxic gas at a location.
 		Every 2 turns the cannister emits a poison cloud of radius 3 around it each turn.
 		The poison does %0.2f nature damage over 5 turns.
 		The cannister has %d life and lasts 8 turns. When it ends or is destroyed a last cloud is created.
 		Damage, life, resists, and armor scale with your Steampower.
-		Damage and penetration are inherited from the creator.]], [[Launch a cannister filled with toxic gas at a location.
-		Every 2 turns the cannister emits a poison cloud of radius 3 around it each turn.
-		The poison does %0.2f nature damage over 5 turns.
-		The cannister has %d life and lasts 8 turns. When it ends or is destroyed a last cloud is created.
-		Damage, life, resists, and armor scale with your Steampower.
-		Damage and penetration are inherited from the creator.]], "tformat")
+		Damage and penetration are inherited from the creator.]], [[Lance un cylindre rempli de gaz toxique vers un emplacement.
+		Tous les 2 tours, le cylindre émet un nuage de poison d'un rayon de 3 autour de lui.
+		Le poison inflige %0.2f dégâts de nature sur 5 tours.
+		Le cylindre possède %d de vie et dure 8 tours. Lorsqu'il expire ou est détruit, un dernier nuage est créé.
+		Les dégâts, la vie, les résistances et l'armure sont proportionnels à votre Puissance de Vapeur.
+		Les dégâts et la pénétration sont hérités du créateur.]], "tformat")
+t("Steam Powered Armour", "Armure à Vapeur", "talent name")
 t([[Activate the armour's active defense system.
 		A flow of electricity covers your armour to attenuate the force of energy attacks while small steam engines move key pieces of the armour to attenuate physical attacks.
 		All damage except mind damage is reduced by a flat %d.
 		In addition the electric power of the armour sometimes leaks, each turn there is a 50%% chance to produce a electrical arc toward a foe, dealing %0.2f to %0.2f lightning damage to all foes in radius 1.
-		The effects increase with your Steampower.]], [[Activate the armour's active defense system.
-		A flow of electricity covers your armour to attenuate the force of energy attacks while small steam engines move key pieces of the armour to attenuate physical attacks.
-		All damage except mind damage is reduced by a flat %d.
-		In addition the electric power of the armour sometimes leaks, each turn there is a 50%% chance to produce a electrical arc toward a foe, dealing %0.2f to %0.2f lightning damage to all foes in radius 1.
-		The effects increase with your Steampower.]], "tformat")
+		The effects increase with your Steampower.]], [[Activez le système de défense actif de l'armure.
+		Un flux d'électricité recouvre votre armure pour atténuer la force des attaques énergétiques, tandis que de petits moteurs à vapeur déplacent des pièces clés de l'armure pour atténuer les attaques physiques.
+		Tous les dégâts, à l'exception des dégâts mentaux, sont réduits d'une valeur fixe de %d.
+		De plus, l'énergie électrique de l'armure fuit parfois : chaque tour, il y a 50%% de chance de produire un arc électrique en direction d'un ennemi, infligeant entre %0.2f et %0.2f dégâts de foudre à tous les ennemis dans un rayon de 1.
+		Les effets sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Viral Needlegun", "Fusil à Aiguilles Viral", "talent name")
 t([[You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and reducing either Constitution, Strength or Dexterity by %d for 20 turns.
-		The damage and disease effects increase with your Steampower.]], [[You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.
-		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and reducing either Constitution, Strength or Dexterity by %d for 20 turns.
-		The damage and disease effects increase with your Steampower.]], "tformat")
-t("Sand Shredder", "Sand Shredder", "talent name")
-t("%s shreds through sandwalls!", "%s shreds through sandwalls!", "logSeen")
-t("You shred pieces of sandwalls. Brrrmmm!.", "You shred pieces of sandwalls. Brrrmmm!.", "_t")
-t("Flamethrower", "Flamethrower", "talent name")
+		The damage and disease effects increase with your Steampower.]], [[Vous tirez un cône d'aiguilles infectées, touchant tout dans un cône frontal de rayon %d pour %0.2f dégâts physiques.
+		Chaque créature touchée a %d%% de chance d'être infectée par une maladie aléatoire, infligeant %0.2f dégâts de fléau et réduisant soit la Constitution, soit la Force, soit la Dextérité de %d pendant 20 tours.
+		Les effets de dégâts et de maladie sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Sand Shredder", "Déchiqueteuse de Sable", "talent name")
+t("%s shreds through sandwalls!", "%s déchiquette à travers les murs de sable !", "logSeen")
+t("You shred pieces of sandwalls. Brrrmmm!.", "Vous déchiquetez des morceaux de murs de sable. Brrrmmm !", "_t")
+t("Flamethrower", "Lance-Flammes", "talent name")
 t([[Throw a cone of flame with radius %d
-		The damage will increase with your Steampower.]], [[Throw a cone of flame with radius %d
-		The damage will increase with your Steampower.]], "tformat")
-t("Mass Repair", "Mass Repair", "talent name")
+		The damage will increase with your Steampower.]], [[Projette un cône de flammes d'un rayon de %d.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Mass Repair", "Réparation de Masse", "talent name")
 t([[Throw a cone of healing with radius %d, healing other mechanical creatures (steam spiders) for %d.
-		The healing will increase with your Steampower.]], [[Throw a cone of healing with radius %d, healing other mechanical creatures (steam spiders) for %d.
-		The healing will increase with your Steampower.]], "tformat")
-t("Arcane Disruption Wave", "Arcane Disruption Wave", "talent name")
+		The healing will increase with your Steampower.]], [[Projette un cône de soin d'un rayon de %d, soignant les autres créatures mécaniques (araignées à vapeur) de %d.
+		Le soin est proportionnel à votre Puissance de Vapeur.]], "tformat")
+t("Arcane Disruption Wave", "Onde de Disruption Arcanique", "talent name")
 t([[Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user.
-		The silence chance will increase with your Steampower.]], [[Let out a technopsionic wave that silences for %d turns all those affected in a radius of %d, including the user.
-		The silence chance will increase with your Steampower.]], "tformat")
-t("Mind Crush", "Mind Crush", "talent name")
+		The silence chance will increase with your Steampower.]], [[Libère une onde technopsionique qui réduit au silence pendant %d tours tous ceux qui sont affectés dans un rayon de %d, y compris l'utilisateur.
+		La chance de silence est proportionnel à votre Puissance de Vapeur.]], "tformat")
+t("Mind Crush", "Écrasement Mental", "talent name")
+t("%s resists the mental assault!", "%s résiste à l'assaut mental !", "logSeen")
 t([[Shatters the mind of your victim, giving you full control over its actions for 6 turns.
 		When the effect ends, you pull out your mind and the victim's body collapses, dead.
 		This effect does not work on rares, bosses, or undead.
-		.]], [[Shatters the mind of your victim, giving you full control over its actions for 6 turns.
-		When the effect ends, you pull out your mind and the victim's body collapses, dead.
-		This effect does not work on rares, bosses, or undead.
-		.]], "tformat")
+		.]], [[Brise l'esprit de votre victime, vous donnant le contrôle total de ses actions pendant 6 tours.
+		Lorsque l'effet se termine, vous retirez votre esprit et le corps de la victime s'effondre, mort.
+		Cet effet ne fonctionne pas sur les créatures rares, les boss, ou les morts-vivants.]], "tformat")
+t("Shocking Touch", "Toucher Choquant", "talent name")
 t([[Touch a creature to release a nasty electrical charge into them, doing %0.2f lightning damage.
 		If this tinker is above tier 1, the electricity can arc to another target up to 2 tiles away.
 		The number of enemies hit is at most the tinker tier.
-		The damage increases with your Steampower.]], [[Touch a creature to release a nasty electrical charge into them, doing %0.2f lightning damage.
-		If this tinker is above tier 1, the electricity can arc to another target up to 2 tiles away.
-		The number of enemies hit is at most the tinker tier.
-		The damage increases with your Steampower.]], "tformat")
+		The damage increases with your Steampower.]], [[Touchez une créature pour libérer en elle une méchante charge électrique, infligeant %0.2f dégâts de foudre.
+		Si cette babiole est au-delà du palier 1, l'électricité peut arquer vers une autre cible jusqu'à 2 cases plus loin.
+		Le nombre d'ennemis touchés est au maximum égal au palier de la babiole.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Flash Powder", "Poudre Aveuglante", "talent name")
+t("%s resists the blinding light!", "%s résiste à la lumière aveuglante !", "logSeen")
 t([[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
 		Creatures in a cone of radius %d are blinded for %d turns.
-		The blindness effect is applied with your Steampower.]], [[Throw a handful of dust that rapidly oxidises, releasing a blinding light.
-		Creatures in a cone of radius %d are blinded for %d turns.
-		The blindness effect is applied with your Steampower.]], "tformat")
-t("%s resists the itching powder!", "%s resists the itching powder!", "logSeen")
+		The blindness effect is applied with your Steampower.]], [[Lance une poignée de poussière qui s'oxyde rapidement, libérant une lumière aveuglante.
+		Les créatures dans un cône de rayon %d sont aveuglées pendant %d tours.
+		L'effet d'aveuglement est appliqué avec votre Puissance de Vapeur.]], "tformat")
+t("Itching Powder", "Poudre Grattante", "talent name")
+t("%s resists the itching powder!", "%s résiste à la poudre grattante !", "logSeen")
 t([[Throw a handful of dust that is very itchy to touch.
 		Creatures in a cone of radius %d are itchy for %d turns, causing them to fail talents %d%% of the time.
-		The itchiness effect is applied with your Steampower.]], [[Throw a handful of dust that is very itchy to touch.
-		Creatures in a cone of radius %d are itchy for %d turns, causing them to fail talents %d%% of the time.
-		The itchiness effect is applied with your Steampower.]], "tformat")
-t("%s resists the explosion!", "%s resists the explosion!", "logSeen")
+		The itchiness effect is applied with your Steampower.]], [[Lance une poignée de poussière très irritante au toucher.
+		Les créatures dans un cône de rayon %d sont irritées pendant %d tours, les faisant échouer leurs talents %d%% du temps.
+		L'effet d'irritation est appliqué avec votre Puissance de Vapeur.]], "tformat")
+t("Thunder Grenade", "Grenade Tonnerre", "talent name")
+t("%s resists the explosion!", "%s résiste à l'explosion !", "logSeen")
 t([[Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.
 		Creatures hit will also be stunned for %d turns.
-		The stun effect is applied with your Steampower.]], [[Throw a grenade at your foes, dealing %0.2f physical damage in radius %d.
-		Creatures hit will also be stunned for %d turns.
-		The stun effect is applied with your Steampower.]], "tformat")
-t("Project Saw", "Project Saw", "talent name")
+		The stun effect is applied with your Steampower.]], [[Lance une grenade sur vos ennemis, infligeant %0.2f dégâts physiques dans un rayon de %d.
+		Les créatures touchées seront également assommées pendant %d tours.
+		L'effet d'assommement est appliqué avec votre Puissance de Vapeur.]], "tformat")
+t("Project Saw", "Scie Projetée", "talent name")
 t([[You activate hidden springs to project a saw towards your foes.
 		Any creature caught in the beam takes %0.2f physical damage and bleeds for half more in 5 turns.
-		The damage increases with your Steampower.]], [[You activate hidden springs to project a saw towards your foes.
-		Any creature caught in the beam takes %0.2f physical damage and bleeds for half more in 5 turns.
-		The damage increases with your Steampower.]], "tformat")
-t("Voltaic Bolt", "Voltaic Bolt", "talent name")
+		The damage increases with your Steampower.]], [[Vous activez des ressorts cachés pour projeter une scie vers vos ennemis.
+		Toute créature prise dans le faisceau subit %0.2f dégâts physiques et saigne pour la moitié de plus sur 5 tours.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Voltaic Bolt", "Éclair Voltaïque", "talent name")
 t([[Fires a bolt of lightning, doing %0.2f lightning damage.
-		The damage will increase with your Steampower.]], [[Fires a bolt of lightning, doing %0.2f lightning damage.
-		The damage will increase with your Steampower.]], "tformat")
-t("volatic sentry", "volatic sentry", "_t")
-t("A strange device. Your hair stands on end when you approach.", "A strange device. Your hair stands on end when you approach.", "_t")
+		The damage will increase with your Steampower.]], [[Tire un éclair de foudre, infligeant %0.2f dégâts de foudre.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Voltaic Sentry", "Sentinelle Voltaïque", "talent name")
+t("volatic sentry", "sentinelle voltaïque", "_t")
+t("A strange device. Your hair stands on end when you approach.", "Un dispositif étrange. Vos cheveux se dressent lorsque vous vous en approchez.", "_t")
 t([[Place an electrically charged sentry device at a location.
 		Every turn it will fire a bolt of electricity at a nearby enemy.
 		The bolts do %0.2f lightning damage.
 		The sentry has %d life and lasts 10 turns.
 		Damage, life, resists, and armor scale with your Steampower.
-		Damage and penetration are inherited from the creator.]], [[Place an electrically charged sentry device at a location.
-		Every turn it will fire a bolt of electricity at a nearby enemy.
-		The bolts do %0.2f lightning damage.
-		The sentry has %d life and lasts 10 turns.
-		Damage, life, resists, and armor scale with your Steampower.
-		Damage and penetration are inherited from the creator.]], "tformat")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
+		Damage and penetration are inherited from the creator.]], [[Place un dispositif de sentinelle chargé électriquement à un emplacement.
+		Chaque tour, il tire un éclair d'électricité sur un ennemi proche.
+		Les éclairs infligent %0.2f dégâts de foudre.
+		La sentinelle possède %d de vie et dure 10 tours.
+		Les dégâts, la vie, les résistances et l'armure sont proportionnels à votre Puissance de Vapeur.
+		Les dégâts et la pénétration sont hérités du créateur.]], "tformat")
+t("Explosive Shell", "Munition Explosive", "talent name")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which does %0.2f physical damage.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special explosive shot with your steamgun(s) at a spot within range.
-		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which does %0.2f physical damage.
-		This talent does not use ammo as it is the ammo.]], "tformat")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile explosif spécial sur un point à portée.
+		Lorsque chaque tir atteint sa cible, il inflige les dégâts normaux de pistolet à vapeur et explose dans un rayon de %d, infligeant %0.2f dégâts physiques.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Flare Shell", "Munition Éclairante", "talent name")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which lights up the area and blinds for %d turns.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special explosive shot with your steamgun(s) at a spot within range.
-		When each shot reaches its target, it does normal steamgun damage and explodes within radius %d, which lights up the area and blinds for %d turns.
-		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Incendiary Shell", "Incendiary Shell", "talent name")
-t("clusterbomb", "clusterbomb", "_t")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile explosif spécial sur un point à portée.
+		Lorsque chaque tir atteint sa cible, il inflige les dégâts normaux de pistolet à vapeur et explose dans un rayon de %d, illuminant la zone et aveuglant pendant %d tours.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Incendiary Shell", "Munition Incendiaire", "talent name")
+t("clusterbomb", "bombe à fragmentation", "_t")
 t([[You fire a special explosive shot with your steamgun(s) at a spot within range.
 		When each shot reaches its target, it does normal steamgun damage and releases %d explosive charges in a radius of 2.
 		These charges will shortly explode for %0.2f fire damage in a radius of 1.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special explosive shot with your steamgun(s) at a spot within range.
-		When each shot reaches its target, it does normal steamgun damage and releases %d explosive charges in a radius of 2.
-		These charges will shortly explode for %0.2f fire damage in a radius of 1.
-		This talent does not use ammo as it is the ammo.]], "tformat")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile explosif spécial sur un point à portée.
+		Lorsque chaque tir atteint sa cible, il inflige les dégâts normaux de pistolet à vapeur et libère %d charge(s) explosive(s) dans un rayon de 2.
+		Ces charges explosent peu après, infligeant %0.2f dégâts de feu dans un rayon de 1.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Solid Shell", "Munition Solide", "talent name")
+t("%s is knocked back!", "%s est repoussé !", "logSeen")
+t("%s resists the knockback!", "%s résiste au recul !", "logSeen")
 t([[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back %d tiles.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special solid shot with your steamgun(s) at a target for %d%% physical weapon damage.
-		The weight of the shot will knock the target back %d tiles.
-		This talent does not use ammo as it is the ammo.]], "tformat")
-t("Impaler Shell", "Impaler Shell", "talent name")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile solide spécial sur une cible pour %d%% dégâts d'arme physiques.
+		Le poids du tir repousse la cible de %d cases.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Impaler Shell", "Munition Empaleuse", "talent name")
 t([[You fire a special stake shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The weight of the shot will knock the target back 2 tiles and they will be pinned for %d turns.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special stake shot with your steamgun(s) at a target for %d%% physical weapon damage.
-		The weight of the shot will knock the target back 2 tiles and they will be pinned for %d turns.
-		This talent does not use ammo as it is the ammo.]], "tformat")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un pieu spécial sur une cible pour %d%% dégâts d'arme physiques.
+		Le poids du tir repousse la cible de 2 cases et l'immobilise pendant %d tours.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Saw Shell", "Munition Scie", "talent name")
 t([[You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.
 		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special steamsaw shot with your steamgun(s) at a target for %d%% physical weapon damage.
-		The steamsaw will cut into the target, doing %d%% physical weapon damage over 5 turns.
-		This talent does not use ammo as it is the ammo.]], "tformat")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile de scie à vapeur spécial sur une cible pour %d%% dégâts d'arme physiques.
+		La scie à vapeur entaille la cible, infligeant %d%% de dégâts d'arme physiques sur 5 tours.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Hook Shell", "Munition à Crochet", "talent name")
+t("%s resists the pull!", "%s résiste à l'attraction !", "logSeen")
 t([[You fire a special hook shot with your steamgun(s) at a target creature or location.
 		If you target a creature, they are pulled up to %d tiles towards you.
 		If you target an empty tile, you are pulled up to %d tiles towards it.
-		This talent does not use ammo as it is the ammo.]], [[You fire a special hook shot with your steamgun(s) at a target creature or location.
-		If you target a creature, they are pulled up to %d tiles towards you.
-		If you target an empty tile, you are pulled up to %d tiles towards it.
-		This talent does not use ammo as it is the ammo.]], "tformat")
+		This talent does not use ammo as it is the ammo.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un crochet spécial sur une créature ou un emplacement.
+		Si vous ciblez une créature, elle est tirée vers vous jusqu'à %d cases.
+		Si vous ciblez une case vide, vous êtes tiré vers elle jusqu'à %d cases.
+		Ce talent n'utilise pas de munitions, car il en est une.]], "tformat")
+t("Magnetic Shell", "Munition Magnétique", "talent name")
 t([[You fire a special magnetic shot with your steamgun(s) at a target for normal weapon damage.
 		The shot will magnetise the target for %d turns. This lowers their defense and increases fatigue by %d.
 		This talent does not use ammo as it is the ammo.
-		Effect strength scales with Steampower.]], [[You fire a special magnetic shot with your steamgun(s) at a target for normal weapon damage.
-		The shot will magnetise the target for %d turns. This lowers their defense and increases fatigue by %d.
-		This talent does not use ammo as it is the ammo.
-		Effect strength scales with Steampower.]], "tformat")
+		Effect strength scales with Steampower.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile magnétique spécial sur une cible, pour des dégâts d'arme normaux.
+		Le tir magnétise la cible pendant %d tours. Ceci réduit sa défense et augmente sa fatigue de %d.
+		Ce talent n'utilise pas de munitions, car il en est une.
+		La force de l'effet est proportionnel à la Puissance de Vapeur.]], "tformat")
+t("Voltaic Shell", "Munition Voltaïque", "talent name")
 t([[You fire a special voltaic shot with your steamgun(s) at a target for 100%% weapon damage as lightning.
 		The shot will release powerful electrical currents at up to %d nearby enemies. 
 		Each bolt does %0.2f lightning damage.
 		This talent does not use ammo as it is the ammo.
-		Bolt damage scales with Steampower.]], [[You fire a special voltaic shot with your steamgun(s) at a target for 100%% weapon damage as lightning.
-		The shot will release powerful electrical currents at up to %d nearby enemies. 
-		Each bolt does %0.2f lightning damage.
-		This talent does not use ammo as it is the ammo.
-		Bolt damage scales with Steampower.]], "tformat")
+		Bolt damage scales with Steampower.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile voltaïque spécial sur une cible, pour 100%% de dégâts d'arme sous forme de dégâts de foudre.
+		Le tir libère de puissants courants électriques vers jusqu'à %d ennemi(s) proche(s).
+		Chaque éclair inflige %0.2f dégâts de foudre.
+		Ce talent n'utilise pas de munitions, car il en est une.
+		Les dégâts des éclairs sont proportionnels à la Puissance de Vapeur.]], "tformat")
+t("Antimagic Shell", "Munition Antimagique", "talent name")
 t([[You fire a special antimagic shot with your steamgun(s) at a target for 100%% normal weapon damage.
 		The shot will release antimagic sap on the target, doing %0.2f arcane resource burn damage.
 		This talent does not use ammo as it is the ammo.
-		Sap damage scales with Steampower.]], [[You fire a special antimagic shot with your steamgun(s) at a target for 100%% normal weapon damage.
-		The shot will release antimagic sap on the target, doing %0.2f arcane resource burn damage.
-		This talent does not use ammo as it is the ammo.
-		Sap damage scales with Steampower.]], "tformat")
+		Sap damage scales with Steampower.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile antimagique spécial sur une cible, pour 100%% de dégâts d'arme normaux.
+		Le tir libère une sève antimagique sur la cible, infligeant %0.2f dégâts de combustion de ressource arcanique.
+		Ce talent n'utilise pas de munitions, car il en est une.
+		Les dégâts de la sève sont proportionnels à la Puissance de Vapeur.]], "tformat")
+t("Botanical Shell", "Munition Botanique", "talent name")
 t([[You fire a special botanical shot with your steamgun(s) at a target for 100%% weapon damage as nature.
 		The shot will release spores which grow into Nourishing Moss in a radius of %d for %d turns.
 		Each turn the moss deals %0.2f nature damage to each foe within its radius.
 		This moss has vampiric properties and heals the user for %d%% of the damage done.
 		This talent does not use ammo as it is the ammo.
-		Moss damage scales with Steampower.]], [[You fire a special botanical shot with your steamgun(s) at a target for 100%% weapon damage as nature.
-		The shot will release spores which grow into Nourishing Moss in a radius of %d for %d turns.
-		Each turn the moss deals %0.2f nature damage to each foe within its radius.
-		This moss has vampiric properties and heals the user for %d%% of the damage done.
-		This talent does not use ammo as it is the ammo.
-		Moss damage scales with Steampower.]], "tformat")
+		Moss damage scales with Steampower.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile botanique spécial sur une cible, pour 100%% de dégâts d'arme sous forme de dégâts de nature.
+		Le tir libère des spores qui se développent en Mousse Nourricière dans un rayon de %d pendant %d tours.
+		Chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi dans son rayon.
+		Cette mousse possède des propriétés vampiriques et soigne l'utilisateur de %d%% des dégâts infligés.
+		Ce talent n'utilise pas de munitions, car il en est une.
+		Les dégâts de la mousse sont proportionnels à la Puissance de Vapeur.]], "tformat")
+t("Corrosive Shell", "Munition Corrosive", "talent name")
 t([[You fire a special corrosive shot with your steamgun(s) at a target for %d%% weapon damage as acid.
 		The acid released by the shot will also corrode the target, reducing its accuracy, defense and armour by %d.
 		This talent does not use ammo as it is the ammo.
-		Corrosion strength scales with Steampower.]], [[You fire a special corrosive shot with your steamgun(s) at a target for %d%% weapon damage as acid.
-		The acid released by the shot will also corrode the target, reducing its accuracy, defense and armour by %d.
-		This talent does not use ammo as it is the ammo.
-		Corrosion strength scales with Steampower.]], "tformat")
-t("%s resists the toxin!", "%s resists the toxin!", "logSeen")
+		Corrosion strength scales with Steampower.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile corrosif spécial sur une cible, pour %d%% de dégâts d'arme sous forme de dégâts d'acide.
+		L'acide libéré par le tir corrode également la cible, réduisant sa précision, sa défense et son armure de %d.
+		Ce talent n'utilise pas de munitions, car il en est une.
+		La force de la corrosion est proportionnel à la Puissance de Vapeur.]], "tformat")
+t("Toxic Shell", "Munition Toxique", "talent name")
+t("%s resists the toxin!", "%s résiste à la toxine !", "logSeen")
 t([[You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.
 		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
 		This talent does not use ammo as it is the ammo.
-		Toxin strength scales with Steampower.]], [[You fire a special toxic shot with your steamgun(s) at a target for 100%% weapon damage as blight.
-		The shot will release heavy metals into the target, inflicting %0.2f blight damage per turn and reducing their global speed by %d%% for %d turns.
-		This talent does not use ammo as it is the ammo.
-		Toxin strength scales with Steampower.]], "tformat")
+		Toxin strength scales with Steampower.]], [[Vous tirez, avec votre/vos pistolet(s) à vapeur, un projectile toxique spécial sur une cible, pour 100%% de dégâts d'arme sous forme de dégâts de fléau.
+		Le tir libère des métaux lourds dans la cible, infligeant %0.2f dégâts de fléau par tour et réduisant sa vitesse globale de %d%% pendant %d tours.
+		Ce talent n'utilise pas de munitions, car il en est une.
+		La force de la toxine est proportionnel à la Puissance de Vapeur.]], "tformat")
+t("Moss Tread", "Foulée Moussue", "talent name")
 t([[For %d turns, you lay down Grasping Moss where you walk or stand.
 		The moss is placed automatically every step and lasts %d turns.
 		Each turn the moss deals %0.2f nature damage to each foe standing on it.
 		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
-		The damage scales with your Steampower.]], [[For %d turns, you lay down Grasping Moss where you walk or stand.
-		The moss is placed automatically every step and lasts %d turns.
-		Each turn the moss deals %0.2f nature damage to each foe standing on it.
-		This moss is very thick and sticky causing all foes passing through it have their movement speed reduced by %d%% and have a %d%% chance to be pinned to the ground for 4 turns.
-		The damage scales with your Steampower.]], "tformat")
+		The damage scales with your Steampower.]], [[Pendant %d tours, vous déposez une Mousse Agrippante partout où vous marchez ou vous tenez.
+		La mousse est placée automatiquement à chaque pas et dure %d tours.
+		Chaque tour, la mousse inflige %0.2f dégâts de nature à chaque ennemi se tenant dessus.
+		Cette mousse est très épaisse et collante, faisant en sorte que tous les ennemis la traversant voient leur vitesse de déplacement réduite de %d%% et ont %d%% de chance d'être immobilisés au sol pendant 4 tours.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Arcane Dynamo", "Dynamo Arcanique", "talent name")
 t([[Allows the use of Technomancy spells.
 		Grants a magical steam reserve that regenerates %d steam per 10 mana spent.
 		Grants Spellpower based on current steam level (currently %d; %d%% steam filled).
 		Outside of combat, you relax and let your steam reserve slowly wither away.
-		#{italic}#Metal Arcane Power!#{normal}#]], [[Allows the use of Technomancy spells.
-		Grants a magical steam reserve that regenerates %d steam per 10 mana spent.
-		Grants Spellpower based on current steam level (currently %d; %d%% steam filled).
-		Outside of combat, you relax and let your steam reserve slowly wither away.
-		#{italic}#Metal Arcane Power!#{normal}#]], "tformat")
---]==]
-
+		#{italic}#Metal Arcane Power!#{normal}#]], [[Permet l'utilisation de sorts de Technomancie.
+		Accorde une réserve magique de vapeur qui régénère %d vapeur pour 10 mana dépensé.
+		Accorde de la Puissance des sorts en fonction du niveau de vapeur actuel (actuellement %d ; %d%% de vapeur remplie).
+		Hors combat, vous vous détendez et laissez votre réserve de vapeur lentement se dissiper.
+		#{italic}#Le pouvoir arcanique du métal !#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/physics.lua"
@@ -6049,6 +6025,7 @@ t("Increases the capacity of your steam tank by %d.", "Increases the capacity of
 section "tome-orcs/data/talents/steam/psytech-gunnery.lua"
 
 t("Psyshot", "Psychodessoudeur", "talent name")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamguns.
@@ -6061,7 +6038,6 @@ t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamgun
 
 		Also activable for a shot that deals %d%% weapon damage as mind damage.]], "tformat")
 t("Boiling Shot", "Boiling Shot", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t([[Using psionic energies you overheat your shot, making it deal %d%% damage.
 		If the shot hits a wet foe it will vaporize, removing the wet effect and dealing %0.2f fire damage in a radius 4.]], [[Using psionic energies you overheat your shot, making it deal %d%% damage.
 		If the shot hits a wet foe it will vaporize, removing the wet effect and dealing %0.2f fire damage in a radius 4.]], "tformat")
@@ -6119,85 +6095,85 @@ t([[When you kill a foe you place small explosives with shrapnels inside its bod
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/steam.lua"
 
+t("Steam Pool", "Réserve de Vapeur", "talent name")
+t("Allows you to have a steam pool. Steam is used to use most steamtech equipments and powers.", "Vous permet de disposer d'une réserve de vapeur. La vapeur est utilisée pour la plupart des équipements et pouvoirs vapotech.", "_t")
+t("Steamtech directly embedded on the skin.", "Vapotech directement incorporée dans la peau.", "_t")
 t("steamtech", "vapotech", "talent category")
 t("other", "Autre", "talent type")
-t("chemistry", "chimie", "talent type")
+t("Tinkers with stuff.", "Toutes sortes de babioles.", "_t")
+t("physics", "Physique", "talent type")
+t("Learn the mechanical side of steamtech.", "Apprenez le côté mécanique de la vapotech.", "_t")
+t("chemistry", "Chimie", "talent type")
+t("Learn the chemistry side of steamtech.", "Apprenez le côté chimique de la vapotech.", "_t")
+t("blacksmith", "Forgeron", "talent type")
+t("All this metalworking has improved you.", "Tout ce travail du métal vous a amélioré.", "_t")
+t("engineering", "Ingénierie", "talent type")
+t("You don't just know how tinkering works, you know all the interesting details too!", "Vous ne savez pas seulement comment fonctionnent les babioles, vous en connaissez aussi tous les détails intéressants !", "_t")
+t("butchery", "Boucherie", "talent type")
+t("Strap saws to your arms and rush into battle!", "Attachez des scies à vos bras et foncez au combat !", "_t")
+t("sawmaiming", "Sciage", "talent type")
+t("Use steam powered saws to their maximum efficiency! Maim! Cut! Shred!", "Utilisez les scies à vapeur à leur efficacité maximale ! Mutilez ! Tranchez ! Déchiquetez !", "_t")
+t("battlefield management", "Gestion du Champ de Bataille", "talent type")
+t("Use steam powered saws to maneuver around the battlefield, gaining strategic advantage.", "Utilisez des scies à vapeur pour manoeuvrer sur le champ de bataille et obtenir un avantage stratégique.", "_t")
+t("battle machinery", "Machine de Combat", "talent type")
+t("Use steam powered engines to tilt the battle in your favour.", "Utilisez des moteurs à vapeur pour faire pencher la bataille en votre faveur.", "_t")
+t("automated butchery", "Boucherie Automatisée", "talent type")
+t("Improve your saws and tinkers with automated processes to help shred your foes.", "Améliorez vos scies et babioles avec des processus automatisés pour vous aider à déchiqueter vos ennemis.", "_t")
+t("furnace", "Fourneau", "talent type")
+t("Harness the power of fire.", "Exploitez le pouvoir du feu.", "_t")
+t("gunner training", "Entraînement de Pistolier", "talent type")
+t("Use steam powered guns to rain bullets of death on your foes!  (Learning these talents allow you to fire two steamguns at once.)", "Utilisez des armes à vapeur pour faire pleuvoir des balles mortelles sur vos ennemis ! (Apprendre ces talents vous permet de tirer avec deux pistolets à vapeur simultanément.)", "_t")
+t("gunslinging", "Arme à Feu", "talent type")
+t("Use advanced marksmanship to confound and overwhelm your foes!  (Learning these talents allow you to fire two steamguns at once.)", "Utilisez une adresse au tir avancée pour confondre et submerger vos ennemis ! (Apprendre ces talents vous permet de tirer avec deux pistolets à vapeur simultanément.)", "_t")
+t("bullets mastery", "Maîtrise des Balles", "talent type")
+t("Use various kinds of technology to temporarily enhance your bullets.  (Learning these talents allow you to fire two steamguns at once.)", "Utilisez différents types de technologie pour améliorer temporairement vos balles. (Apprendre ces talents vous permet de tirer avec deux pistolets à vapeur simultanément.)", "_t")
+t("avoidance", "Atténuation", "talent type")
+t("Using various enhancements of your cloak you are able to manage incoming damage.", "Grâce à divers amplificateurs de votre cape, vous êtes capable de gérer les dégâts entrants.", "_t")
+t("elusiveness", "Insaisissable", "talent type")
+t("Incredible feats of slipperiness!", "D'incroyables prouesses d'insaisissabilité !", "_t")
+t("automation", "Automatisation", "talent type")
+t("Use small automated devices to control the battlefield.", "Utilisez de petits dispositifs automatisés pour contrôler le champ de bataille.", "_t")
+t("psytech gunnery", "Artillerie Psychique", "talent type")
+t("Meld your psionic powers with awesome steamtech! For mayhem!", "Fusionnez vos pouvoirs psioniques avec l'incroyable vapotech ! Pour le chaos !", "_t")
+t("thoughts of iron", "Pensées de Fer", "talent type")
+t("Apply some of your formidable willpower through steam devices.", "Appliquez une partie de votre formidable volonté à travers des dispositifs à vapeur.", "_t")
+t("mechstar", "Vapétoile", "talent type")
+t("Control your mindstar and infuse it with steamtech.", "Contrôlez votre étoile d'âme et infusez-la de vapotech.", "_t")
 t("dread", "hanteur", "talent type")
+t("Behold the mechanized horrors.", "Contemplez les horreurs mécanisées.", "_t")
+t("magnetism", "Magnétisme", "talent type")
+t("Use the power of electricity to supercharge your shield.", "Utilisez le pouvoir de l'électricité pour surcharger votre bouclier.", "_t")
+t("demolition", "Démolition", "talent type")
+t("The use of high explosives.", "L'utilisation d'explosifs puissants.", "_t")
+t("gadgets", "Gadgets", "talent type")
+t("Cunning devices to augment your combat skill.", "Des dispositifs astucieux pour augmenter votre compétence au combat.", "_t")
+t("heavy weapons", "Arme Lourde", "talent type")
+t("Wield powerful steamtech tools of destruction.", "Maniez de puissants outils de destruction vapotechniques.", "_t")
+t("turrets", "Tourelles", "talent type")
+t("Deploy steam powered turrets to assist you in combat.", "Déployez des tourelles à vapeur pour vous assister au combat.", "_t")
+t("The various kinds of turrets.", "Les divers types de tourelles.", "_t")
+t("artillery", "Artillerie", "talent type")
+t("Advanced explosive weaponry.", "Un armement explosif avancé.", "_t")
+t("mecharachnid", "Mécaraigné", "talent type")
+t("Build and deploy a powerful mechanical arachnid to assist you.", "Construisez et déployez un puissant arachnide mécanique pour vous assister.", "_t")
+t("chemical warfare", "Guerre Chimique", "talent type")
+t("Unleash toxic steamtech weaponry on your enemies.", "Déchaînez un armement vapotech toxique sur vos ennemis.", "_t")
+t("#VIOLET#EUREKA!", "#VIOLET#EUREKA !", "log")
+t("#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "#VIOLET#EUREKA !#WHITE# Schéma appris : #LIGHT_BLUE#%s", "saySimple")
+t("This talent is required for the following tinkers (you still need to learn/find the schematics):", "Ce talent est requis pour les babioles suivantes (vous devez encore apprendre/trouver les schémas) :", "_t")
+t(" #LIGHT_BLUE#(known)#LAST#", " #LIGHT_BLUE#(connu)#LAST#", "_t")
+t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...peut-être encore d'autres à découvrir...#{normal}#", "_t")
 -- texte non traduit
 --[==[
-t("Steam Pool", "Steam Pool", "talent name")
-t("Allows you to have a steam pool. Steam is used to use most steamtech equipments and powers.", "Allows you to have a steam pool. Steam is used to use most steamtech equipments and powers.", "_t")
 t("inscriptions", "inscriptions", "talent category")
 t("implants", "implants", "talent type")
-t("Steamtech directly embedded on the skin.", "Steamtech directly embedded on the skin.", "_t")
-t("Tinkers with stuff.", "Tinkers with stuff.", "_t")
-t("physics", "physics", "talent type")
-t("Learn the mechanical side of steamtech.", "Learn the mechanical side of steamtech.", "_t")
-t("Learn the chemistry side of steamtech.", "Learn the chemistry side of steamtech.", "_t")
-t("blacksmith", "blacksmith", "talent type")
-t("All this metalworking has improved you.", "All this metalworking has improved you.", "_t")
-t("engineering", "engineering", "talent type")
-t("You don't just know how tinkering works, you know all the interesting details too!", "You don't just know how tinkering works, you know all the interesting details too!", "_t")
-t("butchery", "butchery", "talent type")
-t("Strap saws to your arms and rush into battle!", "Strap saws to your arms and rush into battle!", "_t")
-t("sawmaiming", "sawmaiming", "talent type")
-t("Use steam powered saws to their maximum efficiency! Maim! Cut! Shred!", "Use steam powered saws to their maximum efficiency! Maim! Cut! Shred!", "_t")
-t("battlefield management", "battlefield management", "talent type")
-t("Use steam powered saws to maneuver around the battlefield, gaining strategic advantage.", "Use steam powered saws to maneuver around the battlefield, gaining strategic advantage.", "_t")
-t("battle machinery", "battle machinery", "talent type")
-t("Use steam powered engines to tilt the battle in your favour.", "Use steam powered engines to tilt the battle in your favour.", "_t")
-t("automated butchery", "automated butchery", "talent type")
-t("Improve your saws and tinkers with automated processes to help shred your foes.", "Improve your saws and tinkers with automated processes to help shred your foes.", "_t")
-t("furnace", "furnace", "talent type")
-t("Harness the power of fire.", "Harness the power of fire.", "_t")
-t("gunner training", "gunner training", "talent type")
-t("Use steam powered guns to rain bullets of death on your foes!  (Learning these talents allow you to fire two steamguns at once.)", "Use steam powered guns to rain bullets of death on your foes!  (Learning these talents allow you to fire two steamguns at once.)", "_t")
-t("gunslinging", "gunslinging", "talent type")
-t("Use advanced marksmanship to confound and overwhelm your foes!  (Learning these talents allow you to fire two steamguns at once.)", "Use advanced marksmanship to confound and overwhelm your foes!  (Learning these talents allow you to fire two steamguns at once.)", "_t")
-t("bullets mastery", "bullets mastery", "talent type")
-t("Use various kinds of technology to temporarily enhance your bullets.  (Learning these talents allow you to fire two steamguns at once.)", "Use various kinds of technology to temporarily enhance your bullets.  (Learning these talents allow you to fire two steamguns at once.)", "_t")
-t("avoidance", "avoidance", "talent type")
-t("Using various enhancements of your cloak you are able to manage incoming damage.", "Using various enhancements of your cloak you are able to manage incoming damage.", "_t")
-t("elusiveness", "elusiveness", "talent type")
-t("Incredible feats of slipperiness!", "Incredible feats of slipperiness!", "_t")
-t("automation", "automation", "talent type")
-t("Use small automated devices to control the battlefield.", "Use small automated devices to control the battlefield.", "_t")
-t("psytech gunnery", "psytech gunnery", "talent type")
-t("Meld your psionic powers with awesome steamtech! For mayhem!", "Meld your psionic powers with awesome steamtech! For mayhem!", "_t")
-t("thoughts of iron", "thoughts of iron", "talent type")
-t("Apply some of your formidable willpower through steam devices.", "Apply some of your formidable willpower through steam devices.", "_t")
-t("mechstar", "mechstar", "talent type")
-t("Control your mindstar and infuse it with steamtech.", "Control your mindstar and infuse it with steamtech.", "_t")
-t("Behold the mechanized horrors.", "Behold the mechanized horrors.", "_t")
-t("magnetism", "magnetism", "talent type")
-t("Use the power of electricity to supercharge your shield.", "Use the power of electricity to supercharge your shield.", "_t")
-t("demolition", "demolition", "talent type")
-t("The use of high explosives.", "The use of high explosives.", "_t")
-t("gadgets", "gadgets", "talent type")
-t("Cunning devices to augment your combat skill.", "Cunning devices to augment your combat skill.", "_t")
-t("heavy weapons", "heavy weapons", "talent type")
-t("Wield powerful steamtech tools of destruction.", "Wield powerful steamtech tools of destruction.", "_t")
-t("turrets", "turrets", "talent type")
-t("Deploy steam powered turrets to assist you in combat.", "Deploy steam powered turrets to assist you in combat.", "_t")
-t("The various kinds of turrets.", "The various kinds of turrets.", "_t")
-t("artillery", "artillery", "talent type")
-t("Advanced explosive weaponry.", "Advanced explosive weaponry.", "_t")
-t("mecharachnid", "mecharachnid", "talent type")
-t("Build and deploy a powerful mechanical arachnid to assist you.", "Build and deploy a powerful mechanical arachnid to assist you.", "_t")
-t("chemical warfare", "chemical warfare", "talent type")
-t("Unleash toxic steamtech weaponry on your enemies.", "Unleash toxic steamtech weaponry on your enemies.", "_t")
-t("#VIOLET#EUREKA!", "#VIOLET#EUREKA!", "log")
-t("#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "#VIOLET#EUREKA!#WHITE# Schematic learnt: #LIGHT_BLUE#%s", "saySimple")
-t("This talent is required for the following tinkers (you still need to learn/find the schematics):", "This talent is required for the following tinkers (you still need to learn/find the schematics):", "_t")
-t(" #LIGHT_BLUE#(known)#LAST#", " #LIGHT_BLUE#(known)#LAST#", "_t")
-t("#{italic}#* ...perhaps more to discover...#{normal}#", "#{italic}#* ...perhaps more to discover...#{normal}#", "_t")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/thoughts-of-iron.lua"
 
-
+t("This medical injector will now be used first if available when using medical salves.", "Cet injecteur médical sera désormais utilisé en priorité, si disponible, lors de l'utilisation d'onguents médicaux.", "logPlayer")
 -- texte non traduit
 --[==[
 t("Molten Iron Blood", "Molten Iron Blood", "talent name")
@@ -6220,7 +6196,6 @@ t([[You cleanse your mind of %d mental debuffs.
 		Cleansed effects will be randomly sent to closeby foes (range 5, subject to a mental save).]], "tformat")
 t("Mind Injection", "Mind Injection", "talent name")
 t("#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "#LIGHT_BLUE#Mind Injection selected to be used first by salves.", "saySimple")
-t("This medical injector will now be used first if available when using medical salves.", "This medical injector will now be used first if available when using medical salves.", "logPlayer")
 t("By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "By using a direct psionic link to your body you can use even more therapeutics. This talent acts as an extra medical injector with %d%% efficiency and %d%% cooldown mod.", "tformat")
 --]==]
 
@@ -6229,6 +6204,8 @@ t("By using a direct psionic link to your body you can use even more therapeutic
 section "tome-orcs/data/talents/steam/turrets.lua"
 
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
+t("Flamethrower", "Lance-Flammes", "talent name")
 -- texte non traduit
 --[==[
 t("Deploy Turret", "Deploy Turret", "talent name")
@@ -6257,7 +6234,6 @@ t("An automated turret equipped with a steamgun.", "An automated turret equipped
 t("Turret", "Turret", "_t")
 t("Deploy a turret mounted with a steamgun that fires at foes within range for %d%% steamgun damage. The turret gains +%d Dexterity, Constitution and Cunning and %0.2f Steamgun Mastery.", "Deploy a turret mounted with a steamgun that fires at foes within range for %d%% steamgun damage. The turret gains +%d Dexterity, Constitution and Cunning and %0.2f Steamgun Mastery.", "tformat")
 t("Rocket Launcher", "Rocket Launcher", "talent name")
-t("You require a steamgun for this talent.", "You require a steamgun for this talent.", "logPlayer")
 t("Fire a missile dealing steamgun damage as fire in radius 2.", "Fire a missile dealing steamgun damage as fire in radius 2.", "tformat")
 t("Dual Steamgun", "Dual Steamgun", "talent name")
 t("Gain a second steamgun that deals %d%% damage.", "Gain a second steamgun that deals %d%% damage.", "tformat")
@@ -6265,7 +6241,6 @@ t("Flame Turret", "Flame Turret", "talent name")
 t("flame turret", "flame turret", "_t")
 t("An automated turret equiped with a flamethrower.", "An automated turret equiped with a flamethrower.", "_t")
 t("Deploy a turret mounted with a flamethrower, scorching nearby targets. The turret gains +%d Dexterity, Constitution and Cunning.", "Deploy a turret mounted with a flamethrower, scorching nearby targets. The turret gains +%d Dexterity, Constitution and Cunning.", "tformat")
-t("Flamethrower", "Flamethrower", "talent name")
 t([[Throw a cone of flame with radius %d, dealing %0.2f fire damage.
 		The damage will increase with your Steampower.]], [[Throw a cone of flame with radius %d, dealing %0.2f fire damage.
 		The damage will increase with your Steampower.]], "tformat")
@@ -6459,13 +6434,8 @@ t([[Activate a special focusing device that extends all your ranged spells and p
 ------------------------------------------------
 section "tome-orcs/data/talents.lua"
 
-
--- texte non traduit
---[==[
-t("a steamtech power", "a steamtech power", "_t")
-t("a technomancy spell", "a technomancy spell", "_t")
---]==]
-
+t("a steamtech power", "un pouvoir vapotech", "_t")
+t("a technomancy spell", "un sort de technomancie", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/timed_effects/floor.lua"
@@ -6500,6 +6470,7 @@ t("temporal", "temporel", "effect subtype")
 t("celestial", "Céleste", "effect subtype")
 t("Vampiric Surge", "Sursaut Vampirique", "_t")
 t("chronomancy", "chronomancie", "effect subtype")
+t("Temporal Ripples", "Ondulations Temporelles", "_t")
 t("undead", "mort-vivant", "effect subtype")
 t("You have %d charges.", "Vous avez %d charge(s).", "tformat")
 t("steam", "vapeur", "effect subtype")
@@ -6527,7 +6498,6 @@ t("#Target# is overflowing with dark power!", "#Target# is overflowing with dark
 t("+Vamp Surge", "+Vamp Surge", "_t")
 t("#Target#'s dark aura fades.", "#Target#'s dark aura fades.", "_t")
 t("-Vamp Surge", "-Vamp Surge", "_t")
-t("Temporal Ripples", "Temporal Ripples", "_t")
 t("Attackers dealing damage will be healed for %d%% of the damage done.", "Attackers dealing damage will be healed for %d%% of the damage done.", "tformat")
 t("#Target# is fluctuating in time!", "#Target# is fluctuating in time!", "_t")
 t("#Target# is no longer fluctuating.", "#Target# is no longer fluctuating.", "_t")
@@ -6565,6 +6535,7 @@ t("confusion", "confus", "effect subtype")
 t("#Target# is less afraid.", "#Target# a moins peur.", "_t")
 t("fear", "peur", "effect subtype")
 t("curse", "malédiction", "effect subtype")
+t("Curse of Amakthel", "Malédiction d'Amakthel", "_t")
 t("#Target# is no longer cursed.", "#Target# n'est plus maudit.", "_t")
 -- texte non traduit
 --[==[
@@ -6602,7 +6573,6 @@ t("All Seeing", "All Seeing", "_t")
 t("Can see all other beings around them.", "Can see all other beings around them.", "tformat")
 t("#Target# sees all!", "#Target# sees all!", "_t")
 t("#Target# loses their telepathy.", "#Target# loses their telepathy.", "_t")
-t("Curse of Amakthel", "Curse of Amakthel", "_t")
 t("All new negative effects on you will have their duration doubled.", "All new negative effects on you will have their duration doubled.", "tformat")
 t("#Target# is cursed!", "#Target# is cursed!", "_t")
 --]==]
@@ -6726,6 +6696,7 @@ t("Water Salve", "Onguent d'Eau", "_t")
 t("Unstoppable Force Salve", "Onguent de Force Implacable", "_t")
 t("slow", "ralentissement", "effect subtype")
 t("ice", "glace", "effect subtype")
+t("Algid Rage", "Rage Algide", "_t")
 t("disease", "maladie", "effect subtype")
 t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
@@ -6837,7 +6808,6 @@ t("#Target# overcharges saw motors.", "#Target# overcharges saw motors.", "_t")
 t("+Overcharge Saws", "+Overcharge Saws", "_t")
 t("#Target#'s saw motors are back to normal.", "#Target#'s saw motors are back to normal.", "_t")
 t("-Overcharge Saws", "-Overcharge Saws", "_t")
-t("Algid Rage", "Algid Rage", "_t")
 t("You have %d%% chances to encase your foes in iceblocks.", "You have %d%% chances to encase your foes in iceblocks.", "tformat")
 t("Larvae Infestation", "Larvae Infestation", "_t")
 t("The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "tformat")
@@ -7244,7 +7214,7 @@ t("smith", "forgeron", "_t")
 t("mechanical", "mécanique", "_t")
 t("electricity", "électricité", "_t")
 t("therapeutics", "thérapeutique", "_t")
-t("chemistry", "chimie", "_t")
+t("chemistry", "Chimie", "_t")
 t("explosives", "explosifs", "_t")
 
 ------------------------------------------------
@@ -8596,7 +8566,7 @@ t("Steam", "Vapeur", "_t")
 t("Your reserve of steam. Steam is used to power most technological things. It is very hard to increase your maximum steam, but it regenerates quickly.", "Votre réserve de vapeur. La vapeur sert à alimenter la plupart des dispositifs technologiques. Il est très difficile d'augmenter votre vapeur maximale, mais elle se régénère rapidement.", "_t")
 t("Tail", "Queue", "_t")
 t("Object held in your tail. It can be a steamgun or steamsaw.", "Objet tenu par votre queue. Il peut s'agir d'un pistolet à vapeur ou d'une scie à vapeur.", "_t")
-t("SteamTech", "Vapotech", "_t")
+t("SteamTech", "vapotech", "_t")
 t("Steampower: #00ff00#%s", "Puissance de Vapeur : #00ff00#%s", "tformat")
 t("Crit. chance: #00ff00#%s", "Chance crit      : #00ff00#%s", "tformat")
 t("Steam speed : #00ff00#%s", "Vitesse de vapeur : #00ff00#%s", "tformat")
@@ -8618,7 +8588,7 @@ t("Tinker's Master", "Maître Bricoleur", "_t")
 t("She points a location on your map, in a remote area to the north.", "Elle vous indique un emplacement sur votre carte, dans une région isolée au nord.", "_t")
 t("You are given a strange metal contraption, explaining that using it will transport you to tinker's cave.", "On vous remet une étrange engeance métallique, en vous expliquant que son utilisation vous transportera jusqu'à la caverne du bricoleur.", "_t")
 t("gained knowledge of tinker technology", "a acquis la connaissance de la technologie des Bricoleurs", "_t")
-t("Steamtech", "Vapotech", "_t")
+t("Steamtech", "vapotech", "_t")
 t("I've changed my mind.", "J'ai changé d'avis.", "_t")
 t("Which kind of item would you like ?", "Quel type d'article souhaitez-vous ?", "_t")
 t("#CRIMSON#Your timetravel has no effect on pre-determined outcomes such as this.", "#CRIMSON#Votre voyage dans le temps n'a aucun effet sur des résultats prédéterminés tels que celui-ci.", "_t")
