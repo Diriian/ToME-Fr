@@ -103,7 +103,7 @@ t("Got to level 500 of the infinite dungeon.", "Aller au niveau 500 du donjon in
 ------------------------------------------------
 section "mod-tome/data/achievements/items.lua"
 
-t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre inscriptions uniques : l'Essence Primale, l'Essence de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
+t("Found the Blood of Life and the four unique inscriptions: Primal Infusion, Infusion of Wild Growth, Rune of Reflection and Rune of the Rift.", "Trouver le Sang de Vie et les quatre essences uniques : l'Essence Primale, l'Essence de Croissance Sauvage, la Rune de Réflexion et la Rune de la Faille.", "_t")
 t("Treasure Hunter", "Chasseur de trésors", "achievement name")
 t("Amassed 1000 gold pieces.", "Amasser 1000 pièces d'or.", "_t")
 t("Treasure Hoarder", "Accapareurs de trésors", "achievement name")
@@ -18921,7 +18921,7 @@ t("#GOLD#PLACED LESSER VAULT: %s", "#GOLD#A PLACE UNE PETITE CHAMBRE FORTE : %s"
 ------------------------------------------------
 section "mod-tome/data/talents/celestial/celestial.lua"
 
-t("celestial", "céleste", "talent category")
+t("celestial", "Céleste", "talent category")
 t("guardian", "gardien", "talent type")
 t("Your devotion grants you additional protection.", "Votre dévotion vous confère une protection supplémentaire.", "_t")
 t("Chant the glory of the Sun.", "Chantez la gloire du Soleil.", "_t")
