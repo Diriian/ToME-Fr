@@ -4059,126 +4059,102 @@ t("", "", "_t")
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/cosmic.lua"
 
-
--- texte non traduit
---[==[
-t("Lunar Orb", "Lunar Orb", "talent name")
-t("Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "tformat")
-t("Astral Path", "Astral Path", "talent name")
-t("The spell fizzles: there are no available spots to teleport to.", "The spell fizzles: there are no available spots to teleport to.", "logSeen")
+t("Lunar Orb", "Orbe Lunaire", "talent name")
+t("Fires out a bolt of cosmic energy in the target direction. The projectile continues until it hits a wall or the edge of the map, dealing %0.2f dark damage to enemies hit and restoring %d negative energy. The negative energy gained is reduced by 25%% per enemy hit, restoring a maximum of %d. Enemies hit will become aware of you.", "Tire un trait d'énergie cosmique dans la direction ciblée. Le projectile continue jusqu'à ce qu'il frappe un mur ou le bord de la carte, infligeant %0.2f dégâts d'obscurité aux ennemis touchés et restaurant %d énergie négative. L'énergie négative gagnée est réduite de 25%% par ennemi touché, pour un maximum de %d restaurés. Les ennemis touchés prendront conscience de votre présence.", "tformat")
+t("Astral Path", "Chemin Astral", "talent name")
+t("The spell fizzles: there are no available spots to teleport to.", "Le sort échoue : aucun emplacement disponible pour se téléporter.", "logSeen")
 t([[Fire an orb of negative energy towards a spot within range %d.
 		When the orb reaches its destination, it will teleport you to its location.
-		The speed of the projectile (%d%%) increases with your movement speed]], [[Fire an orb of negative energy towards a spot within range %d.
-		When the orb reaches its destination, it will teleport you to its location.
-		The speed of the projectile (%d%%) increases with your movement speed]], "tformat")
-t("Galactic Pulse", "Galactic Pulse", "talent name")
+		The speed of the projectile (%d%%) increases with your movement speed]], [[Tire un orbe d'énergie négative vers un emplacement de portée %d.
+		Lorsque l'orbe atteint sa destination, il vous téléporte à son emplacement.
+		La vitesse du projectile (%d%%) est proportionnel à votre vitesse de déplacement.]], "tformat")
+t("Galactic Pulse", "Impulsion Galactique", "talent name")
 t([[Sends out a slow-moving spiral of cosmic energy towards a target location within range 8.
-		As the cosmic energy moves, it pulls in targets adjacent to it, dealing %0.2f darkness damage and granting you 1 negative energy per hit.]], [[Sends out a slow-moving spiral of cosmic energy towards a target location within range 8.
-		As the cosmic energy moves, it pulls in targets adjacent to it, dealing %0.2f darkness damage and granting you 1 negative energy per hit.]], "tformat")
-t("Supernova", "Supernova", "talent name")
+		As the cosmic energy moves, it pulls in targets adjacent to it, dealing %0.2f darkness damage and granting you 1 negative energy per hit.]], [[Envoie une spirale d'énergie cosmique se déplaçant lentement vers un emplacement cible à portée 8.
+		À mesure que l'énergie cosmique se déplace, elle attire les cibles adjacentes, infligeant %0.2f dégâts d'obscurité et vous accordant 1 énergie négative par coup.]], "tformat")
 t([[Expend all of your negative energy to create a massive burst of dark energy (radius %d) at a target location within range %d.
 		This deals %0.2f darkness damage and pins targets hit for %d turns.
-		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], [[Expend all of your negative energy to create a massive burst of dark energy (radius %d) at a target location within range %d.
-		This deals %0.2f darkness damage and pins targets hit for %d turns.
-		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], "tformat")
+		The damage and pin chance increase with your spellpower, and the damage, radius and pin duration all increase with negative energy and talent level]], [[Dépense toute votre énergie négative pour créer une explosion massive d'énergie obscure (rayon %d) à un emplacement cible à portée %d.
+		Ceci inflige %0.2f dégâts d'obscurité et immobilise les cibles touchées pendant %d tours.
+		Les dégâts et les chances d'immobilisation sont proportionnels à votre puissance magique, tandis que les dégâts, le rayon et la durée de l'immobilisation sont proportionnels à l'énergie négative et le niveau du talent.]], "tformat")
+-- texte non traduit
+--[==[
+t("Supernova", "Supernova", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/crepescula.lua"
 
-
--- texte non traduit
---[==[
-t("Twilit Echoes", "Twilit Echoes", "talent name")
+t("Twilit Echoes", "Échos du Crépuscule", "talent name")
 t([[The target feels the echoes of all your light and dark damage for %d turns. 
 
 Light damage slows the target by %0.2f%% per point of damage dealt for %d turns, up to a maximum of %d%% at %d damage.
-Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[The target feels the echoes of all your light and dark damage for %d turns. 
+Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[La cible ressent les échos de tous vos dégâts de lumière et d'obscurité pendant %d tours.
 
-Light damage slows the target by %0.2f%% per point of damage dealt for %d turns, up to a maximum of %d%% at %d damage.
-Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], "tformat")
---]==]
-
+Les dégâts de lumière ralentissent la cible de %0.2f%% par point de dégâts infligés pendant %d tours, jusqu'à un maximum de %d%% à %d dégâts.
+Les dégâts d'obscurité créent un effet sur la case pendant %d tours qui inflige %d%% des dégâts infligés chaque tour. Il sera réinitialisé tant que la cible continue de subir des dégâts provenant de cette source ou d'une autre pendant que Échos du Crépuscule est actif, infligeant ses dégâts restants sur la nouvelle durée ainsi que les nouveaux dégâts.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/energies.lua"
 
-
--- texte non traduit
---[==[
-t("Celestial Acceleration", "Celestial Acceleration", "talent name")
-t("Increases your movement speed by %0.2f%% per percent of positive energy and your casting speed by %0.2f%% per percent of negative energy, up to a maximum of %0.2f%% at 80%%. Sustained energy still counts toward the maximum.", "Increases your movement speed by %0.2f%% per percent of positive energy and your casting speed by %0.2f%% per percent of negative energy, up to a maximum of %0.2f%% at 80%%. Sustained energy still counts toward the maximum.", "tformat")
-t("Polarization", "Polarization", "talent name")
-t("Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "tformat")
-t("Magnetic Inversion", "Magnetic Inversion", "talent name")
-t("Swap your current positive and negative energy levels. This spell takes no time to cast.", "Swap your current positive and negative energy levels. This spell takes no time to cast.", "_t")
-t("Plasma Bolt", "Plasma Bolt", "talent name")
-t("Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damage in a radius of %d, and slowing targets hit. Their movement is reduced by %d%% and attacking, casting and mind attacks by %d%%. The bolt will attune to your current positive and negative energy amounts.", "Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damage in a radius of %d, and slowing targets hit. Their movement is reduced by %d%% and attacking, casting and mind attacks by %d%%. The bolt will attune to your current positive and negative energy amounts.", "tformat")
---]==]
-
+t("Celestial Acceleration", "Accélération Céleste", "talent name")
+t("Increases your movement speed by %0.2f%% per percent of positive energy and your casting speed by %0.2f%% per percent of negative energy, up to a maximum of %0.2f%% at 80%%. Sustained energy still counts toward the maximum.", "Augmente votre vitesse de déplacement de %0.2f%% par pourcentage d'énergie positive et votre vitesse d'incantation de %0.2f%% par pourcentage d'énergie négative, jusqu'à un maximum de %0.2f%% à 80%%. L'énergie entretenue compte toujours pour le maximum.", "tformat")
+t("Polarization", "Polarisation", "talent name")
+t("Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "Celle de vos énergies positive ou négative qui possède le pourcentage le plus élevé se régénère vers son maximum au lieu de sa valeur de repos normale (%d positive, %d négative). Vos taux de régénération/dégénération négatifs et positifs sont augmentés à %0.2f.", "tformat")
+t("Magnetic Inversion", "Inversion Magnétique", "talent name")
+t("Swap your current positive and negative energy levels. This spell takes no time to cast.", "Inverse vos niveaux d'énergie positive et négative actuels. Ce sort ne prend aucun temps à lancer.", "_t")
+t("Plasma Bolt", "Trait de Plasma", "talent name")
+t("Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damage in a radius of %d, and slowing targets hit. Their movement is reduced by %d%% and attacking, casting and mind attacks by %d%%. The bolt will attune to your current positive and negative energy amounts.", "Tire un trait d'énergie pure, infligeant %0.2f dégâts de lumière et %0.2f dégâts d'obscurité dans un rayon de %d, et ralentissant les cibles touchées. Leur mouvement est réduit de %d%%, et leurs capacités d'attaque, d'incantation et d'attaques mentales de %d%%. Le trait s'accordera avec vos montants actuels d'énergie positive et négative.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/reflection.lua"
 
+t("Diffraction Pulse", "Impulsion de Diffraction", "talent name")
+t("Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "Crée une distorsion sur la case ciblée, repoussant tous les projectiles et changeant leur direction pour les détourner, si possible.", "_t")
+t("Mirror Wall", "Mur Miroir", "talent name")
+t("mirror wall", "mur miroir", "_t")
+t("Creates a wall %d units long for %d turns, reflecting all projectiles that hit it and blocking sight.", "Crée un mur de %d unités de long pendant %d tours, réfléchissant tous les projectiles qui le touchent et bloquant la vue.", "tformat")
+t("Spatial Prism", "Prisme Spatial", "talent name")
+t("Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "Cible un projectile en plein vol pour le cloner et cibler ce projectile indépendamment. Vous gagnez la propriété du nouveau projectile.", "_t")
+t("Mirror Self", "Double Miroir", "talent name")
 t("Mirror Image (%s)", "Image Miroir (%s)", "tformat")
--- texte non traduit
---[==[
-t("Diffraction Pulse", "Diffraction Pulse", "talent name")
-t("Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "_t")
-t("Mirror Wall", "Mirror Wall", "talent name")
-t("mirror wall", "mirror wall", "_t")
-t("Creates a wall %d units long for %d turns, reflecting all projectiles that hit it and blocking sight.", "Creates a wall %d units long for %d turns, reflecting all projectiles that hit it and blocking sight.", "tformat")
-t("Spatial Prism", "Spatial Prism", "talent name")
-t("Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "Target a projectile in mid-flight to clone it and target that projectile independently. You gain ownership over the new projectile.", "_t")
-t("Mirror Self", "Mirror Self", "talent name")
-t("A cloned image of you.", "A cloned image of you.", "_t")
-t("Mirror Self", "Mirror Self", "_t")
-t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "tformat")
---]==]
-
+t("A cloned image of you.", "Une image clonée de vous-même.", "_t")
+t("Mirror Self", "Double Miroir", "_t")
+t("Summons a clone for %d turns which casts all the spells you cast, dealing %d%% damage and having %d%% health. Additionally, all light damage the clone deals becomes darkness damage and all darkness damage becomes light damage.", "Invoque un clone pour %d tours qui lance tous les sorts que vous lancez, infligeant %d%% dégâts et ayant %d%% de santé. De plus, tous les dégâts de lumière infligés par le clone deviennent des dégâts d'obscurité et tous les dégâts d'obscurité deviennent des dégâts de lumière.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/sol.lua"
 
-
--- texte non traduit
---[==[
-t("Solar Orb", "Solar Orb", "talent name")
-t("Solar Orb", "Solar Orb", "_t")
-t("Fire out an orb of light that deals %0.2f light damage and then returns, dealing the same amount of damage again and reducing the cooldown by half (%d) when it reaches you. The damage will increase with your spellpower. The ball will travel at most %d distance to return to you.", "Fire out an orb of light that deals %0.2f light damage and then returns, dealing the same amount of damage again and reducing the cooldown by half (%d) when it reaches you. The damage will increase with your spellpower. The ball will travel at most %d distance to return to you.", "tformat")
-t("Solar Wind", "Solar Wind", "talent name")
-t("While sustained, this ability speeds up outgoing projectiles by %d%% while slowing incoming projectiles by %d%%. The increase and decrease improve with your spellpower", "While sustained, this ability speeds up outgoing projectiles by %d%% while slowing incoming projectiles by %d%%. The increase and decrease improve with your spellpower", "tformat")
-t("Lucent Wrath", "Lucent Wrath", "talent name")
-t("After %d turns, the target area in (radius %d) is blasted with a beam of light, dealing %0.2f damage and lighting the area", "After %d turns, the target area in (radius %d) is blasted with a beam of light, dealing %0.2f damage and lighting the area", "tformat")
-t("Lightspeed", "Lightspeed", "talent name")
-t("%s moves at light speed!", "%s moves at light speed!", "logSeen")
-t("Instantly gain %d%% percent of a turn.", "Instantly gain %d%% percent of a turn.", "tformat")
---]==]
-
+t("Solar Orb", "Orbe Solaire", "talent name")
+t("Solar Orb", "Orbe Solaire", "_t")
+t("Fire out an orb of light that deals %0.2f light damage and then returns, dealing the same amount of damage again and reducing the cooldown by half (%d) when it reaches you. The damage will increase with your spellpower. The ball will travel at most %d distance to return to you.", "Tire un orbe de lumière qui inflige %0.2f dégâts de lumière puis revient, infligeant à nouveau la même quantité de dégâts et réduisant le temps de recharge de moitié (%d) lorsqu'il vous atteint. Les dégâts sont proportionnels à votre puissance magique. La balle parcourra au maximum %d de distance pour revenir vers vous.", "tformat")
+t("Solar Wind", "Vent Solaire", "talent name")
+t("While sustained, this ability speeds up outgoing projectiles by %d%% while slowing incoming projectiles by %d%%. The increase and decrease improve with your spellpower", "Pendant qu'il est entretenu, ce pouvoir accélère vos projectiles sortants de %d%% tout en ralentissant les projectiles entrants de %d%%. L'augmentation et la diminution s'améliorent avec votre puissance magique.", "tformat")
+t("Lucent Wrath", "Courroux Luminescent", "talent name")
+t("After %d turns, the target area in (radius %d) is blasted with a beam of light, dealing %0.2f damage and lighting the area", "Après %d tours, la zone ciblée (rayon %d) est frappée par un faisceau de lumière, infligeant %0.2f dégâts et illuminant la zone.", "tformat")
+t("Lightspeed", "Vitesse de la Lumière", "talent name")
+t("%s moves at light speed!", "%s se déplace à la vitesse de la lumière !", "logSeen")
+t("Instantly gain %d%% percent of a turn.", "Gagne instantanément %d%% d'un tour.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/void.lua"
 
-t("This spell cannot be cast here.", "Ce sort ne peut pas être lancé ici.", "logPlayer")
--- texte non traduit
---[==[
-t("Nebula Spear", "Nebula Spear", "talent name")
-t("Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "tformat")
-t("Crescent Wave", "Crescent Wave", "talent name")
-t("Fires out a projectile in a clockwise arc. If it hits an enemy it deals %0.2f damage and roots them for one turn. If another projectile damages them within %d turns, they take half that damage and are rooted again.", "Fires out a projectile in a clockwise arc. If it hits an enemy it deals %0.2f damage and roots them for one turn. If another projectile damages them within %d turns, they take half that damage and are rooted again.", "_t")
-t("Twilit Echoes", "Twilit Echoes", "talent name")
+t("Nebula Spear", "Lance Nébuleuse", "talent name")
+t("Fire out a spear of cosmic energies. If it hits an enemy it deals %0.2f damage, otherwise it explodes in a thin cone of radius %d at the end of its range, blocked by enemies, which deals %0.2f to %0.2f damage depending on how much the enemies block.", "Tire une lance d'énergies cosmiques. Si elle touche un ennemi, elle inflige %0.2f dégâts ; sinon, elle explose dans un cône étroit de rayon %d à la fin de sa portée, bloqué par les ennemis, ce qui inflige %0.2f à %0.2f dégâts selon la part bloquée par les ennemis.", "tformat")
+t("Crescent Wave", "Vague Croissant", "talent name")
+t("Fires out a projectile in a clockwise arc. If it hits an enemy it deals %0.2f damage and roots them for one turn. If another projectile damages them within %d turns, they take half that damage and are rooted again.", "Tire un projectile selon un arc dans le sens des aiguilles d'une montre. S'il touche un ennemi, il inflige %0.2f dégâts et l'immobilise pendant un tour. Si un autre projectile leur inflige des dégâts dans les %d tours, ils subissent la moitié de ces dégâts et sont à nouveau immobilisés.", "_t")
+t("Twilit Echoes", "Échos du Crépuscule", "talent name")
 t([[The target feels the echoes of all your light and dark damage for %d turns. 
 
 Light damage slows the target by %0.2f%% per point of damage dealt for %d turns, up to a maximum of %d%% at %d damage.
-Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[The target feels the echoes of all your light and dark damage for %d turns. 
+Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[La cible ressent les échos de tous vos dégâts de lumière et d'obscurité pendant %d tours.
 
-Light damage slows the target by %0.2f%% per point of damage dealt for %d turns, up to a maximum of %d%% at %d damage.
-Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], "tformat")
-t("Starscape", "Starscape", "talent name")
-t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "tformat")
---]==]
-
+Les dégâts de lumière ralentissent la cible de %0.2f%% par point de dégâts infligés pendant %d tours, jusqu'à un maximum de %d%% à %d dégâts.
+Les dégâts d'obscurité créent un effet sur la case pendant %d tours qui inflige %d%% des dégâts infligés chaque tour. Il sera réinitialisé tant que la cible continue de subir des dégâts provenant de cette source ou d'une autre pendant que Échos du Crépuscule est actif, infligeant ses dégâts restants sur la nouvelle durée ainsi que les nouveaux dégâts.]], "tformat")
+t("Starscape", "Paysage Stellaire", "talent name")
+t("This spell cannot be cast here.", "Ce sort ne peut pas être lancé ici.", "logPlayer")
+t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "Invoque le paysage stellaire dans la zone environnante sur un rayon de %d. Pendant %d tours, cette zone existe en dehors du temps normal et en apesanteur. En plus des effets de l'apesanteur, le mouvement des projectiles et des autres créatures est trois fois plus lent. Les sorts et les attaques ne peuvent pas s'échapper du rayon tant que l'effet n'a pas pris fin.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/misc/npcs.lua"
@@ -4355,117 +4331,110 @@ t("yeti", "yeti", "talent type")
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/action-at-a-distance.lua"
 
-
--- texte non traduit
---[==[
-t("Condensate", "Condensate", "talent name")
+t("Condensate", "Condensation", "talent name")
 t([[Condensate hot steam around your foes in radius %d, burning them for %0.2f fire damage and applying the wet effect for 4 turns, halving their stun resistances.
-		The damage will increase with your Mindpower.]], [[Condensate hot steam around your foes in radius %d, burning them for %0.2f fire damage and applying the wet effect for 4 turns, halving their stun resistances.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Solidify Air", "Solidify Air", "talent name")
-t("solid air", "solid air", "_t")
-t("a piece of solidified air", "a piece of solidified air", "_t")
+		The damage will increase with your Mindpower.]], [[Condense de la vapeur chaude autour de vos ennemis dans un rayon de %d, les brûlant pour %0.2f dégâts de feu et appliquant l'effet mouillé pendant 4 tours, réduisant de moitié leurs résistances à l'étourdissement.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Solidify Air", "Solidifier l'Air", "talent name")
+t("solid air", "air solidifié", "_t")
+t("a piece of solidified air", "Un morceau d'air solidifié.", "_t")
 t([[You concentrate your will in a cone in front of you, condensing the air into a tangible, solid form.
 		Any creatures caught inside take %0.2f physical damage.
 		Any places with no creatures will be filled with solid air, blocking the way for %d turns.
-		The damage will increase with your Mindpower.]], [[You concentrate your will in a cone in front of you, condensing the air into a tangible, solid form.
-		Any creatures caught inside take %0.2f physical damage.
-		Any places with no creatures will be filled with solid air, blocking the way for %d turns.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Superconduction", "Superconduction", "talent name")
+		The damage will increase with your Mindpower.]], [[Vous concentrez votre volonté en un cône devant vous, condensant l'air en une forme solide et tangible.
+		Toutes les créatures prises à l'intérieur subissent %0.2f dégâts physiques.
+		Les emplacements sans créature seront remplis d'air solidifié, bloquant le passage pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
 t([[Call a streak of lightning on your target, dealing %0.2f to %0.2f lightning damage.
 		If it is wet the lightning propagates to all foes in radius %d, doing the same damage to each.
 		All affected foes are seared for 4 turns, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], [[Call a streak of lightning on your target, dealing %0.2f to %0.2f lightning damage.
-		If it is wet the lightning propagates to all foes in radius %d, doing the same damage to each.
-		All affected foes are seared for 4 turns, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Negative Biofeedback", "Negative Biofeedback", "talent name")
+		The damage will increase with your Mindpower.]], [[Appelle un éclair sur votre cible, infligeant de %0.2f à %0.2f dégâts de foudre.
+		Si elle est mouillée, la foudre se propage à tous les ennemis dans un rayon de %d, infligeant les mêmes dégâts à chacun.
+		Tous les ennemis affectés sont cautérisés pendant 4 tours, réduisant leur résistance au feu de %d%% et leur sauvegarde mentale de %d.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Negative Biofeedback", "Biofeedback Négatif", "talent name")
 t([[Any time you deal damage with a psionic ability you incur a negative biofeedback in your foes, stacking up to %d times for 5 turns.
 		Each stack reduces their physical save by %d, defense and armour by %d.
-		This effect may only occur once per turn.]], [[Any time you deal damage with a psionic ability you incur a negative biofeedback in your foes, stacking up to %d times for 5 turns.
-		Each stack reduces their physical save by %d, defense and armour by %d.
-		This effect may only occur once per turn.]], "tformat")
+		This effect may only occur once per turn.]], [[Chaque fois que vous infligez des dégâts avec une capacité psionique, vous provoquez un biofeedback négatif sur vos ennemis, s'accumulant jusqu'à %d fois pendant 5 tours.
+		Chaque accumulation réduit leur sauvegarde physique de %d, et leur défense et armure de %d.
+		Cet effet ne peut se produire qu'une fois par tour.]], "tformat")
+-- texte non traduit
+--[==[
+t("Superconduction", "Superconduction", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/gestalt.lua"
 
-
--- texte non traduit
---[==[
-t("Gestalt", "Gestalt", "talent name")
 t([[You let your mind tap into your steam generators for energy, increasing your Mindpower in proportion to your steam level: %d when at full steam and 0 when at 0 steam.
 		Using a psionic talent will feedback into your generators, increasing your Steam power by %d for your next steamtech talent.
 		Using a steamtech talent will feedback into psionic focus, increasing your psi level by %d.
-		The effects increase with your Willpower.]], [[You let your mind tap into your steam generators for energy, increasing your Mindpower in proportion to your steam level: %d when at full steam and 0 when at 0 steam.
-		Using a psionic talent will feedback into your generators, increasing your Steam power by %d for your next steamtech talent.
-		Using a steamtech talent will feedback into psionic focus, increasing your psi level by %d.
-		The effects increase with your Willpower.]], "tformat")
-t("Improved Gestalt", "Improved Gestalt", "talent name")
+		The effects increase with your Willpower.]], [[Vous laissez votre esprit puiser dans vos générateurs de vapeur pour obtenir de l'énergie, augmentant votre Puissance Mentale proportionnellement à votre niveau de vapeur : %d à pleine vapeur et 0 à zéro vapeur.
+		L'utilisation d'un talent psionique alimentera en retour vos générateurs, augmentant votre Puissance de vapeur de %d pour votre prochain talent de vapotech.
+		L'utilisation d'un talent de vapotech alimentera en retour votre concentration psionique, augmentant votre niveau de psi de %d.
+		Les effets sont proportionnels à votre Volonté.]], "tformat")
+t("Improved Gestalt", "Gestalt Amélioré", "talent name")
 t([[When you use a steamtech talent while Gestalt is active you drain some residual power to form a psionic shield.
 		The shield forms for 3 turns and absorbs %d damage.
-		The effects increase with your Mindpower.]], [[When you use a steamtech talent while Gestalt is active you drain some residual power to form a psionic shield.
-		The shield forms for 3 turns and absorbs %d damage.
-		The effects increase with your Mindpower.]], "tformat")
-t("Instant Channeling", "Instant Channeling", "talent name")
-t("You must have either a psionic damage shield active or Improved Gestalt available to use this talent.", "You must have either a psionic damage shield active or Improved Gestalt available to use this talent.", "logPlayer")
+		The effects increase with your Mindpower.]], [[Lorsque vous utilisez un talent de vapotech tandis que Gestalt est actif, vous drainez une partie de la puissance résiduelle pour former un bouclier psionique.
+		Le bouclier se forme pendant 3 tours et absorbe %d dégâts.
+		Les effets sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Instant Channeling", "Canalisation Instantanée", "talent name")
+t("You must have either a psionic damage shield active or Improved Gestalt available to use this talent.", "Vous devez avoir soit un bouclier de dégâts psionique actif, soit Gestalt Amélioré disponible pour utiliser ce talent.", "logPlayer")
 t([[Instantly channel all of your remaining steam to replenish your psi energies and either enhance your active psionic damage shield or trigger a new one.
 		The (new or existing) shield duration is increased by 3 turns and its power is boosted by %d%% of the steam used.
 		You restore psi equal to %d%% of the steam used.
-		This talent requires Gestalt to be active and either an active psionic damage shield or Improved Gestalt off cooldown.]], [[Instantly channel all of your remaining steam to replenish your psi energies and either enhance your active psionic damage shield or trigger a new one.
-		The (new or existing) shield duration is increased by 3 turns and its power is boosted by %d%% of the steam used.
-		You restore psi equal to %d%% of the steam used.
-		This talent requires Gestalt to be active and either an active psionic damage shield or Improved Gestalt off cooldown.]], "tformat")
-t("Forced Gestalt", "Forced Gestalt", "talent name")
+		This talent requires Gestalt to be active and either an active psionic damage shield or Improved Gestalt off cooldown.]], [[Canalise instantanément toute votre vapeur restante pour reconstituer vos énergies psi et soit améliorer votre bouclier de dégâts psionique actif, soit en déclencher un nouveau.
+		La durée du bouclier (nouveau ou existant) est augmentée de 3 tours et sa puissance est amplifiée de %d%% de la vapeur utilisée.
+		Vous restaurez du psi égal à %d%% de la vapeur utilisée.
+		Ce talent nécessite que Gestalt soit actif et soit un bouclier de dégâts psionique actif, soit Gestalt Amélioré hors rechargement.]], "tformat")
+t("Forced Gestalt", "Gestalt Forcé", "talent name")
 t([[Temporarily expand your mind to force your Gestalt upon your foes in a radius of 5. Up to %d foe(s) will be affected.
 		The Gestalt will drain each affected foe's powers (physical power, mind power, spell power and steam power) by %d for 5 turns.
 		Your own powers will be increased in return by the drained amount (reduced for each additional foe).
 		In addition for 5 turns you can sense creatures beyond your sight, even through walls in radius %d.
-		The effects improve with your Mindpower.]], [[Temporarily expand your mind to force your Gestalt upon your foes in a radius of 5. Up to %d foe(s) will be affected.
-		The Gestalt will drain each affected foe's powers (physical power, mind power, spell power and steam power) by %d for 5 turns.
-		Your own powers will be increased in return by the drained amount (reduced for each additional foe).
-		In addition for 5 turns you can sense creatures beyond your sight, even through walls in radius %d.
-		The effects improve with your Mindpower.]], "tformat")
+		The effects improve with your Mindpower.]], [[Étend temporairement votre esprit pour imposer votre Gestalt à vos ennemis dans un rayon de 5. Jusqu'à %d ennemi(s) seront affectés.
+		Le Gestalt drainera les pouvoirs de chaque ennemi affecté (puissance physique, puissance mentale, puissance des sorts et puissance de vapeur) de %d pendant 5 tours.
+		Vos propres pouvoirs seront augmentés en retour du montant drainé (réduit pour chaque ennemi supplémentaire).
+		De plus, pendant 5 tours, vous pouvez détecter des créatures au-delà de votre vision, même à travers les murs dans un rayon de %d.
+		Les effets sont proportionnels à votre Puissance Mentale.]], "tformat")
+-- texte non traduit
+--[==[
+t("Gestalt", "Gestalt", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/psionic-fog.lua"
 
-
--- texte non traduit
---[==[
-t("Vaporous Step", "Vaporous Step", "talent name")
+t("Vaporous Step", "Pas Vaporeux", "talent name")
 t([[You concentrate your will to psychoport some of the steam of your generator to a remote location. Each turn steam accumulates there, up to %d charges.
 		When you deactivate the effect you release the accumulated psionic and steam energies, instantly switching places with the target location and releasing the charges in a fiery explosion of hot wet steam in radius 4.
 		The explosion will do %0.2f fire damage, multiplied by 33%% (diminutive) for each charge and apply the wet effect.
 		The effect will fizzle if the charged grid is currently occupied by a creature or not in sight.
-		The damage will increase with your Steampower.]], [[You concentrate your will to psychoport some of the steam of your generator to a remote location. Each turn steam accumulates there, up to %d charges.
-		When you deactivate the effect you release the accumulated psionic and steam energies, instantly switching places with the target location and releasing the charges in a fiery explosion of hot wet steam in radius 4.
-		The explosion will do %0.2f fire damage, multiplied by 33%% (diminutive) for each charge and apply the wet effect.
-		The effect will fizzle if the charged grid is currently occupied by a creature or not in sight.
-		The damage will increase with your Steampower.]], "tformat")
-t("Inhale Vapours", "Inhale Vapours", "talent name")
+		The damage will increase with your Steampower.]], [[Vous concentrez votre volonté pour psycho-transporter une partie de la vapeur de votre générateur vers un emplacement distant. À chaque tour, la vapeur s'y accumule, jusqu'à %d charges.
+		Lorsque vous désactivez l'effet, vous libérez les énergies psioniques et de vapeur accumulées, échangeant instantanément de place avec l'emplacement cible et libérant les charges dans une explosion enflammée de vapeur chaude et humide dans un rayon de 4.
+		L'explosion infligera %0.2f dégâts de feu, multipliés par 33%% (avec des retours décroissants) par charge et appliquera l'effet mouillé.
+		L'effet s'annulera si la case chargée est actuellement occupée par une créature ou hors de vue.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Inhale Vapours", "Inhalation de Vapeurs", "talent name")
 t([[When you deactivate Vaporous Step, if the psychoport succeeds you inhale some of the vapours, regenerating %d steam and %d life.
 		The effects will be multiplied by 33%% (diminutive) for each charge of Vaporous Step.
-		The healing done will increase with your Mindpower.]], [[When you deactivate Vaporous Step, if the psychoport succeeds you inhale some of the vapours, regenerating %d steam and %d life.
-		The effects will be multiplied by 33%% (diminutive) for each charge of Vaporous Step.
-		The healing done will increase with your Mindpower.]], "tformat")
-t("Psionic Fog", "Psionic Fog", "talent name")
+		The healing done will increase with your Mindpower.]], [[Lorsque vous désactivez Pas Vaporeux, si la psycho-téléportation réussit, vous inhalez une partie des vapeurs, régénérant %d de vapeur et %d de vie.
+		Les effets seront multipliés par 33%% (avec des retours décroissants) par charge de Pas Vaporeux.
+		Les soins prodigués sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Psionic Fog", "Brouillard Psionique", "talent name")
 t([[Using the steam of your generators you shape it into a psionic fog that lasts %d turns. Any foes caught inside will take %0.2f damage per turn and be seared, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], [[Using the steam of your generators you shape it into a psionic fog that lasts %d turns. Any foes caught inside will take %0.2f damage per turn and be seared, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], "tformat")
-t("Uncertainty Principle", "Uncertainty Principle", "talent name")
-t("#STEEL_BLUE#(%d quantum shifted)#LAST#", "#STEEL_BLUE#(%d quantum shifted)#LAST#", "tformat")
+		The damage will increase with your Mindpower.]], [[En utilisant la vapeur de vos générateurs, vous la façonnez en un brouillard psionique qui dure %d tours. Tout ennemi pris à l'intérieur subira %0.2f dégâts par tour et sera cautérisé, réduisant sa résistance au feu de %d%% et sa sauvegarde mentale de %d.
+		Les dégâts sont proportionnels à votre Puissance Mentale.]], "tformat")
+t("Uncertainty Principle", "Principe d'Incertitude", "talent name")
+t("#STEEL_BLUE#(%d quantum shifted)#LAST#", "#STEEL_BLUE#(%d déplacement quantique)#LAST#", "tformat")
 t([[While inside a psionic fog the quantum state of space is warped by your powerful tech-augmented psionic powers.
 		When you would get hit you instead find yourself in an adjacent location.
-		This effect has a cooldown.]], [[While inside a psionic fog the quantum state of space is warped by your powerful tech-augmented psionic powers.
-		When you would get hit you instead find yourself in an adjacent location.
-		This effect has a cooldown.]], "tformat")
---]==]
-
+		This effect has a cooldown.]], [[Lorsque vous êtes à l'intérieur d'un brouillard psionique, l'état quantique de l'espace est déformé par vos puissants pouvoirs psioniques augmentés technologiquement.
+		Lorsque vous seriez touché, vous vous retrouvez à la place dans un emplacement adjacent.
+		Cet effet a un temps de rechargement.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/psionic/psionic.lua"
@@ -4485,21 +4454,18 @@ t("gestalt", "gestalt", "talent type")
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/galvanic-technomancy.lua"
 
-
--- texte non traduit
---[==[
-t("Galvanic Rod", "Galvanic Rod", "talent name")
-t("You need an arcane dynamo to cast this spell.", "You need an arcane dynamo to cast this spell.", "logPlayer")
+t("Galvanic Rod", "Bâtonnet Galvanique", "talent name")
+t("You need an arcane dynamo to cast this spell.", "Vous avez besoin d'une dynamo arcanique pour lancer ce sort.", "logPlayer")
 t([[You summon a galvanic rod at a location. Upon arrival the rod releases a shock in radius %d dealing %0.2f galvanic damage (fire and lightning) to all creatures.
 		You have 3 rods each with their own %d turns cooldown.
 		This spell works with Burning Wake.
 		This spell has 25%% chance to try to activate Hurricane, if used.
-		The damage will increase with your Spellpower.]], [[You summon a galvanic rod at a location. Upon arrival the rod releases a shock in radius %d dealing %0.2f galvanic damage (fire and lightning) to all creatures.
-		You have 3 rods each with their own %d turns cooldown.
-		This spell works with Burning Wake.
-		This spell has 25%% chance to try to activate Hurricane, if used.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Galvanic Arcing", "Galvanic Arcing", "talent name")
+		The damage will increase with your Spellpower.]], [[Vous invoquez un bâtonnet galvanique à un emplacement. À son arrivée, le bâtonnet libère un choc dans un rayon de %d, infligeant %0.2f dégâts galvaniques (feu et foudre) à toutes les créatures.
+		Vous disposez de 3 bâtonnets, chacun avec son propre rechargement de %d tours.
+		Ce sort fonctionne avec Feux Dansants.
+		Ce sort a 25%% de chance d'essayer d'activer Ouragan, si utilisé.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Galvanic Arcing", "Arc Galvanique", "talent name")
 t([[Using your arcane power you force galvanic rods to linger for %d turns. While lingering they are inert, but can link up to other rods.
 		When two rods are present in range %d of one another they link with a galvanic beam.
 		When three rods are present in range %d of one another they link with a triangular galvanic zone.
@@ -4508,43 +4474,38 @@ t([[Using your arcane power you force galvanic rods to linger for %d turns. Whil
 		At level 3 all affected creatures are shocked, reducing their stun and pin resistances by half.
 		At level 5 your weapon (if metallic, or embedded with a metallic tinker) acts as a rod that does not count towards your maximum.
 		This spell has 15%% chance to try to activate Hurricane, if used.
-		The damage will increase with your Spellpower.]], [[Using your arcane power you force galvanic rods to linger for %d turns. While lingering they are inert, but can link up to other rods.
-		When two rods are present in range %d of one another they link with a galvanic beam.
-		When three rods are present in range %d of one another they link with a triangular galvanic zone.
-		Any creature caught in a galvanic beam or zone take %0.2f galvanic damage per turn.
-		You can maintain at most 3 rods.
-		At level 3 all affected creatures are shocked, reducing their stun and pin resistances by half.
-		At level 5 your weapon (if metallic, or embedded with a metallic tinker) acts as a rod that does not count towards your maximum.
-		This spell has 15%% chance to try to activate Hurricane, if used.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Unstable Blast", "Unstable Blast", "talent name")
-t("You need Galvanic Arcing active and at least one rod to cast this spell.", "You need Galvanic Arcing active and at least one rod to cast this spell.", "logPlayer")
+		The damage will increase with your Spellpower.]], [[En utilisant votre pouvoir arcanique, vous forcez les bâtonnets galvaniques à persister pendant %d tours. Tant qu'ils persistent, ils sont inertes, mais peuvent se connecter à d'autres bâtonnets.
+		Lorsque deux bâtonnets sont présents à portée de %d l'un de l'autre, ils se connectent avec un faisceau galvanique.
+		Lorsque trois bâtonnets sont présents à portée de %d l'un de l'autre, ils se connectent en une zone galvanique triangulaire.
+		Toute créature prise dans un faisceau ou une zone galvanique subit %0.2f dégâts galvaniques par tour.
+		Vous pouvez maintenir au maximum 3 bâtonnets.
+		Au niveau 3, toutes les créatures affectées sont choquées, réduisant de moitié leurs résistances à l'assommement et à l'immobilisation.
+		Au niveau 5, votre arme (si métallique, ou dotée d'une babiole métallique) agit comme un bâtonnet supplémentaire ne comptant pas dans votre maximum.
+		Ce sort a 15%% de chance d'essayer d'activer Ouragan, si utilisé.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Unstable Blast", "Explosion Instable", "talent name")
+t("You need Galvanic Arcing active and at least one rod to cast this spell.", "Vous avez besoin d'Arc Galvanique actif et d'au moins un bâtonnet pour lancer ce sort.", "logPlayer")
 t([[Reaching through the aether you temporarily destabilize a galvanic rod's control systems. (Using your weapon as a rod does not count as a valid target)
 		This creates a blast in radius 1 around it, or through all connected rods if they are linked dealing %0.2f galvanic damage to all creatures and stunning them for %d turns.
 		This spell works with Burning Wake.
-		The damage will increase with your Spellpower.]], [[Reaching through the aether you temporarily destabilize a galvanic rod's control systems. (Using your weapon as a rod does not count as a valid target)
-		This creates a blast in radius 1 around it, or through all connected rods if they are linked dealing %0.2f galvanic damage to all creatures and stunning them for %d turns.
-		This spell works with Burning Wake.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Energy Mass Conversion", "Energy Mass Conversion", "talent name")
-t("You need Galvanic Arcing active and three rods to cast this spell.", "You need Galvanic Arcing active and three rods to cast this spell.", "logPlayer")
+		The damage will increase with your Spellpower.]], [[En atteignant l'éther, vous déstabilisez temporairement les systèmes de contrôle d'un bâtonnet galvanique. (Utiliser votre arme comme bâtonnet ne compte pas comme cible valide)
+		Cela crée une explosion dans un rayon de 1 autour de lui, ou à travers tous les bâtonnets connectés s'ils sont liés, infligeant %0.2f dégâts galvaniques à toutes les créatures et les étourdissant pendant %d tours.
+		Ce sort fonctionne avec Feux Dansants.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Energy Mass Conversion", "Conversion Énergie-Masse", "talent name")
+t("You need Galvanic Arcing active and three rods to cast this spell.", "Vous avez besoin d'Arc Galvanique actif et d'au moins trois bâtonnets pour lancer ce sort.", "logPlayer")
 t([[Using large amounts of arcane power you create a supercharged Unstable Blast in your rods.
 		The extra energy is briefly converted to a huge mass, pulling in all creatures (but you) in range %d of any rod towards the center of the galvanic field.
-		Can only be used with a triangular field is setup.]], [[Using large amounts of arcane power you create a supercharged Unstable Blast in your rods.
-		The extra energy is briefly converted to a huge mass, pulling in all creatures (but you) in range %d of any rod towards the center of the galvanic field.
-		Can only be used with a triangular field is setup.]], "tformat")
---]==]
-
+		Can only be used with a triangular field is setup.]], [[En utilisant de grandes quantités de pouvoir arcanique, vous créez une Explosion Instable surchargée dans vos bâtonnets.
+		L'énergie supplémentaire est brièvement convertie en une énorme masse, attirant toutes les créatures (sauf vous) à portée de %d de tout bâtonnet vers le centre du champ galvanique.
+		Ne peut être utilisé que lorsqu'un champ triangulaire est configuré.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/occult-technomancy.lua"
 
-
--- texte non traduit
---[==[
-t("Metaphasic Spin", "Metaphasic Spin", "talent name")
-t("You need an arcane dynamo to cast this spell.", "You need an arcane dynamo to cast this spell.", "logPlayer")
-t("Select the steamsaw to use?", "Select the steamsaw to use?", "_t")
+t("Metaphasic Spin", "Rotation Métaphasique", "talent name")
+t("You need an arcane dynamo to cast this spell.", "Vous avez besoin d'une dynamo arcanique pour lancer ce sort.", "logPlayer")
+t("Select the steamsaw to use?", "Sélectionnez une scie à vapeur :", "_t")
 t([[You imbue a steamsaw with arcane and temporal forces, making it spin very fast around your waist (ignoring requirements).
 		The saw spins so fast it it disturbs spacetime around you, increasing your spellpower by up to %d, your spell critical chance by up to %d and your mana regen by up to %0.1f (depending on steamsaw tier).
 		Any successful melee attack against you also triggers an automatic steamsaw attack that cannot miss dealing %d%% weapon damage as occult damage (arcane and temporal).
@@ -4553,73 +4514,65 @@ t([[You imbue a steamsaw with arcane and temporal forces, making it spin very fa
 		If using Aether Avatar, all Occult Technomancy spells become usable for its duration and all occult damage becomes pure arcane.
 
 		#{italic}#When you first learn this talent you also learn the Steamsaw tinker creation if you didn't already know it.#{normal}#
-		]], [[You imbue a steamsaw with arcane and temporal forces, making it spin very fast around your waist (ignoring requirements).
-		The saw spins so fast it it disturbs spacetime around you, increasing your spellpower by up to %d, your spell critical chance by up to %d and your mana regen by up to %0.1f (depending on steamsaw tier).
-		Any successful melee attack against you also triggers an automatic steamsaw attack that cannot miss dealing %d%% weapon damage as occult damage (arcane and temporal).
-		The steamsaw used will provide its bonus as if it was worn, but you can not Block with it.
-		Increases steamsaws weapon damage by %d%% and uses Magic instead of Strength to determine their damage.
-		If using Aether Avatar, all Occult Technomancy spells become usable for its duration and all occult damage becomes pure arcane.
+		]], [[Vous imbuez une scie à vapeur de forces arcaniques et temporelles, la faisant tourner très rapidement autour de votre taille (en ignorant les prérequis).
+		La scie tourne si vite qu'elle perturbe l'espace-temps autour de vous, augmentant votre Puissance des Sorts jusqu'à %d, votre chance de critique de sort jusqu'à %d et votre régénération de mana jusqu'à %0.1f (selon le rang de la scie à vapeur).
+		Toute attaque de mêlée réussie contre vous déclenche également une attaque automatique de scie à vapeur qui ne peut pas rater, infligeant %d%% dégâts d'arme sous forme de dégâts occultes (arcanique et temporel).
+		La scie à vapeur utilisée fournira ses bonus comme si elle était équipée, mais vous ne pouvez pas Bloquer avec elle.
+		Augmente les dégâts d'arme des scies à vapeur de %d%% et utilise la Magie plutôt que la Force pour déterminer leurs dégâts.
+		Si vous utilisez Avatar d'Ether, tous les sorts de Technomancie Occulte deviennent utilisables pendant sa durée et tous les dégâts occultes deviennent des dégâts arcaniques purs.
 
-		#{italic}#When you first learn this talent you also learn the Steamsaw tinker creation if you didn't already know it.#{normal}#
-		]], "tformat")
-t("Reality Breach", "Reality Breach", "talent name")
-t("You need to activate Metatemporal Spinner to cast this spell.", "You need to activate Metatemporal Spinner to cast this spell.", "logPlayer")
-t("#Source# annihilates '#Target#'!", "#Source# annihilates '#Target#'!", "logCombat")
+		#{italic}#Lorsque vous apprenez ce talent pour la première fois, vous apprenez également à créer la babiole Scie à Vapeur si vous ne le saviez pas déjà.#{normal}#]], "tformat")
+t("Reality Breach", "Brèche de Réalité", "talent name")
+t("You need to activate Metatemporal Spinner to cast this spell.", "Vous devez activer Rotation Métaphasique pour lancer ce sort.", "logPlayer")
+t("#Source# annihilates '#Target#'!", "#Source# anéantit #Target# !", "logCombat")
 t([[Spin your saw at incredible speeds for an instant, fully breaking reality in a 3-wide beam in front of you.
 		Any creatures caught by the beam take %0.2f occult damage and are untethered from reality, reducing their global speed by %d%% and the speed of any projectiles they fire by %d%% for 4 turns.
 		At level 3 any projectiles caught in the beam are instantly annihilated.
 		At level 5 the beam is so strong that all creatures caught inside are knocked back 3 tiles.
 		The breach is so deep that the beam will always have the maximum possible length it can.
-		The damage will increase with your Spellpower.]], [[Spin your saw at incredible speeds for an instant, fully breaking reality in a 3-wide beam in front of you.
-		Any creatures caught by the beam take %0.2f occult damage and are untethered from reality, reducing their global speed by %d%% and the speed of any projectiles they fire by %d%% for 4 turns.
-		At level 3 any projectiles caught in the beam are instantly annihilated.
-		At level 5 the beam is so strong that all creatures caught inside are knocked back 3 tiles.
-		The breach is so deep that the beam will always have the maximum possible length it can.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Ethereal Steam", "Ethereal Steam", "talent name")
+		The damage will increase with your Spellpower.]], [[Faites tourner votre scie à des vitesses incroyables un instant, brisant totalement la réalité en un faisceau de 3 unités de large devant vous.
+		Toutes les créatures prises dans le faisceau subissent %0.2f dégâts occultes et sont déconnectées de la réalité, réduisant leur vitesse globale de %d%% et la vitesse de tout projectile qu'elles tirent de %d%% pendant 4 tours.
+		Au niveau 3, tout projectile pris dans le faisceau est instantanément annihilé.
+		Au niveau 5, le faisceau est si puissant que toutes les créatures prises à l'intérieur sont repoussées de 3 cases.
+		La brèche est si profonde que le faisceau aura toujours la longueur maximale possible.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Ethereal Steam", "Vapeur Éthérée", "talent name")
 t([[You reach out through the aether to all creatures in sight that were slowed by Reality Breach or Congeal Time.
 		For each target you create a link of arcane infused steam to it that lasts %d turns.
 		Any time the target uses a talent one of your cooling down spells is reduced by 1 (prioritizing Technomancy spells).
 		Each turn the link is up the target and any creature inside the link takes %0.2f occult damage.
 		As long as at least one link is up, the cooldown of your Metaphasic Spin spell is set to 6 turns instead of 30.
-		The damage will increase with your Spellpower.]], [[You reach out through the aether to all creatures in sight that were slowed by Reality Breach or Congeal Time.
-		For each target you create a link of arcane infused steam to it that lasts %d turns.
-		Any time the target uses a talent one of your cooling down spells is reduced by 1 (prioritizing Technomancy spells).
-		Each turn the link is up the target and any creature inside the link takes %0.2f occult damage.
-		As long as at least one link is up, the cooldown of your Metaphasic Spin spell is set to 6 turns instead of 30.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Metaphasic Echoes", "Metaphasic Echoes", "talent name")
-t("You can only cast this spell on the turn after Reality Breach.", "You can only cast this spell on the turn after Reality Breach.", "logPlayer")
+		The damage will increase with your Spellpower.]], [[Vous tendez votre pouvoir à travers l'éther vers toutes les créatures en vue qui ont été ralenties par Brèche de Réalité ou Gel du Temps.
+		Pour chaque cible, vous créez un lien de vapeur infusée d'arcane qui dure %d tours.
+		Chaque fois que la cible utilise un talent, l'un de vos sorts en rechargement est réduit de 1 (en priorisant les sorts de Technomancie).
+		À chaque tour où le lien est actif, la cible et toute créature à l'intérieur du lien subissent %0.2f dégâts occultes.
+		Tant qu'au moins un lien est actif, le rechargement de votre sort Rotation Métaphasique est fixé à 6 tours au lieu de 30.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Metaphasic Echoes", "Échos Métaphasiques", "talent name")
+t("You can only cast this spell on the turn after Reality Breach.", "Vous ne pouvez lancer ce sort que le tour suivant Brèche de Réalité.", "logPlayer")
 t([[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
 		Each turn they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
 		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
 		Each target can only be affected once per turn.
-		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], [[Using your sheer arcane power you keep breaches in spacetime open for %d turns.
-		Each turn they are open you project an occult clone of your saw along each breach, damaging any creature caught for %d%% occult weapon damage.
-		The saw cuts both in a physical and arcane way, reducing the duration of a random beneficial effect on each target by %d each time.
-		Each target can only be affected once per turn.
-		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], "tformat")
---]==]
-
+		This spell is only usable for one turn after casting Reality Breach but any Reality Breach cast during its duration is also recorded inside.]], [[En utilisant votre puissance arcanique brute, vous maintenez les brèches dans l'espace-temps ouvertes pendant %d tours.
+		À chaque tour où elles sont ouvertes, vous projetez un clone occulte de votre scie le long de chaque brèche, infligeant %d%% dégâts d'arme occultes à toute créature touchée.
+		La scie coupe à la fois de manière physique et arcanique, réduisant la durée d'un effet bénéfique aléatoire sur chaque cible de %d à chaque fois.
+		Chaque cible ne peut être affectée qu'une seule fois par tour.
+		Ce sort n'est utilisable que pendant un tour après le lancement de Brèche de Réalité, mais toute Brèche de Réalité lancée pendant sa durée est également enregistrée à l'intérieur.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/other-technomancy.lua"
 
-
--- texte non traduit
---[==[
-t("Electron Incantation", "Electron Incantation", "talent name")
-t("You need an arcane dynamo to cast this spell.", "You need an arcane dynamo to cast this spell.", "logPlayer")
-t("You can only cast this spell after casting an other technomancy spell.", "You can only cast this spell after casting an other technomancy spell.", "logPlayer")
+t("Electron Incantation", "Incantation d'Électrons", "talent name")
+t("You need an arcane dynamo to cast this spell.", "Vous avez besoin d'une dynamo arcanique pour lancer ce sort.", "logPlayer")
+t("You can only cast this spell after casting an other technomancy spell.", "Vous ne pouvez lancer ce sort qu'après avoir lancé un autre sort de technomancie.", "logPlayer")
 t([[After casting a technomancy spell you store some of its energies that you can then use to overload your arcane dynamo, increasing the steam it generates per 10 mana spent by 4 for 4 turns.
 		In addition the energies spills outward in radius 3, dealing %0.2f damage (damage type based on the type of technomancy spell used).
 		This spell is only usable after casting a technomancy spell and until you use any other spell or talent.
-		The damage will increase with your Spellpower.]], [[After casting a technomancy spell you store some of its energies that you can then use to overload your arcane dynamo, increasing the steam it generates per 10 mana spent by 4 for 4 turns.
-		In addition the energies spills outward in radius 3, dealing %0.2f damage (damage type based on the type of technomancy spell used).
-		This spell is only usable after casting a technomancy spell and until you use any other spell or talent.
-		The damage will increase with your Spellpower.]], "tformat")
---]==]
-
+		The damage will increase with your Spellpower.]], [[Après avoir lancé un sort de technomancie, vous stockez une partie de ses énergies afin de surcharger votre dynamo arcanique, augmentant la vapeur qu'elle génère de 4 par tranche de 10 mana dépensé pendant 4 tours.
+		De plus, les énergies se répandent dans un rayon de 3, infligeant %0.2f dégâts (le type dépend du sort de technomancie utilisé).
+		Ce sort n'est utilisable qu'après avoir lancé un sort de technomancie et jusqu'à ce que vous utilisiez tout autre sort ou talent.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/spells.lua"
@@ -4639,11 +4592,8 @@ t("Combine the power of steamtech and arcane forces to destroy your foes.", "Com
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/terrene-technomancy.lua"
 
-
--- texte non traduit
---[==[
-t("Micro Spiderbot", "Micro Spiderbot", "talent name")
-t("You need an arcane dynamo to cast this spell.", "You need an arcane dynamo to cast this spell.", "logPlayer")
+t("Micro Spiderbot", "Micro Robot-Araignée", "talent name")
+t("You need an arcane dynamo to cast this spell.", "Vous avez besoin d'une dynamo arcanique pour lancer ce sort.", "logPlayer")
 t([[You build %d micro spiderbot(s) from the earthly elements around you. Spiderbots are powered by an arcane cryogenic power unit directly linked to your own power.
 		Spiderbots will deal %0.2f terrene damage (physical and cold) each turn to their targets. The deep cold of the attack has 25%% chance to freeze the feet of the target, pinning it to the ground for 5 turns.
 		If a target dies, the spiderbot will jump onto a new target in range %d around you.
@@ -4653,43 +4603,40 @@ t([[You build %d micro spiderbot(s) from the earthly elements around you. Spider
 		The cooldown of this spell is affected by Body of Stone.
 		The damage will increase with your Spellpower.
 
-		You have currently %d spiderbot(s) up.]], [[You build %d micro spiderbot(s) from the earthly elements around you. Spiderbots are powered by an arcane cryogenic power unit directly linked to your own power.
-		Spiderbots will deal %0.2f terrene damage (physical and cold) each turn to their targets. The deep cold of the attack has 25%% chance to freeze the feet of the target, pinning it to the ground for 5 turns.
-		If a target dies, the spiderbot will jump onto a new target in range %d around you.
-		If there are multiple spiderbots on a single target and more free targets are in range they will dispatch on as many as possible.
-		If there are multiple spiderbots on a single target they attack as one, stacking their damage (with disminishing returns) and trying to freeze once.
-		You can maintain up to %d spiderbots at once and each can last up to %d turns, but spiderbots need to be in sight to be able to act.
-		The cooldown of this spell is affected by Body of Stone.
-		The damage will increase with your Spellpower.
+		You have currently %d spiderbot(s) up.]], [[Vous construisez %d micro robot(s)-araignée à partir des éléments terrestres autour de vous. Les robots-araignées sont alimentés par une unité de puissance cryogénique arcanique directement liée à votre propre puissance.
+		Les robots-araignées infligent %0.2f dégâts terriens (physique et froid) à chaque tour à leurs cibles. Le froid intense de l'attaque a 25%% de chance de geler les pieds de la cible, l'immobilisant au sol pendant 5 tours.
+		Si une cible meurt, le robot-araignée saute sur une nouvelle cible à portée de %d autour de vous.
+		S'il y a plusieurs robots-araignées sur une seule cible et que d'autres cibles libres sont à portée, ils se disperseront sur autant que possible.
+		S'il y a plusieurs robots-araignées sur une seule cible, ils attaquent comme un seul, cumulant leurs dégâts (avec des retours décroissants) et tentant de geler une seule fois.
+		Vous pouvez maintenir jusqu'à %d robots-araignées à la fois et chacun peut durer jusqu'à %d tours, mais ils doivent être en vue pour pouvoir agir.
+		Le rechargement de ce sort est affecté par Corps de Pierre.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.
 
-		You have currently %d spiderbot(s) up.]], "tformat")
-t("Cryogenic Digs", "Cryogenic Digs", "talent name")
+		Vous avez actuellement %d robot(s)-araignée actif(s).]], "tformat")
+t("Cryogenic Digs", "Fouilles Cryogéniques", "talent name")
 t([[Each time a spiderbot expires it digs around, producing either a Glacial Vapour (%0.2f cold damage and doing 30%% more damage to wet targets) or Earthquake (%0.2f physical damage and 25%% chances to stun for 2 turns) of radius 1 that last for %d turns.
 		Those special kinds of Glacial Vapour and Earthquake do not affect the caster.
-		The damage will increase with your Spellpower.]], [[Each time a spiderbot expires it digs around, producing either a Glacial Vapour (%0.2f cold damage and doing 30%% more damage to wet targets) or Earthquake (%0.2f physical damage and 25%% chances to stun for 2 turns) of radius 1 that last for %d turns.
-		Those special kinds of Glacial Vapour and Earthquake do not affect the caster.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Ramming Bot", "Ramming Bot", "talent name")
-t("You need an arcane dynamo and an active spiderbot to cast this spell.", "You need an arcane dynamo and an active spiderbot to cast this spell.", "logPlayer")
+		The damage will increase with your Spellpower.]], [[Chaque fois qu'un robot-araignée expire, il creuse autour de lui, produisant soit une Vapeur Glaciale (%0.2f dégâts de froid, avec +30%% de dégâts contre les cibles mouillées) soit un Tremblement de Terre (%0.2f dégâts physiques, avec 25%% de chance d'étourdir pendant 2 tours), de rayon 1 et durant %d tours.
+		Ces types spéciaux de Vapeur Glaciale et de Tremblement de Terre n'affectent pas le lanceur.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Ramming Bot", "Robot Bélier", "talent name")
+t("You need an arcane dynamo and an active spiderbot to cast this spell.", "Vous avez besoin d'une dynamo arcanique et d'un robot-araignée actif pour lancer ce sort.", "logPlayer")
 t([[Command a random spiderbot to jump onto your target at ramming speed. The impact destroys the bot (possibly triggering Cryogenic Digs).
 		This creates a radius %d explosion dealing %0.2f terrene damage to all creatures while also freezing them for %d turns and rendering them wet for %d turns.
 		The cooldown of this spell is affected by Body of Stone.
-		The damage will increase with your Spellpower.]], [[Command a random spiderbot to jump onto your target at ramming speed. The impact destroys the bot (possibly triggering Cryogenic Digs).
-		This creates a radius %d explosion dealing %0.2f terrene damage to all creatures while also freezing them for %d turns and rendering them wet for %d turns.
-		The cooldown of this spell is affected by Body of Stone.
-		The damage will increase with your Spellpower.]], "tformat")
-t("Spiderbot Shield", "Spiderbot Shield", "talent name")
+		The damage will increase with your Spellpower.]], [[Ordonnez à un robot-araignée aléatoire de sauter sur votre cible à toute vitesse. L'impact détruit le robot (déclenchant éventuellement Fouilles Cryogéniques).
+		Cela crée une explosion de rayon %d infligeant %0.2f dégâts terriens à toutes les créatures, les gelant également pendant %d tours et les rendant mouillées pendant %d tours.
+		Le rechargement de ce sort est affecté par Corps de Pierre.
+		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
+t("Spiderbot Shield", "Bouclier de Robots-Araignées", "talent name")
 t([[You call back up to %d spiderbots to you to create protective barrier for %d turns.
 		Spiderbots have %d life and they take damage in order, always fully absorbing the blow that destroyed them.
 		If Cryogenic Digs is active when a spiderbot is destroyed it jumps to the attacker and triggers the dig there.
 		The cooldown of this spell is affected by Body of Stone.
-		]], [[You call back up to %d spiderbots to you to create protective barrier for %d turns.
-		Spiderbots have %d life and they take damage in order, always fully absorbing the blow that destroyed them.
-		If Cryogenic Digs is active when a spiderbot is destroyed it jumps to the attacker and triggers the dig there.
-		The cooldown of this spell is affected by Body of Stone.
-		]], "tformat")
---]==]
-
+		]], [[Vous rappelez jusqu'à %d robots-araignées pour créer une barrière protectrice pendant %d tours.
+		Les robots-araignées ont %d points de vie et subissent les dégâts dans l'ordre, absorbant toujours entièrement le coup qui les détruit.
+		Si Fouilles Cryogéniques est actif lorsqu'un robot-araignée est détruit, il saute sur l'attaquant et déclenche les fouilles à son emplacement.
+		Le rechargement de ce sort est affecté par Corps de Pierre.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/spells/undead-drake.lua"
@@ -6278,100 +6225,84 @@ t("Fire your twin-linked gauss cannons, dealing 100%% steamgun damage as lightni
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/const.lua"
 
-
--- texte non traduit
---[==[
-t("Subcutaneous Metallisation", "Subcutaneous Metallisation", "talent name")
+t("Subcutaneous Metallisation", "Métallisation Sous-Cutanée", "talent name")
 t([[When your life dips below 50%% of your total life an automated process turns some of your lower skin layers (or other internal organs) into a thick metallic layer for 6 turns.
 		While the effect lasts all damage done to you is reduced by a flat amount equal to 100%% of your Constitution.
-		This effect can only trigger once every %d turns.]], [[When your life dips below 50%% of your total life an automated process turns some of your lower skin layers (or other internal organs) into a thick metallic layer for 6 turns.
-		While the effect lasts all damage done to you is reduced by a flat amount equal to 100%% of your Constitution.
-		This effect can only trigger once every %d turns.]], "tformat")
---]==]
-
+		This effect can only trigger once every %d turns.]], [[Lorsque votre vie descend sous 50%% de votre vie totale, un processus automatisé transforme certaines de vos couches de peau inférieures (ou d'autres organes internes) en une épaisse couche métallique pendant 6 tours.
+		Tant que l'effet dure, tous les dégâts qui vous sont infligés sont réduits d'un montant fixe égal à 100%% de votre Constitution.
+		Cet effet ne peut se déclencher qu'une fois toutes les %d tours.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/cun.lua"
 
-t("Cosmetic Options", "Options cosmétiques", "_t")
-t("Customize Appearance", "Personnaliser l'Apparence", "_t")
-t("Use Default", "Utiliser le Modèle par Défaut", "_t")
--- texte non traduit
---[==[
-t("Master of Disasters", "Master of Disasters", "talent name")
+t("Master of Disasters", "Maître des Désastres", "talent name")
 t([[You are adept at wreaking havoc onto your foes!
 		Any time you deal damage to a creature you apply the Incoming Disasters effect for 20 turns.
 		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
 		In addition your physical, steam, spell and mind powers are increased by %d.
-		The powers increase scales of your Cunning.]], [[You are adept at wreaking havoc onto your foes!
-		Any time you deal damage to a creature you apply the Incoming Disasters effect for 20 turns.
-		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
-		In addition your physical, steam, spell and mind powers are increased by %d.
-		The powers increase scales of your Cunning.]], "tformat")
-t("Rak'Shor's Cunning", "Rak'Shor's Cunning", "talent name")
-t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "Quaffed the Blood of Undeath, not already undead and not antimagic.", "_t")
-t("Rak'Shor's Cunning", "Rak'Shor's Cunning", "_t")
+		The powers increase scales of your Cunning.]], [[Vous excellez dans l'art de semer le chaos chez vos ennemis !
+		Chaque fois que vous infligez des dégâts à une créature, vous lui appliquez l'effet Désastres Imminents pendant 20 tours.
+		Chaque fois que vous (ou quiconque) tenteriez d'appliquer un effet trans-palier à cette créature, vous tentez également d'appliquer les deux autres.
+		De plus, vos puissances physique, de vapeur, des sorts et mentale sont augmentées de %d.
+		Cette augmentation de puissance évolue avec votre Ruse.]], "tformat")
+t("Rak'Shor's Cunning", "Ruse de Rak'Shor", "talent name")
+t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "A bu le Sang de la Non-Mort, n'est pas déjà mort-vivant et n'est pas antimagie.", "_t")
+t("Rak'Shor's Cunning", "Ruse de Rak'Shor", "_t")
 t([[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
 
-#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#Applying you cunning plans, you escape death by turning to undeath in an instant!
+#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#Appliquant vos plans rusés, vous échappez à la mort en vous transformant instantanément en mort-vivant !
 
-#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], "_t")
-t("Rak'Shor's Cunning (Skeleton)", "Rak'Shor's Cunning (Skeleton)", "_t")
-t("Rak'Shor's Cunning (Ghoul)", "Rak'Shor's Cunning (Ghoul)", "_t")
+#{italic}#Vous pouvez maintenant choisir de personnaliser votre apparence de mort-vivant ; ce choix ne pourra plus être modifié par la suite.]], "_t")
+t("Cosmetic Options", "Options Cosmétiques", "_t")
+t("Customize Appearance", "Personnaliser l'Apparence", "_t")
+t("Use Default", "Utiliser le Modèle par Défaut", "_t")
+t("Rak'Shor's Cunning (Skeleton)", "Ruse de Rak'Shor (Squelette)", "_t")
+t("Rak'Shor's Cunning (Ghoul)", "Ruse de Rak'Shor (Goule)", "_t")
 t([[Set up some cunning contingency plans in case of death.
 		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
 		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
 		As undead will not able to use infusions anymore.
-		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[Set up some cunning contingency plans in case of death.
-		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
-		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
-		As undead will not able to use infusions anymore.
-		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], "tformat")
-t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "_t")
---]==]
-
+		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[Établissez de rusés plans de secours en cas de mort.
+		Si vous mourez, vous aurez l'option de vous relever d'entre les morts une fois, en devenant une goule ou un squelette (à votre choix).
+		Lorsque vous vous relevez ainsi, vous conservez l'accès à votre arbre racial et gagnez accès à l'arbre racial de goule ou de squelette, avec 2 niveaux de chaque talent déjà appris.
+		En tant que mort-vivant, vous ne pourrez plus utiliser d'essences.
+		Si vous choisissez de devenir un squelette, le talent Réassemblage considérera que vous avez déjà utilisé votre résurrection.]], "tformat")
+t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "Tous les critiques vapotech réduisent d'1 tour le temps de recharge restant d'un talent vapotechnique aléatoire.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/dex.lua"
 
-
--- texte non traduit
---[==[
-t("Automated Reflex System", "Automated Reflex System", "talent name")
-t("Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "_t")
+t("Automated Reflex System", "Système de Réflexes Automatisé", "talent name")
+t("Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "A obtenu le succès #{italic}#Style Matrix#{normal}# avec ce personnage ou un personnage précédent, pour les paramètres actuels de difficulté et de mort permanente.", "_t")
 t([[A small automatic detection system is always looking for incoming projectiles, when one is about to hit you it injects drugs into your system to boost your reactivity, granting you a free turn.
-		This effect can not happen more than once every 5 turns.]], [[A small automatic detection system is always looking for incoming projectiles, when one is about to hit you it injects drugs into your system to boost your reactivity, granting you a free turn.
-		This effect can not happen more than once every 5 turns.]], "tformat")
---]==]
-
+		This effect can not happen more than once every 5 turns.]], [[Un petit système de détection automatique surveille en permanence les projectiles entrants ; lorsque l'un d'eux est sur le point de vous toucher, il injecte des substances dans votre organisme pour stimuler votre réactivité, vous accordant un tour gratuit.
+		Cet effet ne peut se produire plus d'une fois toutes les 5 tours.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/mag.lua"
 
+t("Arcane Amplification Drone Effect", "Effet du Drone d'Amplification Arcanique", "talent name")
+t("Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "Les dégâts de sort qui lui sont infligés se propagent dans un rayon de 4, infligeant 130% de dégâts arcaniques.", "_t")
+t("Arcane Amplification Drone", "Drone d'Amplification Arcanique", "talent name")
+t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "A obtenu le succès #{italic}#Contes de la Brûlure Magique#{normal}# avec ce personnage ou un personnage précédent, pour les paramètres actuels de difficulté et de mort permanente.", "_t")
 t("Not enough space to summon!", "Pas assez d'espace pour une invocation !", "logPlayer")
--- texte non traduit
---[==[
-t("Arcane Amplification Drone Effect", "Arcane Amplification Drone Effect", "talent name")
-t("Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "Spell damage done to it ripples in radius 4 doing 130% arcane damage.", "_t")
-t("Arcane Amplification Drone", "Arcane Amplification Drone", "talent name")
-t("Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "Have gained the #{italic}#Tales of the Spellblaze#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "_t")
-t("arcane amplification drone", "arcane amplification drone", "_t")
-t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "_t")
+t("arcane amplification drone", "drone d'amplification arcanique", "_t")
+t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "Tous les dégâts de sort que vous lui infligez se propagent dans un rayon de 4, sous forme de 130% de dégâts arcaniques.", "_t")
 t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
-		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], [[You create an Arcane Amplification Drone at the selected location for 3 turns.
-		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], "tformat")
-t("Technomancer", "Technomancer", "talent name")
-t("Unlocked the Technomancer evolution", "Unlocked the Technomancer evolution", "_t")
-t("Technomancer", "Technomancer", "_t")
-t("Occult Technomancy", "Occult Technomancy", "_t")
-t("These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "_t")
-t("Galvanic Technomancy", "Galvanic Technomancy", "_t")
-t("These talents focus on fire and lightning damage, strategically placing galvanic rods to create fields of death and stuns.", "These talents focus on fire and lightning damage, strategically placing galvanic rods to create fields of death and stuns.", "_t")
-t("Terrene Technomancy", "Terrene Technomancy", "_t")
-t("These talents focus on cold and physical damage, summoning micro spiderbots to harass and pin their foes or protect themselves.", "These talents focus on cold and physical damage, summoning micro spiderbots to harass and pin their foes or protect themselves.", "_t")
-t("Choose your free Technomancy unlock?", "Choose your free Technomancy unlock?", "_t")
+		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], [[Vous créez un Drone d'Amplification Arcanique à l'emplacement sélectionné pendant 3 tours.
+		Lorsque vous lancez un sort qui endommage le drone, celui-ci propage les dégâts sous forme de 130%% dégâts arcaniques du coup initial, dans un rayon de 4.]], "tformat")
+t("Technomancer", "Technomancien", "talent name")
+t("Unlocked the Technomancer evolution", "A débloqué l'évolution Technomancien", "_t")
+t("Technomancer", "Technomancien", "_t")
+t("Occult Technomancy", "Technomancie Occulte", "_t")
+t("These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "Ces talents se concentrent sur les dégâts arcaniques et temporels, utilisant une scie à vapeur suralimentée pour déchirer des trous dans la réalité.", "_t")
+t("Galvanic Technomancy", "Technomancie Galvanique", "_t")
+t("These talents focus on fire and lightning damage, strategically placing galvanic rods to create fields of death and stuns.", "Ces talents se concentrent sur les dégâts de feu et de foudre, plaçant stratégiquement des tiges galvaniques pour créer des zones de mort et d'assommement.", "_t")
+t("Terrene Technomancy", "Technomancie Terrène", "_t")
+t("These talents focus on cold and physical damage, summoning micro spiderbots to harass and pin their foes or protect themselves.", "Ces talents se concentrent sur les dégâts de froid et physiques, invoquant de micro robots-araignées pour harceler et immobiliser leurs ennemis, ou se protéger.", "_t")
+t("Choose your free Technomancy unlock?", "Choisissez votre déblocage gratuit de Technomancie :", "_t")
 t([[Available talents:
-]], [[Available talents:
+]], [[Talents disponibles :
 ]], "_t")
 t([[Technomancers are Archmages that dabble in steam technology to enhance their already formidable arsenal of spells.
 		Once this class evolution is taken, you gain the following:
@@ -6387,49 +6318,36 @@ t([[Technomancers are Archmages that dabble in steam technology to enhance their
 
 		Once put in a robe, the Arcane Dynamo will regenerate Steam each time mana is spent and increase Spellpower based on current steam level.
 
-		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[Technomancers are Archmages that dabble in steam technology to enhance their already formidable arsenal of spells.
-		Once this class evolution is taken, you gain the following:
-		- Arcane Dynamo tinker schematic
-		- Steamtech/Physics category (unlocked)
-		- Steamtech/Chemistry category (locked)
-		- An Automated Portable Extractor (A.P.E.)
-		- One point in the Physics talent Smith and two in Mechanical and Electricity
-		- Spell/Galvanic Technomancy category (locked) - deals with fire and lightning
-		- Spell/Terrene Technomancy category (locked) - deals with earth and water
-		- Spell/Occult Technomancy category (locked) - deals with time and arcane
-		- The ability to unlock one of the three Technomancy categories for free
+		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[Les Technomanciens sont des Archimages qui s'essayent à la technologie à vapeur pour renforcer leur déjà formidable arsenal de sorts.
+		Une fois cette évolution de classe adoptée, vous gagnez ce qui suit :
+		- Le schéma de babiole Dynamo Arcanique ;
+		- La catégorie Vapotech/Physique (débloquée) ;
+		- La catégorie Vapotech/Chimie (verrouillée) ;
+		- Un Extracteur Portable Automatisé (E.P.A.) ;
+		- Un point dans le talent de Physique Forgeron, et deux dans Mécanique et Électricité ;
+		- La catégorie Sorts/Technomancie Galvanique (verrouillée) - traite du feu et de la foudre ;
+		- La catégorie Sorts/Technomancie Terrène (verrouillée) - traite de la terre et de l'eau ;
+		- La catégorie Sorts/Technomancie Occulte (verrouillée) - traite du temps et de l'arcane ;
+		- La capacité de débloquer gratuitement l'une des trois catégories de Technomancie.
 
-		Once put in a robe, the Arcane Dynamo will regenerate Steam each time mana is spent and increase Spellpower based on current steam level.
+		Une fois placé dans une robe, le Dynamo Arcanique régénère de la Vapeur chaque fois que du mana est dépensé, et augmente la Puissance des Sorts en fonction du niveau de vapeur actuel.
 
-		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], "tformat")
---]==]
-
+		#{bold}#Dès que cette évolution est utilisée, vous devrez fabriquer le Dynamo Arcanique pour le placer dans une robe afin de bénéficier de tous les pouvoirs du Technomancien.#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/str.lua"
 
-
--- texte non traduit
---[==[
-t("Pain Enhancement System", "Pain Enhancement System", "talent name")
-t("Earned the achievement 'Size Matters' on this character.", "Earned the achievement 'Size Matters' on this character.", "_t")
-t("When you deal a critical hit your embedded system activates, increasing all your primary stats except Strength by 50%% of your Strength for 6 turns.", "When you deal a critical hit your embedded system activates, increasing all your primary stats except Strength by 50%% of your Strength for 6 turns.", "tformat")
---]==]
-
+t("Pain Enhancement System", "Système d'Amplification de la Douleur", "talent name")
+t("Earned the achievement 'Size Matters' on this character.", "A obtenu le succès \"La Taille Compte\" avec ce personnage.", "_t")
+t("When you deal a critical hit your embedded system activates, increasing all your primary stats except Strength by 50%% of your Strength for 6 turns.", "Lorsque vous portez un coup critique, votre système intégré s'active, augmentant toutes vos caractéristiques primaires sauf la Force de 50%% de votre Force pendant 6 tours.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/wil.lua"
 
-
--- texte non traduit
---[==[
-t("Range Amplification Device", "Range Amplification Device", "talent name")
-t("Have a light radius of 10 or more", "Have a light radius of 10 or more", "_t")
+t("Range Amplification Device", "Dispositif d'Amplification de Portée", "talent name")
+t("Have a light radius of 10 or more", "Possède un rayon de lumière de 10 ou plus.", "_t")
 t([[Activate a special focusing device that extends all your ranged spells and psionic powers range by 3 (only works on those with range 2 or more and up to 10 max).
-		The use of this device is very strenuous, increasing fatigue by 20%% while active.]], [[Activate a special focusing device that extends all your ranged spells and psionic powers range by 3 (only works on those with range 2 or more and up to 10 max).
-		The use of this device is very strenuous, increasing fatigue by 20%% while active.]], "tformat")
---]==]
-
+		The use of this device is very strenuous, increasing fatigue by 20%% while active.]], "Active un dispositif de focalisation spécial qui étend la portée de tous vos sorts et pouvoirs psioniques à distance de 3 (ne fonctionne que sur ceux ayant une portée de 2 ou plus, jusqu'à un maximum de 10). L'utilisation de ce dispositif est très éprouvante, augmentant la fatigue de 20%% tant qu'il est actif.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents.lua"
@@ -6465,16 +6383,21 @@ t("The shield around #target# crumbles.", "Le bouclier autour de #target# s'effo
 t("-Shield", "-Bouclier", "_t")
 t("dark", "obscure", "effect subtype")
 t("light", "lumière", "effect subtype")
+t("Twilit Echoes", "Échos du Crépuscule", "_t")
 t("slow", "ralentissement", "effect subtype")
 t("temporal", "temporel", "effect subtype")
 t("celestial", "Céleste", "effect subtype")
+t("Starscape", "Paysage Stellaire", "_t")
 t("Vampiric Surge", "Sursaut Vampirique", "_t")
 t("chronomancy", "chronomancie", "effect subtype")
 t("Temporal Ripples", "Ondulations Temporelles", "_t")
 t("undead", "mort-vivant", "effect subtype")
 t("You have %d charges.", "Vous avez %d charge(s).", "tformat")
 t("steam", "vapeur", "effect subtype")
+t("Ethereal Steam", "Vapeur Éthérée", "_t")
+t("Metaphasic Echoes", "Échos Métaphasiques", "_t")
 t("spell", "sort", "effect subtype")
+t("Electron Incantation", "Incantation d'Électrons", "_t")
 -- texte non traduit
 --[==[
 t("Viral Injection", "Viral Injection", "_t")
@@ -6483,14 +6406,12 @@ t("#Target# is injected with a pathogen!", "#Target# is injected with a pathogen
 t("#Target# is free from the pathogen.", "#Target# is free from the pathogen.", "_t")
 t("Steam Shield", "Steam Shield", "_t")
 t("The target is surrounded by a magical steam shield, absorbing %d/%d damage and burning attackers for %d fire damage before it crumbles.", "The target is surrounded by a magical steam shield, absorbing %d/%d damage and burning attackers for %d fire damage before it crumbles.", "tformat")
-t("Twilit Echoes", "Twilit Echoes", "_t")
 t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "tformat")
 t("Echoed Light", "Echoed Light", "_t")
 t("The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "tformat")
 t("Mirror Worlded", "Mirror Worlded", "_t")
 t("This unit will flip spaces soon.", "This unit will flip spaces soon.", "_t")
 t("That space is occupied!", "That space is occupied!", "logPlayer")
-t("Starscape", "Starscape", "_t")
 t("Has summoned the starscape, slowing all creatures 67%.", "Has summoned the starscape, slowing all creatures 67%.", "_t")
 t("corruption", "corruption", "effect subtype")
 t("This unit is recovering %d%% of all damage it deals as health.", "This unit is recovering %d%% of all damage it deals as health.", "tformat")
@@ -6503,13 +6424,11 @@ t("#Target# is fluctuating in time!", "#Target# is fluctuating in time!", "_t")
 t("#Target# is no longer fluctuating.", "#Target# is no longer fluctuating.", "_t")
 t("Death Momentum", "Death Momentum", "_t")
 t("technomancy", "technomancy", "effect subtype")
-t("Ethereal Steam", "Ethereal Steam", "_t")
 t("Deals %0.2f occult damage per turn and each time a talent is used, the caster regens one turn of a random cooldown.", "Deals %0.2f occult damage per turn and each time a talent is used, the caster regens one turn of a random cooldown.", "tformat")
 t("#Target# covered in arcane-infused steam!", "#Target# covered in arcane-infused steam!", "_t")
 t("#Target# is free from the steam.", "#Target# is free from the steam.", "_t")
 t("Ethereal Link", "Ethereal Link", "_t")
 t("While Ethereal Steam exists the cooldown of Metaphasic Spin is reduced to 6.", "While Ethereal Steam exists the cooldown of Metaphasic Spin is reduced to 6.", "tformat")
-t("Metaphasic Echoes", "Metaphasic Echoes", "_t")
 t("Project your saw along the leftover breaches.", "Project your saw along the leftover breaches.", "tformat")
 t("Spiderbots Shield", "Spiderbots Shield", "_t")
 t("%d spiderbots are protecting you, each with %d life. Current top spiderbot has %d life remaining.", "%d spiderbots are protecting you, each with %d life. Current top spiderbot has %d life remaining.", "tformat")
@@ -6517,7 +6436,6 @@ t("#Target# covered with micro spiderbots!", "#Target# covered with micro spider
 t("#Target# is no longer protected by spiderbots.", "#Target# is no longer protected by spiderbots.", "_t")
 t("#SLATE#(%d to spiderbot - destructed)#LAST#", "#SLATE#(%d to spiderbot - destructed)#LAST#", "tformat")
 t("#SLATE#(%d to spiderbot)#LAST#", "#SLATE#(%d to spiderbot)#LAST#", "tformat")
-t("Electron Incantation", "Electron Incantation", "_t")
 t("Arcane Dynamo returns %d more steam per 10 mana spent.", "Arcane Dynamo returns %d more steam per 10 mana spent.", "tformat")
 t("Defensive Circuit: Dynamo Boost", "Defensive Circuit: Dynamo Boost", "_t")
 t("Defensive Circuit: Resistances Boost", "Defensive Circuit: Resistances Boost", "_t")
@@ -6529,8 +6447,10 @@ t("All resistances increased by %d%%.", "All resistances increased by %d%%.", "t
 section "tome-orcs/data/timed_effects/mental.lua"
 
 t("psionic", "psionique", "effect subtype")
+t("Forced Gestalt", "Gestalt Forcé", "_t")
 t("steam", "vapeur", "effect subtype")
 t("physical", "physique", "effect subtype")
+t("Negative Biofeedback", "Biofeedback Négatif", "_t")
 t("confusion", "confus", "effect subtype")
 t("#Target# is less afraid.", "#Target# a moins peur.", "_t")
 t("fear", "peur", "effect subtype")
@@ -6542,7 +6462,6 @@ t("#Target# is no longer cursed.", "#Target# n'est plus maudit.", "_t")
 t("gestalt", "gestalt", "effect subtype")
 t("Gestalt", "Gestalt", "_t")
 t("Steampower increased by %d.", "Steampower increased by %d.", "tformat")
-t("Forced Gestalt", "Forced Gestalt", "_t")
 t("All powers increased by %d.", "All powers increased by %d.", "tformat")
 t("#Target# is drains all powers around #himher#.", "#Target# is drains all powers around #himher#.", "_t")
 t("#Target# is less powerful.", "#Target# is less powerful.", "_t")
@@ -6556,7 +6475,6 @@ t("A mind drone bores into #Target#!", "A mind drone bores into #Target#!", "_t"
 t("#Target# is free from the mind drone.", "#Target# is free from the mind drone.", "_t")
 t("biologic", "biologic", "effect subtype")
 t("save", "save", "effect subtype")
-t("Negative Biofeedback", "Negative Biofeedback", "_t")
 t("Physical save reduced by %d, armour and defense by %d.", "Physical save reduced by %d, armour and defense by %d.", "tformat")
 t("Unclear Thoughts", "Unclear Thoughts", "_t")
 t("Can not discern foes from friends.", "Can not discern foes from friends.", "tformat")
@@ -6582,6 +6500,7 @@ t("#Target# is cursed!", "#Target# is cursed!", "_t")
 section "tome-orcs/data/timed_effects/other.lua"
 
 t("speed", "rapidité", "effect subtype")
+t("Celestial Acceleration", "Accélération Céleste", "_t")
 t("spacetime", "espace-temps", "effect subtype")
 t("confusion", "confus", "effect subtype")
 t("The target is confused, acting randomly (chance %d%%) and unable to perform complex actions.", "La cible est confuse, agit au hasard (chance %d%%) et est incapable d'effectuer des actions complexes.", "tformat")
@@ -6604,7 +6523,6 @@ t("spell", "sort", "effect subtype")
 t("cunning", "ruse", "effect subtype")
 -- texte non traduit
 --[==[
-t("Celestial Acceleration", "Celestial Acceleration", "_t")
 t("Your movement speed is increased by %d%%.", "Your movement speed is increased by %d%%.", "tformat")
 t("Your casting speed is increased by %d%%.", "Your casting speed is increased by %d%%.", "tformat")
 t("Your attack speed is increased by %d%%.", "Your attack speed is increased by %d%%.", "tformat")
@@ -6702,7 +6620,9 @@ t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
 t("bleed", "saignement", "effect subtype")
 t("resistance", "résistance", "effect subtype")
+t("Subcutaneous Metallisation", "Métallisation Sous-Cutanée", "_t")
 t("power", "pouvoir", "effect subtype")
+t("Pain Enhancement System", "Système d'Amplification de la Douleur", "_t")
 t("pin", "immobilisé", "effect subtype")
 t("You have %d charges.", "Vous avez %d charge(s).", "tformat")
 t("steam", "vapeur", "effect subtype")
@@ -6830,13 +6750,11 @@ t("+Explosive Wounds", "+Explosive Wounds", "_t")
 t("The saw embedded in #Target# flies back its source.", "The saw embedded in #Target# flies back its source.", "_t")
 t("-Explosive Wounds", "-Explosive Wounds", "_t")
 t("The saw drags #Source# towards #Target#!", "The saw drags #Source# towards #Target#!", "logCombat")
-t("Subcutaneous Metallisation", "Subcutaneous Metallisation", "_t")
 t("All damage reduced by %d.", "All damage reduced by %d.", "tformat")
 t("#Target# internal structure metallises.", "#Target# internal structure metallises.", "_t")
 t("+Subcutaneous Metallisation", "+Subcutaneous Metallisation", "_t")
 t("#Target# internal structure returns to normal.", "#Target# internal structure returns to normal.", "_t")
 t("-Subcutaneous Metallisation", "-Subcutaneous Metallisation", "_t")
-t("Pain Enhancement System", "Pain Enhancement System", "_t")
 t("All stats increased by %d.", "All stats increased by %d.", "tformat")
 t("#Target# revels in the pain.", "#Target# revels in the pain.", "_t")
 t("+Pain Enhancement System", "+Pain Enhancement System", "_t")

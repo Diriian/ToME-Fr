@@ -181,7 +181,7 @@ t("Headbanger", "Headbanger", "achievement name")
 ------------------------------------------------
 section "mod-tome/data/achievements/lore.lua"
 
-t("Tales of the Spellblaze", "Contes de la Brûlure magique", "achievement name")
+t("Tales of the Spellblaze", "Contes de la Brûlure Magique", "achievement name")
 t("Learned the eight chapters of the Spellblaze Chronicles.", "Apprendre les huit chapitres des Chroniques de la Brûlure magique.", "_t")
 t("The Legend of Garkul", "La Légende de Garkul", "achievement name")
 t("Learned the five chapters of the Legend of Garkul.", "Apprendre les cinq chapitres de la Légende de Garkul.", "_t")
@@ -4534,7 +4534,7 @@ t("%s resists the searing flame!", "%s résiste à la flamme ardente !", "logSee
 t("ice", "glace", "damage type")
 t("slowing ice", "glace ralentissante", "damage type")
 t("ice storm", "tempête de glace", "damage type")
-t("glacial vapour", "dvapeur glaciale", "damage type")
+t("glacial vapour", "vapeur glaciale", "damage type")
 t("pinning cold", "immobilisation du froid", "damage type")
 t("freeze", "gel", "damage type")
 t("Frozen!", "Congelé !", "_t")
@@ -42069,7 +42069,7 @@ Pour que le jeu les utilise vous devez respecter certaines règles :
 - ils doivent être stockés dans le répertoire #LIGHT_BLUE#%s#WHITE#
 
 Une fois cela effectué, redémarrez le jeu et votre avatar personnalisé sera affiché à la fin de la liste.]], "tformat")
-t("Cosmetic Options", "Options cosmétiques", "_t")
+t("Cosmetic Options", "Options Cosmétiques", "_t")
 t("Name", "Nom", "_t")
 t("Donator Feature", "Option de donateur", "_t")
 t("Cosmetic customization is a donator-only feature.", "La customisation cosmétique est une option exclusive aux donateurs.", "_t")
