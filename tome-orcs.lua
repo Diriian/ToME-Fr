@@ -4664,623 +4664,542 @@ t([[You breathe a wave of deathly miasma in a cone of radius %d. Any target caug
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/artillery.lua"
 
-t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
--- texte non traduit
---[==[
-t("Rocket Pod", "Rocket Pod", "talent name")
+t("Rocket Pod", "Lance Roquettes", "talent name")
 t([[You equip an automated, shoulder mounted rocket launcher. Each turn it will launch rockets at up to %d enemies in weapon range, dealing %d%% steamgun damage as fire.
-		The rockets will pass harmlessly through allies, but on-hit effects triggered by them only deal 50%% of their usual damage.]], [[You equip an automated, shoulder mounted rocket launcher. Each turn it will launch rockets at up to %d enemies in weapon range, dealing %d%% steamgun damage as fire.
-		The rockets will pass harmlessly through allies, but on-hit effects triggered by them only deal 50%% of their usual damage.]], "tformat")
-t("Incendiary Powder", "Incendiary Powder", "talent name")
+		The rockets will pass harmlessly through allies, but on-hit effects triggered by them only deal 50%% of their usual damage.]], [[Vous équipez un lance roquettes automatisé monté sur l'épaule. À chaque tour, il lancera des roquettes sur jusqu'à %d ennemis à portée d'arme, infligeant %d%% dégâts de feu.
+		Les roquettes traversent inoffensivement les alliés, mais les effets déclenchés lors des impacts n'infligent que 50%% de leurs dégâts habituels.]], "tformat")
+t("Incendiary Powder", "Poudre Incendiaire", "talent name")
 t([[Augment your rockets with highly flammable materials, causing them to burn targets for %0.2f fire damage over 3 turns. Subsequent shots against burning targets refresh the effect of the duration (but do not stack) and inflict %0.2f additional fire damage.
 Targets affected by this burning that fall below 25%% life enter a state of panic, giving them a %d%% chance each turn to flee in terror from you.
-The fire damage will increase with your Steampower.]], [[Augment your rockets with highly flammable materials, causing them to burn targets for %0.2f fire damage over 3 turns. Subsequent shots against burning targets refresh the effect of the duration (but do not stack) and inflict %0.2f additional fire damage.
-Targets affected by this burning that fall below 25%% life enter a state of panic, giving them a %d%% chance each turn to flee in terror from you.
-The fire damage will increase with your Steampower.]], "tformat")
-t("Lock On", "Lock On", "talent name")
+The fire damage will increase with your Steampower.]], [[Augmentez vos roquettes avec des matériaux hautement inflammables, leur faisant brûler les cibles pour %0.2f dégâts de feu sur 3 tours. Les tirs suivants contre des cibles en feu renouvellent la durée de l'effet (sans s'empiler) et infligent %0.2f dégâts de feu supplémentaires.
+Les cibles affectées par cette brûlure qui tombent en dessous de 25%% de vie entrent dans un état de panique, leur donnant %d%% de chance à chaque tour de s'enfuir de vous en proie à la terreur.
+Les dégâts de feu sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Lock On", "Verrouillage de Cible", "talent name")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 t([[Lock on to your target with your rocket pod for 5 turns.
 While locked on your regular rocket pod attacks are disabled. However, each turn you automatically fire a rocket barrage dealing %d%% increased damage at your target.
 Marked targets also lose %d defense and cannot benefit from concealment or evasion.
-The defense loss will increase with your Steampower.]], [[Lock on to your target with your rocket pod for 5 turns.
-While locked on your regular rocket pod attacks are disabled. However, each turn you automatically fire a rocket barrage dealing %d%% increased damage at your target.
-Marked targets also lose %d defense and cannot benefit from concealment or evasion.
-The defense loss will increase with your Steampower.]], "tformat")
-t("Death From Above", "Death From Above", "talent name")
+The defense loss will increase with your Steampower.]], [[Verrouillez votre cible avec votre lance roquettes pendant 5 tours.
+Pendant le verrouillage, les attaques normales du lance roquettes sont désactivées. Cependant, à chaque tour, vous tirez automatiquement un barrage de roquettes infligeant %d%% dégâts supplémentaires à votre cible.
+Les cibles marquées perdent également %d en défense et ne peuvent pas bénéficier de la dissimulation ou de l'évasion.
+La perte de défense est proportionnel à votre Puissance de Vapeur.]], "tformat")
+t("Death From Above", "Mort du Ciel", "talent name")
 t([[You use your rocket pods to launch yourself into the air for 3 turns, firing a radius 2 barrage of rockets that deal %d%% steamgun damage as fire in radius 2. 
 		While flying you gain %d%% movement speed, %d%% chance to evade melee and ranged attacks, and can reactivate this talent at will to repeat the rocket barrage.
-		Using any talent other than Rocket Barrage will end this effect immediately.]], [[You use your rocket pods to launch yourself into the air for 3 turns, firing a radius 2 barrage of rockets that deal %d%% steamgun damage as fire in radius 2. 
-		While flying you gain %d%% movement speed, %d%% chance to evade melee and ranged attacks, and can reactivate this talent at will to repeat the rocket barrage.
-		Using any talent other than Rocket Barrage will end this effect immediately.]], "tformat")
-t("Rocket Barrage", "Rocket Barrage", "talent name")
-t("Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.", "Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.", "tformat")
---]==]
-
+		Using any talent other than Rocket Barrage will end this effect immediately.]], [[Vous utilisez vos lances roquettes pour vous propulser dans les airs pendant 3 tours, tirant un barrage de roquettes de rayon 2 qui inflige %d%% de dégâts de feu dans un rayon de 2. 
+		Pendant que vous volez, vous gagnez %d%% de vitesse de déplacement, %d%% de chance d'esquiver les attaques de mêlée et à distance, et pouvez réactiver ce talent à volonté pour répéter le barrage de roquettes.
+		L'utilisation de tout talent autre que Barrage de Roquettes mettra fin à cet effet immédiatement.]], "tformat")
+t("Rocket Barrage", "Barrage de Roquettes", "talent name")
+t("Fires a barrage of rockets in radius 2, dealing %d%% steamgun damage as fire.", "Tire un barrage de roquettes dans un rayon de 2, infligeant %d%% dégâts de pistolet à vapeur sous forme de feu.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/automated-butchery.lua"
 
-
--- texte non traduit
---[==[
-t("Continuous Butchery", "Continuous Butchery", "talent name")
-t("You require a steamsaw for this talent.", "You require a steamsaw for this talent.", "logPlayer")
+t("Continuous Butchery", "Boucherie Continue", "talent name")
+t("You require a steamsaw for this talent.", "Vous avez besoin d'une scie à vapeur pour ce talent.", "logPlayer")
 t([[You attune your saws to a specific target for 5 turns.
 		Each time you strike this target all damage done with steamsaws (including by other talents) is increased by +%d%%.
 		If you strike any other foe the bonus ends.
-		#{italic}#Metal your foes to death!#{normal}#]], [[You attune your saws to a specific target for 5 turns.
-		Each time you strike this target all damage done with steamsaws (including by other talents) is increased by +%d%%.
-		If you strike any other foe the bonus ends.
-		#{italic}#Metal your foes to death!#{normal}#]], "tformat")
-t("Explosive Saw", "Explosive Saw", "talent name")
+		#{italic}#Metal your foes to death!#{normal}#]], [[Vous accordez vos scies à une cible spécifique pendant 5 tours.
+		Chaque fois que vous frappez cette cible, tous les dégâts infligés avec des scies à vapeur (y compris par d'autres talents) sont augmentés de +%d%%.
+		Si vous frappez un autre ennemi, le bonus prend fin.
+		#{italic}#Tuez vos ennemis à coups de métal !#{normal}#]], "tformat")
+t("Explosive Saw", "Scie Explosive", "talent name")
 t([[You send a saw mounted on an automated steam propulsor to assault a foe, dealing %0.2f physical damage each turn for 4 turns and silencing it.
 		At the end of the duration, the saw explodes for %0.2f fire damage and flies back, pulling the target up to %d tiles towards you.
-		The damage will increase with your Steampower.]], [[You send a saw mounted on an automated steam propulsor to assault a foe, dealing %0.2f physical damage each turn for 4 turns and silencing it.
-		At the end of the duration, the saw explodes for %0.2f fire damage and flies back, pulling the target up to %d tiles towards you.
-		The damage will increase with your Steampower.]], "tformat")
-t("Mow Down", "Mow Down", "talent name")
+		The damage will increase with your Steampower.]], [[Vous envoyez une scie montée sur un propulseur à vapeur automatisé pour attaquer un ennemi, lui infligeant %0.2f dégâts physiques à chaque tour pendant 4 tours et le réduisant au silence.
+		À la fin de la durée, la scie explose pour %0.2f dégâts de feu et revient vers vous, attirant la cible jusqu'à %d cases dans votre direction.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Mow Down", "Faucheur", "talent name")
 t([[When you kill a foe with a melee strike you quickly throw some of their remains in your steam engine, instantly regenerating %d steam.
 		When you deal a critical melee strike you also have a %d%% chance to cut a part of your foe and use it in your steam engine.
 		When either of those happens this strikes fear in all foes in radius 4 of the victim, brainlocking them for %d turns.
-		#{italic}#To the meat grinder!#{normal}#]], [[When you kill a foe with a melee strike you quickly throw some of their remains in your steam engine, instantly regenerating %d steam.
-		When you deal a critical melee strike you also have a %d%% chance to cut a part of your foe and use it in your steam engine.
-		When either of those happens this strikes fear in all foes in radius 4 of the victim, brainlocking them for %d turns.
-		#{italic}#To the meat grinder!#{normal}#]], "tformat")
-t("Tech Overload", "Tech Overload", "talent name")
+		#{italic}#To the meat grinder!#{normal}#]], [[Lorsque vous tuez un ennemi avec une frappe de mêlée, vous jetez rapidement quelques-uns de ses restes dans votre moteur à vapeur, régénérant instantanément %d de vapeur.
+		Lorsque vous effectuez une frappe de mêlée critique, vous avez également %d%% de chance de couper une partie de votre ennemi et de l'utiliser dans votre moteur à vapeur.
+		Lorsque l'un ou l'autre se produit, cela sème la terreur chez tous les ennemis dans un rayon de 4 de la victime, les frappant d'une Paralysie Mentale pendant %d tours.
+		#{italic}#Direction le broyeur à viande !#{normal}#]], "tformat")
+t("Tech Overload", "Surcharge Technologique", "talent name")
 t([[You override all security measures of your tinkers, allowing you to reset the cooldown of %d of most of your steamtech talents of tier %d or less and instantly increases your steam level by %d%% of the maximum.
 		In addition for 6 turns your maximum steam capacity is doubled, but steam regeneration is halved.
-		#{italic}#Master of Tech, Master of Death!#{normal}#]], [[You override all security measures of your tinkers, allowing you to reset the cooldown of %d of most of your steamtech talents of tier %d or less and instantly increases your steam level by %d%% of the maximum.
-		In addition for 6 turns your maximum steam capacity is doubled, but steam regeneration is halved.
-		#{italic}#Master of Tech, Master of Death!#{normal}#]], "tformat")
---]==]
-
+		#{italic}#Master of Tech, Master of Death!#{normal}#]], [[Vous court-circuitez toutes les mesures de sécurité de vos babioles, vous permettant de réinitialiser le rechargement de %d de vos talents vapotech de rang %d ou inférieur et d'augmenter instantanément votre niveau de vapeur de %d%% du maximum.
+		De plus, pendant 6 tours, votre capacité maximale de vapeur est doublée, mais la régénération de vapeur est réduite de moitié.
+		#{italic}#Maître de la Technologie, Maître de la Mort !#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/automation.lua"
 
-
--- texte non traduit
---[==[
-t("Pulse Detonator", "Pulse Detonator", "talent name")
+t("Pulse Detonator", "Détonateur à Impulsion", "talent name")
 t([[Sends a pulse detonator to the target. Upon arrival it explodes in radius 4 cone, dealing %0.2f physical damage, knocking back foes by 3 and dazing them for %d turns.
-		Damage increases with your steampower.]], [[Sends a pulse detonator to the target. Upon arrival it explodes in radius 4 cone, dealing %0.2f physical damage, knocking back foes by 3 and dazing them for %d turns.
-		Damage increases with your steampower.]], "tformat")
-t("Flying Grapple", "Flying Grapple", "talent name")
-t("Flying Grapple", "Flying Grapple", "_t")
-t("A flying grapple pull %s into %s!", "A flying grapple pull %s into %s!", "logSeen")
+		Damage increases with your steampower.]], [[Envoie un détonateur à impulsion vers la cible. À son arrivée, il explose en un cône de rayon 4, infligeant %0.2f dégâts physiques, repoussant les ennemis de 3 cases et les étourdissant pendant %d tours.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Flying Grapple", "Grappin Volant", "talent name")
+t("Flying Grapple", "Grappin Volant", "_t")
+t("A flying grapple pull %s into %s!", "Un grappin volant attire %s vers %s !", "logSeen")
 t([[You send a small steam-powered flying grapple to a target. The drone is homing so if the target moves it will follow.
 		When it reaches its target it deploys grapples in all directions around it in radius 4.
 		The grapples latch onto any foes and pull them toward the target. If they are stopped by a creature (or the target) both them and the creature take %0.2f physical damage.
-		]], [[You send a small steam-powered flying grapple to a target. The drone is homing so if the target moves it will follow.
-		When it reaches its target it deploys grapples in all directions around it in radius 4.
-		The grapples latch onto any foes and pull them toward the target. If they are stopped by a creature (or the target) both them and the creature take %0.2f physical damage.
-		]], "tformat")
-t("Net Projector", "Net Projector", "talent name")
-t("%s resists the net.", "%s resists the net.", "logSeen")
+		]], [[Vous envoyez un petit grappin volant propulsé à vapeur vers une cible. Le drone est guidé, donc si la cible se déplace il la suivra.
+		Lorsqu'il atteint sa cible, il déploie des grappins dans toutes les directions autour d'elle dans un rayon de 4.
+		Les grappins s'accrochent à tous les ennemis et les attirent vers la cible. S'ils sont stoppés par une créature (ou la cible), les deux subissent %0.2f dégâts physiques.]], "tformat")
+t("Net Projector", "Projecteur de Filet", "talent name")
+t("%s resists the net.", "%s résiste au filet.", "logSeen")
 t([[Sends a lightly electrified net of radius 2 toward a target, all creatures caught inside will be pinned in place for 5 turns.
-		While the electricity is not enough to do damage it does shock their body, reducing all resistances by %d%%.]], [[Sends a lightly electrified net of radius 2 toward a target, all creatures caught inside will be pinned in place for 5 turns.
-		While the electricity is not enough to do damage it does shock their body, reducing all resistances by %d%%.]], "tformat")
-t("Sawfield", "Sawfield", "talent name")
+		While the electricity is not enough to do damage it does shock their body, reducing all resistances by %d%%.]], [[Envoie un filet légèrement électrifié de rayon 2 vers une cible ; toutes les créatures prises à l'intérieur seront immobilisées pendant 5 tours.
+		Bien que l'électricité ne soit pas suffisante pour causer des dégâts, elle choque leur corps, réduisant toutes les résistances de %d%%.]], "tformat")
+t("Sawfield", "Champ de Scies", "talent name")
 t([[For 4 turns many small saws circle around the target in radius %d, making any creature caught inside bleed for %0.2f physical damage.
-		Damage increases with your steampower.]], [[For 4 turns many small saws circle around the target in radius %d, making any creature caught inside bleed for %0.2f physical damage.
-		Damage increases with your steampower.]], "tformat")
---]==]
-
+		Damage increases with your steampower.]], [[Pendant 4 tours, de nombreuses petites scies tournent autour de la cible dans un rayon de %d, faisant saigner toute créature à l'intérieur pour %0.2f dégâts physiques.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/avoidance.lua"
 
-
--- texte non traduit
---[==[
-t("Automated Cloak Tessellation", "Automated Cloak Tessellation", "talent name")
-t("@Source@ tessellates @hisher@ cloak!", "@Source@ tessellates @hisher@ cloak!", "_t")
-t("You require a cloak to use this talent.", "You require a cloak to use this talent.", "logPlayer")
+t("Automated Cloak Tessellation", "Tessellation de Cape Automatisée", "talent name")
+t("@Source@ tessellates @hisher@ cloak!", "@Source@ tessellise sa cape !", "_t")
+t("You require a cloak to use this talent.", "Vous avez besoin d'une cape pour utiliser ce talent.", "logPlayer")
 t([[You tessellate your cloak with small pieces of metal, providing %d damage reduction against all attacks.
-		The myriad metal scraps also help against incoming projectiles, providing a %d%% chance of deflecting them to a nearby spot.]], [[You tessellate your cloak with small pieces of metal, providing %d damage reduction against all attacks.
-		The myriad metal scraps also help against incoming projectiles, providing a %d%% chance of deflecting them to a nearby spot.]], "tformat")
-t("Cloak Gesture", "Cloak Gesture", "talent name")
-t("@Source@ weaves @hisher@ cloak!", "@Source@ weaves @hisher@ cloak!", "_t")
+		The myriad metal scraps also help against incoming projectiles, providing a %d%% chance of deflecting them to a nearby spot.]], [[Vous tessellisez votre cape avec de petits morceaux de métal, procurant %d de réduction de dégâts contre toutes les attaques.
+		La myriade de fragments de métal aide également contre les projectiles entrants, offrant %d%% de chance de les dévier vers un endroit proche.
+		La réduction de dégâts et la chance de déviation sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Cloak Gesture", "Geste de Cape", "talent name")
+t("@Source@ weaves @hisher@ cloak!", "@Source@ agite sa cape !", "_t")
 t([[With a gesture of your cloak, you drop a small incendiary device in front of you, creating a wall of thick steam of %d length that burns creatures passing it for %0.2f fire damage and blocks sight for 5 turns.
 		At level 5 the action is so perfect that your foes even lose track of you entirely.
-		Damage increases with your steampower.]], [[With a gesture of your cloak, you drop a small incendiary device in front of you, creating a wall of thick steam of %d length that burns creatures passing it for %0.2f fire damage and blocks sight for 5 turns.
-		At level 5 the action is so perfect that your foes even lose track of you entirely.
-		Damage increases with your steampower.]], "tformat")
-t("Embedded Restoration Systems", "Embedded Restoration Systems", "talent name")
-t("#LIGHT_BLUE#%s's embedded restoration system activate.", "#LIGHT_BLUE#%s's embedded restoration system activate.", "logSeen")
-t("%s activates %s cloak's restoration systems!", "%s activates %s cloak's restoration systems!", "logSeen")
-t("%s deactivates %s cloak's restoration systems.", "%s deactivates %s cloak's restoration systems.", "logSeen")
+		Damage increases with your steampower.]], [[D'un geste de votre cape, vous lâchez un petit dispositif incendiaire devant vous, créant un mur de vapeur épaisse de longueur %d qui brûle les créatures qui le traversent pour %0.2f dégâts de feu et bloque la vue pendant 5 tours.
+		Au niveau 5, l'action est si parfaite que vos ennemis vous perdent entièrement de vue.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
+t("Embedded Restoration Systems", "Systèmes de Restauration Intégrés", "talent name")
+t("#LIGHT_BLUE#%s's embedded restoration system activate.", "#LIGHT_BLUE#Le système de restauration intégré de %s s'active.", "logSeen")
+t("%s activates %s cloak's restoration systems!", "%s active %sson système de restauration intégré !", "logSeen")
+t("%s deactivates %s cloak's restoration systems.", "%s désactive %sson système de restauration intégré.", "logSeen")
 t([[Your cloak is lined with an automated health system that activate when no enemies are visible.
 		When it triggers, you will be healed for %d life.
 		At talent level 3, it will also remove one detrimental physical effect.
-		The system can only trigger once every %d turns.]], [[Your cloak is lined with an automated health system that activate when no enemies are visible.
-		When it triggers, you will be healed for %d life.
-		At talent level 3, it will also remove one detrimental physical effect.
-		The system can only trigger once every %d turns.]], "tformat")
-t("Cloaking Device", "Cloaking Device", "talent name")
+		The system can only trigger once every %d turns.]], [[Votre cape est doublée d'un système de restauration automatisé qui s'active lorsqu'aucun ennemi n'est visible.
+		Lorsqu'il se déclenche, vous êtes soigné de %d points de vie.
+		Au niveau 3, il supprime également un effet physique négatif.
+		Le système ne peut se déclencher qu'une fois tous les %d tours.]], "tformat")
+t("Cloaking Device", "Dispositif de Camouflage", "talent name")
 t([[Trigger an array of small mirrors to appear all over your cloak.
 		The mirrors are positioned to reflect all light shining on you, granting %d stealth power for 10 turns.
-		Stealth power increases with your steampower.]], [[Trigger an array of small mirrors to appear all over your cloak.
-		The mirrors are positioned to reflect all light shining on you, granting %d stealth power for 10 turns.
-		Stealth power increases with your steampower.]], "tformat")
---]==]
-
+		Stealth power increases with your steampower.]], [[Déclenchez un réseau de petits miroirs qui apparaissent sur toute votre cape.
+		Les miroirs sont positionnés pour réfléchir toute la lumière qui brille sur vous, accordant %d de puissance de furtivité pendant 10 tours.
+		La puissance de furtivité est proportionnel à votre Puissance de Vapeur.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/battle-machinery.lua"
 
+t("Explosive Steam Engine", "Moteur à Vapeur Explosif", "talent name")
+t("critical steam engine", "moteur à vapeur critique", "_t")
 t("trap", "piège", "_t")
-t("raging volcano", "volcan furieux", "_t")
--- texte non traduit
---[==[
-t("Explosive Steam Engine", "Explosive Steam Engine", "talent name")
-t("critical steam engine", "critical steam engine", "_t")
 t([[Throw a small, unstable steam engine on the battlefield that will go critical after 2 turns.
 		It will then create an explosion of hot vapour in radius %d, burning all foes for %0.2f fire damage.
 		Any bleeding foe caught in the flames will take 40%% more damage.
 		Damage scales with your Steampower.
-		#{italic}#Tick Tock Tick BOOM!#{normal}#]], [[Throw a small, unstable steam engine on the battlefield that will go critical after 2 turns.
-		It will then create an explosion of hot vapour in radius %d, burning all foes for %0.2f fire damage.
-		Any bleeding foe caught in the flames will take 40%% more damage.
-		Damage scales with your Steampower.
-		#{italic}#Tick Tock Tick BOOM!#{normal}#]], "tformat")
-t("Lingering Cloud", "Lingering Cloud", "talent name")
+		#{italic}#Tick Tock Tick BOOM!#{normal}#]], [[Lancez un petit moteur à vapeur instable sur le champ de bataille qui entrera en état critique après 2 tours.
+		Il créera alors une explosion de vapeur chaude dans un rayon de %d, brûlant tous les ennemis pour %0.2f dégâts de feu.
+		Tout ennemi saignant pris dans les flammes subira 40%% de dégâts supplémentaires.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.
+		#{italic}#Tic Tac Tic BOUM !#{normal}#]], "tformat")
+t("Lingering Cloud", "Nuage Persistant", "talent name")
 t([[Explosive Steam Engine vapour now lingers for 5 turns.
 		Each turn, bleeding foes inside the cloud will take %0.2f fire damage.
 		Any steamtech-using creature will also regenerate %d additional steam per turn while inside the cloud.
 		Damage scales with your Steampower.
-		#{italic}#Modern technology at the service of burnination!#{normal}#]], [[Explosive Steam Engine vapour now lingers for 5 turns.
-		Each turn, bleeding foes inside the cloud will take %0.2f fire damage.
-		Any steamtech-using creature will also regenerate %d additional steam per turn while inside the cloud.
-		Damage scales with your Steampower.
-		#{italic}#Modern technology at the service of burnination!#{normal}#]], "tformat")
-t("Tremor Engine", "Tremor Engine", "talent name")
-t("tremor engine", "tremor engine", "_t")
+		#{italic}#Modern technology at the service of burnination!#{normal}#]], [[La vapeur du Moteur à Vapeur Explosif persiste désormais pendant 5 tours.
+		À chaque tour, les ennemis saignants à l'intérieur du nuage subissent %0.2f dégâts de feu.
+		Toute créature utilisant la vapotech régénère également %d vapeur supplémentaire par tour dans le nuage.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.
+		#{italic}#La technologie moderne au service de l'incinération !#{normal}#]], "tformat")
+t("Tremor Engine", "Moteur à Tremblements", "talent name")
+t("tremor engine", "moteur à tremblements", "_t")
 t([[Throw a tremor engine on the battlefield that will trigger after 2 turns.
 		For 5 turns after triggering, it will constantly shake the ground and stun, pin, or disarm any creature in radius %d for %d turns.
-		#{italic}#The ground is mere paper to you!#{normal}#]], [[Throw a tremor engine on the battlefield that will trigger after 2 turns.
-		For 5 turns after triggering, it will constantly shake the ground and stun, pin, or disarm any creature in radius %d for %d turns.
-		#{italic}#The ground is mere paper to you!#{normal}#]], "tformat")
-t("Seismic Activity", "Seismic Activity", "talent name")
+		#{italic}#The ground is mere paper to you!#{normal}#]], [[Lancez un moteur à tremblements sur le champ de bataille qui se déclenchera après 2 tours.
+		Pendant 5 tours après déclenchement, il secouera constamment le sol et étourdira, immobilisera ou désarmera toute créature dans un rayon de %d pendant %d tours.
+		#{italic}#Le sol n'est que du papier pour vous !#{normal}#]], "tformat")
+t("Seismic Activity", "Activité Sismique", "talent name")
+t("raging volcano", "volcan furieux", "_t")
 t([[On its last pulse, your Tremor Engine shakes violently, raising a volcano for %d turns.
 		Each turn, the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
 		Damage scales with your Steampower.
-		#{italic}#All the fury of fire at your disposal!#{normal}#]], [[On its last pulse, your Tremor Engine shakes violently, raising a volcano for %d turns.
-		Each turn, the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
-		Damage scales with your Steampower.
-		#{italic}#All the fury of fire at your disposal!#{normal}#]], "tformat")
---]==]
-
+		#{italic}#All the fury of fire at your disposal!#{normal}#]], [[À son dernier souffle, votre Moteur à Tremblements tremble violemment, faisant surgir un volcan pendant %d tours.
+		À chaque tour, le volcan envoie des rochers enflammés qui infligent %0.2f dégâts de feu et %0.2f dégâts physiques.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.
+		#{italic}#Toute la fureur du feu à votre disposition !#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/battlefield-management.lua"
 
-
--- texte non traduit
---[==[
-t("Saw Wheels", "Saw Wheels", "talent name")
-t("You require a steamsaw for this talent.", "You require a steamsaw for this talent.", "logPlayer")
+t("Saw Wheels", "Roues à Scies", "talent name")
+t("You require a steamsaw for this talent.", "Vous avez besoin d'une scie à vapeur pour ce talent.", "logPlayer")
 t([[Firmly plant your steamsaws in the ground, using them to propel yourself very quickly (+%d%% movement speed).
 		Any foes on either side of your movement get wrecked by the saws, knocking them 3 tiles away from you.
 		Attacking or using any talent will break this effect.
 		When this effect is broken or cancelled the sudden change in motion deals %d%% weapon damage to all foes around you. To do full damage you need to have moved at least 5 times, otherwise damage is lower (or null for no movement).
-		#{italic}#The wheels of death! Amazing!#{normal}#]], [[Firmly plant your steamsaws in the ground, using them to propel yourself very quickly (+%d%% movement speed).
-		Any foes on either side of your movement get wrecked by the saws, knocking them 3 tiles away from you.
-		Attacking or using any talent will break this effect.
-		When this effect is broken or cancelled the sudden change in motion deals %d%% weapon damage to all foes around you. To do full damage you need to have moved at least 5 times, otherwise damage is lower (or null for no movement).
-		#{italic}#The wheels of death! Amazing!#{normal}#]], "tformat")
-t("Grinding Shield", "Grinding Shield", "talent name")
+		#{italic}#The wheels of death! Amazing!#{normal}#]], [[Plantez fermement vos scies à vapeur dans le sol pour vous propulser très rapidement (+%d%% vitesse de déplacement).
+		Tous les ennemis des deux côtés de votre déplacement sont frappés par les scies, les repoussant de 3 cases.
+		Attaquer ou utiliser tout talent brisera cet effet.
+		Lorsque cet effet est brisé ou annulé, le changement soudain de mouvement inflige %d%% dégâts d'arme à tous les ennemis autour de vous. Pour infliger les dégâts complets, vous devez vous être déplacé au moins 5 fois ; sinon, les dégâts seront inférieurs (ou nuls sans déplacement).
+		#{italic}#Les roues de la mort ! Incroyable !#{normal}#]], "tformat")
+t("Grinding Shield", "Bouclier Broyeur", "talent name")
 t([[Spin your saws wildly around you to create a wall of steamy sawteeth.
 		All melee damage against you is reduced by %d%%, you have %d%% chance to evade projectiles and you can never take a blow that deals more than %d%% of your max life.
-		#{italic}#Split their bones on the saws of death!#{normal}#]], [[Spin your saws wildly around you to create a wall of steamy sawteeth.
-		All melee damage against you is reduced by %d%%, you have %d%% chance to evade projectiles and you can never take a blow that deals more than %d%% of your max life.
-		#{italic}#Split their bones on the saws of death!#{normal}#]], "tformat")
-t("Punishment", "Punishment", "talent name")
-t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "logSeen")
+		#{italic}#Split their bones on the saws of death!#{normal}#]], [[Faites tournoyer vos scies sauvagement autour de vous pour créer un mur de dents de scie fumantes.
+		Tous les dégâts de mêlée subis sont réduits de %d%%, vous avez %d%% de chance d'esquiver les projectiles et vous ne pouvez jamais recevoir un coup infligeant plus de %d%% de votre vie maximale.
+		#{italic}#Brisez leurs os sur les scies de la mort !#{normal}#]], "tformat")
+t("Punishment", "Punition", "talent name")
+t("#CRIMSON#%s unleashes a punishing strike for %d%% bonus damage!", "#CRIMSON#%s déchaîne un coup punitif avec %d%% de dégâts bonus !", "logSeen")
 t([[Slam your saws into your target, dealing 100%% weapon damage + %d%% per physical, magical, or mental effect on them (up to 7 effects).
 			Sustains are not effects.
-		#{italic}#The Metal Punisher!#{normal}#]], [[Slam your saws into your target, dealing 100%% weapon damage + %d%% per physical, magical, or mental effect on them (up to 7 effects).
-			Sustains are not effects.
-		#{italic}#The Metal Punisher!#{normal}#]], "tformat")
-t("Battlefield Veteran", "Battlefield Veteran", "talent name")
+		#{italic}#The Metal Punisher!#{normal}#]], [[Frappez votre cible avec vos scies, infligeant 100%% de dégâts d'arme + %d%% par effet physique, magique ou mental sur elle (jusqu'à 7 effets).
+		Les talents soutenus ne sont pas des effets.
+		#{italic}#Le Punisseur de Métal !#{normal}#]], "tformat")
+t("Battlefield Veteran", "Vétéran de Champ de Bataille", "talent name")
 t([[You have lived through many battles, and your experience makes you a gritty veteran.
 		Saw Wheels end of effect attack increased by %d%%.
 		Grinding Shield lets you live below your normal limits, up to -%d life.
 		Punishment has a %d%% chance to have its cooldown reduced by 1 for each effect.
-		#{italic}#Domination for all!#{normal}#]], [[You have lived through many battles, and your experience makes you a gritty veteran.
-		Saw Wheels end of effect attack increased by %d%%.
-		Grinding Shield lets you live below your normal limits, up to -%d life.
-		Punishment has a %d%% chance to have its cooldown reduced by 1 for each effect.
-		#{italic}#Domination for all!#{normal}#]], "tformat")
---]==]
-
+		#{italic}#Domination for all!#{normal}#]], [[Vous avez survécu à de nombreuses batailles, et votre expérience fait de vous un vétéran endurci.
+		L'attaque de fin d'effet de Roues de Scies est augmentée de %d%%.
+		Bouclier Broyeur vous permet de vivre en dessous de vos limites normales, jusqu'à -%d de vie.
+		Punition a %d%% de chance d'avoir son rechargement réduit de 1 pour chaque effet.
+		#{italic}#Domination pour tous !#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/blacksmith.lua"
 
-
--- texte non traduit
---[==[
-t("Massive Physique", "Massive Physique", "talent name")
+t("Massive Physique", "Physique Imposant", "talent name")
 t([[Working iron has honed your body into an amazing shape, granting %d strength and constitution.
-		At talent level 5, you are so incredibly built that you gain one size category.]], [[Working iron has honed your body into an amazing shape, granting %d strength and constitution.
-		At talent level 5, you are so incredibly built that you gain one size category.]], "tformat")
-t("Endless Endurance", "Endless Endurance", "talent name")
+		At talent level 5, you are so incredibly built that you gain one size category.]], [[Travailler le fer a sculpté votre corps à la perfection, accordant %d de Force et de Constitution.
+		Au niveau 5, votre constitution est si incroyable que vous gagnez une catégorie de taille.]], "tformat")
+t("Endless Endurance", "Endurance Sans Fin", "talent name")
 t([[Working long hours at a forge has made you incredibly slow to tire and given you endless vitality.
 		Your healing factor is increased by %d%% and your life regeneration by %0.2f.
-		Stopping you is nearly impossible; your pinning resistance is increased by %d%%.]], [[Working long hours at a forge has made you incredibly slow to tire and given you endless vitality.
-		Your healing factor is increased by %d%% and your life regeneration by %0.2f.
-		Stopping you is nearly impossible; your pinning resistance is increased by %d%%.]], "tformat")
-t("Life in the Flames", "Life in the Flames", "talent name")
+		Stopping you is nearly impossible; your pinning resistance is increased by %d%%.]], [[Travailler de longues heures à la forge vous a rendu incroyablement résistant à la fatigue et vous a donné une vitalité sans fin.
+		Votre facteur de soin est augmenté de %d%% et votre régénération de vie de %0.2f.
+		Vous arrêter est presque impossible ; votre résistance à l'immobilisation est augmentée de %d%%.]], "tformat")
+t("Life in the Flames", "Vie dans les Flammes", "talent name")
 t([[Slaving for many years at the forge has made you more resilient to physical pain and fire burns.
 		Your fire resistance is increased by %d%% and your physical resistance by %d%%.
-		At talent level 5, you are so accustomed to the flames that you become immune to the fireburn effect.]], [[Slaving for many years at the forge has made you more resilient to physical pain and fire burns.
-		Your fire resistance is increased by %d%% and your physical resistance by %d%%.
-		At talent level 5, you are so accustomed to the flames that you become immune to the fireburn effect.]], "tformat")
-t("Craftsman's Eye", "Craftsman's Eye", "talent name")
+		At talent level 5, you are so accustomed to the flames that you become immune to the fireburn effect.]], [[Des années d'esclavage à la forge vous ont rendu plus résistant à la douleur physique et aux brûlures.
+		Votre résistance au feu est augmentée de %d%% et votre résistance physique de %d%%.
+		Au niveau 5, vous êtes si habitué aux flammes que vous devenez immunisé à l'effet de brûlure.]], "tformat")
+t("Craftsman's Eye", "Oeil de l'Artisan", "talent name")
 t([[You can easily see the weak points in your enemy's defenses. After all, you know to look for the same flaws in your own work.
 		This grants %d armour penetration and %d%% critical strike multiplier.
-		At talent level 5, you can also fight stealthed and invisible creatures without penalty.]], [[You can easily see the weak points in your enemy's defenses. After all, you know to look for the same flaws in your own work.
-		This grants %d armour penetration and %d%% critical strike multiplier.
-		At talent level 5, you can also fight stealthed and invisible creatures without penalty.]], "tformat")
---]==]
-
+		At talent level 5, you can also fight stealthed and invisible creatures without penalty.]], [[Vous pouvez facilement repérer les points faibles des défenses de votre ennemi. Après tout, vous savez chercher les mêmes défauts dans votre propre travail.
+		Ceci accorde %d de pénétration d'armure et %d%% de multiplicateur de coup critique.
+		Au niveau 5, vous pouvez également combattre des créatures furtives et invisibles sans pénalité.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/bullets-mastery.lua"
 
-
--- texte non traduit
---[==[
-t("Overheat Bullets", "Overheat Bullets", "talent name")
-t("You must dual wield steamguns for this talent.", "You must dual wield steamguns for this talent.", "logPlayer")
+t("Overheat Bullets", "Balles Surchauffées", "talent name")
+t("You must dual wield steamguns for this talent.", "Vous devez manier deux pistolets à vapeur simultanément pour ce talent.", "logPlayer")
 t([[By sending a stream of hot steam over your bullets you overheat them. For the next %d turns, each bullet will set the target ablaze, making it burn for %0.2f fire damage over 5 turns (most of your shooting talents fire two bullets at once).
 		Damage will increase with Steampower.
-		Only one bullet enhancement can be used at once.]], [[By sending a stream of hot steam over your bullets you overheat them. For the next %d turns, each bullet will set the target ablaze, making it burn for %0.2f fire damage over 5 turns (most of your shooting talents fire two bullets at once).
-		Damage will increase with Steampower.
-		Only one bullet enhancement can be used at once.]], "tformat")
-t("Supercharge Bullets", "Supercharge Bullets", "talent name")
+		Only one bullet enhancement can be used at once.]], [[En envoyant un flux de vapeur chaude sur vos balles, vous les surchauffez. Pendant les %d prochains tours, chaque balle enflammera la cible, la faisant brûler pour %0.2f dégâts de feu sur 5 tours (la plupart de vos talents de tir tirent deux balles à la fois).
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.
+		Une seule amélioration de balle peut être utilisée à la fois.]], "tformat")
+t("Supercharge Bullets", "Balles Surpuissantes", "talent name")
 t([[You are able to polish your bullets so well they can go through multiple targets for %d turns.
 		This also improves their armour penetration by %d.
-		Only one bullet enhancement can be used at once.]], [[You are able to polish your bullets so well they can go through multiple targets for %d turns.
-		This also improves their armour penetration by %d.
-		Only one bullet enhancement can be used at once.]], "tformat")
-t("Percussive Bullets", "Percussive Bullets", "talent name")
+		Only one bullet enhancement can be used at once.]], [[Vous êtes capable de polir vos balles si bien qu'elles peuvent traverser plusieurs cibles pendant %d tours.
+		Cela améliore également leur pénétration d'armure de %d.
+		Une seule amélioration de balle peut être utilisée à la fois.]], "tformat")
+t("Percussive Bullets", "Balles Percutantes", "talent name")
 t([[You swap your bullets for more massive ones for %d turns.
 		When striking a creature, these bullets have a %d%% chance of knocking it back 3 tiles and a %d%% chance of stunning it for 3 turns.
 		The chances to knockback and stun increase with your Steampower.
-		Only one bullet enhancement can be used at once.]], [[You swap your bullets for more massive ones for %d turns.
-		When striking a creature, these bullets have a %d%% chance of knocking it back 3 tiles and a %d%% chance of stunning it for 3 turns.
-		The chances to knockback and stun increase with your Steampower.
-		Only one bullet enhancement can be used at once.]], "tformat")
-t("Combustive Bullets", "Combustive Bullets", "talent name")
+		Only one bullet enhancement can be used at once.]], [[Vous remplacez vos balles par des balles plus lourdes pendant %d tours.
+		En frappant une créature, ces balles ont %d%% de chance de la repousser de 3 cases et %d%% de chance de l'étourdir pendant 3 tours.
+		Les chances de repoussage et d'étourdissement sont proportionnels à votre Puissance de Vapeur.
+		Une seule amélioration de balle peut être utilisée à la fois.]], "tformat")
+t("Combustive Bullets", "Balles Combustibles", "talent name")
 t([[You coat your bullets with flammable materials, for the next %d turns each bullet will explode when it hits its target, dealing %0.2f fire damage to all foes within radius 2 (most of your shooting talents fire two bullets at once).
 		Damage will increase with Steampower.
-		Only one bullet enhancement can be used at once.]], [[You coat your bullets with flammable materials, for the next %d turns each bullet will explode when it hits its target, dealing %0.2f fire damage to all foes within radius 2 (most of your shooting talents fire two bullets at once).
-		Damage will increase with Steampower.
-		Only one bullet enhancement can be used at once.]], "tformat")
---]==]
-
+		Only one bullet enhancement can be used at once.]], [[Vous enduisez vos balles de matériaux inflammables ; pendant les %d prochains tours, chaque balle explosera en touchant sa cible, infligeant %0.2f dégâts de feu à tous les ennemis dans un rayon de 2 (la plupart de vos talents de tir tirent deux balles à la fois).
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.
+		Une seule amélioration de balle peut être utilisée à la fois.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/butchery.lua"
 
-
--- texte non traduit
---[==[
-t("Steamsaw Mastery", "Steamsaw Mastery", "talent name")
-t("Increases weapon damage by %d%% and Physical Power by 30 when using steamsaws.", "Increases weapon damage by %d%% and Physical Power by 30 when using steamsaws.", "tformat")
-t("Overheat Saws", "Overheat Saws", "talent name")
-t("You require two steamsaws for this talent.", "You require two steamsaws for this talent.", "logPlayer")
+t("Steamsaw Mastery", "Maîtrise de la Scie à Vapeur", "talent name")
+t("Increases weapon damage by %d%% and Physical Power by 30 when using steamsaws.", "Augmente les dégâts d'arme de %d%% et la Puissance Physique de 30 lors de l'utilisation de scies à vapeur.", "tformat")
+t("Overheat Saws", "Surchauffer les Scies", "talent name")
+t("You require two steamsaws for this talent.", "Vous devez posséder deux scies à vapeur pour utiliser ce talent.", "logPlayer")
 t([[Channel hot steam around your saws, burning foes you strike in melee for %0.2f fire damage over 3 turns (which can stack)!
-		#{italic}#Hot, steamy maiming!#{normal}#]], [[Channel hot steam around your saws, burning foes you strike in melee for %0.2f fire damage over 3 turns (which can stack)!
-		#{italic}#Hot, steamy maiming!#{normal}#]], "tformat")
-t("Tempest of Metal", "Tempest of Metal", "talent name")
+		#{italic}#Hot, steamy maiming!#{normal}#]], [[Canalisez de la vapeur brûlante autour de vos scies, brûlant les ennemis que vous frappez au corps à corps pour %0.2f dégâts de feu sur 3 tours (cumulable) !
+		#{italic}#Mutilation chaude et vapeureuse !#{normal}#]], "tformat")
+t("Tempest of Metal", "Tempête de Métal", "talent name")
 t([[Continuously swing your steamsaws around you, dealing %d%% weapon damage to adjacent foes each time you attack.
 		Your chaotic motions make it difficult for anything to hit you, granting %d%% chance to completely negate all damage.
 		Damage avoidance chance increases with Steampower.
-		#{italic}#Make the metal talk!#{normal}#]], [[Continuously swing your steamsaws around you, dealing %d%% weapon damage to adjacent foes each time you attack.
-		Your chaotic motions make it difficult for anything to hit you, granting %d%% chance to completely negate all damage.
-		Damage avoidance chance increases with Steampower.
-		#{italic}#Make the metal talk!#{normal}#]], "tformat")
-t("Overcharge Saws", "Overcharge Saws", "talent name")
+		#{italic}#Make the metal talk!#{normal}#]], [[Faites tournoyer sans cesse vos scies à vapeur autour de vous, infligeant %d%% dégâts d'arme aux ennemis adjacents à chaque attaque.
+		Vos mouvements chaotiques rendent difficile toute tentative de vous toucher, vous accordant %d%% de chance d'annuler complètement tous les dégâts.
+		La chance d'éviter les dégâts est proportionnel à la Puissance de Vapeur.
+		#{italic}#Faites parler le métal !#{normal}#]], "tformat")
+t("Overcharge Saws", "Surcharger les Scies", "talent name")
 t([[You temporarily overcharge the saw motors, increasing the effective talent level of all saw talents by %d%% for %d turns.
-		#{italic}#The pain shall never stop!#{normal}#]], [[You temporarily overcharge the saw motors, increasing the effective talent level of all saw talents by %d%% for %d turns.
-		#{italic}#The pain shall never stop!#{normal}#]], "tformat")
---]==]
-
+		#{italic}#The pain shall never stop!#{normal}#]], [[Vous surchargez temporairement les moteurs de vos scies, augmentant le niveau effectif de tous vos talents de scie de %d%% pendant %d tours.
+		#{italic}#La douleur ne s'arrêtera jamais !#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/chemical-warfare.lua"
 
-t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
--- texte non traduit
---[==[
-t("Miasma Engine", "Miasma Engine", "talent name")
+t("Miasma Engine", "Moteur à Miasme", "talent name")
 t([[You repurpose your steam engine to emit a cloud of toxic, corrosive chemicals around you.
 		Each time you use a non-instant steamtech talent, you create a radius 3 cloud of miasma for 5 turns. All enemies within the miasma have %d%% reduced healing and %d%% chance to fail talent usage.
 		Each time miasma is reapplied the failure chance increases, up to %d%% after 5 reapplications.
 		The first time each turn a target affected by miasma is hit by a melee or ranged attack the miasma seeps into their wounds, dealing an additional %0.2f acid damage.
 		Miasma duration does not increase on re-apply.
-		When a creature survives the miasma it becomes immune to it for 9 turns.]], [[You repurpose your steam engine to emit a cloud of toxic, corrosive chemicals around you.
-		Each time you use a non-instant steamtech talent, you create a radius 3 cloud of miasma for 5 turns. All enemies within the miasma have %d%% reduced healing and %d%% chance to fail talent usage.
-		Each time miasma is reapplied the failure chance increases, up to %d%% after 5 reapplications.
-		The first time each turn a target affected by miasma is hit by a melee or ranged attack the miasma seeps into their wounds, dealing an additional %0.2f acid damage.
-		Miasma duration does not increase on re-apply.
-		When a creature survives the miasma it becomes immune to it for 9 turns.]], "tformat")
-t("Caustic Dispersal", "Caustic Dispersal", "talent name")
-t("You fire a toxic shell that explodes in radius %d, dealing %d%% weapon damage as acid and leaving behind a cloud of miasma for %d turns that inherits all effects from your Miasma Engine.", "You fire a toxic shell that explodes in radius %d, dealing %d%% weapon damage as acid and leaving behind a cloud of miasma for %d turns that inherits all effects from your Miasma Engine.", "tformat")
-t("Smogscreen", "Smogscreen", "talent name")
-t("You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "tformat")
-t("Fumigate", "Fumigate", "talent name")
-t("You require a steamgun and an active miasma cloud for this talent.", "You require a steamgun and an active miasma cloud for this talent.", "logPlayer")
+		When a creature survives the miasma it becomes immune to it for 9 turns.]], [[Vous détournez votre moteur à vapeur pour émettre autour de vous un nuage de substances chimiques toxiques et corrosives.
+		Chaque fois que vous utilisez un talent vapotech non instantané, vous créez un nuage de miasme d'un rayon de 3 pendant 5 tours. Tous les ennemis à l'intérieur du miasme voient leurs soins reçus réduits de %d%% et ont %d%% de chance de rater l'utilisation d'un talent.
+		Chaque fois que le miasme est réappliqué, la chance d'échec augmente, jusqu'à %d%% après 5 réapplications.
+		La première fois à chaque tour qu'une cible affectée par le miasme est touchée par une attaque de corps à corps ou à distance, le miasme s'infiltre dans ses blessures, infligeant %0.2f dégâts d'acide supplémentaires.
+		La durée du miasme n'augmente pas lors d'une réapplication.
+		Lorsqu'une créature survit au miasme, elle y devient immunisée pendant 9 tours.]], "tformat")
+t("Caustic Dispersal", "Dispersion Caustique", "talent name")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
+t("You fire a toxic shell that explodes in radius %d, dealing %d%% weapon damage as acid and leaving behind a cloud of miasma for %d turns that inherits all effects from your Miasma Engine.", "Vous tirez un obus toxique qui explose dans un rayon de %d, infligeant %d%% dégâts d'arme sous forme de dégâts d'acide et laissant derrière lui un nuage de miasme pendant %d tours qui hérite de tous les effets de votre Moteur à Miasme.", "tformat")
+t("Smogscreen", "Rideau de Miasme", "talent name")
+t("You become difficult to target through the thick smog generated by your Miasma Engine. While surrounded by miasma you have a %d%% chance to entirely avoid damage, increased by %d%% per stack.", "Vous devenez difficile à cibler à travers l'épaisse fumée générée par votre Moteur à Miasme. Tant que vous êtes entouré de miasme, vous avez %d%% de chance d'éviter entièrement les dégâts, augmentée de %d%% par cumul.", "tformat")
+t("Fumigate", "Fumigation", "talent name")
+t("You require a steamgun and an active miasma cloud for this talent.", "Vous devez posséder un pistolet à vapeur et un nuage de miasme actif pour utiliser ce talent.", "logPlayer")
 t([[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
-		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[You consume all Miasma Engine stacks you have to fire a blast of corrosive death through your steamgun, dealing %d%% weapon damage as acid in a radius %d cone with a %d%% chance to remove a random beneficial physical or mental effect. For every stack beyond the first the damage dealt is increased by 50%% and there is a %d%% chance to remove an additional effect.
-		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], "tformat")
---]==]
-
+		This attack ignores all enemy armour, and you must have at least 1 stack of Miasma Engine to use this talent.]], [[Vous consommez tous vos cumuls de Moteur à Miasme pour tirer, à travers votre pistolet à vapeur, une explosion de mort corrosive, infligeant %d%% dégâts d'arme sous forme de dégâts d'acide dans un cône de rayon %d avec %d%% de chance de retirer un effet physique ou mental positif aléatoire. Pour chaque cumul au-delà du premier, les dégâts infligés augmentent de 50%% et il y a %d%% de chance de retirer un effet supplémentaire.
+		Cette attaque ignore toute l'armure ennemie, et vous devez posséder au moins 1 cumul de Moteur à Miasme pour utiliser ce talent.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/chemistry.lua"
 
-
--- texte non traduit
---[==[
-t("Therapeutics", "Therapeutics", "talent name")
+t("Therapeutics", "Thérapeutique", "talent name")
 t([[Allows you to create therapeutic tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
-		%s]], [[Allows you to create therapeutic tinkers of level %d.
-		You will learn a new schematic at level 1.
-		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
+		%s]], [[Vous permet de créer des babioles thérapeutiques de niveau %d.
+		Vous apprendrez un nouveau schéma au niveau 1.
+		À chaque autre niveau de talent, vous avez 20%% de chance d'apprendre un schéma aléatoire supplémentaire ; si vous ne l'avez pas obtenu d'ici le niveau 5, il vous est garanti (sauf si vous les connaissez déjà tous).
 		%s]], "tformat")
-t("Chemistry", "Chemistry", "talent name")
+t("Chemistry", "Chimie", "talent name")
 t([[Allows you to create chemical tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
-		%s]], [[Allows you to create chemical tinkers of level %d.
-		You will learn a new schematic at level 1.
-		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
+		%s]], [[Vous permet de créer des babioles chimiques de niveau %d.
+		Vous apprendrez un nouveau schéma au niveau 1.
+		À chaque autre niveau de talent, vous avez 20%% de chance d'apprendre un schéma aléatoire supplémentaire ; si vous ne l'avez pas obtenu d'ici le niveau 5, il vous est garanti (sauf si vous les connaissez déjà tous).
 		%s]], "tformat")
-t("Explosives", "Explosives", "talent name")
+t("Explosives", "Explosifs", "talent name")
 t([[Allows you to create explosive tinkers of level %d.
 		You will learn a new schematic at level 1.
 		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
-		%s]], [[Allows you to create explosive tinkers of level %d.
-		You will learn a new schematic at level 1.
-		Each other talent level, you have a 20%% chance to learn one more random schematic, if you have not gained it by level 5 you are guaranteed it (unless all are known).
+		%s]], [[Vous permet de créer des babioles explosives de niveau %d.
+		Vous apprendrez un nouveau schéma au niveau 1.
+		À chaque autre niveau de talent, vous avez 20%% de chance d'apprendre un schéma aléatoire supplémentaire ; si vous ne l'avez pas obtenu d'ici le niveau 5, il vous est garanti (sauf si vous les connaissez déjà tous).
 		%s]], "tformat")
-t("Steam Power", "Steam Power", "talent name")
-t("Increases the efficiency of all steamtech you operate, granting %d steampower.", "Increases the efficiency of all steamtech you operate, granting %d steampower.", "tformat")
---]==]
-
+t("Steam Power", "Puissance de Vapeur", "talent name")
+t("Increases the efficiency of all steamtech you operate, granting %d steampower.", "Augmente l'efficacité de toutes les vapotechs que vous utilisez, accordant %d Puissance de Vapeur.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/demolition.lua"
 
-
--- texte non traduit
---[==[
-t("Grenade Launcher", "Grenade Launcher", "talent name")
+t("Grenade Launcher", "Lance-Grenades", "talent name")
 t([[You mount a grenade launcher on your steamgun that launches high explosive rounds. Each time you make a basic attack with your steamgun or a heavy weapon, you fire a grenade at the target that explodes for %d%% steamgun damage in radius %d.
 		This talent also reinforces the armor of you and your minions to give you immunity to your own grenades.
-		You can only fire a single grenade once every 9 turns.]], [[You mount a grenade launcher on your steamgun that launches high explosive rounds. Each time you make a basic attack with your steamgun or a heavy weapon, you fire a grenade at the target that explodes for %d%% steamgun damage in radius %d.
-		This talent also reinforces the armor of you and your minions to give you immunity to your own grenades.
-		You can only fire a single grenade once every 9 turns.]], "tformat")
-t("Reactive Armor", "Reactive Armor", "talent name")
+		You can only fire a single grenade once every 9 turns.]], [[Vous montez un lance-grenades sur votre pistolet à vapeur, qui tire des munitions hautement explosives. Chaque fois que vous effectuez une attaque de base avec votre pistolet à vapeur ou une arme lourde, vous tirez une grenade sur la cible qui explose pour %d%% dégâts de pistolet à vapeur dans un rayon de %d.
+		Ce talent renforce également votre armure et celle de vos serviteurs, vous rendant immunisé à vos propres grenades.
+		Vous ne pouvez tirer qu'une seule grenade toutes les 9 tours.]], "tformat")
+t("Reactive Armor", "Armure Réactive", "talent name")
 t([[You line your armor with explosive plating that detonates when struck. On taking a melee or ranged hit that deals more than 8%% of your maximum life a plate detonates, reducing the damage taken by %d%% and triggering a basic grenade attack in a radius %d cone projected at the target dealing %d%% of its usual damage.
 		This cannot trigger more than once per turn.
 		Blocking an attack with your shield will also trigger the retaliation damage, if it has not already triggered this turn.
-		You have up to 3 plates at a time, and regain one every %d turns.]], [[You line your armor with explosive plating that detonates when struck. On taking a melee or ranged hit that deals more than 8%% of your maximum life a plate detonates, reducing the damage taken by %d%% and triggering a basic grenade attack in a radius %d cone projected at the target dealing %d%% of its usual damage.
-		This cannot trigger more than once per turn.
-		Blocking an attack with your shield will also trigger the retaliation damage, if it has not already triggered this turn.
-		You have up to 3 plates at a time, and regain one every %d turns.]], "tformat")
-t("Sapper", "Sapper", "talent name")
+		You have up to 3 plates at a time, and regain one every %d turns.]], [[Vous doublez votre armure d'un blindage explosif qui détone lorsqu'il est frappé. Lorsque vous subissez un coup au corps à corps ou à distance infligeant plus de 8%% de votre vie maximale, une plaque détone, réduisant les dégâts subis de %d%% et déclenchant une attaque de grenade de base dans un cône de rayon %d projeté sur la cible, infligeant %d%% de ses dégâts habituels.
+		Cet effet ne peut se déclencher plus d'une fois par tour.
+		Bloquer une attaque avec votre bouclier déclenche également ces dégâts de représailles, s'ils ne se sont pas déjà déclenchés ce tour-ci.
+		Vous disposez d'un maximum de 3 plaques à la fois, et en récupérez une toutes les %d tours.]], "tformat")
+t("Sapper", "Sapeur", "talent name")
 t([[You load advanced grenades into your launcher.
 	Incendiary Grenade: Deals fire damage over 3 turns, increasing damage taken by %d%%.
 	Chemical Grenade: Deals acid damage and slows targets by %d%% for 3 turns.
 	Shock Grenade: Deals lightning damage and shocks targets for %d turns, reducing stun and pin resistance by 50%%.
 	In addition, your turrets now explode when destroyed, dealing %0.2f physical damage to enemies in radius 3.
-	You can only choose a single type of grenade at a time.]], [[You load advanced grenades into your launcher.
-	Incendiary Grenade: Deals fire damage over 3 turns, increasing damage taken by %d%%.
-	Chemical Grenade: Deals acid damage and slows targets by %d%% for 3 turns.
-	Shock Grenade: Deals lightning damage and shocks targets for %d turns, reducing stun and pin resistance by 50%%.
-	In addition, your turrets now explode when destroyed, dealing %0.2f physical damage to enemies in radius 3.
-	You can only choose a single type of grenade at a time.]], "tformat")
-t("Barrage", "Barrage", "talent name")
-t("You require a steamgun and an empty grenade launcher for this talent.", "You require a steamgun and an empty grenade launcher for this talent.", "logPlayer")
+	You can only choose a single type of grenade at a time.]], [[Vous chargez des grenades avancées dans votre lance-grenades.
+	Grenade Incendiaire : Inflige des dégâts de feu sur 3 tours, augmentant les dégâts subis de %d%%.
+	Grenade Chimique : Inflige des dégâts d'acide et ralentit les cibles de %d%% pendant 3 tours.
+	Grenade de Choc : Inflige des dégâts de foudre et électrocute les cibles pendant %d tours, réduisant de 50%% leur résistance à l'assommement et à l'immobilisation.
+	De plus, vos tourelles explosent désormais lorsqu'elles sont détruites, infligeant %0.2f dégâts physiques aux ennemis dans un rayon de 3.
+	Vous ne pouvez choisir qu'un seul type de grenade à la fois.]], "tformat")
+t("Barrage", "Barrage de Grenades", "talent name")
+t("You require a steamgun and an empty grenade launcher for this talent.", "Vous devez posséder un pistolet à vapeur et un lance-grenades vide pour utiliser ce talent.", "logPlayer")
 t([[You load a magazine of %d grenades into your launcher, causing your next %d shots to fire a random grenade type in place of your usual Grenade Launcher, dealing 50%% of the usual grenade damage.
 		While the magazine is loaded your attack speed is increased by %d%%.
-		Your Grenade Launcher talent must be on cooldown to use this talent, and the magazine will only last for 6 turns.]], [[You load a magazine of %d grenades into your launcher, causing your next %d shots to fire a random grenade type in place of your usual Grenade Launcher, dealing 50%% of the usual grenade damage.
-		While the magazine is loaded your attack speed is increased by %d%%.
-		Your Grenade Launcher talent must be on cooldown to use this talent, and the magazine will only last for 6 turns.]], "tformat")
-t("Incendiary Grenade", "Incendiary Grenade", "talent name")
-t("Enhance your grenade with an incendiary agent that burns through armor, dealing fire damage over 3 turns and increasing damage taken while burning by %d%%.", "Enhance your grenade with an incendiary agent that burns through armor, dealing fire damage over 3 turns and increasing damage taken while burning by %d%%.", "tformat")
-t("Chemical Grenade", "Chemical Grenade", "talent name")
-t("Enhance your grenade with incapacitating chemicals that deal acid damage and reduce global speed by %d%% for 3 turns.", "Enhance your grenade with incapacitating chemicals that deal acid damage and reduce global speed by %d%% for 3 turns.", "tformat")
-t("Shock Grenade", "Shock Grenade", "talent name")
-t("Enhance your grenade with an electrical charge, causing it to deal lightning damage and shock targets for %d turns, reducing stun and pin resistance by 50%%.", "Enhance your grenade with an electrical charge, causing it to deal lightning damage and shock targets for %d turns, reducing stun and pin resistance by 50%%.", "tformat")
---]==]
-
+		Your Grenade Launcher talent must be on cooldown to use this talent, and the magazine will only last for 6 turns.]], [[Vous chargez un chargeur de %d grenades dans votre lance-grenades, faisant en sorte que vos %d prochains tirs déclenchent un type de grenade aléatoire à la place de votre Lance-Grenades habituel, infligeant 50%% des dégâts de grenade habituels.
+		Tant que le chargeur est en place, votre vitesse d'attaque est augmentée de %d%%.
+		Votre talent Lance-Grenades doit être en recharge pour utiliser ce talent, et le chargeur ne durera que 6 tours.]], "tformat")
+t("Incendiary Grenade", "Grenade Incendiaire", "talent name")
+t("Enhance your grenade with an incendiary agent that burns through armor, dealing fire damage over 3 turns and increasing damage taken while burning by %d%%.", "Améliore votre grenade avec un agent incendiaire qui brûle à travers l'armure, infligeant des dégâts de feu sur 3 tours et augmentant les dégâts subis pendant la combustion de %d%%.", "tformat")
+t("Chemical Grenade", "Grenade Chimique", "talent name")
+t("Enhance your grenade with incapacitating chemicals that deal acid damage and reduce global speed by %d%% for 3 turns.", "Améliore votre grenade avec des substances chimiques incapacitantes qui infligent des dégâts d'acide et réduisent la vitesse globale de %d%% pendant 3 tours.", "tformat")
+t("Shock Grenade", "Grenade de Choc", "talent name")
+t("Enhance your grenade with an electrical charge, causing it to deal lightning damage and shock targets for %d turns, reducing stun and pin resistance by 50%%.", "Améliore votre grenade avec une charge électrique, la faisant infliger des dégâts de foudre et électrocuter les cibles pendant %d tours, réduisant de 50%% leur résistance à l'assommement et à l'immobilisation.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/dread.lua"
 
-t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
--- texte non traduit
---[==[
-t("Mechanical Arms", "Mechanical Arms", "talent name")
+t("Mechanical Arms", "Bras Mécaniques", "talent name")
 t([[Using psionic forces you maintain in place on your back two giant horrific mechanical arms.
 		Each basic turn (as if you had 100%% speed) they can automatically attack up to 2 foes within range 3 with a mindstar attack doing %d%% weapon damage.
-		Creatures harassed by the mechanical arms have their damage reduced by %d%% for 5 turns.]], [[Using psionic forces you maintain in place on your back two giant horrific mechanical arms.
-		Each basic turn (as if you had 100%% speed) they can automatically attack up to 2 foes within range 3 with a mindstar attack doing %d%% weapon damage.
-		Creatures harassed by the mechanical arms have their damage reduced by %d%% for 5 turns.]], "tformat")
-t("Lucid Shot", "Lucid Shot", "talent name")
+		Creatures harassed by the mechanical arms have their damage reduced by %d%% for 5 turns.]], [[Grâce à des forces psioniques, vous maintenez fixés dans votre dos deux gigantesques bras mécaniques et effroyables.
+		À chaque tour de base (comme si vous aviez 100%% de vitesse), ils peuvent automatiquement attaquer jusqu'à 2 ennemis dans un rayon de 3 avec une attaque d'étoile d'âme infligeant %d%% dégâts d'arme.
+		Les créatures harcelées par les bras mécaniques voient leurs dégâts réduits de %d%% pendant 5 tours.]], "tformat")
+t("Lucid Shot", "Tir Lucide", "talent name")
+t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
 t([[Fire a powerful shot at a foe doing %d%% weapon damage.
-		If the creature, or any creatures in radius 3, was affected by a fear or nightmare effect it violently wakes up, shaking it off only to find itself disoriented, unable to discern friends from foes for %d turns.]], [[Fire a powerful shot at a foe doing %d%% weapon damage.
-		If the creature, or any creatures in radius 3, was affected by a fear or nightmare effect it violently wakes up, shaking it off only to find itself disoriented, unable to discern friends from foes for %d turns.]], "tformat")
-t("Psy Worm", "Psy Worm", "talent name")
+		If the creature, or any creatures in radius 3, was affected by a fear or nightmare effect it violently wakes up, shaking it off only to find itself disoriented, unable to discern friends from foes for %d turns.]], [[Tirez un puissant coup de feu sur un ennemi, infligeant %d%% dégâts d'arme.
+		Si la créature, ou toute créature dans un rayon de 3, était affectée par un effet de peur ou de cauchemar, elle se réveille violemment, s'en débarrassant, mais se retrouve désorientée, incapable de distinguer amis et ennemis pendant %d tours.]], "tformat")
+t("Psy Worm", "Ver Psy", "talent name")
 t([[Fire a psionic-enhanced shot at a foe doing %d%% mind weapon damage and infecting it with a psy worm for 8 turns.
 		Each turn the worm will do %0.2f mind damage and restore %d psi to you, double if stunned or feared.
 		Also each turn the worm has 25%% chances to spread to a nearby foe in radius 3.
-		When a creature infected by Psy Worm dies it spreads to all enemies in a radius of 3.]], [[Fire a psionic-enhanced shot at a foe doing %d%% mind weapon damage and infecting it with a psy worm for 8 turns.
-		Each turn the worm will do %0.2f mind damage and restore %d psi to you, double if stunned or feared.
-		Also each turn the worm has 25%% chances to spread to a nearby foe in radius 3.
-		When a creature infected by Psy Worm dies it spreads to all enemies in a radius of 3.]], "tformat")
-t("No Hope", "No Hope", "talent name")
-t("Entering the mind of your foe you manipulate it to make it lose hope of defeating you, reducing all its damage by 40%% for %d turns.", "Entering the mind of your foe you manipulate it to make it lose hope of defeating you, reducing all its damage by 40%% for %d turns.", "tformat")
---]==]
-
+		When a creature infected by Psy Worm dies it spreads to all enemies in a radius of 3.]], [[Tirez un coup amplifié par la psionique sur un ennemi, infligeant %d%% dégâts d'arme mentaux et l'infectant avec un ver psy pendant 8 tours.
+		Chaque tour, le ver inflige %0.2f dégâts mentaux et vous restaure %d psi, doublé si la cible est assommée ou effrayée.
+		De plus, chaque tour, le ver a 25%% de chance de se propager à un ennemi proche dans un rayon de 3.
+		Lorsqu'une créature infectée par le Ver Psy meurt, il se propage à tous les ennemis dans un rayon de 3.]], "tformat")
+t("No Hope", "Sans Espoir", "talent name")
+t("Entering the mind of your foe you manipulate it to make it lose hope of defeating you, reducing all its damage by 40%% for %d turns.", "En pénétrant l'esprit de votre ennemi, vous le manipulez pour lui faire perdre tout espoir de vous vaincre, réduisant tous ses dégâts de 40%% pendant %d tours.", "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/elusiveness.lua"
 
-
--- texte non traduit
---[==[
-t("Slip Away", "Slip Away", "talent name")
+t("Slip Away", "Se Faufiler", "talent name")
 t([[Using small steam motors to enhance your movements, you are able to slip past up to %d foes in a line.
-		After passing the targets, you will quickly run %d tiles away.]], [[Using small steam motors to enhance your movements, you are able to slip past up to %d foes in a line.
-		After passing the targets, you will quickly run %d tiles away.]], "tformat")
-t("Agile Gunner", "Agile Gunner", "talent name")
+		After passing the targets, you will quickly run %d tiles away.]], [[Grâce à de petits moteurs à vapeur qui améliorent vos mouvements, vous pouvez vous faufiler devant jusqu'à %d ennemis alignés.
+		Après avoir dépassé les cibles, vous vous éloignez rapidement de %d cases.]], "tformat")
+t("Agile Gunner", "Tireur Agile", "talent name")
 t([[The thrill of the hunt invigorates you. For each foe in radius %d around you, you gain 20%% movement speed (up to %d%%).
-		Current bonus: %d%%.]], [[The thrill of the hunt invigorates you. For each foe in radius %d around you, you gain 20%% movement speed (up to %d%%).
-		Current bonus: %d%%.]], "tformat")
-t("Awesome Toss", "Awesome Toss", "talent name")
-t("You require two steamguns for this talent.", "You require two steamguns for this talent.", "logPlayer")
+		Current bonus: %d%%.]], [[Le frisson de la chasse vous revigore. Pour chaque ennemi dans un rayon de %d autour de vous, vous gagnez 20%% de vitesse de déplacement (jusqu'à %d%%).
+		Bonus actuel : %d%%.]], "tformat")
+t("Awesome Toss", "Lancer Spectaculaire", "talent name")
+t("You require two steamguns for this talent.", "Vous devez posséder deux pistolets à vapeur pour utiliser ce talent.", "logPlayer")
 t([[In an awesome feat of agility and technological prowess, you toss both of your steamguns in the air, causing them to spin madly for 3 turns.
 		Each turn, they will fire twice at random targets in range, dealing %d%% weapon damage.
 		While the guns are airborne, you are disarmed and cannot attack.
-		The spectacle is so distracting that your foes have a hard time concentrating on you, increasing all of your resistances by %d%%.]], [[In an awesome feat of agility and technological prowess, you toss both of your steamguns in the air, causing them to spin madly for 3 turns.
-		Each turn, they will fire twice at random targets in range, dealing %d%% weapon damage.
-		While the guns are airborne, you are disarmed and cannot attack.
-		The spectacle is so distracting that your foes have a hard time concentrating on you, increasing all of your resistances by %d%%.]], "tformat")
-t("Dazzling Jump", "Dazzling Jump", "talent name")
-t("%s seems immune to the powerful kick.", "%s seems immune to the powerful kick.", "logSeen")
+		The spectacle is so distracting that your foes have a hard time concentrating on you, increasing all of your resistances by %d%%.]], [[Dans une prouesse impressionnante d'agilité et de technologie, vous lancez vos deux pistolets à vapeur dans les airs, les faisant tournoyer follement pendant 3 tours.
+		Chaque tour, ils tirent deux fois sur des cibles aléatoires à portée, infligeant %d%% dégâts d'arme.
+		Tant que les pistolets sont en l'air, vous êtes désarmé et ne pouvez pas attaquer.
+		Le spectacle est si distrayant que vos ennemis peinent à se concentrer sur vous, augmentant toutes vos résistances de %d%%.]], "tformat")
+t("Dazzling Jump", "Saut Éblouissant", "talent name")
+t("%s seems immune to the powerful kick.", "%s semble immunisé au puissant coup de pied.", "logSeen")
 t([[While your foes are distracted by your Awesome Toss, you use powerful steam motors to jump into the air and kick a target %d tiles away.
-		The impact is so great that it ripples outwards, slowing all creatures in radius 3 by %d%% for 4 turns while the reaction force propels you %d tiles backwards.]], [[While your foes are distracted by your Awesome Toss, you use powerful steam motors to jump into the air and kick a target %d tiles away.
-		The impact is so great that it ripples outwards, slowing all creatures in radius 3 by %d%% for 4 turns while the reaction force propels you %d tiles backwards.]], "tformat")
---]==]
-
+		The impact is so great that it ripples outwards, slowing all creatures in radius 3 by %d%% for 4 turns while the reaction force propels you %d tiles backwards.]], [[Pendant que vos ennemis sont distraits par votre Lancer Spectaculaire, vous utilisez de puissants moteurs à vapeur pour sauter dans les airs et frapper une cible d'un coup de pied à %d cases de distance.
+		L'impact est si violent qu'il se répercute alentour, ralentissant toutes les créatures dans un rayon de 3 de %d%% pendant 4 tours, tandis que la force de réaction vous propulse de %d cases en arrière.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/engineering.lua"
 
-
--- texte non traduit
---[==[
-t("Emergency Steam Purge", "Emergency Steam Purge", "talent name")
+t("Emergency Steam Purge", "Purge de Vapeur d'Urgence", "talent name")
 t([[You open all steam valves at once, releasing a radius %d wave of superheated steam around yourself which deals %0.2f fire damage (but can not be a critical hit).
 		If you had at least 35 steam, the vapours will be so hot that they can burn sensory organs, blinding affected creatures for %d turns.
-		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], [[You open all steam valves at once, releasing a radius %d wave of superheated steam around yourself which deals %0.2f fire damage (but can not be a critical hit).
-		If you had at least 35 steam, the vapours will be so hot that they can burn sensory organs, blinding affected creatures for %d turns.
-		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], "tformat")
-t("Innovation", "Innovation", "talent name")
+		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], [[Vous ouvrez toutes vos valves à vapeur en même temps, libérant autour de vous une onde de vapeur surchauffée d'un rayon de %d, infligeant %0.2f dégâts de feu (mais ne pouvant jamais être un coup critique).
+		Si vous aviez au moins 35 de vapeur, les vapeurs seront si chaudes qu'elles pourront brûler les organes sensoriels, aveuglant les créatures affectées pendant %d tours.
+		Les effets évoluent avec votre valeur de vapeur actuelle ; à 1 de vapeur, ils ne sont efficaces qu'à 15%% par rapport à 50 ou plus (facteur actuel : %d%%).]], "tformat")
 t([[Your knowledge of physical laws allows you to use and improve equipment in ways their creators never dreamed.
-		Increases all stats, saves, armour, and defense bonuses by %d%% on equipment that is crafted by a master or powered by steamtech.]], [[Your knowledge of physical laws allows you to use and improve equipment in ways their creators never dreamed.
-		Increases all stats, saves, armour, and defense bonuses by %d%% on equipment that is crafted by a master or powered by steamtech.]], "tformat")
-t("Supercharge Tinkers", "Supercharge Tinkers", "talent name")
+		Increases all stats, saves, armour, and defense bonuses by %d%% on equipment that is crafted by a master or powered by steamtech.]], [[Votre connaissance des lois physiques vous permet d'utiliser et d'améliorer l'équipement d'une manière dont leurs créateurs n'auraient jamais rêvé.
+		Augmente tous les bonus de caractéristiques, de sauvegardes, d'armure et de défense de %d%% sur l'équipement fabriqué par un maître ou alimenté par la vapotech.]], "tformat")
+t("Supercharge Tinkers", "Surcharger les Babioles", "talent name")
 t([[Using a huge amount of steam, you temporarily supercharge your tinkers and other steam-powered talents.
-		For %d turns, you gain %d steampower and %d%% steamtech critical chance.]], [[Using a huge amount of steam, you temporarily supercharge your tinkers and other steam-powered talents.
-		For %d turns, you gain %d steampower and %d%% steamtech critical chance.]], "tformat")
-t("Last Engineer Standing", "Last Engineer Standing", "talent name")
+		For %d turns, you gain %d steampower and %d%% steamtech critical chance.]], [[En utilisant une énorme quantité de vapeur, vous surchargez temporairement vos babioles et autres talents alimentés à la vapeur.
+		Pendant %d tours, vous gagnez %d Puissance de Vapeur et %d%% de chance de critique vapotech.]], "tformat")
+t("Last Engineer Standing", "Dernier Ingénieur Debout", "talent name")
 t([[Sometimes, being a master tinker requires taking risks; yours are more calculated than others.
-		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], [[Sometimes, being a master tinker requires taking risks; yours are more calculated than others.
-		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], "tformat")
+		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], [[Être un maître bricoleur exige parfois de prendre des risques ; les vôtres sont plus calculés que ceux des autres.
+		Gagnez %d Ruse, %d sauvegarde physique, %d%% de résistance aux dégâts auto-infligés, et %d%% de chance d'éviter les coups critiques.]], "tformat")
+-- texte non traduit
+--[==[
+t("Innovation", "Innovation", "talent name")
 --]==]
 
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/furnace.lua"
 
-
--- texte non traduit
---[==[
-t("Furnace", "Furnace", "talent name")
+t("Furnace", "Fourneau", "talent name")
 t([[You add a portable furnace to your steam generators.
 		While it is active your fire and physical damage increases by %d%% and your fire and physical resistance penetration by %d%%.
 		#{italic}#Burninate all with awesome Steam power!#{normal}#
-		]], [[You add a portable furnace to your steam generators.
-		While it is active your fire and physical damage increases by %d%% and your fire and physical resistance penetration by %d%%.
-		#{italic}#Burninate all with awesome Steam power!#{normal}#
-		]], "tformat")
-t("Molten Metal", "Molten Metal", "talent name")
+		]], [[Vous ajoutez un fourneau portable à vos générateurs de vapeur.
+		Tant qu'il est actif, vos dégâts de feu et physiques augmentent de %d%% et votre pénétration de résistance au feu et physique de %d%%.
+		#{italic}#Embrasez tout grâce à l'incroyable puissance de la Vapeur !#{normal}#]], "tformat")
+t("Molten Metal", "Métal en Fusion", "talent name")
 t([[While Furnace is on your armour is so hot from the furnace it dissipates parts of all energy based attacks against you.
 		All non physical, non mind damage is reduced by %d (current %d).
 		Each turn this happens you gain a molten point (up to 10), decreasing the efficiency of the reduction by 25%%.
 		Molten points are removed upon running or resting.
 		#{italic}#Hot liquid metal, the fun!#{normal}#
-		]], [[While Furnace is on your armour is so hot from the furnace it dissipates parts of all energy based attacks against you.
-		All non physical, non mind damage is reduced by %d (current %d).
-		Each turn this happens you gain a molten point (up to 10), decreasing the efficiency of the reduction by 25%%.
-		Molten points are removed upon running or resting.
-		#{italic}#Hot liquid metal, the fun!#{normal}#
-		]], "tformat")
-t("Furnace Vent", "Furnace Vent", "talent name")
+		]], [[Tant que le Fourneau est actif, votre armure est si chaude qu'elle dissipe une partie de toutes les attaques énergétiques dirigées contre vous.
+		Tous les dégâts non physiques et non mentaux sont réduits de %d (actuellement %d).
+		Chaque tour où cela se produit, vous gagnez un point de fusion (jusqu'à 10), diminuant l'efficacité de la réduction de 25%%.
+		Les points de fusion sont retirés lorsque vous courez ou vous reposez.
+		#{italic}#Métal liquide brûlant, quel plaisir !#{normal}#]], "tformat")
+t("Furnace Vent", "Évent du Fourneau", "talent name")
 t([[Open the vents on your furnace, creating a conic blast dealing up to %0.2f fire damage at 10 molten points (currently %0.2f).
 		All molten points are consumed.
 		The damage will increase with your Steampower.
 		#{italic}#By fire be purged!#{normal}#
-		]], [[Open the vents on your furnace, creating a conic blast dealing up to %0.2f fire damage at 10 molten points (currently %0.2f).
-		All molten points are consumed.
-		The damage will increase with your Steampower.
-		#{italic}#By fire be purged!#{normal}#
-		]], "tformat")
-t("Melting Point", "Melting Point", "talent name")
+		]], [[Ouvrez les évents de votre fourneau, créant une explosion conique infligeant jusqu'à %0.2f dégâts de feu à 10 points de fusion (actuellement %0.2f).
+		Tous les points de fusion sont consommés.
+		Les dégâts sont proportionnels à votre Puissance de Vapeur.
+		#{italic}#Soyez purifiés par le feu !#{normal}#]], "tformat")
+t("Melting Point", "Point de Fusion", "talent name")
 t([[When you reach 10 molten points your armour overheats, reaching temperatures so high that they cauterize up to %d detrimental physical effects on you.
 		A special medical injector injects you with a fire immunity serum at that precise moment to make you immune to the burning effect.
 		When this happens all molten points are consumed and trigger a Furnace Vent at the creature that triggered the last molten point.
 		This effect drains 15 steam when triggered, and will not trigger if steam is too low.
 		#{italic}#It's only a flesh burn!#{normal}#
-		]], [[When you reach 10 molten points your armour overheats, reaching temperatures so high that they cauterize up to %d detrimental physical effects on you.
-		A special medical injector injects you with a fire immunity serum at that precise moment to make you immune to the burning effect.
-		When this happens all molten points are consumed and trigger a Furnace Vent at the creature that triggered the last molten point.
-		This effect drains 15 steam when triggered, and will not trigger if steam is too low.
-		#{italic}#It's only a flesh burn!#{normal}#
-		]], "tformat")
---]==]
-
+		]], [[Lorsque vous atteignez 10 points de fusion, votre armure surchauffe, atteignant des températures si élevées qu'elles cautérisent jusqu'à %d effet(s) physique(s) néfaste(s) sur vous.
+		Un injecteur médical spécial vous injecte à cet instant précis un sérum d'immunité au feu, vous rendant immunisé à l'effet de brûlure.
+		Lorsque cela se produit, tous les points de fusion sont consommés et déclenchent un Évent du Fourneau sur la créature qui a provoqué le dernier point de fusion.
+		Cet effet draine 15 de vapeur lorsqu'il se déclenche, et ne se déclenchera pas si le niveau de vapeur est trop bas.
+		#{italic}#Ce n'est qu'une brûlure superficielle !#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gadgets.lua"
 
-
--- texte non traduit
---[==[
-t("Autoloader", "Autoloader", "talent name")
+t("Autoloader", "Chargeur Automatique", "talent name")
 t([[You link your weapons and shield to your steam generators, using them to load ammunition and improve the power of your weapons. 
 		Each time you fire your Steamgun, you have a %d%% chance to reload 1 Heavy Weapon ammo.
 		Each time you fire a Heavy Weapon you reload %d ammo.
 		Each time you raise your shield to block, you reload 1 Heavy Weapon ammo.
 		This also increases weapon damage by %d%% and Physical Power by 30 when using steamguns or heavy weapons.
-		In addition, your steamgun and heavy weapon shots now bypass friendly targets harmlessly.]], [[You link your weapons and shield to your steam generators, using them to load ammunition and improve the power of your weapons. 
-		Each time you fire your Steamgun, you have a %d%% chance to reload 1 Heavy Weapon ammo.
-		Each time you fire a Heavy Weapon you reload %d ammo.
-		Each time you raise your shield to block, you reload 1 Heavy Weapon ammo.
-		This also increases weapon damage by %d%% and Physical Power by 30 when using steamguns or heavy weapons.
-		In addition, your steamgun and heavy weapon shots now bypass friendly targets harmlessly.]], "tformat")
-t("Exoskeleton", "Exoskeleton", "talent name")
-t("#STEEL_BLUE#(%d exoskeleton)#LAST#", "#STEEL_BLUE#(%d exoskeleton)#LAST#", "tformat")
+		In addition, your steamgun and heavy weapon shots now bypass friendly targets harmlessly.]], [[Vous reliez vos armes et votre bouclier à vos générateurs de vapeur, les utilisant pour charger vos munitions et améliorer la puissance de vos armes.
+		Chaque fois que vous tirez avec votre Pistolet à Vapeur, vous avez %d%% de chance de recharger 1 munition d'Arme Lourde.
+		Chaque fois que vous tirez avec une Arme Lourde, vous rechargez %d munition(s).
+		Chaque fois que vous levez votre bouclier pour bloquer, vous rechargez 1 munition d'Arme Lourde.
+		Cela augmente également les dégâts d'arme de %d%% et la Puissance Physique de 30 lors de l'utilisation de pistolets à vapeur ou d'armes lourdes.
+		De plus, vos tirs de pistolet à vapeur et d'arme lourde traversent désormais vos alliés sans les blesser.]], "tformat")
+t("Exoskeleton", "Exosquelette", "talent name")
+t("#STEEL_BLUE#(%d exoskeleton)#LAST#", "#STEEL_BLUE#(%d exosquelette)#LAST#", "tformat")
 t([[Current exoskeleton life: %d/%d
 		You craft a set of steam powered armor that fits over your regular armor, enhancing your defense. The armor has %d life, and 50%% of all damage taken is redirected to it.
 		Your powered armour repairs 5%% of it’s maximum life each turn, and each time you spend steam it will be repaired for %d%% of the steam cost.
-		The armor's maximum life will increase with your Steampower.]], [[Current exoskeleton life: %d/%d
-		You craft a set of steam powered armor that fits over your regular armor, enhancing your defense. The armor has %d life, and 50%% of all damage taken is redirected to it.
-		Your powered armour repairs 5%% of it’s maximum life each turn, and each time you spend steam it will be repaired for %d%% of the steam cost.
-		The armor's maximum life will increase with your Steampower.]], "tformat")
-t("Hypervision Goggles", "Hypervision Goggles", "talent name")
+		The armor's maximum life will increase with your Steampower.]], [[Vie actuelle de l'exosquelette : %d/%d
+		Vous fabriquez une armure alimentée à la vapeur qui se pose par-dessus votre armure habituelle, renforçant votre défense. L'armure possède %d de vie, et 50%% de tous les dégâts subis lui sont redirigés.
+		Votre armure motorisée répare 5%% de sa vie maximale chaque tour, et chaque fois que vous dépensez de la vapeur, elle est réparée d'un montant égal à %d%% du coût en vapeur.
+		La vie maximale de l'armure est proportionnel à votre Puissance de Vapeur.]], "tformat")
+t("Hypervision Goggles", "Lunettes Hypervision", "talent name")
 t([[Enhance your vision for %d turns, giving you vision of all targets in range %d, even through walls. While the goggles are active you also spot flaws in your opponent's defenses, increasing your resistance penetration by %d%%.
-In addition, the goggles passively increase your stealth, invisibility and trap detection by %d.]], [[Enhance your vision for %d turns, giving you vision of all targets in range %d, even through walls. While the goggles are active you also spot flaws in your opponent's defenses, increasing your resistance penetration by %d%%.
-In addition, the goggles passively increase your stealth, invisibility and trap detection by %d.]], "tformat")
-t("AED", "AED", "talent name")
+In addition, the goggles passively increase your stealth, invisibility and trap detection by %d.]], [[Améliorez votre vision pendant %d tours, vous donnant une vue sur toutes les cibles à portée %d, même à travers les murs. Tant que les lunettes sont actives, vous repérez également les failles dans les défenses de vos adversaires, augmentant votre pénétration de résistance de %d%%.
+De plus, les lunettes augmentent passivement votre détection de la Dissimulation, de l'invisibilité et des pièges de %d.]], "tformat")
+t("AED", "DEA", "talent name")
 t([[Prepare a defensive device that stores an electrical charge for 8 turns.
 If your life falls below 0 while the AED is active it will activate to shock you back into life, negating the triggering attack, restoring %d life and dealing %0.2f lightning damage in radius %d that dazes affected enemies for 3 turns.
 If the AED does not activate, the cooldown is reduced by 15 turns.
-The healing and damage will increase with your Steampower.]], [[Prepare a defensive device that stores an electrical charge for 8 turns.
-If your life falls below 0 while the AED is active it will activate to shock you back into life, negating the triggering attack, restoring %d life and dealing %0.2f lightning damage in radius %d that dazes affected enemies for 3 turns.
-If the AED does not activate, the cooldown is reduced by 15 turns.
-The healing and damage will increase with your Steampower.]], "tformat")
---]==]
-
+The healing and damage will increase with your Steampower.]], [[Préparez un dispositif défensif qui stocke une charge électrique pendant 8 tours.
+Si votre vie tombe sous 0 alors que le DEA est actif, il s'activera pour vous ranimer par un choc électrique, annulant l'attaque déclencheuse, restaurant %d vie et infligeant %0.2f dégâts de foudre dans un rayon de %d qui étourdissent les ennemis affectés pendant 3 tours.
+Si le DEA ne s'active pas, son temps de recharge est réduit de 15 tours.
+Les soins et les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gunner-training.lua"
@@ -5317,12 +5236,12 @@ t([[You fire a special, electrically charged shot with your steamgun(s) at a spo
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/gunslinging.lua"
 
+t("You must dual wield steamguns for this talent.", "Vous devez manier deux pistolets à vapeur simultanément pour ce talent.", "logPlayer")
 t("Something", "Quelque chose", "_t")
 -- texte non traduit
 --[==[
 t("Strafe", "Strafe", "talent name")
 t("@Source@ strafes with @hisher@ steamguns!", "@Source@ strafes with @hisher@ steamguns!", "_t")
-t("You must dual wield steamguns for this talent.", "You must dual wield steamguns for this talent.", "logPlayer")
 t([[You have learned to fire while moving.
 		In one motion, you fire your double steamguns (100%% weapon damage, 1 tile range penalty) and may then move to an adjacent tile (unless pinned to the ground or immobilized).
 		This talent can be activated for up to %d consecutive turns before it goes on cooldown, and takes time according to your steamtech speed or movement speed (if you move), whichever is slower.
@@ -6000,11 +5919,10 @@ t([[Attach a psionic steam device to a shot doing %d%% weapon damage.
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/sawmaiming.lua"
 
-
+t("You require a steamsaw for this talent.", "Vous avez besoin d'une scie à vapeur pour ce talent.", "logPlayer")
 -- texte non traduit
 --[==[
 t("To The Arms", "To The Arms", "talent name")
-t("You require a steamsaw for this talent.", "You require a steamsaw for this talent.", "logPlayer")
 t([[Hits the target on the arms with one rotating saw doing %d%% damage and trying to maim it for %d turns.
 		Maimed foes deal %d%% less damage.
 		The chance improves with your Physical power.
@@ -6453,7 +6371,9 @@ t("physical", "physique", "effect subtype")
 t("Negative Biofeedback", "Biofeedback Négatif", "_t")
 t("confusion", "confus", "effect subtype")
 t("#Target# is less afraid.", "#Target# a moins peur.", "_t")
+t("Psy Worm", "Ver Psy", "_t")
 t("fear", "peur", "effect subtype")
+t("No Hope", "Sans Espoir", "_t")
 t("curse", "malédiction", "effect subtype")
 t("Curse of Amakthel", "Malédiction d'Amakthel", "_t")
 t("#Target# is no longer cursed.", "#Target# n'est plus maudit.", "_t")
@@ -6479,11 +6399,9 @@ t("Physical save reduced by %d, armour and defense by %d.", "Physical save reduc
 t("Unclear Thoughts", "Unclear Thoughts", "_t")
 t("Can not discern foes from friends.", "Can not discern foes from friends.", "tformat")
 t("#Target# wakes up from the nightmare very confused!", "#Target# wakes up from the nightmare very confused!", "_t")
-t("Psy Worm", "Psy Worm", "_t")
 t("Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "Infected by a psionic worm, doing %0.2f mind damage per turn. Damage doubled on stunned or feared foes, can spread to nearby creatures.", "tformat")
 t("#Target# is infected by a psy worm!", "#Target# is infected by a psy worm!", "_t")
 t("#Target# is free from the psy worm.", "#Target# is free from the psy worm.", "_t")
-t("No Hope", "No Hope", "_t")
 t("All damage reduced by 40%%.", "All damage reduced by 40%%.", "tformat")
 t("#Target# loses all hope of winning!", "#Target# loses all hope of winning!", "_t")
 t("#Target# is once more confident.", "#Target# is once more confident.", "_t")
@@ -6613,21 +6531,28 @@ t("water", "eau", "effect subtype")
 t("Water Salve", "Onguent d'Eau", "_t")
 t("Unstoppable Force Salve", "Onguent de Force Implacable", "_t")
 t("slow", "ralentissement", "effect subtype")
+t("Supercharge Tinkers", "Surcharger les Babioles", "_t")
+t("Overcharge Saws", "Surcharger les Scies", "_t")
 t("ice", "glace", "effect subtype")
 t("Algid Rage", "Rage Algide", "_t")
 t("disease", "maladie", "effect subtype")
+t("Tech Overload", "Surcharge Technologique", "_t")
+t("Continuous Butchery", "Boucherie Continue", "_t")
 t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
 t("bleed", "saignement", "effect subtype")
+t("Explosive Saw", "Scie Explosive", "_t")
 t("resistance", "résistance", "effect subtype")
 t("Subcutaneous Metallisation", "Métallisation Sous-Cutanée", "_t")
 t("power", "pouvoir", "effect subtype")
 t("Pain Enhancement System", "Système d'Amplification de la Douleur", "_t")
 t("pin", "immobilisé", "effect subtype")
+t("Net Projector", "Projecteur de Filet", "_t")
 t("You have %d charges.", "Vous avez %d charge(s).", "tformat")
 t("steam", "vapeur", "effect subtype")
 t("Pressure-enhanced Slashproof Combat Suit", "Combinaison de Combat Anti-Coupure Pressurisée", "_t")
 t("psionic", "psionique", "effect subtype")
+t("Awesome Toss", "Lancer Spectaculaire", "_t")
 t("Marked for Death", "Condamné Marqué", "_t")
 t("Itching Powder", "Poudre Grattante", "_t")
 t("#Target# regains their concentration.", "#Target# retrouve sa concentration.", "_t")
@@ -6650,14 +6575,21 @@ t("The target has been splashed with acid, taking %0.2f acid damage per turn.", 
 t("#Target# is covered in acid!", "#Target# est recouvert d'acide !", "_t")
 t("#Target# is free from the acid.", "#Target# n'est plus recouvert d'acide.", "_t")
 t("lightning", "foudre", "effect subtype")
+t("Incendiary Grenade", "Grenade Incendiaire", "_t")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s s'est rétabli !#LAST#", "logSeen")
 t("shield", "bouclier", "effect subtype")
 t("#SLATE#(%d absorbed)#LAST#", "#SLATE#(%d absorbé)#LAST#", "tformat")
 t("Your shield crumbles under the damage!", "Votre bouclier s'effondre sous les dégâts !", "logPlayer")
 t("sense", "sens", "effect subtype")
+t("Hypervision Goggles", "Lunettes Hypervision", "_t")
+t("AED", "DEA", "_t")
 t("grapple", "agrippement", "effect subtype")
+t("Reactive Armor", "Armure Réactive", "_t")
+t("Miasma Engine", "Moteur à Miasme", "_t")
+t("Smogscreen", "Rideau de Miasme", "_t")
 t("%d%% chance to fully absorb any damaging actions.", "%d%% chance d'absorber entièrement tout dégât subi.", "tformat")
 t("Miasma", "Miasme", "_t")
+t("Death From Above", "Mort du Ciel", "_t")
 -- texte non traduit
 --[==[
 t("technique", "technique", "effect subtype")
@@ -6716,13 +6648,11 @@ t("+Unstoppable Force", "+Unstoppable Force", "_t")
 t("-Unstoppable Force", "-Unstoppable Force", "_t")
 t("Slow Talents", "Slow Talents", "_t")
 t("Attacking, casting and mind speed have been reduced by %d%%.", "Attacking, casting and mind speed have been reduced by %d%%.", "tformat")
-t("Supercharge Tinkers", "Supercharge Tinkers", "_t")
 t("Increases steampower by %d and steam crit by %d%%.", "Increases steampower by %d and steam crit by %d%%.", "tformat")
 t("#Target# supercharges all tinkers.", "#Target# supercharges all tinkers.", "_t")
 t("+Supercharge Tinkers", "+Supercharge Tinkers", "_t")
 t("#Target#'s supercharge is fading.", "#Target#'s supercharge is fading.", "_t")
 t("-Supercharge Tinkers", "-Supercharge Tinkers", "_t")
-t("Overcharge Saws", "Overcharge Saws", "_t")
 t("Increases all saws talent levels by %d%%.", "Increases all saws talent levels by %d%%.", "tformat")
 t("#Target# overcharges saw motors.", "#Target# overcharges saw motors.", "_t")
 t("+Overcharge Saws", "+Overcharge Saws", "_t")
@@ -6737,11 +6667,8 @@ t("+Larvae Infestation", "+Larvae Infestation", "_t")
 t("developing ", "developing ", "_t")
 t("A %s #ORANGE#BURSTS OUT#LAST# of %s%s!", "A %s #ORANGE#BURSTS OUT#LAST# of %s%s!", "logSeen")
 t(" but is crushed", " but is crushed", "_t")
-t("Tech Overload", "Tech Overload", "_t")
 t("Doubles your maximum steam and stops steam regeneration.", "Doubles your maximum steam and stops steam regeneration.", "tformat")
-t("Continuous Butchery", "Continuous Butchery", "_t")
 t("Increases steamsaw damage multiplier by %d%%.", "Increases steamsaw damage multiplier by %d%%.", "tformat")
-t("Explosive Saw", "Explosive Saw", "_t")
 t("Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "tformat")
 t(" and silences it", " and silences it", "_t")
 t("sil", "sil", "_t")
@@ -6760,7 +6687,6 @@ t("#Target# revels in the pain.", "#Target# revels in the pain.", "_t")
 t("+Pain Enhancement System", "+Pain Enhancement System", "_t")
 t("#Target# no longer feels strong.", "#Target# no longer feels strong.", "_t")
 t("-Pain Enhancement System", "-Pain Enhancement System", "_t")
-t("Net Projector", "Net Projector", "_t")
 t("The target has been pinned by an electrified net, reducing all resistances by %d%%.", "The target has been pinned by an electrified net, reducing all resistances by %d%%.", "tformat")
 t("#Target# is trapped by the net.", "#Target# is trapped by the net.", "_t")
 t("+Net Projector", "+Net Projector", "_t")
@@ -6776,7 +6702,6 @@ t("Fire resistance decreased by %d%% and mind save by %d.", "Fire resistance dec
 t("#Target# is seared.", "#Target# is seared.", "_t")
 t("#Target# is no longer seared.", "#Target# is no longer seared.", "_t")
 t("awesome", "awesome", "effect subtype")
-t("Awesome Toss", "Awesome Toss", "_t")
 t("All resistances increased by %d%%, randomly attacks two foes each turn at random.", "All resistances increased by %d%%, randomly attacks two foes each turn at random.", "tformat")
 t("#Target# tosses steamguns in the air, awesome!", "#Target# tosses steamguns in the air, awesome!", "_t")
 t("#Target# somehow catches the falling steamguns.", "#Target# somehow catches the falling steamguns.", "_t")
@@ -6829,7 +6754,6 @@ t("-Static Shield", "-Static Shield", "_t")
 t("Lightning Web", "Lightning Web", "_t")
 t("The target is surrounded by a crackling web of lightning, reducing all damage taken by %d.", "The target is surrounded by a crackling web of lightning, reducing all damage taken by %d.", "tformat")
 t("#LIGHT_BLUE#(%d lightning web)#LAST#", "#LIGHT_BLUE#(%d lightning web)#LAST#", "tformat")
-t("Incendiary Grenade", "Incendiary Grenade", "_t")
 t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "tformat")
 t("Healing Mist", "Healing Mist", "_t")
 t("Newly applied status effects durations are reduced by %d%%.", "Newly applied status effects durations are reduced by %d%%.", "tformat")
@@ -6839,9 +6763,7 @@ t("#target# surges with power!", "#target# surges with power!", "_t")
 t("+Overclock", "+Overclock", "_t")
 t("#target# looks less powerful.", "#target# looks less powerful.", "_t")
 t("-Overclock", "-Overclock", "_t")
-t("Hypervision Goggles", "Hypervision Goggles", "_t")
 t("Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "Improves senses, allowing the detection of enemies in radius %d and increasing resistance penetration by %d%%.", "tformat")
-t("AED", "AED", "_t")
 t("If life is brought below 0, cancels the attack, heals for %d and deals %0.2f lightning damage in radius %d as well as dazing for 2 turns.", "If life is brought below 0, cancels the attack, heals for %d and deals %0.2f lightning damage in radius %d as well as dazing for 2 turns.", "tformat")
 t("#Target# prepares their AED!", "#Target# prepares their AED!", "_t")
 t("+AED", "+AED", "_t")
@@ -6864,7 +6786,6 @@ t("+Pincer Strike", "+Pincer Strike", "_t")
 t("#Target# is free from %s's pincers.", "#Target# is free from %s's pincers.", "tformat")
 t("-Pincer Strike", "-Pincer Strike", "_t")
 t("#Source# #LIGHT_RED#strikes down at#LAST# #Target#!", "#Source# #LIGHT_RED#strikes down at#LAST# #Target#!", "logCombat")
-t("Reactive Armor", "Reactive Armor", "_t")
 t("Next melee or ranged attack that deals more than 8%% of maximum life is reduced by %d%% and triggers a radius %d conal explosion dealing %d%% steamgun damage. %d stacks remaining.", "Next melee or ranged attack that deals more than 8%% of maximum life is reduced by %d%% and triggers a radius %d conal explosion dealing %d%% steamgun damage. %d stacks remaining.", "tformat")
 t("#LIGHT_BLUE#(%d reactive armor)#LAST#", "#LIGHT_BLUE#(%d reactive armor)#LAST#", "tformat")
 t("Grenade Barrage", "Grenade Barrage", "_t")
@@ -6873,11 +6794,8 @@ t("#Target# loads a magazine of grenades.", "#Target# loads a magazine of grenad
 t("+Grenade Barrage", "+Grenade Barrage", "_t")
 t("Miasma Adaptation", "Miasma Adaptation", "_t")
 t("Immune to miasma engine effects.", "Immune to miasma engine effects.", "_t")
-t("Miasma Engine", "Miasma Engine", "_t")
 t("The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "The target is surrounded by a toxic cloud or radius %d. Enemies within will suffer %d%% talent failure, %d%% reduced healing, and take %0.2f additional acid damage from melee and ranged attacks.", "tformat")
-t("Smogscreen", "Smogscreen", "_t")
 t("Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "Affected by toxic chemicals. Has %d%% talent failure, %d%% reduced healing, and takes %0.2f additional acid damage from melee and ranged attacks.", "tformat")
-t("Death From Above", "Death From Above", "_t")
 t("Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "Hovering in place, gaining %d%% evasion, %d%% movement speed and launching a powerful rocket barrage each turn.", "tformat")
 t("#Target# takes flight!", "#Target# takes flight!", "_t")
 t("+Death From Above", "+Death From Above", "_t")
