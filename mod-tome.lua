@@ -16405,7 +16405,7 @@ Mais surtout, sachez ceci : Zemekkys est encore plus paresseux que moi, mais il 
 
 Tout le monde ici veut la même chose — garder l'espace-temps stable, s'amuser avec ses pouvoirs, tricher à quelques loteries — mais nous avons une couverture à maintenir et, en théorie, un vrai travail à faire si jamais quelque chose fissure ce bouclier Sher'Tul ou si les Greigu trouvent un moyen de contourner un filtre de portail. Grattez le dos des autres quand le vôtre démange, ne faites pas tant de bruit que le système vous tombe sur la tête, et vous apprécierez votre séjour dans l'éternité.
 
-Bienvenue au Ponto Zero, agent. Ci-joint les coordonnées spatio-temporelles de ce qui est, littéralement, le meilleur restaurant de yeti rôti qui puisse exister — je demanderai à l'escouade de vous y rejoindre. Remerciez-moi plus tard.
+Bienvenue au Ponto Zero, agent. Ci-joint les coordonnées spatio-temporelles de ce qui est, littéralement, le meilleur restaurant de yéti rôti qui puisse exister — je demanderai à l'escouade de vous y rejoindre. Remerciez-moi plus tard.
 
 [i]-Galsamae[/i]
 
@@ -33771,7 +33771,7 @@ t("Lord of Skulls (archer)", "Seigneur des Crânes (archer)", "_t")
 t("Lord of Skulls (mage)", "Seigneur des Crânes (mage)", "_t")
 t("Lord of Skulls (bone giant)", "Seigneur des Crânes (géant osseux)", "_t")
 t("Spike of Decrepitude", "Pointe de Décrépitude", "_t")
-t("Damage reduced by %d%%.", "Dégâts reduits de %d%%.", "tformat")
+t("Damage reduced by %d%%.", "Dégâts réduits de %d%%.", "tformat")
 t("Soul Leech", "Sangsue d'Ame", "_t")
 t("Soul absorbed upon death.", "Âme absorbée à la mort.", "_t")
 t("ghoul", "goule", "effect subtype")
