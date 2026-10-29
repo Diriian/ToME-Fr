@@ -1537,7 +1537,7 @@ t("BODY", "CORPS", "entity on slot")
 t("%s second skin", "seconde peau (%s)", "tformat")
 t("HEAD", "TETE", "entity on slot")
 t("%s air recycler", "recycleur d'air (%s)", "tformat")
-t("Returns %d air each turn.", "Restaure %d points d'air à chaque tour.", "tformat")
+t("Returns %d air each turn.", "Restaure %d points d'air à par tour.", "tformat")
 t("FEET", "PIEDS", "entity on slot")
 t("%s moss tread", "semelles de mousse (%s)", "tformat")
 t("BELT", "CEINTURE", "entity on slot")
@@ -1671,7 +1671,7 @@ t("When fired, shoots up to 4 extra shots at random foes with a radius 4 cone ce
 t("Cloak of Daggers", "Cape de lames", "entity name")
 t("bladed cloak", "cape armée de lames", "_t")
 t("This cloak seems to incorporate a series of blades attached to various spring mechanisms.  Apparently the designer believed that the best defense was an active one.", "Cette cape intègre une série de lames fixées à divers mécanismes à ressort. Son concepteur semblait croire que la meilleure défense était une défense active.", "_t")
-t("Has a 50%% chance each turn to slash an adjacent enemy for %d physical damage (based on Cunning), making them bleed.", "A 50%% de chances à chaque tour de trancher un ennemi adjacent, infligeant %d dégâts physiques (basés sur la Ruse) et le faisant saigner.", "tformat")
+t("Has a 50%% chance each turn to slash an adjacent enemy for %d physical damage (based on Cunning), making them bleed.", "A 50%% de chances par tour de trancher un ennemi adjacent, infligeant %d dégâts physiques (basés sur la Ruse) et le faisant saigner.", "tformat")
 t("#Source#'s %s #GOLD#lashes out#LAST#, cutting #Target#!", "Le %s de #Source# #GOLD#fouette violemment#LAST#, frappant #Target# !", "logCombat")
 t("a jetpack", "un jetpack", "_t")
 t("Finally.", "Enfin.", "_t")
@@ -4069,7 +4069,7 @@ Light damage slows the target by %0.2f%% per point of damage dealt for %d turns,
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[La cible ressent les échos de tous vos dégâts de lumière et d'obscurité pendant %d tours.
 
 Les dégâts de lumière ralentissent la cible de %0.2f%% par point de dégâts infligés pendant %d tours, jusqu'à un maximum de %d%% à %d dégâts.
-Les dégâts d'obscurité créent un effet sur la case pendant %d tours qui inflige %d%% des dégâts infligés chaque tour. Il sera réinitialisé tant que la cible continue de subir des dégâts provenant de cette source ou d'une autre pendant que Échos du Crépuscule est actif, infligeant ses dégâts restants sur la nouvelle durée ainsi que les nouveaux dégâts.]], "tformat")
+Les dégâts d'obscurité créent un effet sur la case pendant %d tours qui inflige %d%% des dégâts infligés par tour. Il sera réinitialisé tant que la cible continue de subir des dégâts provenant de cette source ou d'une autre pendant que Échos du Crépuscule est actif, infligeant ses dégâts restants sur la nouvelle durée ainsi que les nouveaux dégâts.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/celestial/energies.lua"
@@ -4127,7 +4127,7 @@ Light damage slows the target by %0.2f%% per point of damage dealt for %d turns,
 Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source while Twilit Echoes is active, dealing its remaining damage over the new duration as well as the new damage.]], [[La cible ressent les échos de tous vos dégâts de lumière et d'obscurité pendant %d tours.
 
 Les dégâts de lumière ralentissent la cible de %0.2f%% par point de dégâts infligés pendant %d tours, jusqu'à un maximum de %d%% à %d dégâts.
-Les dégâts d'obscurité créent un effet sur la case pendant %d tours qui inflige %d%% des dégâts infligés chaque tour. Il sera réinitialisé tant que la cible continue de subir des dégâts provenant de cette source ou d'une autre pendant que Échos du Crépuscule est actif, infligeant ses dégâts restants sur la nouvelle durée ainsi que les nouveaux dégâts.]], "tformat")
+Les dégâts d'obscurité créent un effet sur la case pendant %d tours qui inflige %d%% des dégâts infligés par tour. Il sera réinitialisé tant que la cible continue de subir des dégâts provenant de cette source ou d'une autre pendant que Échos du Crépuscule est actif, infligeant ses dégâts restants sur la nouvelle durée ainsi que les nouveaux dégâts.]], "tformat")
 t("Starscape", "Dimension Stellaire", "talent name")
 t("This spell cannot be cast here.", "Ce sort ne peut pas être lancé ici.", "logPlayer")
 t("Summons the starscape in the surrounding area in a radius of %d. For %d turns, this area exists outside normal time, and in zero gravity. In addition to the effects of zero gravity, Movement of projectiles and other creatures is three times as slow. Spells and attacks cannot escape the radius until the effect ends.", "Invoque la dimension stellaire dans la zone environnante sur un rayon de %d. Pendant %d tours, cette zone existe en dehors du temps normal et en apesanteur. En plus des effets de l'apesanteur, le mouvement des projectiles et des autres créatures est trois fois plus lent. Les sorts et les attaques ne peuvent pas s'échapper du rayon tant que l'effet n'a pas pris fin.", "tformat")
@@ -4580,7 +4580,7 @@ t([[You build %d micro spiderbot(s) from the earthly elements around you. Spider
 		The damage will increase with your Spellpower.
 
 		You have currently %d spiderbot(s) up.]], [[Vous construisez %d micro robot(s)-araignée à partir des éléments terrestres autour de vous. Les robots-araignées sont alimentés par une unité de puissance cryogénique arcanique directement liée à votre propre puissance.
-		Les robots-araignées infligent %0.2f dégâts terriens (physique et froid) à chaque tour à leurs cibles. Le froid intense de l'attaque a 25%% de chance de geler les pieds de la cible, l'immobilisant au sol pendant 5 tours.
+		Les robots-araignées infligent %0.2f dégâts terriens (physique et froid) par tour à leurs cibles. Le froid intense de l'attaque a 25%% de chance de geler les pieds de la cible, l'immobilisant au sol pendant 5 tours.
 		Si une cible meurt, le robot-araignée saute sur une nouvelle cible à portée de %d autour de vous.
 		S'il y a plusieurs robots-araignées sur une seule cible et que d'autres cibles libres sont à portée, ils se disperseront sur autant que possible.
 		S'il y a plusieurs robots-araignées sur une seule cible, ils attaquent comme un seul, cumulant leurs dégâts (avec des retours décroissants) et tentant de geler une seule fois.
@@ -4648,7 +4648,7 @@ t("Incendiary Powder", "Poudre Incendiaire", "talent name")
 t([[Augment your rockets with highly flammable materials, causing them to burn targets for %0.2f fire damage over 3 turns. Subsequent shots against burning targets refresh the effect of the duration (but do not stack) and inflict %0.2f additional fire damage.
 Targets affected by this burning that fall below 25%% life enter a state of panic, giving them a %d%% chance each turn to flee in terror from you.
 The fire damage will increase with your Steampower.]], [[Augmentez vos roquettes avec des matériaux hautement inflammables, leur faisant brûler les cibles pour %0.2f dégâts de feu sur 3 tours. Les tirs suivants contre des cibles en feu renouvellent la durée de l'effet (sans s'empiler) et infligent %0.2f dégâts de feu supplémentaires.
-Les cibles affectées par cette brûlure qui tombent en dessous de 25%% de vie entrent dans un état de panique, leur donnant %d%% de chance à chaque tour de s'enfuir de vous en proie à la terreur.
+Les cibles affectées par cette brûlure qui tombent en dessous de 25%% de vie entrent dans un état de panique, leur donnant %d%% de chance par tour de s'enfuir de vous en proie à la terreur.
 Les dégâts de feu sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 t("Lock On", "Verrouillage de Cible", "talent name")
 t("You require a steamgun for this talent.", "Vous devez posséder un pistolet à vapeur pour utiliser ce talent.", "logPlayer")
@@ -4683,7 +4683,7 @@ t([[You attune your saws to a specific target for 5 turns.
 t("Explosive Saw", "Scie Explosive", "talent name")
 t([[You send a saw mounted on an automated steam propulsor to assault a foe, dealing %0.2f physical damage each turn for 4 turns and silencing it.
 		At the end of the duration, the saw explodes for %0.2f fire damage and flies back, pulling the target up to %d tiles towards you.
-		The damage will increase with your Steampower.]], [[Vous envoyez une scie montée sur un propulseur à vapeur automatisé pour attaquer un ennemi, lui infligeant %0.2f dégâts physiques à chaque tour pendant 4 tours et le réduisant au silence.
+		The damage will increase with your Steampower.]], [[Vous envoyez une scie montée sur un propulseur à vapeur automatisé pour attaquer un ennemi, lui infligeant %0.2f dégâts physiques par tour pendant 4 tours et le réduisant au silence.
 		À la fin de la durée, la scie explose pour %0.2f dégâts de feu et revient vers vous, attirant la cible jusqu'à %d cases dans votre direction.
 		Les dégâts sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 t("Mow Down", "Faucheur", "talent name")
@@ -5079,7 +5079,7 @@ t("Emergency Steam Purge", "Purge de Vapeur d'Urgence", "talent name")
 t([[You open all steam valves at once, releasing a radius %d wave of superheated steam around yourself which deals %0.2f fire damage (but can not be a critical hit).
 		If you had at least 35 steam, the vapours will be so hot that they can burn sensory organs, blinding affected creatures for %d turns.
 		The effects scale with your current steam value; at 1 steam they are only 15%% as effective as at 50 or more (current factor %d%%).]], [[Vous ouvrez toutes vos valves à vapeur en même temps, libérant autour de vous une onde de vapeur surchauffée d'un rayon de %d, infligeant %0.2f dégâts de feu (mais ne pouvant jamais être un coup critique).
-		Si vous aviez au moins 35 de vapeur, les vapeurs seront si chaudes qu'elles pourront brûler les organes sensoriels, aveuglant les créatures affectées pendant %d tours.
+		Si vous aviez au moins 35 de vapeur, les vapeurs seront si chaudes qu'elles pourront brûler les organes sensoriels, aveuglant les créatures affectées pendant %d tour(s).
 		Les effets évoluent avec votre valeur de vapeur actuelle ; à 1 de vapeur, ils ne sont efficaces qu'à 15%% par rapport à 50 ou plus (facteur actuel : %d%%).]], "tformat")
 t([[Your knowledge of physical laws allows you to use and improve equipment in ways their creators never dreamed.
 		Increases all stats, saves, armour, and defense bonuses by %d%% on equipment that is crafted by a master or powered by steamtech.]], [[Votre connaissance des lois physiques vous permet d'utiliser et d'améliorer l'équipement d'une manière dont leurs créateurs n'auraient jamais rêvé.
@@ -5162,7 +5162,7 @@ t([[Current exoskeleton life: %d/%d
 		Your powered armour repairs 5%% of it’s maximum life each turn, and each time you spend steam it will be repaired for %d%% of the steam cost.
 		The armor's maximum life will increase with your Steampower.]], [[Vie actuelle de l'exosquelette : %d/%d
 		Vous fabriquez une armure alimentée à la vapeur qui se pose par-dessus votre armure habituelle, renforçant votre défense. L'armure possède %d de vie, et 50%% de tous les dégâts subis lui sont redirigés.
-		Votre armure motorisée répare 5%% de sa vie maximale chaque tour, et chaque fois que vous dépensez de la vapeur, elle est réparée d'un montant égal à %d%% du coût en vapeur.
+		Votre armure motorisée répare 5%% de sa vie maximale par tour, et chaque fois que vous dépensez de la vapeur, elle est réparée d'un montant égal à %d%% du coût en vapeur.
 		La vie maximale de l'armure est proportionnel à votre Puissance de Vapeur.]], "tformat")
 t("Hypervision Goggles", "Lunettes Hypervision", "talent name")
 t([[Enhance your vision for %d turns, giving you vision of all targets in range %d, even through walls. While the goggles are active you also spot flaws in your opponent's defenses, increasing your resistance penetration by %d%%.
@@ -5190,7 +5190,7 @@ t("%s resists!", "%s résiste !", "logSeen")
 t([[In an overpowering display of marksmanship, you fire your steamgun(s) twice in rapid succession.
 Each shot (targeted separately) deals %d%% damage and stuns its target for %d turns.
 		The stun chance increases with your Steampower.]], [[Dans une démonstration écrasante d'adresse au tir, vous tirez avec votre/vos pistolet(s) à vapeur deux fois en succession rapide.
-Chaque tir (visé séparément) inflige %d%% dégâts et assomme sa cible pendant %d tours.
+Chaque tir (visé séparément) inflige %d%% dégâts et assomme sa cible pendant %d tour(s).
 		La chance d'assommer est proportionnel à votre Puissance de Vapeur.]], "tformat")
 t("Uncanny Reload", "Rechargement Insolite", "talent name")
 t([[You focus on managing your steamgun ammo for %d turns.
@@ -5202,7 +5202,7 @@ t([[You fire a special, electrically charged shot with your steamgun(s) at a spo
 		Shocked targets lose up to %d non-magical effects (for the first shot that hits).
 		This talent does not use ammo.]], [[Vous tirez un projectile spécial, chargé électriquement, avec votre/vos pistolet(s) à vapeur sur un point à portée.
 		Lorsque chaque tir atteint sa cible, il explose en éclats électrifiés dans un rayon de %d, électrocutant chaque cible touchée et infligeant %d%% dégâts d'arme sous forme de dégâts de foudre.
-		Les cibles électrocutées perdent jusqu'à %d effet(s) non magique(s) (pour le premier tir qui touche).
+		Les cibles électrocutées perdent jusqu'à %d effet non magique (pour le premier tir qui touche).
 		Ce talent n'utilise pas de munitions.]], "tformat")
 
 ------------------------------------------------
@@ -5257,7 +5257,9 @@ t([[You gain the ability to equip one of 3 heavy weapons listed below, temporari
 		]], [[Vous gagnez la capacité d'équiper l'une des 3 armes lourdes listées ci-dessous, vous accordant temporairement une attaque spéciale. Les armes lourdes sont bien plus puissantes qu'un pistolet à vapeur, mais nécessitent des munitions lourdes pour tirer. Vous pouvez stocker jusqu'à %d munitions à la fois, et en régénérez 1 toutes les 3 tours tant qu'une arme lourde n'est pas équipée.
 		
 		#AQUAMARINE#Lance-Flammes#LAST# : Un dispositif incendiaire qui projette des jets de flammes liquides sur vos ennemis. Inflige %d%% dégâts de feu de pistolet à vapeur sur 3 tours à ceux se trouvant dans un rayon de 5. Le lance-flammes ignore l'armure, touche toujours, et compte comme un tir de pistolet à vapeur pour les effets de toucher.
+		
 		#AQUAMARINE#Bâton de Choc#LAST# : Une matraque chargée électriquement, maniée au corps à corps. Inflige %d%% dégâts de foudre aux ennemis dans un arc frontal, tout en réduisant les dégâts qu'ils infligent de %d%% pendant 3 tours. Ceci compte comme une attaque de corps à corps mais déclenche les effets de toucher des munitions. Toutes les attaques au Bâton de Choc effectuent également une attaque de bouclier infligeant les mêmes dégâts de foudre. Vous pouvez charger jusqu'à la portée de votre pistolet à vapeur pour attaquer avec le Bâton de Choc.
+		
 		#AQUAMARINE#Fusil à Boulons#LAST# : Un pistolet à vapeur à canons multiples qui tire d'efficaces boulons chargées de produits chimiques. Tire deux fois pour %d%% dégâts d'acide de pistolet à vapeur et génère %d de vapeur par coup touché.
 		
 		Les dégâts infligés par vos Armes Lourdes dépendent des munitions actuellement équipées, et elles sont traitées comme des Pistolets à Vapeur pour les besoins des talents de maîtrise d'armes et autres effets.
@@ -5315,8 +5317,11 @@ t([[Your advanced training unlocks specialised techniques, triggering an effect 
 #AQUAMARINE#Shockstaff#LAST#: Slam your staff into the target, creating a radius 3 shockwave that deals %d%% shockstaff damage as lightning and stuns those within for %d turns.
 #AQUAMARINE#Boltgun#LAST#: Fire %d boltgun shots dealing %d%% steamgun damage as acid and disarming the target for 5 turns.
 The damage dealt by the fire wall and the chance to apply effects will increase with your Steampower.]], [[Votre entraînement avancé débloque des techniques spécialisées, déclenchant un effet selon votre arme lourde actuelle au coût de 1 munition d'arme lourde.
+
 #AQUAMARINE#Lance-Flammes#LAST# : Balayez le sol avec votre lance-flammes, infligeant %d%% dégâts de pistolet à vapeur sous forme de dégâts de feu et érigeant un mur de feu de 7 de long pendant 5 tours. Ceux qui se trouvent à l'intérieur du mur subissent %0.2f dégâts de feu et voient leur résistance au feu réduite de %d%% pendant 2 tours.
+
 #AQUAMARINE#Bâton de Choc#LAST# : Frappez le sol avec votre bâton sur la cible, créant une onde de choc de rayon 3 qui inflige %d%% dégâts de bâton de choc sous forme de dégâts de foudre et assomme ceux qui s'y trouvent pendant %d tours.
+
 #AQUAMARINE#Fusil à Boulons#LAST# : Tirez %d coups de fusil à boulons infligeant %d%% dégâts de pistolet à vapeur sous forme de dégâts d'acide et désarmant la cible pendant 5 tours.
 Les dégâts infligés par le mur de feu et la chance d'appliquer les effets sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 t("Automated Defenses", "Défenses Automatisées", "talent name")
@@ -5326,9 +5331,13 @@ t([[You augment your shield with your heavy weapon technology, causing an effect
 #AQUAMARINE#Boltgun#LAST#: Fire a blast of flechettes from your shield at all enemies in radius 7, dealing %d%% shield damage as acid. %d flechettes remain embedded in each target for 6 turns, and when struck by a melee or ranged attack a flechette will detonate and cause acid damage equal to 50%% of the shield damage dealt.
 These attacks will not trigger Counterstrike.
 The chance to silence will increase with your Steampower.]], [[Vous augmentez votre bouclier avec votre technologie d'arme lourde, provoquant un effet lorsque vous Bloquez avec une arme lourde équipée.
+
 #AQUAMARINE#Lance-Flammes#LAST# : Libère une fumée suffocante et brûlante dans une zone de même rayon que votre lance-flammes. Les ennemis pris dans la zone subissent %d%% dégâts de bouclier sous forme de dégâts de feu et sont réduits au silence pendant %d tours.
+
 #AQUAMARINE#Bâton de Choc#LAST# : Enveloppez votre bouclier de foudre et attaquez tous les ennemis dans un rayon de 3, infligeant %d%% dégâts de bouclier sous forme de dégâts de foudre et gagnant une barrière absorbant une quantité de dégâts égale à 100%% des dégâts les plus élevés infligés, pendant 6 tours.
+
 #AQUAMARINE#Fusil à Boulons#LAST# : Tirez une rafale de boulons depuis votre bouclier sur tous les ennemis dans un rayon de 7, infligeant %d%% dégâts de bouclier sous forme de dégâts d'acide. %d boulons restent plantées dans chaque cible pendant 6 tours, et lorsqu'elle est touchée par une attaque de corps à corps ou à distance, une boulon détone et cause des dégâts d'acide égaux à 50%% des dégâts de bouclier infligés.
+
 Ces attaques ne déclenchent pas de Contre-Attaque.
 La chance de réduire au silence est proportionnel à votre Puissance de Vapeur.]], "tformat")
 t("Safety Override", "Dépassement de Sécurité", "talent name")
@@ -5338,8 +5347,11 @@ t([[Push your heavy weapon beyond its normal limits to trigger a powerful effect
 #AQUAMARINE#Flamethrower#LAST#: Detonate your fuel tanks, creating a radius 4 explosion that launches you to a chosen tile in range %d. Enemies caught within the explosion take %0.2f fire damage, and further fire damage equal to %d%% of their current burning damage from the volatile fuel.
 #AQUAMARINE#Shockstaff#LAST#: Drive your staff into the ground, discharging all remaining power to deal %d%% shockstaff damage as lightning in radius %d. Those struck will be knocked back %d tiles, and if they strike a wall they will emit a static pulse dealing %0.2f lightning damage in radius 1 and stunning them for 5 turns.
 #AQUAMARINE#Boltgun#LAST#: Overcharge your boltgun, firing a single deadly bolt dealing %d%% steamgun damage as acid in a piercing line. For each negative physical, magical, or mental effect on the target, they take an additional %d%% damage (to a maximum of %d%%) and the duration of each negative effect is increased by %d turns.]], [[Poussez votre arme lourde au-delà de ses limites normales pour déclencher un puissant effet. Cela désactivera immédiatement votre arme lourde et épuisera toutes les munitions restantes.
+
 #AQUAMARINE#Lance-Flammes#LAST# : Faites détoner vos réservoirs de carburant, créant une explosion de rayon 4 qui vous propulse vers une case choisie à portée %d. Les ennemis pris dans l'explosion subissent %0.2f dégâts de feu, ainsi que des dégâts de feu supplémentaires égaux à %d%% de leurs dégâts de combustion actuels dus au carburant volatile.
+
 #AQUAMARINE#Bâton de Choc#LAST# : Plantez votre bâton dans le sol, déchargeant toute la puissance restante pour infliger %d%% dégâts de bâton de choc sous forme de dégâts de foudre dans un rayon de %d. Ceux qui sont frappés sont repoussés de %d cases, et s'ils percutent un mur, ils émettent une impulsion statique infligeant %0.2f dégâts de foudre dans un rayon de 1 et les assommant pendant 5 tours.
+
 #AQUAMARINE#Fusil à Boulons#LAST# : Surchargez votre fusil à boulons, tirant un unique projectile mortel infligeant %d%% dégâts de pistolet à vapeur sous forme de dégâts d'acide en ligne perforante. Pour chaque effet physique, magique ou mental négatif présent sur la cible, elle subit %d%% dégâts supplémentaires (jusqu'à un maximum de %d%%) et la durée de chaque effet négatif est augmentée de %d tours.]], "tformat")
 
 ------------------------------------------------
@@ -5385,7 +5397,7 @@ Les dégâts maximaux que vous pouvez absorber sont proportionnels à votre Puis
 t("Lightning Web", "Toile de Foudre", "talent name")
 t("lightning web", "toile de foudre", "_t")
 t([[Project a radius 3 electric field from your shield lasting %d turns. Enemies within this field will take an automatic shield strike for %d%% lightning damage each turn, while allies will gain flat damage reduction equal to %d%% (%d) of block value.
-		All damage reduced by this effect will be stored for Capacitor Discharge.]], [[Projetez depuis votre bouclier un champ électrique de rayon 3 pendant %d tours. Les ennemis à l'intérieur de ce champ subissent automatiquement un coup de bouclier infligeant %d%% dégâts de foudre chaque tour, tandis que les alliés gagnent une réduction de dégâts fixe égale à %d%% (%d) de la valeur de blocage.
+		All damage reduced by this effect will be stored for Capacitor Discharge.]], [[Projetez depuis votre bouclier un champ électrique de rayon 3 pendant %d tours. Les ennemis à l'intérieur de ce champ subissent automatiquement un coup de bouclier infligeant %d%% dégâts de foudre par tour, tandis que les alliés gagnent une réduction de dégâts fixe égale à %d%% (%d) de la valeur de blocage.
 		Tous les dégâts réduits par cet effet seront stockés pour la Décharge de Condensateur.]], "tformat")
 
 ------------------------------------------------
@@ -5457,13 +5469,13 @@ t([[You rush to the target and strike with your tailsaw, dealing %d%% damage and
 		You now also use your Dexterity in place of Strength when equipping Steamsaws as well as when calculating weapon damage, and have your Steamsaw damage increased by %d%% and Physical Power by %d.]], [[Vous foncez vers la cible et frappez avec votre scie de queue, infligeant %d%% dégâts et provoquant les ennemis dans un rayon de %d.
 		Vous utilisez désormais également votre Dextérité à la place de votre Force pour équiper des Scies à Vapeur ainsi que pour calculer les dégâts d'arme, et vos dégâts de Scie à Vapeur sont augmentés de %d%% et votre Puissance Physique de %d.]], "tformat")
 t("Defensive Protocol", "Protocole Défensif", "talent name")
-t("Enhancements to your mecharachnid combat skill increases your melee and ranged evasion by %d%%, and causes you to automatically strike adjacent enemies with your tailsaw for %d%% damage each turn.", "Des améliorations de vos compétences de combat mécarachnides augmentent votre évasion au corps à corps et à distance de %d%%, et vous font frapper automatiquement les ennemis adjacents avec votre scie de queue pour %d%% dégâts chaque tour.", "tformat")
+t("Enhancements to your mecharachnid combat skill increases your melee and ranged evasion by %d%%, and causes you to automatically strike adjacent enemies with your tailsaw for %d%% damage each turn.", "Des améliorations de vos compétences de combat mécarachnides augmentent votre évasion au corps à corps et à distance de %d%%, et vous font frapper automatiquement les ennemis adjacents avec votre scie de queue pour %d%% dégâts par tour.", "tformat")
 t("Pincer Strike", "Frappe de Pince", "talent name")
 t("#Target# resists the pincer strike from #Source#!", "#Target# résiste à la frappe de pince de #Source# !", "logCombat")
-t("You strike the target with your tailsaw for %d%% damage. If this hits, you attempt to clamp them with your pincers for %d turns. This pins, reduces their attack, spell and mind speed by %d%%, and lets you make a free, unavoidable strike with your tailsaw against them each turn for %d%% damage. This ends if you move more than 1 tile from the target.", "Vous frappez la cible avec votre scie de queue pour %d%% dégâts. Si le coup touche, vous tentez de la serrer avec vos pinces pendant %d tours. Ceci l'immobilise, réduit sa vitesse d'attaque, de sort et mentale de %d%%, et vous permet de porter un coup gratuit et inévitable avec votre scie de queue contre elle à chaque tour, pour %d%% dégâts. Cet effet prend fin si vous vous éloignez de plus d'une case de la cible.", "tformat")
+t("You strike the target with your tailsaw for %d%% damage. If this hits, you attempt to clamp them with your pincers for %d turns. This pins, reduces their attack, spell and mind speed by %d%%, and lets you make a free, unavoidable strike with your tailsaw against them each turn for %d%% damage. This ends if you move more than 1 tile from the target.", "Vous frappez la cible avec votre scie de queue pour %d%% dégâts. Si le coup touche, vous tentez de la serrer avec vos pinces pendant %d tours. Ceci l'immobilise, réduit sa vitesse d'attaque, de sort et mentale de %d%%, et vous permet de porter un coup gratuit et inévitable avec votre scie de queue contre elle par tour, pour %d%% dégâts. Cet effet prend fin si vous vous éloignez de plus d'une case de la cible.", "tformat")
 t("Automated Repair System", "Système de Réparation Automatisé", "talent name")
 t([[On falling below 0 life, you engage an automated repair mode. While in this mode you cannot act, but can survive below -%d life, heal for %0.1f life each turn and have all resistances increased by %d%%. This will last until you are destroyed or until you are fully healed.
-		This effect has a cooldown.]], [[Lorsque votre vie tombe sous 0, vous enclenchez un mode de réparation automatisé. Dans ce mode, vous ne pouvez pas agir, mais pouvez survivre sous -%d de vie, vous soignez de %0.1f vie chaque tour et voyez toutes vos résistances augmentées de %d%%. Cela dure jusqu'à ce que vous soyez détruit ou entièrement soigné.
+		This effect has a cooldown.]], [[Lorsque votre vie tombe sous 0, vous enclenchez un mode de réparation automatisé. Dans ce mode, vous ne pouvez pas agir, mais pouvez survivre sous -%d de vie, vous soignez de %0.1f vie par tour et voyez toutes vos résistances augmentées de %d%%. Cela dure jusqu'à ce que vous soyez détruit ou entièrement soigné.
 		Cet effet possède un temps de rechargement.]], "tformat")
 t("Gauss Cannon", "Canon Gauss", "talent name")
 t("You require a tail-mounted steamgun for this talent.", "Vous devez posséder un pistolet à vapeur monté sur la queue pour utiliser ce talent.", "logPlayer")
@@ -5508,7 +5520,7 @@ t("Steamstar", "Étoile de Vapeur", "talent name")
 t([[Your bloodstar effect also burns part of your victim's flesh, dealing %0.2f fire damage.
 		The intensity of the fire generates steam which you psionically absorb through gestalt, providing %d steam each turn (each additional victim steam generation is reduced by 66%%).
 		This damage does not break daze and increases with your Steampower.]], [[Votre effet d'Étoile de Sang brûle également une partie de la chair de votre victime, infligeant %0.2f dégâts de feu.
-		L'intensité du feu génère de la vapeur que vous absorbez psioniquement par gestalt, fournissant %d de vapeur chaque tour (la génération de vapeur de chaque victime supplémentaire est réduite de 66%%).
+		L'intensité du feu génère de la vapeur que vous absorbez psioniquement par gestalt, fournissant %d de vapeur par tour (la génération de vapeur de chaque victime supplémentaire est réduite de 66%%).
 		Ces dégâts ne dissipent pas l'étourdissement et sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 t("Deathstar", "Étoile de la Mort", "talent name")
 t("When you use a shoot class talent to hit a creature affected by bloodstar an other shoot talent will have its current cooldown reduced by %d turns.", "Quand vous utilisez un talent de tir pour toucher une créature affectée par l'Étoile de Sang, un autre talent de tir voit son temps de recharge actuel réduit de %d tour(s).", "tformat")
@@ -5873,7 +5885,7 @@ t([[You "gently" slam your saws into the wounds of a creature, dealing %d%% weap
 		When this happens a gush of blood is projected in a narrow cone of radius 4, dealing %0.2f physical damage to all creatures.
 		The power and damage improves with your Steampower.
 		#{italic}#The marvels of technology, now at the service of true butchery!#{normal}#]], [[Vous enfoncez "délicatement" vos scies dans les blessures d'une créature, infligeant %d%% dégâts d'arme et approfondissant les blessures.
-		La durée de toutes les blessures saignantes est augmentée de %d tour(s) et leurs dégâts de %d%% (ceci ne peut se produire qu'une fois par effet de saignement).
+		La durée de toutes les blessures saignantes est augmentée de %d tour et leurs dégâts de %d%% (ceci ne peut se produire qu'une fois par effet de saignement).
 		Lorsque cela se produit, un jet de sang est projeté dans un cône étroit de rayon 4, infligeant %0.2f dégâts physiques à toutes les créatures.
 		La puissance et les dégâts sont proportionnels à votre Puissance de Vapeur.
 		#{italic}#Les merveilles de la technologie, désormais au service de la vraie boucherie !#{normal}#]], "tformat")
@@ -5882,8 +5894,8 @@ t([[You try to sever the spine of your foe, reducing its global speed by %d%% fo
 		The power of the blow also removes up to %d physical effects.
 		If your talent level is at least 3 %d physical or magical sustains are also removed.
 		#{italic}#Break them, grind them, mow them down!#{normal}#]], [[Vous tentez de sectionner la colonne vertébrale de votre ennemi, réduisant sa vitesse globale de %d%% pendant 4 tours et infligeant %d%% dégâts d'arme.
-		La puissance du coup retire également jusqu'à %d effet(s) physique(s).
-		Si votre niveau de talent est d'au moins 3, %d talent(s) constant(s) physique(s) ou magique(s) sont également retirés.
+		La puissance du coup retire également jusqu'à %d effet physique.
+		Si votre niveau de talent est d'au moins 3, %d talent soutenus physique ou magique sont également retirés.
 		#{italic}#Brisez-les, broyez-les, fauchez-les !#{normal}#]], "tformat")
 t("Goresplosion", "Sangexplosion", "talent name")
 t([[When you kill a foe you place small explosives with shrapnels inside its body, making it explode in radius %d.
@@ -6012,11 +6024,15 @@ All turrets gain bonus armor equal to 1/2 your level, are immune to all detrimen
 The stat bonus as well as the damage and healing dealt by Flame and Medic Turrets will increase with your Steampower.]], [[Vous êtes capable de déployer des tourelles, des créatures artificielles stationnaires qui vous défendent au combat. Les tourelles durent 10 tours, ont un temps de recharge de 20 tours, et déployer une tourelle met les autres en recharge pour 5 tours.
 Vous apprenez de nouvelles tourelles au fur et à mesure que vous investissez dans ce talent.
 
-Au niveau brut 1 de ce talent, vous pouvez utiliser les Tourelles à Vapeur, qui tirent sur une cible aléatoire proche pour %d%% dégâts de pistolet à vapeur. Ces tirs ignorent les alliés.
-Au niveau brut 3, vous pouvez utiliser les Tourelles Lance-Flammes, qui infligent des dégâts de feu aux ennemis dans un cône de rayon 3. Les Tourelles Lance-Flammes gagnent %d d'armure bonus et 30%% de résistance générale.
-Au niveau brut 4, vous pouvez utiliser les Tourelles Médicales, qui émettent une brume de soin qui restaure %d de vie aux alliés et réduit la durée des effets néfastes nouvellement appliqués de %d%%.
-Ce talent augmente également la Dextérité, la Constitution et la Ruse de toutes les Tourelles de %d.
 
+Au niveau brut 1, vous pouvez utiliser les Tourelles à Vapeur, qui tirent sur une cible aléatoire proche pour %d%% dégâts de pistolet à vapeur. Ces tirs ignorent les alliés.
+
+Au niveau brut 3, vous pouvez utiliser les Tourelles Lance-Flammes, qui infligent des dégâts de feu aux ennemis dans un cône de rayon 3. Les Tourelles Lance-Flammes gagnent %d d'armure bonus et 30%% de résistance générale.
+
+Au niveau brut 4, vous pouvez utiliser les Tourelles Médicales, qui émettent une brume de soin qui restaure %d de vie aux alliés et réduit la durée des effets néfastes nouvellement appliqués de %d%%.
+
+
+Ce talent augmente également la Dextérité, la Constitution et la Ruse de toutes les Tourelles de %d.
 Toutes les tourelles gagnent une armure bonus égale à la moitié de votre niveau, sont immunisées à tous les effets néfastes, et héritent de votre augmentation de dégâts, de pénétration de résistance, de Puissance de Vapeur, de Puissance Physique, et de Précision.
 Le bonus de caractéristiques ainsi que les dégâts et soins infligés par les Tourelles Lance-Flammes et Médicales sont proportionnels à votre Puissance de Vapeur.]], "tformat")
 t("Steamgun Turret", "Tourelle à Vapeur", "talent name")
@@ -6054,9 +6070,12 @@ t([[Upgrade the target turret, granting it %d%% increased maximum life and enhan
 		Steamgun: Gains a second steamgun dealing %d%% damage, and every 3 turns will fire a rocket dealing %d%% steamgun damage as fire in radius 2.
 		Flame: Increases damage by %d%%, range by %d, and every 3 turns will project a vortex of superheated air that drags targets within range %d towards the turret as well as dealing normal flamethrower damage.
 		Medic: Increases healing on affected targets by %d%%, and has a %d%% chance to cleanse a negative effect each turn.]], [[Améliore la tourelle ciblée, lui accordant %d%% de vie maximale supplémentaire et des capacités améliorées selon son type :
+		
 		À Vapeur : Gagne un second pistolet à vapeur infligeant %d%% dégâts, et tire une roquette toutes les 3 tours infligeant %d%% dégâts de pistolet à vapeur sous forme de dégâts de feu dans un rayon de 2.
+		
 		Lance-Flammes : Augmente les dégâts de %d%%, la portée de %d, et projette toutes les 3 tours un vortex d'air surchauffé qui traîne les cibles dans un rayon de %d vers la tourelle, en plus d'infliger les dégâts normaux de lance-flammes.
-		Médicale : Augmente le soin sur les cibles affectées de %d%%, et a %d%% de chance de purifier un effet négatif chaque tour.]], "tformat")
+		
+		Médicale : Augmente le soin sur les cibles affectées de %d%%, et a %d%% de chance de purifier un effet négatif par tour.]], "tformat")
 t("Hunker Down", "Se Retrancher", "talent name")
 t("guardian turret", "tourelle gardienne", "_t")
 t("An advanced turret equipped with dual steamguns.", "Une tourelle avancée équipée de deux pistolets à vapeur.", "_t")
@@ -6234,7 +6253,7 @@ t("-Shield", "-Bouclier", "_t")
 t("dark", "obscure", "effect subtype")
 t("light", "lumière", "effect subtype")
 t("Twilit Echoes", "Échos du Crépuscule", "_t")
-t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "La cible ressent les échos de tous les dégâts de lumière et d'obscurité qu'elle subit. Les dégâts de lumière ralentissent la cible de %0.2f%% par point de dégâts infligé, jusqu'à un maximum de %d%% à %d dégâts. Les dégâts d'obscurité créent un effet sur la case pendant %d tours, infligeant %d%% des dégâts infligés chaque tour. Il sera rafraîchi tant que la cible continue de subir des dégâts de cet effet ou d'une autre source.", "tformat")
+t("The target feels the echoes of all light and dark damage it takes. Light damage slows the target by %0.2f%% per point of damage dealt, up to a maximum of %d%% at %d damage. Dark damage creates an effect at the tile for %d turns which deals %d%% of the damage dealt each turn. It will be refreshed as long as the target continues taking damage from it or another source.", "La cible ressent les échos de tous les dégâts de lumière et d'obscurité qu'elle subit. Les dégâts de lumière ralentissent la cible de %0.2f%% par point de dégâts infligé, jusqu'à un maximum de %d%% à %d dégâts. Les dégâts d'obscurité créent un effet sur la case pendant %d tours, infligeant %d%% des dégâts infligés par tour. Il sera rafraîchi tant que la cible continue de subir des dégâts de cet effet ou d'une autre source.", "tformat")
 t("slow", "ralentissement", "effect subtype")
 t("Echoed Light", "Écho Lumineux", "_t")
 t("The light damage the target has taken is echoed, slowing them by %d%%. Taking additional damage while Twilit Echoes is active will refresh and increase the slow up to a maximum of %d%%.", "Les dégâts de lumière subis par la cible résonnent en écho, la ralentissant de %d%%. Subir des dégâts supplémentaires tant que les Échos du Crépuscule sont actifs rafraîchira et augmentera le ralentissement jusqu'à un maximum de %d%%.", "tformat")
@@ -6525,7 +6544,7 @@ t("You have %d%% chances to encase your foes in iceblocks.", "Vous avez %d%% de 
 t("disease", "maladie", "effect subtype")
 t("Larvae Infestation", "Infestation de Larves", "_t")
 t("The target has been impregnated with %d developing ritch larvae which are feeding on it%s.  After a %d turn gestation period, each will burst out violently, dealing %0.2f physical and %0.2f fire damage to its host.", "La cible a été imprégnée de %d larve(s) de ritch en développement qui se nourrissent d'elle%s. Après une période de gestation de %d tours, chacune éclatera violemment, infligeant %0.2f dégâts physiques et %0.2f dégâts de feu à son hôte.", "tformat")
-t(" for %0.2f physical damage (increasing) each turn", ", infligeant %0.2f dégâts physiques (croissants) chaque tour", "tformat")
+t(" for %0.2f physical damage (increasing) each turn", ", infligeant %0.2f dégâts physiques (croissants) par tour", "tformat")
 t("#Target# is #ORANGE#INFESTED#LAST# with ritch larvae!", "#Target# est #ORANGE#INFESTÉ#LAST# de larves de ritch !", "_t")
 t("+Larvae Infestation", "+Infestation de Larves", "_t")
 t("developing ", "en développement ", "_t")
@@ -6539,7 +6558,7 @@ t("wound", "blessure", "effect subtype")
 t("cut", "coupure", "effect subtype")
 t("bleed", "saignement", "effect subtype")
 t("Explosive Saw", "Scie Explosive", "_t")
-t("Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "La cible est assaillie par une lame de scie automatisée qui entaille sa chair pour %0.2f dégâts physiques chaque tour%s. Lorsque l'effet expire, la scie explose pour %0.2f dégâts de feu et retourne vers sa source, entraînant la cible avec elle (jusqu'à %d cases).", "tformat")
+t("Target is being assailed by an automated saw blade that cuts its flesh for %0.2f physical damage each turn%s. When the effect expires, the saw will explode for %0.2f fire damage and fly back to its source, pulling the target with it (up to %d tiles).", "La cible est assaillie par une lame de scie automatisée qui entaille sa chair pour %0.2f dégâts physiques par tour%s. Lorsque l'effet expire, la scie explose pour %0.2f dégâts de feu et retourne vers sa source, entraînant la cible avec elle (jusqu'à %d cases).", "tformat")
 t(" and silences it", " et la réduit au silence", "_t")
 t("#Target# is assailed by an automated saw blade.", "#Target# est assailli par une lame de scie automatisée.", "_t")
 t("+Explosive Wounds", "+Blessures Explosives", "_t")
@@ -6582,7 +6601,7 @@ t("#Target# is seared.", "#Target# est roussi.", "_t")
 t("#Target# is no longer seared.", "#Target# n'est plus roussi.", "_t")
 t("awesome", "incroyable", "effect subtype")
 t("Awesome Toss", "Lancer Spectaculaire", "_t")
-t("All resistances increased by %d%%, randomly attacks two foes each turn at random.", "Résistance générale augmentée de %d%%, attaque aléatoirement deux ennemis chaque tour.", "tformat")
+t("All resistances increased by %d%%, randomly attacks two foes each turn at random.", "Résistance générale augmentée de %d%%, attaque aléatoirement deux ennemis par tour.", "tformat")
 t("#Target# tosses steamguns in the air, awesome!", "#Target# lance ses pistolets à vapeur dans les airs, impressionnant !", "_t")
 t("#Target# somehow catches the falling steamguns.", "#Target# parvient tant bien que mal à rattraper ses pistolets à vapeur qui retombent.", "_t")
 t("Marked for Death", "Condamné Marqué", "_t")
@@ -6655,7 +6674,7 @@ t("Lightning Web", "Toile de Foudre", "_t")
 t("The target is surrounded by a crackling web of lightning, reducing all damage taken by %d.", "La cible est entourée d'une toile crépitante de foudre, réduisant tous les dégâts subis de %d.", "tformat")
 t("#LIGHT_BLUE#(%d lightning web)#LAST#", "#LIGHT_BLUE#(%d toile de foudre)#LAST#", "tformat")
 t("Incendiary Grenade", "Grenade Incendiaire", "_t")
-t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "La cible brûle pour %d dégâts de feu chaque tour et subit %d%% dégâts augmentés de toutes sources.", "tformat")
+t("The target is burning for %d fire damage each turn and taking %d%% increased damage from all sources.", "La cible brûle pour %d dégâts de feu par tour et subit %d%% dégâts augmentés de toutes sources.", "tformat")
 t("Healing Mist", "Brume de Soin", "_t")
 t("Newly applied status effects durations are reduced by %d%%.", "La durée des effets de statut nouvellement appliqués est réduite de %d%%.", "tformat")
 t("#ORCHID#%s has recovered!#LAST#", "#ORCHID#%s s'est rétabli !#LAST#", "logSeen")
@@ -6676,7 +6695,7 @@ t("#Target#'s AED deactivates.", "Le DEA de #Target# se désactive.", "_t")
 t("-AED", "-DEA", "_t")
 t("%s's AED triggers!", "Le DEA de %s se déclenche !", "logSeen")
 t("Burning Phosphorous", "Phosphore Brûlant", "_t")
-t("The target is covered in burning chemicals, taking %0.2f fire damage each turn. Subsequent shots deal %0.2f fire damage, and if they fall below 25%% life they have a %d%% chance to panic.", "La cible est couverte de produits chimiques en combustion, subissant %0.2f dégâts de feu chaque tour. Les tirs suivants infligent %0.2f dégâts de feu, et si sa vie tombe sous 25%%, elle a %d%% de chance de paniquer.", "tformat")
+t("The target is covered in burning chemicals, taking %0.2f fire damage each turn. Subsequent shots deal %0.2f fire damage, and if they fall below 25%% life they have a %d%% chance to panic.", "La cible est couverte de produits chimiques en combustion, subissant %0.2f dégâts de feu par tour. Les tirs suivants infligent %0.2f dégâts de feu, et si sa vie tombe sous 25%%, elle a %d%% de chance de paniquer.", "tformat")
 t("#F53CBE#%s resists the fear.", "#F53CBE#%s résiste à la peur.", "logSeen")
 t("#F53CBE#%s panics and flees from %s!", "#F53CBE#%s panique et fuit %s !", "logSeen")
 t("#F53CBE#%s panics but fails to flee from %s!", "#F53CBE#%s panique mais échoue à fuir %s !", "logSeen")
@@ -6686,7 +6705,7 @@ t("#Target# is scorched.", "#Target# est calciné.", "_t")
 t("#Target# is no longer scorched.", "#Target# n'est plus calciné.", "_t")
 t("grapple", "agrippement", "effect subtype")
 t("Pincer Strike", "Frappe de Pince", "_t")
-t("The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "La cible est agrippée par %s, l'immobilisant, réduisant sa vitesse d'attaque, de sort et mentale de %d%%, et la soumettant à une frappe automatique de scie de queue chaque tour, infligeant %d%% de dégâts.", "tformat")
+t("The target is grappled by %s, pinning them, reducing attack, spell and mind speed by %d%% and subjecting them to an automatic tailsaw strike each turn for %d%% damage.", "La cible est agrippée par %s, l'immobilisant, réduisant sa vitesse d'attaque, de sort et mentale de %d%%, et la soumettant à une frappe automatique de scie de queue par tour, infligeant %d%% de dégâts.", "tformat")
 t("%s clamps its pincers down on #Target#!", "%s referme ses pinces sur #Target# !", "tformat")
 t("+Pincer Strike", "+Frappe de Pince", "_t")
 t("#Target# is free from %s's pincers.", "#Target# est libéré des pinces de %s.", "tformat")

@@ -720,7 +720,7 @@ t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
 		While powered-up you can not apply new Bleak Outcome stacks.		
 		Damage is based on your Spellpower.]], [[L'avenir paraît en effet sinistre... pour vos ennemis.
-		Vous pouvez cibler une créature affectée par Issue Funeste pour consommer jusqu'à %s charge(s), lui infligeant %0.2f dégâts d'obscurité par charge et augmentant votre Puissance des Sorts de 4 par charge pendant 6 tours.
+		Vous pouvez cibler une créature affectée par Issue Funeste pour consommer jusqu'à %s charges, lui infligeant %0.2f dégâts d'obscurité par charge et augmentant votre Puissance des Sorts de 4 par charge pendant 6 tours.
 		Tant que vous êtes ainsi renforcé vous ne pouvez pas appliquer de nouvelles charges d'Issue Funeste.
 		Les dégâts sont proportionnels à votre Puissance des Sorts.]], "tformat")
 t("Ominous Shadow", "Ombre Sinistre", "talent name")

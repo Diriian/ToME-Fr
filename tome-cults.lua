@@ -2692,7 +2692,7 @@ t("Anarchic Walk", "Marche Anarchique", "talent name")
 t("You require at least two chaos orbs.", "Vous avez besoin d'au moins deux orbes du chaos.", "logPlayer")
 t([[You consume the chaotic forces of 2 chaos orbs, randomly teleporting you in a general direction up to %d tiles away.
 		You will always travel at least %d tiles away if possible.]], [[Vous consommez les forces chaotiques de 2 orbes du chaos, vous téléportant aléatoirement dans une direction générale jusqu'à %d cases de distance.
-		Vous voyagerez toujours d'au moins %d cases de distance si possible.]], "tformat")
+		Vous voyagerez toujours d'au moins %d case(s) de distance si possible.]], "tformat")
 t("Disjointed Mind", "Esprit Disloqué", "talent name")
 t("You require at least one chaos orb.", "Vous avez besoin d'au moins un orbe du chaos.", "logPlayer")
 t("%s resists the chaotic mental assault!", "%s résiste à l'assaut mental chaotique !", "logSeen")

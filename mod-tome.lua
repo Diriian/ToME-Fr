@@ -19393,8 +19393,8 @@ t([[Your skill in Hymns now improves your sight in darkness, increasing your inf
 		Hymn of Perseverance grants a damage shield (power %d) for %d turns.]], [[Votre compétence en Hymnes améliore désormais votre vue dans l'obscurité, augmentant votre rayon d'infra-vision de %d.
 		De plus, lorsque vous mettez fin à un Hymne, vous gagnez un bonus dont le type dépend de l'Hymne que vous avez terminé.
 		Hymne des Ombres augmente votre vitesse de déplacement de %d%% pour un tour.
-		Hymne de Détection vous rend invisible (puissance %d) pendant %d tours.
-		Hymne de Persévérance accorde un bouclier de dégâts (puissance %d) pendant %d tours.]], "tformat")
+		Hymne de Détection vous rend invisible (puissance %d) pendant %d tour(s).
+		Hymne de Persévérance accorde un bouclier de dégâts (puissance %d) pendant %d tour(s).]], "tformat")
 t("Hymn Nocturnalist", "Hymne Nocturnaliste", "talent name")
 t([[Your passion for singing the praises of the Moons reaches its zenith.
 		Your Hymns now fire shadowy beams that will hit up to %d of your foes within radius 5 for %0.2f damage, with a 25%% chance of blinding.
@@ -19892,7 +19892,7 @@ section "mod-tome/data/talents/chronomancy/chronomancy.lua"
 
 t("Precognition", "Précognition", "talent name")
 t([[You peer into the future, sensing creatures and traps in a radius of %d for %d turns.
-		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight bonuses) while Precognition is active.]], [[Vous regardez dans le futur, détectant les créatures et les pièges dans un rayon de %d pour %d tours.
+		If you know Foresight you'll gain additional defense and chance to shrug off critical hits (equal to your Foresight bonuses) while Precognition is active.]], [[Vous regardez dans le futur, détectant les créatures et les pièges dans un rayon de %d pour %d tour(s).
 		Si vous connaissez Prévoyance, vous gagnerez de la défense supplémentaire et des chances d'ignorer les coups critiques (égales à vos bonus de Prévoyance) pendant que Précognition est actif.]], "tformat")
 t("Foresight", "Prévoyance", "talent name")
 t([[Gain %d defense and %d%% chance to shrug off critical hits.
@@ -19938,12 +19938,12 @@ t("Energy Absorption", "Absorption d'Énergie", "talent name")
 t("%s resists!", "%s résiste !", "logSeen")
 t("%s's %s is disrupted by the Energy Absorption!", "%s de %s est interrompu par l'Absorption d'Énergie !", "logSeen")
 t([[You sap the target's energy and add it to your own, placing up to %d random talents on cooldown for %d turns.
-		For each talent put on cooldown, you reduce the cooldown of one of your talents currently on cooldown by %d turns.]], "Vous drainez l'énergie de la cible pour renforcer la vôtre, plaçant jusqu'à %d talents aléatoires en rechargement pour %d tours. Pour chaque talent affecté, vous réduisez le rechargement de l'un de vos propres talents de %d tours.", "tformat")
+		For each talent put on cooldown, you reduce the cooldown of one of your talents currently on cooldown by %d turns.]], "Vous drainez l'énergie de la cible pour renforcer la vôtre, plaçant jusqu'à %d talent(s) aléatoire(s) en rechargement pour %d tour(s). Pour chaque talent affecté, vous réduisez le rechargement de l'un de vos propres talent de %d tour(s).", "tformat")
 t([[The next talent you cast with a cooldown of %d or less will not go on cooldown.
 		Once a talent is effected by this spell or %d turns pass the effect is lost.]], [[Le prochain talent que vous lancez avec un temps de rechargement de %d ou moins ne sera pas mis en rechargement.
 		Une fois qu'un talent est affecté par ce sort ou que %d tours se sont écoulés, l'effet est perdu.]], "tformat")
 t("Entropy", "Entropie", "talent name")
-t("Each turn, for the next %d turns, one of the target's sustained talents will be deactivated.", "À chaque tour pour les %d prochains tours, l'un des talents soutenus de la cible sera désactivé.", "tformat")
+t("Each turn, for the next %d turns, one of the target's sustained talents will be deactivated.", "À chaque tour pour les %d prochain(s) tour(s), l'un des talents soutenus de la cible sera désactivé.", "tformat")
 -- texte non traduit
 --[==[
 t("Redux", "Redux", "talent name")
@@ -20336,7 +20336,7 @@ t([[Teleports you to up to %d tiles away, to a targeted location in line of sigh
 		At talent level 5 you may swap positions with a target creature.]], [[Vous téléporte jusqu'à %d cases vers un emplacement ciblé dans votre ligne de vue.
 		Au niveau 5, vous pouvez permuter votre position avec une créature ciblée.]], "tformat")
 t("Dimensional Shift", "Décalage Dimensionnel", "talent name")
-t("When you teleport you reduce the duration of a single detrimental effect by %d turns.", "Lorsque vous vous téléportez, vous réduisez la durée d'un seul effet négatif de %d tours.", "tformat")
+t("When you teleport you reduce the duration of a single detrimental effect by %d turns.", "Lorsque vous vous téléportez, vous réduisez la durée d'un seul effet négatif de %d tour(s).", "tformat")
 t("Wormhole", "Trou de Ver", "talent name")
 t("You can't place a wormhole entrance here.", "Vous ne pouvez pas placer une entrée de trou de ver ici.", "logPlayer")
 t("You can't place a wormhole exit here.", "Vous ne pouvez pas placer une sortie de trou de ver ici.", "logPlayer")
@@ -20349,7 +20349,7 @@ t("Reality asserts itself and forces the wormhole shut.", "La réalité s'impose
 t("%s folds the space between two points.", "%s plie l'espace entre deux points.", "logSeen")
 t([[You fold the space between yourself and a second point within a range of %d, creating a pair of wormholes.  Any creature stepping on either wormhole will be teleported near the other (radius %d accuracy).  
 		The wormholes will last %d turns and must be placed at least two tiles apart.
-		The chance of teleporting enemies will scale with your Spellpower.]], [[Plie l'espace entre vous et un second point dans un rayon de %d cases, créant une paire de trous de ver reliés. Toute créature qui marchera sur l'un d'eux sera téléportée près de l'autre (%d case(s) de précision).
+		The chance of teleporting enemies will scale with your Spellpower.]], [[Plie l'espace entre vous et un second point dans un rayon de %d cases, créant une paire de trous de ver reliés. Toute créature qui marchera sur l'un d'eux sera téléportée près de l'autre (%d cases de précision).
 		Les trous de ver durent %d tours et doivent être placés à au moins deux cases de distance l'un de l'autre.
 		La chance de téléporter les ennemis est proportionnel à votre Puissance des Sorts.]], "tformat")
 t("Phase Pulse", "Impulsion de Phase", "talent name")
@@ -20361,15 +20361,15 @@ t([[When you teleport you fire a pulse that jolts enemies out of phase in a radi
 section "mod-tome/data/talents/chronomancy/speed-control.lua"
 
 t("Celerity", "Célérité", "talent name")
-t("When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "En vous déplaçant, vous gagnez %d%% de vitesse de déplacement pendant %d tour(s). Cet effet se cumule jusqu'à trois fois, mais ne peut se produire qu'une fois par tour.", "tformat")
+t("When you move you gain %d%% movement speed for %d turns.  This effect stacks up to three times but can only occur once per turn.", "En vous déplaçant, vous gagnez %d%% de vitesse de déplacement pendant %d tour. Cet effet se cumule jusqu'à trois fois, mais ne peut se produire qu'une fois par tour.", "tformat")
 t("Time Dilation", "Dilatation Temporelle", "talent name")
 t([[When you use a non-instant chronomancy spell you gain %d%% attack, spell, and mind speed for %d turns.  This effect stacks up to three times but can only occur once per turn.
-		]], "En lançant un sort de Chronomancie non instantané, vous gagnez %d%% de vitesse d'attaque, de vitesse magique, et de vitesse mentale pendant %d tour(s). Cet effet se cumule jusqu'à 3 fois, mais ne peut être activé qu'une fois par tour.", "tformat")
+		]], "En lançant un sort de Chronomancie non instantané, vous gagnez %d%% de vitesse d'attaque, de vitesse magique, et de vitesse mentale pendant %d tour. Cet effet se cumule jusqu'à 3 fois, mais ne peut être activé qu'une fois par tour.", "tformat")
 t("Haste", "Hâte", "talent name")
 t("Increases your global speed by %d%% for %d game turns.", "Augmente votre vitesse globale de %d%% pendant %d tours.", "tformat")
 t("Time Stop", "Arrêt du Temps", "talent name")
 t("#STEEL_BLUE#%s has stopped time!#LAST#", "#STEEL_BLUE#%s a arrêté le temps !#LAST#", "logSeen")
-t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "Gagnez %d tour(s). Pendant ce temps, vos dégâts sont réduits de %d%%.", "tformat")
+t("Gain %d turns.  During this time your damage will be reduced by %d%%.", "Gagnez %d tour. Pendant ce temps, vos dégâts sont réduits de %d%%.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/chronomancy/spellbinding.lua"
@@ -20537,7 +20537,7 @@ t("Command Hounds: Breathe", "Commander les Chiens : Souffler", "talent name")
 t("You must have temporal hounds to use this talent.", "Vous devez avoir des Chien de Chasse Temporel actifs pour utiliser ce talent.", "logPlayer")
 t([[Command your Temporal Hounds to breathe time, dealing %0.2f temporal damage and reducing the three highest stats of all targets in a radius %d cone.
 		Affected targets will have their stats reduced by %d for %d turns.  You are immune to the breath of your own hounds and your hounds are immune to stat damage from other hounds.
-		When you learn this talent, your hounds gain %d%% temporal damage affinity.]], [[Commandez vos Chien de Chasse Temporel pour qu'ils soufflent le temps, infligeant %0.2f dégâts temporels et réduisant les trois attributs les plus élevés de toutes les cibles dans un cône de %d case(s).
+		When you learn this talent, your hounds gain %d%% temporal damage affinity.]], [[Commandez vos Chien de Chasse Temporel pour qu'ils soufflent le temps, infligeant %0.2f dégâts temporels et réduisant les trois attributs les plus élevés de toutes les cibles dans un cône de %d cases.
 		Les cibles affectées verront leurs attributs réduits de %d pendant %d tours. Vous êtes immunisé au souffle de vos propres chiens et vos chiens sont immunisés à la réduction d'attributs des autres chiens.
 		Lorsque vous apprenez ce talent, vos chiens gagnent %d%% d'affinité aux dégâts temporels.]], "tformat")
 
@@ -20899,7 +20899,7 @@ t("Worm Walk", "Saut Vermineux", "talent name")
 t("You do not have line of sight to this location.", "Vous n'avez pas de ligne de vue vers cet emplacement.", "logPlayer")
 t("The worm walk fizzles!", "Le saut vermineux échoue !", "logSeen")
 t([[You disperse into a mass of carrion worms, reforming near the target location (%d teleport accuracy).
-If used on a worm mass, you merge with it, moving to it's location, healing you for %d, restoring %d vim, and destroying the mass.]], [[Vous vous dispersez en une masse de vers charognards, vous reformant près de l'emplacement cible (%d case(s) de précision).
+If used on a worm mass, you merge with it, moving to it's location, healing you for %d, restoring %d vim, and destroying the mass.]], [[Vous vous dispersez en une masse de vers charognards, vous reformant près de l'emplacement cible (%d cases de précision).
 Si utilisé sur une masse de vers, vous fusionnez avec elle, vous déplaçant à son emplacement, vous soignant de %d points de vie, restaurant %d de Vitae et détruisant la masse.]], "tformat")
 t("Pestilent Blight", "Maladie Pestilentielle", "talent name")
 t([[You have a %d%% chance on dealing blight damage to cause the target to rot away, silencing, disarming, blinding or pinning them for %d turns. This effect has a cooldown.
@@ -21358,7 +21358,7 @@ t("Twist the Knife", "Remuer le couteau dans la plaie", "talent name")
 t("#CRIMSON#%s's %s was extended!#LAST#", "#CRIMSON#%s de %s a été prolongé !#LAST#", "logSeen")
 t("#CRIMSON#%s's %s was stripped!#LAST#", "#CRIMSON#%s de %s a été dépouillé !#LAST#", "logSeen")
 t("#CRIMSON#%s's %s was disrupted!#LAST#", "#CRIMSON#%s de %s a été perturbé !#LAST#", "logSeen")
-t("Make a painful strike dealing %d%% weapon damage that increases the duration of up to %d negative effect(s) on the target by %d turns. For each negative effect extended this way, the duration of a beneficial effect is reduced by the same amount, possibly canceling it.", "Portez un coup douloureux infligeant %d%% dégâts d'arme et prolongeant de %d tours la durée de jusqu'à %d effet(s) négatif(s) de la cible. Pour chaque effet négatif ainsi prolongé, la durée d'un effet bénéfique est réduite d'autant, pouvant aller jusqu'à l'annuler.", "tformat")
+t("Make a painful strike dealing %d%% weapon damage that increases the duration of up to %d negative effect(s) on the target by %d turns. For each negative effect extended this way, the duration of a beneficial effect is reduced by the same amount, possibly canceling it.", "Portez un coup douloureux infligeant %d%% dégâts d'arme et prolongeant de %d tours la durée de jusqu'à %d effets négatifs de la cible. Pour chaque effet négatif ainsi prolongé, la durée d'un effet bénéfique est réduite d'autant, pouvant aller jusqu'à l'annuler.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/cunning/lethality.lua"
@@ -21564,12 +21564,12 @@ t([[You notice the small things others do not notice, allowing you to "see" crea
 		Also, your attention to detail increases stealth detection and invisibility detection by %d, and you gain the ability to detect traps (+%d detect 'power').
 		The detection abilities improve with Cunning.]], [[Vous remarquez des détails que les autres ne voient pas, ce qui vous permet de "voir" les créatures dans un rayon de %d, même hors de votre portée lumineuse.
 		Cependant il ne s'agit pas de télépathie et votre vision reste limitée à la ligne de vue.
-		De plus votre sens du détail augmente la détection de la furtivité et de l'invisibile de %d, et vous obtenez la capacité de détecter les pièges ('puissance' de détection %d).
+		De plus votre sens du détail augmente la détection de la furtivité et de l'invisibile de %d, et vous obtenez la capacité de détecter les pièges (puissance de détection %d).
 		Vos capacités de détection s'améliorent avec la Ruse.]], "tformat")
 t("Device Mastery", "Maîtrise des Breloques", "talent name")
 t([[Your cunning manipulations allow you to use charms (wands, totems and torques) more efficiently, reducing their cooldowns and the power cost of all usable items by %d%%.
 		In addition your knowledge of devices allows you to disarm known traps (%d disarm 'power', improves with Cunning).]], [[Vos manipulations astucieuses vous permettent d'utiliser les breloques (baguettes, totems et torques) plus efficacement, réduisant leurs rechargement et le Coût en énergie de tous les objets utilisables de %d%%.
-		De plus, votre connaissance des mécanismes vous permet de désamorcer les pièges connus ('puissance' de désamorçage %d, amélioré par la Ruse).]], "tformat")
+		De plus, votre connaissance des mécanismes vous permet de désamorcer les pièges connus (puissance de désamorçage %d, amélioré par la Ruse).]], "tformat")
 t("Track", "Pistage", "talent name")
 t([[Sense foes around you in a radius of %d for %d turns.
 		The radius will increase with your Cunning.]], [[Détectez les ennemis autour de vous dans un rayon de %d pendant %d tours.
@@ -21580,7 +21580,7 @@ t([[You have an enhanced sense of self preservation, and your keen intuition all
 		Critical attacks against you have %0.1f%% reduced bonus damage, and damage bonuses attackers gain against you for being unseen are reduced by %d%%.
 		You also gain an additional chance (at your normal save %+d, effective) to resist detrimental status effects that can be resisted.
 		The detection and additional save chance improve with Cunning.]], [[Votre instinct de survie est exacerbé et votre intuition aiguisée vous permet de percevoir les dangers qui échappent aux autres.
-		Votre capacité à détecter les pièges est améliorée ('puissance' de détection +%d).
+		Votre capacité à détecter les pièges est améliorée (puissance de détection +%d).
 		Les attaques critiques contre vous subissent une réduction de dégâts bonus de %0.1f%%, et les bonus de dégâts des ennemis caché sont réduits de %d%%.
 		Vous bénéficiez également d'une chance supplémentaire (à votre jet de sauvegarde normal %+d, effectif) de résister aux altérations d'état néfastes auxquelles il est possible de résister.
 		La détection et cette chance supplémentaire de sauvegarde sont améliorées par la Ruse.]], "tformat")
@@ -21591,7 +21591,7 @@ t("#CADET_BLUE#You cannot disarm traps in grids you cannot enter.", "#CADET_BLUE
 t("#CADET_BLUE#You don't see a trap there.", "#CADET_BLUE#Vous ne voyez pas de piège ici.", "logPlayer")
 t([[You search a nearby grid for a hidden trap (%d detection 'power') and disarm it if possible (%d disarm 'power', based on your skill with %s).
 		Disarming a trap requires at least a minimum skill level, and you must be able to enter the trap's grid to manipulate it, though you stay in your current location.  A failed attempt to disarm a trap may trigger it.
-		Your skill improves with your your Cunning.]], [[Vous recherchez un piège caché sur la case voisine ('puissance' de détection %d) et le désamorcez si possible ('puissance' de désamorçage %d, selon votre compétence en %s).
+		Your skill improves with your your Cunning.]], [[Vous recherchez un piège caché sur la case voisine (puissance de détection %d) et le désamorcez si possible (puissance de désamorçage %d, selon votre compétence en %s).
 		Désamorcer un piège requiert un niveau de compétence minimum. Vous devez pouvoir entrer dans la grille du piège pour le manipuler, tout en restant sur place. Une tentative de désamorçage ratée peut déclencher le piège.
 		Votre compétence augmente avec votre Ruse.]], "tformat")
 
@@ -21662,7 +21662,7 @@ t([[This talent allows you to prepare up to %d different trap(s) of tier %d or l
 		Modèles connus :
 %s
 
-		Les pièges ainsi préparés sont difficiles à détecter (%d de 'puissance' de détection) et à désamorcer (%d de 'puissance' de désamorçage) proportionnellement à votre Ruse. Ils gagnent %+d%% d’efficacité et peuvent être déployés sans rompre la furtivité %d%% du temps.
+		Les pièges ainsi préparés sont difficiles à détecter (%d de puissance de détection) et à désamorcer (%d de puissance de désamorçage) proportionnellement à votre Ruse. Ils gagnent %+d%% d’efficacité et peuvent être déployés sans rompre la furtivité %d%% du temps.
 		Vous êtes immunisé contre les dégâts et les effets négatifs de vos pièges, et ceux-ci peuvent infliger des coups critiques en fonction de votre chance de coup critique physique.
 		La plupart des pièges durent %d tours s’ils ne sont pas déclenchés, et remboursent 80%% de leur coût en endurance à leur expiration.
 		D’autres modèles peuvent être découverts en désarmant des pièges ou appris auprès d’instructeurs spéciaux dans le monde.]], "tformat")
@@ -22964,7 +22964,7 @@ t([[Your fungus reaches into the primordial ages of the world, granting you anci
 		De plus, les effets de régénération actifs sur vous diminuent votre équilibre de %0.1f par tour.
 		Le gain de tour est proportionnel à votre Puissance Mentale.]], "tformat")
 t("Sudden Growth", "Croissance soudaine", "talent name")
-t("A wave of energy passes through your fungus, making it release immediate healing energies on you, healing you for %d%% of your current life regeneration rate (#GREEN#%d#LAST#).", "Une vague d'énergie traverse vos champignons, leur faisant libérer des forces curatives immédiates qui vous soignent à hauteur de %d%% de votre taux de régénération de vie actuel (#GREEN#%d#LAST#).", "tformat")
+t("A wave of energy passes through your fungus, making it release immediate healing energies on you, healing you for %d%% of your current life regeneration rate (#GREEN#%d#LAST#).", "Une vague d'énergie traverse vos champignons, leur faisant libérer des forces curatives immédiates qui vous soignent à hauteur de %d%% de votre taux de régénération de vie actuel #GREEN#(%d#)LAST#.", "tformat")
 
 ------------------------------------------------
 section "mod-tome/data/talents/gifts/gifts.lua"
@@ -24392,7 +24392,7 @@ t("sticky web", "toile collante", "_t")
 t("@Target@ is caught in a web!", "@Target@ est pris dans une toile !", "_t")
 t("Pins non spiderkin for %d turns. Decays over time.", "Immobilise les créatures qui ne sont pas des araignées pendant %d tours. S'affaiblit avec le temps.", "tformat")
 t("%s resists!", "%s résiste !", "logSeen")
-t("Lay a concealed web (%d detect 'power', %d disarm 'power') under yourself that lasts %d turns and pins all non-spiderkin that pass through it for %d turns.  The web weakens over time.", "Pose une toile dissimulée (%d 'puissance' de détection, %d 'puissance' de désarmement) sous vous qui dure %d tours et immobilise toutes les créatures qui ne sont pas des araignées qui la traversent pendant %d tours. La toile s'affaiblit avec le temps.", "tformat")
+t("Lay a concealed web (%d detect 'power', %d disarm 'power') under yourself that lasts %d turns and pins all non-spiderkin that pass through it for %d turns.  The web weakens over time.", "Pose une toile dissimulée (%d puissance de détection, %d puissance de désarmement) sous vous qui dure %d tours et immobilise toutes les créatures qui ne sont pas des araignées qui la traversent pendant %d tours. La toile s'affaiblit avec le temps.", "tformat")
 t("Darkness", "Obscurité", "talent name")
 t("Weave darkness (power %d) in a radius of %d, blocking all light but the most powerful and teleporting you a short range.", "Tisse de l'obscurité (puissance %d) dans un rayon de %d, bloquant toute lumière sauf la plus puissante et vous téléportant à courte portée.", "tformat")
 t("Throw Boulder", "Lancer de Rocher", "talent name")
@@ -26375,10 +26375,10 @@ t([[Each time you or your undead minions deal damage to a creature you apply Sou
 		]], [[Chaque fois que vous ou vos laquais morts-vivants infligez des dégâts à une créature, vous lui appliquez Sangsue d'Ame.
 		Si une créature meurt avec cet effet actif, vous volez son âme.
 		Les créatures puissantes et les boss sont tellement débordants de puissance d'âme que vous volez un fragment de leur âme toutes les quelques tours :
-		%s* rare : au plus toutes les %d tours
-		%s* unique : au plus toutes les %d tours
-		%s* boss : au plus toutes les %d tours
-		%s* boss d'élite : au plus toutes les %d tours#WHITE#
+		%s- rare : au plus toutes les %d tours
+		%s- unique : au plus toutes les %d tours
+		%s- boss : au plus toutes les %d tours
+		%s- boss d'élite : au plus toutes les %d tours#WHITE#
 
 		Augmente également votre capacité maximale d'âmes de %d.]], "tformat")
 t("Consume Soul", "Consommation de l'Âme", "talent name")
