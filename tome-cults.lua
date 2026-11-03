@@ -638,7 +638,7 @@ t("scourge drake hatchling", "dragonnet de plaie nouveau-né", "entity name")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 t("scourge drake", "dragonnet de plaie", "entity name")
 t("A mature scourge drake, armed with deadly breath and nasty claws.", "Un dragonnet de plaie adulte, armé d'un souffle mortel et de griffes redoutables.", "_t")
-t("scourge wyrm", "draconien de plaie", "entity name")
+t("scourge wyrm", "dragon de plaie", "entity name")
 t("An old and powerful scourge drake, armed with deadly breath and nasty claws.", "Un ancien et puissant dragonnet de plaie, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
@@ -668,9 +668,9 @@ t("You can not enter this book while in combat.", "Vous ne pouvez pas entrer dan
 ------------------------------------------------
 section "tome-cults/data/general/objects/lore/eyal.lua"
 
-t("gods", "dieux", "entity subtype")
-t("godslayers", "tueurs de dieux", "entity subtype")
-t("analysis", "analyse", "entity subtype")
+t("gods", "Dieux", "entity subtype")
+t("godslayers", "Tueurs de dieux", "entity subtype")
+t("analysis", "Analyse", "entity subtype")
 
 ------------------------------------------------
 section "tome-cults/data/general/objects/special-misc.lua"
@@ -920,7 +920,7 @@ t("#YELLOW#A pair of ... brains in jar appear on the Egress! You quickly put the
 section "tome-cults/data/lore/dremwarves.lua"
 
 t("Forbidden Cults", "Cultes Indicibles", "newLore category")
-t("our origins (1)", "nos origines (1)", "_t")
+t("our origins (1)", "Nos origines (1)", "_t")
 t([[I do not remember anything from before. My earliest memories are of these ruins. My people are known as the Drem to the surface dwellers of this world. We are seen as monsters, and perhaps that is not an unfair presumption. We were once mindless creatures roaming the underground, capable only of violence and acting on instinct. 
 
 It is only after these ruins were found that thought finally manifested in our bodies. I am fortunate in that the ruins have gifted me with sublime intelligence. For some, it did not help at all. For others, it barely raised them above mindlessness. Whatever grants us intelligence in these ruins seems to work on a case-by-case basis. Since our self awareness is only a recent thing, we have much we need to learn about the world around us and about ourselves as well.
@@ -934,7 +934,7 @@ Ce n'est qu'après la découverte de ces ruines que la pensée s'est enfin manif
 Une question ne cesse de me revenir à l'esprit. Pourquoi existons-nous ? D'où venons-nous ? De nombreuses créatures étranges habitent sous la surface, mais nous sommes, d'une certaine manière, différents. La race naine présente des similitudes avec nous, mais elle possède un visage là où nous n'en avons pas. Sommes-nous issus du même moule, mais le processus aurait-il mal tourné d'une manière ou d'une autre ?
 
 Je crois fermement que les Drem et les Nains partagent une origine commune. Mais quelle est cette origine ? Cela pourrait-il simplement être le résultat de nos environnements différents au fil des ans ? Je pourrais spéculer toute la journée à ce sujet, mais cela ne produirait aucune preuve concrète. J'ai l'intention d'explorer ces cavernes jusqu'à trouver un indice ou un fragment de savoir qui me mettra sur la bonne voie. J'ai besoin de connaître la vérité.]], "_t")
-t("our origins (2)", "nos origines (2)", "_t")
+t("our origins (2)", "Nos origines (2)", "_t")
 t([[There were some cave-ins recently around the ruins. After it was safe to investigate, said cave-ins have revealed previously unexplored tunnels. Since I had not made much headway with my research, it was a welcome distraction.
 
 To my delight, the tunnels showed signs of habitation! There were a number of primitive tools and weapons which showed little signs of decay. Mindless Drem are not known for making tools, so I came to the conclusion that this must have been a series of old dwarven tunnels. There were also some cave paintings of stout, bearded humanoids fighting off what appeared to be crude depictions of tentacled beasts.
@@ -952,7 +952,7 @@ Ce ne fut pas notre seule découverte. Il existe de multiples tunnels, et tout i
 Plusieurs groupes d'éclaireurs furent envoyés dans les tunnels, et il devint évident que tous partaient d'un unique point d'origine. Ils mènent à une seule et vaste cavité dans la terre. Cette cavité n'a pas encore été entièrement explorée, mais les éclaireurs ont rapporté avoir aperçu plusieurs ruines étranges en son sein. La description physique qu'ils m'en ont donnée ne correspond à aucune autre civilisation que nous ayons documentée...
 
 C'est un espoir ténu, mais j'espère de tout coeur que ce lieu me donnera enfin les réponses que je cherche sur l'origine des Nains comme des Drem.]], "_t")
-t("our origins (3)", "nos origines (3)", "_t")
+t("our origins (3)", "Nos origines (3)", "_t")
 t([[The exploration of the cavity has been interesting, to say the least. At its very centre, we discovered a strange, egg-shaped structure. It's made out of some sort of metal which I have not seen before. Despite being covered in layers of ancient dust, the metal was untarnished and showed no noticeable signs of decay. It was highly resistant to damage, as our attempts to cut through it were met with failure, even when we employed magical means. There was a notable dent in its side, something which could have only been caused by a tremendous amount of force.
 
 There was a passage way leading into the egg, which I volunteered to step through first. The inside of the egg was stranger still. There were dozens of metal tubes which covered the ceiling. Even as I stood there, I could hear the sound of some liquid pouring through them. The walls were covered in blinking lights and yet more metallic objects which I could not make sense of. It is obvious that the egg was some sort of massive machine. I cannot understand how it works or how it was made, though. There is no magic that I can sense, so this machine must rely entirely on mechanical means to function. No race that I know of has the knowledge to build such a thing. I could only imagine what sort of genius could design such a thing, let alone build it. 
@@ -991,7 +991,7 @@ Finalement, nous avons réussi à briser les canalisations menant aux tubes de v
 
 Mais ce n'était là qu'une seule des machines qui les fabriquaient. Nous avons fini par sceller la chambre du mieux que nous le pouvions, mais nous pouvons en entendre d'autres approcher. L'une des créatures s'est également agrippée à mon bras durant le combat. Elle m'a infecté d'une maladie virulente, faisant dépérir ma chair et la transformant en cuir desséché.
 
-Il n'y a aucun doute possible quant à notre sort. Nous avons perdu de nombreux Drem dans ce combat, et je ne suis pas le seul à avoir été infecté par cette maladie. Nous allons mourir dans cette pièce. Mais je me satisfais de ce sort. J'ai découvert la vérité sur nos origines.
+Il n'y a aucun doute possible quant à notre sort. Nous avons perdu de nombreux Drem dans ce combat, et je ne suis pas le seul à avoir été infecté par cette maladie. Nous allons mourir dans cette pièce. Mais je me satisfais de ce sort. J'ai découvert la vérité sur Nos origines.
 
 Nous nous sommes aventurés au fond de la pièce, où se trouvaient encore d'autres tubes. À ma grande surprise, ces tubes contenaient des corps entièrement formés. Un nain, avec une longue barbe, flottait à l'intérieur du tube. Il semblait tressaillir, comme plongé au coeur d'un rêve. Plus nous descendions, plus nous trouvions de nains endormis à l'intérieur de tubes. Mais ce que nous avons remarqué, c'est qu'à chaque nain, ils devenaient de plus en plus malformés. Finalement, nous avons atteint le dernier tube, et nous y avons trouvé un nain sans visage. En d'autres termes, un Drem.
 
@@ -2549,6 +2549,7 @@ t([[We have been trapped inside the maggot for a few days now. I'm the only one 
 When we return to the Sanctuary triumphant, we shall be hailed as saviours and they shall see their error in doubting the power we have obtained.]], [[Nous sommes piégés à l'intérieur du ver depuis quelques jours maintenant. Je semble être le seul encore résolu à détruire cette créature. Ceux qui restent ici conspirent contre moi. Je les entends chuchoter entre eux. Ils ont l'intention de m'abandonner et de retourner vers le portail, qui grouille sûrement de défenseurs à présent. Demain, je les pousserai à me suivre pour une dernière charge. Nous aurions plus de chances en visant le cerveau qu'en tentant de revenir au portail.
 
 Lorsque nous reviendrons triomphants au Sanctuaire, nous serons salués comme des sauveurs, et ils réaliseront leur erreur d'avoir douté du pouvoir que nous avons obtenu.]], "_t")
+t("arrrrrrghhhhhh", "Arrrrrrghhhhhh", "_t")
 t("All of a sudden the floor starts to shake and opens up!", "Tout à coup, le sol se met à trembler et s'ouvre !", "_t")
 t("between a rock and a soft place", "Entre le marteau et la panse molle", "_t")
 t([[You ever gotten yourself into a mess that you didn't know how to get out of? Well, that's kind of where I'm at right now. This thing, whatever it is, just burst out of the ground and swallowed me whole. Normally a girl has to get offered on an altar to monsters to get eaten like this, but it looks like this one just took a fancy to me.
@@ -2631,11 +2632,6 @@ Mon trésor est entreposé quelque part dans ce château, mais je m'en fiche com
 t("Forbidden Tome: \"A View From The Gallery\"", "Grimoire Interdit : \"Une Vue depuis la Galerie\"", "_t")
 t("An illustrated tome!", "Un grimoire illustré !", "_t")
 t("Forbidden Tome: \"The Illusory Castle\"", "Grimoire Interdit : \"Le Château Illusoire\"", "_t")
--- texte non traduit
---[==[
-t("arrrrrrghhhhhh", "arrrrrrghhhhhh", "_t")
---]==]
-
 
 ------------------------------------------------
 section "tome-cults/data/quests/grung.lua"
@@ -4577,7 +4573,7 @@ t("awoken tentacle tree", "arbre tentaculaire éveillé", "entity name")
 t("One of the tentacle tree has awakened!", "L'un des arbres tentaculaires s'est éveillé !", "_t")
 t("scourge", "plaie", "entity subtype")
 t("Kroltar the Scourge", "Kroltar la Plaie", "entity name")
-t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "Kroltar, le plus puissant dragon de feu à avoir jamais foulé Eyal. On disait qu'un groupe de nains l'avait terrassé, mais quelque chose s'est installé dans le corps de cette créature autrefois fière, la ranimant en une nouvelle forme de vie dénaturée.", "_t")
+t("Kroltar, the mightiest fire wyrm to have ever walked Eyal. It was said that a group of dwarves had slain him, but something has taken up residence in the once proud creature's body, reanimating it into a twisted new lifeform.", "Kroltar, le plus puissant ancien dragon de feu à avoir jamais foulé Eyal. On disait qu'un groupe de nains l'avait terrassé, mais quelque chose s'est installé dans le corps de cette créature autrefois fière, la ranimant en une nouvelle forme de vie dénaturée.", "_t")
 t("and fed to the corrupt writhing tentacles", "et donné en pâture aux tentacules grouillants corrompus", "_t")
 -- texte non traduit
 --[==[
@@ -4588,7 +4584,7 @@ t("dragon", "dragon", "entity type")
 ------------------------------------------------
 section "tome-cults/data/zones/scourged-pits/objects.lua"
 
-t("page of a logbook", "page d'un carnet de bord", "entity name")
+t("page of a logbook", "Page d'un carnet de bord", "entity name")
 t("A paper scrap.", "Un bout de papier.", "_t")
 
 ------------------------------------------------
@@ -4922,7 +4918,7 @@ Talents:
 - #YELLOW#Augment Despair: #WHITE#Hit where it hurts, doing more damage based on detrimental effects
 - #YELLOW#Maggot Breath: #WHITE#Breath maggots to slow down your foes
 ]], [[Les dragons sont des forces de la Nature, les prédateurs suprêmes par excellence. Mais même eux peuvent être corrompus au-delà de tout espoir.
-Vous avez rencontré l'horreur issue de Kroltar, le plus puissant des dragons, et l'avez vaincue.
+Vous avez rencontré l'horreur issue de Kroltar, le plus puissant des anciens dragons, et l'avez vaincue.
 
 Vous pouvez désormais maîtriser la magie du Dragon de Plaie et créer de nouveaux personnages Wyrmiques capables d'apprendre l'#LIGHT_GREEN#Aspect du Dragon de Plaie#WHITE#.
 
