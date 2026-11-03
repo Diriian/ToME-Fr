@@ -151,9 +151,9 @@ t("Huge Appetite", "Énorme appétit", "achievement name")
 t("Ate 20 bosses.", "Manger 20 boss.", "_t")
 t("Headbanged 20 bosses to death.", "Headbanged 20 boss à  mort.", "_t")
 t("Are you out of your mind?!", "t'as perdu la tête ?!", "achievement name")
-t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Attirer l'attention de vieux vers multicolores surpuissants dans l'armurerie Vor. Peut-être que fuir est de mise.", "_t")
+t("Caught the attention of overpowered greater multi-hued wyrms in Vor Armoury. Perhaps fleeing is in order.", "Attirer l'attention d'anciens dragons multicolores surpuissants dans l'armurerie Vor. Peut-être que fuir est de mise.", "_t")
 t("I cleared the room of death and all I got was this lousy achievement!", "J'ai vidé la salle de la mort et tout ce que j'ai obtenu, c'est ce succès moche !", "achievement name")
-t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "Vous avez tué les sept vers surpuissants dans la \"salle de la mort\" de l'armurerie Vor.", "_t")
+t("Killed the seven overpowered wyrms in the \"Room of Death\" in Vor Armoury.", "Vous avez tué les sept anciens dragons surpuissants dans la \"salle de la mort\" de l'armurerie Vor.", "_t")
 t("I'm a cool hero", "Je suis un héros cool", "achievement name")
 t("Saved Derth without a single inhabitant dying.", "Sauver Derth sans qu'un seul habitant ne meure.", "_t")
 t("Kickin' it old-school", "Coup de pied à l'ancienne", "achievement name")
@@ -1403,7 +1403,7 @@ t("You are a male of the species.", "Vous êtes un male de votre race.", "_t")
 ------------------------------------------------
 section "mod-tome/data/birth/worlds.lua"
 
-t("Maj'Eyal: The Age of Ascendancy", "Maj'Eyal : L'ère de l'Ascendance", "_t")
+t("Maj'Eyal: The Age of Ascendancy", "Maj'Eyal : L'Ère de l'Ascendance", "_t")
 t("The people of Maj'Eyal: Humans, Halflings, Elves and Dwarves.", "Le peuple de Maj'Eyal : Humains, Halfelins, Elfes et Nains.", "_t")
 t("The known world has been at relative peace for over one hundred years, and people are prospering again.", "Le monde connu a été en relative paix depuis plus de cent ans, et le peuple prospère à nouveau.", "_t")
 t("You are an adventurer, setting out to find lost treasure and glory.", "Vous êtes un aventurier, en quête de trésors perdus et de gloire.", "_t")
@@ -1610,7 +1610,7 @@ t("SPEAK UP, HAMBRAIN. I'VE JUST GOTTEN MY EARDRUMS BLOWN OUT BY YET ANOTHER BY-
 t("I SAID, MAYBE THERE'S SOMETHING THAT I CAN HELP YOU WITH!", "J'AI DIT, PEUT-ÊTRE QU'IL Y A QUELQUE CHOSE POUR LAQUELLE JE PEUX VOUS AIDER !", "_t")
 t("STILL CAN'T HEAR YOU, BUT LISTEN UP. THE BROTHERHOOD OF ALCHEMISTS IS ACCEPTING THE FIRST NEW APPLICANT TO DEMONSTRATE, AMONG OTHER THINGS, THREE VERY COMPLICATED ELIXIRS. I WOULDN'T BOTHER TRYING TO JOIN SUCH A BUNCH OF ADDLE-BRAINED DEGENERATES, BUT IT SO HAPPENS THAT THE BROTHERHOOD OF ALCHEMISTS HOLDS THE SECRET CURE FOR THE COMMON BLOWN-OFF ASS, WHICH IT SO HAPPENS IS OF SOME INTEREST TO ME.", "JE NE PEUX TOUJOURS PAS VOUS ENTENDRE, MAIS ÉCOUTEZ BIEN. LA CONFRÉRIE DES ALCHIMISTES ACCEPTE LE PREMIER NOUVEAU CANDIDAT QUI PRÉSENTERA, ENTRE AUTRES, TROIS ÉLIXIRS TRÈS COMPLIQUÉS. JE NE ME DONNERAIS PAS LA PEINE D'ESSAYER DE REJOINDRE UNE TELLE BANDE DE DÉGÉNÉRÉS ÉCERVELÉS, MAIS IL SE TROUVE QUE LA CONFRÉRIE DES ALCHIMISTES DÉTIENT UN REMÈDE SECRET CONTRE LES CULS BÉNIS, CE QUI SE TROUVE ÊTRE D'UN CERTAIN INTÉRÊT POUR MOI.", "_t")
 t("HOW CAN I HELP?", "COMMENT PUIS JE VOUS AIDER ?", "_t")
-t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "LA CONFRÉRIE SAIT TRÈS BIEN CE QUE DES AVANCÉES DANS LE DOMAINE DE L'ALCHIMIE FERAIENT POUR TOUTES LES CIVILISATIONS EXISTANTES, MAIS ILS GARDENT LEURS QUELQUES SECRETS VALABLES COMME UN GRAND VER BRUN ASSIS SUR SON TAS DE MERDE. VOUS SAVEZ QUOI ? JE NE VEUX MÊME PAS DE LEUR REMÈDE CONTRE LES CULS BÉNIS POUR MOI. JE VAIS VOLER TOUS LEURS SECRETS, LES ÉCRIRE, EN FAIRE UNE CENTAINE DE COPIES, ET EN CLOUER UNE SUR UN ARBRE DANS CHAQUE VILLAGE DE MAJ'EYAL.", "_t")
+t("THE BROTHERHOOD KNOWS DAMNED WELL WHAT ADVANCES IN THE FIELD OF ALCHEMY WOULD DO FOR EVERY CIVILIZATION IN EXISTENCE, BUT THEY HOARD THEIR FEW WORTHWHILE SECRETS LIKE A GREAT BROWN WYRM SITTING ON ITS PILE OF CRAP. YOU KNOW WHAT? I DON'T EVEN WANT THE ASS-CURE FOR ME. I'M GOING TO STEAL EVERY SECRET THEY'VE GOT, WRITE THEM DOWN, MAKE A HUNDRED COPIES, AND NAIL ONE TO A TREE IN EVERY VILLAGE IN MAJ'EYAL.", "LA CONFRÉRIE SAIT TRÈS BIEN CE QUE DES AVANCÉES DANS LE DOMAINE DE L'ALCHIMIE FERAIENT POUR TOUTES LES CIVILISATIONS EXISTANTES, MAIS ILS GARDENT LEURS QUELQUES SECRETS VALABLES COMME UN GRAND ANCIEN DRAGON BRUN ASSIS SUR SON TAS DE MERDE. VOUS SAVEZ QUOI ? JE NE VEUX MÊME PAS DE LEUR REMÈDE CONTRE LES CULS BÉNIS POUR MOI. JE VAIS VOLER TOUS LEURS SECRETS, LES ÉCRIRE, EN FAIRE UNE CENTAINE DE COPIES, ET EN CLOUER UNE SUR UN ARBRE DANS CHAQUE VILLAGE DE MAJ'EYAL.", "_t")
 t("THAT'S NOT A VERY HERMIT-LIKE ATTITUDE.", "CE N'EST PAS VRAIMENT UNE ATTITUDE D'ERMITE.", "_t")
 t("AND THEN WHAT WILL THEY DO? ONCE THEIR PRECIOUS SECRETS-- WHICH, IN ALL PROBABILITY, EITHER DON'T EXIST OR ARE THINGS LIKE RECIPES FOR ELIXIRS OF WHO-GIVES-A-FLYING-DUCK-- ARE OUT IN THE OPEN, THE BROTHERHOOD OF ASSWIPES WILL HAVE NOTHING TO HOLD IT TOGETHER BUT ELIXIRS OF THEIR TEARS AND WIDESPREAD DISDAIN FROM THE REST OF THE WORLD. SPEAK UP, THEN. ARE YOU IN OR OUT?", "ET ENSUITE, QUE FERONT-ILS ? UNE FOIS QUE LEURS PRÉCIEUX SECRETS - QUI, SELON TOUTE PROBABILITÉ, SOIT N'EXISTENT PAS, SOIT SONT DES RECETTES POUR DES ÉLIXIRS D'ON-NE-SAIT-QUOI - SERONT RÉVÉLÉS AU GRAND JOUR, LA CONFRÉRIE DES LÈCHE-BOTTES N'AURA RIEN D'AUTRE POUR SE MAINTENIR QUE LES ÉLIXIRS DE LEURS LARMES ET LE MÉPRIS GÉNÉRALISÉ DU RESTE DU MONDE. PARLEZ, ALORS. VOUS EN ÊTES OU PAS ?", "_t")
 t("I'M IN.", "J'EN SUIS.", "_t")
@@ -5706,7 +5706,7 @@ t("cold drake hatchling", "jeune dragonnet de froid", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 t("cold drake", "dragonnet de froid", "entity name")
 t("A mature cold drake, armed with deadly breath and nasty claws.", "Un dragonnet de froid mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
-t("ice wyrm", "ver des glaces", "entity name")
+t("ice wyrm", "ancien dragon des glaces", "entity name")
 t("An old and powerful cold drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon de froid, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
@@ -5827,7 +5827,7 @@ t("fire drake hatchling", "jeune dragonnet de feu", "entity name")
 t("A drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 t("fire drake", "dragonnet de feu", "entity name")
 t("A mature fire drake, armed with deadly breath and nasty claws.", "Un dragonnet de feu mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
-t("fire wyrm", "ver de feu", "entity name")
+t("fire wyrm", "ancien dragon de feu", "entity name")
 t("An old and powerful fire drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon de feu, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
@@ -6193,7 +6193,7 @@ t("multi-hued drake hatchling", "petit dragonnet multicolore", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 t("multi-hued drake", "dragonnet multicolore", "entity name")
 t("A mature multi-hued drake, armed with many deadly breath weapons and nasty claws.", "Un dragonnet multicolore mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
-t("greater multi-hued wyrm", "grand ver multicolore", "entity name")
+t("greater multi-hued wyrm", "grand ancien dragon multicolore", "entity name")
 t("An old and powerful multi-hued drake, armed with many deadly breath weapons and nasty claws.", "Un vieux et puissant dragonnet multicolore, armé d'un souffle mortel et de griffes redoutables.", "_t")
 t("Ureslak the Prismatic", "Ureslak le Prismatique", "entity name")
 t("A huge multi-hued drake. It seems to shift color rapidly.", "Un énorme dragonnet multicolore. Il semble changer de couleur rapidement.", "_t")
@@ -6448,11 +6448,7 @@ t("Through some terrible process that remains mysterious, this creature's shadow
 section "mod-tome/data/general/npcs/shertul.lua"
 
 t("horror", "horreur", "entity type")
--- texte non traduit
---[==[
-t("sher'tul", "sher'tul", "entity subtype")
---]==]
-
+t("sher'tul", "Sher'tul", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/general/npcs/shivgoroth.lua"
@@ -6572,7 +6568,7 @@ t("storm drake hatchling", "jeune dragonnet de l'orage", "entity name")
 t("A drake hatchling. Not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 t("storm drake", "dragonnet de l'orage", "entity name")
 t("A mature storm drake, armed with deadly breath and nasty claws.", "Un dragonnet de l'orage mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
-t("storm wyrm", "ver de l'orage", "entity name")
+t("storm wyrm", "ancien dragon de l'orage", "entity name")
 t("An old and powerful storm drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon de l'orage, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
@@ -6749,7 +6745,7 @@ t("venom drake hatchling", "petit dragonnet venimeux", "entity name")
 t("A corrosive venom drake hatchling; not too powerful by itself, but it usually comes with its brothers and sisters.", "Un jeune dragonnet corrosif. Pas très puissant tout seul, mais il vient généralement avec ses frères et soeurs.", "_t")
 t("venom drake", "dragonnet venimeux", "entity name")
 t("A mature corrosive venom drake, armed with deadly breath and nasty claws.", "Un dragonnet corrosif mature, armé d'un souffle mortel et de griffes redoutables.", "_t")
-t("venom wyrm", "ver corrosif", "entity name")
+t("venom wyrm", "ancien dragon corrosif", "entity name")
 t("An old and powerful corrosive venom drake, armed with deadly breath and nasty claws.", "Un vieux et puissant dragon corrosif, armé d'un souffle mortel et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
@@ -6787,7 +6783,7 @@ section "mod-tome/data/general/npcs/wild-drake.lua"
 
 t("wild", "sauvage", "entity subtype")
 t("spire dragon", "dragon à flèches", "entity name")
-t("A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "Un ver monstrueux, enroulé, patient et détestable. Sa peau, constellée de pointes, de crêtes et de lames, écarte l'acier et la sorcellerie avec la même facilité.", "_t")
+t("A monstrous, coiled wyrm, patient and hateful. Its hide, studded with spikes and crests and blades, turns aside steel and sorcery with equal ease.", "Un ancien dragon monstrueux, enroulé, patient et détestable. Sa peau, constellée de pointes, de crêtes et de lames, écarte l'acier et la sorcellerie avec la même facilité.", "_t")
 t("blinkwyrm", "ver clignant", "entity name")
 t("A shifting, writhing, snake-like dragon, blinking in and out of existence, just waiting for you to turn your back.", "Un dragon qui se déplace, se tortille, ressemble à un serpent, qui clignote et disparaît, attendant juste que vous lui tourniez le dos.", "_t")
 -- texte non traduit
@@ -7200,7 +7196,7 @@ t("long sharp scalpel", "scalpel long et tranchant", "_t")
 t("This scalpel was used by the dread sorcerer Kor'Pul when he began learning the necromantic arts in the Age of Dusk.  Many were the bodies, living and dead, that became unwilling victims of his terrible experiments.", "Ce scalpel a été utilisé par le terrible sorcier Kor'Pul lorsqu'il a commencé à apprendre les arts nécromantiques à l'Ere du Crépuscule.  Nombreux furent les corps, vivants ou morts, qui devinrent les victimes involontaires de ses terribles expériences.", "_t")
 t("Wyrmbreath", "Respiration du Ver", "entity name")
 t("clawed dragon-scale gloves", "gants griffus en écailles de dragon", "_t")
-t("These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "Ces gants en écailles de dragon sont dotés des griffes et des dents d'un Ver vicieux. Les gants sont chauds au toucher.", "_t")
+t("These dragon scale gloves are tipped with the claws and teeth of a vicious Wyrm. The gloves are warm to the touch.", "Ces gants en écailles de dragon sont dotés des griffes et des dents d'un Ancien Dragon vicieux. Les gants sont chauds au toucher.", "_t")
 t("Eye of the Dreaming One", "Oeil du rêveur", "entity name")
 t("translucent sphere", "sphère translucide", "_t")
 t("This ethereal eye stares eternally, as if seeing things that do not truly exist.", "Cet oeil éthéré fixe éternellement, comme s'il voyait des choses qui n'existent pas vraiment.", "_t")
@@ -8195,8 +8191,8 @@ t("You divide your %s in two, forming a linked set.", "Vous divisez votre %s en 
 t("This mindstar would symbiotize with another like it.", "Cette étoile d'âme se symbiotisera avec une autre comme elle.", "_t")
 t("#GREEN#The mindstars pulse with life.", "#GREEN#Les étoiles d'âme palpitent de vie.", "logPlayer")
 t("#SLATE#The link between the mindstars is broken.", "#SLATE#Le lien entre les étoiles d'âme est rompu.", "logPlayer")
-t("wyrm's ", "du dragon ", "entity name")
-t("wyrms", "dragon", "entity keyword")
+t("wyrm's ", "de l'ancien dragon ", "entity name")
+t("wyrms", "anciens dragons", "entity keyword")
 t(" of flames", " de flammes", "entity name")
 t("flames", "flammes", "entity keyword")
 t(" of frost", " du gel", "entity name")
@@ -8946,7 +8942,7 @@ t("The severed front half of a minotaur snout, ring and all.", "La moitié avant
 t("vial of elder vampire blood", "flacon de sang d'ancien vampire", "entity name")
 t("black blood", "sang noir", "_t")
 t("Thick, clotted, and foul. The vial is cold to the touch.", "Épais, coagulé et fétide. La fiole est froide au toucher.", "_t")
-t("multi-hued wyrm scale", "écaille de ver multicolor", "entity name")
+t("multi-hued wyrm scale", "écaille d'ancien dragon multicolor", "entity name")
 t("shimmering scale", "écaille chatoyante", "_t")
 t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Magnifique et presque impénétrable. La séparer du dragon a dû être un travail difficile.", "_t")
 t("giant spider spinneret", "filière d'araignée géante", "entity name")
@@ -8966,14 +8962,14 @@ t("Thick, black and opaque.", "Épais, noir et opaque.", "_t")
 t("bear paw", "patte d'ours", "entity name")
 t("large, clawed paw", "grande patte griffue", "_t")
 t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Grand et poilu avec des griffes déchirant la chair. Elle sent légèrement le poisson.", "_t")
-t("ice wyrm tooth", "dent de ver de glace", "entity name")
+t("ice wyrm tooth", "dent d'ancien dragon de glace", "entity name")
 t("tooth", "dent", "_t")
 t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "Cette dent a été émoussée par l'âge, mais elle semble toujours plus que capable de faire son travail.", "_t")
 t("red crystal shard", "éclat de cristal rouge", "entity name")
 t("red crystal shard", "éclat de cristal rouge", "_t")
 t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "De minuscules flammes dansent encore de manière éthérée à l'intérieur de ce cristal transparent, bien que sa chaleur semble s'être évanouie... vous l'espérez.", "_t")
-t("vial of fire wyrm saliva", "flacon de salive de ver de feu", "entity name")
-t("wyrm saliva", "salive de ver", "_t")
+t("vial of fire wyrm saliva", "flacon de salive d'ancien dragon de feu", "entity name")
+t("wyrm saliva", "salive d'ancien dragon", "_t")
 t("Clear and slightly thicker than water. It froths when shaken.", "Transparent et légèrement plus épais que l'eau. Elle mousse lorsqu'on la secoue.", "_t")
 t("chunk of ghoul flesh", "morceau de chair de goule", "entity name")
 t("chunk of rotten flesh", "morceau de chair pourrie", "_t")
@@ -8990,7 +8986,7 @@ t("Unlike the rest of the black mamba, the severed head isn't moving.", "Contrai
 t("snow giant kidney", "rein de géant des neiges", "entity name")
 t("kidney", "rein", "_t")
 t("As unpleasant-looking as any exposed organ.", "Aussi désagréable à regarder que n'importe quel organe à découvert.", "_t")
-t("storm wyrm claw", "griffe de ver de l'orage", "entity name")
+t("storm wyrm claw", "griffe d'ancien dragon de l'orage", "entity name")
 t("claw", "griffe", "_t")
 t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bleuâtre et méchamment pointu. Ça fait dresser les poils de vos bras.", "_t")
 t("green worm", "ver vert", "entity name")
@@ -9313,19 +9309,19 @@ t("Made by the Dwarves, this lantern provides light in the darkest recesses of t
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/fun.lua"
 
-t("trollish poem", "poème trollesque", "entity name")
+t("trollish poem", "Poème trollesque", "entity name")
 t("A poem written by a... troll?", "Un poème écrit par un... troll ?", "_t")
-t("necromancer poem", "poème du nécromancien", "entity name")
+t("necromancer poem", "Poème du nécromancien", "entity name")
 t("A poem written by a... Necromancer?", "Un poème écrit par un... Nécromancien ?", "_t")
-t("rogues do it from behind", "les brigands le font par derrière", "entity name")
+t("rogues do it from behind", "Les brigands le font par derrière", "entity name")
 t("A poem written for a rogue?", "Un poème écrit pour un brigand ?", "_t")
 t("how to become a necromancer, part %d", "Comment devenir nécromancien, partie %d", "tformat")
 t("How to become a powerful Necromancer!", "Comment devenir un puissant Nécromancien !", "_t")
 t("\"Dust to Dust\", an undead hunter's guide, by Aslabor Borys", "\"De la Poussière à la Poussière\", un guide du chasseur de morts-vivants, par Aslabor Borys", "entity name")
 t("An undead hunter's guide, by Aslabor Borys.", "Un guide du chasseur de morts-vivants, par Aslabor Borys.", "_t")
-t("letter to %s (%d)", "lettre à %s (%d)", "tformat")
+t("letter to %s (%d)", "Lettre à %s (%d)", "tformat")
 t("A part of the correspondence between two adventurers.", "Une partie de la correspondance entre deux aventuriers.", "_t")
-t("of halfling feet", "de pieds de halfelin", "entity name")
+t("of halfling feet", "De pieds de halfelin", "entity name")
 t("Notes about... Halfling feet??", "Des notes sur... des pieds de halfelin ?", "_t")
 -- texte non traduit
 --[==[
@@ -9337,7 +9333,7 @@ t("Weisman", "Weisman", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/maj-eyal.lua"
 
-t("analysis", "analyse", "entity subtype")
+t("analysis", "Analyse", "entity subtype")
 
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/misc.lua"
@@ -9346,11 +9342,11 @@ t("The story of my salvation", "L'histoire de mon salut", "entity name")
 t("An old tale about the fear of magic.", "Un vieux conte sur la peur de la magie.", "_t")
 t("On Adventuring", "Sur l'Aventure", "entity name")
 t("Fragments of a fabled traveler.", "Fragments d'un voyageur légendaire.", "_t")
-t("memories of Artelia Firstborn", "mémoires d'Artelia la Première-Née", "entity name")
+t("memories of Artelia Firstborn", "Mémoires d'Artelia la Première-Née", "entity name")
 t("The memories of the first elf ever to awaken.", "Les mémoires du premier elfe à s'être éveillé.", "_t")
-t("human myth of creation", "mythe de la création humaine", "entity name")
+t("human myth of creation", "Mythe de la création humaine", "entity name")
 t("Myth of creation of the humans.", "Mythe de la création des humains.", "_t")
-t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "entity name")
+t("a logical analysis of creation, by philosopher Smythen", "Une analyse logique de la création, par le philosophe Smythen", "entity name")
 t("Myth of creation of the halflings.", "Mythe de la création des halfelins.", "_t")
 t("Tale of the Moonsisters", "Légende des Soeurs de Lunes", "entity name")
 t("The creation of Eyal's moons.", "La création des lunes d'Eyal.", "_t")
@@ -9358,7 +9354,7 @@ t("The creation of Eyal's moons.", "La création des lunes d'Eyal.", "_t")
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/spellhunt.lua"
 
-t("memories of archmage Varil", "mémoires de l'archimage Varil", "entity name")
+t("memories of archmage Varil", "Mémoires de l'archimage Varil", "entity name")
 t("A collection of thoughts and memories of the archmage Varil, during the Age of Dusk.", "Une collection de pensées et de souvenirs de l'archimage Varil, durant l'Ere du Crépuscule.", "_t")
 t("Spellhunter's Guide part 1: How to Detect a Spellweaver", "Guide du Traque-sorts partie 1 : Comment détecter un lanceur de sorts", "entity name")
 t("The definitive guide to hunting magic users.", "Le guide définitif de la chasse aux utilisateurs de magie.", "_t")
@@ -9368,7 +9364,7 @@ t("Spellhunter's Guide part 3: How to Kill a Magic-User", "Guide du Traque-sorts
 ------------------------------------------------
 section "mod-tome/data/general/objects/lore/sunwall.lua"
 
-t("Loremaster Verutir's note", "note du Gardien du Savoir Verutir", "entity name")
+t("Loremaster Verutir's note", "Note du Gardien du Savoir Verutir", "entity name")
 t("A paper scrap containing some lore.", "Un bout de papier contenant quelques connaissances.", "_t")
 
 ------------------------------------------------
@@ -9545,6 +9541,7 @@ t("Recall", "Rappel", "_t")
 t("Rod of Recall", "Bâtonnet de Rappel", "_t")
 t("You found a Rod of Recall. You can use it to quickly get out of your current zone and return to the worldmap.", "Vous avez trouvé un bâtonnet de rappel. Vous pouvez l'utiliser pour sortir rapidement de votre zone actuelle et revenir à la carte du monde.", "_t")
 t("chest", "coffre", "entity type")
+t("sher'tul", "Sher'tul", "entity subtype")
 t("Transmogrification Chest", "Coffre de Transmogrification", "entity name")
 t([[This chest is an extension of old Sher'tul places of power. Any items dropped inside are transported to an other place, processed and destroyed to extract energy.
 The byproduct of this effect is the creation of gold, which is useless to process, so it is sent back to you.
@@ -9584,7 +9581,6 @@ t([[Revealing, green, fun.
 #{bold}#Si vous ne l'enlevez jamais et que vous gagnez, vous obtiendrez un bel exploit et le droit de vous vanter !#{normal}#]], "_t")
 -- texte non traduit
 --[==[
-t("sher'tul", "sher'tul", "entity subtype")
 t("Bikini", "Bikini", "entity name")
 t("Mankini", "Mankini", "entity name")
 --]==]
@@ -10338,7 +10334,7 @@ t("shoot a cone of flames (radius %d) for %0.2f fire damage (based on Magic)", "
 t("%s activates %s %s!", "%s active %s %s !", "logSeen")
 t("Drake's Bane", "Le Fléau du Dragon", "entity name")
 t("viciously sharp battle axe", "hache de combat vicieusement aiguisée", "_t")
-t("The killing of Kroltar, mightiest of wyrms, took seven months and the lives of 20,000 dwarven warriors.  Finally the beast was worn down and mastersmith Gruxim, standing atop the bodies of his fallen comrades, was able slit its throat with this axe crafted purely for the purpose of penetrating the wyrm's hide.", "La mise à mort de Kroltar, le plus puissant des vers, a nécessité sept mois et la vie de 20 000 guerriers nains. Finalement, la bête a été épuisée et le maître Gruxim, debout sur les corps de ses camarades tombés au combat, a pu lui trancher la gorge avec cette hache conçue dans le seul but de pénétrer la peau du ver.", "_t")
+t("The killing of Kroltar, mightiest of wyrms, took seven months and the lives of 20,000 dwarven warriors.  Finally the beast was worn down and mastersmith Gruxim, standing atop the bodies of his fallen comrades, was able slit its throat with this axe crafted purely for the purpose of penetrating the wyrm's hide.", "La mise à mort de Kroltar, le plus puissant des anciens dragons, a nécessité sept mois et la vie de 20 000 guerriers nains. Finalement, la bête a été épuisée et le maître Gruxim, debout sur les corps de ses camarades tombés au combat, a pu lui trancher la gorge avec cette hache conçue dans le seul but de pénétrer la peau de l'ancien dragon.", "_t")
 t("Blood-Letter", "Lettre de Sang", "entity name")
 t("glacial hatchet", "hachette glaciale", "_t")
 t("A hand axe carved out of the most frozen parts of the northern wasteland.", "Une hache à main taillée dans les parties les plus gelées des terres désolées du nord.", "_t")
@@ -10734,7 +10730,7 @@ t("Pristine flowers coat the surface of this mindstar. Touching it fills you wit
 t("Gravitational Staff", "Bâton Gravitationnel", "entity name")
 t("heavy staff", "Bâton épais", "_t")
 t("Time and Space seem to warp and bend around the massive tip of this stave.", "Le temps et l'espace semblent se déformer et se plier autour de la pointe massive de ce bâton.", "_t")
-t("Eye of the Wyrm", "Oeil du Ver", "entity name")
+t("Eye of the Wyrm", "Oeil de l'Ancien Dragon", "entity name")
 t("multi-colored mindstar", "étoile d'âme multicolore", "_t")
 t("A black iris cuts through the core of this mindstar, which shifts with myriad colours. It darts around, as if searching for something.", "Un iris noir traverse le coeur de cette étoile d'âme, qui se décline en une myriade de couleurs. Il s'agite autour, comme s'il cherchait quelque chose.", "_t")
 t("The breath attack has a chance to shift randomly between Fire, Ice, Lightning, Acid, and Sand each turn.", "Cette attaque de souffle a une chance de passer aléatoirement au feu, au froid, à la foudre, à l'acide, ou au sable à chaque tour.", "_t")
@@ -11563,7 +11559,7 @@ t("You'll need to find one with a ring, preferably an expensive one.", "Vous dev
 t("vial of elder vampire blood", "flacon de sang d'ancien vampire", "entity name")
 t("Thick, clotted, and foul. The vial is cold to the touch.", "Épais, coagulé et fétide. La fiole est froide au toucher.", "_t")
 t("Once you've gotten it, cross some moving water on your way back.", "Une fois que vous l'avez, traversez des eaux vives sur le chemin du retour.", "_t")
-t("multi-hued wyrm scale", "écaille de ver multicolor", "entity name")
+t("multi-hued wyrm scale", "écaille d'ancien dragon multicolor", "entity name")
 t("Beautiful and nearly impregnable. Separating it from the dragon must have been hard work.", "Magnifique et presque impénétrable. La séparer du dragon a dû être un travail difficile.", "_t")
 t("If you think collecting one of these is hard, try liquefying one.", "Si vous pensez que collectionner un de ces objets est difficile, essayez d'en liquéfier un.", "_t")
 t("giant spider spinneret", "filière d'araignée géante", "entity name")
@@ -11584,13 +11580,13 @@ t("However annoying this will be for you to gather, I promise that the reek it p
 t("bear paw", "patte d'ours", "entity name")
 t("Large and hairy with flesh-rending claws. It smells slightly of fish.", "Grand et poilu avec des griffes déchirant la chair. Elle sent légèrement le poisson.", "_t")
 t("You'd think I could get one of these from a local hunter, but they've had no luck. Don't get eaten.", "On pourrait penser que je pourrais en obtenir un d'un chasseur local, mais ils n'ont pas eu de chance. Ne te fais pas manger.", "_t")
-t("ice wyrm tooth", "dent de ver de glace", "entity name")
+t("ice wyrm tooth", "dent d'ancien dragon de glace", "entity name")
 t("This tooth has been blunted with age, but still looks more than capable of doing its job.", "Cette dent a été émoussée par l'âge, mais elle semble toujours plus que capable de faire son travail.", "_t")
-t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "Les dragonnets de glace perdent leurs dents assez souvent, donc vous pourriez être chanceux et ne pas avoir à vous battre avec l'un d'eux. Mais habillez-vous chaudement, au cas où.", "_t")
+t("Ice Wyrms lose teeth fairly often, so you might get lucky and not have to do battle with one. But dress warm just in case.", "Les anciens dragons de glace perdent leurs dents assez souvent, donc vous pourriez être chanceux et ne pas avoir à vous battre avec l'un d'eux. Mais habillez-vous chaudement, au cas où.", "_t")
 t("red crystal shard", "éclat de cristal rouge", "entity name")
 t("Tiny flames still dance ethereally inside this transparent crystal, though its heat seems to have faded... you hope.", "De minuscules flammes dansent encore de manière éthérée à l'intérieur de ce cristal transparent, bien que sa chaleur semble s'être évanouie... vous l'espérez.", "_t")
 t("I hear these can be found in a cave near Elvala. I also hear that they can cause you to spontaneously combust, so no need to explain if you come back hideously scarred.", "J'ai entendu dire qu'on pouvait les trouver dans une grotte près d'Elvala. J'ai aussi entendu dire qu'ils peuvent provoquer une combustion spontanée, donc pas besoin d'expliquer si vous revenez avec une vilaine cicatrice.", "_t")
-t("vial of fire wyrm saliva", "flacon de salive de ver de feu", "entity name")
+t("vial of fire wyrm saliva", "flacon de salive d'ancien dragon de feu", "entity name")
 t("Clear and slightly thicker than water. It froths when shaken.", "Transparent et légèrement plus épais que l'eau. Elle mousse lorsqu'on la secoue.", "_t")
 t("Keep this stuff well away from your campfire unless you want me to have to find a new, more alive adventurer.", "Gardez ce truc bien loin de votre feu de camp, à moins que vous ne vouliez que je doive trouver un nouvel aventurier plus vivant.", "_t")
 t("chunk of ghoul flesh", "morceau de chair de goule", "entity name")
@@ -11608,7 +11604,7 @@ t("If you get bitten, I can save your life if you still manage to bring back the
 t("snow giant kidney", "rein de géant des neiges", "entity name")
 t("As unpleasant-looking as any exposed organ.", "Aussi désagréable à regarder que n'importe quel organe à découvert.", "_t")
 t("I suggest not killing the snow giant by impaling it through the kidneys. You'll just have to find another.", "Je suggère de ne pas tuer le géant des neiges en l'empalant dans les reins. Vous devrez juste en trouver un autre.", "_t")
-t("storm wyrm claw", "griffe de ver de l'orage", "entity name")
+t("storm wyrm claw", "griffe d'ancien dragon de l'orage", "entity name")
 t("Bluish and wickedly sharp. It makes your arm hair stand on end.", "Bleuâtre et méchamment pointu. Ça fait dresser les poils de vos bras.", "_t")
 t("I recommend severing one of their dewclaws. They're smaller and easier to remove, but they've never been blunted by use, so be careful you don't poke yourself. Oh yes, and don't get eaten.", "Je recommande de couper un de leurs ergots. Ils sont plus petits et plus faciles à enlever, mais ils n'ont jamais été émoussés par l'usage, alors faites attention à ne pas vous piquer. Oh oui, et ne vous faites pas manger.", "_t")
 t("green worm", "ver vert", "entity name")
@@ -11682,8 +11678,8 @@ t("Toggle automatic accept target option", "Basculer l'option d'acceptation auto
 ------------------------------------------------
 section "mod-tome/data/lore/age-allure.lua"
 
-t("age of allure", "ère de la séduction", "newLore category")
-t("research log of halfling mage Hompalan", "journal de recherche du mage halfelin Hompalan", "_t")
+t("age of allure", "Ère de la séduction", "newLore category")
+t("research log of halfling mage Hompalan", "Journal de recherche du mage halfelin Hompalan", "_t")
 t([[#{bold}#Hompalan's Log Entry1#{normal}#
 #{italic}#Age of Allure Year 4537#{normal}#
 
@@ -11858,7 +11854,7 @@ Le sujet Z a disparu ! C'est terrible ! Ce n'était même pas pendant un transit
 
 Les militaires m'agacent au plus haut point. Je leur ai dit de me trouver immédiatement d'autres sujets de test, mais ils m'ont donné des excuses au sujet de patrouilles ennemies dans la zone. Croient-ils que je me soucie de choses aussi triviales ?! Et voilà qu'à présent je les entends s'entraîner au combat dans les couloirs. Ils grognent même et poussent de faux cris de bataille comme des enfants stupides. Ne réalisent-ils pas l'importance de cette installation ? Ne peuvent-ils comprendre à quel point mon génie est perturbé par---
 ]], "_t")
-t("order for director Hompalan", "ordre pour le directeur Hompalan", "_t")
+t("order for director Hompalan", "Ordre pour le directeur Hompalan", "_t")
 t([[#{italic}#To: Research Director Hompalan - #{bold}#TOP PRIORITY#{normal}#
 
 Thanks to one of our scouting parties catching a Conclave lieutenant's squad off-guard, we have found directions to a noteworthy laboratory hidden underground, in what's newly Nargol territory.  Unfortunately, the long-legs scuttled the entrances before we could arrive, and it'd take us years to dig ourselves in, even if we could afford recalling our geomancers from the front lines to work on it - which we can't.  
@@ -11885,7 +11881,7 @@ Je sais que vous vous considérez "au-dessus" de ces "politiques mesquines", tel
 t("Door to an old Conclave vault", "Porte vers une ancienne chambre forte du Conclave", "_t")
 t("Conclave Vault", "Chambre Forte du Conclave", "_t")
 t("Arriving at the location given by the coordinates, you see an enormous crack in the ground; peering down, the gleam of exposed metal catches your eye, and you recognize it as a massive door.  It would seem that the Cataclysm's tectonic upheaval has carved a path right to one of its entrances, bypassing the ruined tunnels entirely. You climb down, just outside the door.", "En arrivant au lieu indiqué par les coordonnées, vous apercevez une fissure immense dans le sol ; en scrutant vers le bas l'éclat d'un métal à découvert attire votre regard, et vous reconnaissez une porte massive. Il semblerait que le bouleversement tectonique du Cataclysme ait creusé un chemin directement jusqu'à l'une de ses entrées, contournant entièrement les tunnels en ruine. Vous descendez, juste devant la porte.", "_t")
-t("healer Astelrid log 1", "journal 1 du guérisseur Astelrid", "_t")
+t("healer Astelrid log 1", "Journal du guérisseur Astelrid, partie 1", "_t")
 t([[Work in a hospital like this is more draining than I thought it'd be.  I thought I'd have no trouble with motivation, helping our wounded get back to health again, but seeing so many of them, and knowing there are some I cannot help...  it weighs heavily on my mind.  It would be difficult to go on, if I did not keep a few things in mind: 
 
 One, that I am truly doing the best I can to minimize the world's suffering, both directly by healing, and indirectly by ensuring that the world will be united under the wise, thoughtful rule of the Conclave.  Ready access to regeneration infusions ensures that even the most dire of wounds can be healed in a matter of days, and the soldiers can return to the battlefield; furthermore, the Overseers have granted us access to their amnesia-inducing spells, allowing us to properly treat those who have been traumatized by the horrors of battle.  May the eyes of the Higher watch over this world for thousands of years to come.
@@ -11907,7 +11903,7 @@ Et troisièmement, que la guerre sera bientôt terminée, et qu'avec elle nous n
 "C'est votre dernière chance de reculer. Une grande tragédie s'ensuivra si vous continuez à pousser plus avant, et n'acceptez pas nos conditions de résolution pacifique précédemment énoncées. Ne nous forcez pas à en arriver là."
 
 Après avoir mené une guerre de ruse et de tromperie, ces halfelins pensent pouvoir nous bluffer ! Une fois leur armée brisée, nous pourrons accueillir leurs citoyens en notre sein et les éclairer, et alors la véritable guérison pourra commencer.]], "_t")
-t("healer Astelrid log 2", "journal 2 du guérisseur Astelrid", "_t")
+t("healer Astelrid log 2", "Journal du guérisseur Astelrid, partie 2", "_t")
 t([[The Nargol were not bluffing, and what they did was worse than anything we could've imagined.  The details coming from the survivors - of which there are both far too many and far too few - are conflicting at times, but from what I can tell...
 
 As our forces began their final push, the ground began to rumble and give way behind them, and the bones of the war's fallen (halflings and Conclave alike) began to rise up, then draw their once-discarded weapons and rush at our soldiers in a frenzy.  There were so many...  those who were on higher ground when it happened said it was like a sea of bones and rotting flesh.  Outnumbered, our forces broke ranks and tried to retreat, but with the halflings in front of them and the abominations behind them, we took tremendous losses...  and our humble medical center is overflowing with the gravely wounded.  Many come to us with a terrible sickness passed on by the Nargol's ghouls; there is no cure for this, and I have already had to "mercifully" end the lives of over a dozen men and women to save them from a long, drawn-out death, ending in their transfiguration into one of those horrid creatures...  including--
@@ -11925,7 +11921,7 @@ Alors que nos forces entamaient leur poussée finale le sol s'est mis à gronder
 Non... les véritables créatures horribles ici sont les halfelins. Nous avions déjà vu de la nécromancie auparavant, mais surtout comme un tour de charlatan pratiqué par des cultes dérangés ; jamais nous n'aurions imaginé qu'une organisation d'une telle envergure la tolérerait, et encore moins qu'elle dissimulerait des amulettes nécromantiques sur chacun de ses officiers gradés. Ils avaient prévu cela depuis le début de la guerre, et n'ont déclenché le piège que maintenant... Tous les doutes que j'avais concernant l'agressivité liée à notre nouveau traitement se sont dissipés à jamais ; nous ne pouvons être assez féroces pour purger ces démons de Maj'Eyal. J'ai demandé une audience auprès des Superviseurs afin d'élargir la portée de nos expériences, en visant plus haut afin que nous puissions écraser cet empire maléfique aussi rapidement que possible.
 
 Que le Conclave l'emporte, et que le destin de l'Empire serve d'avertissement à tous ceux qui oseraient défier notre sagesse.]], "_t")
-t("healer Astelrid log 3", "journal 3 du guérisseur Astelrid", "_t")
+t("healer Astelrid log 3", "Journal du guérisseur Astelrid, partie 3", "_t")
 t([[The Overseers were ecstatic about my ideas!  Our staff have been relocated to a more secure location, deep underground with several extensive tunnels leading in from different locations.  Although this means we can no longer leave to harvest herbs for our infusions, the increased budget the Overseers have given us does more than enough to compensate.  Many wounded are still brought to me through the tunnels, but now our goal is not simply to make them as strong and healthy as they were before, but far stronger and far healthier than they could've dreamed.  They are brought to us unconscious, with amnesia spells already applied to ensure they do not resist our experiments; although they are not told they will be test subjects before being brought here, we are sure they would consent to these experiments, if they knew how valuable they were to help the Conclave.  As such, although this process violates several oaths we have taken as healers, I ultimately do not see any moral problem with this, and nobody else at this facility has expressed any concerns to me.  After all, those who join the Conclave as soldiers have already volunteered to give their lives in service to the Overseers' enlightened rule, and this is surely a much more productive way to do so than dying to a Nargol sling-bullet.
 
 With access to better components, we can make the same basic improvements to their strength as we could before, but the changes do not stop there!  With so many subjects to work with, and the Overseers' encouragement to take risks, we've made them much larger (with associated multiplying effects on their effectiveness in combat), and reinforced their constitution to be capable of bearing more inscriptions without collapsing under the stress.  A fellow researcher had the brilliant idea to use this runic affinity to both enhance their connection to magic's weave, and make them biologically and structurally dependent on it; now, our front-line soldiers can conjure devastating fireballs with little training, and should those hairy-footed vermin attempt to raise one of these soldiers from the dead, they will collapse, having lost the magic that kept them intact when they still lived.  
@@ -11945,7 +11941,7 @@ Ces Ogres s'intègrent très bien à notre armée ! Les soldats de rang savent q
 
 Pour l'essentiel, cependant, notre travail de recherche est achevé. Il ne reste plus qu'à obtenir une réponse des Superviseurs quant à savoir s'il faut augmenter leur taux de natalité ou non (actuellement fixé très bas par précaution contre une surpopulation future), et à améliorer l'entraînement que nous donnons aux Ogres nouvellement créés pour la magie runique, étant donné qu'un entretien régulier de leurs runes est nécessaire pour les maintenir en vie. Cela ne signifie pas pour autant que notre personnel soit oisif ! Certains d'entre nous ont conçu un projet pour l'après-guerre - une modification de nos cuves de croissance expérimentales, les rendant capables de maintenir indéfiniment une personne de biologie ogrique dans un état "endormi" où elle ne vieillit ni ne meurt de faim. Nous pourrions installer des cuves remplies de ces Ogres "endormis" stationnées près de ponts nécessitant un entretien régulier, entreposées dans des arsenaux de réserve, ou tout autre lieu où l'on aurait besoin d'un lot de travailleurs ou de gardes fiables, sans avoir à supporter tous les autres coûts associés à l'entretien de citoyens supplémentaires.
 ]], "_t")
-t("healer Astelrid log 4", "journal 4 du guérisseur Astelrid", "_t")
+t("healer Astelrid log 4", "Journal du guérisseur Astelrid, partie 4", "_t")
 t([[Announcement to All Staff:
 
 I'm sure you've all heard the rumors about what our scryers saw, and why we've been on lockdown the past few days; it is with a heavy heart that I must confirm that they are true.  The Nargol have taken the land above our facility, and are combing the area with golems to find the entrances.  We've already lost one entrance to the failsafe explosive-rune traps set in place to collapse it, and now they'll be looking to defuse those as well.  In short, we have no means of escape, and if allowed the time, they will find the way in, kill us, and steal our precious work for themselves.  The Empire has been enough of a problem without Ogres; we CANNOT take the risk of them finding us and tipping the balance in their favor.
@@ -12117,7 +12113,7 @@ Mais on ne vieillira pas en dormant dans ces ruines millénaires#{normal}#
 ------------------------------------------------
 section "mod-tome/data/lore/age-pyre.lua"
 
-t("age of pyre", "ère du bûcher", "newLore category")
+t("age of pyre", "Ère du bûcher", "newLore category")
 t("Atamathon, the giant golem", "Atamathon, le golem géant", "_t")
 t([[This giant golem was constructed by the Halflings during the Pyre Wars to fight the orcs, but was felled by Garkul the Devourer.
 Its body is made of marble, its joints of solid voratun, and its eyes of purest ruby. One of its eyes seems to be missing. At over 40 feet high it towers above you.
@@ -12128,6 +12124,7 @@ Quelqu'un d'imprudent a tenté de le reconstruire, mais il semble qu'il lui manq
 ------------------------------------------------
 section "mod-tome/data/lore/angolwen.lua"
 
+t("angolwen", "Angolwen", "newLore category")
 t("Lecture on Humility by Archmage Linaniil", "Conférence sur l'Humilité par l'Archimage Linaniil", "_t")
 t([[It were some years now since twain of our brightest students left Angolwen, sullied by our veil of secrecy and our silent duty. It still lies heavy on mine heart to think of what they could accomplish within our private circle. I but hope that one day they whilst return, and they whilst understand the reasons behind our solemn mission.
 
@@ -12235,15 +12232,11 @@ PUISSIONS-NOUS AVOIR LA SAGESSE DE RÉUNIR UN JOUR LE MONDE DANS LA SÛRETÉ ET 
 BIENVENUE À TOUS CEUX QUI PRÉVIENNENT LES MENACES DE L'AVENIR
 
 RASSEMBLEZ-VOUS ICI EN PAIX POUR DÉCOUVRIR ET PARFAIRE LE SAVOIR DE COMMENT, ET QUAND, TISSER LA TRAME DU MONDE]], "_t")
--- texte non traduit
---[==[
-t("angolwen", "angolwen", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/ardhungol.lua"
 
+t("ardhungol", "Ardhungol", "newLore category")
 t("Rashim Journal (1)", "Journal de Rashim (1)", "_t")
 t([[#{bold}#Journal Entry I#{normal}#
 
@@ -12311,15 +12304,11 @@ t([[#{italic}#A few tattered scraps of paper lie on the ground, ruined from your
 "...pheromone signals effective on much Eyalite wildlife ineffective on species 'sun paladin.'  at current planetary core cooling rates, passive study would lead to great loss - next step of emigration program should be cleaning of local 'sun paladin' nest and establishment of..."]], [[#{italic}#Quelques morceaux de papier déchirés gisent au sol, abîmés par votre combat contre la créature qui les portait. Ils sont presque totalement illisibles, mais vous parvenez à en reconstituer une partie et à lire :#{normal}#
 "...signaux phéromonaux efficaces sur la majeure partie de la faune eyalite, inefficaces sur l'espèce 'paladin solaire'. Aux taux actuels de refroidissement du noyau planétaire, une étude passive entraînerait de lourdes pertes - la prochaine étape du programme d'émigration devrait être le nettoyage du nid local de 'paladin solaire' et l'établissement de..."]], "_t")
 t("#{italic}#This pile of tattered paper could theoretically be assembled into something legible, but without more text to draw back on, it'd still be in a language you could never interpret.  If only you had more Spydric text to help translate this...#{normal}#", "#{italic}#Cette pile de papier déchiré pourrait théoriquement être reconstituée en un texte lisible, mais sans davantage de matière sur laquelle vous appuyer, il resterait rédigé dans une langue que vous ne pourriez jamais interpréter. Si seulement vous aviez davantage de texte Spydric pour vous aider à le traduire...#{normal}#", "_t")
--- texte non traduit
---[==[
-t("ardhungol", "ardhungol", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/arena.lua"
 
+t("arena", "Arena", "newLore category")
 t("Arena for dummies", "L'arène pour les nuls", "_t")
 t([[#{italic}#You find a note with some highlighted words...
 #{bold}#SCORING IN THE ARENA
@@ -12353,17 +12342,12 @@ Toutes les quelques rondes, une ronde de mini-boss surviendra. Après deux ronde
 #YELLOW#Profitez du piège au centre de l'arène !
 Bonne chance !
 ]], "_t")
--- texte non traduit
---[==[
-t("arena", "arena", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/blighted-ruins.lua"
 
-t("blighted ruins", "ruines délabrées", "newLore category")
-t("note from the Necromancer", "note du Nécromancien", "_t")
+t("blighted ruins", "Ruines délabrées", "newLore category")
+t("note from the Necromancer", "Note du Nécromancien", "_t")
 t("Work on my glorious project has been delayed. This displeases me. The fools from the nearby village are starting to suspect my presence, and have begun guarding their graveyards and cemeteries closely. Whatever meagre remains I can steal away are often too rotted or insubstantial to use for my project, so I have no choice but to use them as sub-par minions instead. Perhaps they will sow enough conflict and discord so that new, fresher remains will become available...", "Le travail sur mon glorieux projet a pris du retard. Cela me déplaît. Les imbéciles du village voisin commencent à soupçonner ma présence, et se sont mis à surveiller étroitement leurs nécropoles et cimetières. Les maigres restes que je parviens à dérober sont bien souvent trop putréfiés ou trop insubstantiels pour servir à mon projet, aussi n'ai-je d'autre choix que de les employer comme sbires de second ordre. Peut-être sèmeront-ils assez de conflit et de discorde pour que de nouveaux restes, plus frais, deviennent disponibles...", "_t")
 t("The cloak of deception is complete! Truly my finest work, not counting my project of course, it allows my minions to walk amongst the living without arousing their suspicions at all. Already I have taken a stroll to a nearby town alongside a ghoulish thrall, wrapped in the cloak... hah! The fools didn't even bat an eyelid! With this item, acquisition of components for my project shall be all the more simple.", "La cape de supercherie est achevée ! Assurément mon plus bel ouvrage, mon grand projet mis à part, elle permet à mes sbires de marcher parmi les vivants sans éveiller le moindre soupçon. Je me suis déjà rendu dans une ville voisine, accompagné d'un thrall goule enveloppé dans la cape... hah ! Ces imbéciles n'ont même pas cillé ! Grâce à cet objet, l'acquisition des composants pour mon projet n'en sera que plus aisée.", "_t")
 t("Fate smiles upon me. What did I come across today but the body of an unfortunate %s? Unfortunate indeed, but rather fortunate for me. The body displays next to no decomposition... it shall be perfect! With this new minion and the cloak of deception, the completion of my project is all but assured. I must prepare for the ritual... my dark menagerie shall soon have a new member.", "Le destin me sourit. Que n'ai-je découvert aujourd'hui, sinon le corps d'un malheureux %s ? Malheureux, certes, mais fort chanceux pour moi. Le corps ne présente presque aucune décomposition... il sera parfait ! Avec ce nouveau laquais et la cape de supercherie, l'achèvement de mon projet est quasiment assuré. Je dois me préparer pour le rituel... ma sombre ménagerie comptera bientôt un nouveau membre.", "tformat")
@@ -12372,7 +12356,8 @@ t("My masterpiece walks! It is glorious, beautiful. While it remains unfinished,
 ------------------------------------------------
 section "mod-tome/data/lore/daikara.lua"
 
-t("expedition journal entry (daikara)", "entrée de journal d'expédition (daikara)", "_t")
+t("daikara", "Daikara", "newLore category")
+t("expedition journal entry (daikara)", "Entrée de journal d'expédition (daikara)", "_t")
 t([[#{bold}#Relle, Cornac Fighter & Expedition Captain#{normal}#
 Nothing but hatchlings so far. Honestly, if this keeps up we won't have enough dragonhide to cover a dragon, let alone cover our losses. I've really spared no expense this time as well: Gorran is one of the finest rangers I know, and Sodelost... his prices are exorbitant, but then what else would you expect from those money-grubbing dwarven Thronesmen? I must admit I don't know much about Xann. The locals say there's no finer wyrmic in the area, and I admit she is something special in combat. Now, if only she could turn her draconic talents to FINDING some dragons!]], [[#{bold}#Relle, Capitaine d'Expédition & Guerrière Cornac#{normal}#
 Rien que des nouveau-nés jusqu'à présent. Honnêtement, si cela continue ainsi, nous n'aurons pas assez de peau de dragonnets pour couvrir un seul dragon, encore moins pour couvrir nos pertes. Je n'ai vraiment lésiné sur rien cette fois non plus : Gorran est l'un des meilleurs rôdeurs que je connaisse, et Sodelost... ses tarifs sont exorbitants, mais que peut-on attendre d'autre de ces nains cupides du Trône de Fer ? Je dois avouer que je ne connais pas grand-chose de Xann. Les gens du coin disent qu'il n'y a pas meilleure draconienne dans la région, et je reconnais qu'elle est exceptionnelle au combat. Maintenant, si seulement elle pouvait tourner ses talents draconiques vers la découverte de quelques dragons !]], "_t")
@@ -12408,15 +12393,11 @@ I might not know a great deal about artifice, but I know how wild animals work, 
 Il sait que nous sommes ici. Xann a disparu, et je dois craindre le pire. Trop tard pour fuir. Il ne reste qu'une option, une engeance que Sodelost nous avait assuré pouvoir utiliser pour porter le coup fatal... dommage qu'il n'ait laissé aucune instruction, on ne sait pas clairement comment l'armer, et je ne tiens pas à ajouter "être entièrement gelée" à ma liste de soucis du jour.
 Je ne connais peut-être pas grand-chose aux artifices, mais je sais comment fonctionnent les bêtes sauvages, et malgré tous les éloges qu'on leur fait, les dragons ne valent pas mieux. Je n'ai pas besoin de savoir monter ce dispositif pour qu'il se déclenche quand la bête marchera dessus - il me suffit de le placer dans quelque chose qu'elle avalera tout entier...
 #{italic}#À en juger par l'état intact de cette note et son emplacement soigné près d'un sac couvert de viscères animales variées, le dragon a non seulement évité de déclencher le piège, mais l'a conservé comme trophée. À l'intérieur du sac se trouve un piège désarmé, comprenant quelques flacons alchimiques reconnaissables, et un moyen de les mélanger dans les bonnes proportions lorsqu'une plaque de pression est déclenchée, afin de produire une explosion de glace. Comprendre comment l'armer est presque aussi facile que d'apprendre à en fabriquer d'autres semblables.#{normal}#]], "_t")
--- texte non traduit
---[==[
-t("daikara", "daikara", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/derth.lua"
 
+t("derth", "Derth", "newLore category")
 t("Beam Trap", "Piège à Rayon", "_t")
 t([[#{italic}#A villager runs up to you, carrying a hefty looking sack.#{normal}#
 You've saved us from the storms!  We can't ever repay you enough, but, well...  Shortly after you stopped them, a witch approached us and offered us some...  magical #{italic}#things#{normal}# and said they would protect our town if anything like that happened again.
@@ -12425,17 +12406,12 @@ It's not that I don't trust her, not after you and they - mostly you! - saved us
 Vous nous avez sauvés des tempêtes ! Nous ne pourrons jamais assez vous en remercier, mais, eh bien... Peu après que vous les ayez arrêtées, une sorcière est venue nous voir et nous a offert quelques... #{italic}#choses#{normal}# magiques, en disant qu'elles protégeraient notre ville si pareil événement se reproduisait.
 Ce n'est pas que je ne lui fais pas confiance, surtout après que vous et eux - vous surtout ! - nous ayez sauvés, mais... je ne me sens tout simplement pas à l'aise d'avoir tout ce matériel arcanique autour de nous en permanence. Aucun de nous ne l'est. Si vous en avez l'usage, elles sont volontiers à vous.
 #{italic}#Il vous tend un sac contenant plusieurs dizaines de ce même étrange objet magique ; y est joint un guide expliquant comment les utiliser et en fabriquer d'autres, rédigé pour des utilisateurs totalement néophytes en magie. Apparemment, ils sont conçus pour être montés sur les murs et les toits, et tenteront de neutraliser sans tuer les envahisseurs extérieurs tout en envoyant un signal de détresse à Angolwen. Avec quelques ajustements, vous pourriez les rendre mortels à la place (et éviter au passage d'importuner Angolwen).#{normal}#]], "_t")
--- texte non traduit
---[==[
-t("derth", "derth", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/dreadfell.lua"
 
-t("dreadfell", "tombeffroie", "newLore category")
-t("note from the Master", "note du Maître", "_t")
+t("dreadfell", "Tombeffroie", "newLore category")
+t("note from the Master", "Note du Maître", "_t")
 t([[MINIONS: Perhaps you feel your Master has been lax or absent? Well, I shall amend that. I have been studying an object of great import. It is of much greater interest than your foolish unlives. But do not think that I will let you get away with things because of this.
 
 Skeletons, you have been getting noticeably behind in your adventurer slaughtering quotas. The next skeleton archer I see drinking coffee and chatting with the wights shall be rent limb from limb and fed to the orcs. Also, as a punishment for your general laxness, 1,000 skeletons shall be remanded down to Kor'Pul as punishment. A further 250 shall be slaughtered. These orders to be carried out by myself tomorrow at 3am.]], [[SBIRES : Peut-être avez-vous le sentiment que votre Maître a été négligent ou absent ? Eh bien, j'y remédierai. J'ai étudié un objet de grande importance, bien plus digne d'intérêt que vos stupides existences mortes-vivantes. Mais ne croyez pas que je vous laisserai vous en tirer pour autant.
@@ -12525,11 +12501,11 @@ Against the blindness of pride
 Death will catch thee up]], [[Nul bâton ne te sauvera
 Contre l'aveuglement de l'orgueil
 La mort te rattrapera]], "_t")
-t("a note about undead poetry from the Master", "une note du Maître sur la poésie morte-vivante", "_t")
+t("a note about undead poetry from the Master", "Une note du Maître sur la poésie morte-vivante", "_t")
 t("As an aside, I notice one of my skeletons has amused himself by writing a poem about me. Whilst my first reaction was to have his bones crunched into dust and what remained of his undead soul sent to the darkest depths of the abyss, I do now realise that there is some merit to this. Every great leader needs tales penned of his brilliant conquest. Therefore I now command you all to write more poetry in my honour, praising my amazing powers, unrivalled leadership, unconquerable strength, etc etc. Any that fail to produce works of sufficient standard shall be annihilated.", "Soit dit en passant, je remarque qu'un de mes squelettes s'est amusé à écrire un poème sur moi. Bien que ma première réaction ait été de faire broyer ses os en poussière et d'envoyer ce qui restait de son âme morte-vivante dans les plus sombres profondeurs de l'abîme, je réalise à présent qu'il y a là quelque mérite. Tout grand chef a besoin de récits vantant sa brillante conquête. Je vous ordonne donc désormais à tous d'écrire davantage de poèmes en mon honneur, louant mes pouvoirs stupéfiants, mon sens du commandement sans égal, ma force inconquérable, etc., etc. Quiconque manquera de produire des oeuvres d'un niveau insuffisant sera anéanti.", "_t")
-t("slain master", "maître tué", "_t")
+t("slain master", "Maître tué", "_t")
 t("A powerful staff is grabbed from the Master's dead hands.", "Un puissant bâton est arraché des mains mortes du Maître.", "_t")
-t("a letter to Borfast from the Master", "une lettre du Maître à Borfast", "_t")
+t("a letter to Borfast from the Master", "Une lettre du Maître à Borfast", "_t")
 t([[Ah, my dear Borfast, welcome to your glorious undeath! Your armour a cage, your hopes despair, your axe enslaved to my will, your soul mine to feast upon. How does it feel? Rather lovely I like to imagine! You were a valiant opponent, and though you were little threat to me I do like to honour you with this special treatment. And you do like honour, don't you? I know you wished to honour your people by defeating me and destroying my tower, but I'm sure you realise now that it was a rather vain endeavour.
 
 I apologise for what happened to that lovely suit of plate. I know it got a little... worn... during the treatment. But I'm afraid I really did need to find out the locations of your companion, and certain pressures had to be applied. You weren't very talkative, now were you? But I soon made you sing, oh yes. Of course, I could have just used a little divination magic to find out what I wanted, but I do so enjoy a good torture... And my, how joyous your screams were whenever the acid splashed against your beard! Hoh, we did chortle, did we not? But no matter, I've had my best skeletal smiths work on fixing your armour, fit to be worn by my new champion.
@@ -12547,7 +12523,7 @@ J'espère que tu apprécieras ton nouveau travail. Aborde-le avec entrain, ce ge
 D'ici là, profite bien du travail, tâche de garder les lieux propres, et souviens-toi - je te possède pour toujours.
 
 - Le Maître]], "_t")
-t("a letter to Aletta from the Master", "une lettre du Maître à Aletta", "_t")
+t("a letter to Aletta from the Master", "Une lettre du Maître à Aletta", "_t")
 t([[Ah, sweet Aletta! How rich your blood tasted on my lips! I know it's not quite what you were expecting from the next step in our relationship, but aren't surprises the true joy of any romance?
 
 I don't blame you for falling for me, you know, even to the point of betraying all your companions just for me. Women have always had a weakness for my brooding personality and sparkling wit. Even in life I was quite the charmer, and death only improves things, I assure you. I really do have the reputation as a heartbreaker, in more ways than one... Your heart shall now sit in a special place, next to the rest of the offal in my pits.
@@ -12565,7 +12541,7 @@ Merci de m'avoir révélé les faiblesses de Borfast - cela rendra la défaite d
 Tu dois te sentir un peu trahie, bien sûr. Je t'avais promis un pouvoir au-delà de ton imagination, et à la place, j'ai drainé ton sang, nourri mes serviteurs de ta chair, et asservi ton âme à mes ordres. Eh bien, nous avons tous parfois du mal à gérer nos attentes, n'est-ce pas ? Sois au moins heureuse que j'aie laissé ton essence torturée errer dans les froides forteresses de mon repaire, hantant quiconque serait assez sot pour l'envahir. Et je te transmettrai un peu de pouvoir, et il est en effet au-delà de ton imagination, car ton esprit ne pourrait jamais atteindre les lieux sombres où je peux, moi, aller. Mais ouvre les yeux à présent, car de tels lieux sombres t'accompagneront jusqu'à la fin des temps... Bienvenue, en effet, dans le lieu sombre de mon coeur.
 
 - Le Maître]], "_t")
-t("a letter to Filio from the Master", "une lettre du Maître à Filio", "_t")
+t("a letter to Filio from the Master", "Une lettre du Maître à Filio", "_t")
 t([[Oh Filio, what a fun game we have had of cat and mouse! Well, perhaps to you it was a life and death struggle, but for me this past three weeks of patiently hunting you through my halls has been the most entertaining of past-times. I have enjoyed extending the game so, letting you escape my clutches when I felt it most prudent, watching as you got ever more desperate. Alas, you have now degraded too much, and it was simply too embarrassing watching you eat your own faeces to survive. I had to put an end to it - I'm sure you understand.
 
 But ah, it's not truly an end, for you get to experience the wonder of undead enslavement! Is it not most exciting? Do your bones not quiver with delight? It is just your bones now, since I have a certain fondness for skeletal servants, but I have been nice enough to pad your heels with leather so you can still sneak about quietly. How you did love to sneak! Now you may spend an eternity doing so, ensuring any future trespassers get quite the surprise wandering through my great keep.
@@ -12584,7 +12560,7 @@ t("#0080FF#On the back of the letter you can just make out a coarsely scrawled a
 ------------------------------------------------
 section "mod-tome/data/lore/elvala.lua"
 
-t("spellblaze", "brûlure magique", "newLore category")
+t("spellblaze", "Brûlure magique", "newLore category")
 t("The Spellblaze Chronicles(1): A Fateful Meeting", "Les Chroniques de la Brûlure Magique (1) : Une Rencontre Fatidique", "_t")
 t([[#{italic}#From the memoirs of Aranion Gawaeil, leader of the Grand Council of Elvala#{normal}#
 
@@ -13515,14 +13491,14 @@ Mais ah, cela est une autre histoire, l'une parmi tant d'autres, dans la longue 
 ------------------------------------------------
 section "mod-tome/data/lore/fearscape.lua"
 
-t("fearscape", "plan de la peur", "newLore category")
-t("a fearsome sight", "une vision terrifiante", "_t")
+t("fearscape", "Plan de la peur", "newLore category")
+t("a fearsome sight", "Une vision terrifiante", "_t")
 t([[You stand in a field of fire, the flames dancing back and forth like blaze-spawned corn waving in the wind. It licks your feet, your skin, your face, and writhes around in tiny shapes which tear across your flesh and crawl down your throat. It burns and blazes through your body, and crazed thoughts fill your mind. This is Goedalath they tell you, the Fearscape, and you have no rightful place here.
 
 In the distance you see looming, demonic shapes of absolute darkness, towering above the blazing land like wardens of doom. The sky is black, but above your head hangs a round world that you recognise as Eyal. Across the burning plains gather armies of fiendish figures, and glowing eyes turn up with hateful glowers to your home world. Suddenly both you and it and seem small and frail. As the flames fill your body with pain your only thought is of escape.]], [[Vous vous tenez dans un champ de feu, les flammes dansant d'avant en arrière comme des épis de maïs nés du brasier ondulant au vent. Le feu lèche vos pieds, votre peau, votre visage, et se tord en minuscules formes qui déchirent votre chair et rampent dans votre gorge. Il brûle et embrase tout votre corps, et des pensées démentes envahissent votre esprit. C'est Goedalath, vous dit-on, le Plan de la peur, et vous n'y avez aucune place légitime.
 
 Au loin, vous apercevez des silhouettes démoniaques, imposantes, faites de ténèbres absolues, se dressant au-dessus des terres embrasées comme des gardiens de la fatalité. Le ciel est noir, mais au-dessus de votre tête pend un monde rond que vous reconnaissez comme étant Eyal. À travers les plaines brûlantes se rassemblent des armées de silhouettes démoniaques, et des yeux luisants se tournent avec une haine ardente vers votre monde natal. Soudain, vous-même et lui semblez tout deux petits et fragiles. Tandis que les flammes emplissent votre corps de douleur, votre seule pensée est de fuir.]], "_t")
-t("sacrificial altar", "autel sacrificiel", "_t")
+t("sacrificial altar", "Autel sacrificiel", "_t")
 t([[You see a female human lying unconscious on a black altar, twisted sigils scored into her naked flesh.
 Around her are several figures in dark robes.
 
@@ -13534,8 +13510,8 @@ En vous remarquant, l'une d'elles s'écrie : "Intrus ! Protégez la graine de Kr
 ------------------------------------------------
 section "mod-tome/data/lore/fun.lua"
 
-t("misc", "divers", "newLore category")
-t("trollish poem", "poème troll", "_t")
+t("misc", "Divers", "newLore category")
+t("trollish poem", "Poème troll", "_t")
 t([[#{bold}#"Me Likes to Club"
 
 #{italic}#Club club club,
@@ -13597,7 +13573,7 @@ Tape tape tape,
 Prends de la bouffe !
 Quand la faim arrive,
 Moi aime taper !#{normal}#]], "_t")
-t("necromancer poem", "poème de nécromancien", "_t")
+t("necromancer poem", "Poème de nécromancien", "_t")
 t([[#{bold}#"The Necromancer's Canticle"
 
 #{italic}#Saved from coffin, casket, urn
@@ -13651,7 +13627,7 @@ Du haut de leur perchoir vous nous toisez,
 Le temps viendra où vous vous recroquevillerez,
 Nous régnons sur la mort, le pouvoir, nous le maîtrisons.
 #{normal}#]], "_t")
-t("how to be a necromancer, part 1", "comment devenir nécromancien, partie 1", "_t")
+t("how to be a necromancer, part 1", "Comment devenir nécromancien, partie 1", "_t")
 t([[#{bold}#THE GLORIOUS ART#{normal}#
 
 Have you cast away the feeble pretensions of your society? Does your soul thirst for the taste of real power? Do you wish to have the strength to deny that most prevalent force, death itself? The glorious art of necromancy shall fulfil your wishes in ways you couldn't possibly imagine.
@@ -13673,7 +13649,7 @@ Sachez-le, la nécromancie ne se résume pas à tisser de puissants sorts de Non
 L'entretien des corps eux-mêmes est également important. Certes, cela n'est pas strictement nécessaire, car un enchantement suffisant peut conférer de la mobilité même aux restes les plus délabrés et incomplets, mais s'assurer que les articulations et jointures de vos futurs larbins bougent librement et sans effort réduit considérablement la volonté nécessaire pour leur accorder la réanimation. Cela constitue aussi une base solide et fiable si vous souhaitez entreprendre des projets plus vastes et plus audacieux (voir page 46, Les Géants d'Ossements et Vous).
 
 Toujours pas sûr de ce qu'il faut faire ? Alors souffrez et périssez. La nécromancie ne tolère pas les incapables.]], "_t")
-t("how to be a necromancer, part 2", "comment devenir nécromancien, partie 2", "_t")
+t("how to be a necromancer, part 2", "Comment devenir nécromancien, partie 2", "_t")
 t([[#{italic}#2. Domination Of The Deceased#{normal}#
 
 A contentious issue arises when it comes time to breathe life into your gathered specimens - do you raise them as lifeless drones, or do you bind the souls of the deceased within their vessels once more? There is much disagreement on this between the various movements of necromancers. The Beinagrind method of necromancy extols the torturous imprisonment of the soul as fundamental; the anguish generated by the captive spirit makes for a much more effective undead thrall, they claim. The recently founded Tren? method however disagrees, claiming that allowing souls freedom not only results in more obedient slaves less prone to rising up and slaughtering their masters, but also causes your work to become marginally more acceptable to the unwashed masses. Sure, they'll still thrash you, drag you through town and burn you at the stake if they get the chance, but they'll feel ambivalent about it, by thunder!
@@ -13683,7 +13659,7 @@ Remember, when utilising a runic circle to bend your new minions to your will, m
 Une question controversée se pose au moment d'insuffler la vie dans les spécimens rassemblés : les élever comme de simples pantins sans âme, ou lier de nouveau les âmes des défunts à leur enveloppe ? Un vif désaccord règne à ce sujet entre les divers courants de nécromanciens. La méthode Beinagrind vante l'emprisonnement torturant de l'âme comme un principe fondamental ; l'angoisse générée par l'esprit captif produit, selon eux, un esclave mort-vivant bien plus efficace. La méthode Tren?, récemment fondée, s'y oppose cependant, affirmant que laisser les âmes libres produit non seulement des esclaves plus obéissants, moins enclins à se révolter et à massacrer leurs maîtres, mais rend aussi votre oeuvre légèrement plus acceptable aux yeux des masses ignorantes. Certes, elles vous rosseront quand même, vous traîneront à travers la ville et vous brûleront au bûcher si l'occasion se présente, mais elles ressentiront une certaine ambivalence à ce sujet, ma foi !
 
 Souvenez-vous : lorsque vous utilisez un cercle runique pour soumettre vos nouveaux larbins à votre volonté, assurez-vous au préalable que chaque rune du cercle est correctement enchantée et ne risque pas de s'éteindre. Si l'impensable se produit et que l'un de vos esclaves échappe à votre contrôle, offrez-lui des biens ou de l'équipement en échange de votre vie. Peu de morts-vivants tuent leur créateur après avoir reçu un tel acte de générosité.]], "_t")
-t("how to be a necromancer, part 3", "comment devenir nécromancien, partie 3", "_t")
+t("how to be a necromancer, part 3", "Comment devenir nécromancien, partie 3", "_t")
 t([[#{italic}#3. Unwanted Attention#{normal}#
 
 Sadly, it is not only the peasantry and our "virtuous" archmage cousins that disapprove of our work. Though not entirely understood, necromancy is known to create "ripples" of a sort across the many dimensions, ripples that attract extra-planar attention. As a necromancer's power grows, so do said ripples, until eventually said necromancer finds all manner of demonic force and entity beating down their door, both mentally and physically.
@@ -13697,7 +13673,7 @@ Malheureusement, ce ne sont pas seulement les paysans et nos cousins archimages 
 Là encore, les opinions divergent sur cette interférence démoniaque. La nécromancie est un art si beau et si divergent, n'est-ce pas ? La méthode Tren, considère la corruption du nécromancien par des forces extérieures comme une chose négative, et ses praticiens prennent souvent des mesures pour détourner d'eux l'attention surnaturelle, créant des talismans servant de "conducteurs" spirituels, ou vivant à proximité des communautés qui les méprisent, les essences vitales des masses masquant leurs sombres émanations. La méthode Beinagrind, à l'inverse, accueille avec joie les murmures maudits venus des royaumes démoniaques, y voyant l'achèvement de leur psyché. Ce n'est qu'une fois leur esprit "corrompu" (un terme que les pratiquants de Beinagrind raillent) que les gens réalisent, selon eux, leurs véritables ambitions. Pourquoi ces "véritables ambitions" semblent toujours consister en la destruction totale et absolue de toute vie en ce monde, et l'invocation d'atrocités inconcevables venues des dimensions extérieures, cela reste inexploré.
 
 Vous aurez peut-être remarqué qu'aucune instruction n'a été donnée sur la manière de gérer l'attention du commun des mortels. C'est parce qu'un véritable nécromancien n'en a nul besoin. Ce sont de la vermine, tout juste bonne à être écrasée.]], "_t")
-t("how to be a necromancer, part 4", "comment devenir nécromancien, partie 4", "_t")
+t("how to be a necromancer, part 4", "Comment devenir nécromancien, partie 4", "_t")
 t([[#{italic}#4. Necromancers Of Maj'Eyal#{normal}#
 
 The greatest enemy of the necromancer is other necromancers. Well, apart from the Ziguranth, the Allied Kingdoms, the Shaloren, the Thaloren, the Iron Throne, common townsfolk, undead hunters, adventurers, rogue undead and Linaniil. But apart from them, the greatest enemy of the necromancer is other necromancers. Below is listed the location of many notable necromancers, areas possessing above-average undead activity, and other regions considered unfitting for our designs. Budding practitioners of our art are encouraged to perform their work away from these areas, lest they be recognized as threats or nuisances and are subsequently eradicated.
@@ -13727,7 +13703,7 @@ Le pire ennemi du nécromancien, ce sont les autres nécromanciens. Enfin, à pa
 #{italic}#Zigur#{normal}#: L'ennemi de notre ennemi n'est pas notre ami, dans ce cas précis. Ce qui passe pour de la magie "normale" suffit à plonger le culte qui y réside dans une frénésie psychotique et écumante - la seule présence d'un nécromancien suffirait à provoquer une seconde Ère du Bûcher !
 
 Aucune aide supplémentaire ne vous attend, car nous ne tolérons pas les dépendants. Il ne vous reste plus qu'à prouver que vous êtes digne de pratiquer cet art glorieux...]], "_t")
-t("of halfling feet", "des pieds d'halfelin", "_t")
+t("of halfling feet", "Des pieds d'halfelin", "_t")
 t([[Some men have said that the feet of halflings can nay be harmed, not by fire, blade nor magic. And they do say that this is a truly astounding thing. And some men consider the foot of a halfling to be an item of great luck and protection, and many have one hung above their door or mantle. Though these days 'tis frowned upon to go hunt for one, so 'tis considered a prized heirloom to be passed from father to son.
 
 But women do look upon men and declare them fools. "For how," say they, "Can the foot of a halfling be a lucky thing, when with their large uncomely feet they are not able to wear shoes and footwear of elegant crafts and beauteous materials? And especially 'tis a great misfortune unto them, as with their short stature they could really do with a decent pair of heels..."
@@ -13807,7 +13783,7 @@ Par d'innombrables légendes et gestes
 Attestant sa gloire et sa renommée sans fond
 
 Il parlait de feu, d'orage et de grêle
-Pour rivaliser le plus féroce draconien
+Pour rivaliser avec le plus féroce dragon
 Voir un seul homme détenir un tel pouvoir
 Peut faire trembler un empire entier, c'est certain
 
@@ -13975,10 +13951,10 @@ Quant à savoir comment en détruire réellement une ? Eh bien, je vais vous dir
 ------------------------------------------------
 section "mod-tome/data/lore/high-peak.lua"
 
-t("high peak", "pic supérieur", "newLore category")
-t("closing the void farportal", "fermeture du portail lointain du vide", "_t")
+t("high peak", "Pic supérieur", "newLore category")
+t("closing the void farportal", "Fermeture du portail lointain du vide", "_t")
 t("The void farportal is closed, preventing untold horrors from assaulting Eyal.", "Le portail lointain du vide est fermé, empêchant d'innombrables horreurs d'assaillir Eyal.", "_t")
-t("a blood-soaked resonating diamond", "un diamant résonnant trempé de sang", "_t")
+t("a blood-soaked resonating diamond", "Un diamant résonnant trempé de sang", "_t")
 t([[#{italic}#On touching the still-wet diamond, you find yourself experiencing memories that are not your own, memories that slowly seep into your mind with increasing detail.  You cannot tell if the initial haze covering them is a side-effect of the absorption process, or if it's from being dazed and waking from unconsciousness in these memories...#{normal}#
 
 #FIREBRICK#Pain#LAST#.  Everywhere, but where is worst...
@@ -14008,7 +13984,7 @@ La douleur s'estompe - petit à petit, mes côtes se réparent minute après min
 [...]
 
 J'ai mes théories, aussi troublantes soient-elles, sur ce qui s'empare de moi - ce que je soupçonne avoir déjà invisiblement remplacé mon subconscient, vers quoi je sens constamment mes pensées conscientes dériver lorsque je ne me concentre pas, pourquoi cette capacité à maintenir mon attention consciente sur autre chose semble m'échapper un peu plus à chaque minute. Me suicider ou me faire interner dans un asile d'Angolwen (s'ils étaient assez miséricordieux pour cela) ne sont pas des options - aussi égoïste que cela puisse paraître, je sais que le bonheur que j'apporte à la vie tragique d'Elandar est la seule chose qui le fait tenir. Je crois pouvoir utiliser ce lien, et les pulsions #FIREBRICK#douloureusement contre nature#LAST# qui l'accompagnent... de façon productive, sans briser le coeur de mon amour ni laisser un monde pire derrière moi. Je serai heureuse, Elandar sera heureux, et #FIREBRICK#lui#LAST# sera heureux.]], "_t")
-t("Elandar's journal (1)", "journal d'Elandar (1)", "_t")
+t("Elandar's journal (1)", "Journal d'Elandar (1)", "_t")
 t([[I am increasingly certain that what I gave my love was not the Blood of Life.
 
 Her demeanor has...  changed, but not in the way one would expect.  If I had given her the essence of some god the Sher'Tul wounded and exsanguinated for a trophy, or a blight-ridden demon, or something else that would affect her mental state, I would expect her to start acting oddly - with more cruelty, more arrogance, less #{italic}#humanity.#{normal}#  Instead...  she acts like she knows the world is about to end and can't tell anyone.  She mutters about needing to use the contents of that ruin, one that we still can't even tell Angolwen #{italic}#exists#{normal}#, to bring about a new order of magocracy like the one Tannen wants "before it's too late."  Something is gnawing at her, and she dreads that I may find out what, but otherwise...  she's almost #{italic}#too#{normal}# rational.
@@ -14048,7 +14024,7 @@ ce sera
 #{italic}##FIREBRICK#m a g n i f i q u e#LAST##{normal}#
 
 ]], "_t")
-t("Elandar's journal (2)", "journal d'Elandar (2)", "_t")
+t("Elandar's journal (2)", "Journal d'Elandar (2)", "_t")
 t([[I awoke early this morning to see the love of my life altering the unique farportal we've been building together.  Our plans are all on track so far, the Staff of Absorption has been integrated into the portal so it'll drain Gerlyk the moment it summons him, the orcs are too busy suspecting each other to bother investigating us...  and then I discover that she's sabotaged it.  This portal will #{italic}#em#{normal}#power Gerlyk when it summons him - and he surely must be insane from the loneliness of tumbling in the void of space all this time.  In any case, even a sane god would be devastating to life as we know it.
     
 ...I can't bring myself to stop her.
@@ -14066,8 +14042,8 @@ Pardonne-moi, Eyal.]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/infinite-dungeon.lua"
 
-t("ruined dungeon", "donjon en ruines", "newLore category")
-t("clue (ruined dungeon)", "indice (donjon en ruines)", "_t")
+t("ruined dungeon", "Donjon en ruines", "newLore category")
+t("clue (ruined dungeon)", "Indice (donjon en ruines)", "_t")
 t([[There is an inscription here:
 #{italic}#The river flows in its bed of stone...#{normal}#]], [[Il y a une inscription ici :
 #{italic}#La rivière coule dans son lit de pierre...#{normal}#]], "_t")
@@ -14094,7 +14070,7 @@ t([[There is an inscription here:
 Upon this blighted land!#{normal}#]], [[Il y a une inscription ici :
 #{italic}#...Libérez des pensées sombres.
 Sur cette terre frappée par le fléau !#{normal}#]], "_t")
-t("infinite dungeon (ruined dungeon)", "donjon infini (donjon en ruines)", "_t")
+t("infinite dungeon (ruined dungeon)", "Donjon infini (Donjon en ruines)", "_t")
 t([[There is an inscription here:
 The deceptive god Ralkur fled before the wrath of the godslayer Branzir and his dark blade Madrath. But though he fled to the depths of the dungeon he came to an end. Seeing himself cornered he used his power to delve deeper into the ground, laying traps and summoning enemies to confound his enemy. But Branzir would not be lost. He pursued his prey ever on, hunting him ever deeper. And Ralkur fled further, and faster, delving to fathoms beyond knowledge, with the godslayer always behind him, hunting relentlessly.
 
@@ -14109,7 +14085,7 @@ Et ainsi la traque se poursuit. Depuis des siècles innombrables, Branzir ne s'e
 
 Ce passage semble indiquer le chemin plus loin ; il semble indiquer qu'il n'y a aucune issue possible.
 Vous ne devriez pas y entrer.]], "_t")
-t("infinite dungeon", "donjon infini", "newLore category")
+t("infinite dungeon", "Donjon infini", "newLore category")
 t("The Hunter and the Hunted chapter 1", "Le Chasseur et le Traqué, chapitre 1", "_t")
 t([[Branzir was the mightiest of the Sher'Tul hunters, and his fame was known at every Farportal. He could run for days without rest, cross terrain no others would dare to pass, and had senses more keen than all the wildest animals of Eyal. It was for this reason that Caldizar came to him at his forest keep and beseeched him to join in the Godhunt. At first Branzir refused, for he said he was not one to meddle in such mighty affairs, and he wanted but peace to hunt and fend for his family. But Caldizar convinced him that this life of peace was not possible whilst the schemes and machinations of the gods continued. And so reluctantly Branzir accepted, and took in his hands the great sword Madrath, and upon his shoulders was laid the title "Godslayer".
 
@@ -14154,7 +14130,7 @@ Et ainsi la traque se poursuit. Depuis des siècles innombrables, Branzir ne s'e
 ------------------------------------------------
 section "mod-tome/data/lore/iron-throne.lua"
 
-t("iron throne", "trône de fer", "newLore category")
+t("iron throne", "Trône de fer", "newLore category")
 t("Iron Throne Profits History: Age of Allure", "Histoire des Profits du Trône de Fer : Ère de la Séduction", "_t")
 t([[#{bold}#3800: #{normal}#Gold accepted as standard unit of currency amongst all races after heavy lobbying. This is greatly to our favour, as our vein resources are high and the material otherwise has no practical usage. Must continue to stockpile more.
 #{bold}#4200: #{normal}#New smelting techniques developed allow more stralite to be recovered from existing veins. Techniques must be kept hidden from other races.
@@ -14171,7 +14147,7 @@ t([[#{bold}#3800: #{normal}#Gold accepted as standard unit of currency amongst a
 #{bold}#4550 : #{normal}#Première réunion spéciale du Comité des Profits du Trône de Fer. La guerre entre humains et Halfelins est préoccupante, car elle réduit la taille potentielle du marché. La menace d'une élimination totale du marché nous force à prendre des mesures drastiques - tout commerce d'armes doit cesser. Augmenter les stocks de matériaux de construction dans l'espoir d'une éventuelle réconciliation.
 #{bold}#5967 : #{normal}#L'implication des Shaloréens dans la guerre devient un risque trop grave - les légendes de la destruction des Sher'Tul nous rappellent pertinemment les dangers de la haute magie. Augmentation de l'investissement dans le nouvel ordre des Zigurantes dans l'espoir de contrer ce problème.
 #{bold}#6550 : #{normal}#La guerre est terminée. Une opportunité se présente - nous rouvrons désormais le commerce, avec des prix élevés sur tous les articles de construction. Les prévisions de profit sont très élevées.
-#{bold}#6827 : #{normal}#Nous avons tué Kroltar le Draconien Cramoisi et récupéré son trésor. Valeur du trésor : 20 millions d'or. Ressources perdues dans l'effort de récupération : 7 millions d'or (estimation basée sur une évaluation standard de 350 pièces d'or par personne perdue). Profit net : 13 millions d'or. La marge de profit est de 186 % !
+#{bold}#6827 : #{normal}#Nous avons tué Kroltar l'Ancien Dragon Rouge et récupéré son trésor. Valeur du trésor : 20 millions d'or. Ressources perdues dans l'effort de récupération : 7 millions d'or (estimation basée sur une évaluation standard de 350 pièces d'or par personne perdue). Profit net : 13 millions d'or. La marge de profit est de 186 % !
 #{bold}#6980 : #{normal}#Les ressources issues des trésors de dragons s'amenuisent. Il faut réduire les objectifs d'abattage pour permettre le rétablissement des populations.
 #{bold}#7420 : #{normal}#De grandes attaques orcs ruinent nos accords commerciaux. Suspension de tous les contrats jusqu'à ce que les marchés se stabilisent.
 #{bold}#7494 : #{normal}#L'usage désastreux de la magie par les elfes Shaloréens a eu un impact sans précédent sur la rentabilité de nos opérations. Renforcement des mesures protectionnistes pour éviter la ruine économique.]], "_t")
@@ -14267,7 +14243,7 @@ faible rendement en diamants cette année - facturer +50% ? les zigurantes ont a
 oui pour les diamants. armons nos marchands dans la caravane, pas de gardes supplémentaires. les profits sont déjà assez maigres comme ça ! - S.]], "_t")
 t("Iron Throne Reknor expedition, last words", "Expédition de Reknor du Trône de Fer, dernieres paroles", "_t")
 t("...We are lost. The orcish forces are too great. No matter how many our squad slays, yet more surge from the depths. Where are the cursed creatures coming from?! We have spied their leader, but have had no hope in killing him; he is a beast, a destroyer, burning with fire infernal and ice cruel and chilling. The power these orcs wield now fills me with dread... perhaps they have found new, mighty allies? This news must reach our ruler. My comrades... I am sorry. I will flee once the opportunity arises, but know that your sacrifices will not be in vain. Long may our empire endure.", "...Nous sommes perdus. Les forces orcs sont trop nombreuses. Peu importe combien notre escouade en abat, d'autres surgissent encore des profondeurs. D'où viennent ces créatures maudites ? Nous avons repéré leur chef, mais nous n'avons aucun espoir de le tuer ; c'est une bête, un destructeur, brûlant d'un feu infernal et d'une glace cruelle et glaçante. Le pouvoir que ces orcs manient désormais m'emplit d'effroi... peut-être ont-ils trouvé de nouveaux et puissants alliés ? Cette nouvelle doit parvenir à notre souverain. Mes camarades... je suis désolé. Je fuirai dès que l'occasion se présentera, mais sachez que vos sacrifices n'auront pas été vains. Que notre empire perdure longtemps.", "_t")
-t("Deep Bellow excavation report 1", "rapport d'excavation du Grondement des Profondeurs (1)", "_t")
+t("Deep Bellow excavation report 1", "Rapport d'excavation du Grondement des Profondeurs (1)", "_t")
 t([[10 days into initial site survey, hmm! Recent tremors have opened deep new chasms, but we must work cautiously to ensure they're stable before conducting major operations, oh yes! Proceeding well at start, with supports being put in place and no flammable gases detected, hmm hmm.
 
 Some Sher'Tul relics have been found. Perhaps great profit to be had here! High margins on Shaloren market, yes yes.
@@ -14281,7 +14257,7 @@ Quelques reliques Sher'Tul ont été trouvées. Peut-être un grand profit à en
 Certains mineurs disent se sentir malades, hrm hrm. Ces idiots de Drems se sont sans doute gavés d'hydromel. Je le déduirai de leur paie, oui oui !
 
 -- Contremaître Tamoth]], "_t")
-t("Deep Bellow excavation report 2", "rapport d'excavation du Grondement des Profondeurs (2)", "_t")
+t("Deep Bellow excavation report 2", "Rapport d'excavation du Grondement des Profondeurs (2)", "_t")
 t([[Chasms go deep, yes yes. More relics found, oh yes. Will be mighty profitable! But ah, my secret treasure is even better, indeed! Gold! Beautiful lovely gold, buried deep, so deep... Have kept it hidden, sealed, yes. Looks like the remains of a giant throne. I touched it, yes, I even put my lips to it - ahhh, the taste!
 
 But must stay focussed, much work to be done. Miners are rowdy, hrm! One of the drem fools went mad and killed himself with a pickaxe - messy business. Must restore order, yes yes! More Sher'Tul artifacts found, possibly even remains of weapons. Imagine the profit! Will keep them hidden yes, the dreams say yes, in the darkness, secret, waiting waiting, for the right time...
@@ -14295,7 +14271,7 @@ Mais il faut rester concentré, beaucoup de travail à faire. Les mineurs sont a
 Hmm, le sang de ce type était si rouge, se répandant sur le sol caverneux. Je me demande où ils l'ont enterré ? Ma bouche... elle veut goûter, oui oui...
 
 -- Contremaître Tamoth]], "_t")
-t("Deep Bellow excavation report 3", "rapport d'excavation du Grondement des Profondeurs (3)", "_t")
+t("Deep Bellow excavation report 3", "Rapport d'excavation du Grondement des Profondeurs (3)", "_t")
 t([[Hah, my mouth, it tastes, it feels, hmm hmm. It grows, yes yes! The others are changing, flying, screaming, squelching, warping. Bad for profit, hmm hmm. My teeth, they grow, they hunger, yes. They want to escape!
 
 I can feel in my dreams, the dark depths. Bound, buried, forgotten. My mouth wants to open, to scream, to destroy! Hmm hmm, deep below, yes... Want to get out!
@@ -14313,7 +14289,7 @@ Je dois rester ici, en bas, pour être proche des rêves, oui oui. Je dois plant
 ------------------------------------------------
 section "mod-tome/data/lore/keepsake.lua"
 
-t("keepsake", "souvenir", "newLore category")
+t("keepsake", "Souvenir", "newLore category")
 t("A Tranquil Meadow", "Une Prairie Paisible", "_t")
 t([[You've entered a tranquil meadow. Something about this place seems familiar but you're not quite sure.
 The only thing that you are sure of is that it has offered you a moment of rest from the long suffering of your cursed life.
@@ -14607,7 +14583,8 @@ t("Kyless", "Kyless", "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/kor-pul.lua"
 
-t("journal page (kor'pul)", "page de journal (kor'pul)", "_t")
+t("kor'pul", "Kor'pul", "newLore category")
+t("journal page (kor'pul)", "Page de journal (kor'pul)", "_t")
 t([[Damn that Zemekkys! Damn his insane experiments!! Why in the blackest night did I ever agree to take part in them?!
 
 Oh yeah, because I was broke. Bah...
@@ -14655,16 +14632,11 @@ I'm not cut out for this paladin work. Here I am, alone in a horrible dark dunge
 Cette histoire d'aventure est plutôt solitaire, je dois l'avouer. Je suppose que tenir ce journal m'aide un peu. Le pays me manque beaucoup en ce moment. Elle me manque... Falia me manque. J'aurais peut-être dû lui dire quelque chose sur ce que je ressens... mais je suppose que fuir dans une aventure semblait plus simple. Pff, comme j'ai été courageux...
 
 Je ne suis pas fait pour ce travail de paladin. Me voici, seul dans un horrible donjon obscur, dans une terre inconnue, sans le moindre son pour me tenir compagnie hormis le grattement de ma propre plume. Hmm, à part--]], "_t")
--- texte non traduit
---[==[
-t("kor'pul", "kor'pul", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/last-hope.lua"
 
-t("last hope", "dernier espoir", "newLore category")
+t("last hope", "Dernier espoir", "newLore category")
 t("The Diaries of King Toknor the Brave", "Les Journaux du Roi Toknor le Brave", "_t")
 t([[#{italic}#68th of Dusk, Year of Pyre 710#{normal}#
 The orcish tribe have routed us. We have retreated to some Mardrop ruins and secured ourselves amongst the fortifications. I have just shy of 2,000 men under my banner, some of the best warriors I have ever served with, but we are simply no match for the numbers we face. Counting them is difficult, but I would put a minimum estimate at 10,000. The tribe has camped a league away - they seem to be waiting for reinforcements. This does not bode well...
@@ -14776,7 +14748,7 @@ Morte le 2ième Estival, an 113 de l'Ère de l'Ascendance
 Sauveuse de la Bataille de Dernier Espoir, Porteuse d'Unité, Apaiseuse des Coeurs et des Esprits. Grandement nous manque l'alchimiste qui savait changer le chagrin en joie, le désespoir en espoir, la défaite en victoire.
 
 Ainsi parla la Reine Mirvenia : "Rien ne m'émeut davantage que de voir le soleil se coucher sur Dernier Espoir, de voir toute la joie et la beauté que nous avons apportées ici baignées d'une lumière glorieuse. En des instants comme celui-ci, je le sens encore à mes côtés, et je sais que j'ai vécu une belle vie. Aujourd'hui a été un bon jour... Aujourd'hui, je crois que je vais mourir."]], "_t")
-t("southspar", "sparsud", "newLore category")
+t("southspar", "Sparsud", "newLore category")
 t("The Pale King, part one", "Le Roi Pâle, première partie", "_t")
 t([[#{italic}#A study into Southspar's most unusual ruler.#{normal}#
 
@@ -14978,7 +14950,7 @@ Je suis seule et transie dans cette crypte glaciale, repensant à nos moments de
 
 Je dois vivre. Pour toi, mon amour, je vivrai.]], "_t")
 t("last hope graveyard", "Cimetière de Dernier Espoir", "newLore category")
-t("gravestone", "tombe", "_t")
+t("gravestone", "Tombe", "_t")
 t([[#{bold}#
 Here lies Jake, son of Borlin and Clarise
 #{normal}#112 - 118#{italic}#
@@ -15443,8 +15415,8 @@ Que la blague était terminée
 ------------------------------------------------
 section "mod-tome/data/lore/maze.lua"
 
-t("maze", "labyrinthe", "newLore category")
-t("diary (the maze)", "journal (le labyrinthe)", "_t")
+t("maze", "Labyrinthe", "newLore category")
+t("diary (the maze)", "Journal (le labyrinthe)", "_t")
 t([[Dear diary,
 
 Lessons are off this week as my tutor has fallen ill, so I've decided to sneak out and have a wander round the old mazed ruins nearby. I know I'll get in trouble if I'm caught, but as long as I'm back in a couple of days no one will notice... Besides, I get so bored cooped up in those mountains! I want some fun!
@@ -15472,7 +15444,7 @@ Je me souviens encore du discours de l'Archimage Tarelion sur ce sort : "Les eff
 De toute façon, je m'amuse — je vis une aventure !!
 
 J'ai vu quelque chose ! Je ne sais pas ce que c'était... mais c'était grand et ténébreux ! Mais en essayant de le poursuivre, je me suis perdue... Hum, peut-être l'ai-je simplement imaginé ? Non, je suis sûre que c'est quelque chose de génial et d'excitant, il faut juste que je continue à explorer !]], "_t")
-t("the perfect killing device", "le parfait dispositif pour tuer", "_t")
+t("the perfect killing device", "Le parfait dispositif pour tuer", "_t")
 t([[I have now devised the perfect trap for the horned beast that walks these halls! Truly he cannot avoid this amazing contraption - the perfect blend of technical mastery and nature's lethal gifts. Ah, how I look forward to having that monster's head mounted on my walls - it shall be the pride of my collection!
 
 The contraption is elegant and simple, though many months I have spent getting the formula perfect. There are two vials attached together - one containing finely ground hemlock, the other containing a carefully prepared zinc compound. When the vials are broken the materials react with the air and pump out an amazing cloud of poisonous vapour! The poison is supremely effective, killing within minutes. All I have to do is carefully hide the vials beneath a thin piece of slate and wait for my prey to step upon the trap - then POOF, it's dead!
@@ -15502,8 +15474,8 @@ Non, NON ! J'ai - J' --- accide--- douleur, tant de doul--______
 ------------------------------------------------
 section "mod-tome/data/lore/misc.lua"
 
-t("temple of creation", "temple de la création", "newLore category")
-t("tract of destruction", "traité de destruction", "_t")
+t("temple of creation", "Temple de la création", "newLore category")
+t("tract of destruction", "Traité de destruction", "_t")
 t([[#{bold}#Tract of Destruction#{normal}#
 
 Though armies would fall before the Spellblaze's might, though forests were razed and the skies bled red with fire, they always felt that the earth would endure. It seemed eternal, unmoving. Not even the fury of the Spellblaze could hope to destroy it.
@@ -15517,7 +15489,7 @@ Bien que des armées entières aient succombé à la puissance de la Brûlure Ma
 Comme ils se trompaient ! Le peuple Nalorën, longtemps isolé, s'était préparé à se défendre contre toute attaque mais comment empêcher la terre elle-même de s'effondrer ? Voyant leur foyer se briser littéralement, les plaines et les forêts s'enfonçant dans les mers, ils prirent conscience l'espace d'un instant de la véritable étendue du pouvoir de la Brûlure Magique. Elle n'exterminait pas seulement les habitants du monde, mais dévastait le monde lui-même.
 
 Les terres de Nalorën sombrèrent sous les flots.]], "_t")
-t("tract of anarchy", "traité d'anarchie", "_t")
+t("tract of anarchy", "Traité d'anarchie", "_t")
 t([[#{bold}#Tract of Anarchy#{normal}#
 
 For the years following the cataclysm, chaos reigned. Their culture, their way of life, it was as broken and fractured as the land itself. Nalorë civilisation was reduced to a few isolated and feeble settlements, scratching out meagre existences as land, mind and body was warped in both shape and spirit.
@@ -15541,11 +15513,11 @@ The same force that destroyed the Nalorën would save them. Through the Sher'Tul
 Trahis par les Shalorën, obstinés et destructeurs, et les Thalorën, indifférents et méfiants, un long et pesant silence s'abattit sur le peuple Nalorën survivant. C'est durant cette sombre période d'introspection que le salut survint soudainement et inopinément. Les magies ancestrales des Sher'Tul, longtemps contemplées par les mystiques de ces terres, allaient enfin porter leurs fruits.
 
 La même force qui avait anéanti les Nalorën allait désormais les sauver. Grâce à la magie des Sher'Tul, les Nalorën apprirent à respirer sous l'eau comme s'il s'agissait d'air. Leurs corps s'adaptèrent à la vie sous les flots et leurs jambes se transformèrent en longues queues serpentines. Bien que cette métamorphose radicale ait naturellement suscité la terreur, les Nalorën entrevoyèrent les possibilités offertes par leur nouvelle forme : leurs terres submergées leur appartiendraient à nouveau. Leurs foyers seraient reconstruits et leur civilisation renaîtrait. N'étant plus Nalorën, les habitants du royaume englouti furent désormais connus sous le nom de "nagas"...]], "_t")
-t("personal note (Slasul)", "note personnelle (Slasul)", "_t")
+t("personal note (Slasul)", "Note personnelle (Slasul)", "_t")
 t([[At long last, the temple finally reveals its secrets to me, and my plans can be set in motion. Lithe in form, faultless in combat, unmatched in speed both above the waves and beneath... nature couldn't have hoped to create such a race as nagas. With the Temple of Creation now open to me however, we may become so much more. With my guidance, my careful shaping of the Sher'Tul's magicks, under my expert hand our great race shall soon reach its zenith. A new tract shall soon be written: The Tract of the Devourer.
 ]], "Enfin, le temple me dévoile ses secrets et mes plans peuvent se mettre à exécution. Silhouette élancée, armes de combat irréprochables, vitesse inégalée aussi bien à la surface que sous l'eau... la nature n'aurait pu imaginer une race comme les nagas. À présent, le Temple de la Création m'étant ouvert, nous pouvons atteindre une grandeur encore plus grande. Sous ma direction et grâce à la maîtrise de la magie des Sher'Tul, notre race atteindra bientôt son apogée. Une nouvelle voie s'ouvrira : la Voie du Dévoreur.", "_t")
-t("adventures", "aventures", "newLore category")
-t("letter to Rolf (1)", "lettre à Rolf (1)", "_t")
+t("adventures", "Aventures", "newLore category")
+t("letter to Rolf (1)", "Lettre à Rolf (1)", "_t")
 t([[Dear Rolf,
 
 I hope this letter finds you well. I must apologise for this recent dry spell in our communication; my adventures across Maj'Eyal have taken many exciting and perilous turns as of late. What turns do I speak of, you ask? I know how you delight in reading the accounts of my exploits, so I shall waste no further time on this pre-amble.
@@ -15563,7 +15535,7 @@ Imaginez, si vous le pouvez, un loup. Un loup bestial, doté d'une force, d'une 
 
 J'attends votre réponse avec impatience.
 Weisman]], "_t")
-t("letter to Weisman (1)", "lettre à Weisman (1)", "_t")
+t("letter to Weisman (1)", "Lettre à Weisman (1)", "_t")
 t([[Dear Weisman,
 
 Ah! What feelings your last letters inspired within me... primarily mirth, with a good amount of scorn! Must you continuously assail me with tale after tale of your waving of wooden swords and pestering of toothless mongrels? Allow me to recount your "legends" in a much more succinct manner: One day, I failed to kill a dog. Such bravery! Such pluck and derring-do!
@@ -15581,7 +15553,7 @@ Vos petites escapades paraissent bien insignifiantes face aux épreuves que je v
 Et pourtant, je suis vivant. Weisman, j'espère sincèrement que cette lettre a mis en lumière votre stupidité. Ce n'est qu'en affrontant un véritable danger que l'on peut se prétendre aventurier. Ne me dérangez plus avec vos histoires.
 
 Rolf]], "_t")
-t("letter to Rolf (2)", "lettre à Rolf (2)", "_t")
+t("letter to Rolf (2)", "Lettre à Rolf (2)", "_t")
 t([[Dear Rolf the Antslayer,
 
 Ha! Such trials you have overcome! Forget dragons and demons, here we have a hero who has survived against ants! I shall deliver this joyous news to Last Hope with all haste - perhaps there shall be a parade in your honour!
@@ -15601,7 +15573,7 @@ Quel spectacle magnifique ! Avec ses ailes de feu, laissant derrière lui un sif
 
 Tire les leçons de mon expérience.
 Weisman]], "_t")
-t("letter to Weisman (2)", "lettre à Weisman (2)", "_t")
+t("letter to Weisman (2)", "Lettre à Weisman (2)", "_t")
 t([[Dearest Weisman,
 
 Sorry to cut your birdwatching session short, but I must bring this badinage to an end. I have tolerated your ridiculous pomposity and false heroics long enough. At first, I took your over-inflated tales of bothering local wildlife with good humour but now I realise, with dread, that you are sincere; you believe your pathetic wanderings to be the stuff of legend.
@@ -15617,7 +15589,7 @@ Eh bien, c'est terminé. Nous nous retrouverons dans sept jours sur la place de 
 
 Préparez-vous, si vous l'osez.
 Rolf]], "_t")
-t("letter to Weisman (3)", "lettre à Weisman (3)", "_t")
+t("letter to Weisman (3)", "Lettre à Weisman (3)", "_t")
 t([[Weisman,
 
 The tentacles. I still remember them. They have lashed into my mind as they lashed into my flesh. How can nature abide such a... a... being in her realm? What dark plane of existence could it have been born from? How can creation itself tolerate such an aberration?!
@@ -15636,7 +15608,7 @@ Comment avons-nous réussi à survivre ? Je n'en ai pas la moindre idée. Je ne 
 Rassure-toi, mon frère. Elle t'a peut-être pris un oeil, mais pense à tout ce qu'elle aurait pu te prendre d'autre. En tout cas, j'irai bientôt à la taverne. Peut-être pourrai-je noyer les souvenirs de ce monstre dans un océan de bière.
 
 N'oublie pas d'écrire les mots de ta prochaine lettre en grands et beaux caractères.Rolf]], "_t")
-t("letter to Rolf (3)", "lettre à Rolf (3)", "_t")
+t("letter to Rolf (3)", "Lettre à Rolf (3)", "_t")
 t([[Rolf,
 
 I can't remember anything from the fight save the sheer terror at being near something so horrid and powerful. There is no shame in running from a foe you cannot possibly hope to defeat, is there? Maybe ale from the tavern is a good idea, but maybe it is better to conquer your fear once and for all... I hope you can forgive me, but I must defeat this monster, if it takes me the rest of my life.
@@ -15650,7 +15622,7 @@ Je ne me souviens de rien du combat, si ce n'est de la terreur absolue d'être s
 Je vous souhaite, à vous et à votre bière, une bonne continuation.
 
 Weisman.]], "_t")
-t("letter to Weisman (4)", "lettre à Weisman (4)", "_t")
+t("letter to Weisman (4)", "Lettre à Weisman (4)", "_t")
 t([[Weisman,
 
 By my ancestors' profits I hope you receive this message in good health and spirits. Please, old friend - there is no need to impress upon me your valour, I know full well how courageous you are. Please, do not go after that... that thing! If I must drag you away physically, that is what I shall do, but I beg of you, please, consider another foe to fight!
@@ -15670,10 +15642,10 @@ t([[Last Will and Testament of Rolf Two-Axes
 I have failed. Oh by the great wyrm's maw, I have failed! The beast Weisman set out to slay was dead already by another's hand, but its corruption remained still. When I arrived in its chamber, Weisman was already half-gone; he was hacking away at foes only he could see. When I tried to stop him, he turned his axe on me... I am beaten and broken, hiding in some crevasse away from... from my own friend, who through the corruption in this place has been perverted into a monstrosity my axes were unable to fell. I hold no doubt that this is the last time I shall put quill to parchment, as even now I can hear my old friend's perverted voice.. calling to me. I bequeathe my belongings to any who slay ...
 #{italic}#(the ink blotch seems to indicate Weisman had caught up to his old friend, one-half of that abomination)#{normal}#]], [[Utilme testament de Rolf les deux-haches
 
-J'ai échoué. Oh, par la gueule du grand serpent, j'ai échoué ! La créature que Weisman s'était donné pour mission d'éliminer était déjà morte, entre les mains d'un autre, mais sa corruption demeurait intacte. Quand je suis arrivé dans la chambre, Weisman était déjà à l'agonie ; il luttait contre des ennemis invisibles à ses yeux. Quand j'ai tenté de l'arrêter, il a retourné sa hache contre moi... Je suis brisé et vaincu, caché dans une crevasse, loin de... de mon ami, qui, sous l'emprise de la corruption de ce lieu, s'est transformé en une monstruosité que mes haches n'ont pu abattre. Je n'ai aucun doute : c'est la dernière fois que j'écris, car même maintenant j'entends la voix déformée de mon vieil ami... qui m'appelle. Je lègue mes biens à celui qui parviendra à me tuer...
+J'ai échoué. Oh, par la gueule du grand ancien dragon, j'ai échoué ! La créature que Weisman s'était donné pour mission d'éliminer était déjà morte, entre les mains d'un autre, mais sa corruption demeurait intacte. Quand je suis arrivé dans la chambre, Weisman était déjà à l'agonie ; il luttait contre des ennemis invisibles à ses yeux. Quand j'ai tenté de l'arrêter, il a retourné sa hache contre moi... Je suis brisé et vaincu, caché dans une crevasse, loin de... de mon ami, qui, sous l'emprise de la corruption de ce lieu, s'est transformé en une monstruosité que mes haches n'ont pu abattre. Je n'ai aucun doute : c'est la dernière fois que j'écris, car même maintenant j'entends la voix déformée de mon vieil ami... qui m'appelle. Je lègue mes biens à celui qui parviendra à me tuer...
 #{italic}# (La tache d'encre semble indiquer que Weisman a rattrapé son vieil ami, la moitié de cette abomination.)#{normal}#]], "_t")
 t("myths of creation", "Les mythes de la création", "newLore category")
-t("memories of Artelia Firstborn", "mémoires d'Artelia la Première-Née", "_t")
+t("memories of Artelia Firstborn", "Mémoires d'Artelia la Première-Née", "_t")
 t([[#{italic}#This scroll looks ancient, possibly going back millennia, but has been incredibly well-preserved.#{normal}#
 
 I remember when I first woke, and I drew my first breath, and the fresh young air of the world filled me with vitality. I opened my eyes, and above me stood a figure of outstanding radiance. She was tall and slim, crowned in silver hair that fell to the ground in silken tresses. Her skin was pale to the point of luminance, and her eyes were brighter than the stars.
@@ -15699,7 +15671,7 @@ Dès qu'elle eut fini de parler, je tombai instantanément en transe. À mon ré
 Le temps passa et le monde changea. De nouvelles créatures apparurent, souvent viles et cruelles, nous entraînant dans la guerre. C'est alors que nous rencontrâmes les Sher'Tul, qui, subjugués par notre beauté, nous enseignèrent les arts. Nous participâmes à quelques batailles à leurs côtés, mais comprîmes vite que nous n'avions pas notre place parmi de tels maîtres. Aussi, nous nous retirâmes dans la forêt tandis que la guerre s'achevait sur une fin catastrophique.
 
 Durant tous ces siècles, j'ai poursuivi ma quête de la femme, mais je n'ai trouvé aucune trace d'elle. Je me souviens des chasses acharnées menées par les Sher'Tul durant leur guerre sainte, et je sais que tous les dieux furent traqués. À présent, je vieillis et certains de ceux qui se sont éveillés avec moi sont déjà décédés. Chaque nuit qui passe me paraît plus froide et plus solitaire. Pourtant, parfois, en dormant, je vois son visage ou j'entends sa voix, et je sais que, d'une manière ou d'une autre, un jour je la reverrai.]], "_t")
-t("human myth of creation", "mythe de la création humaine", "_t")
+t("human myth of creation", "Mythe de la création humaine", "_t")
 t([[At the start of time Sun was born, and Moons, and Eyal raised from the Darkness.
 And Gerlyk walked Eyal with his three brothers.
 But one day Gerlyk walked alone and realised he was alone, and he desired company.
@@ -15728,7 +15700,7 @@ Les frères de Gerlyk, rongés par l'envie, se battirent entre eux et périrent 
 Gerlyk, accablé de chagrin, regarda l'Humain et déclara : "Je suis désolé, mais ce n'est plus le temps des créateurs. Je dois partir."
 Et Gerlyk s'éloigna dans les ténèbres.
 L'Humain, lui, ne pleura pas. La braise brûlant encore dans son coeur, il savait qu'il n'était pas vraiment seul.]], "_t")
-t("a logical analysis of creation, by philosopher Smythen", "une analyse logique de la création, par le philosophe Smythen", "_t")
+t("a logical analysis of creation, by philosopher Smythen", "Une analyse logique de la création, par le philosophe Smythen", "_t")
 t([[Many are the tales of how our world was made, from the absurd to the romantic to the horrific. But they are all mere myths, with no more than seeds of truth to even the most reliable. The history of our race goes back far, but it is tantalisingly scant in details from before we met the other races. Indeed, it is only through our battles with the others that we halflings have any ancient records at all.
 
 The elves one would suspect of having the greatest knowledge of elder times, but they are aloof and silent. One must judge from this that either they do not know, or that the truth ashames them. The latter would certainly not surprise me.
@@ -15818,8 +15790,8 @@ Alors le monde s'apaise, les vents retiennent leur souffle et les océans s'immo
 Car c'est le Temps de l'Équilibre, où les Ténèbres s'élèvent au plus profond et où toute vie est en danger.
 Oui, et Gerlyk dit : "Que nul ne s'aventure dehors cette nuit, de peur que les Ténèbres ne le saisissent et ne l'emportent à jamais."
 Oui, et Gerlyk partit cette nuit-là pour les Ténèbres d'au-delà et on ne le revit jamais.]], "_t")
-t("ancient elven ruins", "ruines elfiques anciennes", "newLore category")
-t("ancient papyrus scroll", "ancien rouleau de papyrus", "_t")
+t("ancient elven ruins", "Anciennes ruines elfiques", "newLore category")
+t("ancient papyrus scroll", "Ancien rouleau de papyrus", "_t")
 t([[Death is nearing. I can feel her chilling breath down the back of my neck. So many of us firstborn have passed on already. I cannot allow it... I will not let myself rot into dirt like the others. I am the mightiest of the Shaloren - I have a right to life!
 ]], [[La mort approche. Je sens son souffle glacé dans ma nuque. Tant d'entre nous, les premiers-nés, sont déjà partis. Je ne peux me le permettre... Je ne me laisserai pas pourrir dans la terre comme les autres. Je suis le plus puissant des Shalore — j'ai droit à la vie !
 ]], "_t")
@@ -15833,8 +15805,8 @@ t([[Death has met her match. My results are complete, and I am ready to step to 
 Come, Death, try to lay your bony fingers on me! I will vanish before your very eyes and slice you apart! You and your agents are no threat to me. I am immortal!]], [[La mort a trouvé son maître. Mes résultats sont complets, et je suis prêt à franchir le seuil de l'Au-delà. Mon épée est à mes côtés, et son tranchant glacé figera même la sombre sur sa route. Mes pouvoirs ne sauraient être niés...
 
 Viens, Mort, essaie donc de poser tes doigts osseux sur moi ! Je disparaîtrai sous tes yeux et te taillerai en pièces ! Toi et tes agents ne me faites aucune peur. Je suis immortel !]], "_t")
-t("valley of the moon", "vallée de la lune", "newLore category")
-t("Rassir's journal part 1", "journal de Rassir, partie 1", "_t")
+t("valley of the moon", "Vallée de la lune", "newLore category")
+t("Rassir's journal part 1", "Journal de Rassir, partie 1", "_t")
 t([[I have come to see the moonstone again. My younger brother Limmir understands a little of my obsession with it, yet the others do not care. I have tried to explain how it is of importance to Aeryn, but she simply asked if she could make a sword from it. Bah! Such stupidity from that grunt fighter.
 
 Our ancestors found their powers from the intense study of the stars, yet the people these days seem only to care about their applications in battle. I know our position with the orcs is grim, but we must not forget our roots in the celestial sphere! Only by sun, moons and stars do we find knowledge and power in life.
@@ -15848,7 +15820,7 @@ Nos ancêtres ont puisé leurs pouvoirs dans l'étude intensive des étoiles, po
 Ah, du moins pourrai-je étudier ici en paix. L'anneau d'invisibilité que j'ai fabriqué me protège de toute patrouille orc, et les cavernes autour de la pierre de lune sont suffisamment calmes. J'ai installé mon télescope à l'air libre, dans la Vallée de la Lune elle-même.
 
 La nuit dernière, j'ai repéré une étoile rouge à l'aube naissante. Bien étrange... Serait-ce un nouveau corps céleste à étudier ?]], "_t")
-t("Rassir's journal part 2", "journal de Rassir, partie 2", "_t")
+t("Rassir's journal part 2", "Journal de Rassir, partie 2", "_t")
 t([[Oh, what terrible horrors! Demons, clawed creatures, dark smog, clouds of acid, skins of lava! Where did they all come from?!
 
 It was when I was studying the moonstone, and as the red star was rising again before the dawn. The stone glowed blood-red and suddenly portals awakened in the rock of the valley. From them poured forth all manner of demonic creatures! I put my ring of invisibility on and fled into the caves. But now the creatures are everywhere! The caves are infested with them, prowling about like hungry animals.
@@ -15858,7 +15830,7 @@ And there is something... something terrible. In the shadows, in the darkness, I
 C'est lors de mon étude de la pierre de lune, alors que l'étoile rouge se levait à nouveau avant l'aube. La pierre s'illumina d'un rouge sang et, soudain, des portails s'éveillèrent dans la roche de la vallée. De toutes sortes de créatures démoniaques en jaillirent ! J'enfilai mon anneau d'invisibilité et m'enfuis dans les cavernes. Mais à présent, ces créatures sont partout ! Les cavernes en sont infestées, elles rôdent comme des bêtes affamées.
 
 Et il y a quelque chose... quelque chose de terrible. Dans les ombres, dans l'obscurité, je sens qu'il me cherche. Il me traque, chasseur invisible derrière sa proie invisible. Par moments, j'entends le claquement d'un fouet horrible. Je dois rester caché...]], "_t")
-t("Rassir's journal part 3", "journal de Rassir, partie 3", "_t")
+t("Rassir's journal part 3", "Journal de Rassir, partie 3", "_t")
 t([[I fell asleep in a dark hollow, but my sleep was troubled by terrible dreams. The dreams are so vivid in my mind!
 
 I saw the red star, and it became a land of fire floating in the night sky, full of black creatures with yellow eyes and hungry red mouths. And beyond the red star, far beyond was a dim world, but fractured and split all about its surface. As the world spun the split continents crushed against each other, and lava spilled up, and lands sunk into the ground. Demonic mouths screamed up as they disappeared into fiery death. It was if the world was tearing itself apart, but some force of will was desperately trying to keep it held together.
@@ -16104,13 +16076,14 @@ Attacks from dragons on humans and halfling settlements are fairly rare, but whe
 
 Dragons are regularly hunted for their thick scales and their elementally imbued bones. Dragonskin leather is prized amongst armour-workers, as when properly treated it is both light and tough, and oft retains some inkling of the original wyrm's power. Dragon-bone is highly favoured by staff-crafters for its natural attunement to elemental forces, and is sometimes used by fletchers in the crafting of the most delicate yet resilient bows and arrows. However the hunting of dragons for their skin and bones is greatly opposed by many wyrmics, and there is an increasing market for "naturally harvested" drake materials - those taken from dragons which have died of natural causes. Still, demand for all dragon materials is strong with exceptionally high prices paid, and many are the greedy souls that lose their lives each year at the fangs and claws of these magnificent creatures.]], [[Le commun des mortels peut sourire à l'idée de classer les dragons parmi les races intelligentes, mais les Draconiens expérimentés savent qu'il en va tout autrement. Les dragons jouissent d'une longévité exceptionnelle ; certains survivent plusieurs millénaires. Bien qu'ils soient d'une nature bestiale au début de leur existence, ils acquièrent, au fil des siècles, une intelligence toujours plus fine et développée. Les plus anciens d'entre eux sont parfois considérés comme les créatures les plus subtiles et les plus intelligentes de Maj'Eyal, dotées de capacités télépathiques et de pouvoirs mentaux avancés ; les Draconiens les évoquent avec la plus profonde révérence.
 
-Les dragons se déclinent en une grande variété de formes et de tailles : ils passent généralement du stade de dragonnet de cinq pieds de long à celui de drake adulte de vingt pieds, tandis que les plus imposants peuvent dépasser les quarante pieds. Ils sont pour la plupart ailés, dotés d'une large gueule rappelant celle des lézards et de griffes acérées aux pattes antérieures comme postérieures. On remarque souvent l'éclat de leurs écailles, dont la couleur reflète généralement une affinité avec l'un des éléments fondamentaux d'Eyal. Cette affinité est unique parmi toutes les races ; certains philosophes avancent même que les dragons sont antérieurs à toutes les autres espèces, étant apparus à l'aube du monde comme des incarnations brutes des éléments naturels. Toutefois, cette théorie pourrait bien n'être que le fruit des délires fanatiques de certains Draconiens ayant étudié ces créatures trop longtemps.
+Les dragons se déclinent en une grande variété de formes et de tailles : ils passent généralement du stade de dragonnet de cinq pieds de long à celui de dragon adulte de vingt pieds, tandis que les plus imposants peuvent dépasser les quarante pieds. Ils sont pour la plupart ailés, dotés d'une large gueule rappelant celle des lézards et de griffes acérées aux pattes antérieures comme postérieures. On remarque souvent l'éclat de leurs écailles, dont la couleur reflète généralement une affinité avec l'un des éléments fondamentaux d'Eyal. Cette affinité est unique parmi toutes les races ; certains philosophes avancent même que les dragons sont antérieurs à toutes les autres espèces, étant apparus à l'aube du monde comme des incarnations brutes des éléments naturels. Toutefois, cette théorie pourrait bien n'être que le fruit des délires fanatiques de certains Draconiens ayant étudié ces créatures trop longtemps.
 
 On trouve des traces de diverses espèces de dragons aux quatre coins de Maj'Eyal. Le col de Daikara et les chaînes de montagnes environnantes abritent un grand nombre de dragons de glace et de tempête. De nombreux dragons des sables et dragons rouges peuplent le désert et les collines de l'ouest, tandis que des rapports font état de dragons marins gigantesques dans les profondeurs océaniques, en particulier au sud.
 
-Les attaques de dragons contre les colonies humaines et halfelines sont relativement rares, mais lorsqu'elles surviennent, elles peuvent s'avérer dévastatrices. Elles visent généralement le bétail, bien que l'on déplore parfois des assauts menés par de jeunes drakes en quête de métaux précieux et de pierres fines pour constituer leur trésor. Les trésors draconiques sont entrés dans la légende ; la rumeur veut que les plus grands dragons gardent de véritables montagnes d'or, bien que les accumulations d'une telle envergure soient devenues rares à notre époque. Durant l'Ère de la Séduction, les nains ont chassé les dragons amassant des trésors jusqu'à frôler leur extinction ; de nos jours, la plupart de ces créatures ne conservent que de modestes richesses dans leurs repaires.
+Les attaques de dragons contre les colonies humaines et halfelines sont relativement rares, mais lorsqu'elles surviennent, elles peuvent s'avérer dévastatrices. Elles visent généralement le bétail, bien que l'on déplore parfois des assauts menés par de jeunes dragons en quête de métaux précieux et de pierres fines pour constituer leur trésor. Les trésors draconiques sont entrés dans la légende ; la rumeur veut que les plus grands dragons gardent de véritables montagnes d'or, bien que les accumulations d'une telle envergure soient devenues rares à notre époque. Durant l'Ère de la Séduction, les nains ont chassé les dragons amassant des trésors jusqu'à frôler leur extinction ; de nos jours, la plupart de ces créatures ne conservent que de modestes richesses dans leurs repaires.
 
 Les dragons sont régulièrement chassés pour leurs écailles épaisses et leurs os imprégnés d'énergie élémentaire. Le cuir de dragon est très prisé des armuriers car, une fois correctement traité, il allie légèreté et robustesse tout en conservant souvent une part de la puissance originelle du reptile. L'os de dragon est particulièrement apprécié des fabricants de bâtons pour son affinité naturelle avec les forces élémentaires ; il est parfois utilisé par les facteurs d'arcs pour façonner des arcs et des flèches à la fois délicats et résistants. Toutefois, la chasse aux dragons pour leur peau et leurs os suscite une vive opposition chez de nombreux spécialistes des draconiens, et l'on voit émerger un marché pour les matériaux de dragon récoltés "naturellement", c'est-à-dire prélevés sur des bêtes mortes de causes naturelles. Néanmoins, la demande pour tous les matériaux issus de dragons reste forte et les prix atteints sont exceptionnellement élevés ; chaque année, nombre d'âmes avides perdent la vie sous les crocs et les griffes de ces créatures majestueuses.]], "_t")
+t("shatur", "Shatur", "newLore category")
 t("Lament for Lands now Lost", "Lamentations pour nos Terres à présent Perdues", "_t")
 t([[You see a moss covered statue of a Thalore reciting a poem, over and over.
 #{italic}#"Where bright and berried yews did stand,
@@ -16143,7 +16116,7 @@ Pourtant sorts de rages ardentes nés,
 Nos terres d'ères révolues déchirées,
 La confiance est partie, rouge est notre courroux.#{normal}#
 ]], "_t")
-t("artifacts", "artefacts", "newLore category")
+t("artifacts", "Artefacts", "newLore category")
 t("Running man", "Fugitif", "_t")
 t([[Running man, running man
 Your time is ending soon
@@ -16270,7 +16243,7 @@ Le sang qui coulait librement
 Pour faire confiance aux dons de la Nature
 Ta foi en revanche dans des outils arcaniques
 Maintenant à la Nature tu es poussière"]], "_t")
-t("dreamscape", "rêverie", "newLore category")
+t("dreamscape", "Rêverie", "newLore category")
 t("If I Should Die Before I Wake", "Si je devais mourir avant de m'éveiller", "_t")
 t([[You wake suddenly from your unexpected slumber and attempt to quickly regain your bearings. However, you are not prepared for the bizarre vision that greets you: instead of land and sky you see only amorphous shapes and varying degrees of light. A strange psychedelic haze permeates the air and otherworldly colors and shadows flicker in and out of your peripheral vision. 
 As you begin to come to grips with this strange environment, you realize with horror that you cannot move! Your body feels as if it is completely without weight and try as you may you cannot budge an inch. You experience a sense of Déjà Vu as you recall past nightmares of being paralyzed. That's when it strikes you: you never woke up at all, you're still asleep! This epiphany is only reinforced when you notice a strange phenomenon: mirror copies of yourself are being slowly projected from where you stand and are moving about of their own volition.
@@ -16281,7 +16254,7 @@ Alors que vous commencez à appréhender cet environnement étrange, vous réali
 Elles semblent toutes se concentrer sur quelque chose en particulier, mais quoi ? Dès que vous vous efforcez de discerner ce sur quoi vos doubles oniriques se concentrent, vous le ressentez. Avec horreur, vous réalisez que vous n'êtes pas seul ici.
 D'une manière ou d'une autre, votre ennemi a envahi votre subconscient même et vous attaque dans vos rêves. Toujours incapable de bouger, votre esprit lucide se demande comment gérer une situation aussi insensée et horrible. Sur un coup de tête, vous vous concentrez sur l'une de vos projections et découvrez que vous pouvez la contrôler.
 Libre maintenant d'affronter ce cauchemar, vous vous tournez pour trouver votre ennemi. Bien que vous ayez le sentiment que la destruction de l'un de vos doubles oniriques ne soit peut-être pas en soi catastrophique, que se passerait-il si plusieurs ou beaucoup d'entre eux étaient abattus ? Ne voulant pas le découvrir, vous vous résolvez à mettre fin à cette intrusion offensive dans votre esprit.]], "_t")
-t("vault", "chambre forte", "newLore category")
+t("vault", "Chambre forte", "newLore category")
 t("Mocking Note", "Note Moqueuse", "_t")
 t([[Dear graverobber,
 
@@ -16331,7 +16304,7 @@ Take 2 vials fire wyrm saliva and dissolve 2 pouches faeros ash in each. Be sure
 #{italic}#The remainder of the scroll has been singed into a pile of char, illegible and scattering into a cloud of ash as you grasp it#{normal}#
 	]], [[#{bold}#Comment invoquer un Phénix#{normal}#
 	  10 sachets de cendres de faeros
-	  5 fioles de salive de ver de feu
+	  5 fioles de salive d'ancien dragon de feu
 	  3 éclats de cristal rouge
 	  3 sachets de poussière de géant d'os
 	  1 fiole de bile de démon majeur
@@ -16342,17 +16315,18 @@ Ceci est une cérémonie longue et complexe, et toutes les étapes doivent être
 	
 Le rituel commence par un récipient ; n'importe quel homme fera l'affaire. Attachez-le en place avec des liens ignifugés et bâillonnez-le solidement. Le bâillon n'est pas strictement nécessaire, mais les cris d'agonie ont tendance à être assez distrayants et provoquent des erreurs après quelques jours.
 
-Prenez 2 fioles de salive de ver de feu et dissolvez 2 sachets de cendres de faeros dans chacune. Assurez-vous que la dissolution soit complète. Quelques boules de feu sur la fiole peuvent faire l'affaire s'ils sont récalcitrants. En utilisant l'une des fioles préparées, commencez à graver la salive sur la peau du récipient, en la chauffant de sorte qu'elle marque la forme de --- 
+Prenez 2 fioles de salive d'ancien dragon de feu et dissolvez 2 sachets de cendres de faeros dans chacune. Assurez-vous que la dissolution soit complète. Quelques boules de feu sur la fiole peuvent faire l'affaire s'ils sont récalcitrants. En utilisant l'une des fioles préparées, commencez à graver la salive sur la peau du récipient, en la chauffant de sorte qu'elle marque la forme de --- 
 
 #{italic}#Le reste du parchemin a été brûlé en un tas de charbon, illisible et se dispersant en un nuage de cendres lorsque vous le saisissez#{normal}#
 	]], "_t")
-t("magic", "magie", "newLore category")
+t("magic", "Magie", "newLore category")
 t("Nature vs Magic", "Nature contre Magie", "_t")
 t([[Your arcane abilities have been interfered with!
 
 Eyal is a torn world, and the forces of nature can react strongly to the arcane energies that seek to manipulate them. Some items and areas are imbued with anti-magic, a natural energy that disrupts magical abilities and effects. There are even those who have learned to harness anti-magic into their own wild abilities, and who use them to hunt down and destroy those who practise magic. So beware, caster! It is a hostile world ye wander in.]], [[Vos capacités arcanes ont subi des interférences !
 
 Eyal est un monde déchiré, et les forces de la nature peuvent réagir violemment aux énergies arcanes qui cherchent à les manipuler. Certains objets et zones sont imprégnés d'antimagie, une énergie naturelle qui perturbe les capacités et les effets magiques. Il existe même ceux qui ont appris à exploiter l'antimagie dans leurs propres capacités sauvages, et qui les utilisent pour traquer et détruire ceux qui pratiquent la magie. Alors prenez garde, lanceur de sorts ! C'est un monde hostile dans lequel vous errez.]], "_t")
+t("highfin", "Highfin", "newLore category")
 t("On Adventuring", "Sur l'Aventure", "_t")
 t([[I must say, as time grows, I feel so do I grow more and more inclined to distance myself from the calling of an 'adventurer', like so many you can find roaming the countryside. I feel like the myth of a wandering hero has blinded too many with promise of easy fame and riches, with no eye for the other kind of fortune.
 
@@ -16410,6 +16384,7 @@ Bienvenue au Ponto Zero, agent. Ci-joint les coordonnées spatio-temporelles de 
 [i]-Galsamae[/i]
 
 PS : Vous pourriez rencontrer un... bienfaiteur de quelque sorte dans vos voyages. Vous le reconnaîtrez quand vous le verrez, tirant maladroitement ses marionnettes du bord de la mort ; si vous le voyez par vous-même, nous avons le regret de vous informer que vous avez effectué un voyage sans retour hors du territoire de la Ligne Temporelle-E4-RL principale vers une ramification condamnée, à moins qu'"il" ne se sente d'humeur à vous retisser dedans — et il a tendance à ne le faire qu'aux personnes qui évitent de justesse ses apocalypses conçues grâce à une puissance ou une chance incroyable. Si vous avez été choisi par ses manigances, jouez le jeu et vous pourriez être ramené du cimetière temporel qu'est le sous-réseau Ligne Temporelle-E4-EXPADV. Nous ne savons pas ce que c'est — une création incontrôlée de notre cru, l'arme d'une culture rivale, ou quelque chose de bien au-dessus de nous — mais s'il a une intention hostile, il a déjà gagné. Jusqu'ici, il a été... principalement coopératif. Faites juste en sorte de ne pas lui rappeler que nous sommes sa concurrence.]], "_t")
+t("spydrë", "Spydrë", "newLore category")
 t("Mantra of a Shiiak", "Mantra d'un Shiiak", "_t")
 t([[Each morning I wake, happy I'm alive;
 the traps of this tomb won't claim me today.
@@ -16444,7 +16419,7 @@ nous sommes les seuls bénis avec le talent pour prospérer.
 
 Notre esprit, notre force et notre travail d'équipe surpassent les pouvoirs cosmiques ;
 ils ont fait ce qu'ils ont pu mais Spydrë est [b]nôtre.[/b] ]], "_t")
-t("boss", "patron", "newLore category")
+t("boss", "Patron", "newLore category")
 t([[#{italic}#(The handwriting of this diary entry is poor at best. Whoever wrote this was in poor health.)
 
 #{bold}#53rd Allure, Year 603 of the Age of Pyre#{normal}#
@@ -16497,9 +16472,6 @@ car le vieux Walrog envoya la bourrasque
 qui l'a noyée, enfin, sous son poids.]], "_t")
 -- texte non traduit
 --[==[
-t("shatur", "shatur", "newLore category")
-t("highfin", "highfin", "newLore category")
-t("spydrë", "spydrë", "newLore category")
 t("Z'quikzshl", "Z'quikzshl", "_t")
 t("Walrog", "Walrog", "_t")
 --]==]
@@ -16508,8 +16480,8 @@ t("Walrog", "Walrog", "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/noxious-caldera.lua"
 
-t("dogroth caldera", "chaudron de dogroth", "newLore category")
-t("tattered paper scrap", "morceau de papier déchiré", "_t")
+t("dogroth caldera", "Chaudron de dogroth", "newLore category")
+t("tattered paper scrap", "Morceau de papier déchiré", "_t")
 t([[What wending path brought me to this place? I know not. The mists have obscured all passage, all trail. I see but the enclosing dominance of the caldera ahead. The ashen cauldron of steam lures me, yet repels me. I feel there is a force here trying to sway my thoughts.
 
 Where are the rest of my party? Have my friends abandoned me?]], [[Quel chemin tortueux m'a conduit en ce lieu ? Je l'ignore. Les brumes ont obscurci tout passage, toute piste. Je ne vois que la domination écrasante de la caldera devant moi. Le chaudron de vapeur cendrée m'attire, tout en me repoussant. Je sens une force ici qui tente d'influencer mes pensées.
@@ -16640,7 +16612,7 @@ Si quelqu'un vient après, je vous prie de faire demi-tour... horreurs... trop. 
 
 #{italic}#Vous trouvez avec la note un minuscule orbe faiblement brillant - est-ce la clé mentionnée dans la note ?#{normal}#]], "_t")
 t("lake of nur", "Lac de Nur", "newLore category")
-t("magical barrier", "barrière magique", "_t")
+t("magical barrier", "Barrière magique", "_t")
 t("As you descend to the next level you traverse a kind of magical barrier keeping the water away. You hear terrible screams.", "En descendant au niveau suivant, vous traversez une sorte de barrière magique qui retient l'eau. Vous entendez des cris terribles.", "_t")
 
 ------------------------------------------------
@@ -16664,7 +16636,7 @@ t([[My dragons bring news. They witnessed humans upon the High Peak, speaking of
 
 Vor's insolence will be tolerated no longer! His claims that his pride's mastery over the elements surpasses that of the dragons is insult enough, but this...! Some of my finest dragons, my glorious multi-hued wyrms, have been captured and held within their armouries in the hopes that they can further their twisted mockeries of fire and ice! This will not stand! I must ignore the plots of our human deceivers for the moment, for Vor requires my full attention.]], [[Mes dragons m'apportent des nouvelles. Ils ont été témoins de la présence d'humains sur le Pic Supérieur, parlant de leur maîtrise sur nos Fiertés. Ils n'ont pas prêté attention à mes dragons, ignorant leur capacité à communiquer avec moi. Maintenant que je possède cette information, je dois réfléchir profondément à la manière de procéder concernant nos « maîtres ». Beaucoup de mes meilleurs Draconiens souhaitent se soulever contre nos trompeurs, les voir consumés par le feu draconique. Même certains de mes dragons m'ont divulgué ce souhait. Hélas, cela doit attendre.
 
-L'insolence de Vor ne sera plus tolérée ! Ses prétentions selon lesquelles la maîtrise des éléments par sa Fierté surpasse celle des dragons est déjà une insulte suffisante, mais ceci... ! Certains de mes meilleurs dragons, mes glorieux Wyrms multicolores, ont été capturés et détenus dans leurs armureries dans l'espoir qu'ils puissent améliorer leurs parodies tordues de feu et de glace ! Cela ne restera pas ainsi ! Je dois ignorer les complots de nos trompeurs humains pour le moment, car Vor requiert toute mon attention.]], "_t")
+L'insolence de Vor ne sera plus tolérée ! Ses prétentions selon lesquelles la maîtrise des éléments par sa Fierté surpasse celle des dragons est déjà une insulte suffisante, mais ceci... ! Certains de mes meilleurs dragons, mes glorieux anciens dragons multicolores, ont été capturés et détenus dans leurs armureries dans l'espoir qu'ils puissent améliorer leurs parodies tordues de feu et de glace ! Cela ne restera pas ainsi ! Je dois ignorer les complots de nos trompeurs humains pour le moment, car Vor requiert toute mon attention.]], "_t")
 t("Vor's Note", "Note de Vor", "_t")
 t([[Strange lights play atop the High Peak. Torches? Nay. The fire of dragons? Not so. A volcanic eruption, perchance? Alas, no. It is unmistakably the fire of the arcane, the fire of mages, and seeing as every pyromancer within our pride is under my dominion, I can only assume that these lights come from one not affiliated with us. The lights are fascinating, I wish to study them; they put me in mind of the fires of the Spellblaze, burning so very long ago...
 
@@ -17067,7 +17039,8 @@ En temps voulu ! Bah ! Ce sera ma ruine si ça arrive à ce point. S'il y a la m
 ------------------------------------------------
 section "mod-tome/data/lore/rhaloren.lua"
 
-t("letter (rhaloren camp)", "lettre (camp rhaloren)", "_t")
+t("rhaloren", "Rhaloren", "newLore category")
+t("letter (rhaloren camp)", "Lettre (camp rhaloren)", "_t")
 t([[We must be on guard. The Council of Elders is desperate to find us, to hunt us down and suppress us. But we will not be suppressed. We have our rights! Their scouts try to track us down, and their spies try to infiltrate our numbers. They cannot accept any others having power, or any voice but their own being heard.
 
 We have split away from our people, and we follow our own path now. We are outcasts. They call us renegades, anarchists; they think of us as nothing but vermin to be crushed underfoot. But we will not endure their cruel suppression. Our voice will be heard across the world and they shall recognise a new race of power - the mighty Rhaloren!
@@ -17121,7 +17094,7 @@ Bientôt, il reviendra vers nous et nous mènera à notre véritable gloire. Att
 
 -- L'Inquisitrice
 ]], "_t")
-t("carefully preserved letter (rhaloren camp)", "lettre soigneusement préservée (camp rhaloren)", "_t")
+t("carefully preserved letter (rhaloren camp)", "Lettre soigneusement préservée (camp rhaloren)", "_t")
 t([[My dearest,
 
 I hope this letter finds you well. I worry for you, so close to the city, so vulnerable should they find our base... But I trust in your strength, and I know you will be safe. Yet should anything happen...
@@ -17145,17 +17118,12 @@ Prends bien soin de notre peuple, et garde notre base forte pour mon retour. Ce 
 
 Avec passion,
 Ton amour le plus cher]], "_t")
--- texte non traduit
---[==[
-t("rhaloren", "rhaloren", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/lore/sandworm.lua"
 
-t("sandworm lair", "repaire des vers des sables", "newLore category")
-t("song of the sands", "chant des sables", "_t")
+t("sandworm lair", "Repaire des vers des sables", "newLore category")
+t("song of the sands", "Chant des sables", "_t")
 t([[I have stared in the mouths of crimson wyrms
 And felt the claws of drakes so sleek
 But through deserts dry and sandy storms
@@ -17164,7 +17132,7 @@ There is something else I seek
 In the trail of giant worms I walk
 Through tunnels of sand below
 Of arcane tools let there be no talk
-It's on the wyrmic path I go!]], [[J'ai fixé les gueules des wyrms pourpres
+It's on the wyrmic path I go!]], [[J'ai fixé les gueules d'anciens dragons pourpres
 Et senti les griffes de drakes si élégants
 Mais à travers les déserts secs et les tempêtes de sable
 Il y a autre chose que je cherche
@@ -17218,8 +17186,8 @@ S'il te plaît, dévore-moi ! Avales-moi tout entier !!]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/scintillating-caves.lua"
 
-t("scintillating caves", "grottes scintillantes", "newLore category")
-t("research journal part 1", "journal de recherche, partie 1", "_t")
+t("scintillating caves", "Grottes scintillantes", "newLore category")
+t("research journal part 1", "Journal de recherche, partie 1", "_t")
 t([[I have been given permission to explore the scintillating caves to the east. Normally they are sealed off, but having a father on the council has its uses, even if he is normally a dumb buffoon...
 
 These caves are the site of where the Spellblaze began. An ancient Sher'Tul farportal lay buried here, and our ancestors tapped into that power to their destruction. Many of the greatest Shaloren mages stood here, and when the energies beyond comprehension erupted they were all annihilated instantly. It was a terrible loss to our people - such knowledge and power lost forever!
@@ -17234,7 +17202,7 @@ Ces grottes sont le lieu où la Brûlure Magique a commencé. Un ancien portail 
 Maintenant, les ruines antiques ont été envahies par des cristaux. Les rapports disent qu'ils grandissent chaque année. Pourraient-ils être vivants.. ?
 
 Je dois admettre que fouler le point de départ de la Brûlure Magique me remplit d'une immense appréhension. C'est ici qu'a commencé la grande destruction qui a déchiré notre monde, anéanti des cités et mis le monde en pièces. Et pourtant, regardez la beauté qui règne ici !]], "_t")
-t("research journal part 2", "journal de recherche, partie 2", "_t")
+t("research journal part 2", "Journal de recherche, partie 2", "_t")
 t([[I have definitely seen crystals move of their own volition here, and some even seem capable of producing magical effects in self-defence. They are no threat to me whatsoever - my arcane powers are far beyond whatever latent magic seems to possess these things.
 
 Possession... is what it almost seems like. These crystals are not natural. I have broken some down and studied them, and the very structure of the material seems vastly distinct from any other I have seen. I have even studied Sher'Tul relics in the Academy and this is most certainly something different. Truly fascinating!
@@ -17242,7 +17210,7 @@ Possession... is what it almost seems like. These crystals are not natural. I ha
 
 Possession... c'est ce à quoi cela ressemble presque. Ces cristaux ne sont pas naturels. J'en ai brisé quelques-uns pour les étudier, et la structure même du matériau semble très distincte de tout ce que j'ai vu auparavant. J'ai même étudié les reliques Sher'Tul à l'Académie et ceci est certainement quelque chose de différent. Vraiment fascinant !
 ]], "_t")
-t("research journal part 3", "journal de recherche, partie 3", "_t")
+t("research journal part 3", "Journal de recherche, partie 3", "_t")
 t([[Earth, water, fire, air - these are the elements we forge our magic with, and all of these I have seen manifested in the crystals here. But there is something else, something different... There are dark crystals here which seem to posses some new, destructive element - a very twisting of the nature of the other elements, warping them into malign designs.
 
 Why have I never seen this before?! I must study it, I must understand it - I must comprehend its very nature and hold its power in my own hands... The thirst for knowledge is all-consuming!
@@ -17252,7 +17220,7 @@ I shall name this new element "blight".]], [[Terre, eau, feu, air - ce sont les 
 Pourquoi n'ai-je jamais vu cela auparavant ?! Je dois l'étudier, je dois le comprendre - je dois appréhender sa nature même et tenir son pouvoir entre mes propres mains... La soif de connaissance est dévorante !
 
 Je nommerai ce nouvel élément "fléau".]], "_t")
-t("research journal part 4", "journal de recherche, partie 4", "_t")
+t("research journal part 4", "Journal de recherche, partie 4", "_t")
 t([[I can see it now, I can see so clearly... The forces at work here are not of this world. They are a result of the Spellblaze, from the tearing of the fabric of our world. And from outside that fabric... something else, something truly powerful, trying to force its way in. I feel I can almost reach out and touch it! Such awesome power it is... could this even rival the renowned powers of the Sher'Tul?
 
 The crystals are a corruption of the elements of Maj'Eyal. These outside forces are changing the very make-up of the matter of our world. This cavern is truly a garden of delights, a font of growth and energy. Who knows how far this garden of wonders could spread if we encourage it more? Perhaps the whole of our world could be enveloped in this scintillating glory, a grand corruption for all Eyal!
@@ -17262,7 +17230,7 @@ I have begun to train myself in controlling this "blight". It takes much energy,
 Les cristaux sont une corruption des éléments de Maj'Eyal. Ces forces extérieures changent la composition même de la matière de notre monde. Cette grotte est vraiment un jardin de délices, une source de croissance et d'énergie. Qui sait jusqu'où ce jardin de merveilles pourrait s'étendre si nous l'encourageons davantage ? Peut-être que le monde entier pourrait être enveloppé dans cette gloire scintillante, une grande corruption pour toute Eyal !
 
 J'ai commencé à m'entraîner à contrôler ce "fléau". Cela demande beaucoup d'énergie, drainant ma propre vitae, mais je peux sentir l'immense puissance qui se cache derrière. Je dois y puiser davantage...]], "_t")
-t("research journal part 5", "journal de recherche, partie 5", "_t")
+t("research journal part 5", "Journal de recherche, partie 5", "_t")
 t([[I sought to reach out and touch the abyss, but I found it touched me first... I have been blessed, I have been fully awoken!
 
 There is a wonder here, a wonder beyond all else I have ever seen. A crystal of amazing intricacy and beauty, with a halo of power that echoes of the original energies of the Spellblaze. All the power that our ancestors unlocked, mixed with the glorious corruption that it triggered. What beauty - what tremendous beauty!
@@ -17276,7 +17244,7 @@ Il y a ici une merveille, une merveille au-delà de tout ce que j'ai jamais vu. 
 Je l'ai senti me toucher, je l'ai senti atteindre mon coeur et m'imprégner de sa force. Je suis resté en transe tandis que son énergie coulait en moi. Oh, comme le sang coule maintenant dans mes veines ! Du sang corrompu par un véritable pouvoir !
 
 Je vois maintenant le chemin qui s'ouvre devant moi. La Brûlure Magique n'était pas une malédiction, c'était une bénédiction. Je dois ouvrir les yeux de notre peuple sur la gloire que notre race a débloquée ! J'apporterai les merveilles de cette corruption au monde entier !]], "_t")
-t("exploration journal", "journal d'exploration", "_t")
+t("exploration journal", "Journal d'exploration", "_t")
 t([[#{italic}#10th Mirth, Year 122 of the Age of Ascendancy#{normal}#
 The council has seen fit to allow me to investigate the scintillating caverns after that Rhaloren madman started raving on the streets about how someone had "befouled" them... I do not see any such befoulment, but neither do I see the moving crystals this place was rumoured to have. There are oddly misplaced crystal shards, which seem to have sheared off of something larger, but hardly anything spectacular.
 
@@ -17296,64 +17264,64 @@ Eh bien... c'était certainement inattendu. Il peut y avoir une part de vérité
 ------------------------------------------------
 section "mod-tome/data/lore/shertul.lua"
 
-t("first mural painting", "première peinture murale", "_t")
+t("sher'tul", "Sher'tul", "newLore category")
+t("first mural painting", "Première peinture murale", "_t")
 t([[You see here a mural showing a dark and tortured world. Large, god-like figures with powerful auras fight each other, and the earth is torn beneath their feet.
 There is some text underneath ]], [[Vous voyez ici une peinture murale montrant un monde sombre et torturé. De grandes figures divines aux auras puissantes se battent entre elles, et la terre est déchirée sous leurs pieds.
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Sho ch'zun Eyal mor donuth, ik ranaheli donoth trun ze.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Sho ch'zun Eyal mor donuth, ik ranaheli donoth trun ze.'#{normal}#", "_t")
 t("#{italic}#'In the beginning the world was dark, and the petty gods fought over their broken lands.'#{normal}#", "#{italic}#'Au commencement, le monde était sombre, et les dieux mesquins se battaient pour leurs terres brisées.'#{normal}#", "_t")
-t("second mural painting", "deuxième peinture murale", "_t")
+t("second mural painting", "Deuxième peinture murale", "_t")
 t([[In this picture a huge god with glowing eyes towers above the land, and in his right hand he holds high the sun. The other gods are running from him, wincing from the light.
 There is some text underneath ]], [[Sur cette image, un dieu immense aux yeux brillants domine la terre, et dans sa main droite, il porte haut le soleil. Les autres dieux fuient devant lui, grimaçant face à la lumière.
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Fa AMAKTHEL tabak, ik koru bazan tro yu, ik ranaheli tobol don schek ruun. Ik blana dem Soli as banafel ik goriz uf Eyal ik blod, \"Tro fasa goru domus asam, ik goru domit tro Eyal.\"'#{normal}#", "que vous ne comprenez pas : #{italic}#'Fa AMAKTHEL tabak, ik koru bazan tro yu, ik ranaheli tobol don schek ruun. Ik blana dem Soli as banafel ik goriz uf Eyal ik blod, \"Tro fasa goru domus asam, ik goru domit tro Eyal.\"'#{normal}#", "_t")
 t("#{italic}#'But AMAKTHEL came, and his might surpassed all else, and the petty gods fled before his glory. And he made the Sun from his breath and held it above the world and said, \"All that this light touches shall be mine, and this light shall touch all the world.'#{normal}#", "#{italic}#'Mais AMAKTHEL est venu, sa puissance a surpassé tout le reste, et les dieux mesquins ont fui devant sa gloire. Il a créé le Soleil à partir de son souffle, l'a tenu au-dessus du monde et a dit : \"Tout ce que cette lumière touche sera à moi, et cette lumière touchera le monde entier.\"'#{normal}#", "_t")
-t("third mural painting", "troisième peinture murale", "_t")
+t("third mural painting", "Troisième peinture murale", "_t")
 t([[This picture shows the huge god holding some smaller figures in his hands and pointing out at the lands beyond. You imagine these figures must be the Sher'Tul.
 There is some text beneath ]], [[Cette image montre l'immense dieu tenant quelques petites figures dans ses mains et pointant vers les terres au-delà. Vous imaginez que ces figures doivent être les Sher'Tul.
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Ik AMAKTHEL cosio SHER'TUL, ik baladath peris furko masa bren doth benna zi, ik blod is \"Fen makel ath goru domus ik denz tro ala fron.\"'#{normal}#", "que vous ne comprenez pas : #{italic}#'Ik AMAKTHEL cosio SHER'TUL, ik baladath peris furko masa bren doth benna zi, ik blod is \"Fen makel ath goru domus ik denz tro ala fron.\"'#{normal}#", "_t")
 t("#{italic}#'And AMAKTHEL made the SHER'TUL, and gave unto us the powers to achieve all that we set our will to, and said to us \"Go forth to where the light touches and take all for your own.\"'#{normal}#", "#{italic}#'Et AMAKTHEL a créé les SHER'TUL, nous a donné les pouvoirs pour accomplir tout ce à quoi nous destinions notre volonté, et nous a dit : \"Allez là où la lumière touche et prenez tout pour vous.\"'#{normal}#", "_t")
-t("fourth mural painting", "quatrième peinture murale", "_t")
+t("fourth mural painting", "Quatrième peinture murale", "_t")
 t([[You see a mural showing a huge metropolis made of crystal, with small islands of stone floating in the air behind it. In the foreground is sitting a Sher'Tul, with a hand stretched up to the sky.
 There is some text beneath ]], [[Vous voyez une peinture murale montrant une immense métropole faite de cristal, avec de petites îles de pierre flottant dans les airs derrière elle. Au premier plan est assis un Sher'Tul, une main tendue vers le ciel.
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Batialatoth ro Eyal, ik rinsi akan fronseth sumit kurameth ik linnet pora gasios aeren. Ach nen beswar goreg.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Batialatoth ro Eyal, ik rinsi akan fronseth sumit kurameth ik linnet pora gasios aeren. Ach nen beswar goreg.'#{normal}#", "_t")
 t("#{italic}#'We conquered the world, and built for ourselves towering cities of crystal and fortresses that travelled the skies. But some were not content...'#{normal}#", "#{italic}#'Nous avons conquis le monde et construit pour nous-mêmes des cités de cristal imposantes et des forteresses qui voyageaient dans les cieux. Mais certains n'étaient pas satisfaits... '#{normal}#", "_t")
-t("fifth mural painting", "cinquième peinture murale", "_t")
+t("fifth mural painting", "Cinquième peinture murale", "_t")
 t([[This mural shows nine Sher'Tul standing side by side, each holding aloft a dark weapon. Your eyes are drawn to a runed staff held by the red-robed figure in the centre. It seems familiar somehow...
 There is some text beneath ]], [[Cette peinture murale montre neuf Sher'Tul côte à côte, chacun brandissant une arme sombre. Vos yeux sont attirés par un bâton runique tenu par la figure vêtue de rouge au centre. Il semble familier, d'une certaine manière...
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Zubadon koref noch hesen, ik dorudon koref noch pasor. Cosief maro dondreth karatu - Ranaduzil - ik jein belsan ovrienis.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Zubadon koref noch hesen, ik dorudon koref noch pasor. Cosief maro dondreth karatu - Ranaduzil - ik jein belsan ovrienis.'#{normal}#", "_t")
 t("#{italic}#'Of pride we accepted no equals, and of greed we accepted no servitude. We made for ourselves terrible weapons - the Godslayers - and nine were chosen to wield them.'#{normal}#", "#{italic}#'Par fierté, nous n'avons accepté aucun égal, et par avidité, nous n'avons accepté aucune servitude. Nous avons fabriqué pour nous-mêmes des armes terribles - les Tueuses de Dieux - et neuf ont été choisis pour les manier.'#{normal}#", "_t")
-t("sixth mural painting", "sixième peinture murale", "_t")
+t("sixth mural painting", "Sixième peinture murale", "_t")
 t([[You see images of epic battles, with Sher'Tul warriors fighting and slaying god-like figures over ten times their size.
 There is some text underneath ]], [[Vous voyez des images de batailles épiques, avec des guerriers Sher'Tul combattant et tuant des figures divines dix fois plus grandes qu'eux.
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Ranaheli meth dondruil ik duzin, ik leisif konru as neremin. Eyal matath bre sun. Ach unu rana soriton...'#{normal}#", "que vous ne comprenez pas : #{italic}#'Ranaheli meth dondruil ik duzin, ik leisif konru as neremin. Eyal matath bre sun. Ach unu rana soriton...'#{normal}#", "_t")
 t("#{italic}#'The petty gods were hunted down and slain, and their spirits rent to nothing. The land became our own. But one god remained...'#{normal}#", "#{italic}#'Les dieux mesquins furent traqués et tués, et leurs esprits réduits à néant. La terre devint la nôtre. Mais un dieu restait...'#{normal}#", "_t")
-t("seventh mural painting", "septième peinture murale", "_t")
+t("seventh mural painting", "Septième peinture murale", "_t")
 t([[You see the red-robed Sher'Tul striking the huge god with the dark, runed staff. Bodies litter the floor around them, and the golden throne behind is bathed in blood. The light in the god's eyes seems faded.
 There is some text underneath ]], [[Vous voyez le Sher'Tul vêtu de rouge frapper l'immense dieu avec un sombre bâton runique. Des corps jonchent le sol autour d'eux, et le trône doré derrière est baigné de sang. La lumière dans les yeux du dieu semble s'être éteinte.
 Il y a du texte en dessous ]], "_t")
 t("which you do not understand: #{italic}#'Trobazan AMAKTHEL konruata as va aurin leas, ik mab peli zort akan hun, penetar dondeberoth.'#{normal}#", "que vous ne comprenez pas : #{italic}#'Trobazan AMAKTHEL konruata as va aurin leas, ik mab peli zort akan hun, penetar dondeberoth.'#{normal}#", "_t")
 t("#{italic}#'The almighty AMAKTHEL was assaulted on his golden throne, and though many died before his feet, he was finally felled.'#{normal}#", "#{italic}#'Le tout-puissant AMAKTHEL fut attaqué sur son trône doré et, bien que beaucoup moururent à ses pieds, il fut finalement terrassé.'#{normal}#", "_t")
-t("eighth mural painting", "huitième peinture murale", "_t")
+t("eighth mural painting", "Huitième peinture murale", "_t")
 t([[The large mural shows the great god spread on the ground, with the dark staff held against his chest. Sher'Tul surround him, some hacking off his limbs, cutting out his tongue, and binding him with chains. A burst of light flares up from where a tall Sher'Tul warrior is gouging his eye with a black-bladed halberd. In the background a Sher'Tul mage beckons to a huge chasm in the ground.
 The text beneath says simply ]], [[La grande peinture murale montre le grand dieu étalé au sol, avec le bâton sombre tenu contre sa poitrine. Des Sher'Tul l'entourent, certains lui coupant les membres, lui arrachant la langue et l'enchaînant. Une explosion de lumière jaillit de l'endroit où un grand guerrier Sher'Tul lui crève l'oeil avec une hallebarde à lame noire. En arrière-plan, un mage Sher'Tul fait signe vers un gouffre immense dans le sol.
 Le texte en dessous dit simplement ]], "_t")
 t("#{italic}#'The Great Sin.'#{normal}#", "#{italic}#'Le Grand Péché.'#{normal}#", "_t")
-t("ninth mural painting", "neuvième peinture murale", "_t")
+t("ninth mural painting", "Neuvième peinture murale", "_t")
 t("This final mural has been ruined, with deep scores and scratches etched across its surface. All you can see of the original appears to be flames.", "Cette peinture murale finale a été ruinée, avec des entailles et des éraflures profondes gravées sur sa surface. Tout ce que vous pouvez voir de l'original semble être des flammes.", "_t")
 t("Yiilkgur raising toward the sky", "Yiilkgur s'élevant vers le ciel", "_t")
 t("Yiilkgur, the Sher'Tul Fortress is re-activated and raises from the depths of Nur toward the sky.", "Yiilkgur, la Forteresse Sher'Tul est réactivée et s'élève des profondeurs de Nur vers le ciel.", "_t")
-t("a living Sher'Tul?!", "un Sher'Tul vivant ?!", "_t")
+t("a living Sher'Tul?!", "Un Sher'Tul vivant ?!", "_t")
 t("You somehow got teleported to an other Sher'Tul Fortress, in a very alien location. There you saw a living Sher'Tul.", "D'une manière ou d'une autre, vous avez été téléporté dans une autre Forteresse Sher'Tul, dans un lieu très étranger. Là, vous avez vu un Sher'Tul vivant.", "_t")
-t("lost farportal", "portail lointain perdu", "_t")
+t("lost farportal", "Portail lointain perdu", "_t")
 t("%s boldly entering a Sher'Tul farportal.", "%s entre audacieusement dans un portail lointain Sher'Tul.", "tformat")
 -- texte non traduit
 --[==[
-t("sher'tul", "sher'tul", "newLore category")
 t("#{italic}#'Meas Abar.'#{normal}#", "#{italic}#'Meas Abar.'#{normal}#", "_t")
 --]==]
 
@@ -17361,8 +17329,8 @@ t("#{italic}#'Meas Abar.'#{normal}#", "#{italic}#'Meas Abar.'#{normal}#", "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/slazish.lua"
 
-t("slazish fens", "marais des slazish", "newLore category")
-t("conch (1)", "conque (1)", "_t")
+t("slazish fens", "Marais des slazish", "newLore category")
+t("conch (1)", "Conque (1)", "_t")
 t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a lyrical voice emanating from within:#{normal}#
 
 "Report from Tidewarden Isimon to Tidebringer Zoisla. Alucia and I have, um, begun scouting the outer perimeter. The, uh, the terrain is proving difficult to navigate, but I'm sure we'll make, uh, quick progress. We shall, uh, we'll continue now... in the name of the Saviour!
@@ -17396,7 +17364,7 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 "Oh, qui nous surprendrait ici ? Allez !"
 
 "Je, euh, eh bien, je suppose que... je devrais arrêter cet enregistrement."]], "_t")
-t("conch (2)", "conque (2)", "_t")
+t("conch (2)", "Conque (2)", "_t")
 t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a deep voice emanating from within:#{normal}#
 
 "Waverider Tiamel reporting. Immediate perimeter is secure, though I have sent some members to scout the surrounding areas. I will feel better when we have mapped the land and are ready to sustain a larger team. Still, we should be perfectly safe as long as the landdwellers do not know of our presence. And even if they dare come here the magics of Zoisla will put their puny star worship to shame.
@@ -17406,7 +17374,7 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 "Rapport du Chevaucheur de vagues Tiamel. Le périmètre immédiat est sécurisé, bien que j'aie envoyé quelques membres explorer les zones environnantes. Je me sentirai mieux quand nous aurons cartographié le terrain et que nous serons prêts à accueillir une équipe plus importante. Pourtant, nous devrions être parfaitement en sécurité tant que les habitants de la terre ignorent notre présence. Et même s'ils osent venir ici, les magies de Zoisla feront passer leur misérable culte de l'étoile pour une honte.
 
 "Je crains que certains membres de l'équipe ne prennent pas notre mission au sérieux. Ne connaissent-ils pas la responsabilité que le Sauveur a placée sur nous ? Nous sommes ses bras et ses queues dans cette terre lointaine, et il est de notre devoir de protéger le portail lointain qui nous aidera à atteindre une plus grande puissance. Nous sommes sa première ligne d'attaque contre les parents de sang de ceux qui ont condamné notre race il y a si longtemps. Et grâce à nos efforts, nous ferons avancer notre race vers de nouvelles frontières, ouvrant la voie à l'avenir brillant que notre grand Sauveur a prévu pour nous. Longue vie à Slasul ! Longue vie à la légende du Dévoreur !"]], "_t")
-t("conch (3)", "conque (3)", "_t")
+t("conch (3)", "Conque (3)", "_t")
 t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ear you hear a charismatic and commanding voice emanating from within:#{normal}#
 
 "My fellow nagas! I do not envy you on your journey so far from our great Temple. But you have been chosen for a glorious mission, to establish a new outpost for invasion against the landwalkers. These are the cousins and descendants of those who abandoned us and left our race for dead. Whilst we have hidden beneath the waves for centuries, they prance about worshipping the sun! Well, their nightfall comes soon, and the dawn will rise with us as rulers of land and sea.
@@ -17426,8 +17394,8 @@ t([[#{italic}#Touching the conch makes it emit a sound. As you put it to your ea
 ------------------------------------------------
 section "mod-tome/data/lore/spellblaze.lua"
 
-t("spellblaze", "brûlure magique", "newLore category")
-t("draft letter (mark of the spellblaze)", "brouillon de lettre (marque de la Brûlure Magique)", "_t")
+t("spellblaze", "Brûlure magique", "newLore category")
+t("draft letter (mark of the spellblaze)", "Brouillon de lettre (marque de la Brûlure Magique)", "_t")
 t([[Dear Father,
 
 How glad you must be to hear from your "renegade" son. Do not worry overmuch; I keep myself and my group well hidden from your petty Council. I know how you fret about your status amongst those fools.
@@ -17459,8 +17427,8 @@ Ton fils désobéissant]], "_t")
 ------------------------------------------------
 section "mod-tome/data/lore/spellhunt.lua"
 
-t("age of dusk", "ère du crépuscule", "newLore category")
-t("memories of archmage Varil", "mémoires de l'archimage Varil", "_t")
+t("age of dusk", "Ère du crépuscule", "newLore category")
+t("memories of archmage Varil", "Mémoires de l'archimage Varil", "_t")
 t([[From an objective viewpoint, you would think the Spellhunt futile, but it was not so. You couldn't imagine the barbarism of the magehunting mobs; they would abuse and persecute any they saw as eccentric, many of whom had no connection to magic at all.
 ...
 True mages would sometimes speak up in an act of altruism, just to stop the suffering of the innocent, but this only fuelled the horde's anger...
@@ -17672,8 +17640,8 @@ Vos ordres sont de jouer le jeu. Continuez à lui donner ce qu'il dit vouloir - 
 ------------------------------------------------
 section "mod-tome/data/lore/trollmire.lua"
 
-t("trollmire", "bourbier troll", "newLore category")
-t("tattered paper scrap (trollmire)", "morceau de papier en lambeaux (bourbier troll)", "_t")
+t("trollmire", "Bourbier troll", "newLore category")
+t("tattered paper scrap (trollmire)", "Morceau de papier en lambeaux (bourbier troll)", "_t")
 t([[You find a tattered page scrap. Perhaps this is part of a diary entry.
 "...is a gorgeous glade, but I could swear that looked like a part of a human femur.
 
@@ -17707,6 +17675,7 @@ Alongside the note is a part of a plan of the region.]], [[Vous trouvez un morce
 ------------------------------------------------
 section "mod-tome/data/lore/zigur.lua"
 
+t("zigur", "Zigur", "newLore category")
 t("Rules of the Ziguranth", "Règles des Ziguriens", "_t")
 t([[1. You will not talk about Zigur to the wider world, lest evil ears be listening.
 2. You will shun the use of all spells and witchcraft.
@@ -17807,11 +17776,6 @@ Actually...  You fight in a more subtle way than most, do you not?  It is a poin
 En fait... Vous adoptez une approche plus subtile que la plupart, n'est-ce pas ? Pour beaucoup d'entre nous, c'est une question de fierté de tenir bon face à l'agression arcanique, d'offrir aux mages une chance de se repentir avant de les bannir. Une grande partie de notre entraînement reflète cette philosophie, mais je ne peux nier que... de #{italic}#traditionnellement glorieuse#{normal}# méthodes peuvent être extrêmement efficaces. La bienséance ne devrait pas vous empêcher de vous enfuir alors que vous pourriez, en réalité, lui tendre un piège.
 
 [Elle vous tend un parchemin] Certains d'entre nous ont créé un dispositif qui absorbera la magie de quiconque l'active. Nous vous demandons simplement de l'utiliser avec discrétion. Quoi qu’en ait pensé notre #{italic}#dernier#{normal}# assassin, les cacher dans la boutique d’un scribe runique de second ordre risquerait davantage de nous nuire que de nous servir à long terme.]], "_t")
--- texte non traduit
---[==[
-t("zigur", "zigur", "newLore category")
---]==]
-
 
 ------------------------------------------------
 section "mod-tome/data/maps/towns/gates-of-morning.lua"
@@ -24724,6 +24688,7 @@ t("", "", "log")
 ------------------------------------------------
 section "mod-tome/data/talents/misc/objects.lua"
 
+t("sher'tul", "Sher'tul", "talent category")
 t("fortress", "forteresse", "talent type")
 t("Yiilkgur abilities.", "Capacités de Yiilkgur.", "_t")
 t("spell", "sort", "talent category")
@@ -24820,7 +24785,6 @@ t("Melee retaliation", "Représailles au Corps à Corps", "talent name")
 t("Intermediary for melee retaliation.", "Intermédiaire pour les représailles au corps à corps.", "tformat")
 -- texte non traduit
 --[==[
-t("sher'tul", "sher'tul", "talent category")
 t("technique", "technique", "talent category")
 --]==]
 
@@ -35879,7 +35843,7 @@ section "mod-tome/data/zones/ardhungol/objects.lua"
 
 t("diary page", "page de journal personnel", "entity name")
 t("A page of a diary.", "La page d'un journal.", "_t")
-t("scrap of paper", "morceau de papier", "entity name")
+t("scrap of paper", "Morceau de papier", "entity name")
 t("A scrap of paper.", "Un morceau de papier.", "_t")
 t("Rod of Spydric Poison", "Bâtonnet de Poison Spydrique", "entity name")
 t("poison dripping wand", "baguette ruisselante de poison", "_t")
@@ -35932,7 +35896,7 @@ t("A warrior of death.", "Un guerrier de la mort.", "_t")
 t("headless horror", "horreur sans tête", "entity name")
 t("A headless gangly humanoid with a large distended stomach. Was captured and tamed by the first master of the arena.", "Un humanoïde dégingandé et sans tête, au ventre gonflé. Il a été capturé et apprivoisé par le premier maître de l'arène.", "_t")
 t("#AQUAMARINE#As %s falls all its eyes fall to the ground!", "#AQUAMARINE#Lorsque %s tombe, tous ses yeux tombent au sol !", "logSeen")
-t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "Un gigantesque géant osseux ressemblant à un draconien sans ailes. Il est doué de raison et étonnamment rapide.", "_t")
+t("A gargantuan bone giant resembling a wingless wyrm. He is fully sentient and surprisingly fast.", "Un gigantesque géant osseux ressemblant à un ancien dragon sans ailes. Il est doué de raison et étonnamment rapide.", "_t")
 t("A young girl with skin pale as snow. She is small, but deadly in battle, unleashing a constant barrage of ice shards.", "Une jeune fille à la peau blanche comme la neige. Elle est menue, mais redoutable au combat, déchaînant un déluge incessant d'éclats de glace.", "_t")
 t("A strong female magician. Years of experience make her a dangerous combatant.", "Une magicienne hors pair. Ses nombreuses années d'expérience font d'elle une adversaire redoutable.", "_t")
 t("A massive suit of armor with a massive axe containing a massively cursed person. He is cursed to fight eternally.", "Une armure imposante avec une hache gigantesque, dans laquelle est enfermée une personne lourdement maudite. Il est condamné à se battre éternellement.", "_t")
@@ -36262,7 +36226,7 @@ t("ice", "glace", "entity subtype")
 t("Rantha the Worm", "Rantha le Ver", "entity name")
 t("Claws and teeth. Ice and death. Dragons are not all extinct it seems...", "Griffes et crocs. Glace et mort. Il semblerait que les dragons ne soient pas tous éteints...", "_t")
 t("and fed to the hatchlings", "et donnés à manger aux petits", "_t")
-t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "J'ai entendu dire qu'il y avait un chasseur de dragons dans le Daikara qui était mécontent que le ver soit déjà mort.", "_t")
+t("I have heard there is a dragon hunter in the Daikara that is unhappy about the wyrm being already dead.", "J'ai entendu dire qu'il y avait un chasseur de dragons dans le Daikara qui était mécontent que l'ancien dragon soit déjà mort.", "_t")
 t("fire", "feu", "entity subtype")
 t("Varsha the Writhing", "Varsha le Tourmentée", "entity name")
 t("Claws and teeth. Fire and death. Dragons are not all extinct it seems...", "Griffes et crocs. Feu et mort. Il semblerait que les dragons ne soient pas tous éteints...", "_t")
@@ -36322,8 +36286,8 @@ section "mod-tome/data/zones/deep-bellow/objects.lua"
 
 t("Deep Bellow excavation report %d", "Rapport d'excavation du Grondement des Profondeurs %d", "tformat")
 t("A paper scrap.", "Un bout de papier.", "_t")
-t("letter to Rolf (3)", "lettre à Rolf (3)", "entity name")
-t("letter to Weisman (4)", "lettre à Weisman (4)", "entity name")
+t("letter to Rolf (3)", "Lettre à Rolf (3)", "entity name")
+t("letter to Weisman (4)", "Lettre à Weisman (4)", "entity name")
 t("Last Will of Rolf", "Testament de Rolf", "entity name")
 
 ------------------------------------------------
@@ -37264,7 +37228,7 @@ section "mod-tome/data/zones/maze/objects.lua"
 
 t("torn diary page", "page de journal déchirée", "entity name")
 t("A diary, left by an adventurer.", "Un journal laissé par un aventurier.", "_t")
-t("the perfect killing device", "le parfait dispositif pour tuer", "entity name")
+t("the perfect killing device", "Le parfait dispositif pour tuer", "entity name")
 t("Some notes describing how to create poison gas traps, left by an unfortunate rogue.", "Quelques notes décrivant comment fabriquer des pièges à gaz toxique, laissées par un brigant malchanceux.", "_t")
 
 ------------------------------------------------
@@ -38718,13 +38682,13 @@ section "mod-tome/data/zones/town-last-hope/objects.lua"
 t("last hope foundation", "Fondation de Dernier Espoir", "entity subtype")
 t("The Diaries of King Toknor the Brave (%d)", "Les Notes du roi Toknor le Brave (%d)", "tformat")
 t("A part of the history of Last Hope, and King Toknor the Brave.", "Un pan de l'histoire de Dernier Espoir et du roi Toknor le Brave.", "_t")
-t("analysis", "analyse", "entity subtype")
-t("southspar", "sparsud", "entity subtype")
-t("the Pale King part %s", "la Roi Pâle partie %s", "tformat")
+t("analysis", "Analyse", "entity subtype")
+t("southspar", "Sparsud", "entity subtype")
+t("the Pale King part %s", "le Roi Pâle partie %s", "tformat")
 t("one", "une", "_t")
 t("two", "deux", "_t")
 t("A study of Southspar's most unusual ruler.", "Une étude du souverain le plus atypique de Sparsud.", "_t")
-t("oceans", "océans", "entity subtype")
+t("oceans", "Océans", "entity subtype")
 t("The Oceans of Eyal", "Les Océans d'Eyal", "entity name")
 t("Thoughts about the impossibility of sea travel.", "Réflexions sur l'impossibilité des voyages en mer.", "_t")
 
@@ -39312,7 +39276,7 @@ section "mod-tome/data/zones/vor-armoury/npcs.lua"
 
 t("Warmaster Gnarg", "Maître de Guerre Gnarg", "entity name")
 t("This ugly orc looks really nasty and vicious. He wields a huge two-handed sword and means to use it.", "Cet orc hideux a l'air vraiment méchant et vicieux. Il manie une énorme épée à deux mains et compte bien s'en servir.", "_t")
-t("overpowered greater multi-hued wyrm", "ver multicolore supérieur surpuissant", "entity name")
+t("overpowered greater multi-hued wyrm", "ancien dragon multicolore supérieur surpuissant", "entity name")
 
 ------------------------------------------------
 section "mod-tome/data/zones/vor-armoury/objects.lua"
@@ -43899,7 +43863,7 @@ t("\"The Spellblaze tore Eyal apart and nearly brought about the end of all civi
 t("Some are cursed with mental powers beyond their full control, turning them to a dark life powered by hatred.", "Certains sont maudits et ont des pouvoirs mentaux qui échappent à leur contrôle, les transformant en une vie sombre alimentée par la haine.", "init.lua load_tips")
 t("Dreadfell has always been shunned for its haunted crypts, but of late rumours tell of a darker and more terrible power in residence.", "Tombeffroie a toujours été évité en raison de ses cryptes hantées, mais des rumeurs récentes font état d'un pouvoir plus sombre et plus terrible y résidant.", "init.lua load_tips")
 t("Some Sher'Tul artifacts can still be found in hidden places, but it is said they are not to be trifled with.", "Certains artefacts Sher'Tul peuvent encore être trouvés dans des endroits cachés, mais on dit qu'il ne faut pas en abuser.", "init.lua load_tips")
-t("Drakes and wyrms are the strongest natural creatures in the world, capable of powers far beyond most other beings.", "Les dragons et les draconiens sont les créatures naturelles les plus fortes au monde, capables de pouvoirs bien supérieurs à ceux de la plupart des autres êtres.", "init.lua load_tips")
+t("Drakes and wyrms are the strongest natural creatures in the world, capable of powers far beyond most other beings.", "Les dragons et les anciens dragons sont les créatures naturelles les plus fortes au monde, capables de pouvoirs bien supérieurs à ceux de la plupart des autres êtres.", "init.lua load_tips")
 t("Giant worms tear open huge passageways through the deserts in the west. It is said great riches lie buried beneath the sand, still decorating the corpses of those who went there seeking great riches.", "Des vers géants ouvrent d'immenses passages dans les déserts de l'ouest. On dit que de grandes richesses sont enfouies sous le sable, décorant encore les cadavres de ceux qui y sont allés à la recherche de ses trésors.", "init.lua load_tips")
 t("Arcane Blades employ a fusion of melee and magical combat. Their training is harsh but the most dedicated rise to great powers.", "Les Lames arcaniques utilisent un mélange de mêlée et de combat magique. Leur formation est rude mais les plus motivés accèdent à de grands pouvoirs.", "init.lua load_tips")
 t("Wild infusions call upon the powers of nature to protect the flesh and rid oneself of afflictions.", "Les essences sauvages font appel aux pouvoirs de la nature pour protéger la chair et se débarrasser des afflictions.", "init.lua load_tips")

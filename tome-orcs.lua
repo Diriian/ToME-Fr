@@ -1060,8 +1060,8 @@ t("undead drake hatchling", "dragonnet mort-vivant nouveau-né", "entity name")
 t("A skeletal drake hatchling; not too powerful by itself, but if it's anything like living ones, it's probably not alone.", "Un bébé dragonnet squelettique ; pas très puissant en soi, mais si cela ressemble aux spécimens vivants, il n'est probablement pas seul.", "_t")
 t("undead drake", "dragonnet mort-vivant", "entity name")
 t("A skeletal drake, armed with a deadly breath weapon and nasty claws.", "Un dragonnet squelettique, armé d'un souffle meurtrier et de griffes redoutables.", "_t")
-t("undead wyrm", "vouivre morte-vivante", "entity name")
-t("The skeleton of a long-lived wyrm, armed with a deadly breath weapon and nasty claws.", "Le squelette d'une vouivre ayant vécu très longtemps, armée d'un souffle meurtrier et de griffes redoutables.", "_t")
+t("undead wyrm", "ancien dragon morte-vivante", "entity name")
+t("The skeleton of a long-lived wyrm, armed with a deadly breath weapon and nasty claws.", "Le squelette d'un dragon ayant vécu très longtemps, armée d'un souffle meurtrier et de griffes redoutables.", "_t")
 -- texte non traduit
 --[==[
 t("dragon", "dragon", "entity subtype")
@@ -1933,7 +1933,7 @@ t("The core wood of a great tree.", "Le coeur de bois d'un arbre majestueux.", "
 ------------------------------------------------
 section "tome-orcs/data/lore/destructicus.lua"
 
-t("kaltor's shop", "magasin de Kaltor", "newLore category")
+t("kaltor's shop", "Magasin de Kaltor", "newLore category")
 t("DESTRUCTICUS!", "DESTRUCTICUS !", "_t")
 t([[INTRODUCING!
 
@@ -2029,7 +2029,7 @@ t([[DISCIPLINARY REPORT:
 - Capitaine Bloody-Keel : abus de passage sous la quille. Passé sous la quille, deux fois.
 - Mousse Grapeshot : utilisation inappropriée d'un balai-brosse. Cinquante coups de fouet, rétrogradation.
 ]], "_t")
-t("operations performed", "opérations effectuées", "_t")
+t("operations performed", "Opérations effectuées", "_t")
 t([[OPERATIONS PERFORMED:
 
 -With information provided by "Sunny Day," we were able to secure an Allied Kingdoms supply ship during the brief window in which it was unguarded, with no personal casualties.  We technically broke our agreement (Taroggos has been adequately disciplined), but because the ship was carrying more useful materials than expected, we were able to take a hefty supply of troll-sized (or close enough to it) arms and armor, alongside lumber, furniture, and smaller stralite equipment which can be easily melted down and repurposed into something useful, before delivering the promised amount of cargo to "Vapor Trail."  Combined with the payment received from "Sunny Day," we made a significant profit and reinforced our relationship with "Vapor Trail."  (Our relationship with "Sunny Day" is of no consequence; repeat business was unlikely.)
@@ -2047,7 +2047,7 @@ t([[OPERATIONS PERFORMED:
 - Nos contacts avec le marché noir de Maj'Eyal et l'établissement d'une plaque tournante commerciale sûre pour leurs activités restent immensément profitables, tout en nous offrant un moyen détourné d'introduire les objets de notre choix dans Maj'Eyal. "Vapor Trail" a été un participant enthousiaste, et nous avons fait fortune en vendant de l'absinthe d'Atmos aux contrebandiers des Royaumes Alliés, ainsi que du vin et du brandy d'Elvala. J'enverrai un navire rempli de nos profits (métaux utiles, ingrédients alchimiques, esclaves) au port tous les deux mois ; fouillez l'équipage pour vous assurer qu'ils n'ont pas fait main basse sur la marchandise, et passez quiconque se fait prendre sous la quille.
 
 - La désobéissance et le moral de l'équipage restent problématiques, malgré les séances de fouet régulières, mais nous en conservons suffisamment et nous en tirons un bon rendement. Cela dit, n'hésitez pas à continuer à nous envoyer des condamnés — ils sont étonnamment productifs tant que nous leur fournissons suffisamment d'alcool et de pétales de bonheur.]], "_t")
-t("overall analysis", "analyse globale", "_t")
+t("overall analysis", "Analyse globale", "_t")
 t([[OVERALL ANALYSIS:
 
 Boss, if there's one thing I can say, it's that you didn't make a mistake by pardoning me and my crew.  The materials I've shipped home have surely been invaluable for our preparations, and the moment the top brass decides they want to start the invasion, I can start spiking the outgoing liquors and cheerblossom with time-delay potions of your choice, crippling the Allied Kingdoms from within by starting a plague or turning every minor lawbreaker into a berserk madman.  If nothing else, the You-Know-What will be [i]very[/i] useful when push comes to shove.
@@ -2065,8 +2065,8 @@ J'attends votre réponse — ainsi que plus de viande séchée ; mon équipage a
 ------------------------------------------------
 section "tome-orcs/data/lore/emporium.lua"
 
-t("vaporous emporium", "emporium vaporeux", "newLore category")
-t("a large poster", "une grande affiche", "_t")
+t("vaporous emporium", "Emporium vaporeux", "newLore category")
+t("a large poster", "Une grande affiche", "_t")
 t([[#{bold}#CLOGGING NO MORE!#{normal}#
 If steam-vent congestion ails you, avail yourself of:
  
@@ -2094,7 +2094,7 @@ AUSSI EFFICACE CONTRE : Maux de tête, nausées, ennui, fatigue, douleurs divers
 #{italic}#[Une clause de non-responsabilité occupe la marge inférieure de l'affiche, en caractères si minuscules que vous doutez qu'un géant puisse les lire.]#{normal}#
  
 ATTENTION : Le Conseil de l'Autorité Sanitaire a établi une corrélation entre ce produit et les affections suivantes : Vertige inversé, inflammabilité capillaire accrue, sudation non-vaporeuse, terreurs nocturnes, dysphorie hépatique, maux de tête, poumon de mineur, verrouillage cérébral, terreurs diurnes, mitose, visions d'un grand être dépecé, coude de mineur, émancipation squelettique, infamie gastro-intestinale, rein fragile, pinaciphobie, vitesse globale réduite, téléportite, langue de mineur, narines fusionnées, malédiction ancienne et immonde, baisse de pression de vapeur, combustion de graisse (littérale), plumage oculaire, odeur corporelle d'orc, perturbation arcanique, perte de gravité, blocage sanguin, malfaisance, tapis rectal, nihilisme, terreurs vespérales, rouille du genou et colmatage mineur des pores.]], "_t")
-t("tattered poster", "affiche en lambeaux", "_t")
+t("tattered poster", "Affiche en lambeaux", "_t")
 t([[CLOSING SALE
 for
 KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
@@ -2108,7 +2108,7 @@ ARMES À FEU, ARMURES ET AUTRES FOUTAISES MARTIALES DE KALTOR
 C'est le coeur lourd que j'annonce la fermeture. Après vingt ans de service, je ferme boutique - les gens de la Tribu Atmos préfèrent confier leur sécurité à la Garde, et la Garde préfère conserver ses vieilles pétoires plutôt que d'acheter des merveilles comme le #{italic}#BRILLANT EXPULSEUR D'ORCS AUTO-CHARGEUR#{normal}# (30 pièces d'or seulement !), ou la #{italic}#COMBINAISON DE COMBAT RENFORCÉE À PRESSION ET ANTI-TRANCHAGE#{normal}# (450 pièces d'or !). J'ai même proposé des options à prix réduit comme la #{italic}#PTITE SURPRISE#{normal}# (15 pièces d'or !), mais la ville n'en a pas voulu. Apparemment, mes services et mon génie sont de trop.
  
 Même si vous ne craignez pas les tribus orcs, les essaims de ritchs et autres menaces qui rôdent juste devant nos murs, achetez mes articles. Ce sont des objets d'artisanat magnifiques, qui feraient d'excellentes décorations de bureau ou (si on les désarme) des jouets pour enfants. Au moins, vous empêcherez un artisan autrefois fier de devoir mendier dans la rue.]], "_t")
-t("ornately-painted poster", "affiche richement décorée", "_t")
+t("ornately-painted poster", "Affiche richement décorée", "_t")
 t([[Stylish.  Elegant.  Exclusive.
 
 #{bold}#EXTINCTION#{normal}#, a new line from Faerlhing's Weavings, the finest name in fashion.
@@ -2128,7 +2128,7 @@ Passez vos commandes maintenant. Les enchères seront ouvertes pendant 30 jours,
 
 Les modes passent. #{bold}#EXTINCTION#{normal}# est éternelle.
 ]], "_t")
-t("official-looking poster", "affiche à l'aspect officiel", "_t")
+t("official-looking poster", "Affiche à l'aspect officiel", "_t")
 t([[#{bold}#KEEP THE PRESSURE UP!#{normal}#
 #{italic}#An announcement on power consumption, paid for by the Council of Geothermal Authority#{normal}#
 
@@ -2160,7 +2160,7 @@ Comme annoncé précédemment, le débit des évents géothermiques de la Carri�
 - NE pressurisez PAS de réservoirs depuis le robinet pour les revendre ! C'est une violation de la loi du Conseil, passible d'une amende de 3 000 pièces d'or et quatre ans de prison par réservoir.
 
 Merci d'assurer l'énergie pour TOUS pendant que nous résolvons cette pénurie !]], "_t")
-t("hastily-written poster", "affiche écrite à la hâte", "_t")
+t("hastily-written poster", "Affiche écrite à la hâte", "_t")
 t([[KALTOR's FIREARMS, ARMOR, AND OTHER MARTIAL SUNDRIES
 is
 OPEN FOR BUSINESS AGAIN!
@@ -2197,7 +2197,7 @@ Vous doutez de l'efficacité de mes armements faits avec amour ? Pour une démon
 section "tome-orcs/data/lore/gem.lua"
 
 t("G.E.M", "T.E.G", "newLore category")
-t("strange black disk (1)", "étrange disque noir (1)", "_t")
+t("strange black disk (1)", "Étrange disque noir (1)", "_t")
 t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Exploratory Mole, on a mission to..."  She sighs. " 'Find the Loyalist and arrange for our safe transport to his refuge, offering him his previous terms of agreement.' Which is Council-speak for 'flee in terror to the only thing that could bail us out of this mess, and bring the Eye with us.' Personally, I'm not keen on putting our fates in the hands of some nutter who lives underground and..." Indistinct grumbling. "...not even my damn job, I didn't sign up to be some politician's valet--"
 
 #{italic}#(You hear a door opening, and another voice speaks.)#{normal}#
@@ -2215,7 +2215,7 @@ t([["...thing on? Okay, good. This is Haze Commander Parmor of the Geothermal Ex
 #{italic}#(La porte se referme.)#{normal}#
 
 "...Ouais, le Conseiller Tantalos aura son thé dès qu'il aura fini de remettre en ordre le nid de frelons qu'il a lui-même provoqué et qui nous a plongés dans ce chaos. Bref... le départ était à l'heure, le trajet vers la dernière position connue du Loyaliste est en cours, on creuse un tunnel depuis le dessous du palais. Tous les systèmes fonctionnent, sauf la machine à thé, et je m'en fiche comme de mes premières scories. Fin du journal."]], "_t")
-t("strange black disk (2)", "étrange disque noir (2)", "_t")
+t("strange black disk (2)", "Étrange disque noir (2)", "_t")
 t([["...for posterity!  Let's make sure future generations can hear the moments of history being made!" You hear the voice of Councillor Tantalos again... and then you hear a very strange voice, one that's all too clear. Even with the device playing it, it sounds like it's coming from inside your own head.#{normal}#
 
 "Yes, yes, good idea. This is an important day, for both of us - no, for Eyal...  You've brought what I asked for so long ago, then?"
@@ -2251,13 +2251,13 @@ t([["...for posterity!  Let's make sure future generations can hear the moments 
 
 #{italic}#(Vous entendez de nouveau la voix de Parmor.)#{normal}# "Bon sang de scorie, COUREZ ! Prenez tout et--" (L'enregistrement s'arrête.)
 ]], "_t")
-t("strange black disk (3)", "étrange disque noir (3)", "_t")
+t("strange black disk (3)", "Étrange disque noir (3)", "_t")
 t([[#{italic}#(You hear loud, mechanical rumbling; in the distance, you hear sounds of struggling and bludgeoning, swords slicing through flesh, steamguns being fired, and shouts of pain from giant and horror alike.  Parmor sounds panicked.)#{normal}#
 
 "Mayday, mayday, we are bailing out!  Tantalos is gone, and we are NOT going back for him!  Scrap the tunnel to the Palace of Fumes, scrap the entire damn council, we're getting as far away from here as we can--"  Loud hissing.  "MOTHER OF--!"  Grunts, squishing, slashing.  "Flooring it all the way to the damn Sunwall, we're taking the first farportal off this continent whether those tinies like it or not!  Guess this technically counts as treason, mutiny, whatever, but if the Council's hearing this, BLOW IT OUT YOUR STEAM-HOLES, WE'D RATHER LIVE!  Altitude rising, surface approaching, this is H.C. Parmor signing off--"]], [[#{italic}#(Vous entendez un grondement mécanique assourdissant ; au loin, vous entendez des bruits de lutte et de coups assénés, d'épées tranchant la chair, de fusils à vapeur qui tirent, et des cris de douleur poussés aussi bien par des géants que par des horreurs. Parmor semble paniquée.)#{normal}#
 
 "Mayday, mayday, on se tire ! Tantalos est perdu, et on ne retourne PAS le chercher ! Oubliez le tunnel vers le Palais des Fumées, oubliez le Conseil tout entier, on s'éloigne d'ici le plus possible--" Sifflement strident. "MÈRE DE--!" Grognements, bruits d'écrasement, entailles. "Pied au plancher jusqu'au foutu Mur Solaire, on prend le premier portail lointain hors de ce continent, que ces petiots le veuillent ou non ! On dira que c'est de la trahison, de la mutinerie, peu importe, mais si le Conseil entend ça, ALLEZ VOUS FAIRE VOIR PAR VOS ORIFICES À VAPEUR, ON PRÉFÈRE VIVRE ! Altitude en hausse, surface en approche, ici C.B. Parmor qui signe--"]], "_t")
-t("erratic scribblings", "griffonnages erratiques", "_t")
+t("erratic scribblings", "Griffonnages erratiques", "_t")
 t("why is it down there why is it ANYWHERE", "pourquoi est-ce en bas pourquoi est-ce QUELQUE PART", "_t")
 t("If anyone finds this, tell the Jarsovi brothers their father lov", "Si quelqu'un trouve ceci, dites aux frères Jarsovi que leur père les aim", "_t")
 t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "Trop nombreux. Impossible de faire remonter d'autres Atmos à bord, trop risqué, impossible de les distinguer des autres. J'espère qu'on a assez de carburant pour atteindre la surface.", "_t")
@@ -2268,8 +2268,8 @@ t("so that's what it looks like.  what THEY look like.  now I see why so many de
 ------------------------------------------------
 section "tome-orcs/data/lore/internment-camp.lua"
 
-t("internment camp", "camp d'internement", "newLore category")
-t("internment camp correspondence (1)", "correspondance du camp d'internement (1)", "_t")
+t("internment camp", "Camp d'internement", "newLore category")
+t("internment camp correspondence (1)", "Correspondance du camp d'internement (1)", "_t")
 t([[#{italic}#To: Guard Captain Galsamae
 From: Administrator Quellop#{normal}#
 
@@ -2325,7 +2325,7 @@ Je suis désolé, mais nous ne pouvons pas vraiment nous le permettre, car le bu
 
 Avec regret,
 Administrateur Quellop]], "_t")
-t("internment camp correspondence (2)", "correspondance du camp d'internement (2)", "_t")
+t("internment camp correspondence (2)", "Correspondance du camp d'internement (2)", "_t")
 t([[#{italic}#To: Guard Captain Galsamae
 From: Administrator Quellop#{normal}#
 
@@ -2377,7 +2377,7 @@ Avez-vous #{italic}#la moindre#{normal}# idée de ce que coûte le transport d'u
 
 Avec une impatience grandissante,
 Administrateur Quellop]], "_t")
-t("internment camp correspondence (3)", "correspondance du camp d'internement (3)", "_t")
+t("internment camp correspondence (3)", "Correspondance du camp d'internement (3)", "_t")
 t([[#{italic}#To: Condescending Little Cretin
 From: Guard Captain Galsamae#{normal}#
 
@@ -2413,7 +2413,7 @@ Je l'ai déjà dit, et je le dis pour la dernière fois : #{bold}#IL NOUS FAUT P
 -Galsamae
 
 PS : Si la moindre mention de ceci est faite à vos supérieurs, je m'assurerai qu'ils soient aussi informés de l'absinthe des Atmos que vous avez fait passer ici en contrebande la semaine dernière.]], "_t")
-t("internment camp correspondence (4)", "correspondance du camp d'internement (4)", "_t")
+t("internment camp correspondence (4)", "Correspondance du camp d'internement (4)", "_t")
 t([[#{italic}#To: Guard Captain Galsamae
 From: Administrator Quellop#{normal}#
 
@@ -2468,7 +2468,7 @@ Fait.
 section "tome-orcs/data/lore/krimbul.lua"
 
 t("krimbul clan", "Clan Krimbul", "newLore category")
-t("the journey of the Krimbul Clan", "le voyage du clan Krimbul", "_t")
+t("the journey of the Krimbul Clan", "Le voyage du clan Krimbul", "_t")
 t([[We are not people of great ambition or complex desires, we Minotaurs.  We seek not to choose a direction for the world, we wish not to spread across the land, we are content not to build great machines or greater empires.  What we wish more than anything is simply to live; alas, the rest of the world wishes that we do not.  We cannot say where or how the hostilities started...  if we had to guess, perhaps the soft-footed considered us a pest for seeking out homes in their storerooms and armories.  We are drawn to great magic, especially when it is concentrated into artifacts, and over the eons of persecution, we have developed an equally strong instinctual drive towards safe places underground (although, again, this is simply a guess).  If there is enough stray magic around, we can live on it without eating or drinking, and see no need to come to the surface; indeed, under such conditions we might not even age.  Most minotaur tribes that find a safe habitat - glowing with magic, and filled with enough dark twisting passages that the soft-footed will not come down in force - discover that they no longer need cooperation to survive, and slowly lose themselves to instinct; for a long time, it was only our willpower that made us different, and even that was beginning to wane.  In a way, maybe what happened to us was genuinely a blessing.
 
 We cannot tell you how long ago it was, as we did not write down our history at that time, and we had more pressing concerns soon after.  At some point, though, we felt a home, better than any we'd ever felt before, through a long, long series of caverns and tunnels.  The magic here... it was incredible!  It...  well, you do not have a word for it, but "tasted" is close enough - different than anything we'd absorbed before, hearty and rich, and it soaked into our tired bodies so easily.  We did not even need to stop to rest, it kept us so rejuvenated...  so we kept going down, losing track of how far it was.  In truth, I think we walked the length of a continent, if not more, cheerfully pressing onward, eager to see what awaited us at the end.
@@ -2506,7 +2506,7 @@ Il n'était pas notre seul nécromancien, mais l'idée restait presque impensabl
 Nous avons accepté à contrecœur, et il a préparé les sorts et les potions nécessaires pour nous garder presque tels que nous étions, mais privés de vie. Préservés, forts, capables même de toucher et de sentir quand la plupart des liches en sont incapables.. mais pourtant coupés des dons de la Nature, et toujours incapables d'engendrer. Cette génération ne mourrait pas de vieillesse, mais elle serait néanmoins la dernière. Il s'est porté volontaire pour être le dernier, se contentant d'indiquer à l'un des nôtres comment le convertir une fois que nous aurions tous été traités... Que ce soit parce que l'infection avait eu plus de temps pour couver en lui, ou à cause de ce qu'il a subi dans la tente de sa sœur, Nektosh n'a plus jamais vraiment été le même depuis.
 
 Par un cruel coup du sort, nous avons trouvé ce qui aurait été un paradis peu après notre fuite - les Grottes de mana, regorgeant de magie, mais nous n'en avions plus besoin que du dixième de ce qu'il nous fallait vivants. Néanmoins, elles sont notre foyer depuis... la plupart des pieds-tendres auraient pillé les cavernes et nous auraient exterminés comme de la vulgaire vermine, mais la Fierté Kruk nous a traités avec un respect et une dignité qu'aucun minotaure OU mort-vivant n'avait peut-être jamais reçus (a fortiori les deux à la fois). Nous restons un peuple reclus, et notre état actuel nous donne encore moins de raisons de commercer avec eux... mais ils sont ce que nous avons connu de plus proche d'amis, et je soupçonne qu'en ce moment, nous le sommes aussi pour eux.]], "_t")
-t("a transcribed speech", "un discours retranscrit", "_t")
+t("a transcribed speech", "Un discours retranscrit", "_t")
 t([[Men and women of the Krimbul Clan!  I come before you today because with my awakening shall come a greater destiny, one we shall all share.  The dawn of a new age is at hand, and it would do you no good to sleep through it.  Allow me to open your eyes, before I lead you to our ultimate destiny!
 
 Unicorns!  I'm sure you know the story of these incredible creatures, their beauty and power.  The Humans know it too!  And the Orcs!  And the Steam Giants - they ALL had their own variants on this myth, a one-horned creature of incredible magical potential, but an elusive one.  For many years, I have told you that Karbatha and I were descendants of these "mythical" creatures, and you denied it!  For just as many years, I could not prove it...  but all that changed when the flying machine fell in the lake.  None of you foolish cowards wanted to go down and investigate, none of you - so I had to go down instead.
@@ -2530,7 +2530,7 @@ Acclamez ! ACCLAMEZ, MAUDITS SOYEZ-VOUS !
 
 Maintenant... en tant que votre nouveau Seigneur, vous avez de la chance que je sois miséricordieux. Je vous accorde à tous un immense honneur, celui de me servir et d'assister personnellement à la chute de tous ceux qui s'opposeraient à moi. Finis les jours où nous nous cachions des Géants de vapeur, finis les jours où nous traitions ces Orcs Kruk en égaux. Finis les jours où les vivants prétendaient dominer ce monde ; ils s'inclineront devant nous en remerciement de la clémence d'être faits morts-vivants, ou je les anéantirai moi-même. Les vivants - et ceux qui refuseraient de me rejoindre - seront écrasés sous nos sabots, et le monde sera à nous !
 ]], "_t")
-t("personal journal of Nektosh the One-Horned", "journal personnel de Nektosh le Monocorne", "_t")
+t("personal journal of Nektosh the One-Horned", "Journal personnel de Nektosh le Monocorne", "_t")
 t([[no no no no no no no no no no no no no
 
 I can feel it running out...  the voice spoke to me again, said "Warning, low energy, less than ten pulses remaining," and the energy that once flowed so beautifully through this artifact is beginning to grow cold.  No matter how much I beg and plead down in the lake, the unicorns will not come to me directly, will not tell me why I've angered them or what I could do for them to keep my power...  was this power ever mine in the first place...?
@@ -2556,8 +2556,8 @@ pardon karbatha]], "_t")
 ------------------------------------------------
 section "tome-orcs/data/lore/misc.lua"
 
-t("sunwall observatory", "observatoire du mur solaire", "newLore category")
-t("an astronomer's journal", "journal d'un astronome", "_t")
+t("sunwall observatory", "Observatoire du mur solaire", "newLore category")
+t("an astronomer's journal", "Journal d'un astronome", "_t")
 t([[The strange movement on the far side of Wintertide continues - a shadow here, a tiny speck or flash of light there.  Still obscured and difficult to identify.  Obfuscating magic is likely at work, but whether it's on our end or Wintertide's, I cannot say.
 
 The nebula behind the Neira constellation continues its slow fading.  Star Gerlyk-P is gone now too, and by most current models, Amakthel-N will be next.  If the last century is any indication, the rate of disappearances is accelerating...  this is most worrying, but what may be more worrying is that Star Quekjora-B has reappeared in an abrupt flash of light, powerful enough to illuminate the night sky for a brief moment.  It is oscillating between green and purple now, a far cry from its original glow of pale orange, and does not quite seem to be spherical...  I can feel its power from here just like I can Shandral or our two moons, dimly but growing stronger.  It's impossible to meaningfully speculate on something so unprecedented, so I will not write my theories down here, but none of them are reassuring.
@@ -2567,14 +2567,15 @@ Aside from these phenomena, all is normal.  The cracks on Mal'Rok and the other 
 La nébuleuse derrière la constellation de Neira poursuit son lent effacement. L'étoile Gerlyk-P a maintenant disparu elle aussi, et selon la plupart des modèles actuels, Amakthel-N sera la prochaine. Si le siècle dernier est un indicateur, le taux de disparitions s'accélère... c'est très inquiétant, mais ce qui l'est peut-être davantage, c'est que l'étoile Quekjora-B a réapparu dans un éclair de lumière soudain, assez puissant pour illuminer le ciel nocturne un bref instant. Elle oscille désormais entre le vert et le violet, bien loin de son éclat orange pâle originel, et elle ne semble pas tout à fait sphérique... Je peux sentir sa puissance d'ici, tout comme je sens Shandral ou nos deux lunes, faiblement mais de plus en plus fort. Il est impossible de spéculer de manière sensée sur quelque chose d'aussi inédit, je n'écrirai donc pas mes théories ici, mais aucune n'est rassurante.
 
 Hormis ces phénomènes, tout est normal. Les fissures sur Mal'Rok et les autres planètes ravagées par le cataclysme magique dans d'autres systèmes s'estompent lentement, et les lumières sur les mondes plus lointains continuent de scintiller. Les étoiles en dehors de la constellation de Neira restent stables ou déclinent selon les modèles astronomiques standards.]], "_t")
-t("ureslak's lair", "repaire d'Ureslak", "newLore category")
-t("a note lying in a puddle", "note gisant dans une flaque", "_t")
+t("ureslak's lair", "Repaire d'Ureslak", "newLore category")
+t("a note lying in a puddle", "Note gisant dans une flaque", "_t")
 t([[If you think I'd just leave my plans lying around for anyone to find them, you're an even greater buffoon than Rak'Shor's followers.  You, unlike them, are of no use to me.  [b]Die.[/b]
 
 [i](The bottom half of the paper is illegibly smudged, on account of water dripping onto it from a stalactite above, but has the approximate shape of an explosive-rune trap.  You drop the note, wary of any lingering power it might still have.)[/i] ]], [[Si vous pensez que je laisserais mes plans traîner pour que n'importe qui les trouve, vous êtes un bouffon encore plus grand que les sbires de Rak'Shor. Contrairement à eux, vous ne m'êtes d'aucune utilité. [b]Mourez.[/b]
 
 [i](La moitié inférieure du papier est illisible, maculée par l'eau qui goutte d'une stalactite au-dessus, mais elle a la forme approximative d'un piège à rune explosive. Vous lâchez la note, méfiant quant à tout pouvoir résiduel qu'elle pourrait encore contenir.)[/i] ]], "_t")
-t("dropped demonic orders", "ordres démoniaques égarés", "_t")
+t("var'eyal", "Var'eyal", "newLore category")
+t("dropped demonic orders", "Ordres démoniaques égarés", "_t")
 t([[I'm not going to lie to you: things aren't going great.  Between the Doomelf escape incidents, the deaths of Khulmanar and a great deal of our more expensive combatants at the hands of the Anomaly, and the disappearance of the First Duathedlen, we've been set back pretty far this year.  As such, your orders are simple: lay low.  Stay out of sight, and conduct passive observation until we can get a foothold and a new plan.
 
 And regarding the First Duathedlen - quit your murmuring right now.  I've seen his track record, and I know most of you know it too, which is why we can safely say that despite his... nature, his loyalty is [b]not[/b] in question - we can assume his abrupt cessation of communication is a necessary part of his investigations, and not him going rogue.  If you see him, tell us of his whereabouts, but do not interfere.
@@ -2584,19 +2585,19 @@ And regarding the First Duathedlen - quit your murmuring right now.  I've seen h
 Et concernant le Premier Duathedlen — cessez vos murmures immédiatement. Je connais son dossier, et je sais que la plupart d'entre vous le connaissent aussi. C'est pourquoi nous pouvons affirmer sans risque que, malgré sa... nature, sa loyauté n'est [b]pas[/b] en question — nous pouvons supposer que son arrêt brutal de communication est une partie nécessaire de ses investigations, et non le signe qu'il a fait défection. Si vous le voyez, informez-nous de sa position, mais n'interférez pas.
 
 [i](La lettre est signée d'un sceau démoniaque illisible mais à l'aspect formel.)[/i] ]], "_t")
-t("bootlegger's complaint letter", "lettre de plainte d'un contrebandier", "_t")
+t("bootlegger's complaint letter", "Lettre de plainte d'un contrebandier", "_t")
 t([[Look, I know the whole point of this market was to make a place for ANY sort of open trade, without the Allied Kingdoms' scryers breathing down our necks, and I know it's not exactly feasible to set up another portal off the continent...  but do you have any idea how bad it is for business to have the slavers using this with us?  Nobody's going to want to have a nice mug of unregulated-strength ale or pick up a shiny new stolen necklace when, not ten yards away, some helpless person is being led away in chains and wailing in misery.
 
 I'm telling you, ditch the slaves and you'll be bringing in ten times as many patrons for everything else.  Whatever your boss is paying you for the slaves, you'll make more than that - and if you're using the manual labor for yourself, just use the excess funds to buy golems!  Win-win decision, in my opinion.]], [[Écoutez, je sais que le but de ce marché était de créer un lieu pour TOUT type de commerce ouvert, sans que les voyants des Royaumes Alliés ne nous soufflent dans le cou, et je sais qu'il n'est pas vraiment faisable d'installer un autre portail hors du continent... mais avez-vous la moindre idée de ce que c'est mauvais pour les affaires d'avoir des esclavagistes qui utilisent cet endroit avec nous ? Personne ne voudra boire une bonne chope de bière non réglementée ou acheter un nouveau collier volé alors qu'à dix mètres, une pauvre personne est emmenée enchaînée en gémissant de misère.
 
 Je vous le dis, débarrassez-vous des esclaves et vous attirerez dix fois plus de clients pour tout le reste. Peu importe ce que votre patron vous paie pour les esclaves, vous gagnerez plus que ça — et si vous utilisez la main-d'oeuvre pour vous-mêmes, utilisez simplement les fonds excédentaires pour acheter des golems ! Une décision gagnant-gagnant, à mon avis.]], "_t")
-t("wand-smuggler's apology letter", "lettre d'excuses d'un contrebandier de baguettes", "_t")
+t("wand-smuggler's apology letter", "Lettre d'excuses d'un contrebandier de baguettes", "_t")
 t([[My sincerest apologies, Admiral.  I received the conjuration wands in bulk, and I had no idea that several of them were merely wands of trap destruction - testing each one would have drained some charge from each, providing an inferior product.
 
 I will be retrieving what portion of the cheerblossom I can get from my deceptive supplier, or her head - whichever you would prefer.  At that point, I will ask that you please consider revoking my banishment from your marketplace.]], [[Mes plus sincères excuses, Amiral. J'ai reçu les baguettes de conjuration en gros volume, et je n'avais aucune idée que plusieurs d'entre elles étaient de simples baguettes de destruction de pièges — les tester individuellement aurait drainé une partie de leur charge, offrant un produit de qualité inférieure.
 
 Je vais récupérer la part de pétales de bonheur que je peux obtenir auprès de mon fournisseur douteux, ou sa tête — selon ce que vous préférez. À ce moment-là, je vous demanderai de bien vouloir envisager de révoquer mon bannissement de votre marché.]], "_t")
-t("slaver's inquiry", "requête d'un esclavagiste", "_t")
+t("slaver's inquiry", "Requête d'un esclavagiste", "_t")
 t([[The anti-scrying nexus you folk set up here is damn impressive, as is the time-release pseudo-rune powered by it - hard to find a spare spot on my skin for it, but I can feel it working for a few days after I'm back in Maj'Eyal.  Great for making sure we can get away from the West portal and disperse without the A.K. catching on or tracking us to a common point of convergence.
 
 Got a proposal, though.  With a few little tweaks, I could make one that doesn't require the bearer's consent to use.  You aren't the only ones buying slaves from me, and when I get a customer who wants them taken right back to the West, we have to do the anti-scrying enchantments ourselves.  I don't know if you've noticed, but proper mages still aren't easy to come by - I barely made a profit last time I did it.
@@ -2628,7 +2629,7 @@ Ce que je veux dire, c'est que quand vous écrivez ces lettres, écrivez-les com
 -Korbek
 
 PS : Oui, je casse mes propres règles avec cette lettre — vous êtes des idiots qui ne comprenez clairement rien à la subtilité, donc je ne peux pas supposer que vous comprendriez une lettre écrite avec subtilité. Oui, je suis conscient qu'il y a une chance que cette lettre tombe entre les mains de l'ennemi. Non, l'ironie de cette situation ne m'échappe pas. Oui, je ferai mal à quiconque se croira assez malin pour évoquer l'un des points précédents.]], "_t")
-t("severed hand", "main coupée", "_t")
+t("severed hand", "Main coupée", "_t")
 t([[[i](You see here a rotting human hand in a black leather glove, severed at the wrist.  It is still clutching a cracked artifact resembling an Orb of Many Ways, with a note folded up between the orb and its palm.)[/i]
 
 "Drew the short straw" for the calibration [i]my entire ass.[/i]  That cheat used translocation magic and everyone there knew it.  If there's one thing I miss about the Ziguranth, it's that with them around, you only had to watch for sleight-of-hand and wear a mind-caging cap to avoid getting ripped off.
@@ -2652,7 +2653,7 @@ Bref... Korbek, si tu lis ceci, ça veut dire que ces nains de jardin ont encore
 
 Sérieusement, j'écris cette note pour que, même si je me fais tuer là-dedans, je vous rende service. Si je suis mort, j'apprécierais que vous montriez votre gratitude en vous assurant que ce fils de traînée mordu aux chevilles ait joué sa dernière partie de chaises musicales avec les pailles.
 ]], "_t")
-t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "ruepav ed stnaéG : 84 ertipahc ,tonyarG tiduré'l rap secèpse sed noitaulavÉ", "_t")
+t("stnaiG maetS :84 retpahC ,seicepS eht fo tnemssessA s'tonyarG ralohcS", "Ruepav ed stnaéG : 84 ertipahc ,tonyarG tiduré'l rap secèpse sed noitaulavÉ", "_t")
 t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpoep sih seiceps eht lla fo weivrevo cisab a mih evig ot sgnitirw ym nwohs saw flesmih sorysaK rolicnuoC dnarG ,yletanutroF  .tsaE eht ot latrop eht esu ot nailivic a rof elbissopmi ylraen s'ti ,yaw rehto eht kool ot sdraug eht ebirb ot dlog hguone htiw tnahcrem a ro ,kaloT gniK fo evitaler doolb a ,nezitic llawnuS a er'uoy sselnu taht smees ti - hcraeser ym tcudnoc ot em rof reisae yna ti edam ytimixorp eht taht toN  !seson ruo rednu thgir ylraen gnidih saw noitazilivic decnavda na hcus kniht oT
 
 .maets dezirusserp fo tsrub ro maerts a stime ,hctaw ot gnitrecnocsid rehtar gnieb ot noitidda ni ,hcihw ,ylediw dnetsid ro tuhs laes ot meht lliw nac yeht tub ,lla ta gnihton ro tsim eltneg a rehtie time dna elbisivni ylraen era yeht tser ta ;siht revo lortnoc suoicsnoc detimil evah yehT  .maets dezirusserp gnittime fo elbapac era hcihw stnev dna serop suoremun sah niks rieht - deman era yeht hcihw rof ,maets rieht ylniatrec tsomla si tiart lacisyhp gnihsiugnitsid tsom riehT  .(arakiaD fo stnaig gnorts ylevitpeced tey ,ylgnag eht ot tsartnoc ni) edis ykcots eht no ylthgils dna llat teef 01-8 yeht erew ,ekil kool dluow snamuh tahw ot ralimis ylgnikirts era stnaiG maetS
@@ -2674,6 +2675,7 @@ t([[.elpoep sih yduts ot ecneserp ym detseuqer eh dna ,htiw railimafnu erew elpo
 .eétûog siamaj eia'j euq ehtnisba eruelliem al eriaf à sirppa tno sli'uq tnemerèilucitrap tuot reton à sneit ej ,egral sulp snes nu snad somtA elpuep ud elèvér alec euq ec erid essiup en ej euq neiB .("sésserétni sel suot ruop etnassarrabme tnemédnoforp tuf" elle'uq tid tnemelues a'm sorysaK tnod ,ramlagarT ior el suos edoirép evèrb enu trap à sim) tnalgnas trops te eitarcoméd ertne tnerappa simorpmoc nu noles isiohc tse ,ecneuqésnoc ne ,tnemenrevuog rueL .secifiro ses rap ruepav ed egatnavad rerébil ed elbapac tnaté ne tnemelpmis UO ecaciffe sulp noitcurtsnoc enu à ecârg ecnassiup ne rengag tuep hcetopav al euq ecrap ertê-tuep ,selleutcelletni sétivitca xua'uq ruelav ed tnatua euqserp euqisyhp emrof al à tnedrocca sli'uq tse reton up ia'j euq dnoforp sulp uep nu uçrepa lues el ; ruojés ferb nom tnarud étéicos ettec tnemenielp resylana rerépse siavuop en eJ .fuen drager nu sneyotic ses à rirffo'd nifa séillA semuayoR sel te erialoS ruM el ceva tnemetrevuo recremmoc à écnemmoc a iuq ,sorysaK sèrpa'd ,étilaér al ed tnemehcatéd nu te euqitsihpos al à ecnadnet enu irruon issua a li ,étéicos ruel reppolevéd ruop eriassecén xiap al énnod a ruel tnemelosi tec iS
 
 .rinev à segâ sed ruop selèdif séilla sed xue'd tiaf a [b]XUEIC SED RUEGAVAR TNEDUPMI ,SUTALOMMI[/b] ed rerapme's ed fehc ruel ed sevitatnet sel reuojéd te kurK noillebér al resarcé ruop edia rueL .semêm-xue rap sétic sruel riov à sésirotua tôtneib tnores iom euq sregnarté sertua'd euq ertê-tuep te ,ennosrep ne egatnavad rertnocner ne'd noisacco'l tôtneib snorua suon ,selbaegirid sed siuped seéugral selleicifitra serutaérc sed rap erocne tnessap somtA sel ceva stcatnoc son ed trapulp al euq neib ,tios ne li'uq iouQ ? noitanimilé'd snif sed à erioratolpxe niatniol liatrop nu'd noitasilitu'l ed soporp à esohc euqleuq - layE'jaM ed soréH el ceva ertnocner enu ésinagro a li rac ,rengapmocca'm sulp tuep en li'uq tid em sorysaK .egatnavad erdnerppa ne ruop spmetgnol zessa reiduté sel up sap ia'n ej ,saléH]], "_t")
+t("races...?", "Races...?", "newLore category")
 t("Scholar Graynot's Assessment of the Species, Chapter 48: Steam Giants", "Évaluation des Espèces par l'Érudit Graynot, Chapitre 48 : Géants Vaporeux", "_t")
 t([[To think such an advanced civilization was hiding nearly right under our noses!  Not that the proximity made it any easier for me to conduct my research - it seems that unless you're a Sunwall citizen, a blood relative of King Tolak, or a merchant with enough gold to bribe the guards to look the other way, it's nearly impossible for a civilian to use the portal to the East.  Fortunately, Grand Councilor Kasyros himself was shown my writings to give him a basic overview of all the species his people were unfamiliar with, and he requested my presence to study his people.
 
@@ -2700,9 +2702,7 @@ t("Scholar Graynot's Assessment of the Species, Chapter 83: Wei...", "Évaluatio
 t("(This note had already caught fire when the paradox anomaly pulled it in from another timeline.  You only had time to read part of the title before it burned away completely.)", "(Cette note avait déjà pris feu quand l'anomalie paradoxale l'a extraite d'une autre ligne temporelle. Vous n'avez eu que le temps de lire une partie du titre avant qu'elle ne soit complètement consumée.)", "_t")
 -- texte non traduit
 --[==[
-t("var'eyal", "var'eyal", "newLore category")
 t("?...secar", "?...secar", "newLore category")
-t("races...?", "races...?", "newLore category")
 --]==]
 
 
@@ -2743,7 +2743,7 @@ Toute bonne chose a une fin, semble-t-il. Un jour, un éclaireur affolé courut 
 
 Nous le signalâmes aux Atmos, qui nous dirent simplement de leur parler raison ; ils n'avaient manifestement jamais été attaqués ! Nous n'obtiendrions aucune aide de leur part, pas même quand nos vies en dépendaient manifestement. À la place, la Grande Architecte Kruk nous présenta une série de plans qu'elle avait conçus, qu'elle n'avait osé révéler jusqu'alors par crainte que les Atmos ne les voient — des plans montrant comment transformer nos utiles engins à vapeur en armements d'une redoutable efficacité. Un harnais pour manier les grandes scies circulaires tournoyantes comme des armes, des générateurs de vapeur portables pour alimenter nos machines comme le faisaient les Atmos sans être reliés à un tuyau ou une conduite, un moyen de supprimer les mécanismes de sécurité des pistolets à clous et d'en remplacer les canons pour qu'ils tirent des balles de fronde à des vitesses incroyables, et une version géante de l'appareil de galvanoplastie qu'ils nous avaient offert, capable d'électrocuter des dizaines d'envahisseurs à la fois...
 
-Nous tînmes bon lorsque les autres Fiertés vinrent nous chercher, et nous combattîmes avec des armes qu'ils n'avaient jamais rencontrées, infligeant des blessures qu'ils n'avaient jamais appris à endurer ni à soigner, maniant des forces qu'ils ne pouvaient espérer ni comprendre ni affronter. Le vacarme strident des scies circulaires déchirant les armures et tranchant les membres, les cris des cavaliers wyrms de Gorbat arrachés du ciel par de gigantesques grappins, l'odeur de chair orcique grillée jusqu'aux os par la foudre ou ébouillantée par des jets de vapeur, le crépitement des fusils à vapeur transformant des formations d'assaut en tas de cadavres — ces sensations pourraient hanter les cauchemars des Atmos et des autres Fiertés, mais pour nous, c'étaient les doux sons, images et odeurs de la victoire et de la sécurité. Nous l'avions emporté, avec seulement une poignée de morts dans nos rangs avant qu'ils ne s'enfuient. La Fierté Kruk ne serait pas conquise.
+Nous tînmes bon lorsque les autres Fiertés vinrent nous chercher, et nous combattîmes avec des armes qu'ils n'avaient jamais rencontrées, infligeant des blessures qu'ils n'avaient jamais appris à endurer ni à soigner, maniant des forces qu'ils ne pouvaient espérer ni comprendre ni affronter. Le vacarme strident des scies circulaires déchirant les armures et tranchant les membres, les cris des chevaucheurs d'anciens dragons de Gorbat arrachés du ciel par de gigantesques grappins, l'odeur de chair orcique grillée jusqu'aux os par la foudre ou ébouillantée par des jets de vapeur, le crépitement des fusils à vapeur transformant des formations d'assaut en tas de cadavres — ces sensations pourraient hanter les cauchemars des Atmos et des autres Fiertés, mais pour nous, c'étaient les doux sons, images et odeurs de la victoire et de la sécurité. Nous l'avions emporté, avec seulement une poignée de morts dans nos rangs avant qu'ils ne s'enfuient. La Fierté Kruk ne serait pas conquise.
 
 Les Atmos, cependant, ne virent pas la situation désespérée dans laquelle nous nous trouvions. Ils ne virent pas la menace à laquelle nous faisions face, et je doute que même si la Grande Architecte de la Fierté leur avait dit ce qu'elle savait, ils l'auraient écoutée. Tout ce qu'ils voyaient, c'étaient leurs outils de création utilisés pour détruire, leurs belles inventions employées à quelque chose d'aussi monstrueux, leurs chers et ingénieux "enfants" causant un carnage sanglant à une échelle des centaines de fois supérieure à tout ce qu'ils avaient jamais vu. Ils nous renièrent, et ceux qui avaient commencé à se mêler à nous se retirèrent promptement vers les montagnes. Nous n'étions plus les bienvenus pour utiliser leur technologie, ni peut-être même pour vivre près de leurs montagnes.
 
@@ -2753,13 +2753,13 @@ Leur compagnie, leur sagesse ancienne et leur bienveillance prudente vont nous m
 section "tome-orcs/data/lore/palace-fumes.lua"
 
 t("palace of fumes", "Palais des Fumées", "newLore category")
-t("a reminder", "un rappel", "_t")
+t("a reminder", "Un rappel", "_t")
 t([[A Reminder to Our Constituents:
 
 Any votes for an individual candidate for office cease to be valid once the primaries are over, and the field has been narrowed down to two (or rarely three, in a close race) candidates.  At this point, you cannot vote for your candidate; instead, a competition will be held, after which its victor will be awarded with the position.  The vote you are submitting now determines how they will be competing.  While we cannot enforce how or why you vote, we request that you respect the spirit of our system, and select a competition which reflects the candidates' capability to handle the responsibilities of the Chief Councilor position.]], [[Un rappel à nos électeurs :
 
 Tout vote en faveur d'un candidat individuel à un poste cesse d'être valable une fois les primaires terminées et le nombre de candidats réduit à deux (ou, rarement, trois, lors d'une compétition serrée). À ce stade, vous ne pouvez plus voter pour votre candidat ; à la place, une compétition sera organisée, à l'issue de laquelle son vainqueur se verra attribuer le poste. Le vote que vous soumettez maintenant détermine la nature de cette compétition. Bien que nous ne puissions imposer la manière dont vous votez ni les raisons qui vous y poussent, nous vous demandons de respecter l'esprit de notre système et de choisir une compétition qui reflète la capacité des candidats à assumer les responsabilités du poste de Conseiller en Chef.]], "_t")
-t("a wrinkled pamphlet", "un pamphlet froissé", "_t")
+t("a wrinkled pamphlet", "Un pamphlet froissé", "_t")
 t([[A Plea from the Volunteer's Bureau of Gaming:
 
 Once again, we find ourselves faced with an election for the competition of Chief Councilor.  While this is the most prestigious position in our government, it should not be forgotten that is also arguably the most complex, and the one bearing the greatest responsibility for the fate of our people.  A Chief Councilor's duties require not only cautious, reasoned foresight, but a quick wit to get emergencies under control in little time; yet, he or she must be aware of the precedent set or the unintended consequences of such decisive action, never acting rashly or out of ill temper.  Such a leader would wield our citizens and our military like a drunkard with a glass bottle, not caring if his weapon is shattered in the process. He or she must be able to develop creative solutions to problems but be open to outside advice, to be a character judge capable of selecting his or her most valuable acquaintances and a persuader to convince them to do the tasks for which they are most suited...  suffice to say, there are a great many mental skills required.  Accordingly, the competition should be one that tests all these skills.
@@ -2777,13 +2777,13 @@ Pour cette élection, nous soutenons formellement le jeu de plateau [i]Automobil
 La v9.8 utilise la carte "Division Croulante", offrant une barrière qui élimine la possibilité pour un joueur agressif de remporter une victoire prématurée, testant la capacité des joueurs à planifier sur le long terme ; mais en raison de la présence d'adversaires non-joueurs des deux côtés, ils doivent néanmoins être capables d'élaborer des plans à court terme garantissant leur survie et les laissant en position avantageuse lorsque la barrière disparaît. Les adversaires non-joueurs suivent un ensemble de règles prévisibles, éliminant la chance comme facteur, et nos necropsychiques ont trouvé un moyen de copier la même conscience spirituelle dans deux figurines, ce qui signifie que les deux joueurs utiliseront des ensembles identiques de figurines de Négociateur pour démontrer leur finesse diplomatique. (Comme toujours, les figurines sont conçues pour libérer leurs esprits au bout d'un mois au plus, garantissant que ce procédé soit aussi humain que possible pour les défunts.)
 
 L'édition grand public de ce jeu, la v6.0, a remporté d'innombrables récompenses pour son jeu engageant et stimulant, avec une attention particulière portée à la grande diversité des stratégies viables et des compétences qu'il met à l'épreuve. Les deux camps ont reconnu qu'il s'agissait d'un jeu équitable lors de l'élection du Maréchal, dans sa version v1.0 ; la v9.8 ne devrait pas décevoir en tant que méthode de sélection de notre prochain dirigeant. Votez pour [i]Automobiles et Automates v9.8[/i] cette année, et le vainqueur ne vous décevra pas.]], "_t")
-t("a fading poster", "une affiche délavée", "_t")
+t("a fading poster", "Une affiche délavée", "_t")
 t([[Councilor Tantalos, unlike that cowardly wimp Chief Councilor Kasyros, knows just what to do to solve the steam shortages, and isn't afraid to do it!  Even though he can't reveal his plan yet for security reasons, the Geothermal Authority and our military's highest generals have assured us that his plan would work, without requiring us to ration steam usage or regulate our appliances; let's see Tantalos show that old geezer what-for, and end this drought for good!
 
 VOTE FISTICUFFS]], [[Le Conseiller Tantalos, contrairement à ce froussard lâche de Conseiller en Chef Kasyros, sait exactement ce qu'il faut faire pour résoudre les pénuries de vapeur, et n'a pas peur d'agir ! Même s'il ne peut pas encore révéler son plan pour des raisons de sécurité, l'Autorité Géothermique et les plus hauts généraux de nos forces armées nous ont assurés que son plan fonctionnerait, sans qu'il soit nécessaire de rationner l'utilisation de la vapeur ni de réglementer nos appareils ; voyons Tantalos montrer à ce vieux grincheux ce dont il est capable, et mettre fin à cette disette une bonne fois pour toutes !
 
 VOTEZ PUGILAT]], "_t")
-t("Kasyros' resignation speech", "le discours de démission de Kasyros", "_t")
+t("Kasyros' resignation speech", "Le discours de démission de Kasyros", "_t")
 t([[My fellow councilors,
 
 In this time of increasing vent-drought, it is tempting for us to seek the easy way out.  I understand that at this point, I am powerless to prevent our new Chief Councillor's plans to take the promising vents under the Kruk orcs, but should we fail, you may be tempted to compensate by approaching that...  entity who called itself "the Loyalist."  I am of the opinion that this would be a foolish decision.
@@ -2829,7 +2829,7 @@ Nos aïeux disent que cette créature leur donna un moyen de la contacter à nou
 Peut-être que le discours politique est devenu quelque peu... plus trouble ces dernières années. Avec les chamailleries et les piques des débats modernes, il peut être difficile de croire que les Conseillers du passé avaient autre chose que leur carrière en tête, qu'une démonstration véhémente d'émotion puisse être autre chose qu'une posture politique. Mais même si ces Conseillers étaient tout aussi mesquins et égoïstes que nous, ils ne le laissèrent jamais affecter les Histoires Officielles, pas une seule fois.
 
 J'ai l'intention de faire confiance au seul conseil que nos ancêtres nous ont laissé dans les Histoires Officielles. Je vous supplie tous d'en faire de même.]], "_t")
-t("excerpts from a Council meeting transcript (1)", "extraits du procès-verbal d'une réunion du Conseil (1)", "_t")
+t("excerpts from a Council meeting transcript (1)", "Extraits du procès-verbal d'une réunion du Conseil (1)", "_t")
 t([[The Steam Council has been called to order, with Chief Councilor Tantalos presiding.  
 
 TANTALOS: "Greetings, my fellow- heh, now [i]lesser[/i] Councilors!  It is my pleasure to finally lead the proceedings.  The agenda for today..." Ruffles through papers. "Is irrelevant, for I have a solution to every malady mentioned therein.  The first order--"
@@ -2879,7 +2879,7 @@ KASYROS : [La déclaration a été jugée excessivement grossière et retirée d
 TANTALOS : "Quelle conduite indigne ! Tout cela parce que vous ne pouvez accepter que le peuple veuille récupérer sa vapeur. Plus qu'il ne veut ces petits peaux-vertes crasseux dans les parages, plus qu'il ne craint de se salir les mains, plus qu'il ne veut [i]votre[/i] façon de faire les choses. Donc ! Il est décidé que nous avons beaucoup à gagner à cela, il est décidé que nous disposons ou pouvons obtenir les moyens de le mener à bien, et il est décidé que c'est ce que le peuple votant désire. Je ne vois aucune raison de débattre davantage. Nashal, j'aimerais vous parler après la séance d'une baguette. Séance levée."
 
 [À ce moment, le Conseiller Kasyros prononça un long discours avant de démissionner officiellement du Conseil. Il a été consigné dans un document séparé.] ]], "_t")
-t("excerpts from a Council meeting transcript (2)", "extraits du procès-verbal d'une réunion du Conseil (2)", "_t")
+t("excerpts from a Council meeting transcript (2)", "Extraits du procès-verbal d'une réunion du Conseil (2)", "_t")
 t([[(Ink has been spilled on this transcript - you can only read certain passages.)
 
 ???: "[...]ame me for this!  YOUR mechanics examined that airship, YOUR equipment was used to repair it, and it's YOUR fault it went down!"
@@ -2945,7 +2945,7 @@ TANTALOS : "Ainsi, quelques vauriens du marché ont disparu, et les Kruk sont pa
 PALAQUIE : "Des options supplémentaires ?"
 
 TANTALOS : "La séance a été levée. Vous devriez entraîner nos necropsychiques, Conseiller."]], "_t")
-t("excerpts from a Council meeting transcript (3)", "extraits du procès-verbal d'une réunion du Conseil (3)", "_t")
+t("excerpts from a Council meeting transcript (3)", "Extraits du procès-verbal d'une réunion du Conseil (3)", "_t")
 t([[TANTALOS: "Tell the others of the unfortunate developments, Palaquie."
 
 PALAQUIE: "The Kruk Orcs, under %s, appear to have pushed to the last bastion of the Sunwall forces...  none of my visions predict this ending favorably for anyone of non-Orcish descent.  With the Sunwall gone, there will be no further distractions for the Kruk.  In short, the Sunwall are doomed - and we are next."
@@ -3030,8 +3030,8 @@ t("his", "son", "_t")
 t("her", "sa", "_t")
 t("she", "elle", "_t")
 t("She", "Elle", "_t")
-t("pocket of distorted time", "poche de distortion temporelle", "newLore category")
-t("a telepathic message <Rough Drafts>", "un message télépathique <Brouillons>", "_t")
+t("pocket of distorted time", "Poche de distortion temporelle", "newLore category")
+t("a telepathic message <Rough Drafts>", "Un message télépathique <Brouillons>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was a Halfling alchemist by the name of <?=Lore.pocket_time_winner.name?>.  Alongside her trusty golem, she marched into the Trollmire, disposing of all foes in her path; when she encountered Prox, though, and he bent down to roar mere inches from her face, well inside a bomb's blast radius, she panicked and pulled a vial off her belt--
 
 Once upon a time, there was a Dwarven berserker by the name of <?=Lore.pocket_time_winner.name?>.  Fleeing through the halls of Reknor as his friend was cut down by Orcish warriors, he ran face-first into a couple of them and--
@@ -3062,14 +3062,14 @@ Il était une fois une grande héroïne, une Naine Gardienne de Pierre nommée <
 
 Il était une fois un invocateur Thalore nommé <?=Lore.pocket_time_winner.name?>, qui commença son aventure aux côtés d'un serpent exceptionnellement doué en magie temporelle.
 
-Il était une fois un redoutable méchant, un ogre dévastateur appelé <?=Lore.pocket_time_winner.name?>, qui fut fasciné par les structures cristallines corrompues des Grottes Scintillantes. D'abord, il tendit une embuscade à un garde du Dernier Espoir en pleine nuit, lui dérobant son anneau enchanté. Puis, il sema la destruction sur son passage, se nourrissant de la force de tous ceux qui tombaient sous sa hache de guerre ou étaient transpercés par son épée longue, devenant toujours plus puissant à chaque mort. Il s'allia au Grand Corrupteur pour attaquer Zigur, s'assurant que rien ne puisse entraver la propagation de ses fléaux arcaniques. Ensuite, il emporta le Coeur de la Reine des Ver des Sables vers des terres souillées par la Conflagration Magique, cherchant à pervertir sa bénédiction naturelle en une source de souffrance. Il assista, impuissant, au sacrifice d'une jeune fille par un culte pour invoquer leur maître démoniaque, avant de le tuer lui-même, se délectant à l'idée de voyager en Extrême-Orient, où quatre armées d'orcs brisés et ensanglantés gisaient, infestées de tumeurs et de furoncles, tandis que la vie s'échappait lentement de leurs yeux. Les meilleurs soldats de la Fierté Vor furent impuissants face à son assaut contre leur arsenal, mais un orc infirme et malade s'appuya contre les portes scellées, le suppliant de ne pas les ouvrir. Il se contenta de rire avant d'écraser le crâne du malheureux sous sa botte en s'avançant vers la porte. D'un coup de pied, il la défonça, pour aussitôt sentir son armure d'os se désintégrer sous le souffle d'une armée de serpents multicolores d'une puissance inouïe.<?=Lore.pocket_time_winner.name?> Il savait quand se retirer d'un combat. Il serra le poing tout en agrippant sa Rune de Téléportation ; lorsque l'éclair aveuglant se dissipa, il se retrouva à quelques centimètres de…
+Il était une fois un redoutable méchant, un ogre dévastateur appelé <?=Lore.pocket_time_winner.name?>, qui fut fasciné par les structures cristallines corrompues des Grottes Scintillantes. D'abord, il tendit une embuscade à un garde du Dernier Espoir en pleine nuit, lui dérobant son anneau enchanté. Puis, il sema la destruction sur son passage, se nourrissant de la force de tous ceux qui tombaient sous sa hache de guerre ou étaient transpercés par son épée longue, devenant toujours plus puissant à chaque mort. Il s'allia au Grand Corrupteur pour attaquer Zigur, s'assurant que rien ne puisse entraver la propagation de ses fléaux arcaniques. Ensuite, il emporta le Coeur de la Reine des Ver des Sables vers des terres souillées par la Conflagration Magique, cherchant à pervertir sa bénédiction naturelle en une source de souffrance. Il assista, impuissant, au sacrifice d'une jeune fille par un culte pour invoquer leur maître démoniaque, avant de le tuer lui-même, se délectant à l'idée de voyager en Extrême-Orient, où quatre armées d'orcs brisés et ensanglantés gisaient, infestées de tumeurs et de furoncles, tandis que la vie s'échappait lentement de leurs yeux. Les meilleurs soldats de la Fierté Vor furent impuissants face à son assaut contre leur arsenal, mais un orc infirme et malade s'appuya contre les portes scellées, le suppliant de ne pas les ouvrir. Il se contenta de rire avant d'écraser le crâne du malheureux sous sa botte en s'avançant vers la porte. D'un coup de pied, il la défonça, pour aussitôt sentir son armure d'os se désintégrer sous le souffle d'une armée d'anciens dragons multicolores d'une puissance inouïe.<?=Lore.pocket_time_winner.name?> Il savait quand se retirer d'un combat. Il serra le poing tout en agrippant sa Rune de Téléportation ; lorsque l'éclair aveuglant se dissipa, il se retrouva à quelques centimètres de…
 
 Il était une fois un elfe de la ruine nommé <?=Lore.pocket_time_winner.name?>, libérée de l'emprise démoniaque d'une météorite, elle décida d'utiliser ses nouveaux pouvoirs pour s'échapper de l'enfer orbital où elle était prisonnière et se jeta dans la bataille. Les Inspecteurs et les Mutilateurs, conçus pour torturer les prisonniers mais inaptes au combat direct, succombèrent à sa lame infernale presque aussi facilement que les Enfants de Rubis, qui ne possédaient que des compétences cléricales rudimentaires. Bientôt, elle sentit que la magie démoniaque qui l'imprégnait la rendait presque invincible. Lorsqu'une statue démoniaque l'appela, elle n'hésita pas à tenter d'absorber davantage de son pouvoir, remarquant à peine le moment où la statue invoqua un Champion d'Urh'Rok…
 
 Il était une fois un aventurier Shalore nommé <?=Lore.pocket_time_winner.name?> qui était certain de ses capacités. Il avait développé un ensemble de compétences extrêmement inhabituelles : un talent exceptionnel pour les arts martiaux à mains nues, un potentiel psychique lui permettant de manipuler un bâton dans les airs tout en gardant les mains libres, et une magie de la pierre qui utilisait ses coups de poing comme un faisceau pour déchaîner un barrage de projectiles de terre sur ses ennemis. Après s’être suffisamment entraîné pour maîtriser ces techniques, il commença à éliminer tous les adversaires qui croisaient son chemin… jusqu’à ce qu’il se retrouve face à face avec la redoutable Bête Étrange. Le combat fut intense, et en peu de temps, tous deux étaient au bord de la mort, de part et d’autre de la salle de la forteresse. L’Aventurier savait qu’il ne pouvait pas se permettre de réduire la distance pour en finir. Au lieu de cela, il lança deux projectiles de terre sur la créature. Cependant, à l’instant même où les projectiles quittèrent ses mains, il sentit l’étreinte de griffes d’os l’enserrer à la taille, aux jambes et au dos, le tirant à une vitesse inconcevable vers la Bête Étrange. <?=Lore.pocket_time_winner.name?> aurait pu survivre à l'affrontement qui s'ensuivit, mais il fut emporté plus vite que ses propres missiles ne pouvaient voler, se retrouvant désormais pris entre les projectiles de pierre et sa cible initiale...
 
 Il était une fois un grand esprit qui posa sa plume et ferma son carnet, en soupirant de frustration.]], "_t")
-t("a telepathic message <The Tale of Maj'Eyal>", "un message télépathique <La Légende de Maj'Eyal>", "_t")
+t("a telepathic message <The Tale of Maj'Eyal>", "Un message télépathique <La Légende de Maj'Eyal>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was <?=Lore.pocket_time_winner.race?> <?=Lore.pocket_time_winner.class?> by the name of <?=Lore.pocket_time_winner.name?>.  <?=Lore.pocket_time_winner.HeShe?> came from humble beginnings, dealing with minor threats like the mad nature-guardian Norgos or yet another reincarnation of Kor'Pul, but as <?=Lore.pocket_time_winner.heshe?> traveled throughout the land, <?=Lore.pocket_time_winner.heshe?> grew stronger and more skilled, and began to take on ever more fearsome opponents.  <?=Lore.pocket_time_winner.HeShe?> purged the corrupted horrors of Yiikgur and claimed the long-forgotten flying fortress for <?=Lore.pocket_time_winner.himher?>self, but even this was a mere stepping stone on the way to the tower of Dreadfell.  The Master, a necromancer of terrible power and even more terrible sadism, waited for <?=Lore.pocket_time_winner.himher?> there with an army of the undead, clutching an ancient weapon of incredible power...  but <?=Lore.pocket_time_winner.name?> bravely pressed on, cutting through the hordes of skeletons and ghouls, prevailing where so many others had failed.  Eventually, <?=Lore.pocket_time_winner.heshe?> stood victorious over the vampire's body, and took the Staff of Absorption with <?=Lore.pocket_time_winner.himher?>, safely away from undead hands.  Maj'Eyal was safe once more.
 
 Unfortunately, what awaited <?=Lore.pocket_time_winner.himher?> next was a quest with even greater stakes.  Orcs, a once-thought-vanquished threat, had reappeared in force in Maj'Eyal!  Despite <?=Lore.pocket_time_winner.name?>'s best efforts to store the staff in a safe place, the orcs stole it, and <?=Lore.pocket_time_winner.name?> was forced to follow them all the way through an ancient, impossibly advanced Farportal to get it back.  The portal crackled and whirled as <?=Lore.pocket_time_winner.name?> held up the Orb of Many Ways to activate it; <?=Lore.pocket_time_winner.heshe?> took a deep breath, closed <?=Lore.pocket_time_winner.hisher?> eyes, and a moment later, <?=Lore.pocket_time_winner.heshe?> became the first person to go from Maj'Eyal to Var'Eyal, the distant continent of the Far East, in centuries.
@@ -3117,7 +3117,7 @@ Personne sur Eyal ne saurait jamais de son sacrifice, ni qu'ils avaient été en
 <? end ?>
 <? if Lore.pocket_time_winner.is_yeek then ?>[i]...Enfin, supposons que les choses se soient passées ainsi. L'alternative rendrait bien difficile le récit de la prochaine histoire.[/i]<? end ?>
 ]], "_t")
-t("a telepathic message <The Eidolon>", "un message télépathique <L'Eidolon>", "_t")
+t("a telepathic message <The Eidolon>", "Un message télépathique <L'Eidolon>", "_t")
 t([[<? Lore.init_pocket_time_data() ?>Once upon a time, there was a spirit known as the Eidolon, older than anything on Eyal.  Some called it a savior, a bringer of order and justice; others, a dark god, spreading terror for its own amusement.  Such mortal classifications are hopelessly inadequate to describe the incomprehensibly far-sighted motivations of a being nearly as old as time itself...  but if you were to ask the Eidolon, it would call itself a storyteller.
 
 Whether the story exists only in its own head or is reflected across the Shandral system, none can say - but the Eidolon needed heroes for its story, as it always has.  Today, the hero it needed was a master of battle, the likes of which had not been seen since the age of Garkul the Devourer.  It considered a few different options, deeming many failures, some potentially adequate with a few mistakes forgiven, and only one to be finally chosen.  Its chosen protagonist met every challenge put before <?=Lore.pocket_time_winner.himher?>, sometimes with ease, often with difficulty, occasionally escaping through luck alone, but eventually stood atop the High Peak, having saved Eyal from the greatest threat it had ever faced<? if Lore.pocket_time_winner.sacrifice then ?> by sacrificing <?=Lore.pocket_time_winner.himher?>self to shut down the Sorcerers' farportal<? end ?>.
@@ -3145,8 +3145,8 @@ t("Maltoth", "Maltoth", "_t")
 ------------------------------------------------
 section "tome-orcs/data/lore/primal-forest.lua"
 
-t("primal forest", "forêt primitive", "newLore category")
-t("a warning sign", "un panneau d'avertissement", "_t")
+t("primal forest", "Forêt primitive", "newLore category")
+t("a warning sign", "Un panneau d'avertissement", "_t")
 t([[WARNING - READ THIS!
 
 ---
@@ -3189,7 +3189,7 @@ Avec une infinie gratitude,
 [i](C’est ici que je signerais mon nom, si j’étais un idiot fini.)[/i]
 
 PS : Si vous pouvez me rendre un service personnel, détruisez tous les documents écrits que vous trouverez. Ils sont tombés de mon sac en fuyant ; je suis déjà un lâche, et je préférerais ne pas être considéré également comme un pollueur.]], "_t")
-t("a pamphlet 'Eyal Needs You!'", "un pamphlet : \"Eyal a besoin de vous !\"", "_t")
+t("a pamphlet 'Eyal Needs You!'", "Un pamphlet : \"Eyal a besoin de vous !\"", "_t")
 t([[EYAL NEEDS YOU!
 
 The damage left in the Scintillating Caverns, in Norgos' Lair, and in countless other places has only now become clear, after the Hero of Maj'Eyal made them safe to explore once more.  Now that peace has been brought to these lands, Eyal is beginning to heal - but with the arrival of our magic-using cousins from the East and the Allied Kingdoms' growing acceptance of magic, the balance may once more tip towards ruin - but YOUR help can keep Eyal healthy!  Join the Menders, and start helping the planet today!
@@ -3250,7 +3250,7 @@ Ainsi, nous concentrons nos efforts sur deux axes. Le premier est la promotion d
 Le second axe consiste à minimiser les dégâts causés par l’arcane, en éduquant les lanceurs de sorts sur l’usage sûr, responsable et respectueux de la Nature de la magie. Tous les lanceurs de sorts ne sont pas mauvais, et certains peuvent même enrichir la vie de ceux qui les entourent ! La magie runique est au moins en partie auto-limitante, et nous collaborons avec la guilde des **Fossiles Vivants** dans l’espoir de développer un nouveau type de magie, intrinsèquement lié et limité par la Nature. Leurs **Gardiens de Pierre** ont maintenu une harmonie parfaite avec la Nature malgré l’usage constant de l’arcane. Si c’est vraiment la voie à suivre, alors nous l’accueillerons à bras ouverts.
 
 ]], "_t")
-t("a leaf-bound journal", "un journal relié de feuilles", "_t")
+t("a leaf-bound journal", "Un journal relié de feuilles", "_t")
 t([[[i](You see here a leaf-bound journal; the moment you open it, it begins to wither and crumble.  You manage to rip out one page; it is still disintegrating, but slowly enough that you can read it before it turns to dust.)[/i]
 
 Another vandalized poster.  Calling us traitors, collaborators, declaring themselves the True Ziguranth.  Fools, the lot of them.
@@ -3280,14 +3280,14 @@ En attendant, payer les formateurs des **Gardiens de Pierre** et acheter suffisa
 ------------------------------------------------
 section "tome-orcs/data/lore/quarry.lua"
 
-t("steam quarry", "carrière de vapeur", "newLore category")
-t("a very old journal (1)", "un très vieux journal (1)", "_t")
+t("steam quarry", "Carrière de vapeur", "newLore category")
+t("a very old journal (1)", "Un très vieux journal (1)", "_t")
 t([[This is a matter most vexing.  Our digging was going well (if not particularly productively), and those fellows over in Geothermal Surveying told us they'd found a possible heat source, quite near an existing tunnel - but the miners started refusing to go there.  Copious complaints about assorted lesser maladies - nosebleeds, tremors, and general feelings of fear and unease.  On the other hand, a couple claim the vapors down there have done wonders for their clogged pores.
 
 Firing one as an example didn't work, and I have neither the time nor the inclination to get a bunch of layabouts to do their jobs.  I'm bringing in a yeti handler and excavating the whole area.]], [[Voici une situation des plus agaçantes. Nos fouilles se déroulaient bien (même si pas particulièrement de manière productive), et ces gens de la **Topographie Géothermique** nous ont informés avoir trouvé une source de chaleur possible, tout près d’un tunnel existant. Mais les mineurs ont commencé à refuser d’y aller, se plaignant de divers maux mineurs : saignements de nez, tremblements, et une sensation générale de peur et de malaise. En revanche, certains prétendent que les vapeurs là-bas ont fait des merveilles pour leurs pores obstrués.
 
 Licencier l’un d’eux en exemple n’a rien changé, et je n’ai ni le temps ni l’envie de convaincre une bande de fainéants de faire leur travail. Je vais faire venir un **dresseur de Yéti** et excaver toute la zone.]], "_t")
-t("a very old journal (2)", "un très vieux journal (2)", "_t")
+t("a very old journal (2)", "Un très vieux journal (2)", "_t")
 t([[Now I've had to fire a yeti handler as well.  The other workers tell me that the yetis would clutch their heads and hurl themselves into the chasm after no more than a few minutes of work in the promising area; we tried replacing the yetis, but then the handler developed a nosebleed as well, and then refused to do more work.
 
 And this incompetent fool was using a psychic controller!  I would expect this performance from a child attempting it free-hand, but a trained and properly equipped professional should be able to command an entire team of yetis!
@@ -3297,7 +3297,7 @@ I've filed a request for a special order, along with one for the handler's licen
 Et cet incompétent utilisait un **contrôleur psychique** ! Je m’attends à une telle performance de la part d’un enfant qui tente de le faire à main nue, mais un professionnel formé et correctement équipé devrait être capable de commander une équipe entière de Yétis !
 
 J’ai déposé une demande pour une commande spéciale, ainsi qu’une autre pour que la licence du dresseur soit déchirée et jetée dans le gouffre. Il est temps de prendre des mesures drastiques.]], "_t")
-t("a very old journal (3)", "un très vieux journal (3)", "_t")
+t("a very old journal (3)", "Un très vieux journal (3)", "_t")
 t([[I don't like automatons.  Machines that operate by themselves, with no personal input...  why, they don't require any skill or ability to operate!  You need only rely on what someone else has done by inventing it!  Mark my words, our dependence on these things will be the death of us, making us weak in body and mind...  but I must admit, they have gotten the job done.  Only a few days after we brought in these arachnoid contraptions, they excavated enough of the offending cavern (and presumably purged enough of whatever pollutant was down there) that living workers are once again willing to work in the nearby areas.  I don't care if it was superstition or what, because we're going to make quota for this month - those caves had a lot of vents to work with!
 
 Still not sure why the Council confiscated the cargo from the third machine we sent down there, but whatever.  Those uppity do-nothings can keep the gold or jewels or whatever was in there.
@@ -3542,7 +3542,7 @@ Mes excuses, mais vous devrez retourner voir le roi Tolak les mains vides - nous
 ...Jamais vu ? Peu importe.
 
 Quoi qu'il en soit, mon conseil est de demander la permission d'envoyer quelques Inquisiteurs Étincelants au roi Tolak pour aider aux enquêtes de son côté. Quelle que soit la manière dont ils échappent à la détection ici à l'Est, soit ils ne peuvent pas l'utiliser à l'Ouest, soit ils baissent simplement leur garde une fois rentrés chez eux, à en juger par l'augmentation des taux d'arrestation - nous pouvons aider les Royaumes Alliés à frapper le maillon faible de cette chaîne, et faire en sorte que les Inquisiteurs gardent un oeil sur les choses à Maj'Eyal en même temps. Non pas que je ne fasse pas confiance au roi Tolak pour honorer son engagement d'empêcher ces vils Ziguranth de réussir à nouveau quoi que ce soit comme le Massacre du Crépuscule, mais... eh bien, si un autel de portail lointain a réussi à atteindre le marché noir sous la surveillance des Royaumes Alliés, peut-être grâce à un alchimiste fou qui vivait pratiquement à côté du roi, je n'ai pas trop foi en leur capacité à tirer une bande de fanatiques clandestins vers la lumière, hors de la couverture de ce groupe de Réparateurs soi-disant bénin. Je suis sûr qu'ils font de leur mieux ; tout ce que je suggère, c'est que nous fassions de même.]], "_t")
-t("journal of High Sun Paladin Aeryn", "journal de la Haute Paladine Solaire Aeryn", "_t")
+t("journal of High Sun Paladin Aeryn", "Journal de la Haute Paladine Solaire Aeryn", "_t")
 t([[This is it...  the day I've dreaded for most of my life is here, and yet it still comes as a shock.  I expected it for almost every day of my life...  until last year.  The Scourge from the West defeated the Prides, raced down the Charred Scar, and stormed the tower of High Peak to fight by my side against a threat far greater than I dreamed possible.  We'd been reunited with a cooperative and nearly-unified Maj'Eyal, led by a king willing and able to help us in any way, armed with a plan to keep the orcs completely under control...  it's as if the Sun had begun to creep over the horizon to start the dawn of peace in Var'Eyal, right before going dark forever and taking the moons with it.  The love of my life is presumed dead; the candle in the night of the years before has been snuffed out. Nothing - no plan that hasn't been shattered, no inspiration that hasn't fallen, no hope that hasn't turned to despair - is left to guide me.
 
 I must be that light for my allies' sake.  I must be strong, resolute, giving them whatever tiny amounts of hope I can.  Not only to keep their morale up and give us a chance of prevailing against the unstoppable menace which the Sunwall has stood against for ages...  but so that their last thoughts in death might be that their sacrifice has saved us all.  Maybe one of them will be right.
@@ -7865,7 +7865,7 @@ t("Kruk Pride", "Fierté Kruk", "_t")
 section "tome-orcs/data/zones/ureslak-host/npcs.lua"
 
 t("Ureslak the Eternal", "Ureslak l'Éternel", "entity name")
-t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "Le légendaire Draconien semble être tombé, bien que cela ne semble pas avoir duré.", "_t")
+t("The legendary Wyrm seems to have fallen, though it doesn't appear to have stuck.", "Le légendaire Dragon semble être tombé, bien que cela ne semble pas avoir duré.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/ureslak-host/objects.lua"
