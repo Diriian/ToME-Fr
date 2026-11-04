@@ -731,18 +731,18 @@ t("Unique (fixed) bosses advance in bonus classes 30% faster", "Les classes bonu
 t("Rare creatures are slightly more frequent", "Les créatures rares sont légèrement plus fréquentes", "_t")
 t("Stairs can not be used for 3 turns after a kill.", "Les escaliers ne peuvent pas être utilisés pendant 3 tours après avoir tué.", "_t")
 t("Player can earn Nightmare version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version cauchemar des succès si il joue également en mode Roguelike ou Aventure.", "_t")
-t("Insane", "Insensé", "birth descriptor name")
+t("Insane", "Dément", "birth descriptor name")
 t("Easy is for the weak! Normal is for the weak! Nightmare is too easy! Bring on the true pain!", "Très facile c'est pour les faibles ! Normal c'est pour les faibles ! Cauchemar est trop facile ! Envoyez la vrai difficulté !", "_t")
-t("#GOLD##{bold}#Insane mode#WHITE##{normal}#", "#GOLD##{bold}#Mode insensé#WHITE##{normal}#", "_t")
+t("#GOLD##{bold}#Insane mode#WHITE##{normal}#", "#GOLD##{bold}#Mode Dément#WHITE##{normal}#", "_t")
 t("Similar rules to Nightmare, but with more random bosses!", "Règles similaire au mode cauchemar, mais avec des boss aléatoires !", "_t")
 t("All zone levels increased by 50% + 1 by the time Player reaches level 10", "Le niveau de toutes les zones est augmenté de 50% + 1 à partir du moment où le joueur atteint le niveau 10", "_t")
 t("All creature talent levels increased by 70%", "Le niveau des talents de toutes les créatures est augmenté de 70%", "_t")
 t("Unique (fixed) bosses advance in bonus classes 70% faster", "Les classes bonus des boss uniques (fixes) sont 70% plus puissantes", "_t")
 t("Rare creatures are far more frequent and random bosses start to appear", "Les créatures rares sont bien plus fréquentes et des boss aléatoires commencent à apparaitre", "_t")
 t("Stairs can not be used for 5 turns after a kill.", "Les escaliers ne peuvent pas être utilisés pendant 5 tours après avoir tué.", "_t")
-t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version insensé des succès si il joue également en mode Roguelike ou Aventure.", "_t")
+t("Player can earn Insane version of achievements if also playing in Roguelike or Adventure permadeath mode.", "Le joueur peut obtenir la version Dément des succès si il joue également en mode Roguelike ou Aventure.", "_t")
 t("Madness", "Folie", "birth descriptor name")
-t("Insane is for the weak! Bring on the true mind-shattering experience!", "Insensé c'est pour les faibles ! Envoyez la vrai expérience destructrice !", "_t")
+t("Insane is for the weak! Bring on the true mind-shattering experience!", "Dément c'est pour les faibles ! Envoyez la vrai expérience destructrice !", "_t")
 t("#GOLD##{bold}#Madness mode#WHITE##{normal}#", "#GOLD##{bold}#Mode folie#WHITE##{normal}#", "_t")
 t("Absolutely unfair game setting. Prepare for the full wrath of DarkGod!", "Paramètres de jeu complètement déloyaux. Préparez-vous à la colère pleine et entière de DarkGod !", "_t")
 t("All zone levels increased by 150% + 2 by the time Player reaches level 10", "Le niveau de toutes les zones est augmenté de 150% + 2 à partir du moment où le joueur atteint le niveau 10", "_t")
@@ -31977,7 +31977,7 @@ Cela n'a aucun effet sur le gameplay, mais c'est fun !
 ------------------------------------------------
 section "mod-tome/data/texts/unlock-difficulty_insane.lua"
 
-t("New game difficulty mode: #LIGHT_GREEN#Insane", "Nouveau mode de Difficulté : #LIGHT_GREEN#Insensé", "_t")
+t("New game difficulty mode: #LIGHT_GREEN#Insane", "Nouveau mode de Difficulté : #LIGHT_GREEN#Dément", "_t")
 t([[You won the game on Nightmare mode.  You are a big tough player!
 You thought you had seen it all, done it all...
 
@@ -31995,15 +31995,15 @@ Insane features:#YELLOW#
 ]], [[Vous avez vaincu le jeu en mode Cauchemar. Vous êtes un grand joueur coriace !
 Vous pensiez avoir tout vu, tout fait...
 
-Mais non ! Si le mode Cauchemar n'a pas pu vous abattre, le mode Insensé le fera !
+Mais non ! Si le mode Cauchemar n'a pas pu vous abattre, le mode Dément le fera !
 
-Caractéristiques Insensées :#YELLOW#
+Caractéristiques Dément :#YELLOW#
 - Tous les niveaux de zone sont augmentés de 50% + 3
 - Tous les niveaux de talents des créatures sont augmentés de 50%
 - Les créatures rares sont beaucoup plus fréquentes et des boss aléatoires commencent à apparaître
 - Les boss auront des talents choisis au hasard
 - Tous les ennemis ont 20% de vie en plus
-- Le joueur peut obtenir les succès du mode Insensé s'il joue également en mode Roguelike.
+- Le joueur peut obtenir les succès du mode Dément s'il joue également en mode Roguelike.
 
 #WHITE#Puissiez-vous souffrir de nombreuses morts amusantes et injustes !
 ]], "_t")
@@ -32026,7 +32026,7 @@ Madness features:#YELLOW#
 - Player can earn Madness version of achievements if also playing in Roguelike or Adventure permadeath mode.
 
 #WHITE#May you suffer many fun and unfair deaths!
-]], [[Vous avez vaincu le jeu en mode insensé. Vous êtes l'un des meilleurs joueurs !
+]], [[Vous avez vaincu le jeu en mode Dément. Vous êtes l'un des meilleurs joueurs !
 Mais n'ayez crainte car le jeu est sur le point de devenir encore plus injuste pour vous !
 
 Bienvenue dans le mode Folie !
@@ -41676,8 +41676,8 @@ section "mod-tome/mod/class/interface/WorldAchievements.lua"
 t("%s (Exploration mode)", "%s (Mode exploration)", "tformat")
 t("%s (Nightmare (Adventure) difficulty)", "%s (Difficulté Cauchemar (Aventure))", "tformat")
 t("%s (Nightmare (Roguelike) difficulty)", "%s (Difficulté Cauchemar (Roguelike))", "tformat")
-t("%s (Insane (Adventure) difficulty)", "%s (Difficulté Insensé (Aventure))", "tformat")
-t("%s (Insane (Roguelike) difficulty)", "%s (Difficulté Insensé (Roguelike))", "tformat")
+t("%s (Insane (Adventure) difficulty)", "%s (Difficulté Dément (Aventure))", "tformat")
+t("%s (Insane (Roguelike) difficulty)", "%s (Difficulté Dément (Roguelike))", "tformat")
 t("%s (Madness (Adventure) difficulty)", "%s (Difficulté Folie (Aventure))", "tformat")
 t("%s (Madness (Roguelike) difficulty)", "%s (Difficulté Folie (Roguelike))", "tformat")
 -- texte non traduit
