@@ -21968,7 +21968,7 @@ t([[Instill a part of your living curse into a weapon in your inventory, and tos
 ------------------------------------------------
 section "mod-tome/data/talents/cursed/cursed-form.lua"
 
-t("Unnatural Body", "Corps Surnaturel", "talent name")
+t("Unnatural Body", "Corps Anormal", "talent name")
 t([[Your body's strength is fed by your hatred. This causes most forms of healing to be between 50%% effective (at 0 Hate) to 100%% effective (at 100+ Hate). In addition, after each kill, you store the waning life force to invigorate yourself, restoring %d life (limited by the foe's maximum life, up to a maximum of %d at any time).  You can heal no more than %0.1f life per turn this way, and it is not affected by your hatred level or other effects.
 		Healing from kills improves with your Willpower.]], [[La force de votre corps est alimentée par votre haine. De ce fait, la plupart des formes de soin voient leur efficacité varier entre 50%% (de 0 Haine) et 100%% (à 100+ Haine). De plus, après chaque victime, vous emmagasinez sa force vitale déclinante pour vous revigorer, ce qui vous rend %d points de vie (limité par les points de vie maximaux de la cible, jusqu'à un maximum cumulé de %d). Vous ne pouvez pas récupérer plus de %0.1f points de vie par tour de cette manière, et cet effet n'est pas affecté par votre niveau de haine ou d'autres modificateurs.
 		Les soins prodigués par les victimes sont proportionnels à votre Volonté.]], "tformat")
@@ -40927,13 +40927,6 @@ Each works in a distinct manner, but will usually intercept a certain amount of 
 Divers talents, objets, et pouvoirs peuvent vous conférer un boucliers de protection temporaire contre les dégâts.
 Chacun fonctionne différemment, mais intercepte généralement une certaine quantité de dégâts avant de se dissiper.
 ]], "_t")
-t([[#GOLD#Unnatrual Body Regeneration#LAST#
-Your Unnatural Body talent allows you to feed off the life of your fallen foes.
-Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
-]], [[#GOLD#Régénération Corporelle Surnaturelle#LAST#
-Votre talent Corps Surnaturel vous permet de vous nourrir de la vie de vos ennemis vaincus.
-Chaque créature que vous tuez augmente votre réserve de régénération maximale, et chaque tour, une partie de cette régénération est transférée dans votre propre vie.
-]], "_t")
 t([[#GOLD#Life Regeneration#LAST#
 How much life you regenerate per turn.
 This value can be improved with spells, talents, infusions, equipment.
@@ -41657,6 +41650,13 @@ L'utilisation de sorts ou d'équipement alimenté par la magie est impossible.
 ]], "_t")
 -- texte non traduit
 --[==[
+t([[#GOLD#Unnatrual Body Regeneration#LAST#
+Your Unnatural Body talent allows you to feed off the life of your fallen foes.
+Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
+]], [[#GOLD#Régénération Corporelle Surnaturelle#LAST#
+Votre talent Corps Surnaturel vous permet de vous nourrir de la vie de vos ennemis vaincus.
+Chaque créature que vous tuez augmente votre réserve de régénération maximale, et chaque tour, une partie de cette régénération est transférée dans votre propre vie.
+]], "_t")
 t([[#AQUAMARINE#Physical stats#LAST#
 ---
 ]], [[#AQUAMARINE#Physical stats#LAST#
@@ -41669,6 +41669,14 @@ t([[#AQUAMARINE#Mental stats#LAST#
 ]], "_t")
 --]==]
 
+-- ancien texte traduit
+t([[#GOLD#Unnatural Body Regeneration#LAST#
+Your Unnatural Body talent allows you to feed off the life of your fallen foes.
+Each time you kill a creature your maximum regeneration pool increases and each turn some of it transfers into your own life.
+]], [[#GOLD#Régénération Corporelle Anormale#LAST#
+Votre talent Corps Anormal vous permet de vous nourrir de la vie de vos ennemis vaincus.
+Chaque créature que vous tuez augmente votre réserve de régénération maximale, et chaque tour, une partie de cette régénération est transférée dans votre propre vie.
+]], "_t")
 
 ------------------------------------------------
 section "mod-tome/mod/class/interface/WorldAchievements.lua"
@@ -41764,7 +41772,7 @@ t("#WHITE#Shield:", "#WHITE#Bouclier :", "_t")
 t("no description", "aucune description", "_t")
 t("%-8.8s:", "%-8.8s :", "tformat")
 t("#7fffd4#Feedback:", "#7fffd4#Rétroaction :", "_t")
-t("#c00000#Un.body :", "#c00000#Un.body : ", "_t")
+t("#c00000#Un.body :", "#c00000#Corps.An : ", "_t")
 t("%0.1f (%0.1f/turn)", "%0.1f (%0.1f/tours)", "tformat")
 t("#LIGHT_GREEN#Fortress:", "#LIGHT_GREEN#Forteresse :", "_t")
 t("#ANTIQUE_WHITE#Ammo    :       #ffffff#%d", "#ANTIQUE_WHITE#Munition    :       #ffffff#%d", "tformat")
