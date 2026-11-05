@@ -107,6 +107,18 @@ Demented/Writhing Body					Dément/Corps Tentaculaire						demented/writhing-bod
 Demented/Prophecy						Dément/Prophétie
 =================================================================================================
 
+POSSESSORS :
+============
+																						psionic/psionic.lua
+Psionic/Battle Psionics					Psionique/Bataille Psychique					psionic/battle-psionics.lua
+Psionic/Body Snatcher					Psionique/Voleur de Corps						psionic/body-snatcher.lua
+Psionic/Deep Horror						Psionique/Horreur Profonde						psionic/deep-horror.lua
+Psionic/Possession						Psionique/Possession							psionic/possession.lua
+Psionic/Psionic Menace					Psionique/Menace Psionique						psionic/psionic-menace.lua
+Psionic/Psychic Blows					Psionique/Coups Psychiques						psionic/psychic-blows.lua
+Psionic/Ravenous Mind					Psionique/Esprit Vorace							psionic/ravenous-mind.lua
+=================================================================================================
+
 ToME :
 ======
 																						uber/uber.lua
@@ -258,16 +270,6 @@ Psionic/Dreaming						Psionique/Rêve									psionic/dreaming.lua
 Psionic/Feedback						Psionique/Rétroaction							psionic/feedback.lua
 Psionic/Mentalism						Psionique/Mentalisme							psionic/mentalism.lua
 
-POSSESSORS :
-============
-																						psionic/psionic.lua
-Psionic/Battle Psionics					Psionique/Bataille Psychique					psionic/battle-psionics.lua
-Psionic/Body Snatcher					Psionique/Voleur de Corps						psionic/body-snatcher.lua
-Psionic/Deep Horror						Psionique/Horreur Profonde						psionic/deep-horror.lua
-Psionic/Possession						Psionique/Possession							psionic/possession.lua
-Psionic/Psionic Menace					Psionique/Menace Psionique						psionic/psionic-menace.lua
-Psionic/Psychic Blows					Psionique/Coups Psychiques						psionic/psychic-blows.lua
-Psionic/Ravenous Mind					Psionique/Esprit Vorace							psionic/ravenous-mind.lua
 --------------------------------------------------------------------------------------------
 																						spells/spells.lua
 																						spells/golem.lua
