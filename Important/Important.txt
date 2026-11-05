@@ -30,7 +30,7 @@ Ne pas oublier :
 Un.body		(fait référence à)		Unnatural Body
 
 ==========================================================================================================
-Ordonner les parametres,exemple :
+Ordonner les parametres - exemple :
 ---------------------------------
 
 chaine initiale :
