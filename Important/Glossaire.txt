@@ -1,0 +1,274 @@
+Nouvelles dénominations proposées : 
+-----------------------------------
+
+Construct			Créature Artificielle		Construct ?
+Far East			Extrême Orient				Est Lointain?
+Off-balance			Déséquilibre				Vacillement ?
+Psychic				Psychique					Médium?
+Rogue				Brigand						Bandit ?
+Taunt				Aggro						Provocation ?
+Trollmire			Bourbier Troll				Bourbier aux Trolls ?
+ShadowBlade			Lame Ténébreuse				Ombrelame ?
+
+========================================================================================
+GLOSSAIRE :
+-----------
+
+abashed expanse				étendue ébranlée
+ability						capacité
+acc (accuracy)				pré (précision)
+achievement					exploit
+acid						acide
+adventurer					aventurier
+afflicted					affligé
+age of allure				ère de la séduction
+age of ascendancy			ère de l’ascendance
+age of dusk					ère du crépuscule
+age of haze					ère de la brume
+age of pyre					ère du bûcher
+alchemist					alchimiste
+allure						séduction
+annihilator					annihilateur
+anorithil					anorithil
+apr (armor penetration)		pén (pénétration)
+arcane						arcane, arcanique
+arcane blade				lame arcanique
+archer						archer
+archmage					archimage
+beam spell					faisceau magique
+berserker					berserker
+bleed						saignement
+blight						fléau
+blindness					aveuglement
+blink						passer
+blood of life				sang de vie
+blood-runed athame			athamé rune de sang
+brainlock					paralysie mentale
+brawler						lutteur
+buff						bonus
+bulwark						bastion
+burst						explosion
+channel						canalisation
+charms						breloques
+charred scar volcano		volcan de la plaie craquelée
+cheerblossom				pétales de bonheur
+cloak of deception			cape de supercherie
+cold						froid
+confusion					confusion, confusionnant
+constitution				constitution / con
+construct					créature artificielle
+cooldown					rechargement, temps de rechargement
+cornac						cornac
+corruptor					corrupteur
+crimson templar				templier souillé
+cripple						estropier
+cross tier					trans-palier
+cross-tier					trans-palier
+cultist of entropy			cultiste entropique
+cunning						ruse / rus
+cursed						maudit
+cut							entaille
+darkness					obscurité
+daze						étourdissement
+debuff						malus
+decay						pourriture
+decreased					réduction
+deep bellow					grondement des  profondeurs
+defiler						profanateur
+demonologist				démonologue
+derthfields					domaines de derth
+dexterity					dextérité / dex
+disarm						désarmement
+disease						maladie
+dogroth caldera				chaudron de dogroth
+doombringer					avatar de la ruine
+doomed						condamné
+doomelf						elfe de la ruine
+drake						dragonnet
+dreadfell					tombeffroie
+drem						drem
+dusk						crépuscule
+dwarf						nain
+each turn, per turn			par tour
+egress						egress
+eldritch					occulte
+empyreal					empyréen
+equilibrium					équilibre
+erúan						erúan
+evasion						évasion
+far east					extrême orient
+farportal					portail lointain
+fear						peur
+fearscape					plan de la peur
+feedback					rétroaction
+fire						feu
+flare						éclat
+focus						focus, concentration
+forbidden cultes			cultes indicibles
+freeze						gel
+ghoul						goule
+giant						géant
+gunslinger					flingueur
+halfling					halfelin, petit peuple
+hardiness					robustesse
+hate						haine
+haze						brume
+hex							ensorcellment
+high peak					pic supérieur
+higher						noble
+hit							au toucher
+improve						amélioration
+increased					augmentation
+infusion					essence
+insanity					folie
+inscription					inscription
+instant death				mort subite
+iron throne					trône de fer
+irondeep lake				abîme de fer
+knockback					recul, repousser
+krog						krog
+kruk yeti					yéti de kruk
+last hope					dernier espoir
+lich						liche
+lichdom						forme de liche, liche, transformation en liche
+life drain					drain de vie
+light						lumière, armure légère
+lightning					foudre
+lorekeeper					gardien du savoir
+loremaster					chroniqueur
+lite						lampe
+lucid dreamer				rêveur lucide
+luck						chance / cha
+magic						magie / mag
+main-hand					main principale
+marauder					maraudeur
+mardrop						mardrop
+martyrdom					supplice
+mind						esprit
+mindcrit					crit mental
+mindpower					puissance mentale
+mindslayer					guerrier psionique
+mindstar					étoile d'âme
+mindwall					barment
+minion						laquais
+mirror of reflection		miroir réfléchissant
+mirth						gaieté
+morning gates				portes du matin
+naloren						nalore
+nature						nature
+necromancer					nécromancien
+numb(ing)					engourdissement
+off-balance					déséquilibre
+offhand						main secondaire
+offslot						inventaire
+ogre						ogre
+ogric						ogrique
+on hit						au toucher
+ooze						vase            
+oozemancer					vasomancien
+orb of many ways			orbe des multiples voies
+orc							orc
+orc prides					fiertés orcs
+overseers					superviseurs
+palace of fumes				palais des fumées
+paradox mage				mage du paradoxe
+phasing						phase
+physical					physique
+piercing					perforant
+pinning						immobilisation
+poison						poison
+possessor					possesseur
+power						puissance
+prodigy						prodige
+psi							psi
+psiblades					lames psi
+psionics					pouvoirs psioniques
+psyshot						psychodessoudeur
+pyre						bûcher
+radiant horrors				horreurs rayonnantes
+rank						rang
+reaver						moissonneur
+regrowth					repousse
+resonating diamond			diamant résonnant
+ring of blood				cercle de sang
+ritch						ritch
+rod							bâtonnet
+rogue						brigand
+salve						onguent 
+sawblade					scie circulaire
+sawbutcher					démembreur
+scourge pits				fosses à fléaux
+scourge from the west		fléau de l’ouest
+searing horrors				horreurs brûlantes
+shadow						ombre    
+shadowblade					lame ténébreuse
+shalore						shalore
+shaloren					shaloréen
+shimmering					chatoyance (apparence des objets)
+silence						silence
+skeleton					squelette
+skirmisher					tirailleur
+sleep						sommeil
+slime						visqueux, gelée visqueuse 
+slime tunnels				tunnels visqueux 
+slowing						ralentissement
+sludgenest					nid de vaseux
+solipsist					solipsiste
+southspar					sparsud
+spellblaze					brûlure magique
+spellcrit					crit de sorts
+spellhunt					purge arcanique
+spellpower					puissance des sorts
+spellshocked				choc de sorts
+spellsurge					surcharge de sorts
+stack						cumuler, charge
+stamina						endurance
+steamtech					vapotech
+steam giant					géant vaporeux
+stone warden				gardien de pierre
+stoning						pétrification
+storage room				entrepot
+stralite					stralite
+strength					force / for
+stun						assommant
+summertide					estival
+summoner					invocateur
+sun paladin					paladin solaire
+sunwall						mur solaire
+sustain						soutenu
+swap						permutation
+taunt						aggro
+technomancer				technomancien
+teleportation				téléportation
+temporal					temporel
+temporal warden				gardien du temps
+thalore						thalore
+thaloren					thaloréen
+tier						palier
+tile						case, tuile
+time of balance				temps de l'objectivité
+time of equilibrium			temps de l'équilibre
+tinker						babiole (l'équipement)
+tinker						bricoleur (la classe)
+travel speed				vitesse de mouvement
+trollmire					bourbier troll
+undeath						non-vie
+vault						chambre forte
+vim							vitae
+voratun						voratun
+voratun coins				pieces de voratun
+wanderer					vagabond
+ward						garde
+warg						loup géant
+water breathing				respiration aquatique
+westreach lake				étendue de l’ouest
+whitehoof					sabot-blanc
+wild gifts					dons sauvages
+wilder						naturaliste
+willpower					volonté / vol
+wintertide					frimas
+writhing one				grouillant
+wyrm						ancien dragon
+wyrmic						draconien
+yeek						yeek
+ziguranth					zigurantes

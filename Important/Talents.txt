@@ -1,0 +1,396 @@
+Embers of Rage :
+================
+																						misc/objects.lua
+																						misc/races.lua
+																						misc/npcs.lua
+--------------------------------------------------------------------------------------------
+																						spells/spells.lua
+																						spells/undead-drake.lua
+Spells/Galvanic Technomancy				Sorts/Technomancie Galvanique					spells/galvanic-technomancy.lua
+Spells/Occult Technomancy				Sorts/Technomancie Occulte						spells/occult-technomancy.lua
+Spells/Other Technomancy				Sorts/Autre Technomancie						spells/other-technomancy.lua
+Spells/Terrene Technomancy				Sorts/Technomancie Terrène						spells/terrene-technomancy.lua
+Spells/Horror Spells					Sorts/Sorts d'Horreur
+Spells/Object Spells					Sorts/Sorts D'objets
+Spells/Thaumaturgy						Sorts/Thaumaturgie
+--------------------------------------------------------------------------------------------
+Celestial/Cosmic						Céleste/Cosmique								celestial/cosmic.lua
+Celestial/Energies						Céleste/Energies								celestial/energies.lua
+Celestial/Reflection					Céleste/Réflexion								celestial/reflection.lua
+Celestial/Sol							Céleste/Solaire									celestial/sol.lua
+Celestial/Void							Céleste/Néant									celestial/void.lua
+--------------------------------------------------------------------------------------------
+																						psionic/psionic.lua
+Psionic/Action At a Distance			Psionique/Agir à Distance						psionic/action-at-a-distance.lua
+Psionic/Gestalt							Psionique/Gestalt								psionic/gestalt.lua
+Psionic/Psionic Fog						Psionique/Brouillard Psionique					psionic/psionic-fog.lua
+--------------------------------------------------------------------------------------------
+																						steam/steam.lua
+																						steam/other.lua
+																						steam/inscriptions.lua
+Steamtech/Artillery						Vapotech/Artillerie								steam/artillery.lua
+Steamtech/Automated Butchery			Vapotech/Boucherie Automatisée					steam/automated-butchery.lua
+Steamtech/Automation					Vapotech/Automatisation							steam/automation.lua
+Steamtech/Avoidance						Vapotech/Atténuation							steam/avoidance.lua
+Steamtech/Battle Machinery				Vapotech/Machine de Combat						steam/battle-machinery.lua
+Steamtech/Battlefield Management		Vapotech/Gestion du Champ de Bataille			steam/battlefield-management.lua
+Steamtech/Blacksmith					Vapotech/Forgeron								steam/blacksmith.lua
+Steamtech/Bullets Mastery				Vapotech/Maîtrise des Balles					steam/bullets-mastery.lua
+Steamtech/Butchery						Vapotech/Boucherie								steam/butchery.lua
+Steamtech/Chemical Warfare				Vapotech/Guerre Chimique						steam/chemical-warfare.lua
+Steamtech/Chemistery					Vapotech/Chimie									steam/chemistry.lua
+Steamtech/Demolition					Vapotech/Démolition								steam/demolition.lua
+Steamtech/Dread							Vapotech/Effroi									steam/dread.lua
+Steamtech/Elusiveness					Vapotech/Insaisissable							steam/elusiveness.lua
+Steamtech/Engineering					Vapotech/Ingénierie								steam/engineering.lua
+Steamtech/Furnace						Vapotech/Fourneau								steam/furnace.lua
+Steamtech/Gadgets						Vapotech/Gadgets								steam/gadgets.lua
+Steamtech/Gunner Training				Vapotech/Entraînement de Pistolier				steam/gunner-training.lua
+Steamtech/Gunslinging					Vapotech/Arme à Feu								steam/gunslinging.lua
+Steamtech/Heavy Weapons					Vapotech/Arme Lourde							steam/heavy-weapons.lua
+Steamtech/Magnetism						Vapotech/Magnétisme								steam/magnetism.lua
+Steamtech/Mecharachnid					Vapotech/Mécaraigné								steam/mecharachnid.lua
+Steamtech/Mechstar						Vapotech/Vapétoile								steam/mechstar.lua
+Steamtech/Physics						Vapotech/Physique								steam/physics.lua
+Steamtech/Psytech Gunnery				Vapotech/Artillerie Psychique					steam/psytech-gunnery.lua
+Steamtech/Sawmaiming					Vapotech/Sciage									steam/sawmaiming.lua
+Steamtech/Thoughts of Iron				Vapotech/Pensées de Fer							steam/thoughts-of-iron.lua
+Steamtech/Turrets						Vapotech/Tourelles								steam/turrets.lua
+Steamtech/Armament						Vapotech/Armement
+Steamtech/Assault						Vapotech/Assaut
+=================================================================================================
+
+ASHES of Urh'Rok :
+==================
+Corruptions/Black-Magic					Corruptions/Magie Noir							corruptions/black-magic.lua
+Corruptions/Brutality					Corruptions/Barbarie							corruptions/brutality.lua
+Corruptions/Demon Seeds					Corruptions/Engeance Démoniaque					corruptions/demon-seeds.lua
+Corruptions/Demonic Pact				Corruptions/Pacte Démoniaque					corruptions/demonic-pact.lua
+Corruptions/Demonic Strenght			Corruptions/Force Démoniaque					corruptions/demonic-strength.lua
+Corruptions/Doom Covenant				Corruptions/Pacte Tragique						corruptions/doom-covenant.lua
+Corruptions/Doom Shield					Corruptions/Bouclier Catastrophique				corruptions/doom-shield.lua
+Corruptions/Fearfire					Corruptions/Feu Démentiel						corruptions/fearfire.lua
+Corruptions/Heart of Fire				Corruptions/Coeur de Feu						corruptions/heart-of-fire.lua
+Corruptions/Infernal Combat				Corruptions/Combat Infernal						corruptions/infernal-combat.lua
+Corruptions/Oppression					Corruptions/Oppression							corruptions/oppression.lua
+Corruptions/Spellblaze					Corruptions/Brûlure Magique						corruptions/spellblaze.lua
+Corruptions/Torture						Corruptions/Torture								corruptions/torture.lua
+Corruptions/Wrath						Corruptions/Colère								corruptions/wrath.lua
+=================================================================================================
+
+FORBIDDEN CULTES :
+==================
+																						demented/demented.lua
+																						misc/misc.lua
+																						misc/races.lua
+																						spell/necro.lua
+Demented/Beyond Sanity					Dément/Irrationnel								demented/beyond-sanity.lua
+Demented/Calamity						Dément/Calamité									demented/calamity.lua
+Demented/Chronophage					Dément/Chronophage								demented/chronophage.lua
+Demented/Controlled Horrors				Dément/Horreures Contrôlé						demented/controlled-horrors.lua
+Demented/Disfigured Face				Dément/Visage Défiguré							demented/disfigured-face.lua
+Demented/Doom							Dément/Perdition								demented/doom.lua
+Demented/Entropy						Dément/Entropie									demented/entropy.lua
+Demented/Friend of the Worm				Dément/Ami du Ver								demented/friend-of-the-worm.lua
+Demented/Horrific Body					Dément/Corps Terrifiant							demented/horrific-body.lua
+Demented/Madness						Dément/Folie									demented/madness.lua
+Demented/Nether							Dément/Néant									demented/nether.lua
+Demented/Oblivion						Dément/Oublie									demented/oblivion.lua
+Demented/Path of Horror					Dément/Chemin de l'Horreur						demented/path-of-horror.lua
+Demented/Rift							Dément/Fissure									demented/rift.lua
+Demented/Scourge Drake					Dément/Aspect du Dragon de Plaie				demented/scourge-drake.lua
+Demented/Slow Death						Dément/Mort Lente								demented/slow-death.lua
+Demented/Tentacles						Dément/Tentacules								demented/tentacles.lua
+Demented/Timethief						Dément/Voleur de Temps							demented/timethief.lua
+Demented/Void							Dément/Vide										demented/void.lua
+Demented/Writhing Body					Dément/Corps Tentaculaire						demented/writhing-body.lua
+Demented/Prophecy						Dément/Prophétie
+=================================================================================================
+
+ToME :
+======
+																						uber/uber.lua
+																						uber/str.lua
+																						uber/dex.lua
+																						uber/const.lua
+																						uber/mag.lua
+																						uber/wil.lua
+																						uber/cun.lua
+--------------------------------------------------------------------------------------------
+																						misc/horrors.lua
+																						misc/inscriptions.lua
+																						misc/misc.lua
+																						misc/npcs.lua
+																						misc/tutorial.lua
+																						misc/objects.lua
+																						misc/races.lua
+--------------------------------------------------------------------------------------------
+																						celestial/celestial.lua
+																						celestial/other.lua
+Celestial/Combat						Céleste/Combat									celestial/combat.lua
+Celestial/Chants						Céleste/Chants									celestial/chants.lua
+Celestial/Sun							Céleste/Soleil									celestial/sun.lua
+Celestial/Guardian						Céleste/Gardien									celestial/guardian.lua
+Celestial/Crusader						Céleste/Croisé									celestial/crusader.lua
+Celestial/Radiance						Céleste/Rayonnement								celestial/radiance.lua
+Celestial/Light							Céleste/Lumière									celestial/light.lua
+Celestial/Circles						Céleste/Cercles									celestial/circles.lua
+Celestial/Glyphs						Céleste/Glyphes									celestial/glyphs.lua
+Celestial/Eclipse						Céleste/Eclipse									celestial/eclipse.lua
+Celestial/Star Fury						Céleste/Fureur étoilé							celestial/star-fury.lua
+Celestial/Twilight						Céleste/Crépuscule								celestial/twilight.lua
+Celestial/Sunlight						Céleste/Lumière du Soleil						celestial/sunlight.lua
+Celestial/Hymns							Céleste/Hymnes									celestial/hymns.lua
+Celestial/Dark Sun						Céleste/Soleil Noir								celestial/dark-sun.lua
+Celestial/Darkside						Céleste/Face Cachée								celestial/darkside.lua
+Celestial/Dirges						Céleste/Chant Funèbre							celestial/dirge.lua
+--------------------------------------------------------------------------------------------
+																						chronomancy/chronomancer.lua
+																						chronomancy/anomalies.lua
+																						chronomancy/other.lua
+																						chronomancy/induced-phenomena.lua
+																						chronomancy/age-manipulation.lua
+Chronomancy/Gravity						Chronomancie/Gravité							chronomancy/gravity.lua
+Chronomancy/Matter						Chronomancie/Matière							chronomancy/matter.lua
+Chronomancy/Spacetime Folding			Chronomancie/Pliage d'Espace-Temps				chronomancy/spacetime-folding.lua
+Chronomancy/Speed Control				Chronomancie/Contrôle de Vitesse				chronomancy/speed-control.lua
+Chronomancy/Timetravel					Chronomancie/Voyage dans le Temps				chronomancy/timetravel.lua
+Chronomancy/Flux						Chronomancie/Flux								chronomancy/flux.lua
+Chronomancy/Stasis						Chronomancie/Stase								chronomancy/stasis.lua
+Chronomancy/Timeline Threading			Chronomancie/Tissage de la Chronologie			chronomancy/timeline-threading.lua
+Chronomancy/Spellbinding				Chronomancie/Enchantement						chronomancy/spellbinding.lua
+Chronomancy/Chronomancy					Chronomancie/Chronomancie						chronomancy/chronomancy.lua
+Chronomancy/Fate Weaving				Chronomancie/Tissage du Destin					chronomancy/fate-weaving.lua
+Chronomancy/Spacetime Weaving			Chronomancie/Tissage d'Espace-Temps				chronomancy/spacetime-weaving.lua
+Chronomancy/Energy						Chronomancie/Energie							chronomancy/energy.lua
+Chronomancy/Blade Threading				Chronomancie/Déphasage de Lame					chronomancy/blade-threading.lua
+Chronomancy/Bow Threading				Chronomancie/Déphasage d'Arc					chronomancy/bow-threading.lua
+Chronomancy/Temporal Combat				Chronomancie/Combat Temporel					chronomancy/temporal-combat.lua
+Chronomancy/Temporal Guardian			Chronomancie/Gardien Temporel					chronomancy/guardian.lua
+Chronomancy/Threaded Combat				Chronomancie/Tissage du Combat					chronomancy/threaded-combat.lua
+Chronomancy/Temporal Hounds				Chronomancie/Chien de Chasse Temporel			chronomancy/temporal-hounds.lua
+--------------------------------------------------------------------------------------------
+																						corruptions/corruptions.lua
+Corruptions/Sanguisuge					Corruptions/Sanguisuge							corruptions/sanguisuge.lua
+Corruptions/Vim							Corruptions/Vitae								corruptions/vim.lua
+Corruptions/Bone						Corruptions/Os									corruptions/bone.lua
+Corruptions/Plague						Corruptions/Peste								corruptions/plague.lua
+Corruptions/Scourge						Corruptions/Fléau								corruptions/scourge.lua
+Corruptions/Reaving Combat				Corruptions/Eveil du Combat						corruptions/reaving-combat.lua
+Corruptions/Rot							Corruptions/Putréfaction						corruptions/rot.lua
+Corruptions/Torment						Corruptions/Tourment							corruptions/torment.lua
+Corruptions/Hexes						Corruptions/Sortilèges							corruptions/hexes.lua
+Corruptions/Curses						Corruptions/Malédictions						corruptions/curses.lua
+Corruptions/Vile Life					Corruptions/Vie Infâme							corruptions/vile-life.lua
+Corruptions/Blood						Corruptions/Sang								corruptions/blood.lua
+Corruptions/Blight						Corruptions/Fléau								corruptions/blight.lua
+Corruptions/Shadowflame					Corruptions/Flamme Ténébreuse					corruptions/shadowflame.lua
+--------------------------------------------------------------------------------------------
+																						cunning/cunning.lua
+Cunning/Dirty Fighting					Ruse/Combat Déloyal								cunning/dirty.lua
+Cunning/Survival						Ruse/Survie										cunning/survival.lua
+Cunning/Poisons							Ruse/Poisons									cunning/poisons.lua
+Cunning/Trapping						Ruse/Piégeage									cunning/traps.lua
+Cunning/Traps							Ruse/Pièges										cunning/traps.lua
+Cunning/Tactical						Ruse/Tactique									cunning/tactical.lua
+Cunning/Scoundrel						Ruse/Crapule									cunning/scoundrel.lua
+Cunning/Lethality						Ruse/Létalité									cunning/lethality.lua
+Cunning/Stealth							Ruse/Furtivité									cunning/stealth.lua
+Cunning/Artifice						Ruse/Artifice									cunning/artifice.lua
+Cunning/Tools							Ruse/Outils										cunning/artifice.lua
+Cunning/Ambush							Ruse/Embuscade									cunning/ambush.lua
+Cunning/Shadow Magic					Ruse/Magie des ombres							cunning/shadow-magic.lua
+Cunning/Called Shots					Ruse/Tirs Ciblés								cunning/called-shots.lua
+--------------------------------------------------------------------------------------------
+																						cursed/cursed.lua
+																						cursed/primal-magic.lua
+																						cursed/dark-figure.lua
+																						cursed/traveler.lua
+																						cursed/bloodstained.lua
+																						cursed/crimson-templar.lua
+Cursed/Slaughter						Maudit/Massacre									cursed/slaughter.lua
+Cursed/Endless Hunt						Maudit/Traque sans Fin							cursed/endless-hunt.lua
+Cursed/Strife							Maudit/Conflit									cursed/strife.lua
+Cursed/Gloom							Maudit/Angoisse									cursed/gloom.lua
+Cursed/Predator							Maudit/Prédateur								cursed/predator.lua
+Cursed/Rampage							Maudit/Déchaînement								cursed/rampage.lua
+Cursed/Fears							Maudit/Peurs									cursed/fears.lua
+Cursed/Cursed Form						Maudit/Forme Maudite							cursed/cursed-form.lua
+Cursed/Cursed Aura						Maudit/Aura Maudite								cursed/cursed-aura.lua
+Cursed/Hatred							Maudit/Haine									cursed/self-hatred.lua
+Cursed/Force of Will					Maudit/Force de Volonté							cursed/force-of-will.lua
+Cursed/Darkness							Maudit/Obscurité								cursed/darkness.lua
+Cursed/Shadows							Maudit/Ombres									cursed/shadows.lua
+Cursed/Punishments						Maudit/Sanctions								cursed/punishments.lua
+Cursed/One With Shadows					Maudit/Lié aux Ombres							cursed/one-with-shadows.lua
+Cursed/Advanced Shadowmancy				Maudit/Ombremancie Avancé						cursed/advanced-shadowmancy.lua
+Cursed/Dark Sustenance					Maudit/Sombre Subsistance						cursed/dark-sustenance.lua
+Cursed/Gestures							Maudit/Signes									cursed/gestures.lua
+--------------------------------------------------------------------------------------------
+																						psionic/psionic.lua
+																						psionic/other.lua
+																						psionic/grip.lua
+																						psionic/mental-discipline.lua
+																						psionic/psi-archery.lua
+																						psionic/telekinetic-combat.lua
+																						psionic/trance.lua
+Psionic/Absorption						Psionique/Absorption							psionic/absorption.lua
+Psionic/Augmented Striking				Psionique/Frappe Augmenté						psionic/augmented-striking.lua
+Psionic/Charged Mastery					Psionique/Maîtrise des Charges					psionic/charged-mastery.lua
+Psionic/Focus							Psionique/Concentration							psionic/focus.lua
+Psionic/Kinetic Mastery					Psionique/Maîtrise Cinétique					psionic/kinetic-mastery.lua
+Psionic/Projection						Psionique/Projection							psionic/projection.lua
+Psionic/Psi-Fighting					Psionique/Combat Psionique						psionic/psi-fighting.lua
+Psionic/Thermal Mastery					Psionique/Maîtrise Thermique					psionic/thermal-mastery.lua
+Psionic/Voracity						Psionique/Voracité								psionic/voracity.lua
+Psionic/Augmented Mobility				Psionique/Mobilité Augmenté						psionic/augmented-mobility.lua
+Psionic/Finer Energy Manipulations		Psionique/Manipulations Énergétiques Précises	psionic/finer-energy-manipulations.lua
+Psionic/Discharge						Psionique/Décharge								psionic/discharge.lua
+Psionic/Distortion						Psionique/Distortion							psionic/distortion.lua
+Psionic/Dream Forge						Psionique/Forge de Rêve							psionic/dream-forge.lua
+Psionic/Dream Smith						Psionique/Forgeron de Rêve						psionic/dream-smith.lua
+Psionic/Nightmare						Psionique/Cauchemar								psionic/nightmare.lua
+Psionic/Psychic Assault					Psionique/Assaut Psychique						psionic/psychic-assault.lua
+Psionic/Slumber							Psionique/Sommeil								psionic/slumber.lua
+Psionic/Solipsism						Psionique/Solipsisme							psionic/solipsism.lua
+Psionic/Thought-Forms					Psionique/Pensées Solides						psionic/thought-forms.lua
+Psionic/Dreaming						Psionique/Rêve									psionic/dreaming.lua
+Psionic/Feedback						Psionique/Rétroaction							psionic/feedback.lua
+Psionic/Mentalism						Psionique/Mentalisme							psionic/mentalism.lua
+
+POSSESSORS :
+============
+																						psionic/psionic.lua
+Psionic/Battle Psionics					Psionique/Bataille Psychique					psionic/battle-psionics.lua
+Psionic/Body Snatcher					Psionique/Voleur de Corps						psionic/body-snatcher.lua
+Psionic/Deep Horror						Psionique/Horreur Profonde						psionic/deep-horror.lua
+Psionic/Possession						Psionique/Possession							psionic/possession.lua
+Psionic/Psionic Menace					Psionique/Menace Psionique						psionic/psionic-menace.lua
+Psionic/Psychic Blows					Psionique/Coups Psychiques						psionic/psychic-blows.lua
+Psionic/Ravenous Mind					Psionique/Esprit Vorace							psionic/ravenous-mind.lua
+--------------------------------------------------------------------------------------------
+																						spells/spells.lua
+																						spells/golem.lua
+																						spells/thaumaturgy.lua
+																						spells/war-alchemy.lua
+Spells/Fire								Sorts/Feu										spells/fire.lua
+Spells/Earth							Sorts/Terre										spells/earth.lua
+Spells/Air								Sorts/Air										spells/air.lua
+Spells/Enhancement						Sorts/Amélioration								spells/enhancement.lua
+Spells/Stone							Sorts/Pierre									spells/stone.lua
+Spells/Conveyance						Sorts/Transmettance								spells/conveyance.lua
+Spells/Aegis							Sorts/Égide										spells/aegis.lua
+Spells/Phantasm							Sorts/Fantasme									spells/phantasm.lua
+Spells/Temporal							Sorts/Temporel									spells/temporal.lua
+Spells/Divination						Sorts/Divination								spells/divination.lua
+Spells/Explosive Admixtures				Sorts/Adjuvants Explosifs						spells/explosives.lua
+Spells/Golemancy						Sorts/Golémancie								spells/golemancy.lua
+Spells/Fire Alchemy						Sorts/Alchimie du Feu							spells/fire-alchemy.lua
+Spells/Acid Alchemy						Sorts/Alchimie Acide							spells/acid-alchemy.lua
+Spells/Frost Alchemy					Sorts/Alchimie du Froid							spells/frost-alchemy.lua
+Spells/Advanced-Golemancy				Sorts/Golémancie Avancée						spells/advanced-golemancy.lua
+Spells/Energy Alchemy					Sorts/Alchimie Énergétique						spells/energy-alchemy.lua
+Spells/Stone Alchemy					Sorts/Alchimie de Pierre						spells/stone-alchemy.lua
+Spells/Staff Combat						Sorts/Combat au Bâton							spells/staff-combat.lua
+Spells/Arcane							Sorts/Arcanique									spells/arcane.lua
+Spells/Water							Sorts/Eau										spells/water.lua
+Spells/Aether							Sorts/Éther										spells/aether.lua
+Spells/Wildfire							Sorts/Feu Sauvage								spells/wildfire.lua
+Spells/Ice								Sorts/Glace										spells/ice.lua
+Spells/Storm							Sorts/Orage										spells/storm.lua
+Spells/Meta								Sorts/Méta										spells/meta.lua
+Spells/Master of Bones					Sorts/Maitre des Os								spells/master-of-bones.lua
+Spells/Master of Flesh					Sorts/Maître de la chair						spells/master-of-flesh.lua
+Spells/Nightfall						Sorts/Crépuscule								spells/nightfall.lua
+Spells/Dreadmaster						Sorts/Maître Hanteur							spells/dreadmaster.lua
+Spells/Grave							Sorts/Tombe										spells/grave.lua
+Spells/Glacial Waste					Sorts/Désert Glacial							spells/glacial-waste.lua
+Spells/Animus							Sorts/Animus									spells/animus.lua
+Spells/Death							Sorts/Mort										spells/death.lua
+Spells/Master Necromancer				Sorts/Maître Nécromancien						spells/master-necromancer.lua
+Spells/Age of Dusk						Sorts/Ère du Crépuscule							spells/age-of-dusk.lua
+Spells/Rime Wraith						Sorts/Spectre Glacial							spells/rime-wraith.lua
+Spells/Eradication						Sorts/Éradication								spells/eradication.lua
+Spells/Necrosis							Sorts/Putréfaction								spells/necrosis.lua
+Spells/Spectre							Sorts/Spectre									spells/spectre.lua
+Spells/Undead Drake						Sorts/Dragonnet mort-vivant						spells/undead-drake.lua
+Spells/Eldritch Shield					Sorts/Bouclier Occulte							spells/eldritch-stone.lua
+Spells/Eldritch Stone					Sorts/Pierre Occulte							spells/eldritch-shield.lua
+Spells/Deeprock							Sorts/Roche Profonde							spells/deeprock.lua
+--------------------------------------------------------------------------------------------
+																						techniques/techniques.lua
+																						techniques/munitions.lua
+																						techniques/2hweapon.lua
+																						techniques/acrobatics.lua
+																						techniques/excellence.lua
+																						techniques/field-control.lua
+																						techniques/sling.lua
+																						techniques/bow.lua
+Techniques/Two-Handed Assault			Techniques/Assaut à Deux-Mains					techniques/2h-assault.lua
+Techniques/Shield Defense				Techniques/Défense au Bouclier					techniques/weaponshield.lua
+Techniques/Shield Offense				Techniques/Offensive au Bouclier				techniques/weaponshield.lua
+Techniques/Combat Veteran				Techniques/Vétéran de Combat					techniques/combat-techniques.lua
+Techniques/Combat Techniques			Techniques/Techniques de Combat					techniques/combat-techniques.lua
+Techniques/Combat Training				Techniques/Formation au Combat					techniques/combat-training.lua
+Techniques/Berserker's Strength			Techniques/Force du Berserker					techniques/strength-of-the-berserker.lua					
+Techniques/Superiority					Techniques/Superiorité							techniques/superiority.lua
+Techniques/Warcries						Techniques/Cris de Guerres						techniques/warcries.lua
+Techniques/Bloodthirst					Techniques/Soif de Sang							techniques/bloodthirst.lua
+Techniques/Conditioning					Techniques/Conditionnement						techniques/conditioning.lua
+Techniques/Battle Tactics				Techniques/Tactiques de Batailles				techniques/battle-tactics.lua
+Techniques/Archery Prowess				Techniques/Maîtrise de l'Archerie				techniques/archery.lua
+Techniques/Archery Training				Techniques/Entraînement à l'archerie			techniques/archery.lua
+Techniques/Marksmanship					Techniques/Adresse au Tir						techniques/marksmanship.lua
+Techniques/Mobility						Techniques/Mobilité								techniques/mobility.lua
+Techniques/Reflexes						Techniques/Reflexes								techniques/reflexes.lua
+Techniques/Agility						Techniques/Agilité								techniques/agility.lua
+Techniques/Sniper						Techniques/Tireur d'Élite						techniques/sniper.lua
+Techniques/Magical Combat				Techniques/Combat Magique						techniques/magical-combat.lua
+Techniques/Dual Techniques				Techniques/Techniques Double					techniques/dualweapon.lua
+Techniques/Dual Weapons					Techniques/Deux Armes							techniques/dualweapon.lua
+Techniques/Pugilism						Techniques/Pugilat								techniques/pugilism.lua								
+Techniques/Finishing Moves				Techniques/Coups de Grâce						techniques/finishing-moves.lua
+Techniques/Grappling					Techniques/Lutte								techniques/grappling.lua
+Techniques/Unarmed Discipline			Techniques/Discipline à Mains-Nues				techniques/unarmed-discipline.lua		
+Techniques/Unarmed Training				Techniques/Entraînement à Mains-Nues			techniques/unarmed-training.lua
+Techniques/Throwing Knives				Techniques/Lancer de Couteaux					techniques/throwing-knives.lua
+Techniques/Assassination				Techniques/Assassinat							techniques/assassination.lua
+Techniques/Duelist						Techniques/Duelliste							techniques/duelist.lua
+Techniques/Thuggery						Techniques/Brutalité							techniques/thuggery.lua
+Techniques/Skirmisher - Slings			Techniques/Tirailleur - Fronde					techniques/skirmisher-slings.lua
+Techniques/Tireless Combatant			Techniques/Infatigable Combattant				techniques/tireless-combatant.lua
+Techniques/Buckler Training				Techniques/Formation au Bocle					techniques/buckler-training.lua
+--------------------------------------------------------------------------------------------
+																						undeads/ghoul.lua
+																						undeads/lich.lua
+																						undeads/skeleton.lua
+																						undeads/undeads.lua
+--------------------------------------------------------------------------------------------
+																						gifts/gifts.lua
+																						gifts/malleable-body.lua
+Wild-Gift/Summoning (Melee)				Don Sauvage/Invocation (Mêlée)					gifts/summon-melee.lua
+Wild-Gift/Summoning (Distance)			Don Sauvage/Invocation (Distance)				gifts/summon-distance.lua
+Wild-Gift/Summoning (Utility)			Don Sauvage/Invocation (Utilitaire)				gifts/summon-utility.lua
+Wild-Gift/Summoning (Augmentation)		Don Sauvage/Invocation (Augmentation)			gifts/summon-augmentation.lua
+Wild-Gift/Summoning (Advanced)			Don Sauvage/Invocation (Avancé)					gifts/summon-advanced.lua
+Wild-Gift/Call of the Wild				Don Sauvage/Appelle de la Nature				gifts/call.lua
+Wild-Gift/Mindstar Mastery				Don Sauvage/Maîtrise des Étoiles d'Âme			gifts/mindstar-mastery.lua
+Wild-Gift/Harmony						Don Sauvage/Harmonie							gifts/harmony.lua
+Wild-Gift/Sand Drake Aspect				Don Sauvage/Aspect de Dragon de Sable			gifts/sand-drake.lua
+Wild-Gift/Fire Drake Aspect				Don Sauvage/Aspect du Dragon de Feu				gifts/fire-drake.lua
+Wild-Gift/Cold Drake Aspect				Don Sauvage/Aspect De Dragon de Glace			gifts/cold-drake.lua
+Wild-Gift/Storm Drake Aspect			Don Sauvage/Aspect de Dragon de l'Orage			gifts/storm-drake.lua
+Wild-Gift/Venom Drake Aspect			Don Sauvage/Aspect de Dragon de Venin			gifts/venom-drake.lua
+Wild-Gift/Higher Draconic Abilities		Don Sauvage/Capacités Draconiques Supérieures	gifts/higher-draconic.lua
+Wild-Gift/Earthen Vines					Don Sauvage/Vignes Terrestre					gifts/earthen-vines.lua
+Wild-Gift/Earthen Power					Don Sauvage/Puissance Tellurique				gifts/earthen-power.lua
+Wild-Gift/Dwarven Nature				Don Sauvage/Nature Naine						gifts/dwarven-nature.lua
+Wild-Gift/Slime							Don Sauvage/Vase								gifts/slime.lua
+Wild-Gift/Mucus							Don Sauvage/Mucus								gifts/mucus.lua
+Wild-Gift/Ooze							Don Sauvage/Gluant								gifts/ooze.lua
+Wild-Gift/Moss							Don Sauvage/Mousse								gifts/moss.lua
+Wild-Gift/Oozing Blades					Don Sauvage/Lames de Vaseux						gifts/oozing-blades.lua
+Wild-Gift/Corrosive Blades				Don Sauvage/Lames Corrosives					gifts/corrosive-blades.lua
+Wild-Gift/Eyal's Fury					Don Sauvage/Fureur d'Eyal						gifts/eyals-fury.lua
+Wild-Gift/Antimagic						Don Sauvage/Anti-magie							gifts/antimagic.lua
+Wild-Gift/Fungus						Don Sauvage/Champignons							gifts/fungus.lua
