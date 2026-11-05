@@ -1,0 +1,48 @@
+
+
+Trois chaines provoquent des avertissements :
+---------------------------------------------
+
+Cults: 
+t("Exit", "Quitter", "_t")						->	t("Exit", "Sortir", "_t")
+
+Embers: 
+t("Overgrowth", "Prolifération", "talent name")	->	t("Overgrowth", "Sur-Croissance", "talent name")
+t("dread", "hanteur", "talent type")			->	t("dread", "effroi", "talent type")
+
+Base:
+Light - Vérifier si on parle de lumière ou d'armure légère		(objects/light-armors.lua  uniquement ?)
+
+==========================================================================================================
+
+Pour verifier plus facilement les parties manquantes ou nouvelles a traduire :
+------------------------------------------------------------------------------
+
+-- ancien texte traduit
+-- texte non traduit
+-- nouveau texte
+
+==========================================================================================================
+
+Ne pas oublier :
+----------------
+
+Un.body		(fait référence à)		Unnatural Body
+
+==========================================================================================================
+Ordonner les parametres,exemple :
+---------------------------------
+
+chaine initiale :
+t("%s %s: ", "%s: %s: ", "tformat")
+donne -> energie positive : gagné :		ET		endu : cout :
+
+On inverse les deux chaines :
+t("%s %s: ", "%s %s: ", "tformat", {2, 1})
+donne -> gagné : energie positive :		ET		cout : endu :
+
+-> Il n'y a pas de solution parfaite pour tous les cas mais changer l'ordre des parametres peux aider
+
+
+
+
