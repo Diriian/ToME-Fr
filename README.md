@@ -49,13 +49,14 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
 
 --------------------------------------------------------------------------------------------
 
+Diverses notes ainsi qu'un glossaire sont présent dans le répertoire "Important"
+
+A noter que l'addon affiche les affixes/egos d'items en -> préfixe, item, suffixe
+- il faudra donc demander a DarkGod de les faire passer en -> item, préfixe, suffixe
+- (Une fois intégré à ToME le jeu affichera -> item, préfixe, suffixe)
+
 Lien vers le Discord du projet :
 - https://discord.gg/KT4ShzH9FH
 
-Le Glossaire :
-- https://docs.google.com/document/d/1OVWK9UDs2WZF-FuRd-v5Ih6Xq5Fe3t9hVzGp7lx1N6Q/edit?tab=t.0
-
-Les egos, sans doublons :
-- https://docs.google.com/spreadsheets/d/1JTqqsp1DuSNY9Jcmsb7z_i66qFjpdAt7yan7RwYav2U/edit#gid=0
-- le jeu affiche les affixes/egos d'items en -> préfixe, item, suffixe
-  - il faudra donc demander a DarkGod de les faire passer en -> item, préfixe, suffixe
+Lien vers l'addon du projet sur le site de ToME :
+- https://te4.org/games/addons/tome/i18n_fr_FR
