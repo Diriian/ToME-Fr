@@ -41,7 +41,7 @@ On inverse les deux chaines :
 t("%s %s: ", "%s %s: ", "tformat", {2, 1})
 donne -> gagné : energie positive :		ET		cout : endu :
 
--> Il n'y a pas de solution parfaite pour tous les cas mais changer l'ordre des parametres peux aider
+-> Il n'y a pas de solution parfaite pour tous les cas mais changer l'ordre des parametres peut aider
 
 
 
