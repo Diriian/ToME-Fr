@@ -1,18 +1,10 @@
 Bievenue sur un projet visant a traduire le jeu Tales of Maj'Eyal (ToME) en Français.
 
-Il est a noter qu'en phase de test la traduction peut etre utilisé via un addon (il faut me le demander), ou via les fichiers présent sur ce git et dans ce cas il faut utiliser l'outil de traduction pour les utiliser.
+Il est a noter qu'en phase de test la traduction peut etre utilisé via un addon (il faut me le demander), ou via les fichiers présent sur ce git et dans ce cas il faut utiliser l'outil de traduction interne à ToME pour les utiliser.
 
-Une fois la traduction fini elle sera totalement intégré au jeu (merci DarkGod).
+Une fois la traduction fini elle devrait être totalement intégré au jeu (merci DarkGod).
 
 (Il m'est impossible de tout tester moi meme. Il me faudra donc des retours, principalement je pense sur les logs de combat qui risquent d'etre catastrophique sur certains points)
-
---------------------------------------------------------------------------------------------
-
-IMPORTANT :
-
-A propos de l'addon fr,
-
-Malgré que tous les menus/textes soient traduis il n'est parfois pas possible de les afficher en francais sans utiliser des moyens plutot exotique dont je ne parlerais pas. Il faut attendre que la traduction soit entierement fini et intégré au jeu pour réelement tout avoir en francais.
 
 --------------------------------------------------------------------------------------------
 
@@ -31,9 +23,9 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
   - tome-possessors.lua
   - tome-items-vault.lua
 - DLC :
-  - tome-orc.lua
-  - tome-cults.lua
-  - tome-ashes-urhorc.lua
+  - tome-orc.lua				- Embers of Rage
+  - tome-cults.lua				- Forbidden Cults
+  - tome-ashes-urhorc.lua		- Ashes of Urh'Rok
 - Pour la traduction : 
   - Outil de traduction intégré au jeu pour l'avoir en francais :
     - tome-addon-dev.lua
@@ -42,12 +34,18 @@ Les fichiers suivant sont présent si vous avez acheté la totalité du jeu :
     - _t_append.lua
     - _tdef_append.lua
 - Autres :
-  - Ces 3 fichiers servent pour la creations de mods et ne sont pas utile a la traduction du jeu.
+  - Ces 3 fichiers servent pour la creations de mods et ne sont pas utile à la traduction du jeu.
     - mod-example.lua
     - mod-example_realtime.lua
     - tome-remote-designer.lua
 
 --------------------------------------------------------------------------------------------
+Attention :
+-----------
+
+Aucun addon ne peut changer certains textes tant qu'un addon n'est pas chargé. Or un addon n'est chargé qu'a la création ou au chargmenent d'une partie. Ce qui signifie que les textes du menu principal ne peuvent être changé par un addon, même s'il sont traduit dans le dit addon.
+Malgré que tous les menus/textes soient actuellement traduit l'addon ne peut pas tout afficher en francais sans utiliser des moyens plutot exotique dont je ne parlerais pas.
+Il faut attendre que la traduction soit entierement fini et intégré au jeu pour réelement tout avoir en francais.
 
 Diverses notes ainsi qu'un glossaire sont présent dans le répertoire "Important"
 
