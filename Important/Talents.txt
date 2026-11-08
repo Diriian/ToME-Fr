@@ -1,6 +1,11 @@
 Ce sont les categories de talents, et non les talents en eux meme.
 Ce fichier permet de retrouver plus facilement où se trouve une catégorie, et donc un talent, a partir de son nom.
 --------------------------------------------------------------------------------------------
+Catégorie/Talent -> 33 caractères max 1024x768 de nombreuses choses à revoir car trop longues
+
+Utilisation: Passive/Active/Soutenu
+--------------------------------------------------------------------------------------------
+
 
 Embers of Rage :
 ================
