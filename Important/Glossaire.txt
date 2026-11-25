@@ -154,7 +154,8 @@ minion						laquais
 mirror of reflection		miroir réfléchissant
 mirth						gaieté
 morning gates				portes du matin
-naloren						nalore
+nalore						nalore
+naloren						naloréen
 nature						nature
 necromancer					nécromancien
 numb(ing)					engourdissement
