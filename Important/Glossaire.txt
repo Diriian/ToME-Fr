@@ -271,4 +271,4 @@ writhing one				grouillant
 wyrm						ancien dragon
 wyrmic						draconien
 yeek						yeek
-ziguranth					zigurantes
+ziguranth					ziguranth
